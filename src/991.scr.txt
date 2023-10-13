@@ -1,0 +1,618 @@
+(script 991)
+
+(string
+    string_042c "Jump"
+    string_0431 "JumpTo"
+)
+
+(said
+)
+
+(local
+)
+
+// 024a
+(class Jump of Motion
+    (properties
+        client $0
+        caller $0
+        x $4e20
+        y $4e20
+        dx $0
+        dy $0
+        b-moveCnt $0
+        b-i1 $0
+        b-i2 $0
+        b-di $0
+        b-xAxis $0
+        b-incr $0
+        completed $0
+        xLast $0
+        yLast $0
+        gx $0
+        gy $3
+        xStep $4e20
+        yStep $0
+        signal $0
+        illegalBits $0
+        waitApogeeX $1
+        waitApogeeY $1
+    )
+    (method (init) // method_0004
+  0004:3f 01             link 1 // (var $1)
+  0006:87 01              lap param1 
+  0008:65 08             aTop client 
+  000a:8f 00              lsp paramTotal 
+  000c:35 02              ldi 2 
+  000e:1a                 eq? 
+  000f:30 0004            bnt code_0016 
+  0012:87 02              lap param2 
+  0014:65 0a             aTop caller 
+
+        code_0016
+  0016:39 12            pushi 12 // $12 illegalBits
+  0018:76               push0 
+  0019:63 08             pToa client 
+  001b:4a 04             send 4 
+
+  001d:65 30             aTop illegalBits 
+  001f:39 11            pushi 11 // $11 signal
+  0021:76               push0 
+  0022:63 08             pToa client 
+  0024:4a 04             send 4 
+
+  0026:65 2e             aTop signal 
+  0028:39 12            pushi 12 // $12 illegalBits
+  002a:78               push1 
+  002b:76               push0 
+  002c:39 42            pushi 42 // $42 setPri
+  002e:76               push0 
+  002f:63 08             pToa client 
+  0031:4a 0a             send a 
+
+  0033:67 2a             pTos xStep 
+  0035:34 4e20            ldi 4e20 
+  0038:1a                 eq? 
+  0039:30 004c            bnt code_0088 
+  003c:39 3a            pushi 3a // $3a heading
+  003e:76               push0 
+  003f:63 08             pToa client 
+  0041:4a 04             send 4 
+
+  0043:a5 00              sat temp0 
+  0045:36                push 
+  0046:34 014a            ldi 14a 
+  0049:1e                 gt? 
+  004a:2e 0016             bt code_0063 
+  004d:8d 00              lst temp0 
+  004f:35 1e              ldi 1e 
+  0051:22                 lt? 
+  0052:2e 000e             bt code_0063 
+  0055:38 0096          pushi 96 // $96 setCycle
+  0058:85 00              lat temp0 
+  005a:22                 lt? 
+  005b:30 000d            bnt code_006b 
+  005e:60               pprev 
+  005f:34 00d2            ldi d2 
+  0062:22                 lt? 
+
+        code_0063
+  0063:30 0005            bnt code_006b 
+  0066:35 00              ldi 0 
+  0068:32 001b            jmp code_0086 
+
+        code_006b
+  006b:8d 00              lst temp0 
+  006d:34 00b4            ldi b4 
+  0070:22                 lt? 
+  0071:30 000a            bnt code_007e 
+  0074:39 36            pushi 36 // $36 xStep
+  0076:76               push0 
+  0077:63 08             pToa client 
+  0079:4a 04             send 4 
+
+  007b:32 0008            jmp code_0086 
+
+        code_007e
+  007e:39 36            pushi 36 // $36 xStep
+  0080:76               push0 
+  0081:63 08             pToa client 
+  0083:4a 04             send 4 
+
+  0085:16                 neg 
+
+        code_0086
+  0086:65 2a             aTop xStep 
+
+        code_0088
+  0088:63 32             pToa waitApogeeX 
+  008a:30 0009            bnt code_0096 
+  008d:67 2a             pTos xStep 
+  008f:63 26             pToa gx 
+  0091:06                 mul 
+  0092:36                push 
+  0093:35 00              ldi 0 
+  0095:22                 lt? 
+
+        code_0096
+  0096:18                 not 
+  0097:30 0004            bnt code_009e 
+  009a:35 00              ldi 0 
+  009c:65 32             aTop waitApogeeX 
+
+        code_009e
+  009e:63 34             pToa waitApogeeY 
+  00a0:30 0009            bnt code_00ac 
+  00a3:67 2c             pTos yStep 
+  00a5:63 28             pToa gy 
+  00a7:06                 mul 
+  00a8:36                push 
+  00a9:35 00              ldi 0 
+  00ab:22                 lt? 
+
+        code_00ac
+  00ac:18                 not 
+  00ad:30 0004            bnt code_00b4 
+  00b0:35 00              ldi 0 
+  00b2:65 34             aTop waitApogeeY 
+
+        code_00b4
+  00b4:81 58              lag  
+  00b6:65 14             aTop b-moveCnt 
+  00b8:38 0108          pushi 108 // $108 setTest
+  00bb:76               push0 
+  00bc:54 04             self 4 
+
+  00be:48                 ret 
+    )
+
+    (method (doit) // method_00bf
+  00bf:3f 02             link 2 // (var $2)
+  00c1:78               push1 
+  00c2:89 58              lsg  
+  00c4:63 14             pToa b-moveCnt 
+  00c6:04                 sub 
+  00c7:36                push 
+  00c8:43 3d 02         callk Abs 2 
+
+  00cb:36                push 
+  00cc:39 38            pushi 38 // $38 moveSpeed
+  00ce:76               push0 
+  00cf:63 08             pToa client 
+  00d1:4a 04             send 4 
+
+  00d3:20                 ge? 
+  00d4:30 00d0            bnt code_01a7 
+  00d7:81 58              lag  
+  00d9:65 14             aTop b-moveCnt 
+  00db:39 04            pushi 4 // $4 x
+  00dd:76               push0 
+  00de:63 08             pToa client 
+  00e0:4a 04             send 4 
+
+  00e2:65 22             aTop xLast 
+  00e4:39 03            pushi 3 // $3 y
+  00e6:76               push0 
+  00e7:63 08             pToa client 
+  00e9:4a 04             send 4 
+
+  00eb:65 24             aTop yLast 
+  00ed:39 04            pushi 4 // $4 x
+  00ef:78               push1 
+  00f0:67 22             pTos xLast 
+  00f2:63 2a             pToa xStep 
+  00f4:02                 add 
+  00f5:36                push 
+  00f6:39 03            pushi 3 // $3 y
+  00f8:78               push1 
+  00f9:67 24             pTos yLast 
+  00fb:63 2c             pToa yStep 
+  00fd:02                 add 
+  00fe:36                push 
+  00ff:63 08             pToa client 
+  0101:4a 0c             send c 
+
+  0103:63 2a             pToa xStep 
+  0105:a5 00              sat temp0 
+  0107:63 2c             pToa yStep 
+  0109:a5 01              sat temp1 
+  010b:67 2a             pTos xStep 
+  010d:63 26             pToa gx 
+  010f:02                 add 
+  0110:65 2a             aTop xStep 
+  0112:67 2c             pTos yStep 
+  0114:63 28             pToa gy 
+  0116:02                 add 
+  0117:65 2c             aTop yStep 
+  0119:63 32             pToa waitApogeeX 
+  011b:18                 not 
+  011c:30 002b            bnt code_014a 
+  011f:67 0c             pTos x 
+  0121:34 4e20            ldi 4e20 
+  0124:1c                 ne? 
+  0125:30 0022            bnt code_014a 
+  0128:76               push0 
+  0129:67 10             pTos dx 
+  012b:39 04            pushi 4 // $4 x
+  012d:76               push0 
+  012e:63 08             pToa client 
+  0130:4a 04             send 4 
+
+  0132:36                push 
+  0133:63 0c             pToa x 
+  0135:04                 sub 
+  0136:06                 mul 
+  0137:24                 le? 
+  0138:30 000f            bnt code_014a 
+  013b:39 04            pushi 4 // $4 x
+  013d:78               push1 
+  013e:67 0c             pTos x 
+  0140:63 08             pToa client 
+  0142:4a 06             send 6 
+
+  0144:39 64            pushi 64 // $64 moveDone
+  0146:76               push0 
+  0147:54 04             self 4 
+
+  0149:48                 ret 
+
+        code_014a
+  014a:63 34             pToa waitApogeeY 
+  014c:18                 not 
+  014d:30 002b            bnt code_017b 
+  0150:67 0e             pTos y 
+  0152:34 4e20            ldi 4e20 
+  0155:1c                 ne? 
+  0156:30 0022            bnt code_017b 
+  0159:76               push0 
+  015a:67 12             pTos dy 
+  015c:39 03            pushi 3 // $3 y
+  015e:76               push0 
+  015f:63 08             pToa client 
+  0161:4a 04             send 4 
+
+  0163:36                push 
+  0164:63 0e             pToa y 
+  0166:04                 sub 
+  0167:06                 mul 
+  0168:24                 le? 
+  0169:30 000f            bnt code_017b 
+  016c:39 03            pushi 3 // $3 y
+  016e:78               push1 
+  016f:67 0e             pTos y 
+  0171:63 08             pToa client 
+  0173:4a 06             send 6 
+
+  0175:39 64            pushi 64 // $64 moveDone
+  0177:76               push0 
+  0178:54 04             self 4 
+
+  017a:48                 ret 
+
+        code_017b
+  017b:8d 00              lst temp0 
+  017d:63 2a             pToa xStep 
+  017f:06                 mul 
+  0180:36                push 
+  0181:35 00              ldi 0 
+  0183:24                 le? 
+  0184:30 000a            bnt code_0191 
+  0187:35 00              ldi 0 
+  0189:65 32             aTop waitApogeeX 
+  018b:38 0108          pushi 108 // $108 setTest
+  018e:76               push0 
+  018f:54 04             self 4 
+
+
+        code_0191
+  0191:8d 01              lst temp1 
+  0193:63 2c             pToa yStep 
+  0195:06                 mul 
+  0196:36                push 
+  0197:35 00              ldi 0 
+  0199:24                 le? 
+  019a:30 000a            bnt code_01a7 
+  019d:35 00              ldi 0 
+  019f:65 34             aTop waitApogeeY 
+  01a1:38 0108          pushi 108 // $108 setTest
+  01a4:76               push0 
+  01a5:54 04             self 4 
+
+
+        code_01a7
+  01a7:48                 ret 
+    )
+
+    (method (moveDone) // method_01a8
+  01a8:39 12            pushi 12 // $12 illegalBits
+  01aa:78               push1 
+  01ab:67 30             pTos illegalBits 
+  01ad:39 11            pushi 11 // $11 signal
+  01af:78               push1 
+  01b0:67 2e             pTos signal 
+  01b2:63 08             pToa client 
+  01b4:4a 0c             send c 
+
+  01b6:63 0a             pToa caller 
+  01b8:30 0008            bnt code_01c3 
+  01bb:35 01              ldi 1 
+  01bd:a1 25              sag  
+  01bf:35 01              ldi 1 
+  01c1:65 20             aTop completed 
+
+        code_01c3
+  01c3:48                 ret 
+    )
+
+    (method (motionCue) // method_021f
+  021f:39 3b            pushi 3b // $3b mover
+  0221:78               push1 
+  0222:76               push0 
+  0223:63 08             pToa client 
+  0225:4a 06             send 6 
+
+  0227:63 20             pToa completed 
+  0229:30 0011            bnt code_023d 
+  022c:78               push1 
+  022d:67 0a             pTos caller 
+  022f:43 06 02         callk IsObject 2 
+
+  0232:30 0008            bnt code_023d 
+  0235:38 008d          pushi 8d // $8d cue
+  0238:76               push0 
+  0239:63 0a             pToa caller 
+  023b:4a 04             send 4 
+
+
+        code_023d
+  023d:39 6c            pushi 6c // $6c dispose
+  023f:76               push0 
+  0240:54 04             self 4 
+
+  0242:48                 ret 
+  0243:00                bnot 
+    )
+
+    (method (setTest) // method_01c4
+  01c4:39 04            pushi 4 // $4 x
+  01c6:76               push0 
+  01c7:63 08             pToa client 
+  01c9:4a 04             send 4 
+
+  01cb:36                push 
+  01cc:63 0c             pToa x 
+  01ce:1e                 gt? 
+  01cf:2e 0013             bt code_01e5 
+  01d2:39 04            pushi 4 // $4 x
+  01d4:76               push0 
+  01d5:63 08             pToa client 
+  01d7:4a 04             send 4 
+
+  01d9:36                push 
+  01da:63 0c             pToa x 
+  01dc:1a                 eq? 
+  01dd:30 000d            bnt code_01ed 
+  01e0:67 2a             pTos xStep 
+  01e2:35 00              ldi 0 
+  01e4:1e                 gt? 
+
+        code_01e5
+  01e5:30 0005            bnt code_01ed 
+  01e8:35 ff              ldi ff 
+  01ea:32 0002            jmp code_01ef 
+
+        code_01ed
+  01ed:35 01              ldi 1 
+
+        code_01ef
+  01ef:65 10             aTop dx 
+  01f1:39 03            pushi 3 // $3 y
+  01f3:76               push0 
+  01f4:63 08             pToa client 
+  01f6:4a 04             send 4 
+
+  01f8:36                push 
+  01f9:63 0e             pToa y 
+  01fb:1e                 gt? 
+  01fc:2e 0013             bt code_0212 
+  01ff:39 03            pushi 3 // $3 y
+  0201:76               push0 
+  0202:63 08             pToa client 
+  0204:4a 04             send 4 
+
+  0206:36                push 
+  0207:63 0e             pToa y 
+  0209:1a                 eq? 
+  020a:30 000d            bnt code_021a 
+  020d:67 2c             pTos yStep 
+  020f:35 00              ldi 0 
+  0211:1e                 gt? 
+
+        code_0212
+  0212:30 0005            bnt code_021a 
+  0215:35 ff              ldi ff 
+  0217:32 0002            jmp code_021c 
+
+        code_021a
+  021a:35 01              ldi 1 
+
+        code_021c
+  021c:65 12             aTop dy 
+  021e:48                 ret 
+    )
+
+)
+
+// 03aa
+(class JumpTo of Jump
+    (properties
+        client $0
+        caller $0
+        x $4e20
+        y $4e20
+        dx $0
+        dy $0
+        b-moveCnt $0
+        b-i1 $0
+        b-i2 $0
+        b-di $0
+        b-xAxis $0
+        b-incr $0
+        completed $0
+        xLast $0
+        yLast $0
+        gx $0
+        gy $3
+        xStep $4e20
+        yStep $0
+        signal $0
+        illegalBits $0
+        waitApogeeX $1
+        waitApogeeY $1
+    )
+    (method (init) // method_02d8
+  02d8:3f 36             link 36 // (var $36)
+  02da:87 01              lap param1 
+  02dc:65 08             aTop client 
+  02de:87 02              lap param2 
+  02e0:65 0c             aTop x 
+  02e2:87 03              lap param3 
+  02e4:65 0e             aTop y 
+  02e6:67 0c             pTos x 
+  02e8:39 04            pushi 4 // $4 x
+  02ea:76               push0 
+  02eb:87 01              lap param1 
+  02ed:4a 04             send 4 
+
+  02ef:1a                 eq? 
+  02f0:30 0025            bnt code_0318 
+  02f3:67 0e             pTos y 
+  02f5:39 03            pushi 3 // $3 y
+  02f7:76               push0 
+  02f8:87 01              lap param1 
+  02fa:4a 04             send 4 
+
+  02fc:1a                 eq? 
+  02fd:30 0018            bnt code_0318 
+  0300:39 12            pushi 12 // $12 illegalBits
+  0302:76               push0 
+  0303:63 08             pToa client 
+  0305:4a 04             send 4 
+
+  0307:65 30             aTop illegalBits 
+  0309:39 11            pushi 11 // $11 signal
+  030b:76               push0 
+  030c:63 08             pToa client 
+  030e:4a 04             send 4 
+
+  0310:65 2e             aTop signal 
+  0312:39 64            pushi 64 // $64 moveDone
+  0314:76               push0 
+  0315:54 04             self 4 
+
+  0317:48                 ret 
+
+        code_0318
+  0318:67 0c             pTos x 
+  031a:39 04            pushi 4 // $4 x
+  031c:76               push0 
+  031d:87 01              lap param1 
+  031f:4a 04             send 4 
+
+  0321:04                 sub 
+  0322:a5 00              sat temp0 
+  0324:67 0e             pTos y 
+  0326:39 03            pushi 3 // $3 y
+  0328:76               push0 
+  0329:87 01              lap param1 
+  032b:4a 04             send 4 
+
+  032d:04                 sub 
+  032e:a5 01              sat temp1 
+  0330:39 04            pushi 4 // $4 x
+  0332:7c            pushSelf 
+  0333:8d 00              lst temp0 
+  0335:36                push 
+  0336:67 28             pTos gy 
+  0338:43 52 08         callk SetJump 8 
+
+  033b:85 00              lat temp0 
+  033d:18                 not 
+  033e:30 0005            bnt code_0346 
+  0341:34 4e20            ldi 4e20 
+  0344:65 0c             aTop x 
+
+        code_0346
+  0346:85 01              lat temp1 
+  0348:18                 not 
+  0349:30 0005            bnt code_0351 
+  034c:34 4e20            ldi 4e20 
+  034f:65 0e             aTop y 
+
+        code_0351
+  0351:8f 00              lsp paramTotal 
+  0353:3c                 dup 
+  0354:35 03              ldi 3 
+  0356:1a                 eq? 
+  0357:30 000b            bnt code_0365 
+  035a:39 6b            pushi 6b // $6b init
+  035c:78               push1 
+  035d:8f 01              lsp param1 
+  035f:57 29 06         super Jump 6 
+
+  0362:32 0011            jmp code_0376 
+
+        code_0365
+  0365:3c                 dup 
+  0366:35 04              ldi 4 
+  0368:1a                 eq? 
+  0369:30 000a            bnt code_0376 
+  036c:39 6b            pushi 6b // $6b init
+  036e:7a               push2 
+  036f:8f 01              lsp param1 
+  0371:8f 04              lsp param4 
+  0373:57 29 08         super Jump 8 
+
+
+        code_0376
+  0376:3a                toss 
+  0377:48                 ret 
+    )
+
+    (method (moveDone) // method_0378
+  0378:67 0c             pTos x 
+  037a:34 4e20            ldi 4e20 
+  037d:1c                 ne? 
+  037e:30 0009            bnt code_038a 
+  0381:39 04            pushi 4 // $4 x
+  0383:78               push1 
+  0384:67 0c             pTos x 
+  0386:63 08             pToa client 
+  0388:4a 06             send 6 
+
+
+        code_038a
+  038a:67 0e             pTos y 
+  038c:34 4e20            ldi 4e20 
+  038f:1c                 ne? 
+  0390:30 0009            bnt code_039c 
+  0393:39 03            pushi 3 // $3 y
+  0395:78               push1 
+  0396:67 0e             pTos y 
+  0398:63 08             pToa client 
+  039a:4a 06             send 6 
+
+
+        code_039c
+  039c:39 64            pushi 64 // $64 moveDone
+  039e:76               push0 
+  039f:57 29 04         super Jump 4 
+
+  03a2:48                 ret 
+  03a3:00                bnot 
+    )
+
+)
+
+
+

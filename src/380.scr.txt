@@ -1,0 +1,1422 @@
+(script 380)
+
+(string
+    string_0a14 "rm380"
+    string_0a1a "sCartoon"
+    string_0a23 "You"
+    string_0a27 "pattiMouth"
+    string_0a32 "Desmond"
+    string_0a3a "desmondMouth"
+    string_0a47 ""
+)
+
+(said
+)
+
+(local
+)
+
+// 0042
+(instance publicrm380 of LLRoom
+    (properties
+        script $0
+        number $0
+        timer $0
+        keep $0
+        initialized $0
+        lookStr $0
+        picture $19f
+        style $9
+        horizon $0
+        controls $0
+        north $0
+        east $0
+        south $0
+        west $0
+        curPic $0
+        picAngle $0
+        vanishingX $a0
+        vanishingY $8ad0
+        obstacles $0
+    )
+    (method (init) // method_000e
+  000e:3f 01             link 1 // (var $1)
+  0010:39 03            pushi 3 // $3 y
+  0012:38 0080          pushi 80 // $80 indexOf
+  0015:38 0587          pushi 587 // $587 sel_1415
+  0018:38 0588          pushi 588 // $588 sel_1416
+  001b:46 03be 0000 06  calle 3be procedure_0000 6 //  
+
+  0021:39 6b            pushi 6b // $6b init
+  0023:76               push0 
+  0024:57 72 04         super LLRoom 4 
+
+  0027:78               push1 
+  0028:38 0181          pushi 181 // $181 keep
+  002b:45 0d 02         callb procedure_000d 2 //  
+
+  002e:38 008e          pushi 8e // $8e setScript
+  0031:78               push1 
+  0032:72 07fa          lofsa $07fa // sCartoon
+  0035:36                push 
+  0036:81 02              lag  
+  0038:4a 06             send 6 
+
+  003a:48                 ret 
+  003b:00                bnot 
+    )
+
+)
+
+// 07f4
+(instance sCartoon of Script
+    (properties
+        client $0
+        state $ffff
+        start $0
+        timer $0
+        cycles $0
+        seconds $0
+        lastSeconds $0
+        ticks $0
+        lastTicks $0
+        register $0
+        script $0
+        caller $0
+        next $0
+    )
+    (method (changeState) // method_0082
+  0082:87 01              lap param1 
+  0084:65 0a             aTop state 
+  0086:36                push 
+  0087:3c                 dup 
+  0088:35 00              ldi 0 
+  008a:1a                 eq? 
+  008b:30 000b            bnt code_0099 
+  008e:76               push0 
+  008f:45 02 00         callb procedure_0002 0 //  
+
+  0092:35 04              ldi 4 
+  0094:65 12             aTop seconds 
+  0096:32 0752            jmp code_07eb 
+
+        code_0099
+  0099:3c                 dup 
+  009a:35 01              ldi 1 
+  009c:1a                 eq? 
+  009d:30 0016            bnt code_00b6 
+  00a0:39 06            pushi 6 // $6 loop
+  00a2:72 0938          lofsa $0938 // Desmond
+  00a5:36                push 
+  00a6:38 017c          pushi 17c // $17c setSpeed
+  00a9:76               push0 
+  00aa:39 6c            pushi 6c // $6c dispose
+  00ac:38 008b          pushi 8b // $8b caller
+  00af:7c            pushSelf 
+  00b0:45 12 0c         callb procedure_0012 c //  
+
+  00b3:32 0735            jmp code_07eb 
+
+        code_00b6
+  00b6:3c                 dup 
+  00b7:35 02              ldi 2 
+  00b9:1a                 eq? 
+  00ba:30 0007            bnt code_00c4 
+  00bd:35 1e              ldi 1e 
+  00bf:65 16             aTop ticks 
+  00c1:32 0727            jmp code_07eb 
+
+        code_00c4
+  00c4:3c                 dup 
+  00c5:35 03              ldi 3 
+  00c7:1a                 eq? 
+  00c8:30 0016            bnt code_00e1 
+  00cb:39 06            pushi 6 // $6 loop
+  00cd:72 0842          lofsa $0842 // You
+  00d0:36                push 
+  00d1:38 017c          pushi 17c // $17c setSpeed
+  00d4:78               push1 
+  00d5:39 6c            pushi 6c // $6c dispose
+  00d7:38 008b          pushi 8b // $8b caller
+  00da:7c            pushSelf 
+  00db:45 12 0c         callb procedure_0012 c //  
+
+  00de:32 070a            jmp code_07eb 
+
+        code_00e1
+  00e1:3c                 dup 
+  00e2:35 04              ldi 4 
+  00e4:1a                 eq? 
+  00e5:30 0007            bnt code_00ef 
+  00e8:35 1e              ldi 1e 
+  00ea:65 16             aTop ticks 
+  00ec:32 06fc            jmp code_07eb 
+
+        code_00ef
+  00ef:3c                 dup 
+  00f0:35 05              ldi 5 
+  00f2:1a                 eq? 
+  00f3:30 0016            bnt code_010c 
+  00f6:39 06            pushi 6 // $6 loop
+  00f8:72 0938          lofsa $0938 // Desmond
+  00fb:36                push 
+  00fc:38 017c          pushi 17c // $17c setSpeed
+  00ff:7a               push2 
+  0100:39 6c            pushi 6c // $6c dispose
+  0102:38 008b          pushi 8b // $8b caller
+  0105:7c            pushSelf 
+  0106:45 12 0c         callb procedure_0012 c //  
+
+  0109:32 06df            jmp code_07eb 
+
+        code_010c
+  010c:3c                 dup 
+  010d:35 06              ldi 6 
+  010f:1a                 eq? 
+  0110:30 0007            bnt code_011a 
+  0113:35 1e              ldi 1e 
+  0115:65 16             aTop ticks 
+  0117:32 06d1            jmp code_07eb 
+
+        code_011a
+  011a:3c                 dup 
+  011b:35 07              ldi 7 
+  011d:1a                 eq? 
+  011e:30 0017            bnt code_0138 
+  0121:39 06            pushi 6 // $6 loop
+  0123:72 0938          lofsa $0938 // Desmond
+  0126:36                push 
+  0127:38 017c          pushi 17c // $17c setSpeed
+  012a:39 03            pushi 3 // $3 y
+  012c:39 6c            pushi 6c // $6c dispose
+  012e:38 008b          pushi 8b // $8b caller
+  0131:7c            pushSelf 
+  0132:45 12 0c         callb procedure_0012 c //  
+
+  0135:32 06b3            jmp code_07eb 
+
+        code_0138
+  0138:3c                 dup 
+  0139:35 08              ldi 8 
+  013b:1a                 eq? 
+  013c:30 0007            bnt code_0146 
+  013f:35 1e              ldi 1e 
+  0141:65 16             aTop ticks 
+  0143:32 06a5            jmp code_07eb 
+
+        code_0146
+  0146:3c                 dup 
+  0147:35 09              ldi 9 
+  0149:1a                 eq? 
+  014a:30 0077            bnt code_01c4 
+  014d:78               push1 
+  014e:39 76            pushi 76 // $76 allTrue
+  0150:45 06 02         callb procedure_0006 2 //  
+
+  0153:30 0017            bnt code_016d 
+  0156:39 06            pushi 6 // $6 loop
+  0158:72 0842          lofsa $0842 // You
+  015b:36                push 
+  015c:38 017c          pushi 17c // $17c setSpeed
+  015f:39 04            pushi 4 // $4 x
+  0161:39 6c            pushi 6c // $6c dispose
+  0163:38 008b          pushi 8b // $8b caller
+  0166:7c            pushSelf 
+  0167:45 12 0c         callb procedure_0012 c //  
+
+  016a:32 067e            jmp code_07eb 
+
+        code_016d
+  016d:78               push1 
+  016e:39 77            pushi 77 // $77 contains
+  0170:45 06 02         callb procedure_0006 2 //  
+
+  0173:30 0017            bnt code_018d 
+  0176:39 06            pushi 6 // $6 loop
+  0178:72 0842          lofsa $0842 // You
+  017b:36                push 
+  017c:38 017c          pushi 17c // $17c setSpeed
+  017f:39 05            pushi 5 // $5 view
+  0181:39 6c            pushi 6c // $6c dispose
+  0183:38 008b          pushi 8b // $8b caller
+  0186:7c            pushSelf 
+  0187:45 12 0c         callb procedure_0012 c //  
+
+  018a:32 065e            jmp code_07eb 
+
+        code_018d
+  018d:78               push1 
+  018e:39 30            pushi 30 // $30 b-moveCnt
+  0190:45 06 02         callb procedure_0006 2 //  
+
+  0193:30 0017            bnt code_01ad 
+  0196:39 06            pushi 6 // $6 loop
+  0198:72 0842          lofsa $0842 // You
+  019b:36                push 
+  019c:38 017c          pushi 17c // $17c setSpeed
+  019f:39 06            pushi 6 // $6 loop
+  01a1:39 6c            pushi 6c // $6c dispose
+  01a3:38 008b          pushi 8b // $8b caller
+  01a6:7c            pushSelf 
+  01a7:45 12 0c         callb procedure_0012 c //  
+
+  01aa:32 063e            jmp code_07eb 
+
+        code_01ad
+  01ad:39 06            pushi 6 // $6 loop
+  01af:72 0842          lofsa $0842 // You
+  01b2:36                push 
+  01b3:38 017c          pushi 17c // $17c setSpeed
+  01b6:39 07            pushi 7 // $7 cel
+  01b8:39 6c            pushi 6c // $6c dispose
+  01ba:38 008b          pushi 8b // $8b caller
+  01bd:7c            pushSelf 
+  01be:45 12 0c         callb procedure_0012 c //  
+
+  01c1:32 0627            jmp code_07eb 
+
+        code_01c4
+  01c4:3c                 dup 
+  01c5:35 0a              ldi a 
+  01c7:1a                 eq? 
+  01c8:30 0007            bnt code_01d2 
+  01cb:35 3c              ldi 3c 
+  01cd:65 16             aTop ticks 
+  01cf:32 0619            jmp code_07eb 
+
+        code_01d2
+  01d2:3c                 dup 
+  01d3:35 0b              ldi b 
+  01d5:1a                 eq? 
+  01d6:30 004d            bnt code_0226 
+  01d9:78               push1 
+  01da:39 76            pushi 76 // $76 allTrue
+  01dc:45 06 02         callb procedure_0006 2 //  
+
+  01df:2e 000f             bt code_01f1 
+  01e2:78               push1 
+  01e3:39 77            pushi 77 // $77 contains
+  01e5:45 06 02         callb procedure_0006 2 //  
+
+  01e8:2e 0006             bt code_01f1 
+  01eb:78               push1 
+  01ec:39 30            pushi 30 // $30 b-moveCnt
+  01ee:45 06 02         callb procedure_0006 2 //  
+
+
+        code_01f1
+  01f1:30 0017            bnt code_020b 
+  01f4:39 06            pushi 6 // $6 loop
+  01f6:72 0938          lofsa $0938 // Desmond
+  01f9:36                push 
+  01fa:38 017c          pushi 17c // $17c setSpeed
+  01fd:39 08            pushi 8 // $8 underBits
+  01ff:39 6c            pushi 6c // $6c dispose
+  0201:38 008b          pushi 8b // $8b caller
+  0204:7c            pushSelf 
+  0205:45 12 0c         callb procedure_0012 c //  
+
+  0208:32 05e0            jmp code_07eb 
+
+        code_020b
+  020b:35 18              ldi 18 
+  020d:65 0a             aTop state 
+  020f:39 06            pushi 6 // $6 loop
+  0211:72 0938          lofsa $0938 // Desmond
+  0214:36                push 
+  0215:38 017c          pushi 17c // $17c setSpeed
+  0218:39 09            pushi 9 // $9 nsTop
+  021a:39 6c            pushi 6c // $6c dispose
+  021c:38 008b          pushi 8b // $8b caller
+  021f:7c            pushSelf 
+  0220:45 12 0c         callb procedure_0012 c //  
+
+  0223:32 05c5            jmp code_07eb 
+
+        code_0226
+  0226:3c                 dup 
+  0227:35 0c              ldi c 
+  0229:1a                 eq? 
+  022a:30 0007            bnt code_0234 
+  022d:35 78              ldi 78 
+  022f:65 16             aTop ticks 
+  0231:32 05b7            jmp code_07eb 
+
+        code_0234
+  0234:3c                 dup 
+  0235:35 0d              ldi d 
+  0237:1a                 eq? 
+  0238:30 0045            bnt code_0280 
+  023b:38 00d5          pushi d5 // $d5 has
+  023e:78               push1 
+  023f:39 05            pushi 5 // $5 view
+  0241:81 00              lag  
+  0243:4a 06             send 6 
+
+  0245:30 0021            bnt code_0269 
+  0248:39 06            pushi 6 // $6 loop
+  024a:72 0842          lofsa $0842 // You
+  024d:36                push 
+  024e:38 017c          pushi 17c // $17c setSpeed
+  0251:39 0a            pushi a // $a nsLeft
+  0253:39 6c            pushi 6c // $6c dispose
+  0255:38 008b          pushi 8b // $8b caller
+  0258:7c            pushSelf 
+  0259:45 12 0c         callb procedure_0012 c //  
+
+  025c:38 0148          pushi 148 // $148 put
+  025f:78               push1 
+  0260:39 05            pushi 5 // $5 view
+  0262:81 00              lag  
+  0264:4a 06             send 6 
+
+  0266:32 0582            jmp code_07eb 
+
+        code_0269
+  0269:39 06            pushi 6 // $6 loop
+  026b:72 0842          lofsa $0842 // You
+  026e:36                push 
+  026f:38 017c          pushi 17c // $17c setSpeed
+  0272:39 0b            pushi b // $b nsBottom
+  0274:39 6c            pushi 6c // $6c dispose
+  0276:38 008b          pushi 8b // $8b caller
+  0279:7c            pushSelf 
+  027a:45 12 0c         callb procedure_0012 c //  
+
+  027d:32 056b            jmp code_07eb 
+
+        code_0280
+  0280:3c                 dup 
+  0281:35 0e              ldi e 
+  0283:1a                 eq? 
+  0284:30 0007            bnt code_028e 
+  0287:35 3c              ldi 3c 
+  0289:65 16             aTop ticks 
+  028b:32 055d            jmp code_07eb 
+
+        code_028e
+  028e:3c                 dup 
+  028f:35 0f              ldi f 
+  0291:1a                 eq? 
+  0292:30 0027            bnt code_02bc 
+  0295:78               push1 
+  0296:39 7a            pushi 7a // $7a release
+  0298:45 06 02         callb procedure_0006 2 //  
+
+  029b:30 0017            bnt code_02b5 
+  029e:39 06            pushi 6 // $6 loop
+  02a0:72 0842          lofsa $0842 // You
+  02a3:36                push 
+  02a4:38 017c          pushi 17c // $17c setSpeed
+  02a7:39 0c            pushi c // $c nsRight
+  02a9:39 6c            pushi 6c // $6c dispose
+  02ab:38 008b          pushi 8b // $8b caller
+  02ae:7c            pushSelf 
+  02af:45 12 0c         callb procedure_0012 c //  
+
+  02b2:32 0536            jmp code_07eb 
+
+        code_02b5
+  02b5:35 02              ldi 2 
+  02b7:65 10             aTop cycles 
+  02b9:32 052f            jmp code_07eb 
+
+        code_02bc
+  02bc:3c                 dup 
+  02bd:35 10              ldi 10 
+  02bf:1a                 eq? 
+  02c0:30 0027            bnt code_02ea 
+  02c3:78               push1 
+  02c4:39 7b            pushi 7b // $7b last
+  02c6:45 06 02         callb procedure_0006 2 //  
+
+  02c9:30 0017            bnt code_02e3 
+  02cc:39 06            pushi 6 // $6 loop
+  02ce:72 0842          lofsa $0842 // You
+  02d1:36                push 
+  02d2:38 017c          pushi 17c // $17c setSpeed
+  02d5:39 0d            pushi d // $d lsTop
+  02d7:39 6c            pushi 6c // $6c dispose
+  02d9:38 008b          pushi 8b // $8b caller
+  02dc:7c            pushSelf 
+  02dd:45 12 0c         callb procedure_0012 c //  
+
+  02e0:32 0508            jmp code_07eb 
+
+        code_02e3
+  02e3:35 02              ldi 2 
+  02e5:65 10             aTop cycles 
+  02e7:32 0501            jmp code_07eb 
+
+        code_02ea
+  02ea:3c                 dup 
+  02eb:35 11              ldi 11 
+  02ed:1a                 eq? 
+  02ee:30 0007            bnt code_02f8 
+  02f1:35 3c              ldi 3c 
+  02f3:65 16             aTop ticks 
+  02f5:32 04f3            jmp code_07eb 
+
+        code_02f8
+  02f8:3c                 dup 
+  02f9:35 12              ldi 12 
+  02fb:1a                 eq? 
+  02fc:30 0017            bnt code_0316 
+  02ff:39 06            pushi 6 // $6 loop
+  0301:72 0938          lofsa $0938 // Desmond
+  0304:36                push 
+  0305:38 017c          pushi 17c // $17c setSpeed
+  0308:39 0e            pushi e // $e lsLeft
+  030a:39 6c            pushi 6c // $6c dispose
+  030c:38 008b          pushi 8b // $8b caller
+  030f:7c            pushSelf 
+  0310:45 12 0c         callb procedure_0012 c //  
+
+  0313:32 04d5            jmp code_07eb 
+
+        code_0316
+  0316:3c                 dup 
+  0317:35 13              ldi 13 
+  0319:1a                 eq? 
+  031a:30 0037            bnt code_0354 
+  031d:78               push1 
+  031e:39 7e            pushi 7e // $7e addToEnd
+  0320:45 06 02         callb procedure_0006 2 //  
+
+  0323:30 0017            bnt code_033d 
+  0326:39 06            pushi 6 // $6 loop
+  0328:72 0842          lofsa $0842 // You
+  032b:36                push 
+  032c:38 017c          pushi 17c // $17c setSpeed
+  032f:39 0f            pushi f // $f lsBottom
+  0331:39 6c            pushi 6c // $6c dispose
+  0333:38 008b          pushi 8b // $8b caller
+  0336:7c            pushSelf 
+  0337:45 12 0c         callb procedure_0012 c //  
+
+  033a:32 04ae            jmp code_07eb 
+
+        code_033d
+  033d:39 06            pushi 6 // $6 loop
+  033f:72 0842          lofsa $0842 // You
+  0342:36                push 
+  0343:38 017c          pushi 17c // $17c setSpeed
+  0346:39 10            pushi 10 // $10 lsRight
+  0348:39 6c            pushi 6c // $6c dispose
+  034a:38 008b          pushi 8b // $8b caller
+  034d:7c            pushSelf 
+  034e:45 12 0c         callb procedure_0012 c //  
+
+  0351:32 0497            jmp code_07eb 
+
+        code_0354
+  0354:3c                 dup 
+  0355:35 14              ldi 14 
+  0357:1a                 eq? 
+  0358:30 0007            bnt code_0362 
+  035b:35 3c              ldi 3c 
+  035d:65 16             aTop ticks 
+  035f:32 0489            jmp code_07eb 
+
+        code_0362
+  0362:3c                 dup 
+  0363:35 15              ldi 15 
+  0365:1a                 eq? 
+  0366:30 009b            bnt code_0404 
+  0369:78               push1 
+  036a:39 7f            pushi 7f // $7f addAfter
+  036c:45 06 02         callb procedure_0006 2 //  
+
+  036f:30 0021            bnt code_0393 
+  0372:39 06            pushi 6 // $6 loop
+  0374:72 0842          lofsa $0842 // You
+  0377:36                push 
+  0378:38 017c          pushi 17c // $17c setSpeed
+  037b:39 11            pushi 11 // $11 signal
+  037d:39 6c            pushi 6c // $6c dispose
+  037f:38 008b          pushi 8b // $8b caller
+  0382:7c            pushSelf 
+  0383:45 12 0c         callb procedure_0012 c //  
+
+  0386:38 0148          pushi 148 // $148 put
+  0389:78               push1 
+  038a:39 06            pushi 6 // $6 loop
+  038c:81 00              lag  
+  038e:4a 06             send 6 
+
+  0390:32 0458            jmp code_07eb 
+
+        code_0393
+  0393:78               push1 
+  0394:38 0080          pushi 80 // $80 indexOf
+  0397:45 06 02         callb procedure_0006 2 //  
+
+  039a:30 0021            bnt code_03be 
+  039d:39 06            pushi 6 // $6 loop
+  039f:72 0842          lofsa $0842 // You
+  03a2:36                push 
+  03a3:38 017c          pushi 17c // $17c setSpeed
+  03a6:39 12            pushi 12 // $12 illegalBits
+  03a8:39 6c            pushi 6c // $6c dispose
+  03aa:38 008b          pushi 8b // $8b caller
+  03ad:7c            pushSelf 
+  03ae:45 12 0c         callb procedure_0012 c //  
+
+  03b1:38 0148          pushi 148 // $148 put
+  03b4:78               push1 
+  03b5:39 06            pushi 6 // $6 loop
+  03b7:81 00              lag  
+  03b9:4a 06             send 6 
+
+  03bb:32 042d            jmp code_07eb 
+
+        code_03be
+  03be:78               push1 
+  03bf:38 0081          pushi 81 // $81 handleEvent
+  03c2:45 06 02         callb procedure_0006 2 //  
+
+  03c5:30 0021            bnt code_03e9 
+  03c8:39 06            pushi 6 // $6 loop
+  03ca:72 0842          lofsa $0842 // You
+  03cd:36                push 
+  03ce:38 017c          pushi 17c // $17c setSpeed
+  03d1:39 13            pushi 13 // $13 brTop
+  03d3:39 6c            pushi 6c // $6c dispose
+  03d5:38 008b          pushi 8b // $8b caller
+  03d8:7c            pushSelf 
+  03d9:45 12 0c         callb procedure_0012 c //  
+
+  03dc:38 0148          pushi 148 // $148 put
+  03df:78               push1 
+  03e0:39 06            pushi 6 // $6 loop
+  03e2:81 00              lag  
+  03e4:4a 06             send 6 
+
+  03e6:32 0402            jmp code_07eb 
+
+        code_03e9
+  03e9:35 18              ldi 18 
+  03eb:65 0a             aTop state 
+  03ed:39 06            pushi 6 // $6 loop
+  03ef:72 0938          lofsa $0938 // Desmond
+  03f2:36                push 
+  03f3:38 017c          pushi 17c // $17c setSpeed
+  03f6:39 14            pushi 14 // $14 brLeft
+  03f8:39 6c            pushi 6c // $6c dispose
+  03fa:38 008b          pushi 8b // $8b caller
+  03fd:7c            pushSelf 
+  03fe:45 12 0c         callb procedure_0012 c //  
+
+  0401:32 03e7            jmp code_07eb 
+
+        code_0404
+  0404:3c                 dup 
+  0405:35 16              ldi 16 
+  0407:1a                 eq? 
+  0408:30 0007            bnt code_0412 
+  040b:35 3c              ldi 3c 
+  040d:65 16             aTop ticks 
+  040f:32 03d9            jmp code_07eb 
+
+        code_0412
+  0412:3c                 dup 
+  0413:35 17              ldi 17 
+  0415:1a                 eq? 
+  0416:30 0017            bnt code_0430 
+  0419:39 06            pushi 6 // $6 loop
+  041b:72 0938          lofsa $0938 // Desmond
+  041e:36                push 
+  041f:38 017c          pushi 17c // $17c setSpeed
+  0422:39 15            pushi 15 // $15 brBottom
+  0424:39 6c            pushi 6c // $6c dispose
+  0426:38 008b          pushi 8b // $8b caller
+  0429:7c            pushSelf 
+  042a:45 12 0c         callb procedure_0012 c //  
+
+  042d:32 03bb            jmp code_07eb 
+
+        code_0430
+  0430:3c                 dup 
+  0431:35 18              ldi 18 
+  0433:1a                 eq? 
+  0434:30 0007            bnt code_043e 
+  0437:35 78              ldi 78 
+  0439:65 16             aTop ticks 
+  043b:32 03ad            jmp code_07eb 
+
+        code_043e
+  043e:3c                 dup 
+  043f:35 19              ldi 19 
+  0441:1a                 eq? 
+  0442:30 0017            bnt code_045c 
+  0445:39 06            pushi 6 // $6 loop
+  0447:72 0938          lofsa $0938 // Desmond
+  044a:36                push 
+  044b:38 017c          pushi 17c // $17c setSpeed
+  044e:39 16            pushi 16 // $16 brRight
+  0450:39 6c            pushi 6c // $6c dispose
+  0452:38 008b          pushi 8b // $8b caller
+  0455:7c            pushSelf 
+  0456:45 12 0c         callb procedure_0012 c //  
+
+  0459:32 038f            jmp code_07eb 
+
+        code_045c
+  045c:3c                 dup 
+  045d:35 1a              ldi 1a 
+  045f:1a                 eq? 
+  0460:30 0038            bnt code_049b 
+  0463:78               push1 
+  0464:38 0096          pushi 96 // $96 setCycle
+  0467:45 06 02         callb procedure_0006 2 //  
+
+  046a:30 0017            bnt code_0484 
+  046d:39 06            pushi 6 // $6 loop
+  046f:72 0842          lofsa $0842 // You
+  0472:36                push 
+  0473:38 017c          pushi 17c // $17c setSpeed
+  0476:39 17            pushi 17 // $17 name
+  0478:39 6c            pushi 6c // $6c dispose
+  047a:38 008b          pushi 8b // $8b caller
+  047d:7c            pushSelf 
+  047e:45 12 0c         callb procedure_0012 c //  
+
+  0481:32 0367            jmp code_07eb 
+
+        code_0484
+  0484:39 06            pushi 6 // $6 loop
+  0486:72 0842          lofsa $0842 // You
+  0489:36                push 
+  048a:38 017c          pushi 17c // $17c setSpeed
+  048d:39 18            pushi 18 // $18 key
+  048f:39 6c            pushi 6c // $6c dispose
+  0491:38 008b          pushi 8b // $8b caller
+  0494:7c            pushSelf 
+  0495:45 12 0c         callb procedure_0012 c //  
+
+  0498:32 0350            jmp code_07eb 
+
+        code_049b
+  049b:3c                 dup 
+  049c:35 1b              ldi 1b 
+  049e:1a                 eq? 
+  049f:30 0007            bnt code_04a9 
+  04a2:35 1e              ldi 1e 
+  04a4:65 16             aTop ticks 
+  04a6:32 0342            jmp code_07eb 
+
+        code_04a9
+  04a9:3c                 dup 
+  04aa:35 1c              ldi 1c 
+  04ac:1a                 eq? 
+  04ad:30 003c            bnt code_04ec 
+  04b0:78               push1 
+  04b1:38 0096          pushi 96 // $96 setCycle
+  04b4:45 06 02         callb procedure_0006 2 //  
+
+  04b7:30 0017            bnt code_04d1 
+  04ba:39 06            pushi 6 // $6 loop
+  04bc:72 0938          lofsa $0938 // Desmond
+  04bf:36                push 
+  04c0:38 017c          pushi 17c // $17c setSpeed
+  04c3:39 19            pushi 19 // $19 time
+  04c5:39 6c            pushi 6c // $6c dispose
+  04c7:38 008b          pushi 8b // $8b caller
+  04ca:7c            pushSelf 
+  04cb:45 12 0c         callb procedure_0012 c //  
+
+  04ce:32 031a            jmp code_07eb 
+
+        code_04d1
+  04d1:35 26              ldi 26 
+  04d3:65 0a             aTop state 
+  04d5:39 06            pushi 6 // $6 loop
+  04d7:72 0938          lofsa $0938 // Desmond
+  04da:36                push 
+  04db:38 017c          pushi 17c // $17c setSpeed
+  04de:39 1a            pushi 1a // $1a text
+  04e0:39 6c            pushi 6c // $6c dispose
+  04e2:38 008b          pushi 8b // $8b caller
+  04e5:7c            pushSelf 
+  04e6:45 12 0c         callb procedure_0012 c //  
+
+  04e9:32 02ff            jmp code_07eb 
+
+        code_04ec
+  04ec:3c                 dup 
+  04ed:35 1d              ldi 1d 
+  04ef:1a                 eq? 
+  04f0:30 0007            bnt code_04fa 
+  04f3:35 3c              ldi 3c 
+  04f5:65 16             aTop ticks 
+  04f7:32 02f1            jmp code_07eb 
+
+        code_04fa
+  04fa:3c                 dup 
+  04fb:35 1e              ldi 1e 
+  04fd:1a                 eq? 
+  04fe:30 0017            bnt code_0518 
+  0501:39 06            pushi 6 // $6 loop
+  0503:72 0842          lofsa $0842 // You
+  0506:36                push 
+  0507:38 017c          pushi 17c // $17c setSpeed
+  050a:39 1b            pushi 1b // $1b elements
+  050c:39 6c            pushi 6c // $6c dispose
+  050e:38 008b          pushi 8b // $8b caller
+  0511:7c            pushSelf 
+  0512:45 12 0c         callb procedure_0012 c //  
+
+  0515:32 02d3            jmp code_07eb 
+
+        code_0518
+  0518:3c                 dup 
+  0519:35 1f              ldi 1f 
+  051b:1a                 eq? 
+  051c:30 0021            bnt code_0540 
+  051f:39 06            pushi 6 // $6 loop
+  0521:72 0842          lofsa $0842 // You
+  0524:36                push 
+  0525:38 017c          pushi 17c // $17c setSpeed
+  0528:39 1c            pushi 1c // $1c color
+  052a:39 6c            pushi 6c // $6c dispose
+  052c:38 008b          pushi 8b // $8b caller
+  052f:7c            pushSelf 
+  0530:45 12 0c         callb procedure_0012 c //  
+
+  0533:38 0148          pushi 148 // $148 put
+  0536:78               push1 
+  0537:39 0b            pushi b // $b nsBottom
+  0539:81 00              lag  
+  053b:4a 06             send 6 
+
+  053d:32 02ab            jmp code_07eb 
+
+        code_0540
+  0540:3c                 dup 
+  0541:35 20              ldi 20 
+  0543:1a                 eq? 
+  0544:30 0017            bnt code_055e 
+  0547:39 06            pushi 6 // $6 loop
+  0549:72 0938          lofsa $0938 // Desmond
+  054c:36                push 
+  054d:38 017c          pushi 17c // $17c setSpeed
+  0550:39 1d            pushi 1d // $1d back
+  0552:39 6c            pushi 6c // $6c dispose
+  0554:38 008b          pushi 8b // $8b caller
+  0557:7c            pushSelf 
+  0558:45 12 0c         callb procedure_0012 c //  
+
+  055b:32 028d            jmp code_07eb 
+
+        code_055e
+  055e:3c                 dup 
+  055f:35 21              ldi 21 
+  0561:1a                 eq? 
+  0562:30 0007            bnt code_056c 
+  0565:35 3c              ldi 3c 
+  0567:65 16             aTop ticks 
+  0569:32 027f            jmp code_07eb 
+
+        code_056c
+  056c:3c                 dup 
+  056d:35 22              ldi 22 
+  056f:1a                 eq? 
+  0570:30 0017            bnt code_058a 
+  0573:39 06            pushi 6 // $6 loop
+  0575:72 0842          lofsa $0842 // You
+  0578:36                push 
+  0579:38 017c          pushi 17c // $17c setSpeed
+  057c:39 1e            pushi 1e // $1e mode
+  057e:39 6c            pushi 6c // $6c dispose
+  0580:38 008b          pushi 8b // $8b caller
+  0583:7c            pushSelf 
+  0584:45 12 0c         callb procedure_0012 c //  
+
+  0587:32 0261            jmp code_07eb 
+
+        code_058a
+  058a:3c                 dup 
+  058b:35 23              ldi 23 
+  058d:1a                 eq? 
+  058e:30 0017            bnt code_05a8 
+  0591:39 06            pushi 6 // $6 loop
+  0593:72 0842          lofsa $0842 // You
+  0596:36                push 
+  0597:38 017c          pushi 17c // $17c setSpeed
+  059a:39 1f            pushi 1f // $1f style
+  059c:39 6c            pushi 6c // $6c dispose
+  059e:38 008b          pushi 8b // $8b caller
+  05a1:7c            pushSelf 
+  05a2:45 12 0c         callb procedure_0012 c //  
+
+  05a5:32 0243            jmp code_07eb 
+
+        code_05a8
+  05a8:3c                 dup 
+  05a9:35 24              ldi 24 
+  05ab:1a                 eq? 
+  05ac:30 0042            bnt code_05f1 
+  05af:78               push1 
+  05b0:38 009c          pushi 9c // $9c stop
+  05b3:45 06 02         callb procedure_0006 2 //  
+
+  05b6:30 0021            bnt code_05da 
+  05b9:39 06            pushi 6 // $6 loop
+  05bb:72 0938          lofsa $0938 // Desmond
+  05be:36                push 
+  05bf:38 017c          pushi 17c // $17c setSpeed
+  05c2:39 20            pushi 20 // $20 state
+  05c4:39 6c            pushi 6c // $6c dispose
+  05c6:38 008b          pushi 8b // $8b caller
+  05c9:7c            pushSelf 
+  05ca:45 12 0c         callb procedure_0012 c //  
+
+  05cd:38 0148          pushi 148 // $148 put
+  05d0:78               push1 
+  05d1:39 0c            pushi c // $c nsRight
+  05d3:81 00              lag  
+  05d5:4a 06             send 6 
+
+  05d7:32 0211            jmp code_07eb 
+
+        code_05da
+  05da:39 06            pushi 6 // $6 loop
+  05dc:72 0938          lofsa $0938 // Desmond
+  05df:36                push 
+  05e0:38 017c          pushi 17c // $17c setSpeed
+  05e3:39 21            pushi 21 // $21 font
+  05e5:39 6c            pushi 6c // $6c dispose
+  05e7:38 008b          pushi 8b // $8b caller
+  05ea:7c            pushSelf 
+  05eb:45 12 0c         callb procedure_0012 c //  
+
+  05ee:32 01fa            jmp code_07eb 
+
+        code_05f1
+  05f1:3c                 dup 
+  05f2:35 25              ldi 25 
+  05f4:1a                 eq? 
+  05f5:30 0029            bnt code_0621 
+  05f8:78               push1 
+  05f9:38 009c          pushi 9c // $9c stop
+  05fc:45 06 02         callb procedure_0006 2 //  
+
+  05ff:18                 not 
+  0600:30 0017            bnt code_061a 
+  0603:39 06            pushi 6 // $6 loop
+  0605:72 0842          lofsa $0842 // You
+  0608:36                push 
+  0609:38 017c          pushi 17c // $17c setSpeed
+  060c:39 22            pushi 22 // $22 type
+  060e:39 6c            pushi 6c // $6c dispose
+  0610:38 008b          pushi 8b // $8b caller
+  0613:7c            pushSelf 
+  0614:45 12 0c         callb procedure_0012 c //  
+
+  0617:32 01d1            jmp code_07eb 
+
+        code_061a
+  061a:35 02              ldi 2 
+  061c:65 10             aTop cycles 
+  061e:32 01ca            jmp code_07eb 
+
+        code_0621
+  0621:3c                 dup 
+  0622:35 26              ldi 26 
+  0624:1a                 eq? 
+  0625:30 0029            bnt code_0651 
+  0628:78               push1 
+  0629:38 009c          pushi 9c // $9c stop
+  062c:45 06 02         callb procedure_0006 2 //  
+
+  062f:18                 not 
+  0630:30 0017            bnt code_064a 
+  0633:39 06            pushi 6 // $6 loop
+  0635:72 0938          lofsa $0938 // Desmond
+  0638:36                push 
+  0639:38 017c          pushi 17c // $17c setSpeed
+  063c:39 23            pushi 23 // $23 window
+  063e:39 6c            pushi 6c // $6c dispose
+  0640:38 008b          pushi 8b // $8b caller
+  0643:7c            pushSelf 
+  0644:45 12 0c         callb procedure_0012 c //  
+
+  0647:32 01a1            jmp code_07eb 
+
+        code_064a
+  064a:35 02              ldi 2 
+  064c:65 10             aTop cycles 
+  064e:32 019a            jmp code_07eb 
+
+        code_0651
+  0651:3c                 dup 
+  0652:35 27              ldi 27 
+  0654:1a                 eq? 
+  0655:30 0007            bnt code_065f 
+  0658:35 1e              ldi 1e 
+  065a:65 16             aTop ticks 
+  065c:32 018c            jmp code_07eb 
+
+        code_065f
+  065f:3c                 dup 
+  0660:35 28              ldi 28 
+  0662:1a                 eq? 
+  0663:30 0057            bnt code_06bd 
+  0666:78               push1 
+  0667:38 0096          pushi 96 // $96 setCycle
+  066a:45 06 02         callb procedure_0006 2 //  
+
+  066d:18                 not 
+  066e:30 0033            bnt code_06a4 
+  0671:78               push1 
+  0672:39 76            pushi 76 // $76 allTrue
+  0674:45 06 02         callb procedure_0006 2 //  
+
+  0677:2e 000f             bt code_0689 
+  067a:78               push1 
+  067b:39 77            pushi 77 // $77 contains
+  067d:45 06 02         callb procedure_0006 2 //  
+
+  0680:2e 0006             bt code_0689 
+  0683:78               push1 
+  0684:39 30            pushi 30 // $30 b-moveCnt
+  0686:45 06 02         callb procedure_0006 2 //  
+
+
+        code_0689
+  0689:18                 not 
+  068a:30 0017            bnt code_06a4 
+  068d:39 06            pushi 6 // $6 loop
+  068f:72 0938          lofsa $0938 // Desmond
+  0692:36                push 
+  0693:38 017c          pushi 17c // $17c setSpeed
+  0696:39 24            pushi 24 // $24 cursor
+  0698:39 6c            pushi 6c // $6c dispose
+  069a:38 008b          pushi 8b // $8b caller
+  069d:7c            pushSelf 
+  069e:45 12 0c         callb procedure_0012 c //  
+
+  06a1:32 0147            jmp code_07eb 
+
+        code_06a4
+  06a4:39 06            pushi 6 // $6 loop
+  06a6:72 0938          lofsa $0938 // Desmond
+  06a9:36                push 
+  06aa:38 017c          pushi 17c // $17c setSpeed
+  06ad:39 25            pushi 25 // $25 max
+  06af:39 6c            pushi 6c // $6c dispose
+  06b1:38 008b          pushi 8b // $8b caller
+  06b4:7c            pushSelf 
+  06b5:45 12 0c         callb procedure_0012 c //  
+
+  06b8:6b 0a            ipToa state 
+  06ba:32 012e            jmp code_07eb 
+
+        code_06bd
+  06bd:3c                 dup 
+  06be:35 29              ldi 29 
+  06c0:1a                 eq? 
+  06c1:30 0017            bnt code_06db 
+  06c4:39 06            pushi 6 // $6 loop
+  06c6:72 0938          lofsa $0938 // Desmond
+  06c9:36                push 
+  06ca:38 017c          pushi 17c // $17c setSpeed
+  06cd:39 26            pushi 26 // $26 mark
+  06cf:39 6c            pushi 6c // $6c dispose
+  06d1:38 008b          pushi 8b // $8b caller
+  06d4:7c            pushSelf 
+  06d5:45 12 0c         callb procedure_0012 c //  
+
+  06d8:32 0110            jmp code_07eb 
+
+        code_06db
+  06db:3c                 dup 
+  06dc:35 2a              ldi 2a 
+  06de:1a                 eq? 
+  06df:30 0007            bnt code_06e9 
+  06e2:35 1e              ldi 1e 
+  06e4:65 16             aTop ticks 
+  06e6:32 0102            jmp code_07eb 
+
+        code_06e9
+  06e9:3c                 dup 
+  06ea:35 2b              ldi 2b 
+  06ec:1a                 eq? 
+  06ed:30 002b            bnt code_071b 
+  06f0:78               push1 
+  06f1:39 64            pushi 64 // $64 moveDone
+  06f3:45 06 02         callb procedure_0006 2 //  
+
+  06f6:30 000b            bnt code_0704 
+  06f9:35 2e              ldi 2e 
+  06fb:65 0a             aTop state 
+  06fd:35 02              ldi 2 
+  06ff:65 10             aTop cycles 
+  0701:32 00e7            jmp code_07eb 
+
+        code_0704
+  0704:39 06            pushi 6 // $6 loop
+  0706:72 0938          lofsa $0938 // Desmond
+  0709:36                push 
+  070a:38 017c          pushi 17c // $17c setSpeed
+  070d:39 27            pushi 27 // $27 who
+  070f:39 6c            pushi 6c // $6c dispose
+  0711:38 008b          pushi 8b // $8b caller
+  0714:7c            pushSelf 
+  0715:45 12 0c         callb procedure_0012 c //  
+
+  0718:32 00d0            jmp code_07eb 
+
+        code_071b
+  071b:3c                 dup 
+  071c:35 2c              ldi 2c 
+  071e:1a                 eq? 
+  071f:30 0021            bnt code_0743 
+  0722:39 06            pushi 6 // $6 loop
+  0724:72 0938          lofsa $0938 // Desmond
+  0727:36                push 
+  0728:38 017c          pushi 17c // $17c setSpeed
+  072b:39 28            pushi 28 // $28 message
+  072d:39 6c            pushi 6c // $6c dispose
+  072f:38 008b          pushi 8b // $8b caller
+  0732:7c            pushSelf 
+  0733:45 12 0c         callb procedure_0012 c //  
+
+  0736:38 0147          pushi 147 // $147 get
+  0739:78               push1 
+  073a:39 0d            pushi d // $d lsTop
+  073c:81 00              lag  
+  073e:4a 06             send 6 
+
+  0740:32 00a8            jmp code_07eb 
+
+        code_0743
+  0743:3c                 dup 
+  0744:35 2d              ldi 2d 
+  0746:1a                 eq? 
+  0747:30 0017            bnt code_0761 
+  074a:39 06            pushi 6 // $6 loop
+  074c:72 0842          lofsa $0842 // You
+  074f:36                push 
+  0750:38 017c          pushi 17c // $17c setSpeed
+  0753:39 29            pushi 29 // $29 edit
+  0755:39 6c            pushi 6c // $6c dispose
+  0757:38 008b          pushi 8b // $8b caller
+  075a:7c            pushSelf 
+  075b:45 12 0c         callb procedure_0012 c //  
+
+  075e:32 008a            jmp code_07eb 
+
+        code_0761
+  0761:3c                 dup 
+  0762:35 2e              ldi 2e 
+  0764:1a                 eq? 
+  0765:30 0017            bnt code_077f 
+  0768:39 06            pushi 6 // $6 loop
+  076a:72 0938          lofsa $0938 // Desmond
+  076d:36                push 
+  076e:38 017c          pushi 17c // $17c setSpeed
+  0771:39 2a            pushi 2a // $2a play
+  0773:39 6c            pushi 6c // $6c dispose
+  0775:38 008b          pushi 8b // $8b caller
+  0778:7c            pushSelf 
+  0779:45 12 0c         callb procedure_0012 c //  
+
+  077c:32 006c            jmp code_07eb 
+
+        code_077f
+  077f:3c                 dup 
+  0780:35 2f              ldi 2f 
+  0782:1a                 eq? 
+  0783:30 0017            bnt code_079d 
+  0786:39 06            pushi 6 // $6 loop
+  0788:72 0938          lofsa $0938 // Desmond
+  078b:36                push 
+  078c:38 017c          pushi 17c // $17c setSpeed
+  078f:39 2b            pushi 2b // $2b number
+  0791:39 6c            pushi 6c // $6c dispose
+  0793:38 008b          pushi 8b // $8b caller
+  0796:7c            pushSelf 
+  0797:45 12 0c         callb procedure_0012 c //  
+
+  079a:32 004e            jmp code_07eb 
+
+        code_079d
+  079d:3c                 dup 
+  079e:35 30              ldi 30 
+  07a0:1a                 eq? 
+  07a1:30 0035            bnt code_07d9 
+  07a4:7a               push2 
+  07a5:78               push1 
+  07a6:39 64            pushi 64 // $64 moveDone
+  07a8:43 08 04         callk DrawPic 4 
+
+  07ab:38 009c          pushi 9c // $9c stop
+  07ae:76               push0 
+  07af:81 67              lag  
+  07b1:4a 04             send 4 
+
+  07b3:39 0d            pushi d // $d lsTop
+  07b5:38 017c          pushi 17c // $17c setSpeed
+  07b8:39 2c            pushi 2c // $2c nodePtr
+  07ba:39 65            pushi 65 // $65 topString
+  07bc:78               push1 
+  07bd:39 66            pushi 66 // $66 flags
+  07bf:89 83              lsg  
+  07c1:39 69            pushi 69 // $69 hide
+  07c3:89 af              lsg  
+  07c5:39 6a            pushi 6a // $6a new
+  07c7:38 013e          pushi 13e // $13e prompt
+  07ca:39 64            pushi 64 // $64 moveDone
+  07cc:78               push1 
+  07cd:39 52            pushi 52 // $52 icon
+  07cf:43 1b 1a         callk Display 1a 
+
+  07d2:35 02              ldi 2 
+  07d4:65 10             aTop cycles 
+  07d6:32 0012            jmp code_07eb 
+
+        code_07d9
+  07d9:3c                 dup 
+  07da:35 31              ldi 31 
+  07dc:1a                 eq? 
+  07dd:30 000b            bnt code_07eb 
+  07e0:38 0179          pushi 179 // $179 newRoom
+  07e3:78               push1 
+  07e4:38 0181          pushi 181 // $181 keep
+  07e7:81 02              lag  
+  07e9:4a 06             send 6 
+
+
+        code_07eb
+  07eb:3a                toss 
+  07ec:48                 ret 
+  07ed:00                bnot 
+    )
+
+)
+
+// 083c
+(instance You of Talker
+    (properties
+        x $8c
+        y $b4
+        z $0
+        heading $0
+        noun $0
+        nsTop $4c
+        nsLeft $a8
+        nsBottom $0
+        nsRight $0
+        description $0
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $0
+        yStep $2
+        view $588
+        loop $3
+        cel $0
+        priority $0
+        underBits $0
+        signal $0
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+        cycleSpeed $6
+        script $0
+        cycler $0
+        timer $0
+        detailLevel $0
+        bust $0
+        eyes $0
+        mouth $0
+        ticks $0
+        disposeWhenDone $1
+        caller $0
+        viewInPrint $0
+        useFrame $0
+        talkWidth $13e
+    )
+    (method (init) // method_0828
+  0828:72 08be          lofsa $08be // pattiMouth
+  082b:65 5a             aTop mouth 
+  082d:39 6b            pushi 6b // $6b init
+  082f:76               push0 
+  0830:59 01            &rest 1 
+  0832:57 6f 04         super Talker 4 
+
+  0835:48                 ret 
+    )
+
+)
+
+// 08b8
+(instance pattiMouth of Prop
+    (properties
+// Problem with properties. Species has 2b but instance has 2c.
+        x $0
+        y $0
+        z $0
+        heading $0
+        noun $0
+        nsTop $0
+        nsLeft $1
+        nsBottom $0
+        nsRight $0
+        description $0
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $0
+        yStep $2
+        view $588
+        loop $0
+        cel $0
+        priority $0
+        underBits $0
+        signal $0
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+        cycleSpeed $5
+        script $0
+        cycler $0
+        timer $0
+        detailLevel $0
+    )
+)
+
+// 0932
+(instance Desmond of Talker
+    (properties
+        x $1
+        y $b4
+        z $0
+        heading $0
+        noun $0
+        nsTop $49
+        nsLeft $78
+        nsBottom $0
+        nsRight $0
+        description $0
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $0
+        yStep $2
+        view $587
+        loop $3
+        cel $0
+        priority $0
+        underBits $0
+        signal $0
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+        cycleSpeed $6
+        script $0
+        cycler $0
+        timer $0
+        detailLevel $0
+        bust $0
+        eyes $0
+        mouth $0
+        ticks $0
+        disposeWhenDone $1
+        caller $0
+        viewInPrint $0
+        useFrame $0
+        talkWidth $b4
+    )
+    (method (init) // method_091e
+  091e:72 09b4          lofsa $09b4 // desmondMouth
+  0921:65 5a             aTop mouth 
+  0923:39 6b            pushi 6b // $6b init
+  0925:76               push0 
+  0926:59 01            &rest 1 
+  0928:57 6f 04         super Talker 4 
+
+  092b:48                 ret 
+    )
+
+)
+
+// 09ae
+(instance desmondMouth of Prop
+    (properties
+// Problem with properties. Species has 2b but instance has 2c.
+        x $0
+        y $0
+        z $0
+        heading $0
+        noun $0
+        nsTop $0
+        nsLeft $0
+        nsBottom $0
+        nsRight $0
+        description $0
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $0
+        yStep $2
+        view $587
+        loop $0
+        cel $0
+        priority $0
+        underBits $0
+        signal $0
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+        cycleSpeed $5
+        script $0
+        cycler $0
+        timer $0
+        detailLevel $0
+    )
+)
+
+
+

@@ -1,0 +1,1412 @@
+(script 500)
+
+(string
+    string_09e8 "rm500"
+    string_09ee "sPiss"
+    string_09f4 "Save"
+    string_09f9 "Nah, Why Bother?"
+    string_0a0a "AL says"
+    string_0a12 "sExitLimo"
+    string_0a1c "sEnterLimo"
+    string_0a27 "sLimoLeaves"
+    string_0a33 "your limousine"
+    string_0a42 "Why do all these limos look alike?"
+    string_0a65 "limo"
+    string_0a6a "the front door"
+    string_0a79 "If you could figure out how to open this door, you might enter \"The Hard Disk Cafe.\""
+    string_0ace "doorR"
+    string_0ad4 "door"
+    string_0ad9 "the lava lamp"
+    string_0ae7 "Wow! A giant lava lamp! (You've always loved those things!)"
+    string_0b23 "lavaLamp1"
+    string_0b2d "lavaLamp2"
+    string_0b37 "the plant"
+    string_0b41 "These plants grow here in spite of the atmosphere."
+    string_0b74 "plants1"
+    string_0b7c "plants2"
+)
+
+(said
+)
+
+(local
+    local0 = $0000
+)
+
+// 0230
+(instance publicrm500 of LLRoom
+    (properties
+        script $0
+        number $0
+        timer $0
+        keep $0
+        initialized $0
+        lookStr $0
+        picture $1f4
+        style $ffff
+        horizon $0
+        controls $0
+        north $1fe
+        east $0
+        south $0
+        west $0
+        curPic $0
+        picAngle $0
+        vanishingX $a0
+        vanishingY $8ad0
+        obstacles $0
+    )
+    (method (init) // method_000e
+  000e:89 0c              lsg  
+  0010:3c                 dup 
+  0011:63 1c             pToa north 
+  0013:1a                 eq? 
+  0014:30 0022            bnt code_0039 
+  0017:38 009f          pushi 9f // $9f fade
+  001a:39 04            pushi 4 // $4 x
+  001c:39 50            pushi 50 // $50 title
+  001e:39 0a            pushi a // $a nsLeft
+  0020:3c                 dup 
+  0021:76               push0 
+  0022:81 66              lag  
+  0024:4a 0c             send c 
+
+  0026:39 6b            pushi 6b // $6b init
+  0028:76               push0 
+  0029:38 020a          pushi 20a // $20a normalize
+  002c:76               push0 
+  002d:38 0146          pushi 146 // $146 edgeHit
+  0030:78               push1 
+  0031:76               push0 
+  0032:81 00              lag  
+  0034:4a 0e             send e 
+
+  0036:32 004c            jmp code_0085 
+
+        code_0039
+  0039:39 2b            pushi 2b // $2b number
+  003b:78               push1 
+  003c:76               push0 
+  003d:38 009c          pushi 9c // $9c stop
+  0040:76               push0 
+  0041:81 66              lag  
+  0043:4a 0a             send a 
+
+  0045:39 6b            pushi 6b // $6b init
+  0047:76               push0 
+  0048:38 020a          pushi 20a // $20a normalize
+  004b:76               push0 
+  004c:38 011c          pushi 11c // $11c posn
+  004f:39 03            pushi 3 // $3 y
+  0051:39 18            pushi 18 // $18 key
+  0053:38 00b1          pushi b1 // $b1 advance
+  0056:76               push0 
+  0057:38 00a2          pushi a2 // $a2 setLoop
+  005a:78               push1 
+  005b:39 ff            pushi ff // $ff syncNum
+  005d:38 00e4          pushi e4 // $e4 setHeading
+  0060:78               push1 
+  0061:38 00b4          pushi b4 // $b4 busy
+  0064:38 0146          pushi 146 // $146 edgeHit
+  0067:78               push1 
+  0068:76               push0 
+  0069:81 00              lag  
+  006b:4a 24             send 24 
+
+  006d:39 6b            pushi 6b // $6b init
+  006f:76               push0 
+  0070:72 0708          lofsa $0708 // limo
+  0073:4a 04             send 4 
+
+  0075:35 01              ldi 1 
+  0077:a1 a0              sag  
+  0079:38 008e          pushi 8e // $8e setScript
+  007c:78               push1 
+  007d:72 043a          lofsa $043a // sExitLimo
+  0080:36                push 
+  0081:81 02              lag  
+  0083:4a 06             send 6 
+
+
+        code_0085
+  0085:3a                toss 
+  0086:39 6b            pushi 6b // $6b init
+  0088:76               push0 
+  0089:57 72 04         super LLRoom 4 
+
+  008c:39 6b            pushi 6b // $6b init
+  008e:76               push0 
+  008f:38 0119          pushi 119 // $119 approachVerbs
+  0092:78               push1 
+  0093:39 03            pushi 3 // $3 y
+  0095:72 07f2          lofsa $07f2 // door
+  0098:4a 0a             send a 
+
+  009a:39 6b            pushi 6b // $6b init
+  009c:76               push0 
+  009d:38 0119          pushi 119 // $119 approachVerbs
+  00a0:78               push1 
+  00a1:39 03            pushi 3 // $3 y
+  00a3:72 07b2          lofsa $07b2 // doorR
+  00a6:4a 0a             send a 
+
+  00a8:89 0c              lsg  
+  00aa:34 00c8            ldi c8 
+  00ad:1a                 eq? 
+  00ae:2e 0005             bt code_00b6 
+  00b1:78               push1 
+  00b2:78               push1 
+  00b3:45 06 02         callb procedure_0006 2 //  
+
+
+        code_00b6
+  00b6:30 000e            bnt code_00c7 
+  00b9:39 6b            pushi 6b // $6b init
+  00bb:76               push0 
+  00bc:38 0119          pushi 119 // $119 approachVerbs
+  00bf:78               push1 
+  00c0:39 03            pushi 3 // $3 y
+  00c2:72 0708          lofsa $0708 // limo
+  00c5:4a 0a             send a 
+
+
+        code_00c7
+  00c7:38 0176          pushi 176 // $176 addObstacle
+  00ca:78               push1 
+  00cb:39 22            pushi 22 // $22 type
+  00cd:78               push1 
+  00ce:7a               push2 
+  00cf:39 6b            pushi 6b // $6b init
+  00d1:39 2e            pushi 2e // $2e dx
+  00d3:38 0091          pushi 91 // $91 globalize
+  00d6:38 008f          pushi 8f // $8f port
+  00d9:39 7c            pushi 7c // $7c prev
+  00db:38 009d          pushi 9d // $9d pause
+  00de:39 20            pushi 20 // $20 state
+  00e0:38 009d          pushi 9d // $9d pause
+  00e3:39 20            pushi 20 // $20 state
+  00e5:38 0093          pushi 93 // $93 ticksToDo
+  00e8:39 48            pushi 48 // $48 syntaxFail
+  00ea:38 0093          pushi 93 // $93 ticksToDo
+  00ed:39 49            pushi 49 // $49 semanticFail
+  00ef:38 0091          pushi 91 // $91 globalize
+  00f2:39 03            pushi 3 // $3 y
+  00f4:38 0091          pushi 91 // $91 globalize
+  00f7:39 03            pushi 3 // $3 y
+  00f9:38 00a5          pushi a5 // $a5 clean
+  00fc:38 013b          pushi 13b // $13b controls
+  00ff:38 00a5          pushi a5 // $a5 clean
+  0102:38 013b          pushi 13b // $13b controls
+  0105:38 0091          pushi 91 // $91 globalize
+  0108:38 0105          pushi 105 // $105 gy
+  010b:38 0091          pushi 91 // $91 globalize
+  010e:38 0104          pushi 104 // $104 gx
+  0111:38 0093          pushi 93 // $93 ticksToDo
+  0114:38 0127          pushi 127 // $127 baseSetter
+  0117:38 0093          pushi 93 // $93 ticksToDo
+  011a:38 0127          pushi 127 // $127 baseSetter
+  011d:38 009c          pushi 9c // $9c stop
+  0120:38 00cd          pushi cd // $cd oldMouseY
+  0123:38 009c          pushi 9c // $9c stop
+  0126:38 00be          pushi be // $be maskLoop
+  0129:38 008f          pushi 8f // $8f port
+  012c:38 009e          pushi 9e // $9e hold
+  012f:38 008f          pushi 8f // $8f port
+  0132:38 0097          pushi 97 // $97 setReal
+  0135:76               push0 
+  0136:38 013f          pushi 13f // $13f inputLineAddr
+  0139:76               push0 
+  013a:38 013f          pushi 13f // $13f inputLineAddr
+  013d:38 00bd          pushi bd // $bd maskView
+  0140:76               push0 
+  0141:38 00bd          pushi bd // $bd maskView
+  0144:76               push0 
+  0145:76               push0 
+  0146:38 0094          pushi 94 // $94 lastTime
+  0149:76               push0 
+  014a:39 72            pushi 72 // $72 yourself
+  014c:76               push0 
+  014d:39 6a            pushi 6a // $6a new
+  014f:76               push0 
+  0150:51 23            class Polygon 
+  0152:4a 04             send 4 
+
+  0154:4a 6a             send 6a 
+
+  0156:36                push 
+  0157:81 02              lag  
+  0159:4a 06             send 6 
+
+  015b:39 6b            pushi 6b // $6b init
+  015d:76               push0 
+  015e:72 089c          lofsa $089c // lavaLamp1
+  0161:4a 04             send 4 
+
+  0163:39 6b            pushi 6b // $6b init
+  0165:76               push0 
+  0166:72 0904          lofsa $0904 // lavaLamp2
+  0169:4a 04             send 4 
+
+  016b:39 6b            pushi 6b // $6b init
+  016d:76               push0 
+  016e:72 095a          lofsa $095a // plants1
+  0171:4a 04             send 4 
+
+  0173:39 6b            pushi 6b // $6b init
+  0175:76               push0 
+  0176:72 09b0          lofsa $09b0 // plants2
+  0179:4a 04             send 4 
+
+  017b:48                 ret 
+    )
+
+    (method (doit) // method_017c
+  017c:39 3c            pushi 3c // $3c doit
+  017e:76               push0 
+  017f:57 72 04         super LLRoom 4 
+
+  0182:c3 00              +al local0 
+  0184:36                push 
+  0185:35 0a              ldi a 
+  0187:0a                 mod 
+  0188:18                 not 
+  0189:30 000f            bnt code_019b 
+  018c:39 04            pushi 4 // $4 x
+  018e:39 06            pushi 6 // $6 loop
+  0190:38 00ef          pushi ef // $ef lastBumped
+  0193:38 00fe          pushi fe // $fe prevCue
+  0196:39 ff            pushi ff // $ff syncNum
+  0198:43 6f 08         callk Palette 8 
+
+
+        code_019b
+  019b:63 08             pToa script 
+  019d:30 0003            bnt code_01a3 
+  01a0:32 0024            jmp code_01c7 
+
+        code_01a3
+  01a3:7a               push2 
+  01a4:89 00              lsg  
+  01a6:7a               push2 
+  01a7:45 05 04         callb procedure_0005 4 //  
+
+  01aa:30 001a            bnt code_01c7 
+  01ad:78               push1 
+  01ae:39 69            pushi 69 // $69 hide
+  01b0:45 06 02         callb procedure_0006 2 //  
+
+  01b3:18                 not 
+  01b4:30 0010            bnt code_01c7 
+  01b7:76               push0 
+  01b8:45 02 00         callb procedure_0002 0 //  
+
+  01bb:38 008e          pushi 8e // $8e setScript
+  01be:78               push1 
+  01bf:72 02bc          lofsa $02bc // sPiss
+  01c2:36                push 
+  01c3:81 02              lag  
+  01c5:4a 06             send 6 
+
+
+        code_01c7
+  01c7:48                 ret 
+    )
+
+    (method (doVerb) // method_01c8
+  01c8:8f 01              lsp param1 
+  01ca:3c                 dup 
+  01cb:35 02              ldi 2 
+  01cd:1a                 eq? 
+  01ce:30 000e            bnt code_01df 
+  01d1:7a               push2 
+  01d2:38 01f4          pushi 1f4 // $1f4 selector
+  01d5:76               push0 
+  01d6:45 0e 04         callb procedure_000e 4 //  
+
+  01d9:35 01              ldi 1 
+  01db:48                 ret 
+  01dc:32 0048            jmp code_0227 
+
+        code_01df
+  01df:3c                 dup 
+  01e0:35 03              ldi 3 
+  01e2:1a                 eq? 
+  01e3:30 0036            bnt code_021c 
+  01e6:89 0c              lsg  
+  01e8:34 00c8            ldi c8 
+  01eb:1a                 eq? 
+  01ec:30 000b            bnt code_01fa 
+  01ef:7a               push2 
+  01f0:38 01f4          pushi 1f4 // $1f4 selector
+  01f3:78               push1 
+  01f4:45 0e 04         callb procedure_000e 4 //  
+
+  01f7:32 001c            jmp code_0216 
+
+        code_01fa
+  01fa:78               push1 
+  01fb:78               push1 
+  01fc:45 06 02         callb procedure_0006 2 //  
+
+  01ff:30 000b            bnt code_020d 
+  0202:7a               push2 
+  0203:38 01f4          pushi 1f4 // $1f4 selector
+  0206:7a               push2 
+  0207:45 0e 04         callb procedure_000e 4 //  
+
+  020a:32 0009            jmp code_0216 
+
+        code_020d
+  020d:7a               push2 
+  020e:38 01f4          pushi 1f4 // $1f4 selector
+  0211:39 03            pushi 3 // $3 y
+  0213:45 0e 04         callb procedure_000e 4 //  
+
+
+        code_0216
+  0216:35 01              ldi 1 
+  0218:48                 ret 
+  0219:32 000b            jmp code_0227 
+
+        code_021c
+  021c:38 010c          pushi 10c // $10c doVerb
+  021f:78               push1 
+  0220:8f 01              lsp param1 
+  0222:59 02            &rest 2 
+  0224:57 72 06         super LLRoom 6 
+
+
+        code_0227
+  0227:3a                toss 
+  0228:48                 ret 
+  0229:00                bnot 
+    )
+
+)
+
+// 02b6
+(instance sPiss of Script
+    (properties
+        client $0
+        state $ffff
+        start $0
+        timer $0
+        cycles $0
+        seconds $0
+        lastSeconds $0
+        ticks $0
+        lastTicks $0
+        register $0
+        script $0
+        caller $0
+        next $0
+    )
+    (method (changeState) // method_0278
+  0278:87 01              lap param1 
+  027a:65 0a             aTop state 
+  027c:36                push 
+  027d:3c                 dup 
+  027e:35 00              ldi 0 
+  0280:1a                 eq? 
+  0281:30 000e            bnt code_0292 
+  0284:7a               push2 
+  0285:78               push1 
+  0286:39 69            pushi 69 // $69 hide
+  0288:45 0a 04         callb procedure_000a 4 //  
+
+  028b:35 03              ldi 3 
+  028d:65 12             aTop seconds 
+  028f:32 001c            jmp code_02ae 
+
+        code_0292
+  0292:3c                 dup 
+  0293:35 01              ldi 1 
+  0295:1a                 eq? 
+  0296:30 0015            bnt code_02ae 
+  0299:39 03            pushi 3 // $3 y
+  029b:89 00              lsg  
+  029d:38 01f4          pushi 1f4 // $1f4 selector
+  02a0:39 04            pushi 4 // $4 x
+  02a2:45 12 06         callb procedure_0012 6 //  
+
+  02a5:76               push0 
+  02a6:45 03 00         callb procedure_0003 0 //  
+
+  02a9:39 6c            pushi 6c // $6c dispose
+  02ab:76               push0 
+  02ac:54 04             self 4 
+
+
+        code_02ae
+  02ae:3a                toss 
+  02af:48                 ret 
+    )
+
+)
+
+// 0434
+(instance sExitLimo of Script
+    (properties
+        client $0
+        state $ffff
+        start $0
+        timer $0
+        cycles $0
+        seconds $0
+        lastSeconds $0
+        ticks $0
+        lastTicks $0
+        register $0
+        script $0
+        caller $0
+        next $0
+    )
+    (method (changeState) // method_02ea
+  02ea:3f 02             link 2 // (var $2)
+  02ec:87 01              lap param1 
+  02ee:65 0a             aTop state 
+  02f0:36                push 
+  02f1:3c                 dup 
+  02f2:35 00              ldi 0 
+  02f4:1a                 eq? 
+  02f5:30 0007            bnt code_02ff 
+  02f8:35 02              ldi 2 
+  02fa:65 10             aTop cycles 
+  02fc:32 012d            jmp code_042c 
+
+        code_02ff
+  02ff:3c                 dup 
+  0300:35 01              ldi 1 
+  0302:1a                 eq? 
+  0303:30 001d            bnt code_0323 
+  0306:76               push0 
+  0307:45 02 00         callb procedure_0002 0 //  
+
+  030a:39 2b            pushi 2b // $2b number
+  030c:78               push1 
+  030d:38 00bf          pushi bf // $bf maskCel
+  0310:38 00a2          pushi a2 // $a2 setLoop
+  0313:78               push1 
+  0314:78               push1 
+  0315:39 2a            pushi 2a // $2a play
+  0317:76               push0 
+  0318:81 67              lag  
+  031a:4a 10             send 10 
+
+  031c:35 32              ldi 32 
+  031e:65 16             aTop ticks 
+  0320:32 0109            jmp code_042c 
+
+        code_0323
+  0323:3c                 dup 
+  0324:35 02              ldi 2 
+  0326:1a                 eq? 
+  0327:30 0020            bnt code_034a 
+  032a:38 00a2          pushi a2 // $a2 setLoop
+  032d:78               push1 
+  032e:39 03            pushi 3 // $3 y
+  0330:38 0120          pushi 120 // $120 setCel
+  0333:78               push1 
+  0334:76               push0 
+  0335:38 011b          pushi 11b // $11b setMotion
+  0338:39 04            pushi 4 // $4 x
+  033a:51 1e            class MoveTo 
+  033c:36                push 
+  033d:39 18            pushi 18 // $18 key
+  033f:38 00a3          pushi a3 // $a3 send
+  0342:7c            pushSelf 
+  0343:81 00              lag  
+  0345:4a 18             send 18 
+
+  0347:32 00e2            jmp code_042c 
+
+        code_034a
+  034a:3c                 dup 
+  034b:35 03              ldi 3 
+  034d:1a                 eq? 
+  034e:30 0018            bnt code_0369 
+  0351:38 00a2          pushi a2 // $a2 setLoop
+  0354:78               push1 
+  0355:39 ff            pushi ff // $ff syncNum
+  0357:38 00e4          pushi e4 // $e4 setHeading
+  035a:78               push1 
+  035b:38 00b4          pushi b4 // $b4 busy
+  035e:81 00              lag  
+  0360:4a 0c             send c 
+
+  0362:35 0a              ldi a 
+  0364:65 16             aTop ticks 
+  0366:32 00c3            jmp code_042c 
+
+        code_0369
+  0369:3c                 dup 
+  036a:35 04              ldi 4 
+  036c:1a                 eq? 
+  036d:30 0019            bnt code_0389 
+  0370:39 2b            pushi 2b // $2b number
+  0372:78               push1 
+  0373:38 00c0          pushi c0 // $c0 highlightColor
+  0376:38 00a2          pushi a2 // $a2 setLoop
+  0379:78               push1 
+  037a:78               push1 
+  037b:39 2a            pushi 2a // $2a play
+  037d:76               push0 
+  037e:81 67              lag  
+  0380:4a 10             send 10 
+
+  0382:35 6e              ldi 6e 
+  0384:65 16             aTop ticks 
+  0386:32 00a3            jmp code_042c 
+
+        code_0389
+  0389:3c                 dup 
+  038a:35 05              ldi 5 
+  038c:1a                 eq? 
+  038d:30 003f            bnt code_03cf 
+  0390:38 0219          pushi 219 // $219 firstSound
+  0393:78               push1 
+  0394:38 01f4          pushi 1f4 // $1f4 selector
+  0397:38 021a          pushi 21a // $21a lastSound
+  039a:78               push1 
+  039b:38 01f6          pushi 1f6 // $1f6 topValue
+  039e:51 74            class WrapMusic 
+  03a0:4a 0c             send c 
+
+  03a2:39 2b            pushi 2b // $2b number
+  03a4:78               push1 
+  03a5:38 01f4          pushi 1f4 // $1f4 selector
+  03a8:39 2a            pushi 2a // $2a play
+  03aa:78               push1 
+  03ab:51 74            class WrapMusic 
+  03ad:36                push 
+  03ae:38 00a1          pushi a1 // $a1 setVol
+  03b1:78               push1 
+  03b2:39 50            pushi 50 // $50 title
+  03b4:39 66            pushi 66 // $66 flags
+  03b6:78               push1 
+  03b7:78               push1 
+  03b8:38 00a2          pushi a2 // $a2 setLoop
+  03bb:78               push1 
+  03bc:78               push1 
+  03bd:81 66              lag  
+  03bf:4a 1e             send 1e 
+
+  03c1:38 008e          pushi 8e // $8e setScript
+  03c4:7a               push2 
+  03c5:72 0698          lofsa $0698 // sLimoLeaves
+  03c8:36                push 
+  03c9:7c            pushSelf 
+  03ca:54 08             self 8 
+
+  03cc:32 005d            jmp code_042c 
+
+        code_03cf
+  03cf:3c                 dup 
+  03d0:35 06              ldi 6 
+  03d2:1a                 eq? 
+  03d3:30 0013            bnt code_03e9 
+  03d6:76               push0 
+  03d7:45 03 00         callb procedure_0003 0 //  
+
+  03da:39 6c            pushi 6c // $6c dispose
+  03dc:76               push0 
+  03dd:72 0708          lofsa $0708 // limo
+  03e0:4a 04             send 4 
+
+  03e2:35 01              ldi 1 
+  03e4:65 10             aTop cycles 
+  03e6:32 0043            jmp code_042c 
+
+        code_03e9
+  03e9:3c                 dup 
+  03ea:35 07              ldi 7 
+  03ec:1a                 eq? 
+  03ed:30 003c            bnt code_042c 
+  03f0:38 020a          pushi 20a // $20a normalize
+  03f3:76               push0 
+  03f4:81 00              lag  
+  03f6:4a 04             send 4 
+
+  03f8:39 6c            pushi 6c // $6c dispose
+  03fa:76               push0 
+  03fb:54 04             self 4 
+
+  03fd:39 0d            pushi d // $d lsTop
+  03ff:38 01f4          pushi 1f4 // $1f4 selector
+  0402:39 05            pushi 5 // $5 view
+  0404:39 51            pushi 51 // $51 button
+  0406:72 09f4          lofsa $09f4 // Save
+  0409:36                push 
+  040a:78               push1 
+  040b:39 51            pushi 51 // $51 button
+  040d:72 09f9          lofsa $09f9 // Nah, Why Bother?
+  0410:36                push 
+  0411:76               push0 
+  0412:39 50            pushi 50 // $50 title
+  0414:72 0a0a          lofsa $0a0a // AL says
+  0417:36                push 
+  0418:39 43            pushi 43 // $43 at
+  041a:39 ff            pushi ff // $ff syncNum
+  041c:39 14            pushi 14 // $14 brLeft
+  041e:47 ff 00 1a      calle ff procedure_0000 1a //  
+
+  0422:30 0007            bnt code_042c 
+  0425:39 4e            pushi 4e // $4e save
+  0427:76               push0 
+  0428:81 01              lag  
+  042a:4a 04             send 4 
+
+
+        code_042c
+  042c:3a                toss 
+  042d:48                 ret 
+    )
+
+)
+
+// 0530
+(instance sEnterLimo of Script
+    (properties
+        client $0
+        state $ffff
+        start $0
+        timer $0
+        cycles $0
+        seconds $0
+        lastSeconds $0
+        ticks $0
+        lastTicks $0
+        register $0
+        script $0
+        caller $0
+        next $0
+    )
+    (method (changeState) // method_0468
+  0468:3f 02             link 2 // (var $2)
+  046a:87 01              lap param1 
+  046c:65 0a             aTop state 
+  046e:36                push 
+  046f:3c                 dup 
+  0470:35 00              ldi 0 
+  0472:1a                 eq? 
+  0473:30 0019            bnt code_048f 
+  0476:76               push0 
+  0477:45 02 00         callb procedure_0002 0 //  
+
+  047a:38 00a2          pushi a2 // $a2 setLoop
+  047d:78               push1 
+  047e:39 ff            pushi ff // $ff syncNum
+  0480:38 00e4          pushi e4 // $e4 setHeading
+  0483:7a               push2 
+  0484:38 00b4          pushi b4 // $b4 busy
+  0487:7c            pushSelf 
+  0488:81 00              lag  
+  048a:4a 0e             send e 
+
+  048c:32 0098            jmp code_0527 
+
+        code_048f
+  048f:3c                 dup 
+  0490:35 01              ldi 1 
+  0492:1a                 eq? 
+  0493:30 0019            bnt code_04af 
+  0496:39 2b            pushi 2b // $2b number
+  0498:78               push1 
+  0499:38 00bf          pushi bf // $bf maskCel
+  049c:38 00a2          pushi a2 // $a2 setLoop
+  049f:78               push1 
+  04a0:78               push1 
+  04a1:39 2a            pushi 2a // $2a play
+  04a3:76               push0 
+  04a4:81 67              lag  
+  04a6:4a 10             send 10 
+
+  04a8:35 32              ldi 32 
+  04aa:65 16             aTop ticks 
+  04ac:32 0078            jmp code_0527 
+
+        code_04af
+  04af:3c                 dup 
+  04b0:35 02              ldi 2 
+  04b2:1a                 eq? 
+  04b3:30 0015            bnt code_04cb 
+  04b6:38 011b          pushi 11b // $11b setMotion
+  04b9:39 04            pushi 4 // $4 x
+  04bb:51 1e            class MoveTo 
+  04bd:36                push 
+  04be:39 17            pushi 17 // $17 name
+  04c0:38 00b7          pushi b7 // $b7 top
+  04c3:7c            pushSelf 
+  04c4:81 00              lag  
+  04c6:4a 0c             send c 
+
+  04c8:32 005c            jmp code_0527 
+
+        code_04cb
+  04cb:3c                 dup 
+  04cc:35 03              ldi 3 
+  04ce:1a                 eq? 
+  04cf:30 000e            bnt code_04e0 
+  04d2:39 69            pushi 69 // $69 hide
+  04d4:76               push0 
+  04d5:81 00              lag  
+  04d7:4a 04             send 4 
+
+  04d9:35 0a              ldi a 
+  04db:65 16             aTop ticks 
+  04dd:32 0047            jmp code_0527 
+
+        code_04e0
+  04e0:3c                 dup 
+  04e1:35 04              ldi 4 
+  04e3:1a                 eq? 
+  04e4:30 0019            bnt code_0500 
+  04e7:39 2b            pushi 2b // $2b number
+  04e9:78               push1 
+  04ea:38 00c0          pushi c0 // $c0 highlightColor
+  04ed:38 00a2          pushi a2 // $a2 setLoop
+  04f0:78               push1 
+  04f1:78               push1 
+  04f2:39 2a            pushi 2a // $2a play
+  04f4:76               push0 
+  04f5:81 67              lag  
+  04f7:4a 10             send 10 
+
+  04f9:35 6e              ldi 6e 
+  04fb:65 16             aTop ticks 
+  04fd:32 0027            jmp code_0527 
+
+        code_0500
+  0500:3c                 dup 
+  0501:35 05              ldi 5 
+  0503:1a                 eq? 
+  0504:30 000e            bnt code_0515 
+  0507:38 008e          pushi 8e // $8e setScript
+  050a:7a               push2 
+  050b:72 0698          lofsa $0698 // sLimoLeaves
+  050e:36                push 
+  050f:7c            pushSelf 
+  0510:54 08             self 8 
+
+  0512:32 0012            jmp code_0527 
+
+        code_0515
+  0515:3c                 dup 
+  0516:35 06              ldi 6 
+  0518:1a                 eq? 
+  0519:30 000b            bnt code_0527 
+  051c:38 0179          pushi 179 // $179 newRoom
+  051f:78               push1 
+  0520:38 00c8          pushi c8 // $c8 dispatchEvent
+  0523:81 02              lag  
+  0525:4a 06             send 6 
+
+
+        code_0527
+  0527:3a                toss 
+  0528:48                 ret 
+  0529:00                bnot 
+    )
+
+)
+
+// 0692
+(instance sLimoLeaves of Script
+    (properties
+        client $0
+        state $ffff
+        start $0
+        timer $0
+        cycles $0
+        seconds $0
+        lastSeconds $0
+        ticks $0
+        lastTicks $0
+        register $0
+        script $0
+        caller $0
+        next $0
+    )
+    (method (doit) // method_0564
+  0564:39 3c            pushi 3c // $3c doit
+  0566:76               push0 
+  0567:57 06 04         super Script 4 
+
+  056a:38 009a          pushi 9a // $9a prevSignal
+  056d:76               push0 
+  056e:81 67              lag  
+  0570:4a 04             send 4 
+
+  0572:36                push 
+  0573:35 0a              ldi a 
+  0575:1a                 eq? 
+  0576:30 000f            bnt code_0588 
+  0579:38 009a          pushi 9a // $9a prevSignal
+  057c:78               push1 
+  057d:76               push0 
+  057e:81 67              lag  
+  0580:4a 06             send 6 
+
+  0582:38 008d          pushi 8d // $8d cue
+  0585:76               push0 
+  0586:54 04             self 4 
+
+
+        code_0588
+  0588:48                 ret 
+    )
+
+    (method (changeState) // method_0589
+  0589:3f 02             link 2 // (var $2)
+  058b:87 01              lap param1 
+  058d:65 0a             aTop state 
+  058f:36                push 
+  0590:3c                 dup 
+  0591:35 00              ldi 0 
+  0593:1a                 eq? 
+  0594:30 0015            bnt code_05ac 
+  0597:39 2b            pushi 2b // $2b number
+  0599:78               push1 
+  059a:38 00c2          pushi c2 // $c2 show
+  059d:38 00a2          pushi a2 // $a2 setLoop
+  05a0:78               push1 
+  05a1:78               push1 
+  05a2:39 2a            pushi 2a // $2a play
+  05a4:76               push0 
+  05a5:81 67              lag  
+  05a7:4a 10             send 10 
+
+  05a9:32 00dd            jmp code_0689 
+
+        code_05ac
+  05ac:3c                 dup 
+  05ad:35 01              ldi 1 
+  05af:1a                 eq? 
+  05b0:30 0022            bnt code_05d5 
+  05b3:38 0134          pushi 134 // $134 setStep
+  05b6:7a               push2 
+  05b7:7a               push2 
+  05b8:7a               push2 
+  05b9:38 011b          pushi 11b // $11b setMotion
+  05bc:39 04            pushi 4 // $4 x
+  05be:51 1e            class MoveTo 
+  05c0:36                push 
+  05c1:39 43            pushi 43 // $43 at
+  05c3:39 03            pushi 3 // $3 y
+  05c5:76               push0 
+  05c6:72 0708          lofsa $0708 // limo
+  05c9:4a 04             send 4 
+
+  05cb:36                push 
+  05cc:7c            pushSelf 
+  05cd:72 0708          lofsa $0708 // limo
+  05d0:4a 14             send 14 
+
+  05d2:32 00b4            jmp code_0689 
+
+        code_05d5
+  05d5:3c                 dup 
+  05d6:35 02              ldi 2 
+  05d8:1a                 eq? 
+  05d9:30 0023            bnt code_05ff 
+  05dc:38 0134          pushi 134 // $134 setStep
+  05df:7a               push2 
+  05e0:39 04            pushi 4 // $4 x
+  05e2:3c                 dup 
+  05e3:38 011b          pushi 11b // $11b setMotion
+  05e6:39 04            pushi 4 // $4 x
+  05e8:51 1e            class MoveTo 
+  05ea:36                push 
+  05eb:39 2d            pushi 2d // $2d client
+  05ed:39 03            pushi 3 // $3 y
+  05ef:76               push0 
+  05f0:72 0708          lofsa $0708 // limo
+  05f3:4a 04             send 4 
+
+  05f5:36                push 
+  05f6:7c            pushSelf 
+  05f7:72 0708          lofsa $0708 // limo
+  05fa:4a 14             send 14 
+
+  05fc:32 008a            jmp code_0689 
+
+        code_05ff
+  05ff:3c                 dup 
+  0600:35 03              ldi 3 
+  0602:1a                 eq? 
+  0603:30 0023            bnt code_0629 
+  0606:38 0134          pushi 134 // $134 setStep
+  0609:7a               push2 
+  060a:39 06            pushi 6 // $6 loop
+  060c:3c                 dup 
+  060d:38 011b          pushi 11b // $11b setMotion
+  0610:39 04            pushi 4 // $4 x
+  0612:51 1e            class MoveTo 
+  0614:36                push 
+  0615:39 0f            pushi f // $f lsBottom
+  0617:39 03            pushi 3 // $3 y
+  0619:76               push0 
+  061a:72 0708          lofsa $0708 // limo
+  061d:4a 04             send 4 
+
+  061f:36                push 
+  0620:7c            pushSelf 
+  0621:72 0708          lofsa $0708 // limo
+  0624:4a 14             send 14 
+
+  0626:32 0060            jmp code_0689 
+
+        code_0629
+  0629:3c                 dup 
+  062a:35 04              ldi 4 
+  062c:1a                 eq? 
+  062d:30 0023            bnt code_0653 
+  0630:38 0134          pushi 134 // $134 setStep
+  0633:7a               push2 
+  0634:39 09            pushi 9 // $9 nsTop
+  0636:3c                 dup 
+  0637:38 011b          pushi 11b // $11b setMotion
+  063a:39 04            pushi 4 // $4 x
+  063c:51 1e            class MoveTo 
+  063e:36                push 
+  063f:39 e7            pushi e7 // $e7 dynamic
+  0641:39 03            pushi 3 // $3 y
+  0643:76               push0 
+  0644:72 0708          lofsa $0708 // limo
+  0647:4a 04             send 4 
+
+  0649:36                push 
+  064a:7c            pushSelf 
+  064b:72 0708          lofsa $0708 // limo
+  064e:4a 14             send 14 
+
+  0650:32 0036            jmp code_0689 
+
+        code_0653
+  0653:3c                 dup 
+  0654:35 05              ldi 5 
+  0656:1a                 eq? 
+  0657:30 0023            bnt code_067d 
+  065a:38 0134          pushi 134 // $134 setStep
+  065d:7a               push2 
+  065e:39 0c            pushi c // $c nsRight
+  0660:3c                 dup 
+  0661:38 011b          pushi 11b // $11b setMotion
+  0664:39 04            pushi 4 // $4 x
+  0666:51 1e            class MoveTo 
+  0668:36                push 
+  0669:39 a1            pushi a1 // $a1 setVol
+  066b:39 03            pushi 3 // $3 y
+  066d:76               push0 
+  066e:72 0708          lofsa $0708 // limo
+  0671:4a 04             send 4 
+
+  0673:36                push 
+  0674:7c            pushSelf 
+  0675:72 0708          lofsa $0708 // limo
+  0678:4a 14             send 14 
+
+  067a:32 000c            jmp code_0689 
+
+        code_067d
+  067d:3c                 dup 
+  067e:35 06              ldi 6 
+  0680:1a                 eq? 
+  0681:30 0005            bnt code_0689 
+  0684:39 6c            pushi 6c // $6c dispose
+  0686:76               push0 
+  0687:54 04             self 4 
+
+
+        code_0689
+  0689:3a                toss 
+  068a:48                 ret 
+  068b:00                bnot 
+    )
+
+)
+
+// 0702
+(instance limo of Actor
+    (properties
+        x $4b
+        y $bd
+        z $0
+        heading $0
+        noun $0
+        nsTop $0
+        nsLeft $0
+        nsBottom $0
+        nsRight $0
+        description $a33
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $17
+        approachY $a3
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $a42
+        yStep $2
+        view $1f4
+        loop $0
+        cel $0
+        priority $e
+        underBits $0
+        signal $4810
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+        cycleSpeed $6
+        script $0
+        cycler $0
+        timer $0
+        detailLevel $0
+        illegalBits $8000
+        xLast $0
+        yLast $0
+        xStep $3
+        moveSpeed $6
+        blocks $0
+        baseSetter $0
+        mover $0
+        looper $0
+        viewer $0
+        avoider $0
+        code $0
+    )
+    (method (doVerb) // method_06ca
+  06ca:8f 01              lsp param1 
+  06cc:3c                 dup 
+  06cd:35 03              ldi 3 
+  06cf:1a                 eq? 
+  06d0:30 001b            bnt code_06ee 
+  06d3:76               push0 
+  06d4:45 02 00         callb procedure_0002 0 //  
+
+  06d7:38 009f          pushi 9f // $9f fade
+  06da:76               push0 
+  06db:81 66              lag  
+  06dd:4a 04             send 4 
+
+  06df:38 008e          pushi 8e // $8e setScript
+  06e2:78               push1 
+  06e3:72 0536          lofsa $0536 // sEnterLimo
+  06e6:36                push 
+  06e7:81 02              lag  
+  06e9:4a 06             send 6 
+
+  06eb:32 000b            jmp code_06f9 
+
+        code_06ee
+  06ee:38 010c          pushi 10c // $10c doVerb
+  06f1:78               push1 
+  06f2:8f 01              lsp param1 
+  06f4:59 02            &rest 2 
+  06f6:57 30 06         super Actor 6 
+
+
+        code_06f9
+  06f9:3a                toss 
+  06fa:48                 ret 
+  06fb:00                bnot 
+    )
+
+)
+
+// 07ac
+(instance doorR of Feature
+    (properties
+        x $bc
+        y $62
+        z $0
+        heading $0
+        noun $0
+        nsTop $38
+        nsLeft $a8
+        nsBottom $8d
+        nsRight $d1
+        description $a6a
+        sightAngle $28
+        actions $0
+        onMeCheck $6789
+        approachX $9a
+        approachY $90
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $a79
+    )
+    (method (doVerb) // method_0782
+  0782:8f 01              lsp param1 
+  0784:3c                 dup 
+  0785:35 03              ldi 3 
+  0787:1a                 eq? 
+  0788:30 000c            bnt code_0797 
+  078b:38 00b5          pushi b5 // $b5 open
+  078e:76               push0 
+  078f:72 07f2          lofsa $07f2 // door
+  0792:4a 04             send 4 
+
+  0794:32 000d            jmp code_07a4 
+
+        code_0797
+  0797:38 010c          pushi 10c // $10c doVerb
+  079a:7a               push2 
+  079b:8f 01              lsp param1 
+  079d:8f 02              lsp param2 
+  079f:59 03            &rest 3 
+  07a1:57 2c 08         super Feature 8 
+
+
+        code_07a4
+  07a4:3a                toss 
+  07a5:48                 ret 
+    )
+
+)
+
+// 07ec
+(instance door of Door
+    (properties
+        x $92
+        y $8d
+        z $0
+        heading $0
+        noun $0
+        nsTop $0
+        nsLeft $0
+        nsBottom $0
+        nsRight $0
+        description $a6a
+        sightAngle $28
+        actions $0
+        onMeCheck $6789
+        approachX $9a
+        approachY $90
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $a79
+        yStep $2
+        view $1f4
+        loop $2
+        cel $0
+        priority $0
+        underBits $0
+        signal $0
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+        cycleSpeed $6
+        script $0
+        cycler $0
+        timer $0
+        detailLevel $0
+        entranceTo $1fe
+        locked $0
+        openSnd $28
+        closeSnd $29
+        state $0
+        doubleDoor $0
+        forceOpen $0
+        caller $0
+        moveToX $9c
+        moveToY $87
+        enterType $0
+        exitType $0
+        closeScript $0
+        openScript $0
+    )
+)
+
+// 0896
+(instance lavaLamp1 of Feature
+    (properties
+        x $4c
+        y $61
+        z $0
+        heading $0
+        noun $0
+        nsTop $29
+        nsLeft $29
+        nsBottom $99
+        nsRight $6f
+        description $ad9
+        sightAngle $28
+        actions $0
+        onMeCheck $8
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $ae7
+    )
+    (method (doVerb) // method_086c
+  086c:8f 01              lsp param1 
+  086e:3c                 dup 
+  086f:35 03              ldi 3 
+  0871:1a                 eq? 
+  0872:30 000c            bnt code_0881 
+  0875:7a               push2 
+  0876:38 01f4          pushi 1f4 // $1f4 selector
+  0879:39 06            pushi 6 // $6 loop
+  087b:45 0e 04         callb procedure_000e 4 //  
+
+  087e:32 000d            jmp code_088e 
+
+        code_0881
+  0881:38 010c          pushi 10c // $10c doVerb
+  0884:7a               push2 
+  0885:8f 01              lsp param1 
+  0887:8f 02              lsp param2 
+  0889:59 03            &rest 3 
+  088b:57 2c 08         super Feature 8 
+
+
+        code_088e
+  088e:3a                toss 
+  088f:48                 ret 
+    )
+
+)
+
+// 08fe
+(instance lavaLamp2 of Feature
+    (properties
+        x $100
+        y $5d
+        z $0
+        heading $0
+        noun $0
+        nsTop $21
+        nsLeft $dc
+        nsBottom $9a
+        nsRight $124
+        description $ad9
+        sightAngle $28
+        actions $0
+        onMeCheck $8
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $ae7
+    )
+    (method (doVerb) // method_08d4
+  08d4:8f 01              lsp param1 
+  08d6:3c                 dup 
+  08d7:35 03              ldi 3 
+  08d9:1a                 eq? 
+  08da:30 000c            bnt code_08e9 
+  08dd:7a               push2 
+  08de:38 01f4          pushi 1f4 // $1f4 selector
+  08e1:39 06            pushi 6 // $6 loop
+  08e3:45 0e 04         callb procedure_000e 4 //  
+
+  08e6:32 000d            jmp code_08f6 
+
+        code_08e9
+  08e9:38 010c          pushi 10c // $10c doVerb
+  08ec:7a               push2 
+  08ed:8f 01              lsp param1 
+  08ef:8f 02              lsp param2 
+  08f1:59 03            &rest 3 
+  08f3:57 2c 08         super Feature 8 
+
+
+        code_08f6
+  08f6:3a                toss 
+  08f7:48                 ret 
+    )
+
+)
+
+// 0954
+(instance plants1 of Feature
+    (properties
+        x $4c
+        y $61
+        z $0
+        heading $0
+        noun $0
+        nsTop $29
+        nsLeft $29
+        nsBottom $99
+        nsRight $6f
+        description $b37
+        sightAngle $28
+        actions $0
+        onMeCheck $4
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $b41
+    )
+    (method (doVerb) // method_093c
+  093c:8f 01              lsp param1 
+  093e:38 010c          pushi 10c // $10c doVerb
+  0941:7a               push2 
+  0942:8f 01              lsp param1 
+  0944:8f 02              lsp param2 
+  0946:59 03            &rest 3 
+  0948:57 2c 08         super Feature 8 
+
+  094b:3a                toss 
+  094c:48                 ret 
+  094d:00                bnot 
+    )
+
+)
+
+// 09aa
+(instance plants2 of Feature
+    (properties
+        x $100
+        y $5d
+        z $0
+        heading $0
+        noun $0
+        nsTop $21
+        nsLeft $dc
+        nsBottom $9a
+        nsRight $124
+        description $b37
+        sightAngle $28
+        actions $0
+        onMeCheck $4
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $b41
+    )
+    (method (doVerb) // method_0992
+  0992:8f 01              lsp param1 
+  0994:38 010c          pushi 10c // $10c doVerb
+  0997:7a               push2 
+  0998:8f 01              lsp param1 
+  099a:8f 02              lsp param2 
+  099c:59 03            &rest 3 
+  099e:57 2c 08         super Feature 8 
+
+  09a1:3a                toss 
+  09a2:48                 ret 
+  09a3:00                bnot 
+    )
+
+)
+
+
+

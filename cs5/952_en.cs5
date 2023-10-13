@@ -1,0 +1,16 @@
+^ƒ
+^%15s: 
+^%d
+^%u
+^%x
+^%02d:%02d:%02d
+^%02d/%02d/%02d
+^%s.mem
+^%s.log
+^Log file "%s" exists
+^error: couldn't open %s
+^Severity of bug...
+^QA-COMMENT%d
+^Comment line %d of %d:
+^Who can fix bug...
+^couldn't open memory file %s!

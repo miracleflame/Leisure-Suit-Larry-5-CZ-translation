@@ -1,0 +1,207 @@
+(script 40)
+
+(string
+    string_016a "HollywoodRgn"
+    string_0177 "sRemember"
+    string_0181 ""
+)
+
+(said
+)
+
+(local
+)
+
+// 0048
+(instance publicHollywoodRgn of Rgn
+    (properties
+        script $0
+        number $0
+        timer $0
+        keep $0
+        initialized $0
+        lookStr $0
+    )
+    (method (init) // method_000e
+  000e:78               push1 
+  000f:39 07            pushi 7 // $7 cel
+  0011:45 06 02         callb procedure_0006 2 //  
+
+  0014:30 000a            bnt code_0021 
+  0017:38 008e          pushi 8e // $8e setScript
+  001a:78               push1 
+  001b:72 013c          lofsa $013c // sRemember
+  001e:36                push 
+  001f:54 06             self 6 
+
+
+        code_0021
+  0021:39 6b            pushi 6b // $6b init
+  0023:76               push0 
+  0024:57 42 04         super Rgn 4 
+
+  0027:48                 ret 
+    )
+
+    (method (newRoom) // method_0028
+  0028:39 05            pushi 5 // $5 view
+  002a:8f 01              lsp param1 
+  002c:38 00a0          pushi a0 // $a0 mute
+  002f:38 00aa          pushi aa // $aa setSize
+  0032:38 00b4          pushi b4 // $b4 busy
+  0035:38 00be          pushi be // $be maskLoop
+  0038:46 03e7 0005 0a  calle 3e7 procedure_0005 a //  
+
+  003e:65 0e             aTop keep 
+  0040:48                 ret 
+  0041:00                bnot 
+    )
+
+)
+
+// 0136
+(instance sRemember of Script
+    (properties
+        client $0
+        state $ffff
+        start $0
+        timer $0
+        cycles $0
+        seconds $0
+        lastSeconds $0
+        ticks $0
+        lastTicks $0
+        register $0
+        script $0
+        caller $0
+        next $0
+    )
+    (method (changeState) // method_0072
+  0072:87 01              lap param1 
+  0074:65 0a             aTop state 
+  0076:36                push 
+  0077:3c                 dup 
+  0078:35 00              ldi 0 
+  007a:1a                 eq? 
+  007b:30 0007            bnt code_0085 
+  007e:35 1e              ldi 1e 
+  0080:65 12             aTop seconds 
+  0082:32 00a8            jmp code_012d 
+
+        code_0085
+  0085:3c                 dup 
+  0086:35 01              ldi 1 
+  0088:1a                 eq? 
+  0089:30 0015            bnt code_00a1 
+  008c:7a               push2 
+  008d:39 28            pushi 28 // $28 message
+  008f:76               push0 
+  0090:45 0e 04         callb procedure_000e 4 //  
+
+  0093:7a               push2 
+  0094:39 28            pushi 28 // $28 message
+  0096:78               push1 
+  0097:45 0e 04         callb procedure_000e 4 //  
+
+  009a:35 78              ldi 78 
+  009c:65 12             aTop seconds 
+  009e:32 008c            jmp code_012d 
+
+        code_00a1
+  00a1:3c                 dup 
+  00a2:35 02              ldi 2 
+  00a4:1a                 eq? 
+  00a5:30 0026            bnt code_00ce 
+  00a8:7a               push2 
+  00a9:39 28            pushi 28 // $28 message
+  00ab:7a               push2 
+  00ac:45 0e 04         callb procedure_000e 4 //  
+
+  00af:7a               push2 
+  00b0:39 28            pushi 28 // $28 message
+  00b2:39 03            pushi 3 // $3 y
+  00b4:45 0e 04         callb procedure_000e 4 //  
+
+  00b7:39 05            pushi 5 // $5 view
+  00b9:39 28            pushi 28 // $28 message
+  00bb:39 04            pushi 4 // $4 x
+  00bd:39 43            pushi 43 // $43 at
+  00bf:39 ff            pushi ff // $ff syncNum
+  00c1:38 00b9          pushi b9 // $b9 bottom
+  00c4:45 0e 0a         callb procedure_000e a //  
+
+  00c7:35 78              ldi 78 
+  00c9:65 12             aTop seconds 
+  00cb:32 005f            jmp code_012d 
+
+        code_00ce
+  00ce:3c                 dup 
+  00cf:35 03              ldi 3 
+  00d1:1a                 eq? 
+  00d2:30 0017            bnt code_00ec 
+  00d5:7a               push2 
+  00d6:39 28            pushi 28 // $28 message
+  00d8:39 05            pushi 5 // $5 view
+  00da:45 0e 04         callb procedure_000e 4 //  
+
+  00dd:7a               push2 
+  00de:39 28            pushi 28 // $28 message
+  00e0:39 06            pushi 6 // $6 loop
+  00e2:45 0e 04         callb procedure_000e 4 //  
+
+  00e5:35 78              ldi 78 
+  00e7:65 12             aTop seconds 
+  00e9:32 0041            jmp code_012d 
+
+        code_00ec
+  00ec:3c                 dup 
+  00ed:35 04              ldi 4 
+  00ef:1a                 eq? 
+  00f0:30 001f            bnt code_0112 
+  00f3:7a               push2 
+  00f4:39 28            pushi 28 // $28 message
+  00f6:39 07            pushi 7 // $7 cel
+  00f8:45 0e 04         callb procedure_000e 4 //  
+
+  00fb:7a               push2 
+  00fc:39 28            pushi 28 // $28 message
+  00fe:39 08            pushi 8 // $8 underBits
+  0100:45 0e 04         callb procedure_000e 4 //  
+
+  0103:7a               push2 
+  0104:39 28            pushi 28 // $28 message
+  0106:39 09            pushi 9 // $9 nsTop
+  0108:45 0e 04         callb procedure_000e 4 //  
+
+  010b:35 78              ldi 78 
+  010d:65 12             aTop seconds 
+  010f:32 001b            jmp code_012d 
+
+        code_0112
+  0112:3c                 dup 
+  0113:35 05              ldi 5 
+  0115:1a                 eq? 
+  0116:30 0014            bnt code_012d 
+  0119:7a               push2 
+  011a:39 28            pushi 28 // $28 message
+  011c:39 0a            pushi a // $a nsLeft
+  011e:45 0e 04         callb procedure_000e 4 //  
+
+  0121:7a               push2 
+  0122:39 28            pushi 28 // $28 message
+  0124:39 0b            pushi b // $b nsBottom
+  0126:45 0e 04         callb procedure_000e 4 //  
+
+  0129:35 78              ldi 78 
+  012b:65 12             aTop seconds 
+
+        code_012d
+  012d:3a                toss 
+  012e:48                 ret 
+  012f:00                bnot 
+    )
+
+)
+
+
+

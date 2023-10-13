@@ -1,0 +1,45 @@
+(script 11)
+
+(string
+    string_0062 "disposeCode"
+)
+
+(said
+)
+
+(local
+)
+
+// 0048
+(instance publicdisposeCode of Code
+    (properties
+    )
+    (method (doit) // method_000e
+  000e:39 0e            pushi e // $e lsLeft
+  0010:76               push0 
+  0011:39 15            pushi 15 // $15 brBottom
+  0013:38 03ac          pushi 3ac // $3ac sel_940
+  0016:38 03a0          pushi 3a0 // $3a0 sel_928
+  0019:38 03e1          pushi 3e1 // $3e1 sel_993
+  001c:38 03b7          pushi 3b7 // $3b7 sel_951
+  001f:38 03ab          pushi 3ab // $3ab sel_939
+  0022:38 03bc          pushi 3bc // $3bc sel_956
+  0025:38 03ae          pushi 3ae // $3ae sel_942
+  0028:38 03c9          pushi 3c9 // $3c9 sel_969
+  002b:38 03ad          pushi 3ad // $3ad sel_941
+  002e:39 14            pushi 14 // $14 brLeft
+  0030:39 16            pushi 16 // $16 brRight
+  0032:38 03b4          pushi 3b4 // $3b4 sel_948
+  0035:46 03be 0000 1c  calle 3be procedure_0000 1c //  
+
+  003b:78               push1 
+  003c:39 0b            pushi b // $b nsBottom
+  003e:43 03 02         callk DisposeScript 2 
+
+  0041:48                 ret 
+    )
+
+)
+
+
+

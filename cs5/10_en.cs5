@@ -1,0 +1,37 @@
+^ƒ
+^%d
+^class: %s
+view: %d
+loop: %d
+cel: %d
+posn: %d %d %d
+heading: %d
+pri: %d
+signal: $%x
+illBits: $%x
+
+^name: %s
+view: %d
+loop: %d
+cel: %d
+posn: %d %d %d
+heading: %d
+pri: %d
+signal: $%x
+illBits: $%x
+OnControl: $%x
+Origin on: $%x 
+^ Global %d: %s 
+^ Global %d: %d 
+^name: %s
+number: %d
+current pic: %d
+style: %d
+horizon: %d
+north: %d
+south: %d
+east: %d
+west: %d
+script: %s 
+^%d/%d
+^%d, %d      %s

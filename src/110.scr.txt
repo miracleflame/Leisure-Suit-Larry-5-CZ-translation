@@ -1,0 +1,749 @@
+(script 110)
+
+(string
+    string_04d2 "Fast Forward"
+    string_04df "Really? Show Me!"
+    string_04f0 "Oops"
+    string_04f5 "rm110"
+    string_04fb "Executive Producer\n\nKen Williams"
+    string_051c "Creative Director\n\nBill Davis"
+    string_053a "Director\n\nAl Lowe"
+    string_054c "Producer\n\nGuruka Singh Khalsa"
+    string_056a "Game Designer\n\nAl Lowe"
+    string_0581 "Production Designer\n\nAndy Hoyos"
+    string_05a1 "Art Designer\n\nJane Cardinal"
+    string_05bd "Lead Programmer\n\nBrian K. Hughes"
+    string_05de "Composer\n\nCraig Safan"
+    string_05f4 "sCartoon"
+    string_05fd "pattiPic"
+    string_0606 "larryPic"
+    string_060f ""
+)
+
+(said
+)
+
+(local
+)
+
+// 0148
+(instance publicrm110 of LLRoom
+    (properties
+        script $0
+        number $0
+        timer $0
+        keep $0
+        initialized $0
+        lookStr $0
+        picture $73
+        style $ffff
+        horizon $0
+        controls $0
+        north $0
+        east $0
+        south $0
+        west $0
+        curPic $0
+        picAngle $0
+        vanishingX $a0
+        vanishingY $8ad0
+        obstacles $0
+    )
+    (method (init) // method_000e
+  000e:39 6b            pushi 6b // $6b init
+  0010:76               push0 
+  0011:72 043a          lofsa $043a // larryPic
+  0014:4a 04             send 4 
+
+  0016:39 1f            pushi 1f // $1f style
+  0018:78               push1 
+  0019:78               push1 
+  001a:76               push0 
+  001b:45 06 02         callb procedure_0006 2 //  
+
+  001e:30 0005            bnt code_0026 
+  0021:35 09              ldi 9 
+  0023:32 0002            jmp code_0028 
+
+        code_0026
+  0026:35 08              ldi 8 
+
+        code_0028
+  0028:36                push 
+  0029:54 06             self 6 
+
+  002b:39 6b            pushi 6b // $6b init
+  002d:76               push0 
+  002e:57 72 04         super LLRoom 4 
+
+  0031:7a               push2 
+  0032:38 0081          pushi 81 // $81 handleEvent
+  0035:78               push1 
+  0036:46 03be 0000 04  calle 3be procedure_0000 4 //  
+
+  003c:39 03            pushi 3 // $3 y
+  003e:38 0080          pushi 80 // $80 indexOf
+  0041:39 73            pushi 73 // $73 add
+  0043:39 74            pushi 74 // $74 eachElementDo
+  0045:46 03be 0000 06  calle 3be procedure_0000 6 //  
+
+  004b:39 7d            pushi 7d // $7d addToFront
+  004d:78               push1 
+  004e:7c            pushSelf 
+  004f:81 48              lag  
+  0051:4a 06             send 6 
+
+  0053:39 7d            pushi 7d // $7d addToFront
+  0055:78               push1 
+  0056:7c            pushSelf 
+  0057:81 49              lag  
+  0059:4a 06             send 6 
+
+  005b:78               push1 
+  005c:39 78            pushi 78 // $78 isEmpty
+  005e:45 0d 02         callb procedure_000d 2 //  
+
+  0061:38 008e          pushi 8e // $8e setScript
+  0064:78               push1 
+  0065:72 03a8          lofsa $03a8 // sCartoon
+  0068:36                push 
+  0069:54 06             self 6 
+
+  006b:48                 ret 
+    )
+
+    (method (dispose) // method_011a
+  011a:39 6c            pushi 6c // $6c dispose
+  011c:76               push0 
+  011d:59 01            &rest 1 
+  011f:57 72 04         super LLRoom 4 
+
+  0122:39 54            pushi 54 // $54 delete
+  0124:78               push1 
+  0125:7c            pushSelf 
+  0126:81 48              lag  
+  0128:4a 06             send 6 
+
+  012a:39 54            pushi 54 // $54 delete
+  012c:78               push1 
+  012d:7c            pushSelf 
+  012e:81 49              lag  
+  0130:4a 06             send 6 
+
+  0132:38 009f          pushi 9f // $9f fade
+  0135:39 04            pushi 4 // $4 x
+  0137:76               push0 
+  0138:39 0f            pushi f // $f lsBottom
+  013a:39 0c            pushi c // $c nsRight
+  013c:78               push1 
+  013d:81 66              lag  
+  013f:4a 0c             send c 
+
+  0141:48                 ret 
+    )
+
+    (method (handleEvent) // method_006c
+  006c:39 22            pushi 22 // $22 type
+  006e:76               push0 
+  006f:87 01              lap param1 
+  0071:4a 04             send 4 
+
+  0073:30 0098            bnt code_010e 
+  0076:39 28            pushi 28 // $28 message
+  0078:76               push0 
+  0079:87 01              lap param1 
+  007b:4a 04             send 4 
+
+  007d:36                push 
+  007e:35 1b              ldi 1b 
+  0080:1c                 ne? 
+  0081:30 008a            bnt code_010e 
+  0084:39 28            pushi 28 // $28 message
+  0086:76               push0 
+  0087:87 01              lap param1 
+  0089:4a 04             send 4 
+
+  008b:36                push 
+  008c:34 1e00            ldi 1e00 
+  008f:1c                 ne? 
+  0090:30 007b            bnt code_010e 
+  0093:39 28            pushi 28 // $28 message
+  0095:76               push0 
+  0096:87 01              lap param1 
+  0098:4a 04             send 4 
+
+  009a:36                push 
+  009b:34 1300            ldi 1300 
+  009e:1c                 ne? 
+  009f:30 006c            bnt code_010e 
+  00a2:39 28            pushi 28 // $28 message
+  00a4:76               push0 
+  00a5:87 01              lap param1 
+  00a7:4a 04             send 4 
+
+  00a9:36                push 
+  00aa:34 1400            ldi 1400 
+  00ad:1c                 ne? 
+  00ae:30 005d            bnt code_010e 
+  00b1:39 0f            pushi f // $f lsBottom
+  00b3:39 6e            pushi 6e // $6e showSelf
+  00b5:76               push0 
+  00b6:39 50            pushi 50 // $50 title
+  00b8:72 04d2          lofsa $04d2 // Fast Forward
+  00bb:36                push 
+  00bc:39 52            pushi 52 // $52 icon
+  00be:38 03de          pushi 3de // $3de sel_990
+  00c1:39 0b            pushi b // $b nsBottom
+  00c3:76               push0 
+  00c4:39 6a            pushi 6a // $6a new
+  00c6:39 51            pushi 51 // $51 button
+  00c8:72 04df          lofsa $04df // Really? Show Me!
+  00cb:36                push 
+  00cc:78               push1 
+  00cd:39 51            pushi 51 // $51 button
+  00cf:72 04f0          lofsa $04f0 // Oops
+  00d2:36                push 
+  00d3:76               push0 
+  00d4:47 ff 00 1e      calle ff procedure_0000 1e //  
+
+  00d8:30 0028            bnt code_0103 
+  00db:38 00ce          pushi ce // $ce curIcon
+  00de:78               push1 
+  00df:39 43            pushi 43 // $43 at
+  00e1:78               push1 
+  00e2:39 05            pushi 5 // $5 view
+  00e4:81 45              lag  
+  00e6:4a 06             send 6 
+
+  00e8:36                push 
+  00e9:38 0081          pushi 81 // $81 handleEvent
+  00ec:78               push1 
+  00ed:39 22            pushi 22 // $22 type
+  00ef:78               push1 
+  00f0:39 04            pushi 4 // $4 x
+  00f2:39 28            pushi 28 // $28 message
+  00f4:78               push1 
+  00f5:39 1b            pushi 1b // $1b elements
+  00f7:39 72            pushi 72 // $72 yourself
+  00f9:76               push0 
+  00fa:87 01              lap param1 
+  00fc:4a 10             send 10 
+
+  00fe:36                push 
+  00ff:81 45              lag  
+  0101:4a 0c             send c 
+
+
+        code_0103
+  0103:39 4c            pushi 4c // $4c claimed
+  0105:78               push1 
+  0106:78               push1 
+  0107:87 01              lap param1 
+  0109:4a 06             send 6 
+
+  010b:32 000b            jmp code_0119 
+
+        code_010e
+  010e:38 0081          pushi 81 // $81 handleEvent
+  0111:78               push1 
+  0112:8f 01              lsp param1 
+  0114:59 02            &rest 2 
+  0116:57 72 06         super LLRoom 6 
+
+
+        code_0119
+  0119:48                 ret 
+    )
+
+)
+
+// 03a2
+(instance sCartoon of Script
+    (properties
+        client $0
+        state $ffff
+        start $0
+        timer $0
+        cycles $0
+        seconds $0
+        lastSeconds $0
+        ticks $0
+        lastTicks $0
+        register $0
+        script $0
+        caller $0
+        next $0
+    )
+    (method (changeState) // method_0190
+  0190:3f 64             link 64 // (var $64)
+  0192:87 01              lap param1 
+  0194:65 0a             aTop state 
+  0196:36                push 
+  0197:3c                 dup 
+  0198:35 00              ldi 0 
+  019a:1a                 eq? 
+  019b:30 0007            bnt code_01a5 
+  019e:35 02              ldi 2 
+  01a0:65 10             aTop cycles 
+  01a2:32 01f5            jmp code_039a 
+
+        code_01a5
+  01a5:3c                 dup 
+  01a6:35 01              ldi 1 
+  01a8:1a                 eq? 
+  01a9:30 0024            bnt code_01d0 
+  01ac:38 018c          pushi 18c // $18c drawPic
+  01af:78               push1 
+  01b0:38 0183          pushi 183 // $183 picture
+  01b3:76               push0 
+  01b4:81 02              lag  
+  01b6:4a 04             send 4 
+
+  01b8:36                push 
+  01b9:81 02              lag  
+  01bb:4a 06             send 6 
+
+  01bd:7a               push2 
+  01be:72 04fb          lofsa $04fb // Executive Producer
+
+Ken Williams
+  01c1:36                push 
+  01c2:38 00a0          pushi a0 // $a0 mute
+  01c5:40 02c5 04        call proc_048e 4 
+
+  01c9:35 04              ldi 4 
+  01cb:65 12             aTop seconds 
+  01cd:32 01ca            jmp code_039a 
+
+        code_01d0
+  01d0:3c                 dup 
+  01d1:35 02              ldi 2 
+  01d3:1a                 eq? 
+  01d4:30 0024            bnt code_01fb 
+  01d7:38 018c          pushi 18c // $18c drawPic
+  01da:78               push1 
+  01db:38 0183          pushi 183 // $183 picture
+  01de:76               push0 
+  01df:81 02              lag  
+  01e1:4a 04             send 4 
+
+  01e3:36                push 
+  01e4:81 02              lag  
+  01e6:4a 06             send 6 
+
+  01e8:7a               push2 
+  01e9:72 051c          lofsa $051c // Creative Director
+
+Bill Davis
+  01ec:36                push 
+  01ed:38 00a0          pushi a0 // $a0 mute
+  01f0:40 029a 04        call proc_048e 4 
+
+  01f4:35 04              ldi 4 
+  01f6:65 12             aTop seconds 
+  01f8:32 019f            jmp code_039a 
+
+        code_01fb
+  01fb:3c                 dup 
+  01fc:35 03              ldi 3 
+  01fe:1a                 eq? 
+  01ff:30 0024            bnt code_0226 
+  0202:38 018c          pushi 18c // $18c drawPic
+  0205:78               push1 
+  0206:38 0183          pushi 183 // $183 picture
+  0209:76               push0 
+  020a:81 02              lag  
+  020c:4a 04             send 4 
+
+  020e:36                push 
+  020f:81 02              lag  
+  0211:4a 06             send 6 
+
+  0213:7a               push2 
+  0214:72 053a          lofsa $053a // Director
+
+Al Lowe
+  0217:36                push 
+  0218:38 00a0          pushi a0 // $a0 mute
+  021b:40 026f 04        call proc_048e 4 
+
+  021f:35 04              ldi 4 
+  0221:65 12             aTop seconds 
+  0223:32 0174            jmp code_039a 
+
+        code_0226
+  0226:3c                 dup 
+  0227:35 04              ldi 4 
+  0229:1a                 eq? 
+  022a:30 0024            bnt code_0251 
+  022d:38 018c          pushi 18c // $18c drawPic
+  0230:78               push1 
+  0231:38 0183          pushi 183 // $183 picture
+  0234:76               push0 
+  0235:81 02              lag  
+  0237:4a 04             send 4 
+
+  0239:36                push 
+  023a:81 02              lag  
+  023c:4a 06             send 6 
+
+  023e:7a               push2 
+  023f:72 054c          lofsa $054c // Producer
+
+Guruka Singh Khalsa
+  0242:36                push 
+  0243:38 00a0          pushi a0 // $a0 mute
+  0246:40 0244 04        call proc_048e 4 
+
+  024a:35 04              ldi 4 
+  024c:65 12             aTop seconds 
+  024e:32 0149            jmp code_039a 
+
+        code_0251
+  0251:3c                 dup 
+  0252:35 05              ldi 5 
+  0254:1a                 eq? 
+  0255:30 0028            bnt code_0280 
+  0258:38 018c          pushi 18c // $18c drawPic
+  025b:78               push1 
+  025c:38 0183          pushi 183 // $183 picture
+  025f:76               push0 
+  0260:81 02              lag  
+  0262:4a 04             send 4 
+
+  0264:36                push 
+  0265:81 02              lag  
+  0267:4a 06             send 6 
+
+  0269:39 6c            pushi 6c // $6c dispose
+  026b:76               push0 
+  026c:72 043a          lofsa $043a // larryPic
+  026f:4a 04             send 4 
+
+  0271:39 6b            pushi 6b // $6b init
+  0273:76               push0 
+  0274:72 03de          lofsa $03de // pattiPic
+  0277:4a 04             send 4 
+
+  0279:35 78              ldi 78 
+  027b:65 16             aTop ticks 
+  027d:32 011a            jmp code_039a 
+
+        code_0280
+  0280:3c                 dup 
+  0281:35 06              ldi 6 
+  0283:1a                 eq? 
+  0284:30 0022            bnt code_02a9 
+  0287:38 018c          pushi 18c // $18c drawPic
+  028a:78               push1 
+  028b:38 0183          pushi 183 // $183 picture
+  028e:76               push0 
+  028f:81 02              lag  
+  0291:4a 04             send 4 
+
+  0293:36                push 
+  0294:81 02              lag  
+  0296:4a 06             send 6 
+
+  0298:7a               push2 
+  0299:72 056a          lofsa $056a // Game Designer
+
+Al Lowe
+  029c:36                push 
+  029d:76               push0 
+  029e:40 01ec 04        call proc_048e 4 
+
+  02a2:35 04              ldi 4 
+  02a4:65 12             aTop seconds 
+  02a6:32 00f1            jmp code_039a 
+
+        code_02a9
+  02a9:3c                 dup 
+  02aa:35 07              ldi 7 
+  02ac:1a                 eq? 
+  02ad:30 0022            bnt code_02d2 
+  02b0:38 018c          pushi 18c // $18c drawPic
+  02b3:78               push1 
+  02b4:38 0183          pushi 183 // $183 picture
+  02b7:76               push0 
+  02b8:81 02              lag  
+  02ba:4a 04             send 4 
+
+  02bc:36                push 
+  02bd:81 02              lag  
+  02bf:4a 06             send 6 
+
+  02c1:7a               push2 
+  02c2:72 0581          lofsa $0581 // Production Designer
+
+Andy Hoyos
+  02c5:36                push 
+  02c6:76               push0 
+  02c7:40 01c3 04        call proc_048e 4 
+
+  02cb:35 04              ldi 4 
+  02cd:65 12             aTop seconds 
+  02cf:32 00c8            jmp code_039a 
+
+        code_02d2
+  02d2:3c                 dup 
+  02d3:35 08              ldi 8 
+  02d5:1a                 eq? 
+  02d6:30 0022            bnt code_02fb 
+  02d9:38 018c          pushi 18c // $18c drawPic
+  02dc:78               push1 
+  02dd:38 0183          pushi 183 // $183 picture
+  02e0:76               push0 
+  02e1:81 02              lag  
+  02e3:4a 04             send 4 
+
+  02e5:36                push 
+  02e6:81 02              lag  
+  02e8:4a 06             send 6 
+
+  02ea:7a               push2 
+  02eb:72 05a1          lofsa $05a1 // Art Designer
+
+Jane Cardinal
+  02ee:36                push 
+  02ef:76               push0 
+  02f0:40 019a 04        call proc_048e 4 
+
+  02f4:35 04              ldi 4 
+  02f6:65 12             aTop seconds 
+  02f8:32 009f            jmp code_039a 
+
+        code_02fb
+  02fb:3c                 dup 
+  02fc:35 09              ldi 9 
+  02fe:1a                 eq? 
+  02ff:30 0022            bnt code_0324 
+  0302:38 018c          pushi 18c // $18c drawPic
+  0305:78               push1 
+  0306:38 0183          pushi 183 // $183 picture
+  0309:76               push0 
+  030a:81 02              lag  
+  030c:4a 04             send 4 
+
+  030e:36                push 
+  030f:81 02              lag  
+  0311:4a 06             send 6 
+
+  0313:7a               push2 
+  0314:72 05bd          lofsa $05bd // Lead Programmer
+
+Brian K. Hughes
+  0317:36                push 
+  0318:76               push0 
+  0319:40 0171 04        call proc_048e 4 
+
+  031d:35 04              ldi 4 
+  031f:65 12             aTop seconds 
+  0321:32 0076            jmp code_039a 
+
+        code_0324
+  0324:3c                 dup 
+  0325:35 0a              ldi a 
+  0327:1a                 eq? 
+  0328:30 0022            bnt code_034d 
+  032b:38 018c          pushi 18c // $18c drawPic
+  032e:78               push1 
+  032f:38 0183          pushi 183 // $183 picture
+  0332:76               push0 
+  0333:81 02              lag  
+  0335:4a 04             send 4 
+
+  0337:36                push 
+  0338:81 02              lag  
+  033a:4a 06             send 6 
+
+  033c:7a               push2 
+  033d:72 05de          lofsa $05de // Composer
+
+Craig Safan
+  0340:36                push 
+  0341:76               push0 
+  0342:40 0148 04        call proc_048e 4 
+
+  0346:35 04              ldi 4 
+  0348:65 12             aTop seconds 
+  034a:32 004d            jmp code_039a 
+
+        code_034d
+  034d:3c                 dup 
+  034e:35 0b              ldi b 
+  0350:1a                 eq? 
+  0351:30 0021            bnt code_0375 
+  0354:38 009f          pushi 9f // $9f fade
+  0357:39 04            pushi 4 // $4 x
+  0359:76               push0 
+  035a:39 0f            pushi f // $f lsBottom
+  035c:39 0c            pushi c // $c nsRight
+  035e:78               push1 
+  035f:81 66              lag  
+  0361:4a 0c             send c 
+
+  0363:38 018c          pushi 18c // $18c drawPic
+  0366:7a               push2 
+  0367:78               push1 
+  0368:39 06            pushi 6 // $6 loop
+  036a:81 02              lag  
+  036c:4a 08             send 8 
+
+  036e:35 03              ldi 3 
+  0370:65 12             aTop seconds 
+  0372:32 0025            jmp code_039a 
+
+        code_0375
+  0375:3c                 dup 
+  0376:35 0c              ldi c 
+  0378:1a                 eq? 
+  0379:30 001e            bnt code_039a 
+  037c:7a               push2 
+  037d:39 6e            pushi 6e // $6e showSelf
+  037f:78               push1 
+  0380:45 0e 04         callb procedure_000e 4 //  
+
+  0383:38 00a7          pushi a7 // $a7 enable
+  0386:76               push0 
+  0387:81 45              lag  
+  0389:4a 04             send 4 
+
+  038b:38 0179          pushi 179 // $179 newRoom
+  038e:78               push1 
+  038f:39 78            pushi 78 // $78 isEmpty
+  0391:81 02              lag  
+  0393:4a 06             send 6 
+
+  0395:39 6c            pushi 6c // $6c dispose
+  0397:76               push0 
+  0398:54 04             self 4 
+
+
+        code_039a
+  039a:3a                toss 
+  039b:48                 ret 
+    )
+
+)
+
+// 03d8
+(instance pattiPic of View
+    (properties
+        x $aa
+        y $b1
+        z $0
+        heading $0
+        noun $0
+        nsTop $0
+        nsLeft $0
+        nsBottom $0
+        nsRight $0
+        description $0
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $0
+        yStep $2
+        view $73
+        loop $0
+        cel $0
+        priority $0
+        underBits $0
+        signal $11
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+    )
+)
+
+// 0434
+(instance larryPic of View
+    (properties
+        x $ad
+        y $b3
+        z $0
+        heading $0
+        noun $0
+        nsTop $0
+        nsLeft $0
+        nsBottom $0
+        nsRight $0
+        description $0
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $0
+        yStep $2
+        view $74
+        loop $0
+        cel $0
+        priority $0
+        underBits $0
+        signal $11
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+    )
+)
+
+
+
+(procedure proc_048e
+  048e:39 0c            pushi c // $c nsRight
+  0490:8f 01              lsp param1 
+  0492:39 64            pushi 64 // $64 moveDone
+  0494:8f 02              lsp param2 
+  0496:35 01              ldi 1 
+  0498:02                 add 
+  0499:36                push 
+  049a:39 2b            pushi 2b // $2b number
+  049c:39 6a            pushi 6a // $6a new
+  049e:38 009e          pushi 9e // $9e hold
+  04a1:39 65            pushi 65 // $65 topString
+  04a3:78               push1 
+  04a4:39 66            pushi 66 // $66 flags
+  04a6:89 7a              lsg  
+  04a8:39 69            pushi 69 // $69 hide
+  04aa:89 af              lsg  
+  04ac:43 1b 18         callk Display 18 
+
+  04af:39 0c            pushi c // $c nsRight
+  04b1:8f 01              lsp param1 
+  04b3:39 64            pushi 64 // $64 moveDone
+  04b5:8f 02              lsp param2 
+  04b7:39 2a            pushi 2a // $2a play
+  04b9:39 6a            pushi 6a // $6a new
+  04bb:38 009e          pushi 9e // $9e hold
+  04be:39 65            pushi 65 // $65 topString
+  04c0:78               push1 
+  04c1:39 66            pushi 66 // $66 flags
+  04c3:39 3d            pushi 3d // $3d isBlocked
+  04c5:39 69            pushi 69 // $69 hide
+  04c7:89 af              lsg  
+  04c9:43 1b 18         callk Display 18 
+
+  04cc:48                 ret 
+  04cd:00                bnot 
+)
+

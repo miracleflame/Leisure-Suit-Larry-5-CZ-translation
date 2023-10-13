@@ -1,0 +1,968 @@
+(script 860)
+
+(string
+    string_07be "rm860"
+    string_07c4 "elevator"
+    string_07cd "heads1"
+    string_07d4 "heads2"
+    string_07db "heads3"
+    string_07e2 "heads4"
+    string_07e9 "heads5"
+    string_07f0 "heads6"
+    string_07f7 "heads7"
+    string_07fe "heads8"
+    string_0805 "heads9"
+    string_080c "heads10"
+    string_0814 "zwooshSound"
+    string_0820 "wolfSound"
+    string_082a "sCartoon"
+    string_0833 "sPeeping"
+)
+
+(said
+)
+
+(local
+)
+
+// 01a0
+(instance publicrm860 of LLRoom
+    (properties
+        script $0
+        number $0
+        timer $0
+        keep $0
+        initialized $0
+        lookStr $0
+        picture $35c
+        style $ffff
+        horizon $0
+        controls $0
+        north $0
+        east $0
+        south $366
+        west $0
+        curPic $0
+        picAngle $0
+        vanishingX $a0
+        vanishingY $8ad0
+        obstacles $0
+    )
+    (method (init) // method_000e
+  000e:7a               push2 
+  000f:38 0080          pushi 80 // $80 indexOf
+  0012:38 035c          pushi 35c // $35c sel_860
+  0015:46 03be 0000 04  calle 3be procedure_0000 4 //  
+
+  001b:39 07            pushi 7 // $7 cel
+  001d:38 0084          pushi 84 // $84 cycles
+  0020:38 035d          pushi 35d // $35d sel_861
+  0023:38 035e          pushi 35e // $35e sel_862
+  0026:38 0355          pushi 355 // $355 sel_853
+  0029:38 0320          pushi 320 // $320 sel_800
+  002c:38 0321          pushi 321 // $321 sel_801
+  002f:38 0322          pushi 322 // $322 sel_802
+  0032:46 03be 0000 0e  calle 3be procedure_0000 e //  
+
+  0038:39 6b            pushi 6b // $6b init
+  003a:76               push0 
+  003b:57 72 04         super LLRoom 4 
+
+  003e:76               push0 
+  003f:45 02 00         callb procedure_0002 0 //  
+
+  0042:39 6b            pushi 6b // $6b init
+  0044:76               push0 
+  0045:72 01ec          lofsa $01ec // elevator
+  0048:4a 04             send 4 
+
+  004a:78               push1 
+  004b:38 0366          pushi 366 // $366 sel_870
+  004e:45 0d 02         callb procedure_000d 2 //  
+
+  0051:38 008e          pushi 8e // $8e setScript
+  0054:78               push1 
+  0055:72 071c          lofsa $071c // sCartoon
+  0058:36                push 
+  0059:54 06             self 6 
+
+  005b:48                 ret 
+    )
+
+    (method (doit) // method_005c
+  005c:39 03            pushi 3 // $3 y
+  005e:76               push0 
+  005f:72 01ec          lofsa $01ec // elevator
+  0062:4a 04             send 4 
+
+  0064:36                push 
+  0065:3c                 dup 
+  0066:35 20              ldi 20 
+  0068:1a                 eq? 
+  0069:30 002f            bnt code_009b 
+  006c:39 07            pushi 7 // $7 cel
+  006e:38 035c          pushi 35c // $35c sel_860
+  0071:76               push0 
+  0072:39 43            pushi 43 // $43 at
+  0074:39 ff            pushi ff // $ff syncNum
+  0076:39 0f            pushi f // $f lsBottom
+  0078:39 46            pushi 46 // $46 width
+  007a:38 0118          pushi 118 // $118 isNotHidden
+  007d:45 0e 0e         callb procedure_000e e //  
+
+  0080:39 2a            pushi 2a // $2a play
+  0082:76               push0 
+  0083:72 0666          lofsa $0666 // zwooshSound
+  0086:4a 04             send 4 
+
+  0088:39 6b            pushi 6b // $6b init
+  008a:76               push0 
+  008b:38 008e          pushi 8e // $8e setScript
+  008e:78               push1 
+  008f:72 0790          lofsa $0790 // sPeeping
+  0092:36                push 
+  0093:72 02d0          lofsa $02d0 // heads2
+  0096:4a 0a             send a 
+
+  0098:32 00fc            jmp code_0197 
+
+        code_009b
+  009b:3c                 dup 
+  009c:35 4c              ldi 4c 
+  009e:1a                 eq? 
+  009f:30 001b            bnt code_00bd 
+  00a2:39 2a            pushi 2a // $2a play
+  00a4:76               push0 
+  00a5:72 0666          lofsa $0666 // zwooshSound
+  00a8:4a 04             send 4 
+
+  00aa:39 6b            pushi 6b // $6b init
+  00ac:76               push0 
+  00ad:38 008e          pushi 8e // $8e setScript
+  00b0:78               push1 
+  00b1:72 0790          lofsa $0790 // sPeeping
+  00b4:36                push 
+  00b5:72 0336          lofsa $0336 // heads3
+  00b8:4a 0a             send a 
+
+  00ba:32 00da            jmp code_0197 
+
+        code_00bd
+  00bd:3c                 dup 
+  00be:35 5e              ldi 5e 
+  00c0:1a                 eq? 
+  00c1:30 003b            bnt code_00ff 
+  00c4:39 2a            pushi 2a // $2a play
+  00c6:76               push0 
+  00c7:72 0666          lofsa $0666 // zwooshSound
+  00ca:4a 04             send 4 
+
+  00cc:39 6b            pushi 6b // $6b init
+  00ce:76               push0 
+  00cf:38 008e          pushi 8e // $8e setScript
+  00d2:78               push1 
+  00d3:72 0790          lofsa $0790 // sPeeping
+  00d6:36                push 
+  00d7:72 0402          lofsa $0402 // heads5
+  00da:4a 0a             send a 
+
+  00dc:39 6b            pushi 6b // $6b init
+  00de:76               push0 
+  00df:38 008e          pushi 8e // $8e setScript
+  00e2:78               push1 
+  00e3:72 0790          lofsa $0790 // sPeeping
+  00e6:36                push 
+  00e7:72 04ce          lofsa $04ce // heads7
+  00ea:4a 0a             send a 
+
+  00ec:39 6b            pushi 6b // $6b init
+  00ee:76               push0 
+  00ef:38 008e          pushi 8e // $8e setScript
+  00f2:78               push1 
+  00f3:72 0790          lofsa $0790 // sPeeping
+  00f6:36                push 
+  00f7:72 059a          lofsa $059a // heads9
+  00fa:4a 0a             send a 
+
+  00fc:32 0098            jmp code_0197 
+
+        code_00ff
+  00ff:3c                 dup 
+  0100:35 78              ldi 78 
+  0102:1a                 eq? 
+  0103:30 002b            bnt code_0131 
+  0106:39 2a            pushi 2a // $2a play
+  0108:76               push0 
+  0109:72 0666          lofsa $0666 // zwooshSound
+  010c:4a 04             send 4 
+
+  010e:39 6b            pushi 6b // $6b init
+  0110:76               push0 
+  0111:38 008e          pushi 8e // $8e setScript
+  0114:78               push1 
+  0115:72 0790          lofsa $0790 // sPeeping
+  0118:36                push 
+  0119:72 0534          lofsa $0534 // heads8
+  011c:4a 0a             send a 
+
+  011e:39 6b            pushi 6b // $6b init
+  0120:76               push0 
+  0121:38 008e          pushi 8e // $8e setScript
+  0124:78               push1 
+  0125:72 0790          lofsa $0790 // sPeeping
+  0128:36                push 
+  0129:72 0600          lofsa $0600 // heads10
+  012c:4a 0a             send a 
+
+  012e:32 0066            jmp code_0197 
+
+        code_0131
+  0131:3c                 dup 
+  0132:34 008a            ldi 8a 
+  0135:1a                 eq? 
+  0136:30 001b            bnt code_0154 
+  0139:39 2a            pushi 2a // $2a play
+  013b:76               push0 
+  013c:72 0666          lofsa $0666 // zwooshSound
+  013f:4a 04             send 4 
+
+  0141:39 6b            pushi 6b // $6b init
+  0143:76               push0 
+  0144:38 008e          pushi 8e // $8e setScript
+  0147:78               push1 
+  0148:72 0790          lofsa $0790 // sPeeping
+  014b:36                push 
+  014c:72 039c          lofsa $039c // heads4
+  014f:4a 0a             send a 
+
+  0151:32 0043            jmp code_0197 
+
+        code_0154
+  0154:3c                 dup 
+  0155:34 0094            ldi 94 
+  0158:1a                 eq? 
+  0159:30 002b            bnt code_0187 
+  015c:39 2a            pushi 2a // $2a play
+  015e:76               push0 
+  015f:72 0666          lofsa $0666 // zwooshSound
+  0162:4a 04             send 4 
+
+  0164:39 6b            pushi 6b // $6b init
+  0166:76               push0 
+  0167:38 008e          pushi 8e // $8e setScript
+  016a:78               push1 
+  016b:72 0790          lofsa $0790 // sPeeping
+  016e:36                push 
+  016f:72 026a          lofsa $026a // heads1
+  0172:4a 0a             send a 
+
+  0174:39 6b            pushi 6b // $6b init
+  0176:76               push0 
+  0177:38 008e          pushi 8e // $8e setScript
+  017a:78               push1 
+  017b:72 0790          lofsa $0790 // sPeeping
+  017e:36                push 
+  017f:72 0468          lofsa $0468 // heads6
+  0182:4a 0a             send a 
+
+  0184:32 0010            jmp code_0197 
+
+        code_0187
+  0187:3c                 dup 
+  0188:34 00b2            ldi b2 
+  018b:1a                 eq? 
+  018c:30 0008            bnt code_0197 
+  018f:7a               push2 
+  0190:38 035c          pushi 35c // $35c sel_860
+  0193:78               push1 
+  0194:45 0e 04         callb procedure_000e 4 //  
+
+
+        code_0197
+  0197:3a                toss 
+  0198:48                 ret 
+  0199:00                bnot 
+    )
+
+)
+
+// 01e6
+(instance elevator of Actor
+    (properties
+        x $99
+        y $0
+        z $0
+        heading $0
+        noun $0
+        nsTop $0
+        nsLeft $0
+        nsBottom $0
+        nsRight $0
+        description $0
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $0
+        yStep $2
+        view $35c
+        loop $0
+        cel $0
+        priority $0
+        underBits $0
+        signal $0
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+        cycleSpeed $6
+        script $0
+        cycler $0
+        timer $0
+        detailLevel $0
+        illegalBits $8000
+        xLast $0
+        yLast $0
+        xStep $3
+        moveSpeed $8
+        blocks $0
+        baseSetter $0
+        mover $0
+        looper $0
+        viewer $0
+        avoider $0
+        code $0
+    )
+)
+
+// 0264
+(instance heads1 of Prop
+    (properties
+        x $74
+        y $81
+        z $0
+        heading $0
+        noun $0
+        nsTop $0
+        nsLeft $0
+        nsBottom $0
+        nsRight $0
+        description $0
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $0
+        yStep $2
+        view $35c
+        loop $1
+        cel $0
+        priority $0
+        underBits $0
+        signal $0
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+        cycleSpeed $6
+        script $0
+        cycler $0
+        timer $0
+        detailLevel $0
+    )
+)
+
+// 02ca
+(instance heads2 of Prop
+    (properties
+        x $82
+        y $17
+        z $0
+        heading $0
+        noun $0
+        nsTop $0
+        nsLeft $0
+        nsBottom $0
+        nsRight $0
+        description $0
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $0
+        yStep $2
+        view $35c
+        loop $2
+        cel $0
+        priority $0
+        underBits $0
+        signal $0
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+        cycleSpeed $6
+        script $0
+        cycler $0
+        timer $0
+        detailLevel $0
+    )
+)
+
+// 0330
+(instance heads3 of Prop
+    (properties
+        x $b2
+        y $2d
+        z $0
+        heading $0
+        noun $0
+        nsTop $0
+        nsLeft $0
+        nsBottom $0
+        nsRight $0
+        description $0
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $0
+        yStep $2
+        view $35c
+        loop $3
+        cel $0
+        priority $0
+        underBits $0
+        signal $0
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+        cycleSpeed $6
+        script $0
+        cycler $0
+        timer $0
+        detailLevel $0
+    )
+)
+
+// 0396
+(instance heads4 of Prop
+    (properties
+        x $bc
+        y $81
+        z $0
+        heading $0
+        noun $0
+        nsTop $0
+        nsLeft $0
+        nsBottom $0
+        nsRight $0
+        description $0
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $0
+        yStep $2
+        view $35c
+        loop $4
+        cel $0
+        priority $0
+        underBits $0
+        signal $0
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+        cycleSpeed $6
+        script $0
+        cycler $0
+        timer $0
+        detailLevel $0
+    )
+)
+
+// 03fc
+(instance heads5 of Prop
+    (properties
+        x $11d
+        y $35
+        z $0
+        heading $0
+        noun $0
+        nsTop $0
+        nsLeft $0
+        nsBottom $0
+        nsRight $0
+        description $0
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $0
+        yStep $2
+        view $35c
+        loop $5
+        cel $0
+        priority $0
+        underBits $0
+        signal $0
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+        cycleSpeed $6
+        script $0
+        cycler $0
+        timer $0
+        detailLevel $0
+    )
+)
+
+// 0462
+(instance heads6 of Prop
+    (properties
+        x $2a
+        y $60
+        z $0
+        heading $0
+        noun $0
+        nsTop $0
+        nsLeft $0
+        nsBottom $0
+        nsRight $0
+        description $0
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $0
+        yStep $2
+        view $35c
+        loop $6
+        cel $0
+        priority $0
+        underBits $0
+        signal $0
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+        cycleSpeed $6
+        script $0
+        cycler $0
+        timer $0
+        detailLevel $0
+    )
+)
+
+// 04c8
+(instance heads7 of Prop
+    (properties
+        x $c
+        y $35
+        z $0
+        heading $0
+        noun $0
+        nsTop $0
+        nsLeft $0
+        nsBottom $0
+        nsRight $0
+        description $0
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $0
+        yStep $2
+        view $35c
+        loop $7
+        cel $0
+        priority $0
+        underBits $0
+        signal $0
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+        cycleSpeed $6
+        script $0
+        cycler $0
+        timer $0
+        detailLevel $0
+    )
+)
+
+// 052e
+(instance heads8 of Prop
+    (properties
+        x $dc
+        y $62
+        z $0
+        heading $0
+        noun $0
+        nsTop $0
+        nsLeft $0
+        nsBottom $0
+        nsRight $0
+        description $0
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $0
+        yStep $2
+        view $35c
+        loop $8
+        cel $0
+        priority $0
+        underBits $0
+        signal $0
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+        cycleSpeed $6
+        script $0
+        cycler $0
+        timer $0
+        detailLevel $0
+    )
+)
+
+// 0594
+(instance heads9 of Prop
+    (properties
+        x $76
+        y $46
+        z $0
+        heading $0
+        noun $0
+        nsTop $0
+        nsLeft $0
+        nsBottom $0
+        nsRight $0
+        description $0
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $0
+        yStep $2
+        view $35c
+        loop $1
+        cel $0
+        priority $0
+        underBits $0
+        signal $0
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+        cycleSpeed $6
+        script $0
+        cycler $0
+        timer $0
+        detailLevel $0
+    )
+)
+
+// 05fa
+(instance heads10 of Prop
+    (properties
+        x $53
+        y $64
+        z $0
+        heading $0
+        noun $0
+        nsTop $0
+        nsLeft $0
+        nsBottom $0
+        nsRight $0
+        description $0
+        sightAngle $6789
+        actions $0
+        onMeCheck $6789
+        approachX $0
+        approachY $0
+        approachDist $0
+        _approachVerbs $6789
+        lookStr $0
+        yStep $2
+        view $35c
+        loop $1
+        cel $0
+        priority $0
+        underBits $0
+        signal $0
+        lsTop $0
+        lsLeft $0
+        lsBottom $0
+        lsRight $0
+        brTop $0
+        brLeft $0
+        brBottom $0
+        brRight $0
+        palette $0
+        cycleSpeed $6
+        script $0
+        cycler $0
+        timer $0
+        detailLevel $0
+    )
+)
+
+// 0660
+(instance zwooshSound of Sound
+    (properties
+        nodePtr $0
+        handle $0
+        flags $0
+        number $35e
+        vol $7f
+        priority $9
+        loop $1
+        signal $0
+        prevSignal $0
+        dataInc $0
+        min $0
+        sec $0
+        frame $0
+        client $0
+        owner $0
+    )
+)
+
+// 0696
+(instance wolfSound of Sound
+    (properties
+        nodePtr $0
+        handle $0
+        flags $0
+        number $35d
+        vol $7f
+        priority $a
+        loop $1
+        signal $0
+        prevSignal $0
+        dataInc $0
+        min $0
+        sec $0
+        frame $0
+        client $0
+        owner $0
+    )
+)
+
+// 0716
+(instance sCartoon of Script
+    (properties
+        client $0
+        state $ffff
+        start $0
+        timer $0
+        cycles $0
+        seconds $0
+        lastSeconds $0
+        ticks $0
+        lastTicks $0
+        register $0
+        script $0
+        caller $0
+        next $0
+    )
+    (method (changeState) // method_06ca
+  06ca:87 01              lap param1 
+  06cc:65 0a             aTop state 
+  06ce:36                push 
+  06cf:3c                 dup 
+  06d0:35 00              ldi 0 
+  06d2:1a                 eq? 
+  06d3:30 0025            bnt code_06fb 
+  06d6:38 0096          pushi 96 // $96 setCycle
+  06d9:78               push1 
+  06da:76               push0 
+  06db:38 00a2          pushi a2 // $a2 setLoop
+  06de:78               push1 
+  06df:76               push0 
+  06e0:39 42            pushi 42 // $42 setPri
+  06e2:78               push1 
+  06e3:78               push1 
+  06e4:38 011b          pushi 11b // $11b setMotion
+  06e7:39 04            pushi 4 // $4 x
+  06e9:51 1e            class MoveTo 
+  06eb:36                push 
+  06ec:38 0099          pushi 99 // $99 timeLeft
+  06ef:38 00f2          pushi f2 // $f2 escapes
+  06f2:7c            pushSelf 
+  06f3:72 01ec          lofsa $01ec // elevator
+  06f6:4a 1e             send 1e 
+
+  06f8:32 0012            jmp code_070d 
+
+        code_06fb
+  06fb:3c                 dup 
+  06fc:35 01              ldi 1 
+  06fe:1a                 eq? 
+  06ff:30 000b            bnt code_070d 
+  0702:38 0179          pushi 179 // $179 newRoom
+  0705:78               push1 
+  0706:38 0366          pushi 366 // $366 sel_870
+  0709:81 02              lag  
+  070b:4a 06             send 6 
+
+
+        code_070d
+  070d:3a                toss 
+  070e:48                 ret 
+  070f:00                bnot 
+    )
+
+)
+
+// 078a
+(instance sPeeping of Script
+    (properties
+        client $0
+        state $ffff
+        start $0
+        timer $0
+        cycles $0
+        seconds $0
+        lastSeconds $0
+        ticks $0
+        lastTicks $0
+        register $0
+        script $0
+        caller $0
+        next $0
+    )
+    (method (changeState) // method_074a
+  074a:87 01              lap param1 
+  074c:65 0a             aTop state 
+  074e:36                push 
+  074f:3c                 dup 
+  0750:35 00              ldi 0 
+  0752:1a                 eq? 
+  0753:30 000f            bnt code_0765 
+  0756:38 0096          pushi 96 // $96 setCycle
+  0759:7a               push2 
+  075a:51 1a            class End 
+  075c:36                push 
+  075d:7c            pushSelf 
+  075e:63 08             pToa client 
+  0760:4a 08             send 8 
+
+  0762:32 001c            jmp code_0781 
+
+        code_0765
+  0765:3c                 dup 
+  0766:35 01              ldi 1 
+  0768:1a                 eq? 
+  0769:30 0015            bnt code_0781 
+  076c:39 2a            pushi 2a // $2a play
+  076e:76               push0 
+  076f:72 069c          lofsa $069c // wolfSound
+  0772:4a 04             send 4 
+
+  0774:38 011d          pushi 11d // $11d stopUpd
+  0777:76               push0 
+  0778:63 08             pToa client 
+  077a:4a 04             send 4 
+
+  077c:39 6c            pushi 6c // $6c dispose
+  077e:76               push0 
+  077f:54 04             self 4 
+
+
+        code_0781
+  0781:3a                toss 
+  0782:48                 ret 
+  0783:00                bnot 
+    )
+
+)
+
+
+
