@@ -41,7 +41,6 @@
 		(waves setCycle: Fwd init: approachVerbs: 3)
 		(statue init:)
 		(logo init:)
-		(proc999_0 --UNKNOWN-PROP-NAME--)
 		(tree init:)
 		(buildings1 init:)
 		(buildings2 init:)
