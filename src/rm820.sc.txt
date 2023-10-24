@@ -1,0 +1,22 @@
+{"This lobby is quite impressive," you think, "especially for such a small building."}
+{the door}
+{the plate glass window}
+{Through the window you see the night skyline of beautiful downtown Philadelphia.}
+{the receptionist's desk}
+{This is the receptionist's desk. Luckily for you, she seems to be absent right now.}
+{the plant}
+{A potted plant adds so much to office ambience.}
+{the keypad}
+{This keypad controls access to John Krapper's private office door.}
+{the potted tree}
+{There must be more light in here in the daytime.}
+{the planter}
+{This planter is near the front door.}
+{the rear counter}
+{This counter almost looks like a window seat.}
+{the lamp}
+{You really like this lamp's style.}
+{the lights}
+{Subtle wall washer floodlights cast a lovely glow over the supergraphics on the lobby wall.}
+{the chair}
+{The receptionist's chair is empty, but still warm to your touch. She's only been gone a short while, and may soon return.}

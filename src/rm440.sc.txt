@@ -1,0 +1,19 @@
+{The F.B.I. laboratory is filled with interesting equipment, most of which baffles you.}
+{Commander Twit}
+{He's the perfect image of a man more interested in science than in his own self-image!}
+{Doctor Hopian's door}
+{Through this door lies the offices of Dr. Phil Hopian, F.B.I. gynecologist.}
+{the computer}
+{If only you had paid attention when Larry chattered on and on about his computer. You know nothing about this computer and are sure you'll be unable to do anything with it.}
+{the duck}
+{If it drinks like a duck, and it quacks like a duck, it must be an experiment.}
+{the machine}
+{This machine does something, you feel quite certain.}
+{the chemistry set}
+{This must be the source of the flatulence powder.}
+{the workbench}
+{Lots of chemicals, beakers, and junk food wrappers fill this workbench.}
+{the books}
+{These books are filled with Latin phrases. The only Latin phrases you know would get a sailor thrown out of a bar in Tijuana!}
+{the desk}
+{This desk doesn't contain any secret documents; they all were burned in the big fire last week!}

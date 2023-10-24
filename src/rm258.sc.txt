@@ -1,0 +1,43 @@
+{PM}
+{AM}
+{Out of boarding passes at this time. Please try again in another city!}
+{Hey! Take your AeroDork gold card!}
+{Look, you twit. If you wander off and leave that card here I'll see to it that your luggage goes non-stop to Muncie, Indiana!}
+{Fine. I'm ignoring you.}
+{You have entered an incorrect destination for this airport at this hour. But we still appreciate your selection of AeroDork Airlines.}
+{the boarding pass}
+{Oh, it's you, Mr. Hughes! Of course you may have a boarding pass! Right away, Sir!}
+{Please take your boarding pass now.}
+{your AeroDork card}
+{Please take your AeroDork gold card now.}
+{Thank you for flying AeroDork!}
+{Welcome, Cliff Taurus! Where to today?}
+{New York}
+{Atlantic City}
+{Miami}
+{Los Angeles}
+{the card slot}
+{the boarding pass slot}
+{Boarding passes are emitted from this slot.}
+{the nameplate}
+{The nameplate says, "AeroDork Airlines."}
+{the screen}
+{The AeroDork ATM has a touch-sensitive screen.}
+{the destination}
+{Los Angeles}
+{Miami}
+{Atlantic City}
+{New York}
+{A hint from Al Lowe}
+{the destination}
+{Los Angeles}
+{Miami}
+{Atlantic City}
+{New York}
+{A hint from Al Lowe}
+{the destination}
+{Los Angeles}
+{Miami}
+{Atlantic City}
+{New York}
+{A hint from Al Lowe}

@@ -1,0 +1,17 @@
+{You are outside the F.B.I.'s office building, which is cleverly disguised as a block of normal storefront businesses. Your limousine is waiting for you at the curb, exactly as Desmond promised.}
+{the door}
+{This door leads back into the F.B... oops! This door leads to "Stein Labs!"}
+{your limousine}
+{Your limousine awaits you.}
+{the Stein Labs sign}
+{The large sign identifies the F.B.I. labs as "Stein Labs--We'll Be Frank With You."}
+{Stein Laboratories}
+{Don't you just love an F.B.I. with a sense of humor?}
+{the GynoMan sign}
+{Dr. Phil Hopian's office is cleverly disguised as "GynoMan."}
+{the GynoMan building}
+{You wonder what sort of offices are on the upper floors of this building, above the office of Dr. Phil Hopian.}
+{the Woodwind Repair Shop building}
+{The Woodwind Repair Shop is an unusual cover for an F.B.I. office.}
+{the Woodwind Repair Shop sign}
+{The Woodwind Repair Shop has an attractive sign out front.}

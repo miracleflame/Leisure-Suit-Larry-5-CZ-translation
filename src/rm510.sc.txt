@@ -1,0 +1,46 @@
+{The lobby of "The Hard Disk Cafe" is filled with a tremendously exciting (to nerds) display of ancient computer memorabilia. Your pulse quickens just looking around the place.}
+{How much do you wish to bribe the Maitre d'.}
+{Grease That Palm}
+{the telephone}
+{the computer terminal}
+{Bertha}
+{A large aggressive woman has been talking on the telephone for as long as you've been here.}
+{Bertha's head}
+{the music box}
+{your membership tape}
+{The membership tape you wanted so badly now hangs limply from the side of the paper tape reader, twisting slowly, slowly, in the wind.}
+{the maitre d'}
+{You are quite envious of those that can look stupid and snooty at the same time.}
+{the swinging doors}
+{the swinging doors}
+{You presume these doors lead to the cafe proper.}
+{the paper tape machine}
+{the antique disk drive}
+{This early disk drive was the size of a washing machine and held an enormous amount of data--over one megabyte.}
+{the Pet Computer}
+{You haven't seen a Pet Computer since the early days of "InfoWorld!"}
+{the Apple II computer}
+{You cut your first computer teeth on an old integer BASIC Apple II. It wasn't even a Plus!}
+{the cash register}
+{This NCR baby was one of the first microprocessor-controlled point-of-sale cash registers.}
+{the green screen monitor}
+{This ancient device could display text in any color you wanted, as long as it was green on black.}
+{the Atari 400 computer}
+{Boy, does that Atari 400 bring back fond memories of your misspent youth, playing "Frogger" when your classmates were dating!}
+{the antique tape drive}
+{This is one of the world's first tape drives, revolutionary in its day, it seems incredibly quaint today. Why it couldn't even hold "Space Quest" let alone a "King's Quest!"}
+{the piano roll}
+{The player piano was an early use of punched holes to control a mechanical device. A vacuum was applied to 88 holes in a metal bar, with each hole indicating a different musical pitch. Where holes occurred in the moving paper, the corresponding notes were played.}
+{the punch card machine}
+{This punch card reader dates from the 1890 U. S. Census. It could handle up to 80 characters or columns of data, a number which remains to this day as the width of most computer video display devices.}
+{the chair}
+{This chair is for the exclusive use of the maitre d'.}
+{the bulletin board}
+{The bulletin board is filled with photographs of famous nerds who frequent this place!}
+{the maitre d's podium}
+{The maitre d's podium is just the right size for him to hide behind when the crowds here start throwing things!}
+{the desk}
+{You wish you had such a nice desk in your crummy office.}
+{the cactus}
+{The cactus is covered with needle-sharp needles. (Hence, the name "Needlenose Cacti.")}
+{the cactus}

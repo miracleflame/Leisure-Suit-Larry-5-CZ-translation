@@ -1,0 +1,68 @@
+{January}
+{February}
+{March}
+{April}
+{May}
+{June}
+{July}
+{August}
+{September}
+{October}
+{November}
+{December}
+{Click here to close this window and return to the game.}
+{To look more closely at one of your inventory items, first click here, then click on the item.}
+{To do something to one of your inventory items, first click here, then click on the item.}
+{To learn about the other icons in this window, first click here, then pass the question mark over the other icons.}
+{To use one of your inventory items in the game, first click here, then click on the item, then click on OK.}
+{the camcorder}
+{On}
+{Off}
+{the battery charger}
+{the videotape}
+{the videotape}
+{the videotape}
+{Michelle's resume}
+{the Hard Disk Cafe napkin}
+{the AeroDork Gold Card}
+{the boarding pass}
+{L.A.}
+{New York}
+{Atlantic City}
+{Miami}
+{L.A.}
+{New York}
+{Atlantic City}
+{Miami}
+{the magazine}
+{the quarter}
+{heads}
+{tails}
+{the DayTrotter\05}
+{the money}
+{the credit cards}
+{the membership tape}
+{the DataMan}
+{the Reverse Biaz DataPak}
+{the P. C. Hammer DataPak}
+{Lana's resume}
+{the Tramp's casino matchbook}
+{the silver dollar}
+{s}
+{}
+{the roller-blades}
+{the fax on Reverse Biaz}
+{the champagne}
+{the gold record}
+{the cassette tape}
+{Chi Chi's resume}
+{Doc Pulliam's card}
+{the green card}
+{the doily}
+{the fax on P. C. Hammer}
+{the letter opener}
+{the desk key}
+{the folder of evidence}
+{the photocopies}
+{the reel-to-reel tape}
+{the "Hooter Shooter" bra}

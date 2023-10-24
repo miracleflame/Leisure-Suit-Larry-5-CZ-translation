@@ -1,0 +1,35 @@
+{the stereo}
+{the plaque}
+{the gold record}
+{the stereo}
+{the elevator}
+{This is the elevator in which you arrived.}
+{Reverse Biaz}
+{the turntable}
+{the gold record}
+{the tone arm}
+{the speakers}
+{the speakers}
+{the studio door}
+{A small plaque on the door reads, "Studio A."}
+{the Reverse button}
+{the Stop button}
+{the Forward button}
+{the 33 button}
+{the 78 button}
+{the statue}
+{This sculpture represents the patron saint of recording companies--\nSt. Needle.}
+{the left speaker}
+{This transducer converts electrical energy into rapidly pulsating sound waves.}
+{the right speaker}
+{This transducer converts electrical energy into rapidly pulsating sound waves.}
+{the plant}
+{Upon close examination, you determine this is a plant.}
+{the shelves}
+{The office's shelves are filled with records, tapes, and books.}
+{the record jackets}
+{Many famous record album jackets adorn the walls of the office of des Rever Records.}
+{the record jackets}
+{Many famous record album jackets adorn the walls of the office of des Rever Records.}
+{the gold records}
+{These gold records are firmly attached to the wall.}

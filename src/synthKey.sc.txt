@@ -1,0 +1,29 @@
+{A Tip from AL}
+{the door}
+{This door leads to the control booth--and Reverse Biaz.}
+{Reverse Biaz}
+{Reverse Biaz is the man the F.B.I. linked to backwards subliminal message recording at this studio. But he does looks cute.}
+{the control room mixer}
+{the tape reel}
+{the tape reel}
+{the tape reel}
+{the tape reel}
+{the VU meter}
+{This meter measures dynamic levels in decibels, each of which is about 1/10th of a bel.}
+{the key}
+{your synthesizer}
+{This is the synthesizer Reverse Biaz wants you to play.}
+{the music stands}
+{You see a bunch of music stands. Or is it a flock of music stands? Or is it a bevy of music stands? You always forget.}
+{the control room}
+{From his control room, Reverse can see the entire studio. He can speak to you through the soundproof glass via a talkback loudspeaker.}
+{the overhead mike}
+{You wonder how many evil recordings were done with this microphone.}
+{the drum set}
+{As in most studios, the drum set is behind glass to enhance the separation of his sound from the other musicians.}
+{the music}
+{the synthesizer control panel}
+{des Rever Records spared no expense programming this synthesizer for this session.}
+{the control room mixer}
+{the studio control panel}
+{This panel contains many digital reverb and special effects units, power amplifiers, patch bays and a copy of last month's Playboy.}

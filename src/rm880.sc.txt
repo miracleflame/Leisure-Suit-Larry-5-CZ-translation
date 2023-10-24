@@ -1,0 +1,29 @@
+{The studio floor of the K-RAP building is far underground, filled with soundproof studios and playback speakers. A large fountain, complete with giant bronze sculptures, fills the center of the room.}
+{the door to Control Room A}
+{This door leads to Control Room A. You can see a man working inside.}
+{the Control Room B door}
+{This door leads to Control Room B, which appears to be empty.}
+{the Control Room C door}
+{This door leads to Control Room C. It appears to be unoccupied at the moment.}
+{the keypad}
+{Each of the doors has a keypad to limit access to only those with authorization. This keypad controls access to Control Room A.}
+{the keypad}
+{Each of the doors has a keypad to limit access to only those with authorization. This keypad controls access to Control Room B.}
+{the keypad}
+{Each of the doors has a keypad to limit access to only those with authorization. This keypad controls access to Control Room C.}
+{the window of Control Room A}
+{Through this window you can see Control Room A.}
+{the window of Control Room B}
+{Through this window you can see Control Room B. It appears to be currently unoccupied.}
+{the window of Control Room C}
+{Through this window you can see Control Room C. It appears to be currently unoccupied.}
+{the statue}
+{How impressive! K-RAP has a fountain filled with a huge statue of the Queen of Rock 'n' Roll--Connie Stevens!}
+{the recording sign}
+{This sign is illuminated when Control Room A is recording.}
+{the recording sign}
+{This sign is illuminated when Control Room B is recording.}
+{the recording sign}
+{Control Room A's recording indicator lamp is presently on.}
+{P. C. Hammer}
+{the microphone stand}

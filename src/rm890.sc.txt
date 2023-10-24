@@ -1,0 +1,46 @@
+{You are inside K-RAP radio's Control Room B. For such a large room, it certainly looked smaller from the outside. The walls are filled with a myriad of recording equipment, electronic gear, mixers, microphones, recording tape, etc. etc.}
+{the giant speaker}
+{You could swear these are genuine Altec "Voice of the Theatre" speakers. You haven't seen these babies in years!}
+{the electronic equipment}
+{Everywhere you look, you see buttons, switches, lights, reels of tape, and tape drives.}
+{the electronic equipment}
+{Everywhere you look, you see buttons, switches, lights, reels of tape, and tape drives.}
+{the left large-hub reel-to-reel recorder}
+{the right large-hub reel-to-reel recorder}
+{the electronic equipment}
+{Everywhere you look, you see buttons, switches, lights, reels of tape, and tape drives. Unfortunately, they are much too high for you to reach.}
+{the electronic equipment}
+{Everywhere you look, you see buttons, switches, lights, reels of tape, and tape drives. Unfortunately, they are much too high for you to reach.}
+{the monitor speaker}
+{You could swear these are genuine Altec "Voice of the Theatre" speakers. You haven't seen these babies in years!}
+{the monitor speaker}
+{You could swear these are genuine Altec "Voice of the Theatre" speakers. You haven't seen these babies in years!}
+{the monitor speaker}
+{You could swear these are genuine Altec "Voice of the Theatre" speakers. You haven't seen these babies in years!}
+{the equipment rack}
+{This shelf contains a lot of electronic equipment, most of it old, plus a shelf filled with blank reel-to-reel tapes.}
+{the shelf of tapes}
+{Why, here's what you need! A shelf filled with blank, reel-to-reel recording tapes.}
+{the microphone mixer}
+{the microphone}
+{A professional-quality, high-fidelity, studio ribbon microphone hangs from a boom over the studio console.}
+{the reel-to-reel tape recorder}
+{the tape}
+{A large Studer console recorder is all warmed up and ready to record--except there's no tape upon which to record!}
+{P. C. Hammer}
+{P. C. Hammer is working in the next Control Room.}
+{the glass window}
+{A heavy, soundproof, plate-glass window separates you from the outside--and your freedom!}
+{the microphone mixer}
+{the recording sign}
+{This sign is illuminated whenever anyone is recording inside control room A.}
+{the Control Room A door}
+{Be careful, Patti! Inside that door stands the man you've come here to investigate: P. C. Hammer!}
+{the Control Room B door}
+{A sign on the door reads "Control Room B." It is currently unoccupied.}
+{P. C. Hammer}
+{Through the control room window, you see P. C. Hammer mixing his "live" radio broadcast for tomorrow morning's drive time show.}
+{the microphone stand}
+{A large boom microphone stand sits just outside the door to Control Room B.}
+{the recording sign}
+{This sign is illuminated whenever anyone is recording inside this control room.}

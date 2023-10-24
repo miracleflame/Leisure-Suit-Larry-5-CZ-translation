@@ -1,0 +1,9 @@
+{SAVE GAME}
+{GAME}
+{OK}
+{Cancel}
+{Change Directory}
+{OK}
+{OK}
+{OK}
+{Free Heap: %u Bytes\nLargest ptr: %u Bytes\nFreeHunk: %u KBytes\nLargest hunk: %u Bytes}

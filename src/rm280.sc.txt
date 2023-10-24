@@ -1,0 +1,38 @@
+{This end of the lobby is distinguished only by a bank of pay telephones against the far wall.}
+{Buffi}
+{Muffi}
+{Tracie}
+{Stacie}
+{Cherri}
+{Barri}
+{Dixie}
+{Trixie}
+{Los Angeles}
+{New York}
+{Atlantic City}
+{Miami}
+{the lost and found department}
+{the plant}
+{the plant}
+{the post}
+{the ashtray}
+{the counter}
+{the sofa}
+{the pay phone}
+{the pay phone}
+{the phone}
+{the phone}
+{the phone}
+{the phone}
+{the sign}
+{the sign}
+{the sign}
+{the sign}
+{the telephone directory}
+{the telephone directory}
+{Miami}
+{New York City}
+{Atlantic City}
+{Miami}
+{Miami}
+{the pay phones}

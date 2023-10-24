@@ -1,0 +1,17 @@
+{To you, all airports look alike (although the landscaping does vary slightly).}
+{the sky}
+{Hills stretch off into the distance.}
+{the trees}
+{This airport is rife with trees.}
+{the tree}
+{This airport is rife with trees.}
+{the trees}
+{This airport is rife with trees.}
+{the airplane}
+{You hope you don't have to wait for that airplane to take off.}
+{the airplane}
+{the tower}
+{The control tower is staffed with non-union air traffic controllers.}
+{You}
+{You}
+{You}

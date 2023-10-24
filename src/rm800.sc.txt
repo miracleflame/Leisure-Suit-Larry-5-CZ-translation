@@ -1,0 +1,28 @@
+{You are outside the studios of `K-Rap Radio.' It appears to be an amazingly small building for a station of such importance.}
+{your limousine}
+{Your limousine awaits your return.}
+{the K-RAP sign}
+{High above your head, K-RAP's neon sign illuminates the Baltimore night.}
+{the door}
+{K-RAP's doors are always open.}
+{the left speaker}
+{K-RAP's loudspeakers broadcast the station's current programming.}
+{the right speaker}
+{K-RAP's loudspeakers broadcast the station's current programming.}
+{the bush}
+{Someone planted these bushes right in the middle of this busy sidewalk!}
+{the bush}
+{Someone planted these bushes right in the middle of this busy sidewalk!}
+{the bush}
+{Someone planted these bushes right in the middle of this busy sidewalk!}
+{the bush}
+{Someone planted these bushes right in the middle of this busy sidewalk!}
+{the mural}
+{K-RAP radio has a mural of musicians on their wall.}
+{the tower}
+{The tower holds the antennas that broadcast K-RAP's stereo multiplexed signal to millions of people (some of whom listen!).}
+{the trees}
+{A clump of white birch trees grows just outside K-RAP.}
+{Save}
+{Nah, Why Bother?}
+{AL says}
