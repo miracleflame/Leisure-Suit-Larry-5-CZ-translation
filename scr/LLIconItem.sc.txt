@@ -1,31 +1,31 @@
-{January}
-{February}
-{March}
-{April}
-{May}
-{June}
-{July}
-{August}
-{September}
-{October}
-{November}
-{December}
-{Click here to close this window and return to the game.}
-{To look more closely at one of your inventory items, first click here, then click on the item.}
-{To do something to one of your inventory items, first click here, then click on the item.}
-{To learn about the other icons in this window, first click here, then pass the question mark over the other icons.}
-{To use one of your inventory items in the game, first click here, then click on the item, then click on OK.}
-{the camcorder}
+{leden}
+{únor}
+{bøezen}
+{duben}
+{kvìten}
+{èervna}
+{èervenec}
+{srpen}
+{záøí}
+{øíjen}
+{listopad}
+{prosinec}
+{Kliknutím sem zavøete toto okno a vrátíte se do hry.}
+{Chcete-li se blíe podívat na nìkterou z poloek inventáøe, kliknìte nejprve sem a poté kliknìte na danou poloku.}
+{Chcete-li nìco udìlat s jednou z poloek v inventáøi, kliknìte nejprve sem a pak na ni kliknìte.}
+{Chcete-li se dozvìdìt nìco o ostatních ikonách v tomto oknì, kliknìte nejprve sem a potom pøejdìte otazníkem pøes ostatní ikony.}
+{Chcete-li ve høe pouít nìkterı z pøedmìtù v inventáøi, kliknìte nejprve sem, pak kliknìte na danı pøedmìt a poté na OK.}
+{kamera}
 {On}
 {Off}
-{the battery charger}
-{the videotape}
-{the videotape}
-{the videotape}
-{Michelle's resume}
-{the Hard Disk Cafe napkin}
-{the AeroDork Gold Card}
-{the boarding pass}
+{nabíjeèka baterií}
+{videokazeta}
+{videokazeta}
+{videokazeta}
+{Michellin ivotopis}
+{Ubrousek z kavárny Hard Disk}
+{zlatá karta AeroBlb}
+{Palubní lístek}
 {L.A.}
 {New York}
 {Atlantic City}
@@ -34,35 +34,35 @@
 {New York}
 {Atlantic City}
 {Miami}
-{the magazine}
-{the quarter}
-{heads}
-{tails}
+{èasopis}
+{ètvrák}
+{hlava}
+{pana}
 {the DayTrotter\05}
-{the money}
-{the credit cards}
-{the membership tape}
-{the DataMan}
-{the Reverse Biaz DataPak}
-{the P. C. Hammer DataPak}
-{Lana's resume}
-{the Tramp's casino matchbook}
-{the silver dollar}
+{peníze}
+{kreditní karty}
+{èlenská páska}
+{DataMan}
+{reverzní Biaz DataPak}
+{P. C. Hammer DataPak}
+{Lanin ivotopis}
+{krabièka zápalek z Trampova kasina}
+{støíbrnı dolar}
 {s}
 {}
-{the roller-blades}
-{the fax on Reverse Biaz}
-{the champagne}
-{the gold record}
-{the cassette tape}
-{Chi Chi's resume}
-{Doc Pulliam's card}
-{the green card}
-{the doily}
-{the fax on P. C. Hammer}
-{the letter opener}
-{the desk key}
-{the folder of evidence}
-{the photocopies}
-{the reel-to-reel tape}
-{the "Hooter Shooter" bra}
+{koleèkové brusle}
+{fax na obráceném Biaz}
+{šampaòské}
+{zlatá deska}
+{kazeák}
+{ivotopis Chi Chi}
+{Karta doktora Pulliama}
+{zelená karta}
+{støapec}
+{fax na P. C. Hammera}
+{otvírák na dopisy}
+{klíè od stolu}
+{sloka s dùkazy}
+{fotokopie}
+{páska z cívky}
+{podprsenka "Hooter Shooter"}

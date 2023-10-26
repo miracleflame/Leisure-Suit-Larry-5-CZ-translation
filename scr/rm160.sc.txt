@@ -1,38 +1,37 @@
-{Once PornProdCorp was heavily involved in X-rated movies, but since their recent I.P.O. and entry into soft-R television, they've totally changed their image. Now they are struggling their way into respectability.}
-{the file room door}
-{Silas Scruemall's office door}
-{the coffee pot}
-{the sound of coffee drinkers}
-{It looks like someone wants some coffee!}
-{the water cooler}
-{The water cooler is the office equipment with which you're most familiar.}
-{the coffee maker}
-{Silas Scruemall's office door}
-{the "America's Sexiest Home Videos" sign}
-{Evidently this company is the home of "America's Sexiest Home Videos." You've heard of that show! Especially since you work here!}
-{the portrait of Silas Scruemall}
-{"Our founder, Silas Scruemall!"}
-{the poster}
-{Art is one thing, but this is something else!}
-{the photographs}
-{The pictures are of past stars of PornProdCorp's many films, television shows and artsy documentaries. There are a total of zero pictures of Chief Video Tape Rewinders like you. You have no reason to assume you'll be the first!}
-{the hydrant photograph}
-{It's either the star of "Manhunter," or a fire hydrant, you're not sure which.}
-{the certificate}
-{the plant}
-{You really enjoy the look of fine plastic.}
-{the plant}
-{You really enjoy the look of fine plastic.}
-{the plant}
-{How you love plastic plants! (Especially the smell!)}
-{the "Titty" award}
-{Genuine Engraved Plastic}
-{the chair}
-{This chair and desk belong to the person least in favor with your boss, Silas Scruemall. Currently, they are unoccupied. Often, you sit here.}
-{the desk}
-{This chair and desk belong to the person least in favor with your boss, Silas Scruemall. Currently, they are unoccupied. Often, you sit here.}
-{the cabinet}
-{The only thing in the cabinet under the coffee pot is a box of thoughtfully premeasured, preweakened coffee portions, and some empty plastic bags that used to hold stacks of Styrofoam coffee cups. You have no need for either coffee or filters.}
-{the electrical outlet}
-{the hallway}
-{This hallway leads to the Department of Video Tape Rewinding and your workroom, where you fulfill your job as Chief Rewinder and Sterilizer (Betamax Division).}
+{Kdysi se PornProdCorp vıraznì podílela na filmech s hodnocením X, ale od nedávného I.P.O. a vstupu do soft-R televize zcela zmìnila svou imid. Nyní se snaí prorazit si cestu k serióznosti.}
+{dveøe spisovny}
+{dveøe kanceláøe Silase Scruemalla}
+{konvice na kávu}
+{zvuk pijákù kávy}
+{Vypadá to, e nìkdo chce kávu!}
+{sódomat}
+{Sódomat je vybavení kanceláøe, které znáš nejlépe}.
+{kávovar}
+{Dveøe kanceláøe Silase Scruemalla}
+{nápis "Nejvíc sexy domácí videa Ameriky"}
+{Zøejmì je tato spoleènost domovem "Nejvíc sexy domácí videa Ameriky". Slyšel jsi o tom poøadu! Zvláš kdy tu pracuješ!}
+{portrét Silase Scruemalla}
+{"Náš zakladatel, Silas Scruemall!"}
+{plakát}
+{Umìní je jedna vìc, ale tohle je nìco jiného!}
+{fotografie}
+{Na fotografiích jsou bıvalé hvìzdy mnoha filmù, televizních poøadù a umìleckıch dokumentù spoleènosti PornProdCorp. Je tu celkem nula fotek hlavních pøevíjeèù videokazet, jako jsi ty. Nemáš dùvod pøedpokládat, e budeš první!}
+{fotografie hydrantu}
+{Je to buï hvìzda filmu Lovec lidí, nebo poární hydrant, nevíš, co z toho.}
+{certifikát}
+{rostlina}
+{Na pohled se ti opravdu líbí jemnı plast.}{rostlina}
+{Opravdu si uíváš vzhled jemného plastu.}
+{rostlina}
+{Jak jen miluješ plastové rostliny! (Hlavnì tu vùni!)}
+{Ocenìní "Cecky"}
+{Pravı gravírovanı plast}
+{idle}
+{Tato idle a stùl patøí osobì, která je nejménì oblíbená u tvého šéfa, Silasovi Scruemallovi. V souèasné dobì jsou neobsazené. Èasto zde sedáváš ty.}
+{stùl}
+{Tato idle a stùl patøí osobì, která má u tvého šéfa, Silase Scruemalla, nejmenší pøízeò. V souèasné dobì jsou neobsazené. Èasto zde sedáváš ty.}
+{skøíòka}
+{Ve skøíòce pod konvicí na kávu je jen krabice s promyšlenì pøedem odmìøenımi, pøedem zeslabenımi porcemi kávy a nìkolik prázdnıch plastovıch sáèkù, ve kterıch bıvaly hromádky polystyrenovıch kelímkù na kávu. Nepotøebuješ ani kávu, ani filtry.}
+{elektrická zásuvka}
+{pøedsíò}
+{Tato chodba vede do oddìlení pøevíjení videokazet a do tvé pracovny, kde vykonáváš svou práci hlavního pøevíjeèe a sterilizátora (divize Betamax).}

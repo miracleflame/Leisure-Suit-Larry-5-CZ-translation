@@ -1,47 +1,47 @@
-{An Erased Videotape}
+{Vymazaná videokazeta}
 {Michelle Milken}
 {Lana Luscious}
 {Chi Chi Lambada}
-{Walk}
-{Look}
-{Do}
-{Talk}
-{Zipper}
-{UNKNOWN VERB}
+{Chùze}
+{Dívej se}
+{Dìlej}
+{Mluv}
+{Zip}
+{NEZNÁMÉ VERB}
 {\0D\n}
-{You}
-{You}
+{Ty}
+{Ty}
 {x.yyy.zzz}
-{mm/dd/yy}
+{mm/dd/rr}
 {991-999-9999}
 {992-999-9999}
-{version}
-{So You're Finally Leaving?}
-{Okay, you two. Have fun!}
-{Hey! Back to work!}
+{verze}
+{Takže koneènì odcházíte?}
+{Dobøe, vy dva. Bavte se!}
+{Hej! Zpátky do práce!}
 {MEMORY.DRV}
 {\n}
-{Use this icon to move your character.}
-{Use this icon to look at things.}
-{Use this icon to do things.}
-{Use this icon to talk to other characters.}
-{Say! Don't you know what your zipper is for?}
-{This icon lets you "Fast Forward" to the next interactive portion of the game.}
-{Fast Forward}
-{Yes}
-{Oops}
-{Select this icon to use your current inventory object.}
-{Use this icon to bring up your inventory window.}
-{This icon brings up the control panel.}
-{To learn about the other icons, first click here, then pass the question mark over the other icons.}
-{Raise this to increase the amount of background animation. Lower it if game play seems sluggish.}
-{This adjusts the volume on some sound boards and synthesizers.}
-{This adjusts Larry and Patti's speed, within the limits of your computer's capabilities.}
-{Lower this slide to make text remain on the screen longer. Raise it if you are a fast reader.}
-{Use this to save the current state of your game. When you later select Restore, everything will be exactly as it is now.}
-{This restores a game you saved earlier.}
-{Use this to restart the game from the very beginning.}
-{Use this to leave the game.}
-{Here's where you learn more than you care to know about the creators of this game.}
-{To learn about the other items in this window, first click here, then pass the question mark over the other items.}
-{Use this to exit this menu and resume game play.}
+{Pomocí této ikony mùžete pøesunout svou postavu.}
+{Tuto ikonu použijte k prohlížení vìcí.}
+{Tuto ikonu použijte k provádìní úkonù.}
+{Pomocí této ikony mùžete mluvit s ostatními postavami.}
+{Hele, nevíš, k èemu slouží tvùj zip?}
+{Tato ikona vám umožní "pøeskoèit" na další interaktivní èást hry.}
+{Rychle vpøed}
+{Ano}
+{Uups}
+{Zaškrtnutím této ikony použijete aktuální pøedmìt v inventáøi.}
+{Pomocí této ikony vyvoláte okno s inventáøem.}
+{Tato ikona vyvolá ovládací panel.}
+{Chcete-li se seznámit s dalšími ikonami, kliknìte nejprve sem a poté pøejdìte otazníkem na další ikony.}
+{Zvýšení množství animace na pozadí. Pokud se vám hra zdá pomalá, snižte ji.}
+{Tímto nastavíte hlasitost.}
+{Tímto se upravuje rychlost Larryho a Patti v rámci možností vašeho poèítaèe.}
+{Snižte tento posuvník, aby text zùstal na obrazovce déle. Zvyšte jej, pokud ètete rychle.}
+{Slouží k uložení aktuálního stavu hry. Když pozdìji vyberete možnost Obnovit, bude vše pøesnì tak, jak je nyní.}
+{Tímto obnovíte døíve uloženou hru.}
+{Tuto volbu použijte k opìtovnému spuštìní hry od úplného zaèátku.}
+{Tímto mùžete opustit hru.}
+{Tady se o tvùrcích této hry dozvíte víc, než byste chtìli vìdìt.}
+{Chcete-li se dozvìdìt nìco o dalších položkách v tomto oknì, kliknìte nejprve sem a pak pøejdìte otazníkem na další položky.}
+{Tímto tlaèítkem opustíte tuto nabídku a pokraèujete ve høe.}

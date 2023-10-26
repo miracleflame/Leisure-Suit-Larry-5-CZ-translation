@@ -3,12 +3,12 @@
 {New York City Metropolitan}
 {Atlantic City Non-Tramp Infested}
 {Dade County}
-{`Enter Your City Here'}
-{floating down the Potomac}
-{getting mugged}
-{feeding the slots}
-{lying on the beach}
-{sitting on the can!}
+{`Zde zadejte své mìsto'}
+{plavba po øece Potomac}
+{pøepaden}
+{krmí automaty}
+{leží na pláži}
+{sedí na plechovce!}
 {x}
 {!}
 {#}

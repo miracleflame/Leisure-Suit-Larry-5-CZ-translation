@@ -1,8 +1,8 @@
-{SAVE GAME}
+{ULOŽIT HRU}
 {GAME}
 {OK}
-{Cancel}
-{Change Directory}
+{Zrušit}
+{Zmìnit adresáø}
 {OK}
 {OK}
 {OK}

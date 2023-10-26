@@ -1,9 +1,9 @@
 {Variable No.}
 {Value}
 {Variable No.}
-{Dollars:_}
-{Silver:__}
-{..none..}
-{Teleport to}
-{Outta here!}
+{Dolary:_}
+{Støíbro:__}
+{..nic..}
+{Teleportuj}
+{Pryè!}
 {_}

@@ -1,35 +1,35 @@
-{the stereo}
-{the plaque}
-{the gold record}
-{the stereo}
-{the elevator}
-{This is the elevator in which you arrived.}
-{Reverse Biaz}
-{the turntable}
-{the gold record}
-{the tone arm}
-{the speakers}
-{the speakers}
-{the studio door}
-{A small plaque on the door reads, "Studio A."}
-{the Reverse button}
-{the Stop button}
-{the Forward button}
-{the 33 button}
-{the 78 button}
-{the statue}
-{This sculpture represents the patron saint of recording companies--\nSt. Needle.}
-{the left speaker}
-{This transducer converts electrical energy into rapidly pulsating sound waves.}
-{the right speaker}
-{This transducer converts electrical energy into rapidly pulsating sound waves.}
-{the plant}
-{Upon close examination, you determine this is a plant.}
-{the shelves}
-{The office's shelves are filled with records, tapes, and books.}
-{the record jackets}
-{Many famous record album jackets adorn the walls of the office of des Rever Records.}
-{the record jackets}
-{Many famous record album jackets adorn the walls of the office of des Rever Records.}
-{the gold records}
-{These gold records are firmly attached to the wall.}
+{kazeák}
+{plaketa}
+{zlatá deska}
+{kazeák}
+{vıtah}
+{Tímto vıtahem jste pøijeli.}
+{Reverzní Biaz}
+{gramofon}
+{zlatá deska}
+{jehla}
+{reproduktory}
+{reproduktory}
+{dveøe studia}
+{Na dveøích je malá tabulka s nápisem: "Studio A."}
+{tlaèítko Reverz}
+{tlaèítko Stop}
+{tlaèítko Vpøed}
+{tlaèítko 33}
+{tlaèítko 78}
+{socha}
+{Tato socha pøedstavuje patrona nahrávacích spoleèností - svatého Jehlu.}
+{levı reproduktor}
+{Tento mìniè pøevádí elektrickou energii na rychle pulzující zvukové vlny.}
+{pravı reproduktor}
+{Tento mìniè pøevádí elektrickou energii na rychle pulzující zvukové vlny.}
+{rostlina}
+{Pøi bliším zkoumání zjistíte, e se jedná o rostlinu.}
+{polièky}
+{Polièky v kanceláøi jsou plné desek, kazet a knih.}
+{obaly na desky}
+{Stìny kanceláøe des Rever Records zdobí mnoho obalù slavnıch alb.}
+{obaly desek}
+{Mnoho slavnıch obalù od gramofonovıch desek zdobí stìny kanceláøe des Rever Records.}
+{zlaté desky}
+{Tyto zlaté desky jsou pevnì pøipevnìny ke zdi.}
