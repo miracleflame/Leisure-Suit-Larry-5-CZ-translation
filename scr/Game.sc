@@ -29,7 +29,7 @@
 			temp81
 			994
 			3
-			(if param1 {SAVE GAME} else {GAME})
+			(if param1 {ULOŽIT HRU} else {GAME})
 			@temp1
 		)
 		(Load rsFONT global22)
@@ -46,10 +46,10 @@
 							{OK}
 							1
 							81
-							{Cancel}
+							{Zrušit}
 							0
 							81
-							{Change Directory}
+							{Zmìnit adresáø}
 							2
 						)
 					else

@@ -14,7 +14,7 @@
 )
 
 (local
-	[local0 13] = [0 {January} {February} {March} {April} {May} {June} {July} {August} {September} {October} {November} {December}]
+	[local0 13] = [0 {leden} {˙nor} {b¯ezen} {duben} {kvÏten} {Ëervna} {Ëervenec} {srpen} {z·¯Ì} {¯Ìjen} {listopad} {prosinec}]
 )
 (procedure (localproc_008a param1 param2 &tmp temp0)
 	(proc0_14 (+ param2 (if global179 50 else 80)) param1)
@@ -155,7 +155,7 @@
 		cel 0
 		cursor 999
 		signal $0043
-		helpStr {Click here to close this window and return to the game.}
+		helpStr {KliknutÌm sem zav¯ete toto okno a vr·tÌte se do hry.}
 	)
 	
 	(method (init)
@@ -173,7 +173,7 @@
 		cursor 1
 		message 2
 		signal $0081
-		helpStr {To look more closely at one of your inventory items, first click here, then click on the item.}
+		helpStr {Chcete-li se blÌûe podÌvat na nÏkterou z poloûek invent·¯e, kliknÏte nejprve sem a potÈ kliknÏte na danou poloûku.}
 	)
 	
 	(method (init)
@@ -190,7 +190,7 @@
 		cel 0
 		cursor 2
 		message 3
-		helpStr {To do something to one of your inventory items, first click here, then click on the item.}
+		helpStr {Chcete-li nÏco udÏlat s jednou z poloûek v invent·¯i, kliknÏte nejprve sem a pak na ni kliknÏte.}
 	)
 	
 	(method (init)
@@ -207,7 +207,7 @@
 		cel 0
 		cursor 9
 		message 6
-		helpStr {To learn about the other icons in this window, first click here, then pass the question mark over the other icons.}
+		helpStr {Chcete-li se dozvÏdÏt nÏco o ostatnÌch ikon·ch v tomto oknÏ, kliknÏte nejprve sem a potom p¯ejdÏte otaznÌkem p¯es ostatnÌ ikony.}
 	)
 	
 	(method (init)
@@ -223,7 +223,7 @@
 		loop 4
 		cel 0
 		cursor 999
-		helpStr {To use one of your inventory items in the game, first click here, then click on the item, then click on OK.}
+		helpStr {Chcete-li ve h¯e pouûÌt nÏkter˝ z p¯edmÏt˘ v invent·¯i, kliknÏte nejprve sem, pak kliknÏte na dan˝ p¯edmÏt a potÈ na OK.}
 	)
 	
 	(method (init)
@@ -238,7 +238,7 @@
 		view 931
 		cursor 931
 		signal $0002
-		description {the camcorder}
+		description {kamera}
 	)
 	
 	(method (doVerb theVerb theState &tmp [temp0 50] temp50 temp51)
@@ -321,7 +321,7 @@
 		view 932
 		cursor 932
 		signal $0002
-		description {the battery charger}
+		description {nabÌjeËka bateriÌ}
 		name "Battery Charger"
 	)
 	
@@ -349,7 +349,7 @@
 		view 934
 		cursor 934
 		signal $0002
-		description {the videotape}
+		description {videokazeta}
 		name "A Blank Videotape\_a"
 	)
 	
@@ -382,7 +382,7 @@
 		view 934
 		cursor 934
 		signal $0002
-		description {the videotape}
+		description {videokazeta}
 		name "A Blank Videotape\_b"
 	)
 	
@@ -415,7 +415,7 @@
 		view 934
 		cursor 934
 		signal $0002
-		description {the videotape}
+		description {videokazeta}
 		name "A Blank Videotape\_c"
 	)
 	
@@ -448,7 +448,7 @@
 		view 937
 		cursor 937
 		signal $0002
-		description {Michelle's resume}
+		description {Michellin ûivotopis}
 		name "Michelle Milken's Resume"
 	)
 	
@@ -485,7 +485,7 @@
 		view 938
 		cursor 938
 		signal $0002
-		description {the Hard Disk Cafe napkin}
+		description {Ubrousek z kav·rny Hard Disk}
 		name "Hard Disk Cafe Napkin"
 	)
 	
@@ -510,7 +510,7 @@
 		view 939
 		cursor 939
 		signal $0002
-		description {the AeroDork Gold Card}
+		description {zlat· karta AeroBlb}
 		name "AeroDork Gold Card"
 	)
 	
@@ -533,7 +533,7 @@
 		view 940
 		cursor 940
 		signal $0002
-		description {the boarding pass}
+		description {PalubnÌ lÌstek}
 		name "Boarding Pass"
 	)
 	
@@ -583,7 +583,7 @@
 		view 941
 		cursor 941
 		signal $0002
-		description {the magazine}
+		description {Ëasopis}
 		name "AeroDork's In-Flight Magazine"
 	)
 	
@@ -610,7 +610,7 @@
 		view 942
 		cursor 942
 		signal $0002
-		description {the quarter}
+		description {Ëtvrù·k}
 		name "Some Change"
 	)
 	
@@ -625,7 +625,7 @@
 					@temp0
 					19
 					36
-					(if (Random 0 1) {heads} else {tails})
+					(if (Random 0 1) {hlava} else {pana})
 				)
 				(proc0_14 @temp0)
 			)
@@ -683,7 +683,7 @@
 		view 944
 		cursor 944
 		signal $0002
-		description {the money}
+		description {penÌze}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -705,7 +705,7 @@
 		view 945
 		cursor 945
 		signal $0002
-		description {the credit cards}
+		description {kreditnÌ karty}
 		name "Credit Cards"
 	)
 	
@@ -728,7 +728,7 @@
 		view 946
 		cursor 946
 		signal $0002
-		description {the membership tape}
+		description {Ëlensk· p·ska}
 		name "Membership Tape"
 	)
 	
@@ -757,7 +757,7 @@
 		view 948
 		cursor 948
 		signal $0002
-		description {the DataMan}
+		description {DataMan}
 		owner 445
 	)
 	
@@ -838,7 +838,7 @@
 		view 949
 		cursor 949
 		signal $0002
-		description {the Reverse Biaz DataPak}
+		description {reverznÌ Biaz DataPak}
 		owner 445
 		name "Reverse Biaz DataPak"
 	)
@@ -864,7 +864,7 @@
 		view 949
 		cursor 949
 		signal $0002
-		description {the P. C. Hammer DataPak}
+		description {P. C. Hammer DataPak}
 		owner 445
 		name "P. C. Hammer DataPak"
 	)
@@ -890,7 +890,7 @@
 		view 937
 		cursor 937
 		signal $0002
-		description {Lana's resume}
+		description {Lanin ûivotopis}
 		name "Lana Luscious' Resume"
 	)
 	
@@ -926,7 +926,7 @@
 		view 952
 		cursor 952
 		signal $0002
-		description {the Tramp's casino matchbook}
+		description {krabiËka z·palek z Trampova kasina}
 		name "Tramp Casino Matchbook"
 	)
 	
@@ -954,7 +954,7 @@
 		view 953
 		cursor 953
 		signal $0002
-		description {the silver dollar}
+		description {st¯Ìbrn˝ dolar}
 		name "Silver Dollar"
 	)
 	
@@ -987,7 +987,7 @@
 		view 954
 		cursor 954
 		signal $0002
-		description {the roller-blades}
+		description {koleËkovÈ brusle}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1015,7 +1015,7 @@
 		view 955
 		cursor 955
 		signal $0002
-		description {the fax on Reverse Biaz}
+		description {fax na obr·cenÈm Biaz}
 		name "Reverse Biaz Fax"
 	)
 	
@@ -1041,7 +1041,7 @@
 		view 956
 		cursor 956
 		signal $0002
-		description {the champagne}
+		description {öampaÚskÈ}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1063,7 +1063,7 @@
 		view 957
 		cursor 957
 		signal $0002
-		description {the gold record}
+		description {zlat· deska}
 		name "Gold Record"
 	)
 	
@@ -1092,7 +1092,7 @@
 		view 958
 		cursor 958
 		signal $0002
-		description {the cassette tape}
+		description {kazeù·k}
 		name "Cassette Tape"
 	)
 	
@@ -1115,7 +1115,7 @@
 		view 937
 		cursor 937
 		signal $0002
-		description {Chi Chi's resume}
+		description {ûivotopis Chi Chi}
 		name "Chi Chi Lambada's Resume"
 	)
 	
@@ -1151,7 +1151,7 @@
 		view 960
 		cursor 960
 		signal $0002
-		description {Doc Pulliam's card}
+		description {Karta doktora Pulliama}
 		name "Doc Pulliam's Card"
 	)
 	
@@ -1180,7 +1180,7 @@
 		view 961
 		cursor 961
 		signal $0002
-		description {the green card}
+		description {zelen· karta}
 		name "Green Card"
 	)
 	
@@ -1203,7 +1203,7 @@
 		view 962
 		cursor 962
 		signal $0002
-		description {the doily}
+		description {st¯apec}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1257,7 +1257,7 @@
 		view 955
 		cursor 955
 		signal $0002
-		description {the fax on P. C. Hammer}
+		description {fax na P. C. Hammera}
 		name "P. C. Hammer Fax"
 	)
 	
@@ -1282,7 +1282,7 @@
 		view 964
 		cursor 964
 		signal $0002
-		description {the letter opener}
+		description {otvÌr·k na dopisy}
 		name "Letter Opener"
 	)
 	
@@ -1305,7 +1305,7 @@
 		view 965
 		cursor 965
 		signal $0002
-		description {the desk key}
+		description {klÌË od stolu}
 		name "Desk Key"
 	)
 	
@@ -1327,7 +1327,7 @@
 		view 966
 		cursor 966
 		signal $0002
-		description {the folder of evidence}
+		description {sloûka s d˘kazy}
 		name "Folder Of Evidence"
 	)
 	
@@ -1360,7 +1360,7 @@
 		view 967
 		cursor 967
 		signal $0002
-		description {the photocopies}
+		description {fotokopie}
 		name "Photocopied Evidence"
 	)
 	
@@ -1383,7 +1383,7 @@
 		view 968
 		cursor 968
 		signal $0002
-		description {the reel-to-reel tape}
+		description {p·ska z cÌvky}
 		name "Reel To Reel Tape"
 	)
 	
@@ -1413,7 +1413,7 @@
 		view 969
 		cursor 969
 		signal $0002
-		description {the "Hooter Shooter" bra}
+		description {podprsenka "Hooter Shooter"}
 		name "Hooter Shooter"
 	)
 	

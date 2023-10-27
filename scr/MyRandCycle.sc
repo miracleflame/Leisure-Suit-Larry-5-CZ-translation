@@ -913,7 +913,7 @@
 		nsLeft 151
 		nsBottom 167
 		nsRight 197
-		description {the stereo}
+		description {kazeák}
 		sightAngle 40
 		approachX 172
 		approachY 185
@@ -952,7 +952,7 @@
 		nsLeft 153
 		nsBottom 145
 		nsRight 181
-		description {the plaque}
+		description {plaketa}
 		sightAngle 40
 		approachX 159
 		approachY 183
@@ -990,7 +990,7 @@
 		x 169
 		y 162
 		z 33
-		description {the gold record}
+		description {zlatá deska}
 		sightAngle 40
 		approachX 159
 		approachY 183
@@ -1018,7 +1018,7 @@
 		x 154
 		y 164
 		z 16
-		description {the stereo}
+		description {kazeák}
 		sightAngle 40
 		approachX 159
 		approachY 183
@@ -1047,10 +1047,10 @@
 	(properties
 		x 50
 		y 77
-		description {the elevator}
+		description {vıtah}
 		approachX 65
 		approachY 152
-		lookStr {This is the elevator in which you arrived.}
+		lookStr {Tímto vıtahem jste pøijeli.}
 		view 640
 		priority 10
 		signal $4011
@@ -1077,7 +1077,7 @@
 	(properties
 		x 251
 		y 56
-		description {Reverse Biaz}
+		description {Reverzní Biaz}
 		view 642
 		cycleSpeed 12
 	)
@@ -1113,7 +1113,7 @@
 		nsLeft 112
 		nsBottom 132
 		nsRight 191
-		description {the turntable}
+		description {gramofon}
 		sightAngle 40
 	)
 	
@@ -1150,7 +1150,7 @@
 	(properties
 		x 150
 		y 133
-		description {the gold record}
+		description {zlatá deska}
 		view 650
 		loop 10
 		cycleSpeed 18
@@ -1189,7 +1189,7 @@
 	(properties
 		x 191
 		y 111
-		description {the tone arm}
+		description {jehla}
 		view 650
 		loop 6
 		priority 11
@@ -1250,7 +1250,7 @@
 	(properties
 		x 243
 		y 114
-		description {the speakers}
+		description {reproduktory}
 		view 650
 		loop 8
 		cycleSpeed 2
@@ -1288,7 +1288,7 @@
 	(properties
 		x 75
 		y 117
-		description {the speakers}
+		description {reproduktory}
 		view 650
 		loop 9
 		cycleSpeed 2
@@ -1329,10 +1329,10 @@
 	(properties
 		x 177
 		y 21
-		description {the studio door}
+		description {dveøe studia}
 		approachX 195
 		approachY 83
-		lookStr {A small plaque on the door reads, "Studio A."}
+		lookStr {Na dveøích je malá tabulka s nápisem: "Studio A."}
 		view 640
 		loop 1
 		signal $0001
@@ -1348,7 +1348,7 @@
 	(properties
 		x 105
 		y 159
-		description {the Reverse button}
+		description {tlaèítko Reverz}
 		sightAngle 40
 		view 650
 		signal $0001
@@ -1375,7 +1375,7 @@
 	(properties
 		x 120
 		y 160
-		description {the Stop button}
+		description {tlaèítko Stop}
 		sightAngle 40
 		view 650
 		loop 1
@@ -1403,7 +1403,7 @@
 	(properties
 		x 134
 		y 161
-		description {the Forward button}
+		description {tlaèítko Vpøed}
 		sightAngle 40
 		view 650
 		loop 2
@@ -1431,7 +1431,7 @@
 	(properties
 		x 188
 		y 161
-		description {the 33 button}
+		description {tlaèítko 33}
 		sightAngle 40
 		view 650
 		loop 3
@@ -1459,7 +1459,7 @@
 	(properties
 		x 217
 		y 159
-		description {the 78 button}
+		description {tlaèítko 78}
 		sightAngle 40
 		view 650
 		loop 5
@@ -1491,9 +1491,9 @@
 		nsLeft 24
 		nsBottom 169
 		nsRight 43
-		description {the statue}
+		description {socha}
 		sightAngle 40
-		lookStr {This sculpture represents the patron saint of recording companies--\nSt. Needle.}
+		lookStr {Tato socha pøedstavuje patrona nahrávacích spoleèností - svatého Jehlu.}
 	)
 )
 
@@ -1506,9 +1506,9 @@
 		nsLeft 112
 		nsBottom 164
 		nsRight 131
-		description {the left speaker}
+		description {levı reproduktor}
 		sightAngle 40
-		lookStr {This transducer converts electrical energy into rapidly pulsating sound waves.}
+		lookStr {Tento mìniè pøevádí elektrickou energii na rychle pulzující zvukové vlny.}
 	)
 )
 
@@ -1521,9 +1521,9 @@
 		nsLeft 205
 		nsBottom 161
 		nsRight 225
-		description {the right speaker}
+		description {pravı reproduktor}
 		sightAngle 40
-		lookStr {This transducer converts electrical energy into rapidly pulsating sound waves.}
+		lookStr {Tento mìniè pøevádí elektrickou energii na rychle pulzující zvukové vlny.}
 	)
 )
 
@@ -1535,9 +1535,9 @@
 		nsLeft 220
 		nsBottom 93
 		nsRight 246
-		description {the plant}
+		description {rostlina}
 		sightAngle 40
-		lookStr {Upon close examination, you determine this is a plant.}
+		lookStr {Pøi bliším zkoumání zjistíte, e se jedná o rostlinu.}
 	)
 )
 
@@ -1549,9 +1549,9 @@
 		nsLeft 257
 		nsBottom 137
 		nsRight 279
-		description {the shelves}
+		description {polièky}
 		sightAngle 40
-		lookStr {The office's shelves are filled with records, tapes, and books.}
+		lookStr {Polièky v kanceláøi jsou plné desek, kazet a knih.}
 	)
 )
 
@@ -1563,9 +1563,9 @@
 		nsLeft 104
 		nsBottom 20
 		nsRight 162
-		description {the record jackets}
+		description {obaly na desky}
 		sightAngle 40
-		lookStr {Many famous record album jackets adorn the walls of the office of des Rever Records.}
+		lookStr {Stìny kanceláøe des Rever Records zdobí mnoho obalù slavnıch alb.}
 	)
 )
 
@@ -1577,9 +1577,9 @@
 		nsLeft 222
 		nsBottom 20
 		nsRight 315
-		description {the record jackets}
+		description {obaly desek}
 		sightAngle 40
-		lookStr {Many famous record album jackets adorn the walls of the office of des Rever Records.}
+		lookStr {Mnoho slavnıch obalù od gramofonovıch desek zdobí stìny kanceláøe des Rever Records.}
 	)
 )
 
@@ -1678,9 +1678,9 @@
 		nsLeft 108
 		nsBottom 47
 		nsRight 160
-		description {the gold records}
+		description {zlaté desky}
 		sightAngle 40
-		lookStr {These gold records are firmly attached to the wall.}
+		lookStr {Tyto zlaté desky jsou pevnì pøipevnìny ke zdi.}
 	)
 	
 	(method (doVerb theVerb param2)

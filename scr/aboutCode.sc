@@ -25,7 +25,7 @@
 			70
 			222
 			80
-			{Sierra Presents}
+			{Sierra pøedstavuje}
 		)
 		(cycleIcon loop: 2)
 		(proc0_14
@@ -40,7 +40,7 @@
 			70
 			180
 			80
-			{The Bosses}
+			{Šéfové}
 		)
 		(cycleIcon loop: 3)
 		(proc0_14
@@ -55,7 +55,7 @@
 			70
 			200
 			80
-			{The Workers}
+			{Makaèi}
 		)
 		(cycleIcon loop: 1)
 		(proc0_14
@@ -70,7 +70,7 @@
 			70
 			200
 			80
-			{The Boys in the Band}
+			{Hoši ze skupiny}
 		)
 		(cycleIcon loop: 0)
 		(Format @temp0 15 4 global27 global181)
@@ -85,7 +85,7 @@
 			70
 			222
 			80
-			{The Hackers}
+			{Heckeøi}
 		)
 		(Format @temp0 15 5 global182 global112)
 		(proc0_14
@@ -97,7 +97,7 @@
 			70
 			222
 			80
-			{A Paid Commercial Announcement}
+			{Placené reklamní oznámení}
 		)
 		(proc0_14
 			15
@@ -109,7 +109,7 @@
 			70
 			266
 			80
-			{More Laffer Laughs}
+			{Další Lafferùv smích}
 		)
 		(proc0_14
 			15
@@ -121,7 +121,7 @@
 			70
 			234
 			80
-			{Discontinued Products}
+			{Zastavené produkty}
 		)
 	)
 )

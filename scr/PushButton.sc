@@ -285,17 +285,17 @@
 								{Atlantic City Non-Tramp Infested}
 							)
 							(3 {Dade County})
-							(else  {`Enter Your City Here'})
+							(else  {`Zde zadejte své mìsto'})
 						)
 					)
 					(if (== global2 200)
-						{floating down the Potomac}
+						{plavba po øece Potomac}
 					else
 						(switch global160
-							(1 {getting mugged})
-							(2 {feeding the slots})
-							(3 {lying on the beach})
-							(else  {sitting on the can!})
+							(1 {pøepaden})
+							(2 {krmí automaty})
+							(3 {leží na pláži})
+							(else  {sedí na plechovce!})
 						)
 					)
 				)

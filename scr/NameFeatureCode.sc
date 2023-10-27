@@ -163,12 +163,12 @@
 						(Format @temp0 10 0 global152)
 						(Format @temp150 10 0 global153)
 						(proc940_0
-							{Dollars:_}
+							{Dolary:_}
 							41
 							@temp0
 							6
 							106
-							{Silver:__}
+							{Støíbro:__}
 							41
 							@temp150
 							6
@@ -204,7 +204,7 @@
 							(if (IsObject (global2 script?))
 								((global2 script?) name?)
 							else
-								{..none..}
+								{..nic..}
 							)
 						)
 						(proc255_0 @temp0 70 120)
@@ -212,7 +212,7 @@
 					)
 					(KEY_ALT_t
 						(if gTheNewDialog (gTheNewDialog dispose:))
-						(if (> (= gCastFirst (proc255_3 {Teleport to})) 0)
+						(if (> (= gCastFirst (proc255_3 {Teleportuj})) 0)
 							(global2 newRoom: gCastFirst)
 							(= gGCastFirst gCastFirst)
 						)
@@ -318,7 +318,7 @@
 		(self setSize:)
 		(= newDButton (DButton new:))
 		(newDButton
-			text: {Outta here!}
+			text: {Pryè!}
 			setSize:
 			moveTo: (- nsRight (+ 4 (newDButton nsRight?))) nsBottom
 		)

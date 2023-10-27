@@ -141,10 +141,10 @@
 		state $0400
 		activateHeight 0
 		y 0
-		normalHeading {Roger is carrying:}
+		normalHeading {Roger má u sebe:}
 		heading 0
-		empty {nothing!}
-		curScore {Score: %d out of %d}
+		empty {nic!}
+		curScore {Skóre: %d z %d}
 		showScore 1
 		iconBarInvItem 0
 		okButton 0

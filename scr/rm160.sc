@@ -27,7 +27,7 @@
 )
 (instance rm160 of LLRoom
 	(properties
-		lookStr {Once PornProdCorp was heavily involved in X-rated movies, but since their recent I.P.O. and entry into soft-R television, they've totally changed their image. Now they are struggling their way into respectability.}
+		lookStr {Kdysi se PornProdCorp vıraznì podílela na filmech s hodnocením X, ale od nedávného I.P.O. a vstupu do soft-R televize zcela zmìnila svou imid. Nyní se snaí prorazit si cestu k serióznosti.}
 		picture 160
 		north 180
 		east 190
@@ -374,7 +374,7 @@
 	(properties
 		x 245
 		y 67
-		description {the file room door}
+		description {dveøe spisovny}
 		approachX 264
 		approachY 76
 		view 160
@@ -419,7 +419,7 @@
 		x 47
 		y 110
 		heading 90
-		description {Silas Scruemall's office door}
+		description {dveøe kanceláøe Silase Scruemalla}
 		approachX 60
 		approachY 116
 		view 160
@@ -470,7 +470,7 @@
 	(properties
 		x 73
 		y 75
-		description {the coffee pot}
+		description {konvice na kávu}
 		approachX 98
 		approachY 97
 		view 160
@@ -499,8 +499,8 @@
 	(properties
 		x 32
 		y 81
-		description {the sound of coffee drinkers}
-		lookStr {It looks like someone wants some coffee!}
+		description {zvuk pijákù kávy}
+		lookStr {Vypadá to, e nìkdo chce kávu!}
 		view 162
 		priority 14
 		signal $4010
@@ -517,10 +517,10 @@
 	(properties
 		x 204
 		y 182
-		description {the water cooler}
+		description {sodomat}
 		approachX 201
 		approachY 179
-		lookStr {The water cooler is the office equipment with which you're most familiar.}
+		lookStr {Sodomat je vybavení kanceláøe, které znáš nejlépe}
 		view 160
 		loop 3
 		priority 15
@@ -590,7 +590,7 @@
 		nsLeft 62
 		nsBottom 78
 		nsRight 82
-		description {the coffee maker}
+		description {kávovar}
 		sightAngle 40
 	)
 	
@@ -619,7 +619,7 @@
 		nsLeft 12
 		nsBottom 123
 		nsRight 32
-		description {Silas Scruemall's office door}
+		description {Dveøe kanceláøe Silase Scruemalla}
 		sightAngle 40
 		approachX 60
 		approachY 116
@@ -637,9 +637,9 @@
 		nsLeft 153
 		nsBottom 52
 		nsRight 199
-		description {the "America's Sexiest Home Videos" sign}
+		description {nápis "Nejvíc sexy domácí videa Ameriky"}
 		sightAngle 40
-		lookStr {Evidently this company is the home of "America's Sexiest Home Videos." You've heard of that show! Especially since you work here!}
+		lookStr {Zøejmì je tato spoleènost domovem "Nejvíc sexy domácí videa Ameriky". Slyšel jsi o tom poøadu! Zvláš kdy tu pracuješ!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -664,11 +664,11 @@
 		nsLeft 53
 		nsBottom 57
 		nsRight 71
-		description {the portrait of Silas Scruemall}
+		description {portrét Silase Scruemalla}
 		sightAngle 40
 		approachX 94
 		approachY 95
-		lookStr {"Our founder, Silas Scruemall!"}
+		lookStr {"Náš zakladatel, Silas Scruemall!"}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -695,9 +695,9 @@
 		nsLeft 83
 		nsBottom 43
 		nsRight 103
-		description {the poster}
+		description {plakát}
 		sightAngle 40
-		lookStr {Art is one thing, but this is something else!}
+		lookStr {Umìní je jedna vìc, ale tohle je nìco jiného!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -723,11 +723,11 @@
 		nsLeft 111
 		nsBottom 48
 		nsRight 146
-		description {the photographs}
+		description {fotografie}
 		sightAngle 40
 		approachX 122
 		approachY 75
-		lookStr {The pictures are of past stars of PornProdCorp's many films, television shows and artsy documentaries. There are a total of zero pictures of Chief Video Tape Rewinders like you. You have no reason to assume you'll be the first!}
+		lookStr {Na fotografiích jsou bıvalé hvìzdy mnoha filmù, televizních poøadù a umìleckıch dokumentù spoleènosti PornProdCorp. Je tu celkem nula fotek hlavních pøevíjeèù videokazet, jako jsi ty. Nemáš dùvod pøedpokládat, e budeš první!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -751,11 +751,11 @@
 		nsLeft 213
 		nsBottom 33
 		nsRight 228
-		description {the hydrant photograph}
+		description {fotografie hydrantu}
 		sightAngle 40
 		approachX 231
 		approachY 78
-		lookStr {It's either the star of "Manhunter," or a fire hydrant, you're not sure which.}
+		lookStr {Je to buï hvìzda filmu Lovec lidí, nebo poární hydrant, nevíš, co z toho.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -780,7 +780,7 @@
 		nsLeft 295
 		nsBottom 29
 		nsRight 309
-		description {the certificate}
+		description {certifikát}
 		sightAngle 40
 		approachX 288
 		approachY 76
@@ -808,11 +808,11 @@
 		nsLeft 292
 		nsBottom 60
 		nsRight 319
-		description {the plant}
+		description {rostlina}
 		sightAngle 40
 		approachX 291
 		approachY 75
-		lookStr {You really enjoy the look of fine plastic.}
+		lookStr {Na pohled se ti opravdu líbí jemnı plast.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -836,11 +836,11 @@
 		nsTop 139
 		nsBottom 183
 		nsRight 26
-		description {the plant}
+		description {rostlina}
 		sightAngle 40
 		approachX 16
 		approachY 187
-		lookStr {You really enjoy the look of fine plastic.}
+		lookStr {Opravdu si uíváš vzhled jemného plastu.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -865,11 +865,11 @@
 		nsLeft 224
 		nsBottom 182
 		nsRight 266
-		description {the plant}
+		description {rostlina}
 		sightAngle 40
 		approachX 260
 		approachY 179
-		lookStr {How you love plastic plants! (Especially the smell!)}
+		lookStr {Jak jen miluješ plastové rostliny! (Hlavnì tu vùni!)}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -894,7 +894,7 @@
 		nsLeft 280
 		nsBottom 189
 		nsRight 313
-		description {the "Titty" award}
+		description {Ocenìní "Cecky"}
 		sightAngle 40
 		approachX 283
 		approachY 185
@@ -903,7 +903,7 @@
 	(method (doVerb theVerb param2)
 		(switch theVerb
 			(2
-				(proc0_14 160 42 30 1 80 {Genuine Engraved Plastic})
+				(proc0_14 160 42 30 1 80 {Pravı gravírovanı plast})
 				(proc0_10 1 81)
 				(proc0_14 160 43 67 -1 185)
 				(= local1 1)
@@ -927,9 +927,9 @@
 		nsLeft 106
 		nsBottom 183
 		nsRight 129
-		description {the chair}
+		description {idle}
 		sightAngle 40
-		lookStr {This chair and desk belong to the person least in favor with your boss, Silas Scruemall. Currently, they are unoccupied. Often, you sit here.}
+		lookStr {Tato idle a stùl patøí osobì, která je nejménì oblíbená u tvého šéfa, Silasovi Scruemallovi. V souèasné dobì jsou neobsazené. Èasto zde sedáváš ty.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -953,11 +953,11 @@
 		nsLeft 85
 		nsBottom 189
 		nsRight 179
-		description {the desk}
+		description {stùl}
 		sightAngle 40
 		approachX 151
 		approachY 188
-		lookStr {This chair and desk belong to the person least in favor with your boss, Silas Scruemall. Currently, they are unoccupied. Often, you sit here.}
+		lookStr {Tato idle a stùl patøí osobì, která má u tvého šéfa, Silase Scruemalla, nejmenší pøízeò. V souèasné dobì jsou neobsazené. Èasto zde sedáváš ty.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -981,9 +981,9 @@
 		nsLeft 70
 		nsBottom 99
 		nsRight 87
-		description {the cabinet}
+		description {skøíòka}
 		sightAngle 40
-		lookStr {The only thing in the cabinet under the coffee pot is a box of thoughtfully premeasured, preweakened coffee portions, and some empty plastic bags that used to hold stacks of Styrofoam coffee cups. You have no need for either coffee or filters.}
+		lookStr {Ve skøíòce pod konvicí na kávu je jen krabice s promyšlenì pøedem odmìøenımi, pøedem zeslabenımi porcemi kávy a nìkolik prázdnıch plastovıch sáèkù, ve kterıch bıvaly hromádky polystyrenovıch kelímkù na kávu. Nepotøebuješ ani kávu, ani filtry.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1007,7 +1007,7 @@
 		nsLeft 48
 		nsBottom 101
 		nsRight 55
-		description {the electrical outlet}
+		description {elektrická zásuvka}
 		sightAngle 40
 		approachX 77
 		approachY 105
@@ -1058,9 +1058,9 @@
 		nsLeft 77
 		nsBottom 71
 		nsRight 122
-		description {the hallway}
+		description {pøedsíò}
 		sightAngle 40
-		lookStr {This hallway leads to the Department of Video Tape Rewinding and your workroom, where you fulfill your job as Chief Rewinder and Sterilizer (Betamax Division).}
+		lookStr {Tato chodba vede do oddìlení pøevíjení videokazet a do tvé pracovny, kde vykonáváš svou práci hlavního pøevíjeèe a sterilizátora (divize Betamax).}
 	)
 )
 

@@ -81,17 +81,17 @@
 					110
 					0
 					80
-					{Fast Forward}
+					{P¯eskoËiù}
 					82
 					990
 					11
 					0
 					106
 					81
-					{Really? Show Me!}
+					{Opravdu? Ukaû mi to!}
 					1
 					81
-					{Oops}
+					{Uups}
 					0
 				)
 				(gIconBar
@@ -114,22 +114,22 @@
 			(0 (= cycles 2))
 			(1
 				(global2 drawPic: (global2 picture?))
-				(localproc_048e {Executive Producer\n\nKen Williams} 160)
+				(localproc_048e {V˝konnÌ ¯editel\n\Ken Williams} 160)
 				(= seconds 4)
 			)
 			(2
 				(global2 drawPic: (global2 picture?))
-				(localproc_048e {Creative Director\n\nBill Davis} 160)
+				(localproc_048e {KreativnÌ ¯editel\n\nBill Davis} 160)
 				(= seconds 4)
 			)
 			(3
 				(global2 drawPic: (global2 picture?))
-				(localproc_048e {Director\n\nAl Lowe} 160)
+				(localproc_048e {ÿeditel\n\nAl Lowe} 160)
 				(= seconds 4)
 			)
 			(4
 				(global2 drawPic: (global2 picture?))
-				(localproc_048e {Producer\n\nGuruka Singh Khalsa} 160)
+				(localproc_048e {Producent\n\nGuruka Singh Khalsa} 160)
 				(= seconds 4)
 			)
 			(5
@@ -140,27 +140,27 @@
 			)
 			(6
 				(global2 drawPic: (global2 picture?))
-				(localproc_048e {Game Designer\n\nAl Lowe} 0)
+				(localproc_048e {HernÌ n·vrh·¯\n\nAl Lowe} 0)
 				(= seconds 4)
 			)
 			(7
 				(global2 drawPic: (global2 picture?))
-				(localproc_048e {Production Designer\n\nAndy Hoyos} 0)
+				(localproc_048e {ProdukËnÌ n·vrh·¯\n\nAndy Hoyos} 0)
 				(= seconds 4)
 			)
 			(8
 				(global2 drawPic: (global2 picture?))
-				(localproc_048e {Art Designer\n\nJane Cardinal} 0)
+				(localproc_048e {V˝tvarn˝ n·vrh·¯\n\nJane Cardinal} 0)
 				(= seconds 4)
 			)
 			(9
 				(global2 drawPic: (global2 picture?))
-				(localproc_048e {Lead Programmer\n\nBrian K. Hughes} 0)
+				(localproc_048e {VedoucÌ program·tor\n\nBrian K. Hughes} 0)
 				(= seconds 4)
 			)
 			(10
 				(global2 drawPic: (global2 picture?))
-				(localproc_048e {Composer\n\nCraig Safan} 0)
+				(localproc_048e {Skladatel\n\nCraig Safan} 0)
 				(= seconds 4)
 			)
 			(11

@@ -64,7 +64,7 @@
 		(gLongSong number: 100 setLoop: -1 flags: 1 play:)
 		(StrCpy
 			@local2
-			{Passionate Patti Does PittsbuA Little Undercover Work}
+			{Vášnivá Patti v Pittsbumalém utajení}
 		)
 		(super init:)
 		(proc0_2)
@@ -94,17 +94,17 @@
 					100
 					0
 					80
-					{Fast Forward}
+					{Pøeskoèit}
 					82
 					990
 					11
 					0
 					106
 					81
-					{Really? Show Me!}
+					{Opravdu? Ukaž mi to!}
 					1
 					81
-					{Oops}
+					{Uups}
 					0
 				)
 				(gIconBar

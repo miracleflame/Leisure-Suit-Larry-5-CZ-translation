@@ -19,16 +19,16 @@
 	(if (not (StrCmp @local10 {NONE}))
 		(= temp0
 			(proc255_0
-				{If you would like to use a\npassword to protect this game,\nselect "Password" below.}
+				{Pokud chcete použít heslo pro ochranu této hry, vyberte níže možnost "Heslo".}
 				106
 				81
-				{Why bother?}
+				{Proè se obtìžovat?}
 				1
 				81
-				{Password}
+				{Heslo}
 				2
 				80
-				{An ounce of prevention...}
+				{Kapka prevence...}
 				70
 				160
 				67
@@ -40,7 +40,7 @@
 		(++ local20)
 		(= temp0
 			(proc255_0
-				{Please enter your password,\nexactly as you typed it:}
+				{Prosím, zadejte své heslo,\npøesnì tak, jak jste ho napsali:}
 				106
 				41
 				@local0
@@ -50,10 +50,10 @@
 				{Ok}
 				1
 				81
-				{Change}
+				{Zmìnit}
 				2
 				80
-				{Hey! Is that you again?}
+				{Hej! To jsi zase ty? }
 				70
 				160
 				67
@@ -136,16 +136,16 @@
 		)
 		(cond 
 			((== local20 5)
-				(proc255_0 155 0 80 {Five Strikes and You're Out!})
+				(proc255_0 155 0 80 {Pìt chyb a konèíš!})
 				(= global4 1)
 				(return)
 			)
 			((== temp0 2)
-				(proc255_2 @local0 20 {Please enter your new password:})
+				(proc255_2 @local0 20 {Prosím, zadejte své nové heslo:})
 				(localproc_01f3)
 				(StrCpy @local10 @local0)
 				(localproc_02c9)
-				(proc255_4 155 1 @local0 80 {Write this down!})
+				(proc255_4 155 1 @local0 80 {Zapište si to!})
 			)
 		)
 		(DrawPic 111)
@@ -154,13 +154,13 @@
 				155
 				2
 				81
-				{Restore}
+				{Obnovit}
 				1
 				81
-				{Continue}
+				{Pokraèovat}
 				0
 				80
-				{Welcome back!}
+				{Vítejte zpìt!}
 				70
 				160
 				67

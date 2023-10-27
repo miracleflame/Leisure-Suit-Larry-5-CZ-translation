@@ -343,7 +343,7 @@
 	(if (== param1 1)
 		((Inv at: param2)
 			state: param1
-			name: {An Erased Videotape}
+			name: {Vymazaná videokazeta}
 		)
 	else
 		(= temp0 (mod ((Inv at: 0) state?) 100))
@@ -390,12 +390,12 @@
 	(StrCpy
 		@temp50
 		(switch param2
-			(1 {Walk})
-			(2 {Look})
-			(3 {Do})
-			(5 {Talk})
-			(10 {Zipper})
-			(else  {UNKNOWN VERB})
+			(1 {Chùze})
+			(2 {Dívej se})
+			(3 {Dìlej})
+			(5 {Mluv})
+			(10 {Zip})
+			(else  {NEZNÁMÉ VERB})
 		)
 	)
 	(Format @temp40 0 23 gNumber)
@@ -500,9 +500,9 @@
 	(= temp0 (= temp1 0))
 	(if (== param1 gLarry)
 		(if (> temp2 1)
-			(proc0_14 @temp3 80 {You} &rest)
+			(proc0_14 @temp3 80 {Ty} &rest)
 		else
-			(proc0_14 @temp3 80 {You} param3 &rest)
+			(proc0_14 @temp3 80 {Ty} param3 &rest)
 		)
 	else
 		(= temp2 temp2)
@@ -703,10 +703,10 @@
 		(= gLl5Timer ll5Timer)
 		(= gCamcorderTimer camcorderTimer)
 		(= global27 {x.yyy.zzz})
-		(= global181 {mm/dd/yy})
+		(= global181 {mm/dd/rr})
 		(= global182 {991-999-9999})
 		(= global112 {992-999-9999})
-		(= temp7 (FileIO 0 {version} 1))
+		(= temp7 (FileIO 0 {verze} 1))
 		(FileIO 5 global27 11 temp7)
 		(FileIO 5 global181 20 temp7)
 		(FileIO 5 global182 20 temp7)
@@ -1011,12 +1011,12 @@
 				0
 				21
 				80
-				{So You're Finally Leaving?}
+				{Takže koneènì odcházíte?}
 				81
-				{Okay, you two. Have fun!}
+				{Dobøe, vy dva. Bavte se!}
 				1
 				81
-				{Hey! Back to work!}
+				{Hej! Zpátky do práce!}
 				0
 				82
 				quitIcon
@@ -1126,7 +1126,7 @@
 		cursor 0
 		message 1
 		signal $0041
-		helpStr {Use this icon to move your character.}
+		helpStr {Pomocí této ikony mùžete pøesunout svou postavu.}
 		maskView 990
 		maskLoop 14
 		maskCel 1
@@ -1164,7 +1164,7 @@
 		cursor 1
 		message 2
 		signal $0041
-		helpStr {Use this icon to look at things.}
+		helpStr {Tuto ikonu použijte k prohlížení vìcí.}
 		maskView 990
 		maskLoop 14
 		maskCel 1
@@ -1184,7 +1184,7 @@
 		cursor 2
 		message 3
 		signal $0041
-		helpStr {Use this icon to do things.}
+		helpStr {Tuto ikonu použijte k provádìní úkonù.}
 		maskView 990
 		maskLoop 14
 	)
@@ -1203,7 +1203,7 @@
 		cursor 3
 		message 5
 		signal $0041
-		helpStr {Use this icon to talk to other characters.}
+		helpStr {Pomocí této ikony mùžete mluvit s ostatními postavami.}
 		maskView 990
 		maskLoop 14
 		maskCel 3
@@ -1223,7 +1223,7 @@
 		cursor 5
 		message 10
 		signal $0041
-		helpStr {Say! Don't you know what your zipper is for?}
+		helpStr {Hele, nevíš, k èemu slouží tvùj zip?}
 		maskView 990
 		maskLoop 14
 		maskCel 1
@@ -1243,7 +1243,7 @@
 		cursor 999
 		message 0
 		signal $0043
-		helpStr {This icon lets you "Fast Forward" to the next interactive portion of the game.}
+		helpStr {Tato ikona vám umožní "pøeskoèit" na další interaktivní èást hry.}
 		maskView 990
 		maskLoop 14
 	)
@@ -1258,7 +1258,7 @@
 			(if (and global151 (super select: &rest))
 				(gIconBar hide:)
 				(if
-				(proc255_0 0 25 80 {Fast Forward} 81 {Yes} 1 81 {Oops} 0)
+				(proc255_0 0 25 80 {Rychle vpøed} 81 {Ano} 1 81 {Uups} 0)
 					(if (== global151 1000)
 						(if (IsObject global158)
 							(global158 cue:)
@@ -1286,7 +1286,7 @@
 		cursor 999
 		message 4
 		signal $0041
-		helpStr {Select this icon to use your current inventory object.}
+		helpStr {Zaškrtnutím této ikony použijete aktuální pøedmìt v inventáøi.}
 		maskView 990
 		maskLoop 14
 		maskCel 4
@@ -1417,7 +1417,7 @@
 		type $0000
 		message 0
 		signal $0043
-		helpStr {Use this icon to bring up your inventory window.}
+		helpStr {Pomocí této ikony vyvoláte okno s inventáøem.}
 		maskView 990
 		maskLoop 14
 		maskCel 2
@@ -1444,7 +1444,7 @@
 		cursor 999
 		message 8
 		signal $0043
-		helpStr {This icon brings up the control panel.}
+		helpStr {Tato ikona vyvolá ovládací panel.}
 		maskView 990
 		maskLoop 14
 		maskCel 1
@@ -1471,7 +1471,7 @@
 		cursor 9
 		message 6
 		signal $0003
-		helpStr {To learn about the other icons, first click here, then pass the question mark over the other icons.}
+		helpStr {Chcete-li se seznámit s dalšími ikonami, kliknìte nejprve sem a poté pøejdìte otazníkem na další ikony.}
 		maskView 990
 		maskLoop 14
 	)
@@ -1702,7 +1702,7 @@
 		nsLeft 67
 		nsTop 37
 		signal $0080
-		helpStr {Raise this to increase the amount of background animation. Lower it if game play seems sluggish.}
+		helpStr {Zvýšení množství animace na pozadí. Pokud se vám hra zdá pomalá, snižte ji.}
 		sliderView 995
 		bottomValue 1
 		topValue 5
@@ -1722,7 +1722,7 @@
 		nsLeft 107
 		nsTop 37
 		signal $0080
-		helpStr {This adjusts the volume on some sound boards and synthesizers.}
+		helpStr {Tímto nastavíte hlasitost.}
 		sliderView 995
 		topValue 15
 	)
@@ -1736,7 +1736,7 @@
 		nsLeft 147
 		nsTop 37
 		signal $0080
-		helpStr {This adjusts Larry and Patti's speed, within the limits of your computer's capabilities.}
+		helpStr {Tímto se upravuje rychlost Larryho a Patti v rámci možností vašeho poèítaèe.}
 		sliderView 995
 		bottomValue 15
 	)
@@ -1768,7 +1768,7 @@
 		nsLeft 187
 		nsTop 37
 		signal $0080
-		helpStr {Lower this slide to make text remain on the screen longer. Raise it if you are a fast reader.}
+		helpStr {Snižte tento posuvník, aby text zùstal na obrazovce déle. Zvyšte jej, pokud ètete rychle.}
 		sliderView 995
 		bottomValue 24
 		topValue 1
@@ -1789,7 +1789,7 @@
 		nsTop 6
 		message 9
 		signal $01c3
-		helpStr {Use this to save the current state of your game. When you later select Restore, everything will be exactly as it is now.}
+		helpStr {Slouží k uložení aktuálního stavu hry. Když pozdìji vyberete možnost Obnovit, bude vše pøesnì tak, jak je nyní.}
 	)
 )
 
@@ -1802,7 +1802,7 @@
 		nsTop 26
 		message 9
 		signal $01c3
-		helpStr {This restores a game you saved earlier.}
+		helpStr {Tímto obnovíte døíve uloženou hru.}
 	)
 	
 	(method (select)
@@ -1823,7 +1823,7 @@
 		nsTop 46
 		message 9
 		signal $01c3
-		helpStr {Use this to restart the game from the very beginning.}
+		helpStr {Tuto volbu použijte k opìtovnému spuštìní hry od úplného zaèátku.}
 	)
 )
 
@@ -1836,7 +1836,7 @@
 		nsTop 66
 		message 9
 		signal $01c3
-		helpStr {Use this to leave the game.}
+		helpStr {Tímto mùžete opustit hru.}
 	)
 )
 
@@ -1849,7 +1849,7 @@
 		nsTop 86
 		message 9
 		signal $01c3
-		helpStr {Here's where you learn more than you care to know about the creators of this game.}
+		helpStr {Tady se o tvùrcích této hry dozvíte víc, než byste chtìli vìdìt.}
 	)
 )
 
@@ -1863,7 +1863,7 @@
 		cursor 9
 		message 6
 		signal $0183
-		helpStr {To learn about the other items in this window, first click here, then pass the question mark over the other items.}
+		helpStr {Chcete-li se dozvìdìt nìco o dalších položkách v tomto oknì, kliknìte nejprve sem a pak pøejdìte otazníkem na další položky.}
 	)
 )
 
@@ -1877,6 +1877,6 @@
 		cursor 9
 		message 9
 		signal $01c3
-		helpStr {Use this to exit this menu and resume game play.}
+		helpStr {Tímto tlaèítkem opustíte tuto nabídku a pokraèujete ve høe.}
 	)
 )

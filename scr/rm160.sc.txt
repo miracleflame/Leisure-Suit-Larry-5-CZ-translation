@@ -4,8 +4,8 @@
 {konvice na kávu}
 {zvuk pijákù kávy}
 {Vypadá to, že nìkdo chce kávu!}
-{sódomat}
-{Sódomat je vybavení kanceláøe, které znáš nejlépe}.
+{sodomat}
+{Sodomat je vybavení kanceláøe, které znáš nejlépe}.
 {kávovar}
 {Dveøe kanceláøe Silase Scruemalla}
 {nápis "Nejvíc sexy domácí videa Ameriky"}
@@ -20,7 +20,8 @@
 {Je to buï hvìzda filmu Lovec lidí, nebo požární hydrant, nevíš, co z toho.}
 {certifikát}
 {rostlina}
-{Na pohled se ti opravdu líbí jemný plast.}{rostlina}
+{Na pohled se ti opravdu líbí jemný plast.}
+{rostlina}
 {Opravdu si užíváš vzhled jemného plastu.}
 {rostlina}
 {Jak jen miluješ plastové rostliny! (Hlavnì tu vùni!)}
