@@ -520,7 +520,7 @@
 		description {sodomat}
 		approachX 201
 		approachY 179
-		lookStr {Sodomat je vybavení kanceláøe, které znáš nejlépe}
+		lookStr {Sodomat je vybavení kanceláøe, které znáš nejlépe.}
 		view 160
 		loop 3
 		priority 15
