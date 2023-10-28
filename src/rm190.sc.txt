@@ -1,21 +1,21 @@
-{You are outside PPC's general headquarters, nestled in the smog beneath the Hollywood hills. Gawd, how you love being in show biz!}
-{your limousine}
-{At last! You finally get to ride in a real limo.}
-{the front door of PornProdCorp}
-{This door leads back into the PPC lobby.}
-{the fountain}
-{Passing the tinkling water makes you want to pass tinkling water.}
+{Jste před generálním ředitelstvím PPC, které se ukrývá ve smogu pod hollywoodskými kopci. Božíčku, jak se ti líbí být v showbyznysu!}
+{tvá limuzína}
+{Konečně! Konečně se můžeš svézt opravdovou limuzínou.}
+{vstupní dveře PornProdCorp}
+{Tyto dveře vedou zpět do vestibulu PPC.}
+{fontána}
+{Když míjíš zurčící vodu, chceš vypustit zurčící vodu.}
 {Chesty}
-{that PornProdCorp logo}
-{You presume PPC chose that logo because the tongue is the universal symbol of good taste.}
-{the palm tree}
-{the Hollywood sign}
-{You love working here because everyone in this city tries so hard to treat you fairly.}
-{the buildings}
-{You wonder how many disco parties are going on in those office buildings over there!}
-{the buildings}
-{You wonder how many disco parties are going on in those office buildings over there!}
-{the windows}
-{You just love voyeurism, don't you?}
-{the windows}
-{You just love voyeurism, don't you?}
+{to logo PornProdCorp}
+{Předpokládáš, že PPC si to logo vybrala, protože jazyk je univerzálním symbolem vytříbené chuti.}
+{palma}
+{nápis Hollywood}
+{Rád tu pracuješ, protože se tu všichni strašně snaží, aby se k tobě chovali férově.}
+{budovy}
+{Zajímalo by tě, kolik disko večírků se koná v těch kancelářských budovách tamhle!}
+{budovy}
+{Zajímalo by tě, kolik disko večírků se koná v těch kancelářských budovách tamhle!}
+{okna}
+{Ty prostě miluješ šmírování, viď?}
+{okna}
+{Ty prostě miluješ šmírování, viď?}

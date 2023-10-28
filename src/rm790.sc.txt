@@ -1,27 +1,27 @@
-{You are inside the only open shop along the entire boardwalk. You wonder why this place doesn't join in the celebration of Donald Tramp's birthday.}
-{Ivana Tramp}
-{Ivana Tramp (known locally as "Wheels, The Blademaster") has plummeted several social levels since her divorce from The Donald.}
-{the skates}
-{From the many pairs of in-line skates on this rack, you feel safe in predicting that this store rents skates.}
-{the curtain}
-{A beaded curtain blocks your view of the skate shop's back room.}
-{the poster}
-{You presume this poster advertises an amusement park for insects.}
-{the poster}
-{So that's what Ivana looked like when she was a redhead!}
-{the poster}
-{To demonstrate how good these skates are, the lady in the poster is eating one.}
-{the poster}
-{This poster advertises roller skate odor eaters.}
-{the poster}
-{"Keep your in-line skates in line with the all new `Edlin,' from Ed's Skate Aligning Corp."}
-{the poster}
-{"Better skating, no waiting."}
-{the poster}
-{"Nuclear Blades" for those who want to go REALLY fast!}
-{the light}
-{Ivana has thoughtfully replaced the standard 60-watt bulb with this new 250-watt halogen.}
-{the counter}
-{Across this counter pass the world's sharpest `blades!'}
-{the box}
-{A wooden crate resides incongruously in the center of the floor.}
+{Jste v jediném otevøeném obchodì na celé promenádì. Pøemýšlíš, proè se toto místo nepøipojí k oslavì narozenin Donalda Trampa.}
+{Ivana Trampová}
+{Ivana Trampová (místním známá jako "Kola, mistrinì èepelí") se po rozvodu s Donaldem propadla o nìkolik spoleèenských úrovní.}
+{brusle}
+{Z mnoha párù in-line bruslí na tomto stojanu lze s jistotou usuzovat, že tento obchod brusle pùjèuje.}
+{závìs}
+{Závìs z korálkù vám brání ve výhledu do zadní místnosti obchodu s bruslemi.}
+{plakát}
+{Pøedpokládáte, že tento plakát inzeruje zábavní park pro hmyz.}
+{plakát}
+{Tak takhle vypadala Ivana, když byla zrzka!}
+{plakát}
+{Abychom demonstrovali, jak jsou ty brusle dobré, dáma na plakátu jednu konzumuje.}
+{plakát}
+{Tento plakát propaguje polykaèe vùní koleèkových bruslí.}
+{plakát}
+{"Udržujte své in-line brusle v jedné linii s novými bruslemi `Edlin' od spoleènosti Ed's Skate Aligning Corp."}.
+{plakát}
+{"Lepší bruslení, žádné èekání."}
+{plakát}
+{"Jaderné èepele" pro ty, kteøí chtìjí bruslit OPRAVDU rychle!}
+{svìtlo}
+{Ivana promyšlenì nahradila standardní 60-wattovou žárovku touto novou 250-wattovou halogenovou.}
+{pult}
+{Pøes tento pult projíždìjí nejostøejší "èepele" na svìtì!}
+{bedna}
+{Døevìná bedna stojí nevhodnì uprostøed podlahy.}

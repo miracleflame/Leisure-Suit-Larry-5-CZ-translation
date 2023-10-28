@@ -1,20 +1,20 @@
-{All your life you assumed those snooty, private airport waiting rooms were filled with luxurious appointments.}
+{Celý život jsi pøedpokládal, že ty snobské soukromé letištní èekárny jsou plné luxusních schùzek.}
 {Los Angeles}
 {New York}
 {Atlantic City}
 {Miami}
-{the chair}
-{the jetway door}
-{the boarding sign}
-{the Automatic Boarding Pass Machine}
-{the coffee pot}
-{the coffee cabinet}
-{the light fixture}
-{the lovely painting}
-{You've always admired paintings on velvet!}
-{the beautiful painting}
-{The last time you saw art this nice, you were in Tijuana.}
-{Los Angeles, cheater}
+{køeslo}
+{dveøe do letové dráhy}
+{nástupní znaèka}
+{automat na palubní lístky}
+{konvice na kávu}
+{skøíòka na kávu}
+{svítidlo}
+{krásný obraz}
+{Vždycky jsi obdivoval obrazy na sametu!}
+{krásný obraz}
+{Naposledy jsi vidìl tak pìkné umìní v Tijuanì.}
+{Los Angeles, podvodníku}
 {New York}
 {Atlantic City}
 {Miami}

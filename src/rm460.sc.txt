@@ -2,33 +2,33 @@
 {Larry}
 {Larry}
 {Larry}
+{Inspektor Desmond}
+{Larry}
+{Larry}
+{Pan viceprezident}
+{Larry}
+{Larry}
+{Pan Bigg}
+{Pan Bigg}
+{Pan Bigg}
+{Larry}
+{Inspektor Desmond}
 {Inspector Desmond}
 {Larry}
-{Larry}
-{Mr. Vice President}
-{Larry}
-{Larry}
-{Mr. Bigg}
-{Mr. Bigg}
-{Mr. Bigg}
-{Larry}
-{Inspector Desmond}
-{Inspector Desmond}
-{Larry}
-{Mr. Vice President}
+{Pan viceprezident}
 {Larry}
 {Larry Laffer}
 {Desmond}
-{the chair}
-{the chair}
+{køeslo}
+{køeslo}
 {Roger}
 {Humphrey}
-{the sleeping guest}
-{the Secret Service man}
-{the Vice President}
-{Mr. Bigg}
-{the chair}
-{the chair}
-{the chair}
+{spící host}
+{muž z tajné služby}
+{viceprezident}
+{Pan Bigg}
+{køeslo}
+{køeslo}
+{køeslo}
 {Marilyn Quayle}
-{the pie}
+{koláè}

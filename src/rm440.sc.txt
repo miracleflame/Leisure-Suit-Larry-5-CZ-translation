@@ -1,19 +1,19 @@
-{The F.B.I. laboratory is filled with interesting equipment, most of which baffles you.}
-{Commander Twit}
-{He's the perfect image of a man more interested in science than in his own self-image!}
-{Doctor Hopian's door}
-{Through this door lies the offices of Dr. Phil Hopian, F.B.I. gynecologist.}
-{the computer}
-{If only you had paid attention when Larry chattered on and on about his computer. You know nothing about this computer and are sure you'll be unable to do anything with it.}
-{the duck}
-{If it drinks like a duck, and it quacks like a duck, it must be an experiment.}
-{the machine}
-{This machine does something, you feel quite certain.}
-{the chemistry set}
-{This must be the source of the flatulence powder.}
-{the workbench}
-{Lots of chemicals, beakers, and junk food wrappers fill this workbench.}
-{the books}
-{These books are filled with Latin phrases. The only Latin phrases you know would get a sailor thrown out of a bar in Tijuana!}
-{the desk}
-{This desk doesn't contain any secret documents; they all were burned in the big fire last week!}
+{Laboratoø FBI je plná zajímavého vybavení, z nìhož vìtšina je pro tebe nepochopitelná.}
+{Komandér Twit}
+{Je dokonalým obrazem èlovìka, který se více zajímá o vìdu než o svùj vlastní obraz!}
+{Dveøe doktora Hopiana}
+{Za tìmito dveømi se nachází ordinace doktora Phila Hopiana, gynekologa FBI.}
+{poèítaè}
+{Kdybys jen dávala pozor, když Larry poøád žvanil o svém poèítaèi. O tomhle poèítaèi nic nevíš a jsi si jistá, že s ním nic neudìláš.}
+{kaèer}
+{Jestliže to pije jako kachna a kváká to jako kachna, musí to být experiment.}
+{stroj}
+{Tento stroj nìco dìlá, tím jsi si naprosto jistá.}
+{chemická souprava}
+{Tohle musí být zdroj prášku na nadýmání.}
+{pracovní stùl}
+{Spousta chemikálií, kádinek a obalù od nezdravého jídla zaplòuje tento pracovní stùl.}
+{knihy}
+{Tyto knihy jsou plné latinských frází. Za jediné latinské fráze, které znáš, by námoøníka vyhodili z baru v Tijuanì!}
+{stùl}
+{Tento stùl neobsahuje žádné tajné dokumenty; všechny shoøely pøi velkém požáru minulý týden!}

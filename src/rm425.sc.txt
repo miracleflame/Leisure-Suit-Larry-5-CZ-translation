@@ -1,17 +1,17 @@
-{You are outside the F.B.I.'s office building, which is cleverly disguised as a block of normal storefront businesses. Your limousine is waiting for you at the curb, exactly as Desmond promised.}
-{the door}
-{This door leads back into the F.B... oops! This door leads to "Stein Labs!"}
-{your limousine}
-{Your limousine awaits you.}
-{the Stein Labs sign}
-{The large sign identifies the F.B.I. labs as "Stein Labs--We'll Be Frank With You."}
-{Stein Laboratories}
-{Don't you just love an F.B.I. with a sense of humor?}
-{the GynoMan sign}
-{Dr. Phil Hopian's office is cleverly disguised as "GynoMan."}
-{the GynoMan building}
-{You wonder what sort of offices are on the upper floors of this building, above the office of Dr. Phil Hopian.}
-{the Woodwind Repair Shop building}
-{The Woodwind Repair Shop is an unusual cover for an F.B.I. office.}
-{the Woodwind Repair Shop sign}
-{The Woodwind Repair Shop has an attractive sign out front.}
+{Stojíš pøed budovou FBI, která je chytøe zamaskovaná jako blok normálních obchodù. U chodníku na tebe èeká tvá limuzína, pøesnì jak Desmond slíbil.}
+{dveøe}
+{Tyto dveøe vedou zpìt do FB... Ups! Tyhle dveøe vedou do "Steinových laboratoøí!"}
+{tvá limuzína}
+{Tvá limuzína tì oèekává.}
+{nápis Stein Labs}
+{Velká cedule oznaèuje laboratoøe FBI jako "Steinovy laboratoøe - budeme s vámi upøímní".}
+{Steinovy laboratoøe}
+{Nelíbí se ti, že FBI má smysl pro humor?}
+{nápis GynoMan}
+{Kanceláø doktora Phila Hopiana je chytøe maskována jako "GynoMan".}
+{budova GynoMan}
+{Zajímalo by tì, jaké kanceláøe jsou v horních patrech této budovy nad ordinací doktora Phila Hopiana.}
+{budova opravovny Woodwind}
+{Opravovna Woodwind je neobvyklé krytí pro kanceláø FBI.}
+{nápis Opravovna Woodwind}
+{Opravovna Woodwind má pøed domem atraktivní nápis.}

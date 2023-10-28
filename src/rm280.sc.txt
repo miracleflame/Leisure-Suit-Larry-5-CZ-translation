@@ -1,4 +1,4 @@
-{This end of the lobby is distinguished only by a bank of pay telephones against the far wall.}
+{Tento konec vstupní haly je odlišený pouze øadou telefonních automatù u vzdálenìjší stìny.}
 {Buffi}
 {Muffi}
 {Tracie}
@@ -11,28 +11,28 @@
 {New York}
 {Atlantic City}
 {Miami}
-{the lost and found department}
-{the plant}
-{the plant}
-{the post}
-{the ashtray}
-{the counter}
-{the sofa}
-{the pay phone}
-{the pay phone}
-{the phone}
-{the phone}
-{the phone}
-{the phone}
-{the sign}
-{the sign}
-{the sign}
-{the sign}
-{the telephone directory}
-{the telephone directory}
+{oddìlení ztrát a nálezù}
+{rostlina}
+{rostlina}
+{pošta}
+{popelník}
+{pult}
+{pohovka}
+{telefonní automat}
+{telefonní automat}
+{telefon}
+{telefon}
+{telefon}
+{telefon}
+{znaèka}
+{znaèka}
+{znaèka}
+{znaèka}
+{telefonní seznam}
+{telefonní seznam}
 {Miami}
 {New York City}
 {Atlantic City}
 {Miami}
 {Miami}
-{the pay phones}
+{telefonní automaty}

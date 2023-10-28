@@ -1,43 +1,43 @@
 {PM}
 {AM}
-{Out of boarding passes at this time. Please try again in another city!}
-{Hey! Take your AeroDork gold card!}
-{Look, you twit. If you wander off and leave that card here I'll see to it that your luggage goes non-stop to Muncie, Indiana!}
-{Fine. I'm ignoring you.}
-{You have entered an incorrect destination for this airport at this hour. But we still appreciate your selection of AeroDork Airlines.}
-{the boarding pass}
-{Oh, it's you, Mr. Hughes! Of course you may have a boarding pass! Right away, Sir!}
-{Please take your boarding pass now.}
-{your AeroDork card}
-{Please take your AeroDork gold card now.}
-{Thank you for flying AeroDork!}
-{Welcome, Cliff Taurus! Where to today?}
+{V tuto chvíli nejsou k dispozici palubní lístky. Zkuste to prosím znovu v jiném mìstì!}
+{Hej! Vezmìte si zlatou kartu AeroDork!}
+{Podívej, ty blbeèku. Jestli se zatouláš a necháš tu kartu tady, postarám se, aby tvoje zavazadla letìla bez mezipøistání do Muncie v Indianì!}
+{Fajn. Ignoruju tì.}
+{Zadali jste nesprávnou destinaci pro toto letištì v tuto hodinu. Ale i tak si vážíme toho, že jste si vybrali AeroDork Airlines.}
+(palubní lístek)
+{Aha, to jste vy, pane Hughesi! Samozøejmì, že mùžete mít palubní lístek! Hned to bude, pane!}
+{Prosím, vezmìte si palubní vstupenku.}
+{tvoje karta AeroDork}
+{Prosím, vezmìte si svou zlatou kartu AeroDork.}
+{Dìkujeme, že letíte s AeroDork!}
+{Vítejte, Cliffe Taurusi! Kam dnes?}
 {New York}
 {Atlantic City}
 {Miami}
 {Los Angeles}
-{the card slot}
-{the boarding pass slot}
-{Boarding passes are emitted from this slot.}
-{the nameplate}
-{The nameplate says, "AeroDork Airlines."}
-{the screen}
-{The AeroDork ATM has a touch-sensitive screen.}
-{the destination}
+{štìrbina na kartu}
+{štìrbina pro palubní lístek}
+{Palubní lístky jsou emitovány z této štìrbiny.}
+{štítek se jménem}
+{Nápis na štítku zní: "AeroDork Airlines."}
+{obrazovka}
+{Bankomat AeroDork má dotykovou obrazovku.}
+{cílová destinace}
 {Los Angeles}
 {Miami}
 {Atlantic City}
 {New York}
-{A hint from Al Lowe}
-{the destination}
+{Nápovìda od Ala Lowa}
+{cílová destinace}
 {Los Angeles}
 {Miami}
 {Atlantic City}
 {New York}
-{A hint from Al Lowe}
-{the destination}
+{Nápovìda od Ala Lowa}
+{cílová destinace}
 {Los Angeles}
 {Miami}
 {Atlantic City}
 {New York}
-{A hint from Al Lowe}
+{Nápovìda od Ala Lowa}

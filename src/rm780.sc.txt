@@ -1,10 +1,10 @@
-{Now you've done it! You're swimming along under the beautiful Tramp Boardwalk, having a wonderful time. The question is: how far from shore are you?}
-{the sky}
-{Looking at the sky, you remember a better time, just a few minutes ago in fact, when you were much closer to the sky than you are right now.}
-{the boardwalk}
-{You have a strange sensation--almost like you're looking up someone's skirt!}
-{the post}
-{These posts look much taller than they did from above.}
-{the post}
-{the post}
-{the post}
+{Teï jste to dokázali! Plavete pod krásnou Trampovou promenádou a bájeènì se bavíte. Otázka zní: jak daleko od bøehu jste?}
+{obloha}
+{Pøi pohledu na oblohu si vzpomeneš na lepší èasy, vlastnì jen pøed nìkolika minutami, kdy jsi byl mnohem blíž obloze než teï.}
+{promenáda}
+{Máš zvláštní pocit - skoro jako bys nìkomu koukal pod sukni!}
+{sloupek}
+{Tyto sloupy vypadají mnohem vyšší než shora.}
+{sloup}
+{sloup}
+{sloup}

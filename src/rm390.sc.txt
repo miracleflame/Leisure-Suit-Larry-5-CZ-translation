@@ -1,22 +1,22 @@
-{You}
-{the panel}
-{the panel}
-{the panel}
-{the panel}
-{the panel}
-{the panel}
-{the panel}
-{the panel}
-{the yoke}
-{the yoke}
-{the cloud}
-{the cloud}
-{the cloud}
-{the cloud}
-{the console}
-{the throttle}
-{the window}
-{your plane}
-{yourself}
-{you}
-{the plane}
+{Ty}
+{panel}
+{panel}
+{panel}
+{panel}
+{panel}
+{panel}
+{panel}
+{panel}
+{jaømo}
+{jaømo}
+{oblak}
+{oblak}
+{oblak}
+{oblak}
+{konzola}
+{plyn}
+{okno}
+{tvoje letadlo}
+{sebe}
+{ty}
+{letadlo}

@@ -1,32 +1,32 @@
-{PPC's file room is filled with file cabinets which are filled with files.}
-{the credit card imprinter}
-{the drawer}
-{the light}
-{Staring into the lamp is an enlightening experience for you.}
-{the bookcase}
-{This bookcase is filled with everything but books.}
-{the nude painting}
-{You don't know much about art, but something about this painting touches your fancy!}
-{your desk}
-{Why are there no workers in this place?}
-{the lamp}
-{You admire anyone who uses incandescent lighting.}
-{the magnifier}
-{the file drawer}
-{This file drawer is labeled "Losers." You're looking for the files of the three finalists. This is no time to try to fatten your address book, Larry!}
-{the file drawer}
-{This file drawer is labeled "Losers." You're looking for the files of the three finalists. This is no time to try to fatten your address book, Larry!}
-{the file drawer}
-{This file drawer is labeled "Losers." You're looking for the files of the three finalists. This is no time to try to fatten your address book, Larry!}
-{some books}
-{Why would you want to look at books, Larry? You can barely read!}
-{the fan}
-{This is your biggest fan!}
-{your chair}
-{This chair is your favorite work-place sleeper.}
-{the twins poster}
-{This poster is your personal favorite. You've always had a soft spot for twins.}
-{red}
-{blonde}
-{the rolls of paper}
-{There are some unimportant rolls of paper lying there.}
+{Archivárna PPC je plná kartoték, které jsou naplnìny spisy.}
+{tiskárna kreditních karet}
+{zásuvka}
+{svìtlo}
+{Dívat se do lampy je pro tebe osvícený zážitek.}
+{knihovna}
+{Tato knihovna je plná všeho možného, jen ne knih.}
+{obrázek aktu}
+{O umìní toho moc nevíš, ale nìco se ti na tom obraze zamlouvá!}
+{tvùj psací stùl}
+{Proè tady nejsou žádní pracovníci?}
+{lampa}
+{Obdivuješ každého, kdo používá žárovkové osvìtlení.}
+{lupa}
+{zásuvka se složkami}
+{Tahle zásuvka je nadepsaná "Lùzøi". Hledáš složky tøí finalistù. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
+{zásuvka se složkami}
+{Tato zásuvka je oznaèena "Lùzøi". Hledáš složky tøí finalistù. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
+{zásuvka se složkami}
+{Tato zásuvka je oznaèena "Lùzøi". Hledáš složky tøí finalistù. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
+{nìjaké knihy}
+{Proè se chceš dívat na knihy, Larry? Sotva umíš èíst!}
+{vìtrák}
+{Toto je tvùj nejvìtší fanda!}
+{tvoje židle}
+{Tahle židle je tvùj oblíbený pelíšek na pracovišti.}
+{plakát dvojèat}
+{Tento plakát je tvùj oblíbený. Vždycky jsi mìl slabost pro dvojèata.}
+{zrzavá}
+{blondýnka}
+{rolky papíru}
+{Tady leží nìjaké nedùležité role papíru.}

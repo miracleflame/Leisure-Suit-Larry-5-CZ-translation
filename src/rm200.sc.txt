@@ -1,47 +1,47 @@
-{You've always wondered what it would be like to travel by limousine.}
+{Vždycky tì zajímalo, jaké by to bylo cestovat limuzínou.}
 {Bobbi}
 {Bobby}
-{the fish}
-{There's a carsick goldfish in the limousine's aquarium.}
-{the privacy window}
-{A piece of soundproof glass blocks conversation between you and your driver.}
-{the DayTrotter\05}
-{your leg}
-{You've always felt your legs were one of your better assets.}
-{the television set}
-{the television set}
-{the telephone}
-{the champagne bottle}
-{the fax}
-{the video recorder}
-{A professional quality videotape player rests above the television set.}
-{the video tapes}
-{There are many videotapes in that rack that you would love to see. Unfortunately, the VCR is broken!}
-{the aquarium}
-{How bizarre! A limousine with an aquarium!}
-{the bottles and glasses}
-{There are enough bottles of liquor and glasses to throw a party. All you need now is some friends!}
-{the stereo}
-{The limousine's stereo has both a cassette tape player and a CD.}
-{the cabinet door}
-{A small, locked liquor compartment rests beneath the right front passenger's seat. You wonder when it will be your turn to live high on the hog.}
+{ryba}
+{V akváriu limuzíny je zlatá rybka, které je špatnì.}
+{okno v soukromí}
+{Kus zvukotìsného skla blokuje konverzaci mezi vámi a øidièem.}
+{Denní vùz\05}
+{tvoje noha}
+{Vždycky jsi mìl pocit, že tvé nohy jsou jednou z tvých lepších pøedností.}
+{televizor}
+{televizor}
+{telefon}
+{láhev šampaòského}
+{fax}
+{videorekordér}
+{Nad televizorem leží profesionální pøehrávaè videokazet.}
+{videokazety}
+{V tom stojanu je spousta videokazet, které bys rád vidìl. Bohužel je videorekordér rozbitý!}
+{akvárium}
+{Jak bizarní! Limuzína s akváriem!}
+{lahve a sklenice}
+{Tady je dost lahví alkoholu a sklenièek na poøádání veèírku. Teï už potøebuješ jen pár pøátel!}
+(stereo)
+{V limuzínì je stereo s kazetovým pøehrávaèem i CD.}
+{dveøe skøínì}
+{Pod pravým pøedním sedadlem spolujezdce se nachází malá uzamèená pøihrádka na alkohol. Pøemýšlíš, kdy pøijde øada na tebe, abys mohl žít na vysoké noze.}
 {Bobbi}
 {Bobbi}
 {Desmond}
 {Desmond}
 {Desmond}
-{ReverseBiaz}
+{ReverzníBiaz}
 {PCHammer}
-{You}
+{Ty}
 {Desmond}
 {Desmond}
-{the mirror}
-{the window}
-{the fax machine}
-{your limo driver}
-{You are sealed off from your driver by that big soundproof glass window.}
+{zrcadlo}
+{okno}
+{fax}
+{tvùj øidiè limuzíny}
+{Jsi oddìlen od svého øidièe tím velkým zvukotìsným oknem.}
 {Bobbi}
-{your limo driver}
+{tvùj øidiè limuzíny}
 {Sh}
 {H}
 {sh}

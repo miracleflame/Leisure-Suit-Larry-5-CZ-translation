@@ -1,24 +1,24 @@
-{Although you haven't really thought about, this isn't what you would have pictured an F.B.I. lab to be.}
-{the exterior door}
-{This door leads to the street outside.}
-{the brassiere cannon}
-{It appears the F.B.I. technician left his bra lying on the workbench!}
-{Desmond's door}
-{This door leads to Inspector Desmond's office. It is presently locked.}
-{the dart board}
-{the laboratory tables}
-{These tables are filled with highly-expensive scientific equipment, all paid for with your tax dollars!}
-{the laboratory tables}
-{These tables are filled with highly-expensive scientific equipment, all paid for with your tax dollars!}
-{the monitors}
-{These monitors are presently disconnected. When they were heavily used many years ago, it was only to play "Jawbreaker!"}
-{the giant plug}
-{You wonder exactly what that giant plug plugs into.}
-{the intercom}
-{The lab technicians use this intercom to communicate with the front office and Commander Twit.}
-{the chair}
-{This office chair prevents you from accessing the intricate equipment below it.}
-{the joystick}
-{Wow! What a joystick!}
-{the circuit board}
-{This looks like a giant circuit board.}
+{Aèkoli jsi o tom nepøemýšlel, takhle sis laboratoø FBI nepøedstavoval.}
+{dveøe ven}
+{Tyto dveøe vedou ven na ulici.}
+{podprsenkový kanón}
+{Zdá se, že technik FBI nechal podprsenku ležet na pracovním stole!}
+{Desmondovy dveøe}
+{Tyto dveøe vedou do kanceláøe inspektora Desmonda. V souèasné dobì jsou zamèené.}
+{šipky}
+{laboratorní stoly}
+{Tyto stoly jsou plné velmi drahého vìdeckého vybavení, které bylo zaplaceno z tvých daní!}
+{laboratorní stoly}
+{Tyto stoly jsou plné velmi drahého vìdeckého vybavení, které bylo zaplaceno z tvých daní!}
+{monitory}
+{Tyto monitory jsou v souèasné dobì odpojeny. Když byly pøed mnoha lety hojnì využívány, sloužily pouze k hraní hry "Jawbreaker!"}
+{obøí zástrèka}
+{Zajímalo by tì, do èeho pøesnì se ta obøí zástrèka zapojuje.}
+{interkom}
+{Tento interkom používají laboratorní technici ke komunikaci s pøední kanceláøí a komandérem Twitem.}
+{køeslo}
+{Tato kanceláøská židle ti brání v pøístupu ke složitému vybavení pod ní.}
+{džojstik}
+{Páni! To je ale džojstik!}
+{deska s obvody}
+{Tohle vypadá jako obøí deska s plošnými spoji.}

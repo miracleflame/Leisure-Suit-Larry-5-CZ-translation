@@ -1,24 +1,24 @@
-{the door}
+{dveøe}
 {Michelle Milken}
-{It's her, Larry! Watch her carefully; perhaps you could follow her!}
-{the fat lady}
-{You presume she's the one who sings when it's over.}
-{the monitor}
-{the bald man}
-{That's one of the few people in this huge cafe.}
-{the lonely man}
-{That's one of the few people in this huge cafe.}
-{the lonely man}
-{That's one of the few people in this huge cafe.}
-{the lonely woman}
-{That's one of the few people in this huge cafe.}
+{To je ona, Larry! Pozornì ji sleduj, možná bys ji mohl následovat!}
+{tlustá dáma}
+{Pøedpokládáš, že ona je ta, která zpívá, když je po všem.}
+{monitor}
+{plešatý muž}
+{To je jeden z mála lidí v této obrovské kavárnì.}
+{osamìlý muž}
+{To je jeden z mála lidí v této obrovské kavárnì.}
+{osamìlý muž}
+{To je jeden z mála lidí v této obrovské kavárnì.}
+{osamìlá žena}
+{To je jeden z mála lidí v této obrovské kavárnì.}
 {Jack}
-{their table}
-{This table seems to be occupied. Extremely occupied!}
-{your table}
-{the tables}
-{What a huge cafe to have so few customers.}
-{the cactus}
-{Insert your favorite cactus and "prick" joke here.}
-{the tape reader}
-{the door}
+{jejich stùl}
+{Tento stùl se zdá být obsazený. Extrémnì obsazený!}
+{tvùj stùl}
+{stoly}
+{Jaká obrovská kavárna, a tak málo zákazníkù.}
+{kaktus}
+{Zde vložte svùj oblíbený vtip o kaktusech a "píchání".}
+{èteèka kazet}
+{dveøe}

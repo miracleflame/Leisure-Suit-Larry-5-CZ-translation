@@ -1,4 +1,4 @@
-{You are inside the AeroDork Airline waiting room and former ticket counter. A security camera peers at you from the far wall.}
+{Jsi v èekárnì letecké spoleènosti AeroDork a u bývalé pokladny. Ze vzdálené stìny na vás shlíží bezpeènostní kamera.}
 {Buffi}
 {Muffi}
 {Tracie}
@@ -11,15 +11,15 @@
 {New York}
 {Atlantic City}
 {Miami}
-{the charity collection canister}
-{the plant}
-{the chairs}
-{the ashtray}
-{the sign}
-{the ticket counter}
-{the door}
-{the sign}
-{the sign}
-{the sign}
-{the sign}
-{the security camera}
+{kontejner na charitativní sbírku}
+{rostlina}
+{židle}
+{popelník}
+{znaèka}
+{pultík na prodej vstupenek}
+{dveøe}
+{znaèka}
+{znaèka}
+{znaèka}
+{znaèka}
+{bezpeènostní kamera}

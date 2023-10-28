@@ -1,19 +1,19 @@
-{Enter dream to debug:}
-{Dream of Athens}
-{Wake up from Athens}
-{Dream of Venice}
-{Wake up from Venice}
-{Dream of Taj Mahal}
-{Wake up from Taj Mahal}
-{Dream of Casablanca}
-{your head}
-{the tray}
-{your arm}
-{You've always liked this arm.}
-{your arm}
-{You've always liked this arm.}
-{your body}
-{the cloud}
-{the airline magazine}
-{The Stewardess}
-{the magazine}
+{Zadejte sen pro ladìní:}
+{Sen o Aténách}
+{Probudit se z Atén}
+{Sen o Benátkách}
+{Probudit se z Benátek}
+{Sen o Tádž Mahalu}
+{Probudit se z Tádž Mahalu}
+{Sen o Casablance}
+{tvá hlava}
+{tác}
+{tvá ruka}
+{Vždycky se ti ta ruka líbila.}
+{tvoje ruka}
+{Vždycky jsi mìl rád tuhle ruku.}
+{tvoje tìlo}
+{mrak}
+{letecký èasopis}
+{Letuška}
+{èasopis}

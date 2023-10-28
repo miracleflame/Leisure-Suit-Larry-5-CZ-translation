@@ -1,48 +1,49 @@
 {Larry}
-{The Vice President}
+{Viprezident}
 {Larry}
-{Art Team Manager\n\nCheryl Loyd}
-{Animators\n\n}
+{Manaer vıtvarného tımu\n\nCheryl Loyd}
+{Animátoøi\n\n}
 {\n\nCheryl Loyd\nBarry T. Smith\nRoger Hardy Jr.\nDana M. Dean\nKarin Young\nMarc Hudgins\nEric Kasner}
 {\n\nRichard Powell\nPhyllis Cucchiara\nTerry Falls\nMichael Hutchison\nDesie Hartman\nWillis Wong}
-{Background Artists\n\nJane Cardinal\nMaurice Morgan\nAndy Hoyos\nCheryl Loyd\nJay Friedmann\nJennifer Shontz\nGloria Garland}
-{Programmers\n\nBrian K. Hughes\nCarlos Escobar\nSteve Conrad\nJohn Hartin\nOliver Brelsford\nAl Lowe}
-{Music Director\n\nMark Seibert}
-{Sierra's Creative Interpreter\nDevelopment System\n\n}
+{Grafika Pozadí\n\nJane Cardinal\nMaurice Morgan\nAndy Hoyos\nCheryl Loyd\nJay Friedmann\nJennifer Shontz\nGloria Garland}
+{Programátoøi\n\nBrian K. Hughes\nCarlos Escobar\nSteve Conrad\nJohn Hartin\nOliver Brelsford\nAl Lowe}
+{Hudební reisér\n\nMark Seibert}
+{Sierra's Creative Interpreter\nVıvojovı systém\n\n}
 {\n\n\nJeff Stephenson\nRobert E. Heitman\nDan Foy\nLarry Scott\nJohn Rettig\nJ. Mark Hood\nChris Smith\nTerry McHenry}
 {\n\n\nEric Hart\nChad Bye\nMark Wilden\nKen Koch\nJohn Crane\nSteve Coallier\nRandy Moss}
-{Additional Music\n\nChris Braymen}
-{Additional Written Material\n\nJosh Mandel}
-{Quality Assurance Team Leader\n\nRobin Bradley}
-{Coffee Grinder\n\nC. Escobar}
-{AL says}
-{Congratulations! You Win!!}
-{Aren't you glad you bought a DAC?}
+{Dodateèná hudba\n\nChris Braymen}
+{Doplòkovı písemnı materiál\n\nJosh Mandel}
+{Vedoucí tımu pro zajištìní kvality\n\nRobin Bradley}
+{Mlınek na kávu\n\nC. Escobar}
+{AL øíká}
+{Gratulujeme! Vyhráli jste!!!}
+{Nejste rádi, e jste si koupili pøevodník?}
 {Airport PA #1}
 {Airport PA #2}
 {Airport PA #3}
 {Airport PA #4}
-{__Atmosphere__}
-{____Screams____}
+{__Atmosféra__}
+{____Køièí____}
 {______Yeow______}
-{_____Coffee_____}
-{Folding Chair}
-{ Wolf Whistle_}
-{___Knocking___}
-{___Glass #1___}
-{___Glass #2___}
+{_____Káva_____}
+{Skládací idle}
+{Vlèí píšalka_}
+{___Klepání___}
+{___Sklenice #1___}
+{___Sklenice #2___}
 {_______Ah_______}
 {_______Oh_______}
 {_______AH!_______}
 {______OH!______}
 {_____Oooh!_____}
-{ Crowd Gasp_}
-{ Slob Eating_}
-{_____Flush_____}
-{_____Belch_____}
-{_____Barf_____}
-{Do Not Touch}
-{< Done >}
-{Thanks for buying "Larry 5!"}
-{Remember Al Lowe's Slogan:}
-{Better Babes Through\nTechnology!}
+{ Davové dechy_}
+{ Šmejdi jedí_}
+{_____Splach_____}
+{_____Øıch_____}
+{_____Krk_____}
+{Nedotıkat se}
+{< Hotovo >}
+{Díky za koupi "Larryho 5!"}
+{Nezapomeòte na slogan Ala Lowa:}
+{Lepší baby díky\ntechnologii!}
+

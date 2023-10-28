@@ -1,32 +1,32 @@
-{the guard}
-{the elevator}
-{the elevator}
-{the Shill Building's directory}
-{the directory}
-{the directory}
-{the directory}
-{the directory}
-{the directory}
-{the directory}
-{the directory}
-{the directory}
-{the plant}
-{This plant is obviously well-maintained, but superfluous to your mission.}
-{the mural}
-{It is quite an interesting mural.}
-{the staircase}
-{A staircase winds its way upwards, but a velvet rope across the bottom indicates it's not to be used under penalty of law. It looks like the elevator is your only hope, Patti.}
-{the lamp}
-{A lovely Art Deco lamp rises above the staircase.}
-{the lamp}
-{A lovely Art Deco lamp rises above the staircase.}
-{the ashtray}
-{Carefully examining the ashtray for a disco pass, for a brief moment you think you're playing "Leisure Suit Larry 1: In the Land of the Lounge Lizards." Of course, you're not.}
-{the sconce}
-{My, the Shill Building has tasteful sconces.}
-{the sconce}
-{My, the Shill Building has tasteful sconces.}
-{the clock}
-{A lovely Deco time clock is built into the end of the Security Guard's counter for those employees still paid by the hour.}
-{the mural}
-{What? Patti! When did you develop an interest in other women?}
+{strážník}
+{výtah}
+{výtah}
+{katalog budovy Shill}
+{katalog}
+{katalog}
+{katalog}
+{katalog}
+{katalog}
+{katalog}
+{katalog}
+{katalog}
+{rostlina}
+{Tato rostlina je zøejmì dobøe udržovaná, ale pro tvou misi je zbyteèná.}
+{freska}
+{Je to docela zajímavá nástìnná malba.}
+{schodištì}
+{Schodištì se vine vzhùru, ale sametový provaz pøes jeho spodní èást naznaèuje, že se nesmí používat pod hrozbou sankcí. Vypadá to, že výtah je tvoje jediná nadìje, Patti.}
+{lampa}
+{Nad schodištìm se tyèí krásná lampa ve stylu art deco.}
+{lampa}
+{Pìkná lampa ve stylu art deco se tyèí nad schodištìm.}
+{popelník}
+{Popelník si peèlivì prohlížíš, jestli v nìm není diskotékový prùkaz, a na okamžik si myslíš, že hraješ "Leisure Suit Larry 1: In the Land of the Lounge Lizards". Samozøejmì, že nehraješ.}
+{svícen}
+{Jéje, budova Shill má vkusné svícny.}
+{svícen}
+{Jéje, v budovì Shillù jsou vkusné svícny.}
+{hodiny}
+{Na konci pultu ochranky jsou zabudovány krásné hodiny ve stylu Deco pro zamìstnance, kteøí jsou stále placeni od hodiny.}
+{freska}
+{Cože? Patti! Kdy ses zaèala zajímat o jiné ženy?}

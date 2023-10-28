@@ -7,31 +7,31 @@
 {8}
 {9}
 {10}
-{Jack}
-{Queen}
-{King}
-{Ace}
-{Clubs}
-{Spades}
-{Diamonds}
-{Hearts}
-{Welcome to Tramp's Casino}
-{the Increase button}
-{Click the Hand here to increase your bet.}
-{the Decrease button}
-{Click the Hand here to decrease your bet.}
-{the Cash Out button}
-{Click the Hand here to stop playing this machine. Your winnings will be given to you automatically.}
-{the Deal button}
-{Click the Hand here to begin a new hand of poker.}
-{the Hold Card 1 button}
-{Click the Hand here to hold card #1.}
-{the Hold Card 2 button}
-{Click the Hand here to hold card #2.}
-{the Hold Card 3 button}
-{Click the Hand here to hold card #3.}
-{the Hold Card 4 button}
-{Click the Hand here to hold card #4.}
-{the Hold Card 5 button}
-{Click the Hand here to hold card #5.}
-{Another Lucky Winner}
+{Kluk}
+{Královna}
+{Král}
+{Eso}
+{Køíové}
+{Pikové}
+{Kárové}
+{Srdcové}
+{Vítejte v Trampovì kasinu}
+{tlaèítko Zvıšit}
+{Kliknutím zde rukou a zvıšíte svou sázku.}
+{tlaèítko Sníení}
+{Kliknutím zde rukou snííte svou sázku.}
+{tlaèítko Vyplatit}
+{Kliknutím zde rukou ukonèíte hru na tomto automatu. Vaše vıhry vám budou automaticky vyplaceny.}
+{tlaèítko Rozdat}
+{Kliknutím zde rukou zahájíte novou hru pokeru.}
+{tlaèítko Podret kartu 1}
+{Kliknutím zde rukou podríte kartu è. 1.}
+{tlaèítko Podret kartu 2}
+{Kliknutím zde rukou podríte kartu è. 2.}
+{tlaèítko Podret kartu 3}
+{Kliknutím zde rukou podríte kartu è. 3.}
+{tlaèítko Podret kartu 4}
+{Kliknutím zde rukou podríte kartu è. 4.}
+{tlaèítko Podret kartu 5}
+{Kliknutím zde rukou podríte kartu è. 5.}
+{Další šastnı vıherce}

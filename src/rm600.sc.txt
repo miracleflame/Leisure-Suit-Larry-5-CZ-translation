@@ -1,20 +1,20 @@
-{The Shill Building is one of Baltimore's finest office buildings. Its granite, brass and stainless steel facade shines in the sunlight. A revolving door promises access to its interior.}
-{Save}
-{Nah, Why Bother?}
-{AL says}
-{the flag}
-{The Shill Building's management is so patriotic!}
-{the flag}
-{The Shill Building's management is so patriotic!}
-{the revolving door}
-{This revolving door is a highlight of the entrance to the Shill building.}
-{the limousine}
-{Your limousine waits for your return. Inside, your driver is still smarting from your arrival! You feel sure he has learned his lesson.}
-{the fire hydrant}
-{How do dogs spell relief? "H-Y-D-R-A-N-T"}
-{the car}
-{You wonder which Shill Building office drone drives such a junky car?}
-{the Shill sign}
-{Patti, it says "SHILL."}
-{the reflection}
-{Don't stare at the sun, Patti! You'll go blind!}
+{Budova Shill je jednou z nejlepších kanceláøských budov v Baltimoru. Její žulová, mosazná a nerezová fasáda záøí ve sluneèním svìtle. Pøístup do jejího interiéru slibují otoèné dveøe.}
+{Uložit}
+{Ne, proè se obtìžovat?}
+{AL øíká}
+{vlajka}
+{Vedení budovy Shill je tak vlastenecké!}
+{vlajka}
+{Vedení budovy Shill je tak vlastenecké!}
+{otoèné dveøe}
+{Tyto otoèné dveøe jsou ozdobou vchodu do budovy Shill.}
+{limuzína}
+{Tvá limuzína èeká na tvùj návrat. Uvnitø je tvùj øidiè stále ještì rozrušený z tvého pøíjezdu! Jsi si jistý, že se pouèil.}
+{požární hydrant}
+{Jak psi hláskují úlevu? "H-Y-D-R-A-N-T"}
+{auto}
+{Zajímalo by tì, který trouba z kanceláøe budovy Shill jezdí takovým šrotem?}
+{znaèka Shill}
+{Patti, je na ní napsáno "SHILL".}
+{odraz}
+{Nezírej do slunce, Patti! Oslepneš!}

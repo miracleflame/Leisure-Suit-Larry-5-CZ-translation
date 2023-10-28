@@ -1,34 +1,34 @@
-{You are so proud of this, your humble workshop.}
-{the camcorder tapes}
-{You've found them! These are the tapes you need for your new Pocket Protector Camcorder.}
-{the lobby door}
-{The door to the lobby seems oh, so familiar to you. Probably because you entered this room through it! Your "The Girls of Videotape Technician's Magazine" calendar hangs on the back, open to Miss October, who (in your opinion) has the best "reels" of the bunch!}
-{the degausser}
-{Your degausser, which you use to degauss tapes, rests on the workbench.}
-{the drawer}
-{It looks like a closed drawer.}
-{the drawer}
-{It looks like a closed drawer.}
-{the drawer}
-{It looks like a closed drawer.}
-{the cabinet}
-{You have no idea what's inside these cabinets since you are too short to see inside.}
-{your barrel of sterilizer}
-{This barrel contains the sterilizing solution that you use on all incoming video tapes before rewinding them and distributing them to the members of the ASHV Audition Team.}
-{the video monitor}
-{You use this monitor every day to preview the incoming submissions, making sure they're explicit enough to pass on to the official members of the Submissions Team.}
-{the floor drain}
-{You often feel this is where your life is headed.}
-{the boxes}
-{You have no use for empty boxes.}
-{some videotapes}
-{the lamp}
-{It's just hanging around here... rather like you, Larry!}
-{the fuzzy dice}
-{Your sole attempt to decorate your work space is one-half of a pair of fuzzy dice, left over from your '74 Bug.}
-{your 8-track player}
-{Your trusty Strombug Carlton 8-track cartridge tape player rests on your workbench. Although lately you've had trouble finding new cartridges, it still really belts out the tunes.}
-{Play which 8-track cartridge?}
+{Jsi na to tak pyšnı, na svou skromnou dílnu.}
+{záznamy z videokamery}
+{Našel jsi je! Tohle jsou pásky, které potøebuješ do své nové videokamery Pocket Protector.}
+{dveøe do haly}
+{Dveøe do haly ti pøipadají tak známé. Nejspíš proto, e jsi tudy vstoupil do této místnosti! Vzadu visí tvùj kalendáø "Videotechnikova dìvèata", otevøenı na stranì Miss øíjen, která má (podle tvého názoru) nejlepší "kotouèe" z celé party!}
+{demagnetizér}
+{Tvùj demagnetizér, kterı pouíváš k pøemazání kazet, leí na pracovním stole.}
+{šuplík}
+{Vypadá jako zavøená zásuvka.}
+{šuplík}
+{Vypadá jako zavøená zásuvka.}
+{šuplík}
+{Vypadá to jako zavøená zásuvka.}
+{skøíòka}
+{Nemáš ponìtí, co je uvnitø tìchto skøíní, protoe jsi pøíliš malı na to, abys vidìl dovnitø.}
+{tvùj barel sterilizátoru}
+{Tento barel obsahuje sterilizaèní roztok, kterı pouíváš na všechny pøíchozí videokazety pøed jejich pøevinutím a rozdìlením èlenùm konkurzního tımu ASHV.}
+{videomonitor}
+{Tento monitor pouíváš kadı den k prohlíení pøíchozích nahrávek a ujišuješ se, e jsou dostateènì explicitní, abys je mohl pøedat oficiálním èlenùm tımu pro pøijímací øízení.}
+{podlahovı odtok}
+{Èasto máš pocit, e právì sem smìøuje tvùj ivot.}
+{krabice}
+{Prázdné krabice ti jsou k nièemu.}
+{nìkteré videokazety}
+{lampa}
+{Jen se tu tak poflakuje... jako ty, Larry!}
+{chlupaté kostky}
+{Tvım jedinım pokusem o vızdobu tvého pracovního prostoru je polovina páru chlupatıch kostek, které ti zbyly z tvého Brouka z roku 74.}
+{tvùj osmistopı pøehrávaè}
+{Na tvém pracovním stole leí tvùj vìrnı osmistopı magnetofon Strombug Carlton. Aèkoli máš v poslední dobì problémy se shánìním novıch kazet, poøád ti to hezky hraje.}
+{Pøehrát kterou osmistopou kazetu? }
 {__The Larry Song__}
 { Record des Rever_}
 {__Desmond's Theme__}
@@ -40,10 +40,10 @@
 {__Michelle's Song__}
 {______Shill This______}
 {______Saxy Sex______}
-{On The Boardwalk}
-{< Next Screen >}
-{< Eject >}
-{Play which 8-track cartridge?}
+{Na promenádì}
+{< Další obrazovka >}
+{< Vysunout >}
+{Pøehrát kterou osmistopou kazetu?}
 { A Studio Session_}
 {__Gettin' Some Air__}
 {____Nasty Girlz_____}
@@ -56,5 +56,5 @@
 {___Doc'll Pulliam____}
 {__Chi Chi a Me Me__}
 {____Salsa This_____}
-{< Previous Screen >}
-{< Eject >}
+{< Pøedchozí obrazovka >}
+{< Vysunout >}

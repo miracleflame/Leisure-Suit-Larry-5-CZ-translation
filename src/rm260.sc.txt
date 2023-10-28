@@ -1,26 +1,26 @@
-{You are in the west wing of the lavish AeroDork Airline terminal building.}
+{Jsi v západním køídle honosné budovy terminálu letecké spoleènosti AeroDork.}
 {Los Angeles}
 {New York}
 {Atlantic City}
 {Miami}
-{the cigarette machine}
-{the chairs}
-{the column}
-{the plant}
-{the door}
-{the outlet}
-{the plant}
-{the sign}
-{the sign}
-{the sign}
-{the sign}
-{the ashtray}
-{the slot machine}
-{the slot machine}
-{the slot machine}
-{the slot machine}
-{the slot machine}
-{the slot machine}
-{the slot machine}
-{the slot machine}
-{the slot machine}
+{automat na cigarety}
+{židle}
+{sloup}
+{rostlina}
+{dveøe}
+{zásuvka}
+{rostlina}
+{znaèka}
+{znaèka}
+{znaèka}
+{znaèka}
+{popelník}
+{výherní automat}
+{výherní automat}
+{výherní automat}
+{výherní automat}
+{výherní automat}
+{výherní automat}
+{výherní automat}
+{výherní automat}
+{výherní automat}
