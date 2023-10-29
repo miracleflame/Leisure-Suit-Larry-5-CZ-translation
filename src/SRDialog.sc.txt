@@ -1,22 +1,22 @@
-{Restore}
-{__Save__}
-{Replace}
-{Replace}
-{Select the game that you would like to restore.}
-{Type the description of this saved game.}
-{This directory/disk can hold no more saved games. You must replace one of your saved games or use Change Directory to save on a different directory/disk.}
-{This directory/disk can hold no more saved games. You must replace one of your saved games or use Change Directory to save on a different directory/disk.}
+{Obnovit}
+{__Uložit__}
+{Nahradit}
+{Nahradit}
+{Vyberte hru, kterou chcete obnovit.}
+{Zadejte popis této uložené hry.}
+{Tento adresáø/disk nemùže pojmout žádné další uložené hry. Musíte nahradit nìkterou z uložených her nebo pomocí funkce Zmìnit adresáø uložit do jiného adresáøe/disku.}
+{Tento adresáø/disk nemùže pojmout žádné další uložené hry. Musíte nahradit nìkterou z uložených her nebo pomocí funkce Zmìnit adresáø uložit do jiného adresáøe/disku.}
 {OK}
-{Cancel}
-{Are you sure you want to\0D\ndelete this saved game?}
-{ No_}
-{Yes}
-{Restore a Game}
-{Save a Game}
-{ Cancel_}
-{Change\0D\nDirectory}
-{ Delete_}
-{Replace}
-{with:}
-{Replace}
-{Cancel}
+{Zrušit}
+{Jste si jisti, že chcete\0D\nsmazat tuto uloženou hru?}
+{ Ne_}
+{Ano}
+{Obnovit hru}
+{Uložit hru}
+{ Zrušit_}
+{Zmìnit\0D\nAdresáø}
+{ Smazat_}
+{Nahradit}
+{s:}
+{Nahradit}
+{Zrušit}

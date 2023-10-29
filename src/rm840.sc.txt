@@ -1,34 +1,34 @@
-{John Krapper's Office is beautifully decorated in the latest high-tech look. Numerous halogen narrow-beam spotlights bathe the otherwise dark room with small brilliantly-white pools of light.}
-{the desk}
-{the potted plant}
-{the copier}
-{It's a genuine ZeroZ 9000, the latest in personal copiers.}
-{the copier}
-{It's a genuine ZeroZ 9000, the latest in personal copiers.}
-{the bathroom door}
-{A sign on the door says "Krapper's Crapper." A smaller sign below it says "John's John".}
-{the lobby door}
-{This is the door through which you entered. If you walked out it, you would return to the lobby.}
-{the table}
-{Krapper has a beautiful glass coffee table.}
-{the chair}
-{This is the kind of furniture you would buy if you ever settled down.}
-{the sofa}
-{What an unusual sofa! You so love modern furniture.}
-{the telephone}
-{John Krapper's telephone has very few buttons. He must be REALLY important!}
-{the desk computer}
-{Look at the dust on that keyboard! He must never use his computer!}
-{the window}
-{Krapper's office has a giant window looking out over beautiful downtown Philadelphia.}
-{the shelves}
-{Krapper's bookcase is filled with items, all of them useless to your mission.}
-{the lamp}
-{The small halogen spotlights cast a pure white light.}
-{the lamp}
-{The small halogen spotlights cast a pure white light.}
-{the lamp}
-{The small halogen spotlights cast a pure white light.}
-{the lamp}
-{The small halogen spotlights cast a pure white light.}
-{the letter opener}
+{Kanceláø Johna Krappera je krásnì zaøízená v nejnovìjším high-tech stylu. Èetné halogenové reflektory s úzkými paprsky zalévají jinak tmavou místnost malými záøivì bílými kužely svìtla.}
+{stùl}
+{kvìtina v kvìtináèi}
+{kopírka}
+{Je to pravá ZeroZ 9000, nejnovìjší model osobních kopírek.}
+{kopírka}
+{Je to pravá ZeroZ 9000, nejnovìjší model osobních kopírek.}
+{dveøe do koupelny}
+{Na dveøích je nápis "Krapper's Crapper". Pod ním je menší nápis "John's John".}
+{dveøe do haly}
+{Tìmito dveømi jste vstoupili. Když jimi vyjdete, vrátíte se do haly.}
+{stùl}
+{Krapper má krásný sklenìný konferenèní stolek.}
+{køeslo}
+{Tento nábytek byste si koupili, kdybyste se nìkdy usadili.}
+{pohovka}
+{Jaká neobvyklá pohovka! Ty tak miluješ moderní nábytek.}
+{telefon}
+{Telefon Johna Krappera má velmi málo tlaèítek. Musí být OPRAVDU dùležitý!}
+{stolní poèítaè}
+{Podívej se na ten prach na klávesnici! On ten poèítaè urèitì nikdy nepoužívá!}
+{okno}
+{Krapperova kanceláø má obrovské okno s výhledem na krásné centrum Filadelfie.}
+{polièky}
+{Krapperova knihovna je plná pøedmìtù, které jsou pro vaši misi nepoužitelné.}
+{lampa}
+{Malé halogenové reflektory vrhají èisté bílé svìtlo.}
+{lampa}
+{Malé halogenové reflektory vrhají èisté bílé svìtlo.}
+{lampa}
+{Malé halogenové reflektory vrhají èisté bílé svìtlo.}
+{lampa}
+{Malé halogenové reflektory vrhají èisté bílé svìtlo.}
+{otvírák na dopisy}

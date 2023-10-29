@@ -1,33 +1,33 @@
-{the palm trees}
-{Miami is filled with exotic palm trees just like these.}
-{the gymnastics studio}
-{the sign}
-{The sign reads, "Doc Pulliam's Dental Hygiene Heaven."}
-{the gymnastics studio door}
-{the dentist's office door}
-{The door leading to Doc Pulliam's Dental Hygiene Heaven is unlocked.}
-{the building}
-{You are outside the building where Chi Chi Lambada is employed: "Doc Pulliam's Dental Hygiene Heaven." Immediately below it is a closed gymnastics studio, "The Gym-Dandy Gymnastics Center."}
-{the sidewalk}
-{Carefully inspecting the sidewalk, you conclude Doc Pulliam doesn't spend much on filling cavities out here!}
-{the fence}
-{A stone wall decorates an otherwise perfunctory building.}
-{the gymnastic studio sign}
-{The sign says, "Gym-Dandy Gymnastics Center."}
-{the window}
-{You don't need to peek in those windows!}
-{the window}
-{You don't need to peek in those windows!}
-{the stairway}
-{A flight of stairs leads up to Doc Pulliam's office.}
-{the revolving tooth}
-{Take the Ventura Freeway to the Fontainebleau Freeway to the Eisenhower Turnpike to the Slaussen Cutoff. Get out of your car and cut off your slaussen. Get back in your car and continue on until you reach the Beach Front Highway. Take the Beach Front Highway to 22nd Street Southwest and stop when you come to the giant revolving tooth! You're there! Doc Pulliam's Dental Hygiene Heaven!}
-{the limousine}
-{It's your limousine, awaiting your entrance.}
-{the building}
-{There are many buildings in a city as large as Miami.}
-{Save}
-{Nah, Why Bother?}
-{AL says}
-{the dentist's office door}
-{The door leading to Doc Pulliam's Dental Hygiene Heaven is unlocked.}
+{palmy}
+{Miami je plné exotickıch palem, jako jsou tyto.}
+{gymnastické studio}
+{nápis}
+{Nápis zní: "Ráj dentální hygieny doktora Pulliama."}
+{dveøe gymnastického studia}
+{dveøe zubaøské ordinace}
+{Dveøe vedoucí do Ráje dentální hygieny doktora Pulliama jsou odemèené.}
+{budova}
+{Jste pøed budovou, kde je zamìstnána Chi Chi Lambada: "Ráj dentální hygieny doktora Pulliama." Hned pod ní je zavøené gymnastické studio: "Gymnastické centrum Gym-Dandy".}
+{chodník}
+{Pozornì si chodník prohlííš a docházíš k závìru, e doktor Pulliam tady moc neutrácí za plombování kazù!}
+{zeï}
+{Kamenná zeï zdobí jinak zanedbanou budovu.}
+{nápis gymnastického studia}
+{Nápis zní: "Gymnastické centrum Gym-Dandy".}
+{okno}
+{Není tøeba nahlíet do tìch oken!}
+{okno}
+{Není tøeba nahlíet do tìch oken!}
+{schodištì}
+{Schodištì vede do ordinace doktora Pulliama.}
+{otáèecí zub}
+{Jdìte po dálnici Ventura na dálnici Fontainebleau a ze silnici Eisenhower na vıpadovku Slaussen. Vystupte z auta a uøíznìte si šlajsnu. Vrate se do auta a pokraèujte dál, dokud nedojedete na dálnici Beach Front. Po dálnici Beach Front jeïte na 22. ulici Southwest a zastavte, a pøijedete k obøímu otáèecímu zubu! Jste na místì! Ráj dentální hygieny doktora Pulliama!}
+{limuzína}
+{To je tvá limuzína, která èeká na tvùj nástup.}
+{budova}
+{V tak velkém mìstì, jako je Miami, je mnoho budov.}
+{Uloit}
+{Ne, proè se obtìovat?}
+{AL øíká}
+{dveøe zubaøovy ordinace}
+{Dveøe vedoucí do Ráje dentální hygieny doktora Pulliama jsou odemèené.}

@@ -1,46 +1,46 @@
-{You are inside K-RAP radio's Control Room B. For such a large room, it certainly looked smaller from the outside. The walls are filled with a myriad of recording equipment, electronic gear, mixers, microphones, recording tape, etc. etc.}
-{the giant speaker}
-{You could swear these are genuine Altec "Voice of the Theatre" speakers. You haven't seen these babies in years!}
-{the electronic equipment}
-{Everywhere you look, you see buttons, switches, lights, reels of tape, and tape drives.}
-{the electronic equipment}
-{Everywhere you look, you see buttons, switches, lights, reels of tape, and tape drives.}
-{the left large-hub reel-to-reel recorder}
-{the right large-hub reel-to-reel recorder}
-{the electronic equipment}
-{Everywhere you look, you see buttons, switches, lights, reels of tape, and tape drives. Unfortunately, they are much too high for you to reach.}
-{the electronic equipment}
-{Everywhere you look, you see buttons, switches, lights, reels of tape, and tape drives. Unfortunately, they are much too high for you to reach.}
-{the monitor speaker}
-{You could swear these are genuine Altec "Voice of the Theatre" speakers. You haven't seen these babies in years!}
-{the monitor speaker}
-{You could swear these are genuine Altec "Voice of the Theatre" speakers. You haven't seen these babies in years!}
-{the monitor speaker}
-{You could swear these are genuine Altec "Voice of the Theatre" speakers. You haven't seen these babies in years!}
-{the equipment rack}
-{This shelf contains a lot of electronic equipment, most of it old, plus a shelf filled with blank reel-to-reel tapes.}
-{the shelf of tapes}
-{Why, here's what you need! A shelf filled with blank, reel-to-reel recording tapes.}
-{the microphone mixer}
-{the microphone}
-{A professional-quality, high-fidelity, studio ribbon microphone hangs from a boom over the studio console.}
-{the reel-to-reel tape recorder}
-{the tape}
-{A large Studer console recorder is all warmed up and ready to record--except there's no tape upon which to record!}
+{Nacházíš se v øídicí místnosti B rádia K-RAP. Na to, jak je to velká místnost, vypadala zvenèí rozhodnì menší. Stìny jsou zaplnìny nesèetným množstvím nahrávacích zaøízení, elektronických pøístrojù, mixážních pultù, mikrofonù, nahrávacích pásek atd. atd.}
+{obøí reproduktor}
+{Pøísahala bys, že to jsou pravé reproduktory Altec "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+{elektronické vybavení}
+{Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, cívky s páskami a páskové mechaniky.}
+{elektronické vybavení}
+{Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, cívky s páskami a páskové mechaniky.}
+{levý velký bubnový magnetofon}
+{pravý velký bubnový magnetofon}
+{elektronické zaøízení}
+{Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, cívky s páskou a páskové mechaniky. Bohužel jsou pøíliš vysoko než abys na nì dosáhla.}
+{elektronické zaøízení}
+{Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, cívky s páskami a páskové mechaniky. Bohužel jsou pøíliš vysoko, než abys na nì dosáhla.}
+{reproduktor monitoru}
+{Pøísahala bys, že to jsou pravé reproduktory Altec "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+{reproduktor monitoru}
+{Pøísahala bys, že to jsou pravé reproduktory Altec "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+{reproduktor monitoru}
+{Pøísahala bys, že to jsou pravé reproduktory Altec "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+{stojan s vybavením}
+{Tento regál obsahuje spoustu elektronického vybavení, vìtšinou starého, a také polici plnou prázdných kotouèových kazet.}
+{polièka s kazetami}
+{Aha, tady je to, co potøebuješ! Polièka plná prázdných cívkových nahrávacích pásek.}
+{mikrofonní mixér}
+{mikrofon}
+{Profesionální, špièkový, studiový páskový mikrofon visí na rameni nad studiovým pultem.}
+{kotouèový magnetofon}
+{páska}
+{Velký konzolový magnetofon Studer je rozehøátý a pøipravený k nahrávání - až na to, že nemá pásku, na kterou by se dalo nahrávat!}
 {P. C. Hammer}
-{P. C. Hammer is working in the next Control Room.}
-{the glass window}
-{A heavy, soundproof, plate-glass window separates you from the outside--and your freedom!}
-{the microphone mixer}
-{the recording sign}
-{This sign is illuminated whenever anyone is recording inside control room A.}
-{the Control Room A door}
-{Be careful, Patti! Inside that door stands the man you've come here to investigate: P. C. Hammer!}
-{the Control Room B door}
-{A sign on the door reads "Control Room B." It is currently unoccupied.}
+{P. C. Hammer pracuje ve vedlejší øídící místnosti.}
+{sklenìné okno}
+{Tìžké, zvukotìsné okno z tabulového skla tì oddìluje od vnìjšího svìta - a tvé svobody! }
+{mikrofonní mixér}
+{kontrolka nahrávání}
+{Tato kontrolka se rozsvítí vždy, když nìkdo nahrává v øídící místnosti A.}
+{dveøe øídicí místnosti A}
+{Buï opatrná, Patti! Uvnitø tìchto dveøí stojí muž, kterého jsi sem pøišla vyšetøovat: P. C. Hammer!}
+{dveøe øídící místnosti B}
+{Na dveøích je nápis "Øídící místnost B". V souèasné dobì je neobsazená.}
 {P. C. Hammer}
-{Through the control room window, you see P. C. Hammer mixing his "live" radio broadcast for tomorrow morning's drive time show.}
-{the microphone stand}
-{A large boom microphone stand sits just outside the door to Control Room B.}
-{the recording sign}
-{This sign is illuminated whenever anyone is recording inside this control room.}
+{Pøes okno øídicí místnosti vidíš P. C. Hammera, jak míchá své "živé" rozhlasové vysílání pro zítøejší ranní show.}
+{stojan na mikrofon}
+{Velký mikrofonní stojan s ramenem stojí hned za dveømi do øídicí místnosti B.}
+{kontrolka nahrávání}
+{Tato kontrolka se rozsvítí, kdykoli nìkdo nahrává v této øídicí místnosti.}

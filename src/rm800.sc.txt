@@ -1,28 +1,28 @@
-{You are outside the studios of `K-Rap Radio.' It appears to be an amazingly small building for a station of such importance.}
-{your limousine}
-{Your limousine awaits your return.}
-{the K-RAP sign}
-{High above your head, K-RAP's neon sign illuminates the Baltimore night.}
-{the door}
-{K-RAP's doors are always open.}
-{the left speaker}
-{K-RAP's loudspeakers broadcast the station's current programming.}
-{the right speaker}
-{K-RAP's loudspeakers broadcast the station's current programming.}
-{the bush}
-{Someone planted these bushes right in the middle of this busy sidewalk!}
-{the bush}
-{Someone planted these bushes right in the middle of this busy sidewalk!}
-{the bush}
-{Someone planted these bushes right in the middle of this busy sidewalk!}
-{the bush}
-{Someone planted these bushes right in the middle of this busy sidewalk!}
-{the mural}
-{K-RAP radio has a mural of musicians on their wall.}
-{the tower}
-{The tower holds the antennas that broadcast K-RAP's stereo multiplexed signal to millions of people (some of whom listen!).}
-{the trees}
-{A clump of white birch trees grows just outside K-RAP.}
-{Save}
-{Nah, Why Bother?}
-{AL says}
+{Jsi pøed studiem rádia K-Rap. Zdá se, že na tak významnou stanici je to pøekvapivì malá budova.}
+{tvoje limuzína}
+{Tvoje limuzína èeká na tvùj návrat.}
+{nápis K-RAP}
+{Vysoko nad tvou hlavou osvìtluje baltimorskou noc neonový nápis K-RAP.}
+{dveøe}
+{Dveøe K-RAP jsou vždy otevøené.}
+{levý reproduktor}
+{Reproduktory K-RAP vysílají aktuální program stanice.}
+{pravý reproduktor}
+{Reproduktory K-RAP vysílají aktuální program stanice.}
+{køoví}
+{Nìkdo tyhle keøe zasadil pøímo doprostøed tohoto rušného chodníku!}
+{køoví}
+{Nìkdo vysadil tyto keøe pøímo uprostøed tohoto rušného chodníku!}
+{keø}
+{Nìkdo vysadil tyto keøe pøímo uprostøed tohoto rušného chodníku!}
+{køoví}
+{Nìkdo vysadil tyto keøe pøímo uprostøed tohoto rušného chodníku!}
+{freska}
+{Rádio K-RAP má na zdi nástìnnou malbu hudebníkù.}
+{vìž}
+{Na vìži jsou umístìny antény, které vysílají stereofonní multiplexní signál rádia K-RAP pro miliony lidí (z nichž nìkteøí poslouchají!).}
+{stromy}
+{Kousek od K-RAP roste houf bílých bøíz.}
+{Uložit}
+{Ne, proè se obtìžovat?}
+{AL øíká}

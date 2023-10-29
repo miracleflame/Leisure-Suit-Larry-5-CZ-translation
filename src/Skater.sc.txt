@@ -1,38 +1,38 @@
-{The commercialization of the lovely Tramp Boardwalk seems complete. Businesses line every inch of the far side of the boardwalk. At least the near side has been kept open for fishermen and skaters.}
-{Lana Luscious}
+{Komercializace krásné Trampové promenády se zdá bıt dokonèena. Podniky lemují kadı centimetr vzdálené strany promenády. Alespoò bliší strana zùstala otevøená pro rybáøe a bruslaøe.}
+{Lana Slièná}
 {Mister Z}
-{Isn't he the cute one?}
-{the old man}
-{He's a little old for a rollerskater, eh?}
-{Hot Wheels}
-{This kid's a real showoff!}
+{No není jen roztomilı?}
+{starı mu}
+{Na bruslaøe je trochu starı, co?}
+{Horká Kola}
+{Ten kluk se opravdu pøedvádí!}
 {Rockin' Roller}
-{What's he listening to, anyway?}
-{Roller Pig}
-{What talent! He can eat AND skate at the same time!}
-{Bill the Suit}
-{He's way overdressed for THIS boardwalk!}
-{Kid Dork}
-{What a dorky lookin' little guy! You immediately take a liking to him!}
-{the skater}
-{You had no idea the boardwalk would have so many skaters!}
-{the skater}
-{Never straying far from the shops on the other side of the Boardwalk, a skater finds true happiness, blading his little heart out!}
-{the building}
-{Lana's right eye}
-{Lana's left eye}
-{Lana's nose}
-{Lana's mouth}
-{Lana Luscious}
-{the boardwalk buildings}
-{The far side of the Tramp Boardwalk is lined with tawdry, tacky tourist traps. A bit of blue sky peeks through the buildings.}
-{the bench}
-{A long row of park benches await your sitting pleasure along the ocean side of the boardwalk.}
-{the post}
-{These posts hold up the boardwalk.}
-{the post}
-{These posts hold up the boardwalk.}
-{the post}
-{These posts hold up the boardwalk.}
-{the post}
-{These posts hold up the boardwalk.}
+{Co to vlastnì poslouchá?}
+(Roller Prase}
+{To je ale talent! Umí jíst a zároveò bruslit!}
+{Kravaák Bill}
+{Na tuhle promenádu je a moc obleèenı!}
+{Dìcko Blb}
+{Jakı to pøitroublı kluèina! Okamitì si ho oblíbíš!}
+{bruslaø}
+{Nemìl jsi tušení, e na promenádì bude tolik bruslaøù!}
+{bruslaø}
+{Bruslaø, kterı se nikdy nevzdálí od obchodù na druhé stranì promenády, najde opravdové štìstí, kdy své srdíèko rozbruslí!}
+{budova}
+{Lanino pravé oko}
+{Lanino levé oko}
+{Lanin nos}
+{Lanina ústa}
+{Lana Slièná}
+{budovy na promenádì}
+{Zdálená strana Trampovy promenády je lemována nevkusnımi, lacinımi turistickımi pastmi. Skrz budovy vykukuje kousek modré oblohy.}
+{lavièka}
+{Dlouhá øada lavièek èeká na tvé potìšení z posezení podél oceánské strany promenády.}
+{sloupek}
+{Tyto sloupky drí promenádu.}
+{sloupek}
+{Tyto sloupky drí promenádu.}
+{sloupek}
+{Tyto sloupky drí promenádu.}
+{sloupek}
+{Tyto sloupky drí promenádu.}

@@ -1,29 +1,29 @@
-{The studio floor of the K-RAP building is far underground, filled with soundproof studios and playback speakers. A large fountain, complete with giant bronze sculptures, fills the center of the room.}
-{the door to Control Room A}
-{This door leads to Control Room A. You can see a man working inside.}
-{the Control Room B door}
-{This door leads to Control Room B, which appears to be empty.}
-{the Control Room C door}
-{This door leads to Control Room C. It appears to be unoccupied at the moment.}
-{the keypad}
-{Each of the doors has a keypad to limit access to only those with authorization. This keypad controls access to Control Room A.}
-{the keypad}
-{Each of the doors has a keypad to limit access to only those with authorization. This keypad controls access to Control Room B.}
-{the keypad}
-{Each of the doors has a keypad to limit access to only those with authorization. This keypad controls access to Control Room C.}
-{the window of Control Room A}
-{Through this window you can see Control Room A.}
-{the window of Control Room B}
-{Through this window you can see Control Room B. It appears to be currently unoccupied.}
-{the window of Control Room C}
-{Through this window you can see Control Room C. It appears to be currently unoccupied.}
-{the statue}
-{How impressive! K-RAP has a fountain filled with a huge statue of the Queen of Rock 'n' Roll--Connie Stevens!}
-{the recording sign}
-{This sign is illuminated when Control Room A is recording.}
-{the recording sign}
-{This sign is illuminated when Control Room B is recording.}
-{the recording sign}
-{Control Room A's recording indicator lamp is presently on.}
+{Studiové patro budovy K-RAP je hluboko pod zemí, plné zvukotìsných studií a reproduktorù. Støed místnosti vyplòuje velká fontána s obøími bronzovými sochami.}
+{dveøe do øídicí místnosti A}
+{Tyto dveøe vedou do øídicí místnosti A. Vidíte muže, který uvnitø pracuje.}
+{dveøe do øídicí místnosti B}
+{Tyto dveøe vedou do kontrolní místnosti B, která se zdá být prázdná.}
+{dveøe do øídicí místnosti C}
+{Tyto dveøe vedou do kontrolní místnosti C. Zdá se, že je momentálnì prázdná.}
+{klávesnice}
+{Každé dveøe mají klávesnici, která omezuje pøístup pouze osobám s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti A.}
+{klávesnice}
+{Každé dveøe mají klávesnici pro omezení pøístupu pouze osobám s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti B.}
+{klávesnice}
+{Každé dveøe mají klávesnici pro omezení pøístupu pouze osobám s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti C.}
+{okno øídicí místnosti A}
+{Pøes toto okno je vidìt do øídicí místnosti A.}
+{okno øídicí místnosti B}
+{Pøes toto okno vidíte øídicí místnost B. Zdá se, že v souèasné dobì není obsazena.}
+{okno øídicí místnosti C}
+{Pøes toto okno vidíte øídicí místnost C. Zdá se, že je v souèasné dobì neobsazená.}
+{socha}
+{Jak pùsobivé! K-RAP má fontánu s obrovskou sochou královny rock'n'rollu - Connie Stevensové!}
+{kontrolka nahrávání}
+{Tato kontrolka svítí, když se v øídící místnosti A nahrává.}
+{kontrolka nahrávání}
+{Tato kontrolka svítí, když se nahrává v øídicí místnosti B.}
+{kontrolka nahrávání}
+{V souèasné dobì svítí kontrolka nahrávání v øídicí místnosti A.}
 {P. C. Hammer}
-{the microphone stand}
+{stojan mikrofonu}

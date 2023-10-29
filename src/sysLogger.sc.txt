@@ -1,17 +1,17 @@
 {}
 {\0D\n}
-{Enter drive letter, path and your name\n(no extension, max 40 characters)}
+{Zadejte písmeno jednotky, cestu a jméno\n(bez pøípony, max. 40 znakù)}
 {resource.cfg}
-{Enter your initials (up to 3 characters):}
-{Enter configuration file name (or hit return to skip):}
+{Vložte své iniciály (maximálnì 3 znaky):}
+{Zadejte název konfiguraèního souboru (nebo stisknìte Enter pro pøeskoèení):}
 {kbdDrv}
 {joyDrv}
 {videoDrv}
 {soundDrv}
 {mouseDrv}
 {audioDrv}
-{append to it}
-{overwrite it}
+{pøidat na konec}
+{pøepsat jej}
 {GAME}
 {VERSION}
 {QA-DATE}

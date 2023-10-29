@@ -1,19 +1,19 @@
-{the faucet}
-{The faucet is drip-, drip-, dripping, right in time to the music that's playing!}
-{the happy tooth poster}
-{If you maintained a regular schedule of oral hygiene with Chi Chi Lambada, your teeth would be happy too!}
-{the drill}
-{Whenever you see a high-speed dental drill, you make a silent vow to floss more often!}
-{the sink}
-{You love it when a woman orders you to "Spit!"}
-{the tray of dental tools}
-{You've always believed dental professionals have latent masochistic tendencies.}
-{the dentist's chair}
-{You just love electric furniture!}
-{the window}
-{Through the window you see children laughing, skipping, running, playing; all oblivious to their oral hygiene!}
-{Chi Chi's degree}
-{Interesting. You never knew the Columbia School of Broadcasting even HAD a dental college!}
-{the spotlight}
-{You love to peer at the reflection of your mouth on the surface of the dental spotlight.}
+(kohoutek)
+{Kohoutek kap-, kap-, kape, pøesnì v rytmu hudby, která hraje!}
+{plakát šastného zubu}
+{Pokud bys dodroval pravidelnı plán ústní hygieny s Chi Chi Lambada, tvé zuby by byly také šastné!}
+{vrtaèka}
+{Kdykoli spatøíš vysokootáèkovou zubní vrtaèku, tiše si pøísaháš, e budeš èastìji pouívat zubní nit!}
+{umyvadlo}
+{Miluješ, kdy ti ena naøídí: "Plivej!" }
+{zásobník zubaøskıch nástrojù}
+{Vdycky jsi vìøil, e zubaøi mají skryté masochistické sklony.}
+{zubaøské køeslo}
+{Ty prostì miluješ elektrickı nábytek!}
+{okno}
+{Pøes okno vidíš dìti, jak se smìjí, skáèou, bìhají, hrají si; všechny nedbají na ústní hygienu!}
+{Chi Chiin titul}
+{Zajímavé. Netušil jsi, e Kolumbijská rozhlasová škola mìla dokonce i vysokou školu zubního lékaøství!}
+{svìtlo reflektorù}
+{Rád se díváš na odraz svıch úst na povrchu zubaøského reflektoru.}
 {Chi Chi Lambada}

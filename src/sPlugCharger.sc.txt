@@ -1,2 +1,2 @@
-{the battery charger}
-{Camcorder Battery Strength}
+{nabíjeèka baterií}
+{Výdrž baterie videokamery}

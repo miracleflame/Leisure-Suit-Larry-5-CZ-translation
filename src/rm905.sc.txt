@@ -1,58 +1,58 @@
-{You are inside the waiting room of Doc Pulliam's Dental Hygiene Heaven. You love the carpet motif; in fact, you feel sure you seen something a lot like it before... somewhere.}
-{the magazines}
-{the palm tree}
-{You wonder if that palm tree will ever require a "root canal?"}
-{the painting}
-{You've always been a big fan of the "Happy Tooth School" of art.}
-{the painting}
-{You've always been a big fan of the "Happy Tooth School" of art.}
-{Doc's diplomas}
-{Funny. You've never heard of a dentist specializing in "String and Doorknob" dentistry. And where exactly is the "School of Hard Knockers?"}
-{the table}
-{You can tell that Doc's wife decorated this place. She's suffering from terminal cuteness!}
-{the chair}
-{This chair looks just right!}
-{the chair}
-{This chair looks too hard.}
-{the chair}
-{This chair looks too soft.}
-{the table}
-{This table contains a telephone, placed here for the convenience of Doc's customers.}
-{the table}
-{the receptionist}
-{You thought this might be the babe you've been searching for. Obviously, she's not. Not even you could consider this one sexy (and you know what low standards YOU have!).}
-{the waiting room telephone}
-{The long table contains a telephone, placed here for the convenience of Doc's customers.}
-{the sliding glass window}
-{the door}
-{This door leads to the inner offices of Doc Pulliam, including (you hope) the cubicle of Chi Chi Lambada, the woman you traveled all this way to "interview."}
-{Yes}
-{No}
-{Yes}
-{No}
-{Yes}
-{No}
-{Yes}
-{No}
-{Yes}
-{No}
-{Yes}
-{No}
-{Yes}
-{No}
-{Yes}
-{No}
-{Yes}
-{No}
-{Yes}
-{No}
-{Yes}
-{No}
-{Yes}
-{No}
-{Yes}
-{No}
-{the doily}
-{the phone}
-{the table}
-{You can tell that Doc's wife decorated this place. She's suffering from terminal cuteness!}
+{Jsi v èekárnì Ráje dentální hygieny doktora Pulliama. Líbí se ti motiv koberce; vlastnì si jsi jistý, že už jsi nìco podobného nìkde vidìl...}
+{èasopisy}
+{palma}
+{Pøemýšlíš, jestli ta palma bude nìkdy potøebovat "koøenový kanálek"?}
+{malba}
+{Vždycky jsi byl velkým fanouškem umìlecké školy "Veselý zub".}
+{malba}
+{Vždycky jsi byl velkým fanouškem umìlecké školy " Veselý zub".}
+{doktorovy diplomy}
+{Vtipné. Nikdy jsi neslyšel o zubaøi, který se specializuje na zubaøinu "Provázek a klika". A kde pøesnì je "Škola tvrdého klepání"?}
+{stùl}
+{Dá se øíct, že to tu vyzdobila doktorova žena. Trpí smrtelnou roztomilostí!}
+{židle}
+{Tahle židle vypadá tak akorát!}
+{židle}
+{Tahle židle vypadá moc tvrdì.}
+{židle}
+{Tato židle vypadá pøíliš mìkce.}
+{stùl}
+{Tento stùl je vybaven telefonem, který je zde umístìn pro pohodlí doktorových zákazníkù.}
+{stùl}
+{recepèní}
+{Myslel sis, že tohle by mohla být ta koèka, kterou jsi hledal. Oèividnì není. Ani ty bys ji nemohl považovat za sexy (a víš, jak nízké nároky máš!).}
+{telefon v èekárnì}
+{Dlouhý stùl je vybaven telefonem, který je zde umístìn pro pohodlí doktorových zákazníkù.}
+{šoupací sklenìné okno}
+{dveøe}
+{Tyto dveøe vedou do vnitøních kanceláøí doktora Pulliama, vèetnì (doufáš) kabinky Chi Chi Lambady, ženy, se kterou jsi vážil takovou cestu, abys s ní udìlal "rozhovor".}
+{Ano}
+{Ne}
+{Ano}
+{Ne}
+{Ano}
+{Ne}
+{Ano}
+{Ne}
+{Ano}
+{Ne}
+{Ano}
+{Ne}
+{Ano}
+{Ne}
+{Ano}
+{Ne}
+{Ano}
+{Ne}
+{Ano}
+{Ne}
+{Ano}
+{Ne}
+{Ano}
+{Ne}
+{Ano}
+{Ne}
+(ubrousek)
+{telefon}
+{stùl}
+{Dá se øíct, že to tu vyzdobila doktorova žena. Trpí smrtelnou roztomilostí!}
