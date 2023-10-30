@@ -17,7 +17,7 @@
 
 (instance rm190 of LLRoom
 	(properties
-		lookStr {Jste pÅ™ed generÃ¡lnÃ­m Å™editelstvÃ­m PPC, kterÃ© se ukrÃ½vÃ¡ ve smogu pod hollywoodskÃ½mi kopci. BoÅ¾Ã­Äku, jak se ti lÃ­bÃ­ bÃ½t v showbyznysu!}
+		lookStr {Jste pøed generálním øeditelstvím PPC, které se ukrıvá ve smogu pod hollywoodskımi kopci. Boíèku, jak se ti líbí bıt v showbyznysu!}
 		picture 190
 		north 160
 	)
@@ -239,10 +239,10 @@
 		x 10
 		y 1138
 		z 1000
-		description {tvÃ¡ limuzÃ­na}
+		description {tvá limuzína}
 		approachX 29
 		approachY 136
-		lookStr {KoneÄnÄ›! KoneÄnÄ› se mÅ¯Å¾eÅ¡ svÃ©zt opravdovou limuzÃ­nou.}
+		lookStr {Koneènì! Koneènì se mùeš svézt opravdovou limuzínou.}
 		view 190
 		priority 9
 		signal $0010
@@ -265,10 +265,10 @@
 		x 175
 		y 132
 		heading 180
-		description {vstupnÃ­ dveÅ™e PornProdCorp}
+		description {vstupní dveøe PornProdCorp}
 		approachX 185
 		approachY 134
-		lookStr {Tyto dveÅ™e vedou zpÄ›t do vestibulu PPC.}
+		lookStr {Tyto dveøe vedou zpìt do vestibulu PPC.}
 		view 192
 		loop 2
 		entranceTo 160
@@ -292,9 +292,9 @@
 	(properties
 		x 92
 		y 160
-		description {fontÃ¡na}
+		description {fontána}
 		sightAngle 40
-		lookStr {KdyÅ¾ mÃ­jÃ­Å¡ zurÄÃ­cÃ­ vodu, chceÅ¡ vypustit zurÄÃ­cÃ­ vodu.}
+		lookStr {Kdy míjíš zurèící vodu, chceš vypustit zurèící vodu.}
 		view 192
 		priority 15
 		signal $0010
@@ -372,7 +372,7 @@
 		nsRight 207
 		description {to logo PornProdCorp}
 		sightAngle 40
-		lookStr {PÅ™edpoklÃ¡dÃ¡Å¡, Å¾e PPC si to logo vybrala, protoÅ¾e jazyk je univerzÃ¡lnÃ­m symbolem vytÅ™Ã­benÃ© chuti.}
+		lookStr {Pøedpokládáš, e PPC si to logo vybrala, protoe jazyk je univerzálním symbolem vytøíbené chuti.}
 	)
 )
 
@@ -411,9 +411,9 @@
 		y 80
 		nsBottom 46
 		nsRight 61
-		description {nÃ¡pis Hollywood}
+		description {nápis Hollywood}
 		sightAngle 40
-		lookStr {RÃ¡d tu pracujeÅ¡, protoÅ¾e se tu vÅ¡ichni straÅ¡nÄ› snaÅ¾Ã­, aby se k tobÄ› chovali fÃ©rovÄ›.}
+		lookStr {Rád tu pracuješ, protoe se tu všichni strašnì snaí, aby se k tobì chovali férovì.}
 	)
 )
 
@@ -426,7 +426,7 @@
 		nsRight 57
 		description {budovy}
 		sightAngle 40
-		lookStr {ZajÃ­malo by tÄ›, kolik disko veÄÃ­rkÅ¯ se konÃ¡ v tÄ›ch kancelÃ¡Å™skÃ½ch budovÃ¡ch tamhle!}
+		lookStr {Zajímalo by tì, kolik disko veèírkù se koná v tìch kanceláøskıch budovách tamhle!}
 	)
 )
 
@@ -440,7 +440,7 @@
 		nsRight 319
 		description {budovy}
 		sightAngle 40
-		lookStr {ZajÃ­malo by tÄ›, kolik disko veÄÃ­rkÅ¯ se konÃ¡ v tÄ›ch kancelÃ¡Å™skÃ½ch budovÃ¡ch tamhle!}
+		lookStr {Zajímalo by tì, kolik disko veèírkù se koná v tìch kanceláøskıch budovách tamhle!}
 	)
 )
 
@@ -454,7 +454,7 @@
 		nsRight 129
 		description {okna}
 		sightAngle 40
-		lookStr {Ty prostÄ› milujeÅ¡ Å¡mÃ­rovÃ¡nÃ­, viÄ?}
+		lookStr {Ty prostì miluješ šmírování, viï?}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -481,7 +481,7 @@
 		nsRight 260
 		description {okna}
 		sightAngle 40
-		lookStr {Ty prostÄ› milujeÅ¡ Å¡mÃ­rovÃ¡nÃ­, viÄ?}
+		lookStr {Ty prostì miluješ šmírování, viï?}
 	)
 	
 	(method (doVerb theVerb param2)
