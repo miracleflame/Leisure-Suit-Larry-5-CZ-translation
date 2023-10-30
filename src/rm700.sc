@@ -26,7 +26,7 @@
 )
 (instance rm700 of LLRoom
 	(properties
-		lookStr {Tramp's Casino is a perfect example of the style of architecture exemplified by Frank Lloyd Wrong.}
+		lookStr {Trampovo kasino je dokonalým pøíkladem architektonického stylu, jehož pøíkladem je Frank Lloyd Wrong.}
 		picture 700
 		north 710
 		east 760
@@ -321,13 +321,13 @@
 						700
 						0
 						81
-						{Save}
+						{Uložit}
 						1
 						81
-						{Nah, Why Bother?}
+						{Ne, proè se obtìžovat?}
 						0
 						80
-						{AL says}
+						{AL øíká}
 						67
 						-1
 						20
@@ -485,7 +485,7 @@ code_0cb0:
 			lea      @temp2
 			push    
 			pushi    6
-			lofsa    {"Please enter a number less than 10000, ok?"}
+			lofsa    {"Zadejte prosím èíslo menší než 10000, ano?"}
 			push    
 			pushi    80
 			lofsa    {Cheri}
@@ -618,8 +618,8 @@ code_0db6:
 
 (instance bird of Actor
 	(properties
-		description {the seagull}
-		lookStr {A lonely seagull flies back and forth, searching for a likely target--you!}
+		description {racek}
+		lookStr {Osamìlý racek létá sem a tam a hledá vhodný cíl - tebe!}
 		yStep 5
 		view 700
 		loop 8
@@ -645,10 +645,10 @@ code_0db6:
 	(properties
 		x 93
 		y 180
-		description {the limousine}
+		description {limuzína}
 		approachX 80
 		approachY 175
-		lookStr {Your limousine has returned. Or, perhaps, one suspiciously like it!}
+		lookStr {Tvá limuzína se vrátila. Nebo možná nìjaká jí nápadnì podobná!}
 		view 700
 		signal $4800
 	)
@@ -658,11 +658,11 @@ code_0db6:
 	(properties
 		x 118
 		y 155
-		description {the front door of Tramp's Casino}
+		description {pøední dveøe Trampova kasina}
 		sightAngle 40
 		approachX 120
 		approachY 157
-		lookStr {A small bronze plaque over the door reads, "Through these doors pass the greatest people in the world--OUR SUCKERS!"}
+		lookStr {Nad dveømi je malá bronzová deska s nápisem: "Tìmito dveømi prochází ti nejlepší lidé na svìtì - NAŠI CUCÁCI!"}
 		view 251
 		cycleSpeed 10
 		entranceTo 710
@@ -679,11 +679,11 @@ code_0db6:
 	(properties
 		x 141
 		y 162
-		description {Brewster}
+		description {Pivovarník}
 		sightAngle 40
 		approachX 133
 		approachY 165
-		lookStr {Tramp's Casino thoughtfully provides a doorman to satisfy your every travel need--as long as all you need is for him to summon you a limousine!}
+		lookStr {Trampovo kasino promyšlenì poskytuje vrátného, který uspokojí každou vaši cestovní potøebu - pokud ovšem potøebujete, aby vám pøivolal limuzínu!}
 		view 703
 		loop 1
 		signal $4000
@@ -713,13 +713,13 @@ code_0db6:
 				700
 				14
 				81
-				{No, thank you}
+				{Ne, dìkuji}
 				0
 				81
-				{Yes, please}
+				{Ano, prosím}
 				1
 				80
-				{Your Friendly Doorman}
+				{Tvùj pøátelský vrátný}
 			)
 			(proc0_2)
 			(proc0_18 gLarry 700 15)
@@ -736,11 +736,11 @@ code_0db6:
 	(properties
 		x 96
 		y 162
-		description {the casino greeter}
+		description {vstøícný pracovník kasina}
 		sightAngle 40
 		approachX 103
 		approachY 164
-		lookStr {Tramp's Casino employs a beautiful young woman to greet all its distinguished visitors.}
+		lookStr {Trampovo kasino zamìstnává krásnou mladou ženu, která vítá všechny jeho vzácné návštìvníky.}
 		view 702
 		signal $4000
 	)
@@ -775,8 +775,8 @@ code_0db6:
 	(properties
 		x 120
 		y 100
-		description {the Tramp sign}
-		lookStr {It says you're in front of Tramp's Casino.}
+		description {Cedule Tramp}
+		lookStr {Píše se na ní, že jste pøed Trampovým kasinem.}
 		view 700
 		loop 1
 		signal $4000
@@ -794,8 +794,8 @@ code_0db6:
 	(properties
 		x 74
 		y 38
-		description {the slot machine sign}
-		lookStr {You presume there must be some form of mechanized gambling within.}
+		description {cedule hracích automatù}
+		lookStr {Pøedpokládáš, že uvnitø musí být nìjaká forma mechanizovaného hazardu.}
 		view 700
 		loop 4
 		signal $4000
@@ -813,8 +813,8 @@ code_0db6:
 	(properties
 		x 67
 		y 123
-		description {the light}
-		lookStr {Ain't neon grand!}
+		description {svìtlo}
+		lookStr {Není neon parádní!}
 		view 700
 		loop 2
 		signal $4000
@@ -832,8 +832,8 @@ code_0db6:
 	(properties
 		x 173
 		y 124
-		description {the light}
-		lookStr {Ain't neon grand!}
+		description {svìtlo}
+		lookStr {Není neon parádní!}
 		view 700
 		loop 3
 		cel 1
@@ -852,7 +852,7 @@ code_0db6:
 	(properties
 		x 43
 		y 41
-		description {the neon nipples}
+		description {neonové bradavky}
 		view 700
 		loop 6
 		signal $4000
@@ -893,7 +893,7 @@ code_0db6:
 	(properties
 		x 220
 		y 68
-		description {the neon nipples}
+		description {neonové bradavky}
 		view 700
 		loop 5
 		cel 1
@@ -916,7 +916,7 @@ code_0db6:
 	(properties
 		x 159
 		y 27
-		description {the neon nipples}
+		description {neonové bradavky}
 		view 700
 		loop 12
 		cel 2
@@ -939,7 +939,7 @@ code_0db6:
 	(properties
 		x 99
 		y 51
-		description {the slot machine sign}
+		description {cedule hracích automatù}
 		view 700
 		loop 14
 		signal $4000
@@ -973,7 +973,7 @@ code_0db6:
 	(properties
 		x 110
 		y 51
-		description {the slot machine sign}
+		description {cedule hracích automatù}
 		view 700
 		loop 14
 		signal $4000
@@ -989,7 +989,7 @@ code_0db6:
 	(properties
 		x 122
 		y 51
-		description {the slot machine sign}
+		description {cedule hracích automatù}
 		view 700
 		loop 14
 		cel 3
@@ -1006,8 +1006,8 @@ code_0db6:
 	(properties
 		x 52
 		z -56
-		description {the neon sign}
-		lookStr {How you love gaudy things!}
+		description {neonový nápis}
+		lookStr {Jak milujete køiklavé vìci!}
 		view 700
 		loop 9
 		signal $4000
@@ -1025,8 +1025,8 @@ code_0db6:
 	(properties
 		x 195
 		z -70
-		description {the neon sign}
-		lookStr {How you love gaudy things!}
+		description {neonový nápis}
+		lookStr {Jak milujete køiklavé vìci!}
 		view 700
 		loop 10
 		signal $4000
@@ -1044,8 +1044,8 @@ code_0db6:
 	(properties
 		x 125
 		y 38
-		description {the neon sign}
-		lookStr {How you love gaudy things!}
+		description {neonový nápis}
+		lookStr {Jak milujete køiklavé vìci!}
 		view 700
 		loop 11
 		signal $4000
@@ -1063,8 +1063,9 @@ code_0db6:
 	(properties
 		x 121
 		y 115
-		description {the dollar sign}
-		lookStr {The implication here is that a fella could win some money inside this place!}
+		description {znak dolaru}
+{Tady je naznaèeno, že by tu èlovìk mohl vyhrát nìjaké peníze!}
+		lookStr {stánek s hamburgery}
 		view 700
 		loop 13
 		signal $4000
@@ -1086,9 +1087,9 @@ code_0db6:
 		nsLeft 241
 		nsBottom 149
 		nsRight 319
-		description {the burger stand}
+		description {To je vzrušující! Na Trampovì promenádì je restaurace, kde se podává mrtvá kráva!}
 		sightAngle 40
-		lookStr {How exciting! There's a restaurant along the Tramp Boardwalk that serves dead cow!}
+		lookStr {na promenádì}
 	)
 	
 	(method (init)
@@ -1114,9 +1115,9 @@ code_0db6:
 		nsLeft 241
 		nsBottom 173
 		nsRight 319
-		description {the boardwalk}
+		description {Promenáda vede na východ a táhne se témìø kam až oko dohlédne.}
 		sightAngle 40
-		lookStr {The boardwalk leads off to the east, stretching nearly as far as the eye can see.}
+		lookStr {pláž}
 	)
 )
 
@@ -1128,9 +1129,9 @@ code_0db6:
 		nsLeft 234
 		nsBottom 190
 		nsRight 320
-		description {the beach}
+		description {Ten malý pruh písku vede k prudkému srázu a pak pøímo do Atlantiku! Chceš si zaplavat?}
 		sightAngle 40
-		lookStr {That little strip of sand leads to a precipitous drop, then straight into the Atlantic! Care for a swim?}
+		lookStr {svìtla}
 	)
 )
 
@@ -1142,7 +1143,7 @@ code_0db6:
 		nsLeft 31
 		nsBottom 42
 		nsRight 53
-		description {the lights}
+		description {svìtla}
 		sightAngle 40
 	)
 	
@@ -1159,7 +1160,7 @@ code_0db6:
 		nsLeft 148
 		nsBottom 29
 		nsRight 165
-		description {the lights}
+		description {zadní èást}
 		sightAngle 40
 	)
 	
@@ -1176,7 +1177,7 @@ code_0db6:
 		nsLeft 205
 		nsBottom 72
 		nsRight 224
-		description {the rear}
+		description {zadní èást}
 		sightAngle 40
 	)
 	
@@ -1193,9 +1194,9 @@ code_0db6:
 		nsLeft 26
 		nsBottom 70
 		nsRight 43
-		description {the rear}
+		description {Tìsné prdelky tì pøivádìjí k šílenství!}
 		sightAngle 40
-		lookStr {Tight butts drive you nuts!}
+		lookStr {zadní èást}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1232,7 +1233,7 @@ code_0db6:
 		nsLeft 204
 		nsBottom 95
 		nsRight 223
-		description {the rear}
+		description {dívka na ceduli}
 		sightAngle 40
 	)
 	
@@ -1249,9 +1250,9 @@ code_0db6:
 		nsLeft 8
 		nsBottom 88
 		nsRight 61
-		description {the girl on the sign}
+		description {Jistì, je jen z pøekližky, ale nejsou na ní skvìlá svìtla?}
 		sightAngle 40
-		lookStr {Sure she's only made of plywood, but doesn't she have a great set of lights?}
+		lookStr {dívka}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1272,9 +1273,9 @@ code_0db6:
 		nsLeft 92
 		nsBottom 28
 		nsRight 185
-		description {the girl}
+		description {Je v jedné z tvých oblíbených pozic... pro ceduli!}
 		sightAngle 40
-		lookStr {She's in one of your favorite positions... for a sign!}
+		lookStr {dívka}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1296,9 +1297,9 @@ code_0db6:
 		nsLeft 180
 		nsBottom 105
 		nsRight 232
-		description {the girl}
+		description {A vy jste se tak báli, že jste za tuhle hru vyhodili peníze!}
 		sightAngle 40
-		lookStr {And you were so afraid you were wasting your money buying this game!}
+		lookStr {znaèka Tramp}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1407,9 +1408,9 @@ code_0db6:
 		nsLeft 88
 		nsBottom 97
 		nsRight 154
-		description {the Tramp sign}
+		description {Píše se tu, že jste pøed Trampovým kasinem.}
 		sightAngle 40
-		lookStr {It says you're in front of Tramp's Casino.}
+		lookStr {svìtlo}
 	)
 )
 
@@ -1422,9 +1423,9 @@ code_0db6:
 		nsLeft 62
 		nsBottom 117
 		nsRight 75
-		description {the light}
+		description {Není neon parádní!}
 		sightAngle 40
-		lookStr {Ain't neon grand!}
+		lookStr {svìtlo}
 	)
 )
 
@@ -1437,9 +1438,9 @@ code_0db6:
 		nsLeft 162
 		nsBottom 118
 		nsRight 182
-		description {the light}
+		description {Není neon parádní!}
 		sightAngle 40
-		lookStr {Ain't neon grand!}
+		lookStr {nápis na automatech}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1460,9 +1461,9 @@ code_0db6:
 		nsLeft 53
 		nsBottom 78
 		nsRight 71
-		description {the slot sign}
+		description {Pøedpokládáte, že uvnitø musí být nìjaká forma mechanizovaného hazardu.}
 		sightAngle 40
-		lookStr {You presume there must be some form of mechanized gambling within.}
+		lookStr {neonový nápis}
 	)
 )
 
@@ -1475,9 +1476,9 @@ code_0db6:
 		nsLeft 4
 		nsBottom 28
 		nsRight 53
-		description {the neon sign}
+		description {Jak miluješ køiklavé vìci!}
 		sightAngle 40
-		lookStr {How you love gaudy things!}
+		lookStr {neonový nápis}
 	)
 )
 
@@ -1489,9 +1490,9 @@ code_0db6:
 		nsLeft 185
 		nsBottom 41
 		nsRight 228
-		description {the neon sign}
+		description {Jak milujete køiklavé vìci!}
 		sightAngle 40
-		lookStr {How you love gaudy things!}
+		lookStr {neonový nápis}
 	)
 )
 
@@ -1504,9 +1505,9 @@ code_0db6:
 		nsLeft 110
 		nsBottom 40
 		nsRight 139
-		description {the neon sign}
+		description {Jak milujete køiklavé vìci!}
 		sightAngle 40
-		lookStr {How you love gaudy things!}
+		lookStr {znak dolaru}
 	)
 )
 
@@ -1519,9 +1520,9 @@ code_0db6:
 		nsLeft 90
 		nsBottom 116
 		nsRight 158
-		description {the dollar sign}
+		description {Tady je naznaèeno, že by tu èlovìk mohl vyhrát nìjaké peníze!}
 		sightAngle 40
-		lookStr {The implication here is that a fella could win some money inside this place!}
+		lookStr 
 	)
 	
 	(method (doVerb theVerb param2)

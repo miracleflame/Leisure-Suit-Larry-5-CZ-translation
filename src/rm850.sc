@@ -22,7 +22,7 @@
 )
 (instance rm850 of LLRoom
 	(properties
-		lookStr {John Krapper's bathroom lives up to expectations. Gold fixtures are scattered everywhere. There are even a pair of gold statuettes on either side of the "crapper."}
+		lookStr {Koupelna Johna Krappera naplòuje oèekávání. Všude jsou rozesety zlaté armatury. Po obou stranách "hajzlu" je dokonce pár zlatých sošek.}
 		picture 850
 		east 840
 	)
@@ -142,11 +142,11 @@
 	(properties
 		x 25
 		y 144
-		description {the shower}
+		description {sprcha}
 		sightAngle 40
 		approachX 73
 		approachY 139
-		lookStr {What appears to be a lovely glass shower rests against the wall.}
+		lookStr {Zøejmì pùvabná sklenìná sprcha se opírá o stìnu.}
 		view 850
 		priority 8
 		signal $4010
@@ -173,11 +173,11 @@
 	(properties
 		x 26
 		y 144
-		description {the shower}
+		description {sprcha}
 		sightAngle 40
 		approachX 73
 		approachY 139
-		lookStr {Why, look! A lovely glass shower stands against the wall.}
+		lookStr {Podívej! U stìny stojí krásná sklenìná sprcha.}
 		view 850
 		cel 1
 	)
@@ -191,10 +191,10 @@
 	(properties
 		x 298
 		y 136
-		description {the office door}
+		description {dveøe do kanceláøe}
 		approachX 264
 		approachY 136
-		lookStr {This door leads back to John Krapper's office.}
+		lookStr {Tyto dveøe vedou zpìt do kanceláøe Johna Krappera.}
 		view 850
 		loop 1
 		priority 10
@@ -228,7 +228,7 @@
 	(properties
 		x 26
 		y 144
-		description {the shower}
+		description {sprcha}
 		approachX 73
 		approachY 139
 		view 850
@@ -248,11 +248,11 @@
 		nsLeft 134
 		nsBottom 189
 		nsRight 177
-		description {Krapper's crapper}
+		description {Krapperùv záchod}
 		sightAngle 40
 		approachX 161
 		approachY 180
-		lookStr {Made of hand-carved, gold-flecked marble with a gold-plated handle and ermine-covered seat, it's obvious to you this guy really knows his "K-RAP!"}
+		lookStr {Vyroben z ruènì vytesaného, zlatì skvrnitého mramoru s pozlacenou rukojetí a sedátkem potaženým kožichem jezevce, je vám jasné, že tenhle chlapík se opravdu vyzná v "K-RAPu!" }
 	)
 	
 	(method (doVerb theVerb param2)
@@ -289,9 +289,10 @@
 		nsLeft 78
 		nsBottom 114
 		nsRight 219
-		description {the window}
+		description 
+{okno}
 		sightAngle 40
-		lookStr {A giant plate-glass window looks out over the lovely glow of downtown Philadelphia at night.}
+		lookStr {Obrovské okno z tabulového skla shlíží na krásnou záøi noèního centra Filadelfie.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -311,9 +312,9 @@
 		nsLeft 59
 		nsBottom 111
 		nsRight 78
-		description {the curtains}
+		description {závìsy}
 		sightAngle 40
-		lookStr {These curtains are only for show; they do not close.}
+		lookStr {Tyto závìsy jsou jen na parádu, nezavírají se.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -333,9 +334,9 @@
 		nsLeft 221
 		nsBottom 112
 		nsRight 242
-		description {the curtains}
+		description {závìsy}
 		sightAngle 40
-		lookStr {These curtains are only for show; they do not close.}
+		lookStr {Tyto záclony jsou jen pro parádu, nezavírají se.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -355,7 +356,7 @@
 		nsLeft 91
 		nsBottom 125
 		nsRight 143
-		description {the left sink}
+		description {levé umyvadlo}
 		sightAngle 40
 	)
 	
@@ -384,7 +385,7 @@
 		nsLeft 176
 		nsBottom 124
 		nsRight 233
-		description {the right sink}
+		description {pravé umyvadlo}
 		sightAngle 40
 	)
 	
@@ -411,9 +412,9 @@
 		nsLeft 91
 		nsBottom 25
 		nsRight 219
-		description {the skylight}
+		description {støešní okno}
 		sightAngle 40
-		lookStr {The ceiling of John Krapper's bathroom is crowned by a lovely skylight.}
+		lookStr {Strop koupelny Johna Krappera je korunován krásným støešním oknem.}
 	)
 )
 
@@ -425,8 +426,8 @@
 		nsLeft 107
 		nsBottom 163
 		nsRight 129
-		description {the statuette}
-		lookStr {This statuette was presented to K-RAP Radio for excellence in broadcasting!}
+		description {soška}
+		lookStr {Tuto sošku získalo rádio K-RAP za vynikající výsledky ve vysílání!}
 	)
 )
 
@@ -438,8 +439,8 @@
 		nsLeft 187
 		nsBottom 167
 		nsRight 207
-		description {the statuette}
-		lookStr {This statuette was presented to K-RAP Radio for excellence in broadcasting!}
+		description {soška}
+		lookStr {Tuto sošku získalo rádio K-RAP za vynikající výsledky ve vysílání!}
 	)
 )
 

@@ -240,7 +240,7 @@
 					70
 					280
 					80
-					{The P. A. System}
+					{Systém P. A.}
 					108
 					self
 				)
@@ -255,10 +255,10 @@
 			)
 			(20 (= ticks 60))
 			(21
-				(proc0_14 385 25 80 {The Stewardess} 108 self)
+				(proc0_14 385 25 80 {Letuška} 108 self)
 			)
 			(22
-				(proc0_14 385 26 80 {The Stewardess} 108 self)
+				(proc0_14 385 26 80 {Letuška} 108 self)
 			)
 			(23 (= ticks 60))
 			(24
@@ -266,7 +266,7 @@
 			)
 			(25 (= ticks 60))
 			(26
-				(proc0_14 385 28 80 {The Stewardess} 108 self)
+				(proc0_14 385 28 80 {Letuška} 108 self)
 			)
 			(27 (global2 newRoom: 390))
 		)

@@ -1,4 +1,4 @@
-(kohoutek)
+{kohoutek}
 {Kohoutek kap-, kap-, kape, pøesnì v rytmu hudby, která hraje!}
 {plakát šastného zubu}
 {Pokud bys dodroval pravidelnı plán ústní hygieny s Chi Chi Lambada, tvé zuby by byly také šastné!}

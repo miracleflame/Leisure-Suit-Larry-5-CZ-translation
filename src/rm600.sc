@@ -20,7 +20,7 @@
 
 (instance rm600 of LLRoom
 	(properties
-		lookStr {The Shill Building is one of Baltimore's finest office buildings. Its granite, brass and stainless steel facade shines in the sunlight. A revolving door promises access to its interior.}
+		lookStr {Budova Shill je jednou z nejlepších kanceláøských budov v Baltimoru. Její žulová, mosazná a nerezová fasáda záøí ve sluneèním svìtle. Pøístup do jejího interiéru slibují otoèné dveøe.}
 		north 620
 		south 200
 	)
@@ -217,13 +217,13 @@
 						600
 						2
 						81
-						{Save}
+						{Uložit}
 						1
 						81
-						{Nah, Why Bother?}
+						{Ne, proè se obtìžovat?}
 						0
 						80
-						{AL says}
+						{AL øíká}
 						67
 						-1
 						20
@@ -272,8 +272,8 @@
 	(properties
 		x 98
 		y 161
-		description {the flag}
-		lookStr {The Shill Building's management is so patriotic!}
+		description {vlajka}
+		lookStr {Vedení budovy Shill je tak vlastenecké!}
 		view 610
 	)
 )
@@ -282,8 +282,8 @@
 	(properties
 		x 220
 		y 159
-		description {the flag}
-		lookStr {The Shill Building's management is so patriotic!}
+		description {vlajka}
+		lookStr {Vedení budovy Shill je tak vlastenecké!}
 		view 610
 		loop 1
 	)
@@ -293,10 +293,10 @@
 	(properties
 		x 163
 		y 178
-		description {the revolving door}
+		description {otoèné dveøe}
 		approachX 172
 		approachY 179
-		lookStr {This revolving door is a highlight of the entrance to the Shill building.}
+		lookStr {Tyto otoèné dveøe jsou ozdobou vchodu do budovy Shill.}
 		view 610
 		loop 4
 		entranceTo 620
@@ -351,10 +351,10 @@
 		nsLeft 53
 		nsBottom 183
 		nsRight 166
-		description {the limousine}
+		description {limuzína}
 		approachX 119
 		approachY 180
-		lookStr {Your limousine waits for your return. Inside, your driver is still smarting from your arrival! You feel sure he has learned his lesson.}
+		lookStr {Tvá limuzína èeká na tvùj návrat. Uvnitø je tvùj øidiè stále ještì rozrušený z tvého pøíjezdu! Jsi si jistý, že se pouèil.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -377,8 +377,8 @@
 		nsLeft 1
 		nsBottom 189
 		nsRight 41
-		description {the fire hydrant}
-		lookStr {How do dogs spell relief? "H-Y-D-R-A-N-T"}
+		description {požární hydrant}
+		lookStr {Jak psi hláskují úlevu? "H-Y-D-R-A-N-T"}
 	)
 )
 
@@ -390,8 +390,8 @@
 		nsLeft 225
 		nsBottom 189
 		nsRight 319
-		description {the car}
-		lookStr {You wonder which Shill Building office drone drives such a junky car?}
+		description {auto}
+		lookStr {Zajímalo by tì, který trouba z kanceláøe budovy Shill jezdí takovým šrotem?}
 	)
 )
 
@@ -403,9 +403,9 @@
 		nsLeft 121
 		nsBottom 138
 		nsRight 199
-		description {the Shill sign}
+		description {znaèka Shill}
 		sightAngle 40
-		lookStr {Patti, it says "SHILL."}
+		lookStr {Patti, je na ní napsáno "SHILL".}
 	)
 )
 
@@ -418,8 +418,8 @@
 		nsLeft 160
 		nsBottom 82
 		nsRight 190
-		description {the reflection}
+		description {odraz}
 		sightAngle 40
-		lookStr {Don't stare at the sun, Patti! You'll go blind!}
+		lookStr {Nezírej do slunce, Patti! Oslepneš!}
 	)
 )

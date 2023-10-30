@@ -185,9 +185,9 @@
 		nsLeft 20
 		nsBottom 141
 		nsRight 70
-		description {the palm trees}
+		description {palmy}
 		sightAngle 40
-		lookStr {Miami is filled with exotic palm trees just like these.}
+		lookStr {Miami je plné exotickıch palem, jako jsou tyto.}
 	)
 )
 
@@ -199,7 +199,7 @@
 		nsLeft 140
 		nsBottom 150
 		nsRight 185
-		description {the gymnastics studio}
+		description {gymnastické studio}
 		sightAngle 40
 		approachX 165
 		approachY 162
@@ -224,9 +224,9 @@
 		nsLeft 135
 		nsBottom 61
 		nsRight 225
-		description {the sign}
+		description {nápis}
 		sightAngle 40
-		lookStr {The sign reads, "Doc Pulliam's Dental Hygiene Heaven."}
+		lookStr {Nápis zní: "Ráj dentální hygieny doktora Pulliama."}
 	)
 )
 
@@ -238,7 +238,7 @@
 		nsLeft 195
 		nsBottom 161
 		nsRight 235
-		description {the gymnastics studio door}
+		description {dveøe gymnastického studia}
 		sightAngle 40
 		approachX 214
 		approachY 163
@@ -260,11 +260,11 @@
 		x 114
 		y 104
 		z -10
-		description {the dentist's office door}
+		description {dveøe zubaøské ordinace}
 		sightAngle 40
 		approachX 128
 		approachY 116
-		lookStr {The door leading to Doc Pulliam's Dental Hygiene Heaven is unlocked.}
+		lookStr {Dveøe vedoucí do Ráje dentální hygieny doktora Pulliama jsou odemèené.}
 		view 900
 		loop 1
 		priority 1
@@ -285,9 +285,9 @@
 		nsLeft 65
 		nsBottom 162
 		nsRight 239
-		description {the building}
+		description {budova}
 		sightAngle 40
-		lookStr {You are outside the building where Chi Chi Lambada is employed: "Doc Pulliam's Dental Hygiene Heaven." Immediately below it is a closed gymnastics studio, "The Gym-Dandy Gymnastics Center."}
+		lookStr {Jste pøed budovou, kde je zamìstnána Chi Chi Lambada: "Ráj dentální hygieny doktora Pulliama." Hned pod ní je zavøené gymnastické studio: "Gymnastické centrum Gym-Dandy".}
 	)
 )
 
@@ -298,9 +298,9 @@
 		nsTop 162
 		nsBottom 178
 		nsRight 319
-		description {the sidewalk}
+		description {chodník}
 		sightAngle 40
-		lookStr {Carefully inspecting the sidewalk, you conclude Doc Pulliam doesn't spend much on filling cavities out here!}
+		lookStr {Pozornì si chodník prohlííš a docházíš k závìru, e doktor Pulliam tady moc neutrácí za plombování kazù!}
 	)
 )
 
@@ -311,10 +311,10 @@
 		nsTop 139
 		nsBottom 166
 		nsRight 308
-		description {the fence}
+		description {zeï}
 		sightAngle 40
 		onMeCheck $0004
-		lookStr {A stone wall decorates an otherwise perfunctory building.}
+		lookStr {Kamenná zeï zdobí jinak zanedbanou budovu.}
 	)
 )
 
@@ -326,9 +326,9 @@
 		nsLeft 145
 		nsBottom 129
 		nsRight 230
-		description {the gymnastic studio sign}
+		description {nápis gymnastického studia}
 		sightAngle 40
-		lookStr {The sign says, "Gym-Dandy Gymnastics Center."}
+		lookStr {Nápis zní: "Gymnastické centrum Gym-Dandy".}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -350,11 +350,11 @@
 		nsLeft 145
 		nsBottom 102
 		nsRight 225
-		description {the window}
+		description {okno}
 		sightAngle 40
 		approachX 167
 		approachY 115
-		lookStr {You don't need to peek in those windows!}
+		lookStr {Není tøeba nahlíet do tìch oken!}
 	)
 )
 
@@ -367,11 +367,11 @@
 		nsLeft 89
 		nsBottom 100
 		nsRight 106
-		description {the window}
+		description {okno}
 		sightAngle 40
 		approachX 95
 		approachY 119
-		lookStr {You don't need to peek in those windows!}
+		lookStr {Není tøeba nahlíet do tìch oken!}
 	)
 )
 
@@ -384,10 +384,10 @@
 		nsLeft 70
 		nsBottom 158
 		nsRight 135
-		description {the stairway}
+		description {schodištì}
 		sightAngle 40
 		onMeCheck $0008
-		lookStr {A flight of stairs leads up to Doc Pulliam's office.}
+		lookStr {Schodištì vede do ordinace doktora Pulliama.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -414,8 +414,8 @@
 		nsLeft 101
 		nsBottom 64
 		nsRight 129
-		description {the revolving tooth}
-		lookStr {Take the Ventura Freeway to the Fontainebleau Freeway to the Eisenhower Turnpike to the Slaussen Cutoff. Get out of your car and cut off your slaussen. Get back in your car and continue on until you reach the Beach Front Highway. Take the Beach Front Highway to 22nd Street Southwest and stop when you come to the giant revolving tooth! You're there! Doc Pulliam's Dental Hygiene Heaven!}
+		description {otáèecí zub}
+		lookStr {Jdìte po dálnici Ventura na dálnici Fontainebleau a ze silnici Eisenhower na vıpadovku Slaussen. Vystupte z auta a uøíznìte si šlajsnu. Vrate se do auta a pokraèujte dál, dokud nedojedete na dálnici Beach Front. Po dálnici Beach Front jeïte na 22. ulici Southwest a zastavte, a pøijedete k obøímu otáèecímu zubu! Jste na místì! Ráj dentální hygieny doktora Pulliama!}
 		view 900
 		loop 2
 		signal $6810
@@ -426,10 +426,10 @@
 	(properties
 		x 65
 		y 179
-		description {the limousine}
+		description {limuzína}
 		approachX 81
 		approachY 167
-		lookStr {It's your limousine, awaiting your entrance.}
+		lookStr {To je tvá limuzína, která èeká na tvùj nástup.}
 		view 900
 		priority 14
 		signal $4810
@@ -454,10 +454,10 @@
 		y 81
 		nsBottom 162
 		nsRight 319
-		description {the building}
+		description {budova}
 		sightAngle 40
 		onMeCheck $0002
-		lookStr {There are many buildings in a city as large as Miami.}
+		lookStr {V tak velkém mìstì, jako je Miami, je mnoho budov.}
 	)
 )
 
@@ -503,13 +503,13 @@
 						900
 						9
 						81
-						{Save}
+						{Uloit}
 						1
 						81
-						{Nah, Why Bother?}
+						{Ne, proè se obtìovat?}
 						0
 						80
-						{AL says}
+						{AL øíká}
 						67
 						-1
 						20
@@ -576,11 +576,11 @@
 		nsLeft 112
 		nsBottom 117
 		nsRight 139
-		description {the dentist's office door}
+		description {dveøe zubaøovy ordinace}
 		sightAngle 40
 		approachX 128
 		approachY 116
-		lookStr {The door leading to Doc Pulliam's Dental Hygiene Heaven is unlocked.}
+		lookStr {Dveøe vedoucí do Ráje dentální hygieny doktora Pulliama jsou odemèené.}
 	)
 	
 	(method (doVerb)

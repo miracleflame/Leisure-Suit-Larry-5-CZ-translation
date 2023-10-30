@@ -16,7 +16,7 @@
 
 (instance rm780 of LLRoom
 	(properties
-		lookStr {Now you've done it! You're swimming along under the beautiful Tramp Boardwalk, having a wonderful time. The question is: how far from shore are you?}
+		lookStr {Teï jste to dokázali! Plavete pod krásnou Trampovou promenádou a bájeènì se bavíte. Otázka zní: jak daleko od bøehu jste?}
 		picture 780
 		north 760
 		west 700
@@ -163,9 +163,9 @@
 		z 171
 		nsBottom 11
 		nsRight 319
-		description {the sky}
+		description {obloha}
 		sightAngle 40
-		lookStr {Looking at the sky, you remember a better time, just a few minutes ago in fact, when you were much closer to the sky than you are right now.}
+		lookStr {Pøi pohledu na oblohu si vzpomeneš na lepší èasy, vlastnì jen pøed nìkolika minutami, kdy jsi byl mnohem blíž obloze než teï.}
 	)
 )
 
@@ -177,9 +177,9 @@
 		nsTop 12
 		nsBottom 96
 		nsRight 319
-		description {the boardwalk}
+		description {promenáda}
 		sightAngle 40
-		lookStr {You have a strange sensation--almost like you're looking up someone's skirt!}
+		lookStr {Máš zvláštní pocit - skoro jako bys nìkomu koukal pod sukni!}
 	)
 )
 
@@ -191,9 +191,9 @@
 		nsLeft 26
 		nsBottom 173
 		nsRight 62
-		description {the post}
+		description {sloupek}
 		sightAngle 40
-		lookStr {These posts look much taller than they did from above.}
+		lookStr {Tyto sloupy vypadají mnohem vyšší než shora.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -214,7 +214,7 @@
 		nsLeft 104
 		nsBottom 175
 		nsRight 132
-		description {the post}
+		description {sloup}
 		sightAngle 40
 	)
 	
@@ -231,7 +231,7 @@
 		nsLeft 190
 		nsBottom 177
 		nsRight 216
-		description {the post}
+		description {sloup}
 		sightAngle 40
 	)
 	
@@ -248,7 +248,7 @@
 		nsLeft 287
 		nsBottom 179
 		nsRight 319
-		description {the post}
+		description {sloup}
 		sightAngle 40
 	)
 	

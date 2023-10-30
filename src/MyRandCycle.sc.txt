@@ -4,7 +4,7 @@
 {kazeák}
 {vıtah}
 {Tímto vıtahem jste pøijeli.}
-{Reverzní Biaz}
+{Reverse Biaz}
 {gramofon}
 {zlatá deska}
 {jehla}

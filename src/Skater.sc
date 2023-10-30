@@ -43,7 +43,7 @@
 )
 (instance rm760 of LLRoom
 	(properties
-		lookStr {The commercialization of the lovely Tramp Boardwalk seems complete. Businesses line every inch of the far side of the boardwalk. At least the near side has been kept open for fishermen and skaters.}
+		lookStr {Komercializace krásné Trampové promenády se zdá bıt dokonèena. Podniky lemují kadı centimetr vzdálené strany promenády. Alespoò bliší strana zùstala otevøená pro rybáøe a bruslaøe.}
 		picture 760
 		north 790
 		east 760
@@ -486,7 +486,7 @@
 (instance lana of Skater
 	(properties
 		y 145
-		description {Lana Luscious}
+		description {Lana Slièná}
 		view 769
 		cycleSpeed 10
 		xStep 6
@@ -587,7 +587,7 @@
 	(properties
 		y 140
 		description {Mister Z}
-		lookStr {Isn't he the cute one?}
+		lookStr {No není jen roztomilı?}
 		view 771
 		xStep 8
 		room 3
@@ -612,8 +612,8 @@
 (instance skater2 of Skater
 	(properties
 		y 121
-		description {the old man}
-		lookStr {He's a little old for a rollerskater, eh?}
+		description {starı mu}
+		lookStr {Na bruslaøe je trochu starı, co?}
 		view 772
 		xStep 8
 		room 3
@@ -639,8 +639,8 @@
 	(properties
 		y 118
 		z 10
-		description {Hot Wheels}
-		lookStr {This kid's a real showoff!}
+		description {Horká Kola}
+		lookStr {Ten kluk se opravdu pøedvádí!}
 		view 773
 		xStep 8
 		room 1
@@ -666,7 +666,7 @@
 	(properties
 		y 116
 		description {Rockin' Roller}
-		lookStr {What's he listening to, anyway?}
+		lookStr {Co to vlastnì poslouchá?}
 		view 774
 		xStep 6
 		room 2
@@ -691,8 +691,8 @@
 (instance skater5 of Skater
 	(properties
 		y 142
-		description {Roller Pig}
-		lookStr {What talent! He can eat AND skate at the same time!}
+		description {Roller Prase}
+		lookStr {To je ale talent! Umí jíst a zároveò bruslit!}
 		view 775
 		xStep 8
 		room 2
@@ -717,8 +717,8 @@
 (instance skater6 of Skater
 	(properties
 		y 117
-		description {Bill the Suit}
-		lookStr {He's way overdressed for THIS boardwalk!}
+		description {Kravaák Bill}
+		lookStr {Na tuhle promenádu je a moc obleèenı!}
 		view 776
 		xStep 6
 		room 2
@@ -743,8 +743,8 @@
 (instance skater7 of Skater
 	(properties
 		y 131
-		description {Kid Dork}
-		lookStr {What a dorky lookin' little guy! You immediately take a liking to him!}
+		description {Dìcko Blb}
+		lookStr {Jakı to pøitroublı kluèina! Okamitì si ho oblíbíš!}
 		view 777
 		xStep 8
 		room 2
@@ -769,8 +769,8 @@
 (instance skater8 of Skater
 	(properties
 		y 110
-		description {the skater}
-		lookStr {You had no idea the boardwalk would have so many skaters!}
+		description {bruslaø}
+		lookStr {Nemìl jsi tušení, e na promenádì bude tolik bruslaøù!}
 		view 778
 		xStep 6
 		room 2
@@ -795,8 +795,8 @@
 (instance skater9 of Skater
 	(properties
 		y 91
-		description {the skater}
-		lookStr {Never straying far from the shops on the other side of the Boardwalk, a skater finds true happiness, blading his little heart out!}
+		description {bruslaø}
+		lookStr {Bruslaø, kterı se nikdy nevzdálí od obchodù na druhé stranì promenády, najde opravdové štìstí, kdy své srdíèko rozbruslí!}
 		view 779
 		xStep 6
 		room 2
@@ -847,7 +847,7 @@
 (instance theBuilding of PicView
 	(properties
 		y 80
-		description {the building}
+		description {budova}
 		view 760
 	)
 	
@@ -943,7 +943,7 @@
 		x 165
 		y 180
 		z 119
-		description {Lana's right eye}
+		description {Lanino pravé oko}
 		view 795
 	)
 	
@@ -957,7 +957,7 @@
 		x 140
 		y 180
 		z 123
-		description {Lana's left eye}
+		description {Lanino levé oko}
 		view 795
 		loop 2
 	)
@@ -972,7 +972,7 @@
 		x 149
 		y 180
 		z 108
-		description {Lana's nose}
+		description {Lanin nos}
 		view 795
 		loop 1
 		cycleSpeed 18
@@ -993,7 +993,7 @@
 		x 149
 		y 180
 		z 102
-		description {Lana's mouth}
+		description {Lanina ústa}
 		view 795
 		loop 3
 	)
@@ -1592,7 +1592,7 @@
 		y 170
 		nsBottom 189
 		nsRight 319
-		description {Lana Luscious}
+		description {Lana Slièná}
 	)
 	
 	(method (doVerb theVerb)
@@ -1627,9 +1627,9 @@
 		y 29
 		nsBottom 59
 		nsRight 319
-		description {the boardwalk buildings}
+		description {budovy na promenádì}
 		sightAngle 40
-		lookStr {The far side of the Tramp Boardwalk is lined with tawdry, tacky tourist traps. A bit of blue sky peeks through the buildings.}
+		lookStr {Zdálená strana Trampovy promenády je lemována nevkusnımi, lacinımi turistickımi pastmi. Skrz budovy vykukuje kousek modré oblohy.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1650,11 +1650,11 @@
 		nsLeft 98
 		nsBottom 151
 		nsRight 154
-		description {the bench}
+		description {lavièka}
 		sightAngle 40
 		approachX 88
 		approachY 152
-		lookStr {A long row of park benches await your sitting pleasure along the ocean side of the boardwalk.}
+		lookStr {Dlouhá øada lavièek èeká na tvé potìšení z posezení podél oceánské strany promenády.}
 	)
 	
 	(method (doVerb theVerb param2 &tmp temp0)
@@ -1694,9 +1694,9 @@
 		nsLeft 51
 		nsBottom 189
 		nsRight 72
-		description {the post}
+		description {sloupek}
 		sightAngle 40
-		lookStr {These posts hold up the boardwalk.}
+		lookStr {Tyto sloupky drí promenádu.}
 	)
 )
 
@@ -1708,9 +1708,9 @@
 		nsLeft 125
 		nsBottom 189
 		nsRight 149
-		description {the post}
+		description {sloupek}
 		sightAngle 40
-		lookStr {These posts hold up the boardwalk.}
+		lookStr {Tyto sloupky drí promenádu.}
 	)
 )
 
@@ -1722,9 +1722,9 @@
 		nsLeft 193
 		nsBottom 189
 		nsRight 221
-		description {the post}
+		description {sloupek}
 		sightAngle 40
-		lookStr {These posts hold up the boardwalk.}
+		lookStr {Tyto sloupky drí promenádu.}
 	)
 )
 
@@ -1736,8 +1736,8 @@
 		nsLeft 283
 		nsBottom 189
 		nsRight 309
-		description {the post}
+		description {sloupek}
 		sightAngle 40
-		lookStr {These posts hold up the boardwalk.}
+		lookStr {Tyto sloupky drí promenádu.}
 	)
 )

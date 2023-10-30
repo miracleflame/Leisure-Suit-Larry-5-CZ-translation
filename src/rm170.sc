@@ -23,7 +23,7 @@
 )
 (instance rm170 of LLRoom
 	(properties
-		lookStr {You are so proud of this, your humble workshop.}
+		lookStr {Jsi na to tak pyšnı, na svou skromnou dílnu.}
 		picture 170
 		east 160
 	)
@@ -263,11 +263,11 @@
 	(properties
 		x 249
 		y 181
-		description {the camcorder tapes}
+		description {záznamy z videokamery}
 		sightAngle 40
 		approachX 236
 		approachY 184
-		lookStr {You've found them! These are the tapes you need for your new Pocket Protector Camcorder.}
+		lookStr {Našel jsi je! Tohle jsou pásky, které potøebuješ do své nové videokamery Pocket Protector.}
 		view 170
 		priority 15
 		signal $4010
@@ -307,10 +307,10 @@
 		x 292
 		y 116
 		heading 135
-		description {the lobby door}
+		description {dveøe do haly}
 		approachX 240
 		approachY 117
-		lookStr {The door to the lobby seems oh, so familiar to you. Probably because you entered this room through it! Your "The Girls of Videotape Technician's Magazine" calendar hangs on the back, open to Miss October, who (in your opinion) has the best "reels" of the bunch!}
+		lookStr {Dveøe do haly ti pøipadají tak známé. Nejspíš proto, e jsi tudy vstoupil do této místnosti! Vzadu visí tvùj kalendáø "Videotechnikova dìvèata", otevøenı na stranì Miss øíjen, která má (podle tvého názoru) nejlepší "kotouèe" z celé party!}
 		view 171
 		loop 3
 		entranceTo 160
@@ -347,9 +347,9 @@
 		nsLeft 151
 		nsBottom 84
 		nsRight 173
-		description {the degausser}
+		description {demagnetizér}
 		sightAngle 40
-		lookStr {Your degausser, which you use to degauss tapes, rests on the workbench.}
+		lookStr {Tvùj demagnetizér, kterı pouíváš k pøemazání kazet, leí na pracovním stole.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -384,11 +384,11 @@
 		nsLeft 37
 		nsBottom 93
 		nsRight 68
-		description {the drawer}
+		description {šuplík}
 		sightAngle 40
 		approachX 57
 		approachY 109
-		lookStr {It looks like a closed drawer.}
+		lookStr {Vypadá jako zavøená zásuvka.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -411,11 +411,11 @@
 		nsLeft 82
 		nsBottom 93
 		nsRight 117
-		description {the drawer}
+		description {šuplík}
 		sightAngle 40
 		approachX 104
 		approachY 110
-		lookStr {It looks like a closed drawer.}
+		lookStr {Vypadá jako zavøená zásuvka.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -438,11 +438,11 @@
 		nsLeft 129
 		nsBottom 93
 		nsRight 162
-		description {the drawer}
+		description {šuplík}
 		sightAngle 40
 		approachX 151
 		approachY 110
-		lookStr {It looks like a closed drawer.}
+		lookStr {Vypadá to jako zavøená zásuvka.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -465,9 +465,9 @@
 		nsLeft 38
 		nsBottom 58
 		nsRight 159
-		description {the cabinet}
+		description {skøíòka}
 		sightAngle 40
-		lookStr {You have no idea what's inside these cabinets since you are too short to see inside.}
+		lookStr {Nemáš ponìtí, co je uvnitø tìchto skøíní, protoe jsi pøíliš malı na to, abys vidìl dovnitø.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -488,9 +488,9 @@
 		nsLeft 204
 		nsBottom 66
 		nsRight 240
-		description {your barrel of sterilizer}
+		description {tvùj barel sterilizátoru}
 		sightAngle 40
-		lookStr {This barrel contains the sterilizing solution that you use on all incoming video tapes before rewinding them and distributing them to the members of the ASHV Audition Team.}
+		lookStr {Tento barel obsahuje sterilizaèní roztok, kterı pouíváš na všechny pøíchozí videokazety pøed jejich pøevinutím a rozdìlením èlenùm konkurzního tımu ASHV.}
 	)
 	
 	(method (doVerb theVerb param2 &tmp [temp0 100])
@@ -525,9 +525,9 @@
 		nsLeft 14
 		nsBottom 82
 		nsRight 44
-		description {the video monitor}
+		description {videomonitor}
 		sightAngle 40
-		lookStr {You use this monitor every day to preview the incoming submissions, making sure they're explicit enough to pass on to the official members of the Submissions Team.}
+		lookStr {Tento monitor pouíváš kadı den k prohlíení pøíchozích nahrávek a ujišuješ se, e jsou dostateènì explicitní, abys je mohl pøedat oficiálním èlenùm tımu pro pøijímací øízení.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -572,9 +572,9 @@
 		nsLeft 133
 		nsBottom 130
 		nsRight 166
-		description {the floor drain}
+		description {podlahovı odtok}
 		sightAngle 40
-		lookStr {You often feel this is where your life is headed.}
+		lookStr {Èasto máš pocit, e právì sem smìøuje tvùj ivot.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -604,9 +604,9 @@
 		nsLeft 49
 		nsBottom 189
 		nsRight 120
-		description {the boxes}
+		description {krabice}
 		sightAngle 40
-		lookStr {You have no use for empty boxes.}
+		lookStr {Prázdné krabice ti jsou k nièemu.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -626,7 +626,7 @@
 		nsTop 151
 		nsBottom 189
 		nsRight 21
-		description {some videotapes}
+		description {nìkteré videokazety}
 		sightAngle 40
 	)
 	
@@ -748,9 +748,9 @@
 		nsLeft 8
 		nsBottom 41
 		nsRight 41
-		description {the lamp}
+		description {lampa}
 		sightAngle 40
-		lookStr {It's just hanging around here... rather like you, Larry!}
+		lookStr {Jen se tu tak poflakuje... jako ty, Larry!}
 	)
 	
 	(method (onMe)
@@ -779,9 +779,9 @@
 		nsLeft 180
 		nsBottom 85
 		nsRight 200
-		description {the fuzzy dice}
+		description {chlupaté kostky}
 		sightAngle 40
-		lookStr {Your sole attempt to decorate your work space is one-half of a pair of fuzzy dice, left over from your '74 Bug.}
+		lookStr {Tvım jedinım pokusem o vızdobu tvého pracovního prostoru je polovina páru chlupatıch kostek, které ti zbyly z tvého Brouka z roku 74.}
 	)
 )
 
@@ -789,9 +789,9 @@
 	(properties
 		x 54
 		y 77
-		description {your 8-track player}
+		description {tvùj osmistopı pøehrávaè}
 		sightAngle 40
-		lookStr {Your trusty Strombug Carlton 8-track cartridge tape player rests on your workbench. Although lately you've had trouble finding new cartridges, it still really belts out the tunes.}
+		lookStr {Na tvém pracovním stole leí tvùj vìrnı osmistopı magnetofon Strombug Carlton. Aèkoli máš v poslední dobì problémy se shánìním novıch kazet, poøád ti to hezky hraje.}
 		view 170
 		cel 2
 	)
@@ -808,7 +808,7 @@
 				(if (not local1)
 					(= temp0
 						(proc940_0
-							{Play which 8-track cartridge?}
+							{Pøehrát kterou osmistopou kazetu? }
 							106
 							81
 							{__The Larry Song__}
@@ -849,11 +849,11 @@
 							{______Saxy Sex______}
 							345
 							81
-							{On The Boardwalk}
+							{Na promenádì}
 							700
 							106
 							81
-							{< Next Screen >}
+							{< Další obrazovka >}
 							-1
 							4
 							70
@@ -861,7 +861,7 @@
 							10
 							106
 							81
-							{< Eject >}
+							{< Vysunout >}
 							0
 							4
 							95
@@ -870,7 +870,7 @@
 				else
 					(= temp0
 						(proc940_0
-							{Play which 8-track cartridge?}
+							{Pøehrát kterou osmistopou kazetu?}
 							106
 							81
 							{ A Studio Session_}
@@ -915,7 +915,7 @@
 							920
 							106
 							81
-							{< Previous Screen >}
+							{< Pøedchozí obrazovka >}
 							-1
 							4
 							70
@@ -923,7 +923,7 @@
 							10
 							106
 							81
-							{< Eject >}
+							{< Vysunout >}
 							0
 							4
 							95

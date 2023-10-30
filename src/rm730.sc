@@ -38,7 +38,7 @@
 
 (instance rm730 of LLRoom
 	(properties
-		lookStr {The Ballroom is pulsating with people--all of them men. "Where are the women?" you wonder.}
+		lookStr {Taneèní sál pulzuje lidmi - všichni jsou to mui. "Kde jsou eny?" divíš se.}
 		picture 730
 	)
 	
@@ -537,7 +537,7 @@
 		x 340
 		y 82
 		description {Lana Luscious}
-		lookStr {Lana looks much different, now that she's out of her roller skates and into her element!}
+		lookStr {Lana vypadá úplnì jinak, teï, kdy se zula z koleèkovıch bruslí a je ve svém ivlu!}
 		view 734
 	)
 	
@@ -557,8 +557,8 @@
 	(properties
 		x 300
 		y 55
-		description {her robe}
-		lookStr {She threw away her robe!}
+		description {její upan}
+		lookStr {Zhodila svùj upan!}
 		view 734
 		loop 3
 	)
@@ -568,8 +568,8 @@
 	(properties
 		x 147
 		y 107
-		description {the mud wrestling ring}
-		lookStr {Welcome to "Tramp This! Mud Night Madness" mud wrestling ring.}
+		description {blátivı zápasnickı ring}
+		lookStr {Vítejte v "Trampuj tohle! Blátivé noèní šílenství" v ringu bahenního zápasu.}
 		view 730
 		priority 4
 		signal $4010
@@ -580,8 +580,8 @@
 	(properties
 		x 147
 		y 107
-		description {the ropes}
-		lookStr {Welcome to "Tramp This! Mud Night Madness" mud wrestling ring.}
+		description {provazy}
+		lookStr {Vítejte v "Trampuj tohle! Blátivé noèní šílenství" v ringu bahenního zápasu.}
 		view 730
 		cel 1
 		priority 8
@@ -593,11 +593,11 @@
 	(properties
 		x 16
 		y 161
-		description {the bouncer}
+		description {vyhazovaè}
 		sightAngle 40
 		approachX 16
 		approachY 168
-		lookStr {You feel certain this bouncer is not nearly as wise as you in the ways of women.}
+		lookStr {Jste si jistí, e tento vyhazovaè není zdaleka tak moudrı jako vy, co se tıèe en.}
 		view 732
 		signal $4000
 	)
@@ -649,15 +649,15 @@
 													500
 												else
 													(proc940_0
-														{"What's it gonna be?"}
+														{"Co to bude?"}
 														106
 														80
-														{The Bouncer}
+														{Vyhazovaè}
 														81
-														{I'll just watch}
+														{Já se budu jen dívat}
 														25
 														81
-														{Lemme at 'em!}
+														{Puste mì na nì!}
 														500
 													)
 												)
@@ -871,9 +871,9 @@
 		nsLeft 91
 		nsBottom 103
 		nsRight 214
-		description {the stage}
+		description {pódium}
 		sightAngle 40
-		lookStr {The stage is where all the action takes place.}
+		lookStr {Pódium je místo, kde se odehrává veškerá akce.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -894,9 +894,9 @@
 		nsLeft 202
 		nsBottom 89
 		nsRight 319
-		description {the runway}
+		description {molo}
 		sightAngle 40
-		lookStr {You wonder what sort of babes must lie in wait down that runway.}
+		lookStr {Èlovìk si øíká, co za koèky tam asi musí èíhat.}
 	)
 	
 	(method (doVerb theVerb param2)

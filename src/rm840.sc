@@ -22,7 +22,7 @@
 )
 (instance rm840 of LLRoom
 	(properties
-		lookStr {John Krapper's Office is beautifully decorated in the latest high-tech look. Numerous halogen narrow-beam spotlights bathe the otherwise dark room with small brilliantly-white pools of light.}
+		lookStr {Kanceláø Johna Krappera je krásnì zaøízená v nejnovìjším high-tech stylu. Èetné halogenové reflektory s úzkými paprsky zalévají jinak tmavou místnost malými záøivì bílými kužely svìtla.}
 		picture 840
 		east 820
 		west 850
@@ -204,7 +204,7 @@
 		nsLeft 113
 		nsBottom 126
 		nsRight 214
-		description {the desk}
+		description {stùl}
 		sightAngle 40
 		approachX 150
 		approachY 112
@@ -292,7 +292,7 @@
 		nsLeft 208
 		nsBottom 122
 		nsRight 290
-		description {the potted plant}
+		description {kvìtina v kvìtináèi}
 		sightAngle 40
 		approachX 231
 		approachY 120
@@ -338,10 +338,10 @@
 		x 58
 		y 138
 		z 20
-		description {the copier}
+		description {kopírka}
 		approachX 68
 		approachY 138
-		lookStr {It's a genuine ZeroZ 9000, the latest in personal copiers.}
+		lookStr {Je to pravá ZeroZ 9000, nejnovìjší model osobních kopírek.}
 		view 840
 		loop 3
 		priority 10
@@ -383,10 +383,10 @@
 	(properties
 		x 58
 		y 112
-		description {the copier}
+		description {kopírka}
 		approachX 68
 		approachY 138
-		lookStr {It's a genuine ZeroZ 9000, the latest in personal copiers.}
+		lookStr {Je to pravá ZeroZ 9000, nejnovìjší model osobních kopírek.}
 		view 840
 		loop 5
 		priority 10
@@ -399,10 +399,10 @@
 	(properties
 		x 11
 		y 153
-		description {the bathroom door}
+		description {dveøe do koupelny}
 		approachX 44
 		approachY 152
-		lookStr {A sign on the door says "Krapper's Crapper." A smaller sign below it says "John's John".}
+		lookStr {Na dveøích je nápis "Krapper's Crapper". Pod ním je menší nápis "John's John".}
 		view 840
 		loop 1
 		signal $4000
@@ -442,10 +442,10 @@
 	(properties
 		x 302
 		y 153
-		description {the lobby door}
+		description {dveøe do haly}
 		approachX 269
 		approachY 159
-		lookStr {This is the door through which you entered. If you walked out it, you would return to the lobby.}
+		lookStr {Tìmito dveømi jste vstoupili. Když jimi vyjdete, vrátíte se do haly.}
 		view 840
 		loop 2
 		signal $4000
@@ -480,9 +480,9 @@
 		nsLeft 152
 		nsBottom 165
 		nsRight 232
-		description {the table}
+		description {stùl}
 		sightAngle 40
-		lookStr {Krapper has a beautiful glass coffee table.}
+		lookStr {Krapper má krásný sklenìný konferenèní stolek.}
 	)
 )
 
@@ -494,9 +494,9 @@
 		nsLeft 222
 		nsBottom 152
 		nsRight 256
-		description {the chair}
+		description {køeslo}
 		sightAngle 40
-		lookStr {This is the kind of furniture you would buy if you ever settled down.}
+		lookStr {Tento nábytek byste si koupili, kdybyste se nìkdy usadili.}
 	)
 )
 
@@ -508,9 +508,9 @@
 		nsLeft 83
 		nsBottom 178
 		nsRight 141
-		description {the sofa}
+		description {pohovka}
 		sightAngle 40
-		lookStr {What an unusual sofa! You so love modern furniture.}
+		lookStr {Jaká neobvyklá pohovka! Ty tak miluješ moderní nábytek.}
 	)
 )
 
@@ -523,11 +523,11 @@
 		nsLeft 187
 		nsBottom 106
 		nsRight 202
-		description {the telephone}
+		description {telefon}
 		sightAngle 40
 		approachX 200
 		approachY 112
-		lookStr {John Krapper's telephone has very few buttons. He must be REALLY important!}
+		lookStr {Telefon Johna Krappera má velmi málo tlaèítek. Musí být OPRAVDU dùležitý!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -549,11 +549,11 @@
 		nsLeft 127
 		nsBottom 105
 		nsRight 148
-		description {the desk computer}
+		description {stolní poèítaè}
 		sightAngle 40
 		approachX 140
 		approachY 112
-		lookStr {Look at the dust on that keyboard! He must never use his computer!}
+		lookStr {Podívej se na ten prach na klávesnici! On ten poèítaè urèitì nikdy nepoužívá!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -574,9 +574,9 @@
 		nsLeft 66
 		nsBottom 107
 		nsRight 256
-		description {the window}
+		description {okno}
 		sightAngle 40
-		lookStr {Krapper's office has a giant window looking out over beautiful downtown Philadelphia.}
+		lookStr {Krapperova kanceláø má obrovské okno s výhledem na krásné centrum Filadelfie.}
 	)
 )
 
@@ -588,9 +588,9 @@
 		nsLeft 33
 		nsBottom 102
 		nsRight 73
-		description {the shelves}
+		description {polièky}
 		sightAngle 40
-		lookStr {Krapper's bookcase is filled with items, all of them useless to your mission.}
+		lookStr {Krapperova knihovna je plná pøedmìtù, které jsou pro vaši misi nepoužitelné.}
 	)
 )
 
@@ -602,9 +602,9 @@
 		nsLeft 53
 		nsBottom 29
 		nsRight 65
-		description {the lamp}
+		description {lampa}
 		sightAngle 40
-		lookStr {The small halogen spotlights cast a pure white light.}
+		lookStr {Malé halogenové reflektory vrhají èisté bílé svìtlo.}
 	)
 )
 
@@ -615,9 +615,9 @@
 		nsLeft 93
 		nsBottom 13
 		nsRight 106
-		description {the lamp}
+		description {lampa}
 		sightAngle 40
-		lookStr {The small halogen spotlights cast a pure white light.}
+		lookStr {Malé halogenové reflektory vrhají èisté bílé svìtlo.}
 	)
 )
 
@@ -629,9 +629,9 @@
 		nsLeft 158
 		nsBottom 26
 		nsRight 169
-		description {the lamp}
+		description {lampa}
 		sightAngle 40
-		lookStr {The small halogen spotlights cast a pure white light.}
+		lookStr {Malé halogenové reflektory vrhají èisté bílé svìtlo.}
 	)
 )
 
@@ -643,9 +643,9 @@
 		nsLeft 253
 		nsBottom 29
 		nsRight 267
-		description {the lamp}
+		description {lampa}
 		sightAngle 40
-		lookStr {The small halogen spotlights cast a pure white light.}
+		lookStr {Malé halogenové reflektory vrhají èisté bílé svìtlo.}
 	)
 )
 
@@ -653,7 +653,7 @@
 	(properties
 		x 155
 		y 105
-		description {the letter opener}
+		description {otvírák na dopisy}
 		approachX 187
 		approachY 118
 		view 840

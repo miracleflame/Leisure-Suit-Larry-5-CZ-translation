@@ -117,7 +117,7 @@
 				(cigar setCycle: RandCycle)
 				(leftEyebrow setCycle: RandCycle)
 				(rightEyebrow setCycle: RandCycle)
-				(proc0_14 205 2 80 {Mr. Bigg} 108 self 67 -1 185)
+				(proc0_14 205 2 80 {Pan Bigg} 108 self 67 -1 185)
 			)
 			(3
 				(cigar setCycle: 0)
@@ -151,7 +151,7 @@
 				(rightEyebrow setCycle: RandCycle)
 				(hand setCycle: End)
 				(cigar setCycle: RandCycle)
-				(proc0_14 205 9 80 {Mr. Bigg} 108 self 67 -1 185)
+				(proc0_14 205 9 80 {Pan Bigg} 108 self 67 -1 185)
 			)
 			(14
 				(leftEyebrow setCycle: Beg)
@@ -162,7 +162,7 @@
 			)
 			(15
 				(cigar setCycle: Fwd)
-				(proc0_14 205 11 80 {Mr. Bigg} 108 self 67 -1 185)
+				(proc0_14 205 11 80 {Pan Bigg} 108 self 67 -1 185)
 			)
 			(16 (self dispose:))
 		)
@@ -269,7 +269,7 @@
 					205
 					24
 					80
-					{Your Elected Official}
+					{Váš zvolený úøedník}
 					67
 					100
 					185
@@ -283,7 +283,7 @@
 					205
 					25
 					80
-					{Your Elected Official}
+					{Váš zvolený úøedník}
 					67
 					100
 					185
@@ -297,7 +297,7 @@
 					205
 					26
 					80
-					{Your Elected Official}
+					{Váš zvolený úøedník}
 					67
 					100
 					185
@@ -319,7 +319,7 @@
 					205
 					29
 					80
-					{Your Elected Official}
+					{Váš zvolený úøedník}
 					67
 					100
 					185

@@ -21,7 +21,7 @@
 {Jak bizarní! Limuzína s akváriem!}
 {lahve a sklenice}
 {Tady je dost lahví alkoholu a sklenièek na poøádání veèírku. Teï už potøebuješ jen pár pøátel!}
-(stereo)
+{stereo}
 {V limuzínì je stereo s kazetovým pøehrávaèem i CD.}
 {dveøe skøínì}
 {Pod pravým pøedním sedadlem spolujezdce se nachází malá uzamèená pøihrádka na alkohol. Pøemýšlíš, kdy pøijde øada na tebe, abys mohl žít na vysoké noze.}

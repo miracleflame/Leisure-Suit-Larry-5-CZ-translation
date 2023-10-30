@@ -17,7 +17,7 @@
 
 (instance rm425 of LLRoom
 	(properties
-		lookStr {You are outside the F.B.I.'s office building, which is cleverly disguised as a block of normal storefront businesses. Your limousine is waiting for you at the curb, exactly as Desmond promised.}
+		lookStr {Stojíš pøed budovou FBI, která je chytøe zamaskovaná jako blok normálních obchodù. U chodníku na tebe èeká tvá limuzína, pøesnì jak Desmond slíbil.}
 		picture 425
 		north 435
 	)
@@ -150,10 +150,10 @@
 	(properties
 		x 193
 		y 151
-		description {the door}
+		description {dveøe}
 		approachX 188
 		approachY 156
-		lookStr {This door leads back into the F.B... oops! This door leads to "Stein Labs!"}
+		lookStr {Tyto dveøe vedou zpìt do FB... Ups! Tyhle dveøe vedou do "Steinových laboratoøí!"}
 		view 425
 		entranceTo 435
 		moveToX 188
@@ -171,11 +171,11 @@
 		nsLeft 3
 		nsBottom 171
 		nsRight 161
-		description {your limousine}
+		description {tvá limuzína}
 		sightAngle 40
 		approachX 72
 		approachY 156
-		lookStr {Your limousine awaits you.}
+		lookStr {Tvá limuzína tì oèekává.}
 	)
 	
 	(method (doVerb theVerb)
@@ -200,9 +200,9 @@
 		nsLeft 101
 		nsBottom 134
 		nsRight 166
-		description {the Stein Labs sign}
+		description {nápis Stein Labs}
 		sightAngle 40
-		lookStr {The large sign identifies the F.B.I. labs as "Stein Labs--We'll Be Frank With You."}
+		lookStr {Velká cedule oznaèuje laboratoøe FBI jako "Steinovy laboratoøe - budeme s vámi upøímní".}
 	)
 )
 
@@ -214,9 +214,9 @@
 		nsLeft 92
 		nsBottom 150
 		nsRight 238
-		description {Stein Laboratories}
+		description {Steinovy laboratoøe}
 		sightAngle 40
-		lookStr {Don't you just love an F.B.I. with a sense of humor?}
+		lookStr {Nelíbí se ti, že FBI má smysl pro humor?}
 	)
 )
 
@@ -229,9 +229,9 @@
 		nsLeft 55
 		nsBottom 123
 		nsRight 71
-		description {the GynoMan sign}
+		description {nápis GynoMan}
 		sightAngle 40
-		lookStr {Dr. Phil Hopian's office is cleverly disguised as "GynoMan."}
+		lookStr {Kanceláø doktora Phila Hopiana je chytøe maskována jako "GynoMan".}
 	)
 )
 
@@ -242,9 +242,9 @@
 		nsTop 58
 		nsBottom 146
 		nsRight 91
-		description {the GynoMan building}
+		description {budova GynoMan}
 		sightAngle 40
-		lookStr {You wonder what sort of offices are on the upper floors of this building, above the office of Dr. Phil Hopian.}
+		lookStr {Zajímalo by tì, jaké kanceláøe jsou v horních patrech této budovy nad ordinací doktora Phila Hopiana.}
 	)
 )
 
@@ -256,9 +256,9 @@
 		nsLeft 238
 		nsBottom 151
 		nsRight 319
-		description {the Woodwind Repair Shop building}
+		description {budova opravovny Woodwind}
 		sightAngle 40
-		lookStr {The Woodwind Repair Shop is an unusual cover for an F.B.I. office.}
+		lookStr {Opravovna Woodwind je neobvyklé krytí pro kanceláø FBI.}
 	)
 )
 
@@ -271,9 +271,9 @@
 		nsLeft 254
 		nsBottom 91
 		nsRight 319
-		description {the Woodwind Repair Shop sign}
+		description {nápis Opravovna Woodwind}
 		sightAngle 40
-		lookStr {The Woodwind Repair Shop has an attractive sign out front.}
+		lookStr {Opravovna Woodwind má pøed domem atraktivní nápis.}
 	)
 )
 

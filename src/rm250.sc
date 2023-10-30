@@ -175,7 +175,7 @@
 		nsLeft 176
 		nsBottom 94
 		nsRight 190
-		description {the ATM}
+		description {bankomat}
 		sightAngle 40
 		approachX 189
 		approachY 102
@@ -209,7 +209,7 @@
 
 (instance limo of Actor
 	(properties
-		description {your limousine}
+		description {tvoje limuzína}
 		approachX 288
 		approachY 107
 		view 250
@@ -263,7 +263,7 @@
 		nsLeft 256
 		nsBottom 68
 		nsRight 295
-		description {the control tower}
+		description {kontrolní vìž}
 		sightAngle 40
 	)
 	
@@ -284,7 +284,7 @@
 		nsLeft 242
 		nsBottom 171
 		nsRight 319
-		description {the bushes}
+		description {køoví}
 		sightAngle 40
 	)
 	
@@ -307,7 +307,7 @@
 		nsLeft 118
 		nsBottom 124
 		nsRight 149
-		description {the luggage}
+		description {zavazadla}
 		sightAngle 40
 	)
 	
@@ -328,7 +328,7 @@
 		nsLeft 55
 		nsBottom 150
 		nsRight 82
-		description {the luggage}
+		description {zavazadla}
 		sightAngle 40
 	)
 	
@@ -349,7 +349,7 @@
 		nsLeft 95
 		nsBottom 161
 		nsRight 160
-		description {the car}
+		description {auto}
 		sightAngle 40
 	)
 	
@@ -370,7 +370,7 @@
 		nsLeft 61
 		nsBottom 188
 		nsRight 147
-		description {the car}
+		description {auto}
 		sightAngle 40
 	)
 	
@@ -391,7 +391,7 @@
 		nsLeft 150
 		nsBottom 129
 		nsRight 319
-		description {the driveway}
+		description {pøíjezdová cesta}
 		sightAngle 40
 	)
 	
@@ -412,7 +412,7 @@
 		nsLeft 46
 		nsBottom 131
 		nsRight 99
-		description {the door}
+		description {dveøe}
 		sightAngle 40
 	)
 	
@@ -430,7 +430,7 @@
 	(properties
 		x 224
 		y 67
-		description {the sign}
+		description {znaèka}
 		view 250
 	)
 	
@@ -461,7 +461,7 @@
 	(properties
 		x 206
 		y 99
-		description {the plain brown envelope}
+		description {èistá hnìdá obálka}
 		approachX 205
 		approachY 93
 		view 250
@@ -497,7 +497,7 @@
 
 (instance plane of Actor
 	(properties
-		description {the airplane}
+		description {letadlo}
 		view 250
 		priority 3
 		signal $6810
@@ -522,7 +522,7 @@
 		nsLeft 196
 		nsBottom 101
 		nsRight 206
-		description {the trash can}
+		description {koš na odpadky}
 		sightAngle 90
 		approachX 205
 		approachY 93
@@ -545,7 +545,7 @@
 
 (instance cloud of View
 	(properties
-		description {the cloud}
+		description {mrak}
 		view 250
 		priority 1
 		signal $7810
@@ -566,11 +566,11 @@
 	(properties
 		x 260
 		y 101
-		description {the door}
+		description {dveøe}
 		sightAngle 90
 		approachX 261
 		approachY 104
-		lookStr {This door leads to the exclusive AeroDork gates.}
+		lookStr {Tyto dveøe vedou k exkluzivním branám AeroDork.}
 		view 251
 		entranceTo 270
 		openSnd 293

@@ -7,6 +7,7 @@
 {páskový kotouè}
 {páskový kotouè}
 {páskový kotouè}
+{páskový kotouè}
 {VU metr}
 {Tento mìøiè mìøí dynamické úrovnì v decibelech, z nichž každý je pøibližnì 1/10 belu.}
 {klávesa}

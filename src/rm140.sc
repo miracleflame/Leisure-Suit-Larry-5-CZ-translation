@@ -335,9 +335,9 @@
 			(18 (= ticks 60))
 			(19
 				(fScruemall setCel: 1)
-				(proc0_14 140 9 67 68 91 80 {PÅ™itakÃ¡vaÄ})
-				(proc0_14 140 10 67 105 137 80 {PÅ™itakÃ¡vaÄ})
-				(proc0_14 140 11 67 180 113 80 {PÅ™itakÃ¡vaÄ})
+				(proc0_14 140 9 67 68 91 80 {Pøitakávaè})
+				(proc0_14 140 10 67 105 137 80 {Pøitakávaè})
+				(proc0_14 140 11 67 180 113 80 {Pøitakávaè})
 				(= seconds 3)
 			)
 			(20
@@ -345,9 +345,9 @@
 			)
 			(21 (= ticks 60))
 			(22
-				(proc0_14 140 9 67 180 147 80 {PÅ™itakÃ¡vaÄ})
-				(proc0_14 140 10 67 0 147 80 {PÅ™itakÃ¡vaÄ})
-				(proc0_14 140 11 67 68 91 80 {PÅ™itakÃ¡vaÄ})
+				(proc0_14 140 9 67 180 147 80 {Pøitakávaè})
+				(proc0_14 140 10 67 0 147 80 {Pøitakávaè})
+				(proc0_14 140 11 67 68 91 80 {Pøitakávaè})
 				(= seconds 3)
 			)
 			(23
@@ -356,9 +356,9 @@
 			(24 (= ticks 60))
 			(25
 				(fScruemall setCel: 0)
-				(proc0_14 140 9 67 105 137 80 {PÅ™itakÃ¡vaÄ})
-				(proc0_14 140 10 67 180 113 80 {PÅ™itakÃ¡vaÄ})
-				(proc0_14 140 11 67 180 147 80 {PÅ™itakÃ¡vaÄ})
+				(proc0_14 140 9 67 105 137 80 {Pøitakávaè})
+				(proc0_14 140 10 67 180 113 80 {Pøitakávaè})
+				(proc0_14 140 11 67 180 147 80 {Pøitakávaè})
 				(= seconds 3)
 			)
 			(26
@@ -373,9 +373,9 @@
 			)
 			(29 (= ticks 60))
 			(30
-				(proc0_14 140 16 67 0 147 80 {PÅ™itakÃ¡vaÄ})
-				(proc0_14 140 17 67 68 91 80 {PÅ™itakÃ¡vaÄ})
-				(proc0_14 140 18 67 105 137 80 {PÅ™itakÃ¡vaÄ})
+				(proc0_14 140 16 67 0 147 80 {Pøitakávaè})
+				(proc0_14 140 17 67 68 91 80 {Pøitakávaè})
+				(proc0_14 140 18 67 105 137 80 {Pøitakávaè})
 				(fScruemall setCel: 0)
 				(= seconds 4)
 			)

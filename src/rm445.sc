@@ -16,7 +16,7 @@
 
 (instance rm445 of LLRoom
 	(properties
-		lookStr {The F.B.I. laboratory is completely deserted. Perhaps they had more experiments than experimenters?}
+		lookStr {Laboratoø FBI je zcela opuštìná. Možná mìli víc experimentù než experimentátorù?}
 		picture 440
 		east 450
 		west 435
@@ -148,10 +148,10 @@
 		x 94
 		y 88
 		z 13
-		description {the DataMan}
+		description {DataMan}
 		approachX 82
 		approachY 99
-		lookStr {A tiny electronic display device lies on the counter.}
+		lookStr {Na pultu leží malé elektronické zobrazovací zaøízení.}
 		view 440
 		priority 6
 		signal $0010
@@ -175,10 +175,10 @@
 		x 72
 		y 88
 		z 14
-		description {the DataPak}
+		description {DataPak}
 		approachX 82
 		approachY 99
-		lookStr {What appears to be some sort of ROM cartridge lies on the counter.}
+		lookStr {Na pultu leží nìco, co vypadá jako nìjaká ROM kazeta .}
 		view 440
 		cel 1
 		priority 6
@@ -203,10 +203,10 @@
 		x 72
 		y 88
 		z 12
-		description {the DataPak}
+		description {DataPak}
 		approachX 82
 		approachY 99
-		lookStr {What appears to be some sort of ROM cartridge lies on the counter.}
+		lookStr {Na pultu leží nìco, co vypadá jako nìjaká ROM kazeta .}
 		view 440
 		cel 2
 		priority 6
@@ -230,8 +230,8 @@
 	(properties
 		x 282
 		y 99
-		description {Doctor Phil Hopian's door}
-		lookStr {This door leads back into Dr. Phil Hopian's office. After what you just went through, you're in no hurry to go back in there!}
+		description {Dveøe doktora Phila Hopiana}
+		lookStr {Tyto dveøe vedou zpìt do kanceláøe doktora Phila Hopiana. Po tom, co jsi právì prožila, tam už nespìcháš!}
 		view 440
 		loop 1
 		signal $4000
@@ -256,9 +256,9 @@
 		nsLeft 170
 		nsBottom 95
 		nsRight 261
-		description {the machine}
+		description {stroj}
 		sightAngle 40
-		lookStr {This machine does something, you feel quite certain.}
+		lookStr {Tento stroj nìco dìlá, jsi si tím naprosto jistá.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -280,9 +280,9 @@
 		nsLeft 119
 		nsBottom 71
 		nsRight 148
-		description {the computer}
+		description {poèítaè}
 		sightAngle 40
-		lookStr {If only you had paid attention when Larry chattered on and on about his computer. You know nothing about computers and are sure you'll be unable to do anything with it.}
+		lookStr {Kdybys jen dávala pozor, když Larry poøád mluvil o svém poèítaèi. O poèítaèích nic nevíš a jsi si jistá, že s ním nic neudìláš.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -304,9 +304,9 @@
 		nsLeft 94
 		nsBottom 137
 		nsRight 134
-		description {the chemistry set}
+		description {chemická souprava}
 		sightAngle 40
-		lookStr {This is where the technician made the flatulence powder. (Un)Fortunately, he left his equipment thoroughly clean.}
+		lookStr {Tady technik vyrobil prášek na nadýmání. Na(ne)štìstí zanechal své vybavení dùkladnì èisté.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -326,9 +326,9 @@
 		nsTop 144
 		nsBottom 189
 		nsRight 319
-		description {the workbench}
+		description {pracovní stùl}
 		sightAngle 40
-		lookStr {Lots of chemicals, beakers, and junk food wrappers fill this workbench.}
+		lookStr {Spousta chemikálií, kádinek a obalù od nezdravého jídla zaplòuje tento pracovní stùl.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -356,9 +356,9 @@
 		nsLeft 28
 		nsBottom 68
 		nsRight 55
-		description {the books}
+		description {knihy}
 		sightAngle 40
-		lookStr {These books are filled with Latin phrases. The only Latin phrases you know would get a sailor thrown out of a bar in Tijuana!}
+		lookStr {Tyto knihy jsou plné latinských frází. Za jediné latinské fráze, které znáš, by námoøníka vyhodili z baru v Tijuanì!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -379,9 +379,9 @@
 		nsTop 54
 		nsBottom 88
 		nsRight 162
-		description {the desk}
+		description {stùl}
 		sightAngle 40
-		lookStr {This desk doesn't contain any secret documents; they all were burned in the big fire last week!}
+		lookStr {Tento stùl neobsahuje žádné tajné dokumenty; všechny shoøely pøi velkém požáru minulý týden!}
 	)
 	
 	(method (doVerb theVerb param2)

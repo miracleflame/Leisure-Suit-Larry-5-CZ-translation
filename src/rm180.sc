@@ -18,7 +18,7 @@
 )
 (instance rm180 of LLRoom
 	(properties
-		lookStr {PPC's file room is filled with file cabinets which are filled with files.}
+		lookStr {Archivárna PPC je plná kartoték, které jsou naplnìny spisy.}
 		picture 180
 		south 160
 	)
@@ -98,7 +98,7 @@
 		x 128
 		y 1162
 		z 1000
-		description {the credit card imprinter}
+		description {tiskárna kreditních karet}
 		approachX 137
 		approachY 165
 		view 180
@@ -142,7 +142,7 @@
 	(properties
 		x 266
 		y 125
-		description {the drawer}
+		description {zásuvka}
 		sightAngle 40
 		approachX 240
 		approachY 140
@@ -271,9 +271,9 @@
 		nsLeft 210
 		nsBottom 62
 		nsRight 231
-		description {the light}
+		description {svìtlo}
 		sightAngle 40
-		lookStr {Staring into the lamp is an enlightening experience for you.}
+		lookStr {Dívat se do lampy je pro tebe osvícený zážitek.}
 	)
 )
 
@@ -285,9 +285,9 @@
 		nsLeft 113
 		nsBottom 61
 		nsRight 201
-		description {the bookcase}
+		description {knihovna}
 		sightAngle 40
-		lookStr {This bookcase is filled with everything but books.}
+		lookStr {Tato knihovna je plná všeho možného, jen ne knih.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -308,9 +308,9 @@
 		nsLeft 43
 		nsBottom 76
 		nsRight 78
-		description {the nude painting}
+		description {obrázek aktu}
 		sightAngle 40
-		lookStr {You don't know much about art, but something about this painting touches your fancy!}
+		lookStr {O umìní toho moc nevíš, ale nìco se ti na tom obraze zamlouvá!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -332,9 +332,9 @@
 		nsLeft 33
 		nsBottom 176
 		nsRight 145
-		description {your desk}
+		description {tvùj psací stùl}
 		sightAngle 40
-		lookStr {Why are there no workers in this place?}
+		lookStr {Proè tady nejsou žádní pracovníci?}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -355,9 +355,9 @@
 		nsLeft 35
 		nsBottom 171
 		nsRight 58
-		description {the lamp}
+		description {lampa}
 		sightAngle 40
-		lookStr {You admire anyone who uses incandescent lighting.}
+		lookStr {Obdivuješ každého, kdo používá žárovkové osvìtlení.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -379,7 +379,7 @@
 		nsLeft 73
 		nsBottom 174
 		nsRight 117
-		description {the magnifier}
+		description {lupa}
 		sightAngle 40
 	)
 	
@@ -406,11 +406,11 @@
 		nsLeft 233
 		nsBottom 152
 		nsRight 281
-		description {the file drawer}
+		description {zásuvka se složkami}
 		sightAngle 40
 		approachX 226
 		approachY 135
-		lookStr {This file drawer is labeled "Losers." You're looking for the files of the three finalists. This is no time to try to fatten your address book, Larry!}
+		lookStr {Tahle zásuvka je nadepsaná "Lùzøi". Hledáš složky tøí finalistù. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -431,9 +431,9 @@
 		nsLeft 100
 		nsBottom 116
 		nsRight 210
-		description {the file drawer}
+		description {zásuvka se složkami}
 		sightAngle 40
-		lookStr {This file drawer is labeled "Losers." You're looking for the files of the three finalists. This is no time to try to fatten your address book, Larry!}
+		lookStr {Tato zásuvka je oznaèena "Lùzøi". Hledáš složky tøí finalistù. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -454,9 +454,9 @@
 		nsLeft 40
 		nsBottom 149
 		nsRight 87
-		description {the file drawer}
+		description {zásuvka se složkami}
 		sightAngle 40
-		lookStr {This file drawer is labeled "Losers." You're looking for the files of the three finalists. This is no time to try to fatten your address book, Larry!}
+		lookStr {Tato zásuvka je oznaèena "Lùzøi". Hledáš složky tøí finalistù. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -477,9 +477,9 @@
 		nsLeft 46
 		nsBottom 99
 		nsRight 69
-		description {some books}
+		description {nìjaké knihy}
 		sightAngle 40
-		lookStr {Why would you want to look at books, Larry? You can barely read!}
+		lookStr {Proè se chceš dívat na knihy, Larry? Sotva umíš èíst!}
 	)
 )
 
@@ -491,9 +491,9 @@
 		nsLeft 254
 		nsBottom 100
 		nsRight 273
-		description {the fan}
+		description {vìtrák}
 		sightAngle 40
-		lookStr {This is your biggest fan!}
+		lookStr {Toto je tvùj nejvìtší fanda!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -517,9 +517,9 @@
 		nsLeft 212
 		nsBottom 113
 		nsRight 232
-		description {your chair}
+		description {tvoje židle}
 		sightAngle 40
-		lookStr {This chair is your favorite work-place sleeper.}
+		lookStr {Tahle židle je tvùj oblíbený pelíšek na pracovišti.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -541,9 +541,9 @@
 		nsLeft 93
 		nsBottom 60
 		nsRight 108
-		description {the twins poster}
+		description {plakát dvojèat}
 		sightAngle 40
-		lookStr {This poster is your personal favorite. You've always had a soft spot for twins.}
+		lookStr {Tento plakát je tvùj oblíbený. Vždycky jsi mìl slabost pro dvojèata.}
 	)
 	
 	(method (doVerb theVerb &tmp [temp0 100])
@@ -552,7 +552,7 @@
 				@temp0
 				180
 				23
-				(if (proc0_6 0) {red} else {blonde})
+				(if (proc0_6 0) {zrzavá} else {blondýnka})
 			)
 			(proc0_14 @temp0)
 		else
@@ -569,8 +569,8 @@
 		nsLeft 82
 		nsBottom 114
 		nsRight 101
-		description {the rolls of paper}
+		description {rolky papíru}
 		sightAngle 40
-		lookStr {There are some unimportant rolls of paper lying there.}
+		lookStr {Tady leží nìjaké nedùležité role papíru.}
 	)
 )

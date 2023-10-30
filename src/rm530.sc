@@ -26,7 +26,7 @@
 )
 (instance rm530 of LLRoom
 	(properties
-		lookStr {Now you understand why this is such an exclusive room. It's quiet, lovely and private.}
+		lookStr {Teï už chápeš, proè je to tak exkluzivní pokoj. Je tu klid, krása a soukromí.}
 		picture 530
 		south 525
 	)
@@ -170,7 +170,7 @@
 	(properties
 		x 244
 		y 109
-		description {her ice cream}
+		description {její zmrzlina}
 		sightAngle 90
 		view 530
 		loop 6
@@ -183,7 +183,7 @@
 	(properties
 		x 63
 		y 89
-		description {the couple}
+		description {pár}
 		sightAngle 90
 		view 530
 		loop 6
@@ -197,7 +197,7 @@
 	(properties
 		x 80
 		y 88
-		description {the couple}
+		description {pár}
 		sightAngle 90
 		view 530
 		loop 6
@@ -211,7 +211,7 @@
 	(properties
 		x 184
 		y 88
-		description {the couple}
+		description {pár}
 		sightAngle 90
 		view 530
 		loop 6
@@ -224,7 +224,7 @@
 	(properties
 		x 119
 		y 78
-		description {the couple}
+		description {pár}
 		sightAngle 90
 		view 530
 		loop 6
@@ -238,7 +238,7 @@
 	(properties
 		x 140
 		y 77
-		description {the couple}
+		description {pár}
 		sightAngle 90
 		view 530
 		loop 6
@@ -253,7 +253,7 @@
 		x 237
 		y 143
 		z 40
-		description {her}
+		description {její}
 		view 530
 		loop 5
 		priority 1
@@ -273,9 +273,9 @@
 		nsLeft 162
 		nsBottom 163
 		nsRight 196
-		description {your chair}
+		description {tvoje židle}
 		sightAngle 40
-		lookStr {It's the only place you've got to sit. And you like it!}
+		lookStr {Jediné místo, kde mùžeš sedìt. A líbí se ti!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -297,10 +297,10 @@
 		nsLeft 43
 		nsBottom 180
 		nsRight 140
-		description {the cactus}
+		description {kaktus}
 		sightAngle 40
 		onMeCheck $0004
-		lookStr {Isn't it funny how this cactus blooms when none of the others do.}
+		lookStr {Není to zvláštní, že tenhle kaktus kvete, když žádný jiný nekvete?}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -321,9 +321,9 @@
 		nsLeft 45
 		nsBottom 107
 		nsRight 90
-		description {the table}
+		description {stùl}
 		sightAngle 40
-		lookStr {Here's another couple having a wonderful evening while you wander around all alone again!}
+		lookStr {Tady je další pár, který si užívá krásný veèer, zatímco ty se tu zase couráš úplnì sám!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -353,9 +353,9 @@
 		nsLeft 109
 		nsBottom 92
 		nsRight 155
-		description {the table}
+		description {stùl}
 		sightAngle 40
-		lookStr {Here's another couple having a wonderful evening while you wander around New York City all alone!}
+		lookStr {Tady je další pár, který si užívá krásný veèer, zatímco ty se touláš po New Yorku úplnì sám!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -385,9 +385,9 @@
 		nsLeft 173
 		nsBottom 104
 		nsRight 201
-		description {the table}
+		description {stùl}
 		sightAngle 40
-		lookStr {Here's another couple having a wonderful evening while you wander around all alone again!}
+		lookStr {Tady je další pár, který si užívá bájeèný veèer, zatímco ty se zase touláš po New Yorku úplnì sám!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -416,9 +416,9 @@
 		nsLeft 214
 		nsBottom 132
 		nsRight 279
-		description {the table}
+		description {stùl}
 		sightAngle 40
-		lookStr {A breathtakingly beautiful black woman sits alone at a booth, playing slowly and sensually with her dessert. It's Michelle Milken. You've found her, Larry!}
+		lookStr {Úchvatnì krásná èernoška sedí sama u stolu a pomalu a smyslnì si pohrává se svým dezertem. Je to Michelle Milkenová. Našel jsi ji, Larry!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -467,9 +467,9 @@
 		nsLeft 188
 		nsBottom 154
 		nsRight 225
-		description {the serving cart}
+		description {servírovací vozík}
 		sightAngle 40
-		lookStr {It looks like this cart is the only table available.}
+		lookStr {Vypadá to, že tento vozík je jediný volný stùl.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -491,10 +491,10 @@
 		nsLeft 121
 		nsBottom 65
 		nsRight 167
-		description {the lamp}
+		description {lampa}
 		sightAngle 40
 		onMeCheck $0002
-		lookStr {It casts an even illumination.}
+		lookStr {Vrhá rovnomìrné svìtlo.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -649,7 +649,7 @@
 	(properties
 		x 89
 		y 36
-		description {the curtain}
+		description {závìs}
 		view 530
 		loop 1
 		priority 7
@@ -694,7 +694,7 @@
 	(properties
 		x 134
 		y 101
-		description {the curtain}
+		description {závìs}
 		view 530
 		loop 3
 		signal $4000
@@ -735,7 +735,7 @@
 	(properties
 		x 211
 		y 35
-		description {the curtain}
+		description {závìs}
 		view 530
 		loop 2
 		priority 7
@@ -772,7 +772,7 @@
 	(properties
 		x 279
 		y 55
-		description {the curtain}
+		description {závìs}
 		view 530
 		priority 14
 		signal $4010

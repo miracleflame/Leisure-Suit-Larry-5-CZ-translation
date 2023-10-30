@@ -599,7 +599,7 @@
 	(properties
 		x 274
 		y 124
-		description {the guard}
+		description {strážník}
 		sightAngle 40
 		approachX 244
 		approachY 166
@@ -685,7 +685,7 @@
 	(properties
 		x 61
 		y 148
-		description {the elevator}
+		description {výtah}
 		sightAngle 40
 		view 620
 		priority 8
@@ -708,7 +708,7 @@
 	(properties
 		x 45
 		y 152
-		description {the elevator}
+		description {výtah}
 		sightAngle 40
 		view 620
 		loop 1
@@ -742,7 +742,7 @@
 		nsLeft 9
 		nsBottom 165
 		nsRight 38
-		description {the Shill Building's directory}
+		description {katalog budovy Shill}
 		sightAngle 40
 		approachX 61
 		approachY 178
@@ -771,7 +771,7 @@
 		nsLeft 93
 		nsBottom 76
 		nsRight 221
-		description {the directory}
+		description {katalog}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -796,7 +796,7 @@
 		nsLeft 92
 		nsBottom 86
 		nsRight 221
-		description {the directory}
+		description {katalog}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -821,7 +821,7 @@
 		nsLeft 86
 		nsBottom 99
 		nsRight 223
-		description {the directory}
+		description {katalog}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -846,7 +846,7 @@
 		nsLeft 85
 		nsBottom 111
 		nsRight 222
-		description {the directory}
+		description {katalog}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -880,7 +880,7 @@
 		nsLeft 88
 		nsBottom 123
 		nsRight 222
-		description {the directory}
+		description {katalog}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -905,7 +905,7 @@
 		nsLeft 87
 		nsBottom 135
 		nsRight 224
-		description {the directory}
+		description {katalog}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -930,7 +930,7 @@
 		nsLeft 89
 		nsBottom 147
 		nsRight 224
-		description {the directory}
+		description {katalog}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -955,7 +955,7 @@
 		nsLeft 89
 		nsBottom 159
 		nsRight 223
-		description {the directory}
+		description {katalog}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -980,8 +980,8 @@
 		nsLeft 104
 		nsBottom 114
 		nsRight 137
-		description {the plant}
-		lookStr {This plant is obviously well-maintained, but superfluous to your mission.}
+		description {rostlina}
+		lookStr {Tato rostlina je zøejmì dobøe udržovaná, ale pro tvou misi je zbyteèná.}
 	)
 )
 
@@ -992,8 +992,8 @@
 		nsLeft 142
 		nsBottom 95
 		nsRight 319
-		description {the mural}
-		lookStr {It is quite an interesting mural.}
+		description {freska}
+		lookStr {Je to docela zajímavá nástìnná malba.}
 	)
 )
 
@@ -1005,10 +1005,10 @@
 		nsLeft 139
 		nsBottom 189
 		nsRight 319
-		description {the staircase}
+		description {schodištì}
 		sightAngle 40
 		onMeCheck $2000
-		lookStr {A staircase winds its way upwards, but a velvet rope across the bottom indicates it's not to be used under penalty of law. It looks like the elevator is your only hope, Patti.}
+		lookStr {Schodištì se vine vzhùru, ale sametový provaz pøes jeho spodní èást naznaèuje, že se nesmí používat pod hrozbou sankcí. Vypadá to, že výtah je tvoje jediná nadìje, Patti.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1029,9 +1029,9 @@
 		nsLeft 124
 		nsBottom 188
 		nsRight 138
-		description {the lamp}
+		description {lampa}
 		sightAngle 40
-		lookStr {A lovely Art Deco lamp rises above the staircase.}
+		lookStr {Nad schodištìm se tyèí krásná lampa ve stylu art deco.}
 	)
 )
 
@@ -1043,9 +1043,9 @@
 		nsLeft 287
 		nsBottom 138
 		nsRight 302
-		description {the lamp}
+		description {lampa}
 		sightAngle 40
-		lookStr {A lovely Art Deco lamp rises above the staircase.}
+		lookStr {Pìkná lampa ve stylu art deco se tyèí nad schodištìm.}
 	)
 )
 
@@ -1057,11 +1057,11 @@
 		nsLeft 46
 		nsBottom 160
 		nsRight 56
-		description {the ashtray}
+		description {popelník}
 		sightAngle 40
 		approachX 70
 		approachY 160
-		lookStr {Carefully examining the ashtray for a disco pass, for a brief moment you think you're playing "Leisure Suit Larry 1: In the Land of the Lounge Lizards." Of course, you're not.}
+		lookStr {Popelník si peèlivì prohlížíš, jestli v nìm není diskotékový prùkaz, a na okamžik si myslíš, že hraješ "Leisure Suit Larry 1: In the Land of the Lounge Lizards". Samozøejmì, že nehraješ.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1082,9 +1082,9 @@
 		nsLeft 5
 		nsBottom 86
 		nsRight 37
-		description {the sconce}
+		description {svícen}
 		sightAngle 40
-		lookStr {My, the Shill Building has tasteful sconces.}
+		lookStr {Jéje, budova Shill má vkusné svícny.}
 	)
 )
 
@@ -1096,9 +1096,9 @@
 		nsLeft 85
 		nsBottom 74
 		nsRight 103
-		description {the sconce}
+		description {svícen}
 		sightAngle 40
-		lookStr {My, the Shill Building has tasteful sconces.}
+		lookStr {Jéje, v budovì Shillù jsou vkusné svícny.}
 	)
 )
 
@@ -1110,9 +1110,9 @@
 		nsLeft 215
 		nsBottom 125
 		nsRight 245
-		description {the clock}
+		description {hodiny}
 		sightAngle 40
-		lookStr {A lovely Deco time clock is built into the end of the Security Guard's counter for those employees still paid by the hour.}
+		lookStr {Na konci pultu ochranky jsou zabudovány krásné hodiny ve stylu Deco pro zamìstnance, kteøí jsou stále placeni od hodiny.}
 	)
 )
 
@@ -1125,9 +1125,9 @@
 		nsLeft 182
 		nsBottom 44
 		nsRight 201
-		description {the mural}
+		description {freska}
 		sightAngle 40
-		lookStr {What? Patti! When did you develop an interest in other women?}
+		lookStr {Cože? Patti! Kdy ses zaèala zajímat o jiné ženy?}
 	)
 	
 	(method (doVerb theVerb param2)

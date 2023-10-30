@@ -189,7 +189,7 @@
 			)
 			(22
 				(gLongSong2 number: 913 loop: 1 play:)
-				(proc0_18 gLarry 920 5 80 {You} 67 -1 20 108)
+				(proc0_18 gLarry 920 5 80 {Ty} 67 -1 20 108)
 				(gLarry hide:)
 				(crack
 					show:
@@ -278,7 +278,7 @@
 			)
 			(38
 				(gLongSong2 number: 914 loop: 1 play:)
-				(proc0_18 gLarry 920 7 80 {You} 67 -1 20 108)
+				(proc0_18 gLarry 920 7 80 {Ty} 67 -1 20 108)
 				(ShakeScreen 5 2)
 				(= ticks 90)
 			)
@@ -330,7 +330,7 @@
 		y 108
 		description {Chi Chi Lambada}
 		sightAngle 90
-		lookStr {Chi Chi loves doing sexually-explicit gymnastics routines.}
+		lookStr {Chi Chi miluje sexuálnì explicitní gymnastické cviky.}
 		view 922
 		loop 2
 		priority 7
@@ -343,9 +343,9 @@
 	(properties
 		x 128
 		y 158
-		description {the venetian blinds}
+		description {žaluzie}
 		sightAngle 90
-		lookStr {If it weren't for these venetian blinds, we'd all have a perfect view!}
+		lookStr {Nebýt tìchto žaluzií, mìli bychom všichni dokonalý výhled!}
 		view 920
 		priority 14
 		signal $4810
@@ -357,9 +357,9 @@
 	(properties
 		x 136
 		y 44
-		description {the rope}
+		description {provaz}
 		sightAngle 90
-		lookStr {Hang on to this!}
+		lookStr {Tohto se drž!}
 		view 923
 		loop 2
 		signal $4810

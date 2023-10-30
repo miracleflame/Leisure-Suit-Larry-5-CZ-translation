@@ -150,7 +150,7 @@
 			)
 			(8
 				(global2 drawPic: (global2 picture?))
-				(localproc_048e {Výtvarný návrháø\n\nJane Cardinal} 0)
+				(localproc_048e {Výtvarní návrháø\n\nJane Cardinal} 0)
 				(= seconds 4)
 			)
 			(9

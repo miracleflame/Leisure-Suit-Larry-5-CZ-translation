@@ -5,7 +5,7 @@
 {Podívej, ty blbeèku. Jestli se zatouláš a necháš tu kartu tady, postarám se, aby tvoje zavazadla letìla bez mezipøistání do Muncie v Indianì!}
 {Fajn. Ignoruju tì.}
 {Zadali jste nesprávnou destinaci pro toto letištì v tuto hodinu. Ale i tak si vážíme toho, že jste si vybrali AeroDork Airlines.}
-(palubní lístek)
+{palubní lístek}
 {Aha, to jste vy, pane Hughesi! Samozøejmì, že mùžete mít palubní lístek! Hned to bude, pane!}
 {Prosím, vezmìte si palubní vstupenku.}
 {tvoje karta AeroDork}

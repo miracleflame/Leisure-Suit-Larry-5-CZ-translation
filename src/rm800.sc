@@ -22,7 +22,7 @@
 )
 (instance rm800 of LLRoom
 	(properties
-		lookStr {You are outside the studios of `K-Rap Radio.' It appears to be an amazingly small building for a station of such importance.}
+		lookStr {Jsi pøed studiem rádia K-Rap. Zdá se, že na tak významnou stanici je to pøekvapivì malá budova.}
 		picture 800
 		north 820
 	)
@@ -151,10 +151,10 @@
 		nsTop 148
 		nsBottom 174
 		nsRight 125
-		description {your limousine}
+		description {tvoje limuzína}
 		approachX 26
 		approachY 152
-		lookStr {Your limousine awaits your return.}
+		lookStr {Tvoje limuzína èeká na tvùj návrat.}
 	)
 	
 	(method (doVerb theVerb)
@@ -173,8 +173,8 @@
 	(properties
 		x 156
 		y 27
-		description {the K-RAP sign}
-		lookStr {High above your head, K-RAP's neon sign illuminates the Baltimore night.}
+		description {nápis K-RAP}
+		lookStr {Vysoko nad tvou hlavou osvìtluje baltimorskou noc neonový nápis K-RAP.}
 		view 800
 		cel 8
 		detailLevel 3
@@ -190,10 +190,10 @@
 	(properties
 		x 153
 		y 138
-		description {the door}
+		description {dveøe}
 		approachX 153
 		approachY 144
-		lookStr {K-RAP's doors are always open.}
+		lookStr {Dveøe K-RAP jsou vždy otevøené.}
 		view 800
 		loop 1
 		priority 9
@@ -210,8 +210,8 @@
 	(properties
 		x 71
 		y 118
-		description {the left speaker}
-		lookStr {K-RAP's loudspeakers broadcast the station's current programming.}
+		description {levý reproduktor}
+		lookStr {Reproduktory K-RAP vysílají aktuální program stanice.}
 		view 800
 		loop 2
 		detailLevel 5
@@ -227,8 +227,8 @@
 	(properties
 		x 235
 		y 114
-		description {the right speaker}
-		lookStr {K-RAP's loudspeakers broadcast the station's current programming.}
+		description {pravý reproduktor}
+		lookStr {Reproduktory K-RAP vysílají aktuální program stanice.}
 		view 800
 		loop 3
 		detailLevel 5
@@ -248,9 +248,9 @@
 		nsLeft 36
 		nsBottom 147
 		nsRight 64
-		description {the bush}
+		description {køoví}
 		sightAngle 40
-		lookStr {Someone planted these bushes right in the middle of this busy sidewalk!}
+		lookStr {Nìkdo tyhle keøe zasadil pøímo doprostøed tohoto rušného chodníku!}
 	)
 )
 
@@ -262,9 +262,9 @@
 		nsLeft 89
 		nsBottom 148
 		nsRight 125
-		description {the bush}
+		description {køoví}
 		sightAngle 40
-		lookStr {Someone planted these bushes right in the middle of this busy sidewalk!}
+		lookStr {Nìkdo vysadil tyto keøe pøímo uprostøed tohoto rušného chodníku!}
 	)
 )
 
@@ -276,9 +276,9 @@
 		nsLeft 196
 		nsBottom 151
 		nsRight 224
-		description {the bush}
+		description {keø}
 		sightAngle 40
-		lookStr {Someone planted these bushes right in the middle of this busy sidewalk!}
+		lookStr {Nìkdo vysadil tyto keøe pøímo uprostøed tohoto rušného chodníku!}
 	)
 )
 
@@ -290,9 +290,9 @@
 		nsLeft 268
 		nsBottom 151
 		nsRight 299
-		description {the bush}
+		description {køoví}
 		sightAngle 40
-		lookStr {Someone planted these bushes right in the middle of this busy sidewalk!}
+		lookStr {Nìkdo vysadil tyto keøe pøímo uprostøed tohoto rušného chodníku!}
 	)
 )
 
@@ -304,9 +304,9 @@
 		nsLeft 112
 		nsBottom 98
 		nsRight 210
-		description {the mural}
+		description {freska}
 		sightAngle 40
-		lookStr {K-RAP radio has a mural of musicians on their wall.}
+		lookStr {Rádio K-RAP má na zdi nástìnnou malbu hudebníkù.}
 	)
 )
 
@@ -317,9 +317,9 @@
 		nsLeft 225
 		nsBottom 90
 		nsRight 303
-		description {the tower}
+		description {vìž}
 		sightAngle 40
-		lookStr {The tower holds the antennas that broadcast K-RAP's stereo multiplexed signal to millions of people (some of whom listen!).}
+		lookStr {Na vìži jsou umístìny antény, které vysílají stereofonní multiplexní signál rádia K-RAP pro miliony lidí (z nichž nìkteøí poslouchají!).}
 	)
 )
 
@@ -330,9 +330,9 @@
 		nsTop 44
 		nsBottom 141
 		nsRight 49
-		description {the trees}
+		description {stromy}
 		sightAngle 40
-		lookStr {A clump of white birch trees grows just outside K-RAP.}
+		lookStr {Kousek od K-RAP roste houf bílých bøíz.}
 	)
 )
 
@@ -438,13 +438,13 @@
 						800
 						3
 						81
-						{Save}
+						{Uložit}
 						1
 						81
-						{Nah, Why Bother?}
+						{Ne, proè se obtìžovat?}
 						0
 						80
-						{AL says}
+						{AL øíká}
 						67
 						-1
 						20

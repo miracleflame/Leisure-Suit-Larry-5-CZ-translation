@@ -18,8 +18,8 @@
 	local3
 	local4
 	local5
-	[local6 4] = [{Restore} {__Save__} {Replace} {Replace}]
-	[local10 4] = [{Select the game that you would like to restore.} {Type the description of this saved game.} {This directory/disk can hold no more saved games. You must replace one of your saved games or use Change Directory to save on a different directory/disk.} {This directory/disk can hold no more saved games. You must replace one of your saved games or use Change Directory to save on a different directory/disk.}]
+	[local6 4] = [{Obnovit} {__Uložit__} {Nahradit} {Nahradit}]
+	[local10 4] = [{Vyberte hru, kterou chcete obnovit.} {Zadejte popis této uložené hry.} {Tento adresáø/disk nemùže pojmout žádné další uložené hry. Musíte nahradit nìkterou z uložených her nebo pomocí funkce Zmìnit adresáø uložit do jiného adresáøe/disku.} {Tento adresáø/disk nemùže pojmout žádné další uložené hry. Musíte nahradit nìkterou z uložených her nebo pomocí funkce Zmìnit adresáø uložit do jiného adresáøe/disku.}]
 )
 (procedure (proc990_0 param1 &tmp temp0 [temp1 33] [temp34 100] temp134)
 	(asm
@@ -52,7 +52,7 @@ code_088a:
 		push    
 		pushi    1
 		pushi    81
-		lofsa    {Cancel}
+		lofsa    {Zrušit}
 		push    
 		pushi    0
 		calle    proc255_0,  26
@@ -514,15 +514,15 @@ code_0431:
 			pushi    0
 			self     4
 			pushi    8
-			lofsa    {Are you sure you want to\0D\ndelete this saved game?}
+			lofsa    {Jste si jisti, že chcete\0D\nsmazat tuto uloženou hru?}
 			push    
 			pushi    106
 			pushi    81
-			lofsa    { No_}
+			lofsa    { Ne_}
 			push    
 			pushi    0
 			pushi    81
-			lofsa    {Yes}
+			lofsa    {Ano}
 			push    
 			pushi    1
 			calle    proc940_0,  16
@@ -715,7 +715,7 @@ code_0596:
 	(properties
 		elements 0
 		size 0
-		text {Restore a Game}
+		text {Obnovit hru}
 		window 0
 		theItem 0
 		nsTop 0
@@ -734,7 +734,7 @@ code_0596:
 	(properties
 		elements 0
 		size 0
-		text {Save a Game}
+		text {Uložit hru}
 		window 0
 		theItem 0
 		nsTop 0
@@ -813,19 +813,19 @@ code_0596:
 
 (instance cancelI of DButton
 	(properties
-		text { Cancel_}
+		text { Zrušit_}
 	)
 )
 
 (instance changeDirI of DButton
 	(properties
-		text {Change\0D\nDirectory}
+		text {Zmìnit\0D\nAdresáø}
 	)
 )
 
 (instance deleteI of DButton
 	(properties
-		text { Delete_}
+		text { Smazat_}
 	)
 )
 
@@ -837,14 +837,14 @@ code_0596:
 
 (instance text1 of DText
 	(properties
-		text {Replace}
+		text {Nahradit}
 		font 0
 	)
 )
 
 (instance text2 of DText
 	(properties
-		text {with:}
+		text {s:}
 		font 0
 	)
 )
@@ -861,12 +861,12 @@ code_0596:
 
 (instance button1 of DButton
 	(properties
-		text {Replace}
+		text {Nahradit}
 	)
 )
 
 (instance button2 of DButton
 	(properties
-		text {Cancel}
+		text {Zrušit}
 	)
 )

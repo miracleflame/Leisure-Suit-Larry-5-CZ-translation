@@ -344,7 +344,7 @@
 	(properties
 		x 264
 		y 165
-		description {the door}
+		description {dveøe}
 		sightAngle 90
 		approachX 231
 		approachY 164
@@ -390,7 +390,7 @@
 		x 128
 		y 247
 		description {Michelle Milken}
-		lookStr {It's her, Larry! Watch her carefully; perhaps you could follow her!}
+		lookStr {To je ona, Larry! Pozornì ji sleduj, možná bys ji mohl následovat!}
 		view 527
 	)
 	
@@ -408,9 +408,9 @@
 	(properties
 		x 39
 		y 146
-		description {the fat lady}
+		description {tlustá dáma}
 		sightAngle 40
-		lookStr {You presume she's the one who sings when it's over.}
+		lookStr {Pøedpokládáš, že ona je ta, která zpívá, když je po všem.}
 		view 525
 		loop 7
 		priority 1
@@ -435,7 +435,7 @@
 	(properties
 		x 192
 		y 132
-		description {the monitor}
+		description {monitor}
 		sightAngle 40
 		view 510
 		loop 2
@@ -448,9 +448,9 @@
 	(properties
 		x 159
 		y 70
-		description {the bald man}
+		description {plešatý muž}
 		sightAngle 90
-		lookStr {That's one of the few people in this huge cafe.}
+		lookStr {To je jeden z mála lidí v této obrovské kavárnì.}
 		view 525
 		loop 5
 		priority 4
@@ -462,9 +462,9 @@
 	(properties
 		x 73
 		y 70
-		description {the lonely man}
+		description {osamìlý muž}
 		sightAngle 90
-		lookStr {That's one of the few people in this huge cafe.}
+		lookStr {To je jeden z mála lidí v této obrovské kavárnì.}
 		view 525
 		loop 5
 		cel 1
@@ -477,9 +477,9 @@
 	(properties
 		x 116
 		y 86
-		description {the lonely man}
+		description {osamìlý muž}
 		sightAngle 90
-		lookStr {That's one of the few people in this huge cafe.}
+		lookStr {To je jeden z mála lidí v této obrovské kavárnì.}
 		view 525
 		loop 6
 		priority 4
@@ -491,9 +491,9 @@
 	(properties
 		x 21
 		y 92
-		description {the lonely woman}
+		description {osamìlá žena}
 		sightAngle 90
-		lookStr {That's one of the few people in this huge cafe.}
+		lookStr {To je jeden z mála lidí v této obrovské kavárnì.}
 		view 525
 		loop 6
 		cel 1
@@ -532,9 +532,9 @@
 		nsLeft 14
 		nsBottom 177
 		nsRight 90
-		description {their table}
+		description {jejich stùl}
 		sightAngle 40
-		lookStr {This table seems to be occupied. Extremely occupied!}
+		lookStr {Tento stùl se zdá být obsazený. Extrémnì obsazený!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -555,7 +555,7 @@
 		nsLeft 90
 		nsBottom 162
 		nsRight 170
-		description {your table}
+		description {tvùj stùl}
 		sightAngle 40
 		approachX 114
 		approachY 163
@@ -591,9 +591,9 @@
 		y 57
 		nsBottom 115
 		nsRight 204
-		description {the tables}
+		description {stoly}
 		sightAngle 40
-		lookStr {What a huge cafe to have so few customers.}
+		lookStr {Jaká obrovská kavárna, a tak málo zákazníkù.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -615,9 +615,9 @@
 		nsLeft 271
 		nsBottom 188
 		nsRight 318
-		description {the cactus}
+		description {kaktus}
 		sightAngle 40
-		lookStr {Insert your favorite cactus and "prick" joke here.}
+		lookStr {Zde vložte svùj oblíbený vtip o kaktusech a "píchání".}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -638,7 +638,7 @@
 		nsLeft 176
 		nsBottom 158
 		nsRight 215
-		description {the tape reader}
+		description {èteèka kazet}
 		sightAngle 40
 		approachX 210
 		approachY 161
@@ -676,7 +676,7 @@
 		nsLeft 227
 		nsBottom 159
 		nsRight 266
-		description {the door}
+		description {dveøe}
 		sightAngle 40
 		onMeCheck $0002
 		approachX 231

@@ -24,7 +24,7 @@
 
 (instance rm520 of LLRoom
 	(properties
-		lookStr {You are looking at "The Hard Disk Cafe's" exclusive paper membership tape reader. It controls admittance to the club.}
+		lookStr {Právì se díváš na exkluzivní èteèku papírových èlenských pásek "Hard Disk Cafe". Kontroluje vstup do klubu.}
 		picture 520
 	)
 	
@@ -309,9 +309,9 @@
 	(properties
 		x 302
 		y 55
-		description {your tape}
+		description {tvoje páska}
 		sightAngle 90
-		lookStr {Your membership tape hangs from the machine's open lip.}
+		lookStr {Tvoje èlenská páska visí na otevøeném rtu pøístroje.}
 		view 520
 		signal $7810
 		cycleSpeed 20

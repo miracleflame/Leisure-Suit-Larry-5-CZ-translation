@@ -17,7 +17,7 @@
 
 (instance rm190 of LLRoom
 	(properties
-		lookStr {You are outside PPC's general headquarters, nestled in the smog beneath the Hollywood hills. Gawd, how you love being in show biz!}
+		lookStr {Jste před generálním ředitelstvím PPC, které se ukrývá ve smogu pod hollywoodskými kopci. Božíčku, jak se ti líbí být v showbyznysu!}
 		picture 190
 		north 160
 	)
@@ -239,10 +239,10 @@
 		x 10
 		y 1138
 		z 1000
-		description {your limousine}
+		description {tvá limuzína}
 		approachX 29
 		approachY 136
-		lookStr {At last! You finally get to ride in a real limo.}
+		lookStr {Konečně! Konečně se můžeš svézt opravdovou limuzínou.}
 		view 190
 		priority 9
 		signal $0010
@@ -265,10 +265,10 @@
 		x 175
 		y 132
 		heading 180
-		description {the front door of PornProdCorp}
+		description {vstupní dveře PornProdCorp}
 		approachX 185
 		approachY 134
-		lookStr {This door leads back into the PPC lobby.}
+		lookStr {Tyto dveře vedou zpět do vestibulu PPC.}
 		view 192
 		loop 2
 		entranceTo 160
@@ -292,9 +292,9 @@
 	(properties
 		x 92
 		y 160
-		description {the fountain}
+		description {fontána}
 		sightAngle 40
-		lookStr {Passing the tinkling water makes you want to pass tinkling water.}
+		lookStr {Když míjíš zurčící vodu, chceš vypustit zurčící vodu.}
 		view 192
 		priority 15
 		signal $0010
@@ -370,9 +370,9 @@
 		nsLeft 180
 		nsBottom 37
 		nsRight 207
-		description {that PornProdCorp logo}
+		description {to logo PornProdCorp}
 		sightAngle 40
-		lookStr {You presume PPC chose that logo because the tongue is the universal symbol of good taste.}
+		lookStr {Předpokládáš, že PPC si to logo vybrala, protože jazyk je univerzálním symbolem vytříbené chuti.}
 	)
 )
 
@@ -385,7 +385,7 @@
 		nsLeft 235
 		nsBottom 134
 		nsRight 292
-		description {the palm tree}
+		description {palma}
 		sightAngle 40
 		onMeCheck $4000
 	)
@@ -411,9 +411,9 @@
 		y 80
 		nsBottom 46
 		nsRight 61
-		description {the Hollywood sign}
+		description {nápis Hollywood}
 		sightAngle 40
-		lookStr {You love working here because everyone in this city tries so hard to treat you fairly.}
+		lookStr {Rád tu pracuješ, protože se tu všichni strašně snaží, aby se k tobě chovali férově.}
 	)
 )
 
@@ -424,9 +424,9 @@
 		nsTop 71
 		nsBottom 113
 		nsRight 57
-		description {the buildings}
+		description {budovy}
 		sightAngle 40
-		lookStr {You wonder how many disco parties are going on in those office buildings over there!}
+		lookStr {Zajímalo by tě, kolik disko večírků se koná v těch kancelářských budovách tamhle!}
 	)
 )
 
@@ -438,9 +438,9 @@
 		nsLeft 279
 		nsBottom 105
 		nsRight 319
-		description {the buildings}
+		description {budovy}
 		sightAngle 40
-		lookStr {You wonder how many disco parties are going on in those office buildings over there!}
+		lookStr {Zajímalo by tě, kolik disko večírků se koná v těch kancelářských budovách tamhle!}
 	)
 )
 
@@ -452,9 +452,9 @@
 		nsLeft 81
 		nsBottom 116
 		nsRight 129
-		description {the windows}
+		description {okna}
 		sightAngle 40
-		lookStr {You just love voyeurism, don't you?}
+		lookStr {Ty prostě miluješ šmírování, viď?}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -479,9 +479,9 @@
 		nsLeft 216
 		nsBottom 112
 		nsRight 260
-		description {the windows}
+		description {okna}
 		sightAngle 40
-		lookStr {You just love voyeurism, don't you?}
+		lookStr {Ty prostě miluješ šmírování, viď?}
 	)
 	
 	(method (doVerb theVerb param2)

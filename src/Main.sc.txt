@@ -7,12 +7,12 @@
 {Dìlej}
 {Mluv}
 {Zip}
-{NEZNÁMÉ VERB}
+{UNKNOWN VERB}
 {\0D\n}
 {Ty}
 {Ty}
 {x.yyy.zzz}
-{mm/dd/rr}
+{mm/dd/yy}
 {991-999-9999}
 {992-999-9999}
 {verze}
@@ -32,7 +32,7 @@
 {Uups}
 {Zaškrtnutím této ikony použijete aktuální pøedmìt v inventáøi.}
 {Pomocí této ikony vyvoláte okno s inventáøem.}
-{Tato ikona vyvolá ovládací panel.}
+{Tato ikona vyvolá panel nastavení.}
 {Chcete-li se seznámit s dalšími ikonami, kliknìte nejprve sem a poté pøejdìte otazníkem na další ikony.}
 {Zvýšení množství animace na pozadí. Pokud se vám hra zdá pomalá, snižte ji.}
 {Tímto nastavíte hlasitost.}

@@ -21,7 +21,7 @@
 )
 (instance rm290 of LLRoom
 	(properties
-		lookStr {All your life you assumed those snooty, private airport waiting rooms were filled with luxurious appointments.}
+		lookStr {Celý život jsi pøedpokládal, že ty snobské soukromé letištní èekárny jsou plné luxusních schùzek.}
 		picture 290
 		north 310
 		south 270
@@ -173,7 +173,7 @@
 	(properties
 		x 190
 		y 144
-		description {the chair}
+		description {køeslo}
 		sightAngle 90
 		view 290
 	)
@@ -193,7 +193,7 @@
 	(properties
 		x 152
 		y 118
-		description {the jetway door}
+		description {dveøe do letové dráhy}
 		sightAngle 90
 		view 290
 		loop 1
@@ -217,7 +217,7 @@
 	(properties
 		x 153
 		y 62
-		description {the boarding sign}
+		description {nástupní znaèka}
 		sightAngle 90
 		view 290
 		loop 2
@@ -287,7 +287,7 @@
 		nsLeft 176
 		nsBottom 105
 		nsRight 194
-		description {the Automatic Boarding Pass Machine}
+		description {automat na palubní lístky}
 		sightAngle 90
 	)
 	
@@ -330,7 +330,7 @@
 		nsLeft 85
 		nsBottom 116
 		nsRight 97
-		description {the coffee pot}
+		description {konvice na kávu}
 		sightAngle 40
 		approachX 104
 		approachY 136
@@ -355,7 +355,7 @@
 		nsLeft 68
 		nsBottom 137
 		nsRight 102
-		description {the coffee cabinet}
+		description {skøíòka na kávu}
 		sightAngle 40
 	)
 	
@@ -378,7 +378,7 @@
 		nsLeft 140
 		nsBottom 45
 		nsRight 161
-		description {the light fixture}
+		description {svítidlo}
 		sightAngle 40
 	)
 	
@@ -401,9 +401,9 @@
 		nsLeft 64
 		nsBottom 96
 		nsRight 89
-		description {the lovely painting}
+		description {krásný obraz}
 		sightAngle 40
-		lookStr {You've always admired paintings on velvet!}
+		lookStr {Vždycky jsi obdivoval obrazy na sametu!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -424,9 +424,9 @@
 		nsLeft 213
 		nsBottom 105
 		nsRight 246
-		description {the beautiful painting}
+		description {krásný obraz}
 		sightAngle 40
-		lookStr {The last time you saw art this nice, you were in Tijuana.}
+		lookStr {Naposledy jsi vidìl tak pìkné umìní v Tijuanì.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -548,7 +548,7 @@
 					290
 					20
 					(switch global160
-						(0 {Los Angeles, cheater})
+						(0 {Los Angeles, podvodníku})
 						(1 {New York})
 						(2 {Atlantic City})
 						(3 {Miami})

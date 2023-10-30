@@ -470,7 +470,7 @@
 			)
 			(2
 				(if (and (== local1 1) (not (HaveMouse)))
-					(proc0_14 660 14 67 -1 15 70 280 80 {A Tip from AL})
+					(proc0_14 660 14 67 -1 15 70 280 80 {Tip od Ala})
 				)
 				(if (> local1 1)
 					(rewind play: self)
@@ -1185,8 +1185,8 @@
 	(properties
 		x 249
 		y 96
-		description {the door}
-		lookStr {This door leads to the control booth--and Reverse Biaz.}
+		description {dveøe}
+		lookStr {Tyto dveøe vedou do øídící kabiny--a k Reverse Biazovi.}
 		view 660
 		signal $4001
 		cycleSpeed 10
@@ -1207,7 +1207,7 @@
 		x 286
 		y 64
 		description {Reverse Biaz}
-		lookStr {Reverse Biaz is the man the F.B.I. linked to backwards subliminal message recording at this studio. But he does looks cute.}
+		lookStr {Reverse Biaz je muž, kterého FBI spojila se zpìtným nahráváním podprahových zpráv v tomto studiu. Ale vypadá roztomile.}
 		view 662
 		priority 5
 		signal $4011
@@ -1287,7 +1287,7 @@
 	(properties
 		x 183
 		y 83
-		description {the control room mixer}
+		description {mixážní pult v øídící místnosti}
 		sightAngle 40
 		view 670
 		loop 6
@@ -1304,7 +1304,7 @@
 	(properties
 		x 214
 		y 26
-		description {the tape reel}
+		description {páskový kotouè}
 		sightAngle 40
 		view 670
 		loop 2
@@ -1330,7 +1330,7 @@
 	(properties
 		x 236
 		y 26
-		description {the tape reel}
+		description {páskový kotouè}
 		sightAngle 40
 		view 670
 		loop 3
@@ -1348,7 +1348,7 @@
 	(properties
 		x 261
 		y 27
-		description {the tape reel}
+		description {páskový kotouè}
 		sightAngle 40
 		view 670
 		loop 4
@@ -1366,7 +1366,7 @@
 	(properties
 		x 283
 		y 27
-		description {the tape reel}
+		description {páskový kotouè}
 		sightAngle 40
 		view 670
 		loop 5
@@ -1384,9 +1384,9 @@
 	(properties
 		x 169
 		y 29
-		description {the VU meter}
+		description {VU metr}
 		sightAngle 40
-		lookStr {This meter measures dynamic levels in decibels, each of which is about 1/10th of a bel.}
+		lookStr {Tento mìøiè mìøí dynamické úrovnì v decibelech, z nichž každý je pøibližnì 1/10 belu.}
 		view 670
 		signal $0001
 		cycleSpeed 10
@@ -1405,7 +1405,7 @@
 		nsLeft 0
 		nsBottom 0
 		nsRight 0
-		description {the key}
+		description {klávesa}
 		sightAngle 26505
 		actions 0
 		onMeCheck $6789
@@ -1600,11 +1600,11 @@
 		nsLeft 77
 		nsBottom 115
 		nsRight 100
-		description {your synthesizer}
+		description {tvùj syntezátor}
 		sightAngle 40
 		approachX 67
 		approachY 131
-		lookStr {This is the synthesizer Reverse Biaz wants you to play.}
+		lookStr {Toto je syntezátor, na kterém chce Reverse Biaz, abys hrál.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1624,9 +1624,9 @@
 		nsLeft 31
 		nsBottom 187
 		nsRight 80
-		description {the music stands}
+		description {stojany na noty}
 		sightAngle 40
-		lookStr {You see a bunch of music stands. Or is it a flock of music stands? Or is it a bevy of music stands? You always forget.}
+		lookStr {Vidíte hromadu notových stojanù. Nebo je to shluk notových stojanù? Nebo je to spíš chumel stojanù na noty? Vždycky na to zapomeneš.}
 	)
 )
 
@@ -1638,9 +1638,9 @@
 		nsLeft 256
 		nsBottom 83
 		nsRight 304
-		description {the control room}
+		description {øídící místnost}
 		sightAngle 40
-		lookStr {From his control room, Reverse can see the entire studio. He can speak to you through the soundproof glass via a talkback loudspeaker.}
+		lookStr {Z jeho øídící místnosti vidí Reverse celé studio. Mùže s tebou mluvit pøes zvukotìsné sklo pøes zpìtný reproduktor.}
 	)
 )
 
@@ -1652,9 +1652,9 @@
 		nsLeft 94
 		nsBottom 70
 		nsRight 107
-		description {the overhead mike}
+		description {mikrofon nad hlavou}
 		sightAngle 40
-		lookStr {You wonder how many evil recordings were done with this microphone.}
+		lookStr {Pøemýšlíš, kolik nekalých nahrávek bylo poøízeno tímto mikrofonem.}
 	)
 )
 
@@ -1666,9 +1666,9 @@
 		nsLeft 135
 		nsBottom 96
 		nsRight 222
-		description {the drum set}
+		description {bicí souprava}
 		sightAngle 40
-		lookStr {As in most studios, the drum set is behind glass to enhance the separation of his sound from the other musicians.}
+		lookStr {Stejnì jako ve vìtšinì studií je bicí souprava za sklem, aby se zlepšilo oddìlení jejího zvuku od zvuku ostatních hudebníkù.}
 	)
 )
 
@@ -1680,7 +1680,7 @@
 		nsLeft 48
 		nsBottom 102
 		nsRight 144
-		description {the music}
+		description {hudba}
 		sightAngle 40
 	)
 	
@@ -1706,9 +1706,9 @@
 		nsTop 111
 		nsBottom 149
 		nsRight 319
-		description {the synthesizer control panel}
+		description {ovládací panel syntezátoru}
 		sightAngle 40
-		lookStr {des Rever Records spared no expense programming this synthesizer for this session.}
+		lookStr {des Rever Records nešetøili na programování tohoto syntezátoru pro tuto relaci.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1731,7 +1731,7 @@
 		nsLeft 194
 		nsBottom 80
 		nsRight 283
-		description {the control room mixer}
+		description {mixážní pult v øídící místnosti}
 		sightAngle 40
 	)
 	
@@ -1754,9 +1754,9 @@
 		nsLeft 168
 		nsBottom 67
 		nsRight 296
-		description {the studio control panel}
+		description {studiový ovládací panel}
 		sightAngle 40
-		lookStr {This panel contains many digital reverb and special effects units, power amplifiers, patch bays and a copy of last month's Playboy.}
+		lookStr {Tento panel obsahuje mnoho digitálních reverbù a speciálních efektù, výkonové zesilovaèe, propojovací pole a kopii Playboye z minulého mìsíce.}
 	)
 )
 

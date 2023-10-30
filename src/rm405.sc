@@ -50,7 +50,7 @@
 	(properties
 		x 94
 		y 114
-		description {the door}
+		description {dveøe}
 		approachX 109
 		approachY 124
 		view 405

@@ -41,34 +41,34 @@
 			(switch
 				(= local3
 					(proc940_0
-						{Enter dream to debug:}
+						{Zadejte sen pro ladìní:}
 						106
 						81
-						{Dream of Athens}
+						{Sen o Aténách}
 						1
 						106
 						81
-						{Wake up from Athens}
+						{Probudit se z Atén}
 						5
 						106
 						81
-						{Dream of Venice}
+						{Sen o Benátkách}
 						2
 						106
 						81
-						{Wake up from Venice}
+						{Probudit se z Benátek}
 						6
 						106
 						81
-						{Dream of Taj Mahal}
+						{Sen o Tádž Mahalu}
 						3
 						106
 						81
-						{Wake up from Taj Mahal}
+						{Probudit se z Tádž Mahalu}
 						7
 						106
 						81
-						{Dream of Casablanca}
+						{Sen o Casablance}
 						4
 					)
 				)
@@ -306,7 +306,7 @@
 	(properties
 		x 134
 		y 70
-		description {your head}
+		description {tvá hlava}
 		view 321
 		loop 1
 		priority 4
@@ -336,7 +336,7 @@
 		x 202
 		y 204
 		z 100
-		description {the tray}
+		description {tác}
 		view 325
 		loop 4
 		priority 4
@@ -363,8 +363,8 @@
 	(properties
 		x 126
 		y 79
-		description {your arm}
-		lookStr {You've always liked this arm.}
+		description {tvá ruka}
+		lookStr {Vždycky se ti ta ruka líbila.}
 		view 321
 		loop 2
 		priority 5
@@ -376,8 +376,8 @@
 	(properties
 		x 173
 		y 84
-		description {your arm}
-		lookStr {You've always liked this arm.}
+		description {tvoje ruka}
+		lookStr {Vždycky jsi mìl rád tuhle ruku.}
 		view 321
 		loop 2
 		cel 1
@@ -390,7 +390,7 @@
 	(properties
 		x 165
 		y 125
-		description {your body}
+		description {tvoje tìlo}
 		view 321
 		priority 2
 		signal $4810
@@ -416,7 +416,7 @@
 	(properties
 		x 244
 		y 44
-		description {the cloud}
+		description {mrak}
 		view 320
 		loop 1
 		signal $4810
@@ -594,7 +594,7 @@
 	(properties
 		x 208
 		y 114
-		description {the airline magazine}
+		description {letecký èasopis}
 		view 320
 		priority 1
 		signal $4810
@@ -926,7 +926,7 @@
 			(7
 				(proc0_14 320 19 67 -1 15 70 280)
 				(larry view: 325 setLoop: 1)
-				(proc0_14 320 20 67 -1 185 80 {The Stewardess} 108 self)
+				(proc0_14 320 20 67 -1 185 80 {Letuška} 108 self)
 				(arm setScript: 0)
 			)
 			(8
@@ -1465,7 +1465,7 @@
 		nsLeft 196
 		nsBottom 112
 		nsRight 216
-		description {the magazine}
+		description {èasopis}
 		sightAngle 40
 	)
 	

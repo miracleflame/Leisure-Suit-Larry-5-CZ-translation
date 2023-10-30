@@ -147,7 +147,7 @@
 
 (instance bodyPart of Actor
 	(properties
-		description {her}
+		description {ona}
 		view 740
 		signal $4000
 	)
@@ -188,25 +188,25 @@
 				(self perform: findWhere)
 				(switch cel
 					(1
-						(proc0_14 740 11 67 -1 185 80 {The Audience} 30 1 108)
+						(proc0_14 740 11 67 -1 185 80 {Publikum} 30 1 108)
 					)
 					(0
-						(proc0_14 740 12 67 -1 185 80 {The Audience} 30 1 108)
+						(proc0_14 740 12 67 -1 185 80 {Publikum} 30 1 108)
 					)
 					(3
-						(proc0_14 740 13 67 -1 185 80 {The Audience} 30 1 108)
+						(proc0_14 740 13 67 -1 185 80 {Publikum} 30 1 108)
 					)
 					(2
-						(proc0_14 740 14 67 -1 185 80 {The Audience} 30 1 108)
+						(proc0_14 740 14 67 -1 185 80 {Publikum} 30 1 108)
 					)
 					(4
-						(proc0_14 740 15 67 -1 185 80 {The Audience} 30 1 108)
+						(proc0_14 740 15 67 -1 185 80 {Publikum} 30 1 108)
 					)
 					(5
-						(proc0_14 740 16 67 -1 185 80 {The Audience} 30 1 108)
+						(proc0_14 740 16 67 -1 185 80 {Publikum} 30 1 108)
 					)
 					(6
-						(proc0_14 740 17 67 -1 185 80 {The Audience} 30 1 108)
+						(proc0_14 740 17 67 -1 185 80 {Publikum} 30 1 108)
 					)
 				)
 			)
@@ -241,8 +241,8 @@
 	(properties
 		x 160
 		y 100
-		description {you and Lana}
-		lookStr {That's you and Lana wrestling, but you can't touch you from way up here!}
+		description {ty a Lana}
+		lookStr {To jsi ty a Lana, jak zápasíte, ale odsud se nemùžeš dotknout!}
 		view 743
 		signal $4800
 	)

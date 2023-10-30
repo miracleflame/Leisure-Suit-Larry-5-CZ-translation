@@ -159,7 +159,7 @@
 			)
 			(25 (= ticks 123))
 			(26
-				(proc0_14 750 2 80 {You} 67 -1 15 70 280)
+				(proc0_14 750 2 80 {Ty} 67 -1 15 70 280)
 				(= ticks 123)
 			)
 			(27
@@ -193,7 +193,7 @@
 		y 130
 		description {Lana}
 		sightAngle 40
-		lookStr {How Lana has changed! Outside, she was just a beautiful young lady. In here, she's an animal!}
+		lookStr {Jak se Lana zmìnila! Navenek to byla jen krásná mladá dáma. Tady je z ní zvíøe!}
 		view 753
 		signal $4000
 	)

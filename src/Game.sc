@@ -29,7 +29,7 @@
 			temp81
 			994
 			3
-			(if param1 {ULOŽIT HRU} else {GAME})
+			(if param1 {SAVE GAME} else {GAME})
 			@temp1
 		)
 		(Load rsFONT global22)

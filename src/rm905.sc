@@ -43,7 +43,7 @@
 
 (instance rm905 of LLRoom
 	(properties
-		lookStr {You are inside the waiting room of Doc Pulliam's Dental Hygiene Heaven. You love the carpet motif; in fact, you feel sure you seen something a lot like it before... somewhere.}
+		lookStr {Jsi v èekárnì Ráje dentální hygieny doktora Pulliama. Líbí se ti motiv koberce; vlastnì si jsi jistý, že už jsi nìco podobného nìkde vidìl...}
 		picture 905
 		east 910
 		south 900
@@ -206,7 +206,7 @@
 		nsLeft 41
 		nsBottom 103
 		nsRight 67
-		description {the magazines}
+		description {èasopisy}
 		sightAngle 40
 		approachX 62
 		approachY 120
@@ -243,12 +243,12 @@
 		nsTop 75
 		nsBottom 189
 		nsRight 34
-		description {the palm tree}
+		description {palma}
 		sightAngle 40
 		onMeCheck $0004
 		approachX 40
 		approachY 184
-		lookStr {You wonder if that palm tree will ever require a "root canal?"}
+		lookStr {Pøemýšlíš, jestli ta palma bude nìkdy potøebovat "koøenový kanálek"?}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -287,9 +287,9 @@
 		nsTop 41
 		nsBottom 93
 		nsRight 28
-		description {the painting}
+		description {malba}
 		sightAngle 40
-		lookStr {You've always been a big fan of the "Happy Tooth School" of art.}
+		lookStr {Vždycky jsi byl velkým fanouškem umìlecké školy "Veselý zub".}
 	)
 )
 
@@ -301,9 +301,9 @@
 		nsLeft 257
 		nsBottom 106
 		nsRight 298
-		description {the painting}
+		description {malba}
 		sightAngle 40
-		lookStr {You've always been a big fan of the "Happy Tooth School" of art.}
+		lookStr {Vždycky jsi byl velkým fanouškem umìlecké školy " Veselý zub".}
 	)
 )
 
@@ -315,9 +315,9 @@
 		nsLeft 310
 		nsBottom 110
 		nsRight 319
-		description {Doc's diplomas}
+		description {doktorovy diplomy}
 		sightAngle 40
-		lookStr {Funny. You've never heard of a dentist specializing in "String and Doorknob" dentistry. And where exactly is the "School of Hard Knockers?"}
+		lookStr {Vtipné. Nikdy jsi neslyšel o zubaøi, který se specializuje na zubaøinu "Provázek a klika". A kde pøesnì je "Škola tvrdého klepání"?}
 	)
 )
 
@@ -329,11 +329,11 @@
 		nsLeft 177
 		nsBottom 113
 		nsRight 203
-		description {the table}
+		description {stùl}
 		sightAngle 40
 		approachX 177
 		approachY 117
-		lookStr {You can tell that Doc's wife decorated this place. She's suffering from terminal cuteness!}
+		lookStr {Dá se øíct, že to tu vyzdobila doktorova žena. Trpí smrtelnou roztomilostí!}
 	)
 )
 
@@ -345,11 +345,11 @@
 		nsLeft 28
 		nsBottom 134
 		nsRight 59
-		description {the chair}
+		description {židle}
 		sightAngle 40
 		approachX 62
 		approachY 127
-		lookStr {This chair looks just right!}
+		lookStr {Tahle židle vypadá tak akorát!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -370,9 +370,9 @@
 		nsLeft 265
 		nsBottom 159
 		nsRight 300
-		description {the chair}
+		description {židle}
 		sightAngle 40
-		lookStr {This chair looks too hard.}
+		lookStr {Tahle židle vypadá moc tvrdì.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -393,9 +393,9 @@
 		nsLeft 225
 		nsBottom 143
 		nsRight 268
-		description {the chair}
+		description {židle}
 		sightAngle 40
-		lookStr {This chair looks too soft.}
+		lookStr {Tato židle vypadá pøíliš mìkce.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -416,11 +416,11 @@
 		nsLeft 15
 		nsBottom 170
 		nsRight 50
-		description {the table}
+		description {stùl}
 		sightAngle 40
 		approachX 59
 		approachY 129
-		lookStr {This table contains a telephone, placed here for the convenience of Doc's customers.}
+		lookStr {Tento stùl je vybaven telefonem, který je zde umístìn pro pohodlí doktorových zákazníkù.}
 	)
 	
 	(method (doVerb)
@@ -436,7 +436,7 @@
 		nsLeft 284
 		nsBottom 177
 		nsRight 319
-		description {the table}
+		description {stùl}
 		sightAngle 40
 		approachX 287
 		approachY 159
@@ -482,8 +482,8 @@
 	(properties
 		x 138
 		y 75
-		description {the receptionist}
-		lookStr {You thought this might be the babe you've been searching for. Obviously, she's not. Not even you could consider this one sexy (and you know what low standards YOU have!).}
+		description {recepèní}
+		lookStr {Myslel sis, že tohle by mohla být ta koèka, kterou jsi hledal. Oèividnì není. Ani ty bys ji nemohl považovat za sexy (a víš, jak nízké nároky máš!).}
 		view 909
 	)
 )
@@ -497,11 +497,11 @@
 		nsLeft 24
 		nsBottom 142
 		nsRight 41
-		description {the waiting room telephone}
+		description {telefon v èekárnì}
 		sightAngle 40
 		approachX 59
 		approachY 129
-		lookStr {The long table contains a telephone, placed here for the convenience of Doc's customers.}
+		lookStr {Dlouhý stùl je vybaven telefonem, který je zde umístìn pro pohodlí doktorových zákazníkù.}
 		view 905
 		loop 2
 		signal $4810
@@ -807,7 +807,7 @@
 		nsLeft 71
 		nsBottom 82
 		nsRight 153
-		description {the sliding glass window}
+		description {šoupací sklenìné okno}
 		sightAngle 40
 		approachX 134
 		approachY 109
@@ -841,11 +841,11 @@
 	(properties
 		x 234
 		y 115
-		description {the door}
+		description {dveøe}
 		sightAngle 40
 		approachX 194
 		approachY 120
-		lookStr {This door leads to the inner offices of Doc Pulliam, including (you hope) the cubicle of Chi Chi Lambada, the woman you traveled all this way to "interview."}
+		lookStr {Tyto dveøe vedou do vnitøních kanceláøí doktora Pulliama, vèetnì (doufáš) kabinky Chi Chi Lambady, ženy, se kterou jsi vážil takovou cestu, abys s ní udìlal "rozhovor".}
 		view 905
 		loop 3
 		entranceTo 910
@@ -980,67 +980,67 @@
 					(0 0)
 					(1
 						(= register
-							(proc255_0 905 41 81 {Yes} 0 81 {No} 1 80 @temp2)
+							(proc255_0 905 41 81 {Ano} 0 81 {Ne} 1 80 @temp2)
 						)
 					)
 					(2
 						(= register
-							(proc255_0 905 42 81 {Yes} 0 81 {No} 1 80 @temp2)
+							(proc255_0 905 42 81 {Ano} 0 81 {Ne} 1 80 @temp2)
 						)
 					)
 					(3
 						(= register
-							(proc255_0 905 43 81 {Yes} 1 81 {No} 0 80 @temp2)
+							(proc255_0 905 43 81 {Ano} 1 81 {Ne} 0 80 @temp2)
 						)
 					)
 					(4
 						(= register
-							(proc255_0 905 44 81 {Yes} 1 81 {No} 0 80 @temp2)
+							(proc255_0 905 44 81 {Ano} 1 81 {Ne} 0 80 @temp2)
 						)
 					)
 					(5
 						(= register
-							(proc255_0 905 45 81 {Yes} 0 81 {No} 1 80 @temp2)
+							(proc255_0 905 45 81 {Ano} 0 81 {Ne} 1 80 @temp2)
 						)
 					)
 					(6
 						(= register
-							(proc255_0 905 46 81 {Yes} 0 81 {No} 1 80 @temp2)
+							(proc255_0 905 46 81 {Ano} 0 81 {Ne} 1 80 @temp2)
 						)
 					)
 					(7
 						(= register
-							(proc255_0 905 47 81 {Yes} 0 81 {No} 1 80 @temp2)
+							(proc255_0 905 47 81 {Ano} 0 81 {Ne} 1 80 @temp2)
 						)
 					)
 					(8
 						(= register
-							(proc255_0 905 48 81 {Yes} 0 81 {No} 1 80 @temp2)
+							(proc255_0 905 48 81 {Ano} 0 81 {Ne} 1 80 @temp2)
 						)
 					)
 					(9
 						(= register
-							(proc255_0 905 49 81 {Yes} 0 81 {No} 1 80 @temp2)
+							(proc255_0 905 49 81 {Ano} 0 81 {Ne} 1 80 @temp2)
 						)
 					)
 					(10
 						(= register
-							(proc255_0 905 50 81 {Yes} 0 81 {No} 1 80 @temp2)
+							(proc255_0 905 50 81 {Ano} 0 81 {Ne} 1 80 @temp2)
 						)
 					)
 					(11
 						(= register
-							(proc255_0 905 51 81 {Yes} 1 81 {No} 0 80 @temp2)
+							(proc255_0 905 51 81 {Ano} 1 81 {Ne} 0 80 @temp2)
 						)
 					)
 					(12
 						(= register
-							(proc255_0 905 52 81 {Yes} 1 81 {No} 0 80 @temp2)
+							(proc255_0 905 52 81 {Ano} 1 81 {Ne} 0 80 @temp2)
 						)
 					)
 					(13
 						(= register
-							(proc255_0 905 53 81 {Yes} 1 81 {No} 0 80 @temp2)
+							(proc255_0 905 53 81 {Ano} 1 81 {Ne} 0 80 @temp2)
 						)
 					)
 					(14
@@ -1112,7 +1112,7 @@
 		nsLeft 20
 		nsBottom 157
 		nsRight 37
-		description {the doily}
+		description {ubrousek}
 		sightAngle 40
 		approachX 287
 		approachY 159
@@ -1157,7 +1157,7 @@
 		nsLeft 25
 		nsBottom 137
 		nsRight 38
-		description {the phone}
+		description {telefon}
 		sightAngle 40
 		approachX 62
 		approachY 127
@@ -1176,11 +1176,11 @@
 		nsTop 170
 		nsBottom 189
 		nsRight 39
-		description {the table}
+		description {stùl}
 		sightAngle 40
 		approachX 47
 		approachY 183
-		lookStr {You can tell that Doc's wife decorated this place. She's suffering from terminal cuteness!}
+		lookStr {Dá se øíct, že to tu vyzdobila doktorova žena. Trpí smrtelnou roztomilostí!}
 	)
 )
 

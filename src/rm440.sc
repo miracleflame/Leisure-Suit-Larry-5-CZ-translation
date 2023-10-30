@@ -21,7 +21,7 @@
 
 (instance rm440 of LLRoom
 	(properties
-		lookStr {The F.B.I. laboratory is filled with interesting equipment, most of which baffles you.}
+		lookStr {Laboratoø FBI je plná zajímavého vybavení, z nìhož vìtšina je pro tebe nepochopitelná.}
 		picture 440
 		style $000c
 		east 450
@@ -392,8 +392,8 @@
 	(properties
 		x -15
 		y 100
-		description {Commander Twit}
-		lookStr {He's the perfect image of a man more interested in science than in his own self-image!}
+		description {Komandér Twit}
+		lookStr {Je dokonalým obrazem èlovìka, který se více zajímá o vìdu než o svùj vlastní obraz!}
 		view 432
 		cel 2
 		signal $4000
@@ -435,8 +435,8 @@
 	(properties
 		x 282
 		y 99
-		description {Doctor Hopian's door}
-		lookStr {Through this door lies the offices of Dr. Phil Hopian, F.B.I. gynecologist.}
+		description {Dveøe doktora Hopiana}
+		lookStr {Za tìmito dveømi se nachází ordinace doktora Phila Hopiana, gynekologa FBI.}
 		view 440
 		loop 1
 	)
@@ -458,9 +458,9 @@
 	(properties
 		x 133
 		y 61
-		description {the computer}
+		description {poèítaè}
 		sightAngle 40
-		lookStr {If only you had paid attention when Larry chattered on and on about his computer. You know nothing about this computer and are sure you'll be unable to do anything with it.}
+		lookStr {Kdybys jen dávala pozor, když Larry poøád žvanil o svém poèítaèi. O tomhle poèítaèi nic nevíš a jsi si jistá, že s ním nic neudìláš.}
 		view 440
 		loop 2
 		signal $4000
@@ -515,9 +515,9 @@
 		x 45
 		y 167
 		z 7
-		description {the duck}
+		description {kaèer}
 		sightAngle 40
-		lookStr {If it drinks like a duck, and it quacks like a duck, it must be an experiment.}
+		lookStr {Jestliže to pije jako kachna a kváká to jako kachna, musí to být experiment.}
 		view 440
 		loop 3
 		priority 15
@@ -620,9 +620,9 @@
 		nsLeft 170
 		nsBottom 95
 		nsRight 261
-		description {the machine}
+		description {stroj}
 		sightAngle 40
-		lookStr {This machine does something, you feel quite certain.}
+		lookStr {Tento stroj nìco dìlá, tím jsi si naprosto jistá.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -644,9 +644,9 @@
 		nsLeft 94
 		nsBottom 137
 		nsRight 134
-		description {the chemistry set}
+		description {chemická souprava}
 		sightAngle 40
-		lookStr {This must be the source of the flatulence powder.}
+		lookStr {Tohle musí být zdroj prášku na nadýmání.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -666,9 +666,9 @@
 		nsTop 144
 		nsBottom 189
 		nsRight 319
-		description {the workbench}
+		description {pracovní stùl}
 		sightAngle 40
-		lookStr {Lots of chemicals, beakers, and junk food wrappers fill this workbench.}
+		lookStr {Spousta chemikálií, kádinek a obalù od nezdravého jídla zaplòuje tento pracovní stùl.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -690,9 +690,9 @@
 		nsLeft 28
 		nsBottom 68
 		nsRight 55
-		description {the books}
+		description {knihy}
 		sightAngle 40
-		lookStr {These books are filled with Latin phrases. The only Latin phrases you know would get a sailor thrown out of a bar in Tijuana!}
+		lookStr {Tyto knihy jsou plné latinských frází. Za jediné latinské fráze, které znáš, by námoøníka vyhodili z baru v Tijuanì!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -713,9 +713,9 @@
 		nsTop 54
 		nsBottom 88
 		nsRight 162
-		description {the desk}
+		description {stùl}
 		sightAngle 40
-		lookStr {This desk doesn't contain any secret documents; they all were burned in the big fire last week!}
+		lookStr {Tento stùl neobsahuje žádné tajné dokumenty; všechny shoøely pøi velkém požáru minulý týden!}
 	)
 	
 	(method (doVerb theVerb param2)

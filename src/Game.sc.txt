@@ -1,4 +1,4 @@
-{ULOŽIT HRU}
+{SAVE GAME}
 {GAME}
 {OK}
 {Zrušit}

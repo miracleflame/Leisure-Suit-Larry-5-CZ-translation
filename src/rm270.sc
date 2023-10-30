@@ -27,7 +27,7 @@
 )
 (instance rm270 of LLRoom
 	(properties
-		lookStr {You are inside the AeroDork Airline waiting room and former ticket counter. A security camera peers at you from the far wall.}
+		lookStr {Jsi v èekárnì letecké spoleènosti AeroDork a u bývalé pokladny. Ze vzdálené stìny na vás shlíží bezpeènostní kamera.}
 		picture 270
 		north 290
 		east 280
@@ -256,7 +256,7 @@
 	(properties
 		x 142
 		y 111
-		description {the charity collection canister}
+		description {kontejner na charitativní sbírku}
 		sightAngle 90
 		approachX 139
 		approachY 114
@@ -312,7 +312,7 @@
 		nsLeft 28
 		nsBottom 164
 		nsRight 64
-		description {the plant}
+		description {rostlina}
 		sightAngle 40
 	)
 	
@@ -334,7 +334,7 @@
 		nsLeft 72
 		nsBottom 167
 		nsRight 240
-		description {the chairs}
+		description {židle}
 		sightAngle 40
 	)
 	
@@ -357,7 +357,7 @@
 		nsLeft 240
 		nsBottom 162
 		nsRight 258
-		description {the ashtray}
+		description {popelník}
 		sightAngle 40
 	)
 	
@@ -386,7 +386,7 @@
 		nsLeft 51
 		nsBottom 44
 		nsRight 114
-		description {the sign}
+		description {znaèka}
 		sightAngle 40
 	)
 	
@@ -407,7 +407,7 @@
 		nsLeft 162
 		nsBottom 88
 		nsRight 317
-		description {the ticket counter}
+		description {pultík na prodej vstupenek}
 		sightAngle 40
 	)
 	
@@ -645,7 +645,7 @@
 	(properties
 		x 98
 		y 106
-		description {the door}
+		description {dveøe}
 		sightAngle 90
 		approachX 81
 		approachY 111
@@ -677,7 +677,7 @@
 	(properties
 		x 11
 		y 11
-		description {the sign}
+		description {znaèka}
 		sightAngle 90
 		view 263
 	)
@@ -703,7 +703,7 @@
 	(properties
 		x 163
 		y 11
-		description {the sign}
+		description {znaèka}
 		sightAngle 90
 		view 263
 	)
@@ -732,7 +732,7 @@
 	(properties
 		x 249
 		y 11
-		description {the sign}
+		description {znaèka}
 		sightAngle 90
 		view 263
 	)
@@ -758,7 +758,7 @@
 	(properties
 		x 317
 		y 8
-		description {the sign}
+		description {znaèka}
 		sightAngle 90
 		view 263
 	)
@@ -791,7 +791,7 @@
 		nsLeft 112
 		nsBottom 63
 		nsRight 130
-		description {the security camera}
+		description {bezpeènostní kamera}
 		sightAngle 90
 		approachX 92
 		approachY 113

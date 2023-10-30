@@ -94,16 +94,16 @@
 						{10}
 						10
 						81
-						{Jack}
+						{Kluk}
 						11
 						81
-						{Queen}
+						{Královna}
 						12
 						81
-						{King}
+						{Král}
 						13
 						81
-						{Ace}
+						{Eso}
 						14
 					)
 				)
@@ -112,19 +112,19 @@
 						@temp3
 						106
 						81
-						{Clubs}
+						{Køíové}
 						1
 						106
 						81
-						{Spades}
+						{Pikové}
 						2
 						106
 						81
-						{Diamonds}
+						{Kárové}
 						3
 						106
 						81
-						{Hearts}
+						{Srdcové}
 						4
 					)
 				)
@@ -379,7 +379,7 @@
 				(proc0_14
 					@temp0
 					80
-					{Welcome to Tramp's Casino}
+					{Vítejte v Trampovì kasinu}
 					33
 					global173
 					67
@@ -502,8 +502,8 @@
 	(properties
 		x 132
 		y 176
-		description {the Increase button}
-		lookStr {Click the Hand here to increase your bet.}
+		description {tlaèítko Zvıšit}
+		lookStr {Kliknutím zde rukou a zvıšíte svou sázku.}
 		view 720
 	)
 	
@@ -577,8 +577,8 @@
 	(properties
 		x 175
 		y 172
-		description {the Decrease button}
-		lookStr {Click the Hand here to decrease your bet.}
+		description {tlaèítko Sníení}
+		lookStr {Kliknutím zde rukou snííte svou sázku.}
 		view 720
 		loop 1
 	)
@@ -651,8 +651,8 @@
 	(properties
 		x 287
 		y 151
-		description {the Cash Out button}
-		lookStr {Click the Hand here to stop playing this machine. Your winnings will be given to you automatically.}
+		description {tlaèítko Vyplatit}
+		lookStr {Kliknutím zde rukou ukonèíte hru na tomto automatu. Vaše vıhry vám budou automaticky vyplaceny.}
 		view 720
 		loop 2
 	)
@@ -690,9 +690,9 @@
 	(properties
 		x 29
 		y 151
-		description {the Deal button}
+		description {tlaèítko Rozdat}
 		sightAngle 40
-		lookStr {Click the Hand here to begin a new hand of poker.}
+		lookStr {Kliknutím zde rukou zahájíte novou hru pokeru.}
 		view 720
 		loop 3
 	)
@@ -726,9 +726,9 @@
 	(properties
 		x 68
 		y 151
-		description {the Hold Card 1 button}
+		description {tlaèítko Podret kartu 1}
 		sightAngle 40
-		lookStr {Click the Hand here to hold card #1.}
+		lookStr {Kliknutím zde rukou podríte kartu è. 1.}
 		view 720
 		loop 4
 	)
@@ -766,9 +766,9 @@
 	(properties
 		x 114
 		y 151
-		description {the Hold Card 2 button}
+		description {tlaèítko Podret kartu 2}
 		sightAngle 40
-		lookStr {Click the Hand here to hold card #2.}
+		lookStr {Kliknutím zde rukou podríte kartu è. 2.}
 		view 720
 		loop 4
 	)
@@ -806,9 +806,9 @@
 	(properties
 		x 159
 		y 151
-		description {the Hold Card 3 button}
+		description {tlaèítko Podret kartu 3}
 		sightAngle 40
-		lookStr {Click the Hand here to hold card #3.}
+		lookStr {Kliknutím zde rukou podríte kartu è. 3.}
 		view 720
 		loop 4
 	)
@@ -846,9 +846,9 @@
 	(properties
 		x 203
 		y 151
-		description {the Hold Card 4 button}
+		description {tlaèítko Podret kartu 4}
 		sightAngle 40
-		lookStr {Click the Hand here to hold card #4.}
+		lookStr {Kliknutím zde rukou podríte kartu è. 4.}
 		view 720
 		loop 4
 	)
@@ -886,9 +886,9 @@
 	(properties
 		x 246
 		y 151
-		description {the Hold Card 5 button}
+		description {tlaèítko Podret kartu 5}
 		sightAngle 40
-		lookStr {Click the Hand here to hold card #5.}
+		lookStr {Kliknutím zde rukou podríte kartu è. 5.}
 		view 720
 		loop 4
 	)
@@ -1030,7 +1030,7 @@
 						70
 						200
 						80
-						{Another Lucky Winner}
+						{Další šastnı vıherce}
 						33
 						global26
 						30

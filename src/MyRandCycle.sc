@@ -1077,7 +1077,7 @@
 	(properties
 		x 251
 		y 56
-		description {Reverzní Biaz}
+		description {Reverse Biaz}
 		view 642
 		cycleSpeed 12
 	)

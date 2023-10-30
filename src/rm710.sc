@@ -16,7 +16,7 @@
 
 (instance rm710 of LLRoom
 	(properties
-		lookStr {Tramp's Casino has spared no expense to create the ultimate in tasteless luxuriant opulent detritus. Video poker machines surround you to such an extent that you are unsure how to walk around them.}
+		lookStr {Trampovo kasino nešetøilo prostøedky, aby vytvoøilo dokonalý luxusní opulentní hnus bez chuti. Videopokerové automaty vás obklopují v takové míøe, že si nejste jisti, jak je obejít.}
 		picture 710
 		north 730
 		south 700
@@ -336,8 +336,8 @@
 	(properties
 		x 29
 		y 132
-		description {the gambler}
-		lookStr {All of these gamblers look compulsive to you.}
+		description {hráè}
+		lookStr {Všichni tito hráèi vám pøipadají nutkaví.}
 		view 710
 		signal $4000
 	)
@@ -487,7 +487,7 @@
 		nsTop 1
 		nsBottom 41
 		nsRight 112
-		description {the painting}
+		description {obraz}
 		sightAngle 40
 	)
 	
@@ -513,7 +513,7 @@
 		nsLeft 203
 		nsBottom 43
 		nsRight 319
-		description {the painting}
+		description {obraz}
 		sightAngle 40
 	)
 	
@@ -538,9 +538,9 @@
 		nsTop 45
 		nsBottom 96
 		nsRight 46
-		description {the roulette tables}
+		description {ruletové stoly}
 		sightAngle 40
-		lookStr {You don't know how to play roulette.}
+		lookStr {Neumíš hrát ruletu.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -570,9 +570,9 @@
 		nsLeft 237
 		nsBottom 82
 		nsRight 319
-		description {the blackjack tables}
+		description {stoly na blackjack}
 		sightAngle 40
-		lookStr {Blackjack is just not your game. You can remember that much from "Leisure Suit Larry 1!"}
+		lookStr {Blackjack prostì není tvoje hra. To si mùžeš pamatovat z "Leisure Suit Larry 1"!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -606,9 +606,9 @@
 		nsLeft 134
 		nsBottom 86
 		nsRight 184
-		description {the chandelier}
+		description {lustr}
 		sightAngle 40
-		lookStr {Isn't it wonderful what they're doing with polymers these days?}
+		lookStr {Není to úžasné, co dnes dìlají s polymery?}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -630,8 +630,8 @@
 		nsLeft 151
 		nsBottom 44
 		nsRight 177
-		description {the chandelier}
-		lookStr {Isn't it wonderful what they're doing with polymers these days?}
+		description {lustr}
+		lookStr {Není to úžasné, co dnes dìlají s polymery?}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -646,9 +646,9 @@
 		nsLeft 120
 		nsBottom 45
 		nsRight 199
-		description {the ballroom entrance}
+		description {vstup do taneèního sálu}
 		sightAngle 40
-		lookStr {It appears a crowd has gathered inside the exclusive Tramp Ballroom.}
+		lookStr {Zdá se, že v Trampovì exkluzivním taneèním sále se shromáždil dav lidí.}
 	)
 )
 
@@ -660,9 +660,9 @@
 		nsLeft 212
 		nsBottom 189
 		nsRight 246
-		description {the statue}
+		description {socha}
 		sightAngle 40
-		lookStr {Naked girls holding balloon bouquets have been a favorite subject for the world's greatest artists for many centuries.}
+		lookStr {Nahé dívky s balónkovými kyticemi jsou oblíbeným námìtem nejvìtších svìtových umìlcù již po mnoho staletí.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -731,9 +731,9 @@
 		nsLeft 148
 		nsBottom 154
 		nsRight 170
-		description {the statue}
+		description {socha}
 		sightAngle 40
-		lookStr {What a set of balloons she has!}
+		lookStr {To je ale sada balónkù!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -754,7 +754,7 @@
 		nsLeft 43
 		nsBottom 99
 		nsRight 54
-		description {the video poker machine}
+		description {automat na videopoker}
 		sightAngle 40
 		approachX 70
 		approachY 93

@@ -17,7 +17,7 @@
 
 (instance rm870 of LLRoom
 	(properties
-		lookStr {The studio floor of the K-RAP building is far underground, filled with soundproof studios and playback speakers. A large fountain, complete with giant bronze sculptures, fills the center of the room.}
+		lookStr {Studiové patro budovy K-RAP je hluboko pod zemí, plné zvukotìsných studií a reproduktorù. Støed místnosti vyplòuje velká fontána s obøími bronzovými sochami.}
 		picture 870
 		east 880
 	)
@@ -150,8 +150,8 @@
 	(properties
 		x 68
 		y 158
-		description {the clothes rack}
-		lookStr {What a break! A clothing rack stands right beside your elevator.}
+		description {vìšák na šaty}
+		lookStr {Jaká zmìna! Hned vedle výtahu stojí vìšák s obleèením.}
 		view 870
 		cel 3
 		signal $4000
@@ -166,9 +166,9 @@
 		nsLeft 227
 		nsBottom 41
 		nsRight 235
-		description {the keypad}
+		description {klávesnice}
 		sightAngle 40
-		lookStr {This keypad is similar to those upstairs. Unfortunately, you don't know the combination to this one.}
+		lookStr {Tato klávesnice je podobná tìm nahoøe. Bohužel k ní neznáte kombinaci.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -210,9 +210,9 @@
 		nsLeft 235
 		nsBottom 60
 		nsRight 255
-		description {the studio door}
+		description {dveøe do studia}
 		sightAngle 40
-		lookStr {This door leads to K-RAP's Studio B.}
+		lookStr {Tyto dveøe vedou do studia B spoleènosti K-RAP.}
 	)
 )
 
@@ -226,7 +226,7 @@
 		nsRight 208
 		description {Studio B}
 		sightAngle 40
-		lookStr {This is K-RAP's Studio B.}
+		lookStr {Tyto jsou dveøe do studia B spoleènosti K-RAP.}
 	)
 )
 
@@ -240,7 +240,7 @@
 		nsRight 288
 		description {Studio C}
 		sightAngle 40
-		lookStr {This is K-RAP's Studio C.}
+		lookStr {Toto je studio C spoleènosti K-RAP.}
 	)
 )
 
@@ -252,10 +252,10 @@
 		nsLeft 116
 		nsBottom 189
 		nsRight 319
-		description {the statue}
+		description {socha}
 		sightAngle 40
 		onMeCheck $4000
-		lookStr {How impressive! K-RAP has a fountain filled with a huge statue of the King of Rock 'n' Roll--Barry Manilow!}
+		lookStr {Jak pùsobivé! K-RAP má fontánu s obrovskou sochou krále rock'n'rollu - Barryho Manilowa!}
 	)
 )
 
@@ -267,11 +267,11 @@
 		nsLeft 4
 		nsBottom 157
 		nsRight 15
-		description {the elevator keypad}
+		description {klávesnice výtahu}
 		sightAngle 40
 		approachX 20
 		approachY 180
-		lookStr {This keypad is similar to those upstairs. Unfortunately, you don't know the combination to this one.}
+		lookStr {Tato klávesnice je podobná tìm nahoøe. Bohužel k ní neznáte kombinaci.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -289,11 +289,11 @@
 		x 68
 		y 179
 		z 20
-		description {the clothes}
+		description {šaty}
 		sightAngle 40
 		approachX 56
 		approachY 162
-		lookStr {A set of brightly-colored, over-sized rapper's clothes hangs on the clothes rack, conveniently placed near the elevator.}
+		lookStr {Na vìšáku na obleèení, pøíhodnì umístìném poblíž výtahu, visí sada pestrobarevných, nadmìrnì velkých rapperských šatù.}
 		view 870
 		cel 2
 		signal $4000
@@ -319,7 +319,7 @@
 	(properties
 		x 142
 		y 71
-		description {that "2 Live 2 Screw" dude}
+		description {ten "2 Live 2 Screw" týpek}
 		view 870
 		loop 2
 		cycleSpeed 12
@@ -340,7 +340,7 @@
 	(properties
 		x 134
 		y 68
-		description {that "2 Live 2 Screw" dude}
+		description {ten "2 Live 2 Screw" týpek}
 		view 870
 		loop 3
 		cycleSpeed 10
@@ -355,7 +355,7 @@
 	(properties
 		x 150
 		y 63
-		description {that "2 Live 2 Screw" dude}
+		description {ten "2 Live 2 Screw" týpek}
 		view 870
 		loop 4
 		cycleSpeed 8
@@ -370,7 +370,7 @@
 	(properties
 		x 44
 		y 171
-		description {the showervator}
+		description {sprchovýtah}
 		view 870
 		priority 8
 		signal $4000
@@ -391,7 +391,7 @@
 	(properties
 		x 44
 		y 171
-		description {the showervator}
+		description {sprchovýtah}
 		view 870
 		loop 1
 		priority 15
@@ -407,7 +407,7 @@
 	(properties
 		x 44
 		y 171
-		description {the showervator}
+		description {sprchovýtah}
 		view 870
 		cel 1
 		priority 15
@@ -423,8 +423,8 @@
 	(properties
 		x 44
 		y 5
-		description {your naked body}
-		lookStr {Down you come!}
+		description {tvoje nahé tìlo}
+		lookStr {Jdeš dolù!}
 		view 870
 		loop 5
 		signal $4000

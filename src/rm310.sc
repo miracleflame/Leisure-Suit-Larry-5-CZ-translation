@@ -108,7 +108,7 @@
 
 (instance rm310 of LLRoom
 	(properties
-		lookStr {To you, all airports look alike (although the landscaping does vary slightly).}
+		lookStr {Pro tebe vypadají všechna letištì stejnì (i když se terénní úpravy mírnì liší).}
 		north 160
 		east 160
 		south 160
@@ -403,9 +403,9 @@
 		nsTop -1
 		nsBottom 41
 		nsRight 319
-		description {the sky}
+		description {obloha}
 		sightAngle 40
-		lookStr {Hills stretch off into the distance.}
+		lookStr {Hory se táhnou do dálky.}
 	)
 )
 
@@ -416,9 +416,9 @@
 		nsTop 77
 		nsBottom 177
 		nsRight 49
-		description {the trees}
+		description {stromy}
 		sightAngle 40
-		lookStr {This airport is rife with trees.}
+		lookStr {Toto letištì je plné stromù.}
 	)
 )
 
@@ -430,9 +430,9 @@
 		nsLeft 282
 		nsBottom 176
 		nsRight 319
-		description {the tree}
+		description {strom}
 		sightAngle 40
-		lookStr {This airport is rife with trees.}
+		lookStr {Toto letištì je plné stromù.}
 	)
 )
 
@@ -444,9 +444,9 @@
 		nsLeft 122
 		nsBottom 124
 		nsRight 162
-		description {the trees}
+		description {stromy}
 		sightAngle 40
-		lookStr {This airport is rife with trees.}
+		lookStr {Toto letištì je plné stromù.}
 	)
 )
 
@@ -458,9 +458,9 @@
 		nsLeft 71
 		nsBottom 74
 		nsRight 120
-		description {the airplane}
+		description {letadlo}
 		sightAngle 40
-		lookStr {You hope you don't have to wait for that airplane to take off.}
+		lookStr {Doufáš, že nebudeš muset èekat, až to letadlo vzlétne.}
 	)
 )
 
@@ -472,7 +472,7 @@
 		nsLeft 216
 		nsBottom 71
 		nsRight 246
-		description {the airplane}
+		description {letadlo}
 		sightAngle 40
 	)
 	
@@ -489,9 +489,9 @@
 		nsLeft 248
 		nsBottom 79
 		nsRight 282
-		description {the tower}
+		description {vìž}
 		sightAngle 40
-		lookStr {The control tower is staffed with non-union air traffic controllers.}
+		lookStr {Øídící vìž je obsazena øídícími letového provozu, kteøí nejsou èleny odborù.}
 	)
 )
 
@@ -520,7 +520,7 @@
 			)
 			(4
 				(gLongSong number: 313 loop: 1 play:)
-				(proc0_14 310 1 67 -1 20 80 {You} 108)
+				(proc0_14 310 1 67 -1 20 80 {Ty} 108)
 				(= cycles 2)
 			)
 			(5
@@ -547,7 +547,7 @@
 				)
 			)
 			(11
-				(proc0_14 310 3 67 -1 185 80 {You} 108)
+				(proc0_14 310 3 67 -1 185 80 {Ty} 108)
 				(gLongSong number: 313 loop: 1 play:)
 				(plane setCycle: CT 2 1 self)
 			)
@@ -600,7 +600,7 @@
 				(= seconds 5)
 			)
 			(25
-				(proc0_14 310 7 67 -1 20 80 {You} 108)
+				(proc0_14 310 7 67 -1 20 80 {Ty} 108)
 				(= seconds 2)
 			)
 			(26

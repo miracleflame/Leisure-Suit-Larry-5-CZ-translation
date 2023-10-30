@@ -26,7 +26,7 @@
 )
 (instance rm280 of LLRoom
 	(properties
-		lookStr {This end of the lobby is distinguished only by a bank of pay telephones against the far wall.}
+		lookStr {Tento konec vstupní haly je odlišený pouze øadou telefonních automatù u vzdálenìjší stìny.}
 		picture 280
 		west 270
 	)
@@ -384,7 +384,7 @@
 		nsLeft 282
 		nsBottom 128
 		nsRight 319
-		description {the lost and found department}
+		description {oddìlení ztrát a nálezù}
 		sightAngle 40
 	)
 	
@@ -406,7 +406,7 @@
 		nsLeft 76
 		nsBottom 113
 		nsRight 123
-		description {the plant}
+		description {rostlina}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -426,7 +426,7 @@
 		nsLeft 256
 		nsBottom 189
 		nsRight 319
-		description {the plant}
+		description {rostlina}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -445,7 +445,7 @@
 		nsLeft 225
 		nsBottom 129
 		nsRight 258
-		description {the post}
+		description {pošta}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -468,7 +468,7 @@
 		nsLeft 207
 		nsBottom 164
 		nsRight 226
-		description {the ashtray}
+		description {popelník}
 		sightAngle 90
 	)
 	
@@ -496,7 +496,7 @@
 		nsTop 41
 		nsBottom 89
 		nsRight 87
-		description {the counter}
+		description {pult}
 		sightAngle 90
 	)
 	
@@ -539,7 +539,7 @@
 		nsLeft 25
 		nsBottom 180
 		nsRight 202
-		description {the sofa}
+		description {pohovka}
 		sightAngle 40
 	)
 	
@@ -731,7 +731,7 @@
 
 (instance thePhone of Feature
 	(properties
-		description {the pay phone}
+		description {telefonní automat}
 		sightAngle 40
 	)
 	
@@ -768,7 +768,7 @@
 
 (instance phoneHandle of View
 	(properties
-		description {the pay phone}
+		description {telefonní automat}
 		view 280
 		cel 1
 		priority 4
@@ -797,7 +797,7 @@
 		nsLeft 145
 		nsBottom 90
 		nsRight 162
-		description {the phone}
+		description {telefon}
 		sightAngle 40
 	)
 	
@@ -819,7 +819,7 @@
 		nsLeft 167
 		nsBottom 90
 		nsRight 183
-		description {the phone}
+		description {telefon}
 		sightAngle 40
 	)
 	
@@ -841,7 +841,7 @@
 		nsLeft 193
 		nsBottom 91
 		nsRight 206
-		description {the phone}
+		description {telefon}
 		sightAngle 40
 	)
 	
@@ -863,7 +863,7 @@
 		nsLeft 214
 		nsBottom 91
 		nsRight 228
-		description {the phone}
+		description {telefon}
 		sightAngle 40
 	)
 	
@@ -968,7 +968,7 @@
 		y 9
 		nsBottom 14
 		nsRight 47
-		description {the sign}
+		description {znaèka}
 		sightAngle 90
 		view 263
 		priority 4
@@ -999,7 +999,7 @@
 		nsLeft 62
 		nsBottom 15
 		nsRight 134
-		description {the sign}
+		description {znaèka}
 		sightAngle 90
 		view 263
 		priority 4
@@ -1033,7 +1033,7 @@
 		nsLeft 148
 		nsBottom 16
 		nsRight 221
-		description {the sign}
+		description {znaèka}
 		sightAngle 90
 		view 263
 		priority 4
@@ -1064,7 +1064,7 @@
 		nsLeft 295
 		nsBottom 31
 		nsRight 319
-		description {the sign}
+		description {znaèka}
 		sightAngle 90
 		view 263
 		priority 4
@@ -1104,7 +1104,7 @@
 		nsLeft 160
 		nsBottom 97
 		nsRight 176
-		description {the telephone directory}
+		description {telefonní seznam}
 		sightAngle 40
 		onMeCheck $0002
 		approachX 169
@@ -1133,7 +1133,7 @@
 		nsLeft 200
 		nsBottom 96
 		nsRight 214
-		description {the telephone directory}
+		description {telefonní seznam}
 		sightAngle 40
 		onMeCheck $0002
 		approachX 207
@@ -1355,7 +1355,7 @@
 		x 185
 		y 1
 		z -100
-		description {the pay phones}
+		description {telefonní automaty}
 		approachX 180
 		approachY 112
 		view 280

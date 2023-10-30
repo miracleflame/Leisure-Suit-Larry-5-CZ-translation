@@ -188,7 +188,7 @@
 
 (instance charger of View
 	(properties
-		description {the battery charger}
+		description {nabíjeèka baterií}
 		view 161
 		loop 3
 	)
@@ -205,7 +205,7 @@
 			(2
 				(if (== ((Inv at: 0) owner?) (Inv at: 1))
 					(Format @temp0 22 4 (/ global150 20) 37)
-					(proc0_14 @temp0 30 1 80 {Camcorder Battery Strength})
+					(proc0_14 @temp0 30 1 80 {Výdrž baterie videokamery})
 				else
 					(proc0_14 22 5)
 				)

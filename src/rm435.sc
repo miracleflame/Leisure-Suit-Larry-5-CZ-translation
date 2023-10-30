@@ -16,7 +16,7 @@
 
 (instance rm435 of LLRoom
 	(properties
-		lookStr {Although you haven't really thought about, this isn't what you would have pictured an F.B.I. lab to be.}
+		lookStr {Aèkoli jsi o tom nepøemýšlel, takhle sis laboratoø FBI nepøedstavoval.}
 		picture 430
 		north 425
 		east 445
@@ -148,10 +148,10 @@
 	(properties
 		x 106
 		y 77
-		description {the exterior door}
+		description {dveøe ven}
 		approachX 126
 		approachY 85
-		lookStr {This door leads to the street outside.}
+		lookStr {Tyto dveøe vedou ven na ulici.}
 		view 430
 		entranceTo 425
 		moveToX 120
@@ -166,11 +166,11 @@
 		x 271
 		y 96
 		z 22
-		description {the brassiere cannon}
+		description {podprsenkový kanón}
 		sightAngle 40
 		approachX 261
 		approachY 99
-		lookStr {It appears the F.B.I. technician left his bra lying on the workbench!}
+		lookStr {Zdá se, že technik FBI nechal podprsenku ležet na pracovním stole!}
 		view 430
 		loop 3
 		signal $4000
@@ -197,9 +197,9 @@
 		nsLeft 5
 		nsBottom 114
 		nsRight 42
-		description {Desmond's door}
+		description {Desmondovy dveøe}
 		sightAngle 40
-		lookStr {This door leads to Inspector Desmond's office. It is presently locked.}
+		lookStr {Tyto dveøe vedou do kanceláøe inspektora Desmonda. V souèasné dobì jsou zamèené.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -225,7 +225,7 @@
 		nsLeft 54
 		nsBottom 65
 		nsRight 75
-		description {the dart board}
+		description {šipky}
 		sightAngle 40
 	)
 	
@@ -252,9 +252,9 @@
 		nsLeft 155
 		nsBottom 77
 		nsRight 319
-		description {the laboratory tables}
+		description {laboratorní stoly}
 		sightAngle 40
-		lookStr {These tables are filled with highly-expensive scientific equipment, all paid for with your tax dollars!}
+		lookStr {Tyto stoly jsou plné velmi drahého vìdeckého vybavení, které bylo zaplaceno z tvých daní!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -274,9 +274,9 @@
 		nsTop 118
 		nsBottom 189
 		nsRight 319
-		description {the laboratory tables}
+		description {laboratorní stoly}
 		sightAngle 40
-		lookStr {These tables are filled with highly-expensive scientific equipment, all paid for with your tax dollars!}
+		lookStr {Tyto stoly jsou plné velmi drahého vìdeckého vybavení, které bylo zaplaceno z tvých daní!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -298,9 +298,9 @@
 		nsLeft 164
 		nsBottom 59
 		nsRight 216
-		description {the monitors}
+		description {monitory}
 		sightAngle 40
-		lookStr {These monitors are presently disconnected. When they were heavily used many years ago, it was only to play "Jawbreaker!"}
+		lookStr {Tyto monitory jsou v souèasné dobì odpojeny. Když byly pøed mnoha lety hojnì využívány, sloužily pouze k hraní hry "Jawbreaker!"}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -322,9 +322,9 @@
 		nsLeft 71
 		nsBottom 33
 		nsRight 96
-		description {the giant plug}
+		description {obøí zástrèka}
 		sightAngle 40
-		lookStr {You wonder exactly what that giant plug plugs into.}
+		lookStr {Zajímalo by tì, do èeho pøesnì se ta obøí zástrèka zapojuje.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -346,9 +346,9 @@
 		nsLeft 142
 		nsBottom 57
 		nsRight 152
-		description {the intercom}
+		description {interkom}
 		sightAngle 40
-		lookStr {The lab technicians use this intercom to communicate with the front office and Commander Twit.}
+		lookStr {Tento interkom používají laboratorní technici ke komunikaci s pøední kanceláøí a komandérem Twitem.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -369,9 +369,9 @@
 		nsLeft 152
 		nsBottom 144
 		nsRight 186
-		description {the chair}
+		description {køeslo}
 		sightAngle 40
-		lookStr {This office chair prevents you from accessing the intricate equipment below it.}
+		lookStr {Tato kanceláøská židle ti brání v pøístupu ke složitému vybavení pod ní.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -393,9 +393,9 @@
 		nsLeft 108
 		nsBottom 145
 		nsRight 135
-		description {the joystick}
+		description {džojstik}
 		sightAngle 40
-		lookStr {Wow! What a joystick!}
+		lookStr {Páni! To je ale džojstik!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -417,9 +417,9 @@
 		nsLeft 46
 		nsBottom 189
 		nsRight 91
-		description {the circuit board}
+		description {deska s obvody}
 		sightAngle 40
-		lookStr {This looks like a giant circuit board.}
+		lookStr {Tohle vypadá jako obøí deska s plošnými spoji.}
 	)
 	
 	(method (doVerb theVerb param2)

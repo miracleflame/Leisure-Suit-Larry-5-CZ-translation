@@ -20,7 +20,7 @@
 )
 (instance rm790 of LLRoom
 	(properties
-		lookStr {You are inside the only open shop along the entire boardwalk. You wonder why this place doesn't join in the celebration of Donald Tramp's birthday.}
+		lookStr {Jste v jediném otevøeném obchodì na celé promenádì. Pøemýšlíš, proè se toto místo nepøipojí k oslavì narozenin Donalda Trampa.}
 		picture 790
 		south 760
 	)
@@ -212,11 +212,11 @@
 	(properties
 		x 147
 		y 107
-		description {Ivana Tramp}
+		description {Ivana Trampová}
 		sightAngle 40
 		approachX 130
 		approachY 120
-		lookStr {Ivana Tramp (known locally as "Wheels, The Blademaster") has plummeted several social levels since her divorce from The Donald.}
+		lookStr {Ivana Trampová (místním známá jako "Kola, mistrinì èepelí") se po rozvodu s Donaldem propadla o nìkolik spoleèenských úrovní.}
 		view 792
 		priority 3
 		signal $0010
@@ -301,9 +301,9 @@
 		nsLeft 148
 		nsBottom 90
 		nsRight 206
-		description {the skates}
+		description {brusle}
 		sightAngle 40
-		lookStr {From the many pairs of in-line skates on this rack, you feel safe in predicting that this store rents skates.}
+		lookStr {Z mnoha párù in-line bruslí na tomto stojanu lze s jistotou usuzovat, že tento obchod brusle pùjèuje.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -320,9 +320,9 @@
 	(properties
 		x 123
 		y 94
-		description {the curtain}
+		description {závìs}
 		sightAngle 40
-		lookStr {A beaded curtain blocks your view of the skate shop's back room.}
+		lookStr {Závìs z korálkù vám brání ve výhledu do zadní místnosti obchodu s bruslemi.}
 		view 790
 		signal $4000
 	)
@@ -350,9 +350,9 @@
 		nsLeft 54
 		nsBottom 54
 		nsRight 75
-		description {the poster}
+		description {plakát}
 		sightAngle 40
-		lookStr {You presume this poster advertises an amusement park for insects.}
+		lookStr {Pøedpokládáte, že tento plakát inzeruje zábavní park pro hmyz.}
 	)
 )
 
@@ -364,9 +364,9 @@
 		nsLeft 62
 		nsBottom 100
 		nsRight 90
-		description {the poster}
+		description {plakát}
 		sightAngle 40
-		lookStr {So that's what Ivana looked like when she was a redhead!}
+		lookStr {Tak takhle vypadala Ivana, když byla zrzka!}
 	)
 )
 
@@ -378,9 +378,9 @@
 		nsLeft 50
 		nsBottom 131
 		nsRight 73
-		description {the poster}
+		description {plakát}
 		sightAngle 40
-		lookStr {To demonstrate how good these skates are, the lady in the poster is eating one.}
+		lookStr {Abychom demonstrovali, jak jsou ty brusle dobré, dáma na plakátu jednu konzumuje.}
 	)
 )
 
@@ -392,9 +392,9 @@
 		nsLeft 221
 		nsBottom 82
 		nsRight 240
-		description {the poster}
+		description {plakát}
 		sightAngle 40
-		lookStr {This poster advertises roller skate odor eaters.}
+		lookStr {Tento plakát propaguje polykaèe vùní koleèkových bruslí.}
 	)
 )
 
@@ -406,9 +406,9 @@
 		nsLeft 225
 		nsBottom 103
 		nsRight 252
-		description {the poster}
+		description {plakát}
 		sightAngle 40
-		lookStr {"Keep your in-line skates in line with the all new `Edlin,' from Ed's Skate Aligning Corp."}
+		lookStr {"Udržujte své in-line brusle v jedné linii s novými bruslemi `Edlin' od spoleènosti Ed's Skate Aligning Corp."}
 	)
 )
 
@@ -420,9 +420,10 @@
 		nsLeft 246
 		nsBottom 50
 		nsRight 261
-		description {the poster}
+		description 
+{plakát}
 		sightAngle 40
-		lookStr {"Better skating, no waiting."}
+		lookStr {"Lepší bruslení, žádné èekání."}
 	)
 )
 
@@ -434,9 +435,9 @@
 		nsLeft 241
 		nsBottom 121
 		nsRight 259
-		description {the poster}
+		description {plakát}
 		sightAngle 40
-		lookStr {"Nuclear Blades" for those who want to go REALLY fast!}
+		lookStr {"Jaderné èepele" pro ty, kteøí chtìjí bruslit OPRAVDU rychle!}
 	)
 )
 
@@ -448,9 +449,9 @@
 		nsLeft 147
 		nsBottom 44
 		nsRight 184
-		description {the light}
+		description {svìtlo}
 		sightAngle 40
-		lookStr {Ivana has thoughtfully replaced the standard 60-watt bulb with this new 250-watt halogen.}
+		lookStr {Ivana promyšlenì nahradila standardní 60-wattovou žárovku touto novou 250-wattovou halogenovou.}
 	)
 )
 
@@ -462,9 +463,9 @@
 		nsLeft 90
 		nsBottom 120
 		nsRight 227
-		description {the counter}
+		description {pult}
 		sightAngle 40
-		lookStr {Across this counter pass the world's sharpest `blades!'}
+		lookStr {Pøes tento pult projíždìjí nejostøejší "èepele" na svìtì!}
 	)
 )
 
@@ -476,9 +477,9 @@
 		nsLeft 188
 		nsBottom 156
 		nsRight 223
-		description {the box}
+		description {bedna}
 		sightAngle 40
-		lookStr {A wooden crate resides incongruously in the center of the floor.}
+		lookStr {Døevìná bedna stojí nevhodnì uprostøed podlahy.}
 	)
 	
 	(method (doVerb theVerb param2)

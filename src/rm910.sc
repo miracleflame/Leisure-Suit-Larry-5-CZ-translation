@@ -126,9 +126,9 @@
 	(properties
 		x 225
 		y 135
-		description {the faucet}
+		description {kohoutek}
 		sightAngle 90
-		lookStr {The faucet is drip-, drip-, dripping, right in time to the music that's playing!}
+		lookStr {Kohoutek kap-, kap-, kape, pøesnì v rytmu hudby, která hraje!}
 		view 910
 		loop 1
 		priority 8
@@ -144,9 +144,9 @@
 		nsLeft 176
 		nsBottom 63
 		nsRight 221
-		description {the happy tooth poster}
+		description {plakát šastného zubu}
 		sightAngle 40
-		lookStr {If you maintained a regular schedule of oral hygiene with Chi Chi Lambada, your teeth would be happy too!}
+		lookStr {Pokud bys dodroval pravidelnı plán ústní hygieny s Chi Chi Lambada, tvé zuby by byly také šastné!}
 	)
 )
 
@@ -158,9 +158,9 @@
 		nsLeft 123
 		nsBottom 47
 		nsRight 175
-		description {the drill}
+		description {vrtaèka}
 		sightAngle 40
-		lookStr {Whenever you see a high-speed dental drill, you make a silent vow to floss more often!}
+		lookStr {Kdykoli spatøíš vysokootáèkovou zubní vrtaèku, tiše si pøísaháš, e budeš èastìji pouívat zubní nit!}
 	)
 )
 
@@ -172,9 +172,9 @@
 		nsLeft 193
 		nsBottom 146
 		nsRight 242
-		description {the sink}
+		description {umyvadlo}
 		sightAngle 40
-		lookStr {You love it when a woman orders you to "Spit!"}
+		lookStr {Miluješ, kdy ti ena naøídí: "Plivej!" }
 	)
 )
 
@@ -186,9 +186,9 @@
 		nsLeft 80
 		nsBottom 141
 		nsRight 169
-		description {the tray of dental tools}
+		description {zásobník zubaøskıch nástrojù}
 		sightAngle 40
-		lookStr {You've always believed dental professionals have latent masochistic tendencies.}
+		lookStr {Vdycky jsi vìøil, e zubaøi mají skryté masochistické sklony.}
 	)
 )
 
@@ -200,9 +200,9 @@
 		nsLeft 119
 		nsBottom 127
 		nsRight 202
-		description {the dentist's chair}
+		description {zubaøské køeslo}
 		sightAngle 40
-		lookStr {You just love electric furniture!}
+		lookStr {Ty prostì miluješ elektrickı nábytek!}
 	)
 )
 
@@ -214,9 +214,9 @@
 		nsLeft 81
 		nsBottom 76
 		nsRight 106
-		description {the window}
+		description {okno}
 		sightAngle 40
-		lookStr {Through the window you see children laughing, skipping, running, playing; all oblivious to their oral hygiene!}
+		lookStr {Pøes okno vidíš dìti, jak se smìjí, skáèou, bìhají, hrají si; všechny nedbají na ústní hygienu!}
 	)
 )
 
@@ -228,9 +228,9 @@
 		nsLeft 112
 		nsBottom 61
 		nsRight 134
-		description {Chi Chi's degree}
+		description {Chi Chiin titul}
 		sightAngle 40
-		lookStr {Interesting. You never knew the Columbia School of Broadcasting even HAD a dental college!}
+		lookStr {Zajímavé. Netušil jsi, e Kolumbijská rozhlasová škola mìla dokonce i vysokou školu zubního lékaøství!}
 	)
 )
 
@@ -242,9 +242,9 @@
 		nsLeft 147
 		nsBottom 58
 		nsRight 163
-		description {the spotlight}
+		description {svìtlo reflektorù}
 		sightAngle 40
-		lookStr {You love to peer at the reflection of your mouth on the surface of the dental spotlight.}
+		lookStr {Rád se díváš na odraz svıch úst na povrchu zubaøského reflektoru.}
 	)
 )
 

@@ -37,7 +37,7 @@
 {Jak milujete køiklavé vìci!}
 {neonový nápis}
 {Jak milujete køiklavé vìci!}
-(znak dolaru)
+{znak dolaru}
 {Tady je naznaèeno, že by tu èlovìk mohl vyhrát nìjaké peníze!}
 {stánek s hamburgery}
 {To je vzrušující! Na Trampovì promenádì je restaurace, kde se podává mrtvá kráva!}
@@ -71,5 +71,5 @@
 {Jak milujete køiklavé vìci!}
 {neonový nápis}
 {Jak milujete køiklavé vìci!}
-(znak dolaru)
+{znak dolaru}
 {Tady je naznaèeno, že by tu èlovìk mohl vyhrát nìjaké peníze!}

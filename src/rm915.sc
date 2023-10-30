@@ -226,7 +226,7 @@
 		nsLeft 113
 		nsBottom 173
 		nsRight 213
-		description {her chi chis}
+		description {její èièiny}
 		sightAngle 40
 	)
 	
@@ -244,7 +244,7 @@
 		nsLeft 149
 		nsBottom 146
 		nsRight 167
-		description {her button}
+		description {její tlaèítko}
 		sightAngle 40
 	)
 	
@@ -276,7 +276,7 @@
 	(properties
 		x 160
 		y 172
-		description {her chi chis}
+		description {her èièiny}
 		sightAngle 90
 		view 916
 		priority 14
@@ -320,7 +320,7 @@
 	(properties
 		x 170
 		y 55
-		description {her eyes}
+		description {její oèi}
 		sightAngle 90
 		view 915
 		priority 14
@@ -337,7 +337,7 @@
 		x 157
 		y 169
 		z 100
-		description {her mouth}
+		description {její ústa}
 		sightAngle 90
 		view 915
 		loop 2

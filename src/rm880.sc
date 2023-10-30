@@ -22,7 +22,7 @@
 )
 (instance rm880 of LLRoom
 	(properties
-		lookStr {The studio floor of the K-RAP building is far underground, filled with soundproof studios and playback speakers. A large fountain, complete with giant bronze sculptures, fills the center of the room.}
+		lookStr {Studiové patro budovy K-RAP je hluboko pod zemí, plné zvukotìsných studií a reproduktorù. Støed místnosti vyplòuje velká fontána s obøími bronzovými sochami.}
 		picture 880
 		east 890
 		west 870
@@ -169,11 +169,11 @@
 	(properties
 		x 47
 		y 77
-		description {the door to Control Room A}
+		description {dveøe do øídicí místnosti A}
 		sightAngle 40
 		approachX 64
 		approachY 80
-		lookStr {This door leads to Control Room A. You can see a man working inside.}
+		lookStr {Tyto dveøe vedou do øídicí místnosti A. Vidíte muže, který uvnitø pracuje.}
 		view 880
 		loop 1
 		locked 1
@@ -193,11 +193,11 @@
 	(properties
 		x 200
 		y 111
-		description {the Control Room B door}
+		description {dveøe do øídicí místnosti B}
 		sightAngle 40
 		approachX 218
 		approachY 130
-		lookStr {This door leads to Control Room B, which appears to be empty.}
+		lookStr {Tyto dveøe vedou do kontrolní místnosti B, která se zdá být prázdná.}
 		view 880
 		loop 2
 		entranceTo 890
@@ -217,11 +217,11 @@
 		nsLeft 257
 		nsBottom 131
 		nsRight 274
-		description {the Control Room C door}
+		description {dveøe do øídicí místnosti C}
 		sightAngle 40
 		approachX 260
 		approachY 100
-		lookStr {This door leads to Control Room C. It appears to be unoccupied at the moment.}
+		lookStr {Tyto dveøe vedou do kontrolní místnosti C. Zdá se, že je momentálnì prázdná.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -242,11 +242,11 @@
 		nsLeft 55
 		nsBottom 47
 		nsRight 65
-		description {the keypad}
+		description {klávesnice}
 		sightAngle 40
 		approachX 64
 		approachY 80
-		lookStr {Each of the doors has a keypad to limit access to only those with authorization. This keypad controls access to Control Room A.}
+		lookStr {Každé dveøe mají klávesnici, která omezuje pøístup pouze osobám s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti A.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -269,11 +269,11 @@
 		nsLeft 232
 		nsBottom 89
 		nsRight 246
-		description {the keypad}
+		description {klávesnice}
 		sightAngle 40
 		approachX 238
 		approachY 115
-		lookStr {Each of the doors has a keypad to limit access to only those with authorization. This keypad controls access to Control Room B.}
+		lookStr {Každé dveøe mají klávesnici pro omezení pøístupu pouze osobám s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti B.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -297,11 +297,11 @@
 		nsLeft 248
 		nsBottom 95
 		nsRight 257
-		description {the keypad}
+		description {klávesnice}
 		sightAngle 40
 		approachX 260
 		approachY 100
-		lookStr {Each of the doors has a keypad to limit access to only those with authorization. This keypad controls access to Control Room C.}
+		lookStr {Každé dveøe mají klávesnici pro omezení pøístupu pouze osobám s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti C.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -324,9 +324,9 @@
 		nsLeft 116
 		nsBottom 53
 		nsRight 128
-		description {the window of Control Room A}
+		description {okno øídicí místnosti A}
 		sightAngle 40
-		lookStr {Through this window you can see Control Room A.}
+		lookStr {Pøes toto okno je vidìt do øídicí místnosti A.}
 	)
 )
 
@@ -338,9 +338,9 @@
 		nsLeft 146
 		nsBottom 79
 		nsRight 176
-		description {the window of Control Room B}
+		description {okno øídicí místnosti B}
 		sightAngle 40
-		lookStr {Through this window you can see Control Room B. It appears to be currently unoccupied.}
+		lookStr {Pøes toto okno vidíte øídicí místnost B. Zdá se, že v souèasné dobì není obsazena.}
 	)
 )
 
@@ -352,9 +352,9 @@
 		nsLeft 287
 		nsBottom 148
 		nsRight 319
-		description {the window of Control Room C}
+		description {okno øídicí místnosti C}
 		sightAngle 40
-		lookStr {Through this window you can see Control Room C. It appears to be currently unoccupied.}
+		lookStr {Pøes toto okno vidíte øídicí místnost C. Zdá se, že je v souèasné dobì neobsazená.}
 	)
 )
 
@@ -365,10 +365,10 @@
 		nsTop 24
 		nsBottom 189
 		nsRight 198
-		description {the statue}
+		description {socha}
 		sightAngle 40
 		onMeCheck $4000
-		lookStr {How impressive! K-RAP has a fountain filled with a huge statue of the Queen of Rock 'n' Roll--Connie Stevens!}
+		lookStr {Jak pùsobivé! K-RAP má fontánu s obrovskou sochou královny rock'n'rollu - Connie Stevensové!}
 	)
 )
 
@@ -380,9 +380,9 @@
 		nsLeft 73
 		nsBottom 29
 		nsRight 128
-		description {the recording sign}
+		description {kontrolka nahrávání}
 		sightAngle 40
-		lookStr {This sign is illuminated when Control Room A is recording.}
+		lookStr {Tato kontrolka svítí, když se v øídící místnosti A nahrává.}
 	)
 )
 
@@ -394,9 +394,9 @@
 		nsLeft 144
 		nsBottom 48
 		nsRight 181
-		description {the recording sign}
+		description {kontrolka nahrávání}
 		sightAngle 40
-		lookStr {This sign is illuminated when Control Room B is recording.}
+		lookStr {Tato kontrolka svítí, když se nahrává v øídicí místnosti B.}
 	)
 )
 
@@ -404,8 +404,8 @@
 	(properties
 		x 75
 		y 28
-		description {the recording sign}
-		lookStr {Control Room A's recording indicator lamp is presently on.}
+		description {kontrolka nahrávání}
+		lookStr {V souèasné dobì svítí kontrolka nahrávání v øídicí místnosti A.}
 		view 880
 		loop 4
 		priority 15
@@ -445,7 +445,7 @@
 	(properties
 		x 175
 		y 121
-		description {the microphone stand}
+		description {stojan mikrofonu}
 		view 880
 		signal $4000
 	)

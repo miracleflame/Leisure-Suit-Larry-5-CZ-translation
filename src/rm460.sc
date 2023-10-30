@@ -249,7 +249,7 @@
 			)
 			(32
 				(proc0_14 460 14 80 {Larry} 67 -1 20)
-				(proc0_14 460 15 67 -1 185 80 {Inspector Desmond})
+				(proc0_14 460 15 67 -1 185 80 {Inspektor Desmond})
 				(desmond setMotion: MoveTo 165 147 self)
 			)
 			(33
@@ -427,7 +427,7 @@
 				(= seconds 3)
 			)
 			(67
-				(proc0_14 460 19 80 {Mr. Vice President})
+				(proc0_14 460 19 80 {Pan viceprezident})
 				(proc0_14 460 20 80 {Larry})
 				(larry setCycle: Beg self)
 			)
@@ -560,16 +560,16 @@
 			(101
 				(proc0_14 460 42 80 {Larry} 67 -1 185 70 280)
 				(proc0_18 gLarry 460 43)
-				(proc0_14 460 44 80 {Mr. Bigg})
+				(proc0_14 460 44 80 {Pan Bigg})
 				(proc0_18 gLarry 460 45 67 -1 185 70 280)
 				(proc0_18 gLarry 460 46 67 -1 185 70 280)
-				(proc0_14 460 47 80 {Mr. Bigg})
+				(proc0_14 460 47 80 {Pan Bigg})
 				(proc0_14 460 48)
 				(bigg setLoop: 1 setPri: 3 setCycle: End self)
 			)
 			(102
 				(gLongSong number: 466 play:)
-				(proc0_14 460 49 80 {Mr. Bigg})
+				(proc0_14 460 49 80 {Pan Bigg})
 				(proc0_14 460 50 80 {Larry})
 				(= cycles 1)
 			)
@@ -681,7 +681,7 @@
 				)
 			)
 			(11
-				(proc0_14 460 53 80 {Inspector Desmond})
+				(proc0_14 460 53 80 {Inspektor Desmond})
 				(proc0_14 460 54 80 {Inspector Desmond})
 				(desmond cycleSpeed: 5 setMotion: MoveTo -50 74)
 				(gLarry
@@ -750,7 +750,7 @@
 				)
 			)
 			(24
-				(proc0_14 460 57 67 15 -1 70 280 80 {Mr. Vice President})
+				(proc0_14 460 57 67 15 -1 70 280 80 {Pan viceprezident})
 				(= cycles 1)
 			)
 			(25 (larry setCycle: Beg self))
@@ -930,7 +930,7 @@
 	(properties
 		x 236
 		y 127
-		description {the chair}
+		description {køeslo}
 		view 460
 		cel 1
 		signal $4001
@@ -941,7 +941,7 @@
 	(properties
 		x 120
 		y 127
-		description {the chair}
+		description {køeslo}
 		view 460
 		signal $4001
 	)
@@ -989,7 +989,7 @@
 	(properties
 		x 224
 		y 169
-		description {the sleeping guest}
+		description {spící host}
 		view 460
 		loop 2
 		priority 14
@@ -1008,7 +1008,7 @@
 	(properties
 		x -50
 		y 81
-		description {the Secret Service man}
+		description {muž z tajné služby}
 		view 466
 		priority 4
 		signal $4011
@@ -1019,7 +1019,7 @@
 	(properties
 		x 40
 		y 74
-		description {the Vice President}
+		description {viceprezident}
 		view 463
 		priority 5
 		signal $0011
@@ -1035,7 +1035,7 @@
 	(properties
 		x 140
 		y 74
-		description {Mr. Bigg}
+		description {Pan Bigg}
 		view 465
 		priority 5
 		signal $4011
@@ -1110,7 +1110,7 @@
 	(properties
 		x 61
 		y 71
-		description {the chair}
+		description {køeslo}
 		view 460
 		cel 3
 		signal $4001
@@ -1121,7 +1121,7 @@
 	(properties
 		x 75
 		y 70
-		description {the chair}
+		description {køeslo}
 		view 460
 		cel 2
 		signal $4001
@@ -1132,7 +1132,7 @@
 	(properties
 		x 101
 		y 70
-		description {the chair}
+		description {køeslo}
 		view 460
 		cel 2
 		signal $4001
@@ -1156,7 +1156,7 @@
 	(properties
 		x 37
 		y 74
-		description {the pie}
+		description {koláè}
 		view 463
 		loop 4
 		priority 6

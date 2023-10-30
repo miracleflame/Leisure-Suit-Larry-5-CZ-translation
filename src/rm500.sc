@@ -208,13 +208,13 @@
 						500
 						5
 						81
-						{Save}
+						{Uložit}
 						1
 						81
-						{Nah, Why Bother?}
+						{Ne, proè se obtìžovat?}
 						0
 						80
-						{AL says}
+						{AL øíká}
 						67
 						-1
 						20
@@ -298,10 +298,10 @@
 	(properties
 		x 75
 		y 189
-		description {your limousine}
+		description {tvoje limuzína}
 		approachX 23
 		approachY 163
-		lookStr {Why do all these limos look alike?}
+		lookStr {Proè všechny ty limuzíny vypadají stejnì?}
 		view 500
 		priority 14
 		signal $4810
@@ -329,11 +329,11 @@
 		nsLeft 168
 		nsBottom 141
 		nsRight 209
-		description {the front door}
+		description {vstupní dveøe}
 		sightAngle 40
 		approachX 154
 		approachY 144
-		lookStr {If you could figure out how to open this door, you might enter "The Hard Disk Cafe."}
+		lookStr {Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Cafe."}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -350,11 +350,11 @@
 	(properties
 		x 146
 		y 141
-		description {the front door}
+		description {vstupní dveøe}
 		sightAngle 40
 		approachX 154
 		approachY 144
-		lookStr {If you could figure out how to open this door, you might enter "The Hard Disk Cafe."}
+		lookStr {Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Cafe."}
 		view 500
 		loop 2
 		entranceTo 510
@@ -373,10 +373,10 @@
 		nsLeft 41
 		nsBottom 153
 		nsRight 111
-		description {the lava lamp}
+		description {lávová lampa}
 		sightAngle 40
 		onMeCheck $0008
-		lookStr {Wow! A giant lava lamp! (You've always loved those things!)}
+		lookStr {Páni! Obøí lávová lampa! (Tyhle vìci jsi vždycky miloval!)}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -397,10 +397,10 @@
 		nsLeft 220
 		nsBottom 154
 		nsRight 292
-		description {the lava lamp}
+		description {lávová lampa}
 		sightAngle 40
 		onMeCheck $0008
-		lookStr {Wow! A giant lava lamp! (You've always loved those things!)}
+		lookStr {Páni! Obøí lávová lampa! (Tyhle vìci jsi vždycky miloval!)}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -421,10 +421,10 @@
 		nsLeft 41
 		nsBottom 153
 		nsRight 111
-		description {the plant}
+		description {kvìtina}
 		sightAngle 40
 		onMeCheck $0004
-		lookStr {These plants grow here in spite of the atmosphere.}
+		lookStr {Tyto rostliny tu rostou navzdory atmosféøe.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -444,10 +444,10 @@
 		nsLeft 220
 		nsBottom 154
 		nsRight 292
-		description {the plant}
+		description {rostlina}
 		sightAngle 40
 		onMeCheck $0004
-		lookStr {These plants grow here in spite of the atmosphere.}
+		lookStr {Tyto rostliny tu rostou navzdory atmosféøe.}
 	)
 	
 	(method (doVerb theVerb param2)

@@ -21,7 +21,7 @@
 )
 (instance rm260 of LLRoom
 	(properties
-		lookStr {You are in the west wing of the lavish AeroDork Airline terminal building.}
+		lookStr {Jsi v západním køídle honosné budovy terminálu letecké spoleènosti AeroDork.}
 		picture 260
 		east 270
 	)
@@ -334,7 +334,7 @@
 	(properties
 		x 39
 		y 142
-		description {the cigarette machine}
+		description {automat na cigarety}
 		approachX 64
 		approachY 142
 		view 265
@@ -364,7 +364,7 @@
 		nsLeft 117
 		nsBottom 173
 		nsRight 289
-		description {the chairs}
+		description {židle}
 		sightAngle 40
 	)
 	
@@ -386,7 +386,7 @@
 		nsLeft 59
 		nsBottom 126
 		nsRight 91
-		description {the column}
+		description {sloup}
 		sightAngle 40
 	)
 	
@@ -410,7 +410,7 @@
 		nsLeft 259
 		nsBottom 111
 		nsRight 312
-		description {the plant}
+		description {rostlina}
 		sightAngle 40
 	)
 	
@@ -432,7 +432,7 @@
 		nsLeft 205
 		nsBottom 108
 		nsRight 249
-		description {the door}
+		description {dveøe}
 		sightAngle 40
 	)
 	
@@ -499,7 +499,7 @@
 		nsTop 118
 		nsBottom 143
 		nsRight 16
-		description {the outlet}
+		description {zásuvka}
 		sightAngle 40
 		approachX 32
 		approachY 145
@@ -534,7 +534,7 @@
 		nsTop 158
 		nsBottom 189
 		nsRight 69
-		description {the plant}
+		description {rostlina}
 		sightAngle 40
 	)
 	
@@ -562,7 +562,7 @@
 	(properties
 		x 11
 		y 22
-		description {the sign}
+		description {znaèka}
 		view 263
 	)
 	
@@ -587,7 +587,7 @@
 	(properties
 		x 146
 		y 9
-		description {the sign}
+		description {znaèka}
 		view 263
 	)
 	
@@ -612,7 +612,7 @@
 	(properties
 		x 235
 		y 10
-		description {the sign}
+		description {znaèka}
 		view 263
 	)
 	
@@ -640,7 +640,7 @@
 	(properties
 		x 311
 		y 13
-		description {the sign}
+		description {znaèka}
 		view 263
 	)
 	
@@ -669,7 +669,7 @@
 		nsLeft 85
 		nsBottom 165
 		nsRight 104
-		description {the ashtray}
+		description {popelník}
 		sightAngle 40
 	)
 	
@@ -697,7 +697,7 @@
 		x 122
 		y 100
 		z 14
-		description {the slot machine}
+		description {výherní automat}
 		view 264
 		loop 1
 		priority 0
@@ -714,7 +714,7 @@
 	(properties
 		x 151
 		y 86
-		description {the slot machine}
+		description {výherní automat}
 		view 264
 		loop 1
 		priority 11
@@ -731,7 +731,7 @@
 	(properties
 		x 180
 		y 86
-		description {the slot machine}
+		description {výherní automat}
 		view 264
 		loop 1
 		priority 6
@@ -748,7 +748,7 @@
 	(properties
 		x 207
 		y 85
-		description {the slot machine}
+		description {výherní automat}
 		view 264
 		loop 1
 	)
@@ -764,7 +764,7 @@
 		x 166
 		y 22
 		z -100
-		description {the slot machine}
+		description {výherní automat}
 		view 264
 		priority 4
 		signal $4010
@@ -783,7 +783,7 @@
 		nsLeft 100
 		nsBottom 121
 		nsRight 124
-		description {the slot machine}
+		description {výherní automat}
 		sightAngle 40
 		approachX 117
 		approachY 120
@@ -816,7 +816,7 @@
 		nsLeft 128
 		nsBottom 120
 		nsRight 156
-		description {the slot machine}
+		description {výherní automat}
 		sightAngle 40
 		approachX 146
 		approachY 122
@@ -836,7 +836,7 @@
 		nsLeft 160
 		nsBottom 121
 		nsRight 184
-		description {the slot machine}
+		description {výherní automat}
 		sightAngle 40
 		approachX 176
 		approachY 122
@@ -856,7 +856,7 @@
 		nsLeft 187
 		nsBottom 121
 		nsRight 211
-		description {the slot machine}
+		description {výherní automat}
 		sightAngle 40
 		approachX 201
 		approachY 122

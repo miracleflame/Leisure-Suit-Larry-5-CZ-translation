@@ -18,7 +18,7 @@
 )
 (instance rm820 of LLRoom
 	(properties
-		lookStr {"This lobby is quite impressive," you think, "especially for such a small building."}
+		lookStr {"Tento vestibul je docela pùsobivı," pomyslíš si, "obzvláš na tak malou budovu."}
 		picture 820
 		south 800
 		west 840
@@ -133,7 +133,7 @@
 	(properties
 		x 18
 		y 154
-		description {the door}
+		description {dveøe}
 		approachX 58
 		approachY 152
 		view 820
@@ -173,9 +173,9 @@
 		nsLeft 75
 		nsBottom 102
 		nsRight 315
-		description {the plate glass window}
+		description {okno z tabulového skla}
 		sightAngle 0
-		lookStr {Through the window you see the night skyline of beautiful downtown Philadelphia.}
+		lookStr {Pøes okno vidíte noèní panorama krásného centra Filadelfie.}
 	)
 )
 
@@ -187,9 +187,9 @@
 		nsLeft 78
 		nsBottom 142
 		nsRight 150
-		description {the receptionist's desk}
+		description {stùl recepèní}
 		sightAngle 40
-		lookStr {This is the receptionist's desk. Luckily for you, she seems to be absent right now.}
+		lookStr {Toto je stùl recepèní. Naštìstí pro tebe se zdá, e právì teï není pøítomna.}
 	)
 )
 
@@ -201,9 +201,9 @@
 		nsLeft 203
 		nsBottom 178
 		nsRight 240
-		description {the plant}
+		description {kvìtina}
 		sightAngle 40
-		lookStr {A potted plant adds so much to office ambience.}
+		lookStr {Kvìtina v kvìtináèi velmi pøispívá k atmosféøe v kanceláøi.}
 	)
 )
 
@@ -215,11 +215,11 @@
 		nsLeft 46
 		nsBottom 115
 		nsRight 57
-		description {the keypad}
+		description {klávesnice}
 		sightAngle 40
 		approachX 58
 		approachY 142
-		lookStr {This keypad controls access to John Krapper's private office door.}
+		lookStr {Tato klávesnice ovládá pøístup ke dveøím do soukromé kanceláøe Johna Krappera.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -245,9 +245,9 @@
 		nsLeft 248
 		nsBottom 108
 		nsRight 289
-		description {the potted tree}
+		description {strom v kvìtináèi}
 		sightAngle 40
-		lookStr {There must be more light in here in the daytime.}
+		lookStr {Tady musí bıt pøes den více svìtla.}
 	)
 )
 
@@ -259,9 +259,9 @@
 		nsLeft 156
 		nsBottom 189
 		nsRight 245
-		description {the planter}
+		description {kvìtináè}
 		sightAngle 40
-		lookStr {This planter is near the front door.}
+		lookStr {Tento kvìtináè je poblí vchodovıch dveøí.}
 	)
 )
 
@@ -273,9 +273,9 @@
 		nsLeft 189
 		nsBottom 124
 		nsRight 319
-		description {the rear counter}
+		description {zadní pult}
 		sightAngle 40
-		lookStr {This counter almost looks like a window seat.}
+		lookStr {Tento pult vypadá skoro jako sedátko u okna.}
 	)
 )
 
@@ -287,9 +287,9 @@
 		nsLeft 127
 		nsBottom 118
 		nsRight 158
-		description {the lamp}
+		description {lampa}
 		sightAngle 40
-		lookStr {You really like this lamp's style.}
+		lookStr {Tato lampa se ti opravdu líbí.}
 	)
 )
 
@@ -301,9 +301,9 @@
 		nsLeft 54
 		nsBottom 39
 		nsRight 121
-		description {the lights}
+		description {svìtla}
 		sightAngle 40
-		lookStr {Subtle wall washer floodlights cast a lovely glow over the supergraphics on the lobby wall.}
+		lookStr {Subtilní svìtla nástìnnıch podloek vrhají krásnou záøi na supergrafiku na stìnì vestibulu.}
 	)
 )
 
@@ -316,11 +316,11 @@
 		nsLeft 97
 		nsBottom 124
 		nsRight 111
-		description {the chair}
+		description {køeslo}
 		sightAngle 40
 		approachX 104
 		approachY 120
-		lookStr {The receptionist's chair is empty, but still warm to your touch. She's only been gone a short while, and may soon return.}
+		lookStr {Køeslo recepèní je prázdné, ale stále teplé na dotek. Je pryè jen krátce a moná se brzy vrátí.}
 	)
 	
 	(method (doVerb theVerb param2)

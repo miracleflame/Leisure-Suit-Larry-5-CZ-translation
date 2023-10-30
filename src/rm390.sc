@@ -59,7 +59,7 @@
 		(switch theVerb
 			(2 (proc0_14 390 0))
 			(5
-				(proc0_14 390 1 33 global174 80 {You})
+				(proc0_14 390 1 33 global174 80 {Ty})
 			)
 			(4 (proc0_14 390 2))
 			(10 (proc0_14 390 3))
@@ -133,7 +133,7 @@
 	(properties
 		x 14
 		y 18
-		description {the panel}
+		description {panel}
 		view 390
 		priority 4
 		signal $4810
@@ -149,7 +149,7 @@
 	(properties
 		x 147
 		y 18
-		description {the panel}
+		description {panel}
 		view 390
 		loop 1
 		cel 2
@@ -167,7 +167,7 @@
 	(properties
 		x 98
 		y 18
-		description {the panel}
+		description {panel}
 		view 390
 		loop 2
 		cel 1
@@ -185,7 +185,7 @@
 	(properties
 		x 76
 		y 92
-		description {the panel}
+		description {panel}
 		view 390
 		loop 3
 		cel 4
@@ -203,7 +203,7 @@
 	(properties
 		x 192
 		y 95
-		description {the panel}
+		description {panel}
 		view 390
 		loop 4
 		cel 2
@@ -221,7 +221,7 @@
 	(properties
 		x 192
 		y 18
-		description {the panel}
+		description {panel}
 		view 390
 		loop 5
 		cel 5
@@ -239,7 +239,7 @@
 	(properties
 		x 283
 		y 13
-		description {the panel}
+		description {panel}
 		view 390
 		loop 6
 		cel 2
@@ -257,7 +257,7 @@
 	(properties
 		x 280
 		y 83
-		description {the panel}
+		description {panel}
 		view 390
 		loop 7
 		cel 1
@@ -275,7 +275,7 @@
 	(properties
 		x 92
 		y 66
-		description {the yoke}
+		description {jaømo}
 		view 390
 		loop 8
 		priority 6
@@ -292,7 +292,7 @@
 	(properties
 		x 223
 		y 65
-		description {the yoke}
+		description {jaømo}
 		view 390
 		loop 8
 		priority 6
@@ -307,7 +307,7 @@
 
 (instance cloud of Actor
 	(properties
-		description {the cloud}
+		description {oblak}
 		view 392
 		priority 2
 		signal $4810
@@ -329,7 +329,7 @@
 
 (instance cloud2 of Actor
 	(properties
-		description {the cloud}
+		description {oblak}
 		view 392
 		priority 2
 		signal $4810
@@ -342,7 +342,7 @@
 
 (instance frontCloud of Actor
 	(properties
-		description {the cloud}
+		description {oblak}
 		yStep 25
 		view 392
 		cel 3
@@ -358,7 +358,7 @@
 
 (instance frontCloud2 of Actor
 	(properties
-		description {the cloud}
+		description {oblak}
 		yStep 25
 		view 392
 		cel 3
@@ -492,7 +492,7 @@
 		nsLeft 70
 		nsBottom 75
 		nsRight 255
-		description {the console}
+		description {konzola}
 		sightAngle 40
 	)
 	
@@ -509,7 +509,7 @@
 		nsLeft 131
 		nsBottom 96
 		nsRight 186
-		description {the throttle}
+		description {plyn}
 		sightAngle 40
 	)
 	
@@ -525,7 +525,7 @@
 		nsLeft 3
 		nsBottom 69
 		nsRight 312
-		description {the window}
+		description {okno}
 		sightAngle 40
 	)
 	
@@ -636,7 +636,7 @@
 	(properties
 		x 249
 		y 137
-		description {your plane}
+		description {tvoje letadlo}
 		view 392
 		loop 1
 		priority 3
@@ -652,7 +652,7 @@
 	(properties
 		x 70
 		y 189
-		description {yourself}
+		description {sebe}
 		view 391
 		priority 6
 		signal $4810
@@ -680,7 +680,7 @@
 		nsTop 96
 		nsBottom 189
 		nsRight 158
-		description {you}
+		description {ty}
 		sightAngle 40
 	)
 	
@@ -706,7 +706,7 @@
 		nsLeft 157
 		nsBottom 189
 		nsRight 319
-		description {the plane}
+		description {letadlo}
 		sightAngle 40
 	)
 	

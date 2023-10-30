@@ -29,7 +29,7 @@
 )
 (instance rm510 of LLRoom
 	(properties
-		lookStr {The lobby of "The Hard Disk Cafe" is filled with a tremendously exciting (to nerds) display of ancient computer memorabilia. Your pulse quickens just looking around the place.}
+		lookStr {V hale "Hard Disk Cafe" je k vidìní nesmírnì vzrušující (pro nerdy) vıstava starıch poèítaèovıch památek. Pøi pohledu na toto místo se vám zrychlí tep.}
 		picture 510
 		north 525
 		south 500
@@ -389,9 +389,9 @@
 					(proc255_2
 						@temp1
 						6
-						{How much do you wish to bribe the Maitre d'.}
+						{Kolik si pøejete podplatit pana šéfa.}
 						80
-						{Grease That Palm}
+						{Namazat tu dlaò}
 					)
 					(= temp0 (ReadNumber @temp1))
 				)
@@ -718,7 +718,7 @@
 		nsLeft 50
 		nsBottom 85
 		nsRight 72
-		description {the telephone}
+		description {telefon}
 		sightAngle 90
 		approachX 81
 		approachY 96
@@ -760,7 +760,7 @@
 		nsLeft 110
 		nsBottom 49
 		nsRight 130
-		description {the computer terminal}
+		description {poèítaèovı terminál}
 		sightAngle 90
 		view 510
 		loop 2
@@ -773,8 +773,8 @@
 	(properties
 		x 80
 		y 106
-		description {Bertha}
-		lookStr {A large aggressive woman has been talking on the telephone for as long as you've been here.}
+		description {Berta}
+		lookStr {Velká agresivní ena mluví do telefonu po celou dobu, co jsi tady.}
 		view 513
 		priority 7
 		signal $5810
@@ -801,7 +801,7 @@
 	(properties
 		x 74
 		y 75
-		description {Bertha's head}
+		description {Bertina hlava}
 		view 513
 		loop 1
 		priority 7
@@ -817,7 +817,7 @@
 		nsLeft 19
 		nsBottom 189
 		nsRight 72
-		description {the music box}
+		description {hudební skøíòka}
 		approachX 58
 		approachY 186
 		view 514
@@ -886,11 +886,11 @@
 	(properties
 		x 112
 		y 59
-		description {your membership tape}
+		description {vaše èlenská páska}
 		sightAngle 90
 		approachX 117
 		approachY 82
-		lookStr {The membership tape you wanted so badly now hangs limply from the side of the paper tape reader, twisting slowly, slowly, in the wind.}
+		lookStr {Èlenská páska, kterou jsi tak moc chtìl, teï bezvládnì visí ze strany èteèky papírovıch pásek a pomalu, pomalu se kroutí ve vìtru.}
 		view 510
 		loop 3
 		priority 3
@@ -925,10 +925,10 @@
 	(properties
 		x 70
 		y 90
-		description {the maitre d'}
+		description {šéfkuchaø}
 		approachX 103
 		approachY 89
-		lookStr {You are quite envious of those that can look stupid and snooty at the same time.}
+		lookStr {Tìm, kteøí se umí tváøit hloupì a zároveò snobsky, docela závidíš.}
 		view 512
 		priority 4
 		signal $4810
@@ -1000,7 +1000,7 @@
 	(properties
 		x 139
 		y 66
-		description {the swinging doors}
+		description {køídlové dveøe}
 		approachX 165
 		approachY 70
 		view 510
@@ -1022,10 +1022,10 @@
 		nsLeft 141
 		nsBottom 63
 		nsRight 177
-		description {the swinging doors}
+		description {køídlové dveøe}
 		approachX 165
 		approachY 70
-		lookStr {You presume these doors lead to the cafe proper.}
+		lookStr {Pøedpokládáš, e tyto dveøe vedou do samotné kavárny.}
 		view 510
 		loop 1
 		priority 2
@@ -1114,7 +1114,7 @@
 		nsLeft 101
 		nsBottom 73
 		nsRight 139
-		description {the paper tape machine}
+		description {stroj na papírové pásky}
 		sightAngle 180
 		approachX 139
 		approachY 77
@@ -1160,9 +1160,9 @@
 		nsLeft 283
 		nsBottom 108
 		nsRight 319
-		description {the antique disk drive}
+		description {staroitná disková jednotka}
 		sightAngle 90
-		lookStr {This early disk drive was the size of a washing machine and held an enormous amount of data--over one megabyte.}
+		lookStr {Tato raná disková jednotka byla velká jako praèka a pojmula obrovské mnoství dat - více ne jeden megabajt.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1182,10 +1182,10 @@
 		nsLeft 89
 		nsBottom 113
 		nsRight 128
-		description {the Pet Computer}
+		description {Pet Computer}
 		sightAngle 90
 		onMeCheck $0002
-		lookStr {You haven't seen a Pet Computer since the early days of "InfoWorld!"}
+		lookStr {Pet Computer jsi nevidìl od prvních dnù "InfoWorldu!"}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1205,10 +1205,10 @@
 		nsLeft 154
 		nsBottom 124
 		nsRight 192
-		description {the Apple II computer}
+		description {poèítaè Apple II}
 		sightAngle 90
 		onMeCheck $0002
-		lookStr {You cut your first computer teeth on an old integer BASIC Apple II. It wasn't even a Plus!}
+		lookStr {První poèítaèové zuby jste si vylámali na starém poèítaèi Apple II s celoèíselnım BASICem. Nebyl to ani Plus!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1228,10 +1228,10 @@
 		nsLeft 128
 		nsBottom 100
 		nsRight 169
-		description {the cash register}
+		description {pokladna}
 		sightAngle 90
 		onMeCheck $0002
-		lookStr {This NCR baby was one of the first microprocessor-controlled point-of-sale cash registers.}
+		lookStr {Tento miláèek spoleènosti NCR byl jednou z prvních pokladen øízenıch mikroprocesorem.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1251,10 +1251,10 @@
 		nsLeft 111
 		nsBottom 144
 		nsRight 138
-		description {the green screen monitor}
+		description {zelená obrazovka monitoru}
 		sightAngle 90
 		onMeCheck $0002
-		lookStr {This ancient device could display text in any color you wanted, as long as it was green on black.}
+		lookStr {Tento starobylı pøístroj dokázal zobrazit text v jakékoliv barvì, pokud byl zelenı na èerném pozadí.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1274,10 +1274,10 @@
 		nsLeft 58
 		nsBottom 152
 		nsRight 99
-		description {the Atari 400 computer}
+		description {poèítaè Atari 400}
 		sightAngle 90
 		onMeCheck $0002
-		lookStr {Boy, does that Atari 400 bring back fond memories of your misspent youth, playing "Frogger" when your classmates were dating!}
+		lookStr {Kámo, to Atari 400 v tobì vyvolává pøíjemné vzpomínky na tvé špatnì strávené mládí, kdy jsi hrál "Froggera", zatímco tví spoluáci randili!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1296,9 +1296,9 @@
 		nsTop 40
 		nsBottom 103
 		nsRight 32
-		description {the antique tape drive}
+		description {staroitná pásková mechanika}
 		sightAngle 90
-		lookStr {This is one of the world's first tape drives, revolutionary in its day, it seems incredibly quaint today. Why it couldn't even hold "Space Quest" let alone a "King's Quest!"}
+		lookStr {Jedná se o jednu z prvních páskovıch mechanik na svìtì, ve své dobì revoluèní, dnes se zdá bıt neuvìøitelnì kuriózní. Vdy se na ni nevešel ani Space Quest, nato King's Quest! }
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1326,9 +1326,9 @@
 		nsLeft 220
 		nsBottom 26
 		nsRight 266
-		description {the piano roll}
+		description {valec klavíru}
 		sightAngle 90
-		lookStr {The player piano was an early use of punched holes to control a mechanical device. A vacuum was applied to 88 holes in a metal bar, with each hole indicating a different musical pitch. Where holes occurred in the moving paper, the corresponding notes were played.}
+		lookStr {Pøehrávaè klavírù byl ranım vyuitím dìrovanıch otvorù k ovládání mechanického zaøízení. Do 88 otvorù v kovové tyèi bylo aplikováno vakuum, pøièem kadı otvor oznaèoval jinı hudební tón. Tam, kde se v pohyblivém papíru objevily otvory, se hrály odpovídající tóny.}
 	)
 	
 	(method (doVerb)
@@ -1344,9 +1344,9 @@
 		nsLeft 222
 		nsBottom 88
 		nsRight 284
-		description {the punch card machine}
+		description {dìrnoštítkovı stroj}
 		sightAngle 40
-		lookStr {This punch card reader dates from the 1890 U. S. Census. It could handle up to 80 characters or columns of data, a number which remains to this day as the width of most computer video display devices.}
+		lookStr {Tato èteèka dìrnıch karet pochází ze sèítání lidu v USA z roku 1890. Dokázala zpracovat a 80 znakù nebo sloupcù dat, co je èíslo, které dodnes zùstává šíøkou vìtšiny poèítaèovıch zobrazovacích zaøízení.}
 	)
 	
 	(method (doVerb)
@@ -1362,9 +1362,9 @@
 		nsLeft 28
 		nsBottom 103
 		nsRight 51
-		description {the chair}
+		description {køeslo}
 		sightAngle 40
-		lookStr {This chair is for the exclusive use of the maitre d'.}
+		lookStr {Toto køeslo je urèeno vıhradnì pro vrchního.}
 	)
 )
 
@@ -1375,9 +1375,9 @@
 		nsTop 6
 		nsBottom 56
 		nsRight 51
-		description {the bulletin board}
+		description {nástìnka}
 		sightAngle 40
-		lookStr {The bulletin board is filled with photographs of famous nerds who frequent this place!}
+		lookStr {Na nástìnce jsou fotografie slavnıch nerdù, kteøí sem èasto chodí!}
 	)
 )
 
@@ -1389,10 +1389,10 @@
 		nsLeft 55
 		nsBottom 95
 		nsRight 102
-		description {the maitre d's podium}
+		description {pódium vrchního}
 		sightAngle 40
 		onMeCheck $0002
-		lookStr {The maitre d's podium is just the right size for him to hide behind when the crowds here start throwing things!}
+		lookStr {Pódium vrchního je tak akorát velké, aby se za nìj mohl schovat, kdy po nìm zaènou házet vìci!}
 	)
 )
 
@@ -1404,9 +1404,9 @@
 		nsLeft 46
 		nsBottom 106
 		nsRight 76
-		description {the desk}
+		description {stùl}
 		sightAngle 40
-		lookStr {You wish you had such a nice desk in your crummy office.}
+		lookStr {Pøál by sis mít takovı pìknı stùl ve své mizerné kanceláøi.}
 	)
 )
 
@@ -1418,10 +1418,10 @@
 		nsLeft 190
 		nsBottom 65
 		nsRight 217
-		description {the cactus}
+		description {kaktus}
 		sightAngle 40
 		onMeCheck $0004
-		lookStr {The cactus is covered with needle-sharp needles. (Hence, the name "Needlenose Cacti.")}
+		lookStr {Kaktus je pokryt ostrımi jehlicemi. (Odtud název "jehlicovité kaktusy")}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1451,7 +1451,7 @@
 		nsLeft 79
 		nsBottom 189
 		nsRight 154
-		description {the cactus}
+		description {kaktus}
 		sightAngle 40
 		onMeCheck $0004
 	)

@@ -99,7 +99,7 @@
 				(proc0_18 gLarry 480 2 108 self 67 -1 20)
 			)
 			(4
-				(proc0_14 480 3 80 {The Vice President} 108 self 67 -1 20)
+				(proc0_14 480 3 80 {Viprezident} 108 self 67 -1 20)
 			)
 			(5
 				(proc0_14 480 4 80 {Larry} 108 self 67 -1 20)
@@ -198,7 +198,7 @@
 				(= seconds 3)
 			)
 			(23
-				(localproc_0a0f {Art Team Manager\n\nCheryl Loyd} 3)
+				(localproc_0a0f {Manaûer v˝tvarnÈho t˝mu\n\nCheryl Loyd} 3)
 				(= seconds 3)
 			)
 			(24
@@ -214,7 +214,7 @@
 					)
 				)
 				(Display
-					{Animators\n\n}
+					{Anim·to¯i\n\n}
 					dsCOLOR
 					local30
 					dsCOORD
@@ -259,20 +259,20 @@
 			)
 			(25
 				(localproc_0a0f
-					{Background Artists\n\nJane Cardinal\nMaurice Morgan\nAndy Hoyos\nCheryl Loyd\nJay Friedmann\nJennifer Shontz\nGloria Garland}
+					{Grafika PozadÌ\n\nJane Cardinal\nMaurice Morgan\nAndy Hoyos\nCheryl Loyd\nJay Friedmann\nJennifer Shontz\nGloria Garland}
 					9
 				)
 				(= seconds 5)
 			)
 			(26
 				(localproc_0a0f
-					{Programmers\n\nBrian K. Hughes\nCarlos Escobar\nSteve Conrad\nJohn Hartin\nOliver Brelsford\nAl Lowe}
+					{Program·to¯i\n\nBrian K. Hughes\nCarlos Escobar\nSteve Conrad\nJohn Hartin\nOliver Brelsford\nAl Lowe}
 					8
 				)
 				(= seconds 5)
 			)
 			(27
-				(localproc_0a0f {Music Director\n\nMark Seibert} 3)
+				(localproc_0a0f {HudebnÌ reûisÈr\n\nMark Seibert} 3)
 				(= seconds 3)
 			)
 			(28
@@ -288,7 +288,7 @@
 					)
 				)
 				(Display
-					{Sierra's Creative Interpreter\nDevelopment System\n\n}
+					{Sierra's Creative Interpreter\nV˝vojov˝ systÈm\n\n}
 					dsCOLOR
 					local30
 					dsCOORD
@@ -332,25 +332,25 @@
 				(= seconds 8)
 			)
 			(29
-				(localproc_0a0f {Additional Music\n\nChris Braymen} 3)
+				(localproc_0a0f {DodateËn· hudba\n\nChris Braymen} 3)
 				(= seconds 3)
 			)
 			(30
 				(localproc_0a0f
-					{Additional Written Material\n\nJosh Mandel}
+					{DoplÚkov˝ pÌsemn˝ materi·l\n\nJosh Mandel}
 					3
 				)
 				(= seconds 3)
 			)
 			(31
 				(localproc_0a0f
-					{Quality Assurance Team Leader\n\nRobin Bradley}
+					{VedoucÌ t˝mu pro zajiötÏnÌ kvality\n\nRobin Bradley}
 					3
 				)
 				(= seconds 3)
 			)
 			(32
-				(localproc_0a0f {Coffee Grinder\n\nC. Escobar} 3)
+				(localproc_0a0f {Ml˝nek na k·vu\n\nC. Escobar} 3)
 				(= ticks 100)
 			)
 			(33
@@ -362,7 +362,7 @@
 			(34
 				(global2 drawPic: 1 13)
 				(if (DoSound sndSET_SOUND)
-					(proc0_14 480 23 80 {AL says} 67 -1 20)
+					(proc0_14 480 23 80 {AL ¯Ìk·} 67 -1 20)
 				)
 				(= seconds 5)
 			)
@@ -376,7 +376,7 @@
 						480
 						24
 						80
-						{Congratulations! You Win!!}
+						{Gratulujeme! Vyhr·li jste!!!}
 						67
 						-1
 						15
@@ -390,7 +390,7 @@
 				(if
 					(= local0
 						(proc940_0
-							{Aren't you glad you bought a DAC?}
+							{Nejste r·di, ûe jste si koupili p¯evodnÌk?}
 							4
 							50
 							106
@@ -408,34 +408,34 @@
 							{Airport PA #4}
 							4
 							81
-							{__Atmosphere__}
+							{__AtmosfÈra__}
 							5
 							81
-							{____Screams____}
+							{____K¯iËÌ____}
 							6
 							106
 							81
 							{______Yeow______}
 							7
 							81
-							{_____Coffee_____}
+							{_____K·va_____}
 							8
 							81
-							{Folding Chair}
+							{Skl·dacÌ ûidle}
 							9
 							106
 							81
-							{ Wolf Whistle_}
+							{VlËÌ pÌöùalka_}
 							10
 							81
-							{___Knocking___}
+							{___Klep·nÌ___}
 							11
 							81
-							{___Glass #1___}
+							{___Sklenice #1___}
 							12
 							106
 							81
-							{___Glass #2___}
+							{___Sklenice #2___}
 							13
 							81
 							{_______Ah_______}
@@ -455,32 +455,32 @@
 							18
 							106
 							81
-							{ Crowd Gasp_}
+							{ DavovÈ dechy_}
 							19
 							81
-							{ Slob Eating_}
+							{ ämejdi jedÌ_}
 							20
 							81
-							{_____Flush_____}
+							{_____Splach_____}
 							21
 							106
 							81
-							{_____Belch_____}
+							{_____ÿ˝ch_____}
 							22
 							81
-							{_____Barf_____}
+							{_____Krk_____}
 							23
 							81
-							{Do Not Touch}
+							{Nedot˝kat se}
 							24
 							106
 							81
-							{< Done >}
+							{< Hotovo >}
 							0
 							4
 							115
 							80
-							{Thanks for buying "Larry 5!"}
+							{DÌky za koupi "Larryho 5!"}
 							121
 							local0
 						)
@@ -494,7 +494,7 @@
 			(38
 				(global2 drawPic: 1 13)
 				(Display
-					{Remember Al Lowe's Slogan:}
+					{NezapomeÚte na slogan Ala Lowa:}
 					dsCOLOR
 					gLowlightColor_6
 					dsCOORD
@@ -518,7 +518,7 @@
 					(gLongSong number: 481 setVol: 127 setLoop: 1 play:)
 				)
 				(Display
-					{Better Babes Through\nTechnology!}
+					{LepöÌ baby dÌky\ntechnologii!}
 					dsCOLOR
 					global131
 					dsCOORD

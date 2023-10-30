@@ -395,7 +395,7 @@
 			(3 {Dìlej})
 			(5 {Mluv})
 			(10 {Zip})
-			(else  {NEZNÁMÉ VERB})
+			(else  {UNKNOWN VERB})
 		)
 	)
 	(Format @temp40 0 23 gNumber)
@@ -703,7 +703,7 @@
 		(= gLl5Timer ll5Timer)
 		(= gCamcorderTimer camcorderTimer)
 		(= global27 {x.yyy.zzz})
-		(= global181 {mm/dd/rr})
+		(= global181 {mm/dd/yy})
 		(= global182 {991-999-9999})
 		(= global112 {992-999-9999})
 		(= temp7 (FileIO 0 {verze} 1))
@@ -1444,7 +1444,7 @@
 		cursor 999
 		message 8
 		signal $0043
-		helpStr {Tato ikona vyvolá ovládací panel.}
+		helpStr {Tato ikona vyvolá panel nastavení.}
 		maskView 990
 		maskLoop 14
 		maskCel 1

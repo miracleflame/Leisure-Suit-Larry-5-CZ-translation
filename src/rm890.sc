@@ -36,7 +36,7 @@
 )
 (instance rm890 of LLRoom
 	(properties
-		lookStr {You are inside K-RAP radio's Control Room B. For such a large room, it certainly looked smaller from the outside. The walls are filled with a myriad of recording equipment, electronic gear, mixers, microphones, recording tape, etc. etc.}
+		lookStr {Nacházíš se v øídicí místnosti B rádia K-RAP. Na to, jak je to velká místnost, vypadala zvenèí rozhodnì menší. Stìny jsou zaplnìny nesèetným množstvím nahrávacích zaøízení, elektronických pøístrojù, mixážních pultù, mikrofonù, nahrávacích pásek atd. atd.}
 		picture 890
 		south 880
 	)
@@ -278,11 +278,11 @@
 		nsLeft 117
 		nsBottom 189
 		nsRight 184
-		description {the giant speaker}
+		description {obøí reproduktor}
 		sightAngle 40
 		approachX 151
 		approachY 187
-		lookStr {You could swear these are genuine Altec "Voice of the Theatre" speakers. You haven't seen these babies in years!}
+		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 	)
 )
 
@@ -294,11 +294,11 @@
 		nsLeft 247
 		nsBottom 189
 		nsRight 319
-		description {the electronic equipment}
+		description {elektronické vybavení}
 		sightAngle 40
 		approachX 235
 		approachY 187
-		lookStr {Everywhere you look, you see buttons, switches, lights, reels of tape, and tape drives.}
+		lookStr {Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, cívky s páskami a páskové mechaniky.}
 	)
 )
 
@@ -310,11 +310,11 @@
 		nsLeft 283
 		nsBottom 163
 		nsRight 319
-		description {the electronic equipment}
+		description {elektronické vybavení}
 		sightAngle 40
 		approachX 281
 		approachY 169
-		lookStr {Everywhere you look, you see buttons, switches, lights, reels of tape, and tape drives.}
+		lookStr {Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, cívky s páskami a páskové mechaniky.}
 	)
 )
 
@@ -326,7 +326,7 @@
 		nsLeft 235
 		nsBottom 135
 		nsRight 319
-		description {the left large-hub reel-to-reel recorder}
+		description {levý velký bubnový magnetofon}
 		sightAngle 40
 		approachX 237
 		approachY 151
@@ -359,7 +359,7 @@
 		nsLeft 196
 		nsBottom 125
 		nsRight 235
-		description {the right large-hub reel-to-reel recorder}
+		description {pravý velký bubnový magnetofon}
 		sightAngle 40
 		approachX 205
 		approachY 139
@@ -378,9 +378,9 @@
 		nsLeft 274
 		nsBottom 109
 		nsRight 319
-		description {the electronic equipment}
+		description {elektronické zaøízení}
 		sightAngle 40
-		lookStr {Everywhere you look, you see buttons, switches, lights, reels of tape, and tape drives. Unfortunately, they are much too high for you to reach.}
+		lookStr {Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, cívky s páskou a páskové mechaniky. Bohužel jsou pøíliš vysoko než abys na nì dosáhla.}
 	)
 )
 
@@ -392,9 +392,9 @@
 		nsLeft 212
 		nsBottom 109
 		nsRight 274
-		description {the electronic equipment}
+		description {elektronické zaøízení}
 		sightAngle 40
-		lookStr {Everywhere you look, you see buttons, switches, lights, reels of tape, and tape drives. Unfortunately, they are much too high for you to reach.}
+		lookStr {Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, cívky s páskami a páskové mechaniky. Bohužel jsou pøíliš vysoko, než abys na nì dosáhla.}
 	)
 )
 
@@ -406,9 +406,9 @@
 		nsLeft 86
 		nsBottom 78
 		nsRight 114
-		description {the monitor speaker}
+		description {reproduktor monitoru}
 		sightAngle 40
-		lookStr {You could swear these are genuine Altec "Voice of the Theatre" speakers. You haven't seen these babies in years!}
+		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 	)
 )
 
@@ -420,9 +420,9 @@
 		nsLeft 186
 		nsBottom 72
 		nsRight 212
-		description {the monitor speaker}
+		description {reproduktor monitoru}
 		sightAngle 40
-		lookStr {You could swear these are genuine Altec "Voice of the Theatre" speakers. You haven't seen these babies in years!}
+		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 	)
 )
 
@@ -432,9 +432,9 @@
 		y 24
 		nsBottom 49
 		nsRight 21
-		description {the monitor speaker}
+		description {reproduktor monitoru}
 		sightAngle 40
-		lookStr {You could swear these are genuine Altec "Voice of the Theatre" speakers. You haven't seen these babies in years!}
+		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 	)
 )
 
@@ -446,11 +446,11 @@
 		nsLeft 120
 		nsBottom 131
 		nsRight 189
-		description {the equipment rack}
+		description {stojan s vybavením}
 		sightAngle 40
 		approachX 155
 		approachY 139
-		lookStr {This shelf contains a lot of electronic equipment, most of it old, plus a shelf filled with blank reel-to-reel tapes.}
+		lookStr {Tento regál obsahuje spoustu elektronického vybavení, vìtšinou starého, a také polici plnou prázdných kotouèových kazet.}
 	)
 )
 
@@ -462,11 +462,11 @@
 		nsLeft 138
 		nsBottom 102
 		nsRight 169
-		description {the shelf of tapes}
+		description {polièka s kazetami}
 		sightAngle 40
 		approachX 155
 		approachY 139
-		lookStr {Why, here's what you need! A shelf filled with blank, reel-to-reel recording tapes.}
+		lookStr {Aha, tady je to, co potøebuješ! Polièka plná prázdných cívkových nahrávacích pásek.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -493,7 +493,7 @@
 		nsLeft 66
 		nsBottom 126
 		nsRight 104
-		description {the microphone mixer}
+		description {mikrofonní mixér}
 		sightAngle 40
 		approachX 90
 		approachY 140
@@ -535,11 +535,11 @@
 		nsLeft 50
 		nsBottom 120
 		nsRight 68
-		description {the microphone}
+		description {mikrofon}
 		sightAngle 40
 		approachX 89
 		approachY 141
-		lookStr {A professional-quality, high-fidelity, studio ribbon microphone hangs from a boom over the studio console.}
+		lookStr {Profesionální, špièkový, studiový páskový mikrofon visí na rameni nad studiovým pultem.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -570,7 +570,7 @@
 		nsTop 115
 		nsBottom 146
 		nsRight 52
-		description {the reel-to-reel tape recorder}
+		description {kotouèový magnetofon}
 		approachX 42
 		approachY 163
 	)
@@ -629,10 +629,10 @@
 	(properties
 		x 42
 		y 130
-		description {the tape}
+		description {páska}
 		approachX 42
 		approachY 163
-		lookStr {A large Studer console recorder is all warmed up and ready to record--except there's no tape upon which to record!}
+		lookStr {Velký konzolový magnetofon Studer je rozehøátý a pøipravený k nahrávání - až na to, že nemá pásku, na kterou by se dalo nahrávat!}
 		view 890
 		loop 1
 	)
@@ -660,7 +660,7 @@
 		x 38
 		y 120
 		description {P. C. Hammer}
-		lookStr {P. C. Hammer is working in the next Control Room.}
+		lookStr {P. C. Hammer pracuje ve vedlejší øídící místnosti.}
 		view 883
 		loop 3
 	)
@@ -670,8 +670,8 @@
 	(properties
 		x 41
 		y 116
-		description {the glass window}
-		lookStr {A heavy, soundproof, plate-glass window separates you from the outside--and your freedom!}
+		description {sklenìné okno}
+		lookStr {Tìžké, zvukotìsné okno z tabulového skla tì oddìluje od vnìjšího svìta - a tvé svobody! }
 		view 890
 		loop 2
 		cel 1
@@ -684,7 +684,7 @@
 	(properties
 		x 53
 		y 122
-		description {the microphone mixer}
+		description {mikrofonní mixér}
 		approachX 90
 		approachY 144
 		view 890
@@ -712,8 +712,8 @@
 	(properties
 		x 17
 		y 51
-		description {the recording sign}
-		lookStr {This sign is illuminated whenever anyone is recording inside control room A.}
+		description {kontrolka nahrávání}
+		lookStr {Tato kontrolka se rozsvítí vždy, když nìkdo nahrává v øídící místnosti A.}
 		view 890
 		loop 6
 		cel 1
@@ -1164,11 +1164,11 @@
 	(properties
 		x 47
 		y 77
-		description {the Control Room A door}
+		description {dveøe øídicí místnosti A}
 		sightAngle 40
 		approachX 64
 		approachY 80
-		lookStr {Be careful, Patti! Inside that door stands the man you've come here to investigate: P. C. Hammer!}
+		lookStr {Buï opatrná, Patti! Uvnitø tìchto dveøí stojí muž, kterého jsi sem pøišla vyšetøovat: P. C. Hammer!}
 		view 880
 		loop 1
 		signal $4000
@@ -1189,11 +1189,11 @@
 	(properties
 		x 199
 		y 111
-		description {the Control Room B door}
+		description {dveøe øídící místnosti B}
 		sightAngle 40
 		approachX 218
 		approachY 116
-		lookStr {A sign on the door reads "Control Room B." It is currently unoccupied.}
+		lookStr {Na dveøích je nápis "Øídící místnost B". V souèasné dobì je neobsazená.}
 		view 880
 		loop 2
 		entranceTo 890
@@ -1210,7 +1210,7 @@
 		x 82
 		y 79
 		description {P. C. Hammer}
-		lookStr {Through the control room window, you see P. C. Hammer mixing his "live" radio broadcast for tomorrow morning's drive time show.}
+		lookStr {Pøes okno øídicí místnosti vidíš P. C. Hammera, jak míchá své "živé" rozhlasové vysílání pro zítøejší ranní show.}
 		view 883
 	)
 )
@@ -1219,8 +1219,8 @@
 	(properties
 		x 175
 		y 121
-		description {the microphone stand}
-		lookStr {A large boom microphone stand sits just outside the door to Control Room B.}
+		description {stojan na mikrofon}
+		lookStr {Velký mikrofonní stojan s ramenem stojí hned za dveømi do øídicí místnosti B.}
 		view 880
 		signal $4000
 	)
@@ -1230,8 +1230,8 @@
 	(properties
 		x 177
 		y 42
-		description {the recording sign}
-		lookStr {This sign is illuminated whenever anyone is recording inside this control room.}
+		description {kontrolka nahrávání}
+		lookStr {Tato kontrolka se rozsvítí, kdykoli nìkdo nahrává v této øídicí místnosti.}
 		view 880
 		loop 3
 		cel 1

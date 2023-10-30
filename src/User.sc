@@ -23,7 +23,7 @@
 		controls 0
 		echo 32
 		prevDir 0
-		prompt {Enter input}
+		prompt {Zadejte vstup}
 		inputLineAddr 0
 		x -1
 		y -1

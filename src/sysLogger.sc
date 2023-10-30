@@ -101,7 +101,7 @@ code_0192:
 			lea      @temp78
 			push    
 			pushi    40
-			lofsa    {Enter drive letter, path and your name\n(no extension, max 40 characters)}
+			lofsa    {Zadejte písmeno jednotky, cestu a jméno\n(bez pøípony, max. 40 znakù)}
 			push    
 			calle    proc255_2,  6
 			jmp      code_0181
@@ -167,7 +167,7 @@ code_0215:
 			lea      @temp138
 			push    
 			pushi    5
-			lofsa    {Enter your initials (up to 3 characters):}
+			lofsa    {Vložte své iniciály (maximálnì 3 znaky):}
 			push    
 			calle    proc255_2,  6
 			pushi    3
@@ -184,7 +184,7 @@ code_0236:
 			lea      @temp48
 			push    
 			pushi    30
-			lofsa    {Enter configuration file name (or hit return to skip):}
+			lofsa    {Zadejte název konfiguraèního souboru (nebo stisknìte Enter pro pøeskoèení):}
 			push    
 			calle    proc255_2,  6
 			bnt      code_027c
@@ -469,11 +469,11 @@ code_0472:
 			lea      @temp8
 			push    
 			pushi    81
-			lofsa    {append to it}
+			lofsa    {pøidat na konec}
 			push    
 			pushi    0
 			pushi    81
-			lofsa    {overwrite it}
+			lofsa    {pøepsat jej}
 			push    
 			pushi    1
 			calle    proc255_0,  14

@@ -41,7 +41,7 @@
 )
 (instance rm200 of LLRoom
 	(properties
-		lookStr {You've always wondered what it would be like to travel by limousine.}
+		lookStr {Vždycky tì zajímalo, jaké by to bylo cestovat limuzínou.}
 		picture 200
 	)
 	
@@ -320,9 +320,9 @@
 	(properties
 		x 245
 		y 100
-		description {the fish}
+		description {ryba}
 		sightAngle 40
-		lookStr {There's a carsick goldfish in the limousine's aquarium.}
+		lookStr {V akváriu limuzíny je zlatá rybka, které je špatnì.}
 		view 206
 	)
 	
@@ -342,9 +342,9 @@
 	(properties
 		x 156
 		y 38
-		description {the privacy window}
+		description {okno v soukromí}
 		sightAngle 40
-		lookStr {A piece of soundproof glass blocks conversation between you and your driver.}
+		lookStr {Kus zvukotìsného skla blokuje konverzaci mezi vámi a øidièem.}
 		yStep 4
 		view 200
 		cel 3
@@ -375,7 +375,7 @@
 	(properties
 		x 8
 		y 187
-		description {the DayTrotter\05}
+		description {Denní vùz\05}
 		view 200
 		cel 1
 		priority 4
@@ -410,8 +410,8 @@
 	(properties
 		x 73
 		y 181
-		description {your leg}
-		lookStr {You've always felt your legs were one of your better assets.}
+		description {tvoje noha}
+		lookStr {Vždycky jsi mìl pocit, že tvé nohy jsou jednou z tvých lepších pøedností.}
 		view 202
 		loop 3
 		priority 13
@@ -427,7 +427,7 @@
 		nsLeft 117
 		nsBottom 118
 		nsRight 205
-		description {the television set}
+		description {televizor}
 		sightAngle 40
 	)
 	
@@ -472,7 +472,7 @@
 		nsLeft 116
 		nsBottom 118
 		nsRight 206
-		description {the television set}
+		description {televizor}
 		sightAngle 40
 		view 205
 		priority 7
@@ -497,7 +497,7 @@
 		nsLeft 143
 		nsBottom 174
 		nsRight 186
-		description {the telephone}
+		description {telefon}
 		sightAngle 40
 		view 200
 		loop 1
@@ -586,7 +586,7 @@
 	(properties
 		x 41
 		y 111
-		description {the champagne bottle}
+		description {láhev šampaòského}
 		sightAngle 40
 		view 200
 		priority 5
@@ -613,7 +613,7 @@
 		x 55
 		y 225
 		z 100
-		description {the fax}
+		description {fax}
 		yStep 1
 		view 200
 		cel 2
@@ -691,9 +691,9 @@
 		nsLeft 114
 		nsBottom 60
 		nsRight 211
-		description {the video recorder}
+		description {videorekordér}
 		sightAngle 40
-		lookStr {A professional quality videotape player rests above the television set.}
+		lookStr {Nad televizorem leží profesionální pøehrávaè videokazet.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -715,9 +715,9 @@
 		nsLeft 211
 		nsBottom 70
 		nsRight 279
-		description {the video tapes}
+		description {videokazety}
 		sightAngle 40
-		lookStr {There are many videotapes in that rack that you would love to see. Unfortunately, the VCR is broken!}
+		lookStr {V tom stojanu je spousta videokazet, které bys rád vidìl. Bohužel je videorekordér rozbitý!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -738,9 +738,9 @@
 		nsLeft 217
 		nsBottom 118
 		nsRight 316
-		description {the aquarium}
+		description {akvárium}
 		sightAngle 40
-		lookStr {How bizarre! A limousine with an aquarium!}
+		lookStr {Jak bizarní! Limuzína s akváriem!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -776,10 +776,10 @@
 		nsLeft 31
 		nsBottom 111
 		nsRight 115
-		description {the bottles and glasses}
+		description {lahve a sklenice}
 		sightAngle 40
 		onMeCheck $0004
-		lookStr {There are enough bottles of liquor and glasses to throw a party. All you need now is some friends!}
+		lookStr {Tady je dost lahví alkoholu a sklenièek na poøádání veèírku. Teï už potøebuješ jen pár pøátel!}
 		name "bottles&Glasses"
 	)
 	
@@ -808,9 +808,9 @@
 		nsLeft 110
 		nsBottom 178
 		nsRight 222
-		description {the stereo}
+		description {stereo}
 		sightAngle 40
-		lookStr {The limousine's stereo has both a cassette tape player and a CD.}
+		lookStr {V limuzínì je stereo s kazetovým pøehrávaèem i CD.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -831,10 +831,10 @@
 		nsLeft 253
 		nsBottom 170
 		nsRight 319
-		description {the cabinet door}
+		description {dveøe skøínì}
 		sightAngle 40
 		onMeCheck $0002
-		lookStr {A small, locked liquor compartment rests beneath the right front passenger's seat. You wonder when it will be your turn to live high on the hog.}
+		lookStr {Pod pravým pøedním sedadlem spolujezdce se nachází malá uzamèená pøihrádka na alkohol. Pøemýšlíš, kdy pøijde øada na tebe, abys mohl žít na vysoké noze.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -935,13 +935,13 @@
 									200
 									37
 									81
-									{ReverseBiaz}
+									{ReverzníBiaz}
 									1
 									81
 									{PCHammer}
 									2
 									80
-									{You}
+									{Ty}
 								)
 							)
 						)
@@ -1006,7 +1006,7 @@
 	(properties
 		x 155
 		y 6
-		description {the mirror}
+		description {zrcadlo}
 		view 204
 		loop 1
 		priority 1
@@ -1037,7 +1037,7 @@
 	(properties
 		x 17
 		y 46
-		description {the window}
+		description {okno}
 		view 208
 		priority 14
 		signal $6810
@@ -1069,7 +1069,7 @@
 		nsLeft 31
 		nsBottom 125
 		nsRight 87
-		description {the fax machine}
+		description {fax}
 		sightAngle 40
 	)
 	
@@ -1140,7 +1140,7 @@
 	(properties
 		x 114
 		y 34
-		description {your limo driver}
+		description {tvùj øidiè limuzíny}
 		view 204
 		priority 1
 		signal $6810
@@ -1157,7 +1157,7 @@
 		nsBottom 42
 		nsRight 269
 		sightAngle 40
-		lookStr {You are sealed off from your driver by that big soundproof glass window.}
+		lookStr {Jsi oddìlen od svého øidièe tím velkým zvukotìsným oknem.}
 	)
 	
 	(method (doVerb)
@@ -1340,7 +1340,7 @@
 	(properties
 		x 114
 		y 34
-		description {your limo driver}
+		description {tvùj øidiè limuzíny}
 		view 204
 		priority 2
 		signal $6810
