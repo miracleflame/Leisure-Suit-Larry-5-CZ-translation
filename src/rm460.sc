@@ -682,7 +682,7 @@
 			)
 			(11
 				(proc0_14 460 53 80 {Inspektor Desmond})
-				(proc0_14 460 54 80 {Inspector Desmond})
+				(proc0_14 460 54 80 {Inspektor Desmond})
 				(desmond cycleSpeed: 5 setMotion: MoveTo -50 74)
 				(gLarry
 					setMotion: MoveTo (gLarry x?) (+ (gLarry y?) 4) self
@@ -1192,7 +1192,7 @@
 		view 1466
 		loop 3
 		talkWidth 280
-		name "Mr. Bigg"
+		name "Pan Bigg"
 	)
 	
 	(method (init)

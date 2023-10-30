@@ -13,7 +13,7 @@
 {Pan Bigg}
 {Larry}
 {Inspektor Desmond}
-{Inspector Desmond}
+{Inspektor Desmond}
 {Larry}
 {Pan viceprezident}
 {Larry}

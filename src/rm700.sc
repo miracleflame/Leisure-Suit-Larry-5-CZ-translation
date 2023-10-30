@@ -1064,8 +1064,7 @@ code_0db6:
 		x 121
 		y 115
 		description {znak dolaru}
-{Tady je naznaèeno, že by tu èlovìk mohl vyhrát nìjaké peníze!}
-		lookStr {stánek s hamburgery}
+		lookStr {Tady je naznaèeno, že by tu èlovìk mohl vyhrát nìjaké peníze!}
 		view 700
 		loop 13
 		signal $4000
@@ -1087,9 +1086,9 @@ code_0db6:
 		nsLeft 241
 		nsBottom 149
 		nsRight 319
-		description {To je vzrušující! Na Trampovì promenádì je restaurace, kde se podává mrtvá kráva!}
+		description {stánek s hamburgery}
 		sightAngle 40
-		lookStr {na promenádì}
+		lookStr {To je vzrušující! Na Trampovì promenádì je restaurace, kde se podává mrtvá kráva!}
 	)
 	
 	(method (init)
@@ -1115,9 +1114,9 @@ code_0db6:
 		nsLeft 241
 		nsBottom 173
 		nsRight 319
-		description {Promenáda vede na východ a táhne se témìø kam až oko dohlédne.}
+		description {na promenádì}
 		sightAngle 40
-		lookStr {pláž}
+		lookStr {Promenáda vede na východ a táhne se témìø kam až oko dohlédne.}
 	)
 )
 
@@ -1129,9 +1128,9 @@ code_0db6:
 		nsLeft 234
 		nsBottom 190
 		nsRight 320
-		description {Ten malý pruh písku vede k prudkému srázu a pak pøímo do Atlantiku! Chceš si zaplavat?}
+		description {pláž}
 		sightAngle 40
-		lookStr {svìtla}
+		lookStr {Ten malý pruh písku vede k prudkému srázu a pak pøímo do Atlantiku! Chceš si zaplavat?}
 	)
 )
 
@@ -1160,7 +1159,7 @@ code_0db6:
 		nsLeft 148
 		nsBottom 29
 		nsRight 165
-		description {zadní èást}
+		description {svìtla}
 		sightAngle 40
 	)
 	
@@ -1194,9 +1193,9 @@ code_0db6:
 		nsLeft 26
 		nsBottom 70
 		nsRight 43
-		description {Tìsné prdelky tì pøivádìjí k šílenství!}
+		description {zadní èást}
 		sightAngle 40
-		lookStr {zadní èást}
+		lookStr {Tìsné prdelky tì pøivádìjí k šílenství!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1233,7 +1232,7 @@ code_0db6:
 		nsLeft 204
 		nsBottom 95
 		nsRight 223
-		description {dívka na ceduli}
+		description {zadní èást}
 		sightAngle 40
 	)
 	
@@ -1250,9 +1249,9 @@ code_0db6:
 		nsLeft 8
 		nsBottom 88
 		nsRight 61
-		description {Jistì, je jen z pøekližky, ale nejsou na ní skvìlá svìtla?}
+		description {dívka na ceduli}
 		sightAngle 40
-		lookStr {dívka}
+		lookStr {Jistì, je jen z pøekližky, ale nejsou na ní skvìlá svìtla?}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1273,9 +1272,9 @@ code_0db6:
 		nsLeft 92
 		nsBottom 28
 		nsRight 185
-		description {Je v jedné z tvých oblíbených pozic... pro ceduli!}
+		description {dívka}
 		sightAngle 40
-		lookStr {dívka}
+		lookStr {Je v jedné z tvých oblíbených pozic... pro ceduli!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1297,9 +1296,9 @@ code_0db6:
 		nsLeft 180
 		nsBottom 105
 		nsRight 232
-		description {A vy jste se tak báli, že jste za tuhle hru vyhodili peníze!}
+		description {dívka}
 		sightAngle 40
-		lookStr {znaèka Tramp}
+		lookStr {A vy jste se tak báli, že jste za tuhle hru vyhodili peníze!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1408,9 +1407,9 @@ code_0db6:
 		nsLeft 88
 		nsBottom 97
 		nsRight 154
-		description {Píše se tu, že jste pøed Trampovým kasinem.}
+		description {znaèka Tramp}
 		sightAngle 40
-		lookStr {svìtlo}
+		lookStr {Píše se tu, že jste pøed Trampovým kasinem.}
 	)
 )
 
@@ -1423,9 +1422,9 @@ code_0db6:
 		nsLeft 62
 		nsBottom 117
 		nsRight 75
-		description {Není neon parádní!}
+		description {svìtlo}
 		sightAngle 40
-		lookStr {svìtlo}
+		lookStr {Není neon parádní!}
 	)
 )
 
@@ -1438,9 +1437,9 @@ code_0db6:
 		nsLeft 162
 		nsBottom 118
 		nsRight 182
-		description {Není neon parádní!}
+		description {svìtlo}
 		sightAngle 40
-		lookStr {nápis na automatech}
+		lookStr {Není neon parádní!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1461,9 +1460,9 @@ code_0db6:
 		nsLeft 53
 		nsBottom 78
 		nsRight 71
-		description {Pøedpokládáte, že uvnitø musí být nìjaká forma mechanizovaného hazardu.}
+		description {nápis na automatech}
 		sightAngle 40
-		lookStr {neonový nápis}
+		lookStr {Pøedpokládáte, že uvnitø musí být nìjaká forma mechanizovaného hazardu.}
 	)
 )
 
@@ -1476,9 +1475,9 @@ code_0db6:
 		nsLeft 4
 		nsBottom 28
 		nsRight 53
-		description {Jak miluješ køiklavé vìci!}
+		description {neonový nápis}
 		sightAngle 40
-		lookStr {neonový nápis}
+		lookStr {Jak miluješ køiklavé vìci!}
 	)
 )
 
@@ -1490,9 +1489,9 @@ code_0db6:
 		nsLeft 185
 		nsBottom 41
 		nsRight 228
-		description {Jak milujete køiklavé vìci!}
+		description {neonový nápis}
 		sightAngle 40
-		lookStr {neonový nápis}
+		lookStr {Jak milujete køiklavé vìci!}
 	)
 )
 
@@ -1505,9 +1504,9 @@ code_0db6:
 		nsLeft 110
 		nsBottom 40
 		nsRight 139
-		description {Jak milujete køiklavé vìci!}
+		description {neonový nápis}
 		sightAngle 40
-		lookStr {znak dolaru}
+		lookStr {Jak milujete køiklavé vìci!}
 	)
 )
 
@@ -1520,9 +1519,9 @@ code_0db6:
 		nsLeft 90
 		nsBottom 116
 		nsRight 158
-		description {Tady je naznaèeno, že by tu èlovìk mohl vyhrát nìjaké peníze!}
+		description {znak dolaru}
 		sightAngle 40
-		lookStr 
+		lookStr {Tady je naznaèeno, že by tu èlovìk mohl vyhrát nìjaké peníze!}
 	)
 	
 	(method (doVerb theVerb param2)

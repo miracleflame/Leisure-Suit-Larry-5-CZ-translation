@@ -114,7 +114,7 @@
 			(0 (= cycles 2))
 			(1
 				(global2 drawPic: (global2 picture?))
-				(localproc_048e {Výkonní øeditel\n\Ken Williams} 160)
+				(localproc_048e {Výkonní øeditel\n\nKen Williams} 160)
 				(= seconds 4)
 			)
 			(2
@@ -124,7 +124,7 @@
 			)
 			(3
 				(global2 drawPic: (global2 picture?))
-				(localproc_048e {Øeditel\n\nAl Lowe} 160)
+				(localproc_048e {Hlavní øeditel\n\nAl Lowe} 160)
 				(= seconds 4)
 			)
 			(4
