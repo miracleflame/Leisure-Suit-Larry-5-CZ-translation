@@ -1,0 +1,60 @@
+{You are so proud of this, your humble workshop.}
+{the camcorder tapes}
+{You've found them! These are the tapes you need for your new Pocket Protector Camcorder.}
+{the lobby door}
+{The door to the lobby seems oh, so familiar to you. Probably because you entered this room through it! Your "The Girls of Videotape Technician's Magazine" calendar hangs on the back, open to Miss October, who (in your opinion) has the best "reels" of the bunch!}
+{the degausser}
+{Your degausser, which you use to degauss tapes, rests on the workbench.}
+{the drawer}
+{It looks like a closed drawer.}
+{the drawer}
+{It looks like a closed drawer.}
+{the drawer}
+{It looks like a closed drawer.}
+{the cabinet}
+{You have no idea what's inside these cabinets since you are too short to see inside.}
+{your barrel of sterilizer}
+{This barrel contains the sterilizing solution that you use on all incoming video tapes before rewinding them and distributing them to the members of the ASHV Audition Team.}
+{the video monitor}
+{You use this monitor every day to preview the incoming submissions, making sure they're explicit enough to pass on to the official members of the Submissions Team.}
+{the floor drain}
+{You often feel this is where your life is headed.}
+{the boxes}
+{You have no use for empty boxes.}
+{some videotapes}
+{the lamp}
+{It's just hanging around here... rather like you, Larry!}
+{the fuzzy dice}
+{Your sole attempt to decorate your work space is one-half of a pair of fuzzy dice, left over from your '74 Bug.}
+{your 8-track player}
+{Your trusty Strombug Carlton 8-track cartridge tape player rests on your workbench. Although lately you've had trouble finding new cartridges, it still really belts out the tunes.}
+{Play which 8-track cartridge?}
+{__The Larry Song__}
+{ Record des Rever_}
+{__Desmond's Theme__}
+{__Silas Scruemall__}
+{___Closing Theme___}
+{___Hard Rock Me___}
+{___Hard Rock You__}
+{____Hard Rock It____}
+{__Michelle's Song__}
+{______Shill This______}
+{______Saxy Sex______}
+{On The Boardwalk}
+{< Next Screen >}
+{< Eject >}
+{Play which 8-track cartridge?}
+{ A Studio Session_}
+{__Gettin' Some Air__}
+{____Nasty Girlz_____}
+{____Whoz On Top?____}
+{__Tramp's Casino__}
+{____Ivana Skate____}
+{_____K-RAP Rap_____}
+{_____K-RAP Talk_____}
+{____K-RAP Rock_____}
+{___Doc'll Pulliam____}
+{__Chi Chi a Me Me__}
+{____Salsa This_____}
+{< Previous Screen >}
+{< Eject >}

@@ -1,10 +1,10 @@
 # Leisure-Suit-Larry-5-CZ-translation
 
 
-cs5 - obsahuje textové súbory určené na preklad, tieto sa následne posielajú Slávkovi na prevod do .tex súborov
+fon - fonty upravené s pridanými znakmi pre češtinu, importujú sa do resource súborov hry pomocou SCI Companiona
 
-fon - fonty upravené s pridanými znakmi pre češtinu
+scr - .txt určené na preklad obsahujú vyextrahované stringy z .sc súborov, Slávek ich následne skriptom hromadne prevádza do .sc, ktoré sa importujú do resource súborov hry pomocou SCI Companiona
 
-scr - skriptové súbory .sc obsahujú dodatočné stringy napr. GUI a popisy objektov na každej obrazovke, .txt určené na preklad obsahujú vyextrahované iba stringy z týchto .sc súborov, Slávek ich následne skriptom prevádza do .sc, ktoré sa importujú do hry cez SCI Companion
+tex - Obsahuje dialógové textové súbory s príponou .cs5 určené na preklad, tieto sa následne preložené posielajú Slávkovi na hromadný prevod do .tex súborov, a tie sa importujú do resource súborov hry pomocou SCI Companiona
 
-tex - dialógové súbory, ktoré sa importujú do hry cez SCI Companion, viď vyextrahované stringy .cs5
+v56 - súbory grafiky, importujú sa do resource súborov hry pomocou SCI Companiona

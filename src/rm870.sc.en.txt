@@ -1,0 +1,26 @@
+{The studio floor of the K-RAP building is far underground, filled with soundproof studios and playback speakers. A large fountain, complete with giant bronze sculptures, fills the center of the room.}
+{the clothes rack}
+{What a break! A clothing rack stands right beside your elevator.}
+{the keypad}
+{This keypad is similar to those upstairs. Unfortunately, you don't know the combination to this one.}
+{Studio A}
+{the studio door}
+{This door leads to K-RAP's Studio B.}
+{Studio B}
+{This is K-RAP's Studio B.}
+{Studio C}
+{This is K-RAP's Studio C.}
+{the statue}
+{How impressive! K-RAP has a fountain filled with a huge statue of the King of Rock 'n' Roll--Barry Manilow!}
+{the elevator keypad}
+{This keypad is similar to those upstairs. Unfortunately, you don't know the combination to this one.}
+{the clothes}
+{A set of brightly-colored, over-sized rapper's clothes hangs on the clothes rack, conveniently placed near the elevator.}
+{that "2 Live 2 Screw" dude}
+{that "2 Live 2 Screw" dude}
+{that "2 Live 2 Screw" dude}
+{the showervator}
+{the showervator}
+{the showervator}
+{your naked body}
+{Down you come!}

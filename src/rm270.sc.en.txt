@@ -1,0 +1,25 @@
+{You are inside the AeroDork Airline waiting room and former ticket counter. A security camera peers at you from the far wall.}
+{Buffi}
+{Muffi}
+{Tracie}
+{Stacie}
+{Cherri}
+{Barri}
+{Dixie}
+{Trixie}
+{Los Angeles}
+{New York}
+{Atlantic City}
+{Miami}
+{the charity collection canister}
+{the plant}
+{the chairs}
+{the ashtray}
+{the sign}
+{the ticket counter}
+{the door}
+{the sign}
+{the sign}
+{the sign}
+{the sign}
+{the security camera}

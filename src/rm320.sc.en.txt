@@ -1,0 +1,19 @@
+{Enter dream to debug:}
+{Dream of Athens}
+{Wake up from Athens}
+{Dream of Venice}
+{Wake up from Venice}
+{Dream of Taj Mahal}
+{Wake up from Taj Mahal}
+{Dream of Casablanca}
+{your head}
+{the tray}
+{your arm}
+{You've always liked this arm.}
+{your arm}
+{You've always liked this arm.}
+{your body}
+{the cloud}
+{the airline magazine}
+{The Stewardess}
+{the magazine}

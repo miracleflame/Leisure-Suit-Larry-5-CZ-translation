@@ -1,0 +1,9 @@
+{Variable No.}
+{Value}
+{Variable No.}
+{Dollars:_}
+{Silver:__}
+{..none..}
+{Teleport to}
+{Outta here!}
+{_}

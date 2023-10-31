@@ -1,0 +1,2 @@
+{the battery charger}
+{Camcorder Battery Strength}

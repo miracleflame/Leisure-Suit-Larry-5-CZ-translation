@@ -1,0 +1,58 @@
+{You are inside the waiting room of Doc Pulliam's Dental Hygiene Heaven. You love the carpet motif; in fact, you feel sure you seen something a lot like it before... somewhere.}
+{the magazines}
+{the palm tree}
+{You wonder if that palm tree will ever require a "root canal?"}
+{the painting}
+{You've always been a big fan of the "Happy Tooth School" of art.}
+{the painting}
+{You've always been a big fan of the "Happy Tooth School" of art.}
+{Doc's diplomas}
+{Funny. You've never heard of a dentist specializing in "String and Doorknob" dentistry. And where exactly is the "School of Hard Knockers?"}
+{the table}
+{You can tell that Doc's wife decorated this place. She's suffering from terminal cuteness!}
+{the chair}
+{This chair looks just right!}
+{the chair}
+{This chair looks too hard.}
+{the chair}
+{This chair looks too soft.}
+{the table}
+{This table contains a telephone, placed here for the convenience of Doc's customers.}
+{the table}
+{the receptionist}
+{You thought this might be the babe you've been searching for. Obviously, she's not. Not even you could consider this one sexy (and you know what low standards YOU have!).}
+{the waiting room telephone}
+{The long table contains a telephone, placed here for the convenience of Doc's customers.}
+{the sliding glass window}
+{the door}
+{This door leads to the inner offices of Doc Pulliam, including (you hope) the cubicle of Chi Chi Lambada, the woman you traveled all this way to "interview."}
+{Yes}
+{No}
+{Yes}
+{No}
+{Yes}
+{No}
+{Yes}
+{No}
+{Yes}
+{No}
+{Yes}
+{No}
+{Yes}
+{No}
+{Yes}
+{No}
+{Yes}
+{No}
+{Yes}
+{No}
+{Yes}
+{No}
+{Yes}
+{No}
+{Yes}
+{No}
+{the doily}
+{the phone}
+{the table}
+{You can tell that Doc's wife decorated this place. She's suffering from terminal cuteness!}

@@ -1,0 +1,25 @@
+{Los Angeles}
+{New York}
+{Atlantic City}
+{Miami}
+{the ATM}
+{your limousine}
+{the control tower}
+{the bushes}
+{the luggage}
+{the luggage}
+{the car}
+{the car}
+{the driveway}
+{the door}
+{the sign}
+{Los Angeles}
+{New York}
+{Atlantic City}
+{Miami}
+{the plain brown envelope}
+{the airplane}
+{the trash can}
+{the cloud}
+{the door}
+{This door leads to the exclusive AeroDork gates.}

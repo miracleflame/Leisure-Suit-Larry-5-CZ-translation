@@ -1,0 +1,24 @@
+{John Krapper's bathroom lives up to expectations. Gold fixtures are scattered everywhere. There are even a pair of gold statuettes on either side of the "crapper."}
+{the shower}
+{What appears to be a lovely glass shower rests against the wall.}
+{the shower}
+{Why, look! A lovely glass shower stands against the wall.}
+{the office door}
+{This door leads back to John Krapper's office.}
+{the shower}
+{Krapper's crapper}
+{Made of hand-carved, gold-flecked marble with a gold-plated handle and ermine-covered seat, it's obvious to you this guy really knows his "K-RAP!"}
+{the window}
+{A giant plate-glass window looks out over the lovely glow of downtown Philadelphia at night.}
+{the curtains}
+{These curtains are only for show; they do not close.}
+{the curtains}
+{These curtains are only for show; they do not close.}
+{the left sink}
+{the right sink}
+{the skylight}
+{The ceiling of John Krapper's bathroom is crowned by a lovely skylight.}
+{the statuette}
+{This statuette was presented to K-RAP Radio for excellence in broadcasting!}
+{the statuette}
+{This statuette was presented to K-RAP Radio for excellence in broadcasting!}

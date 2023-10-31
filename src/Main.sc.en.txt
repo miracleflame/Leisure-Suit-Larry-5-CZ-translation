@@ -1,0 +1,47 @@
+{An Erased Videotape}
+{Michelle Milken}
+{Lana Luscious}
+{Chi Chi Lambada}
+{Walk}
+{Look}
+{Do}
+{Talk}
+{Zipper}
+{UNKNOWN VERB}
+{\0D\n}
+{You}
+{You}
+{x.yyy.zzz}
+{mm/dd/yy}
+{991-999-9999}
+{992-999-9999}
+{version}
+{So You're Finally Leaving?}
+{Okay, you two. Have fun!}
+{Hey! Back to work!}
+{MEMORY.DRV}
+{\n}
+{Use this icon to move your character.}
+{Use this icon to look at things.}
+{Use this icon to do things.}
+{Use this icon to talk to other characters.}
+{Say! Don't you know what your zipper is for?}
+{This icon lets you "Fast Forward" to the next interactive portion of the game.}
+{Fast Forward}
+{Yes}
+{Oops}
+{Select this icon to use your current inventory object.}
+{Use this icon to bring up your inventory window.}
+{This icon brings up the control panel.}
+{To learn about the other icons, first click here, then pass the question mark over the other icons.}
+{Raise this to increase the amount of background animation. Lower it if game play seems sluggish.}
+{This adjusts the volume on some sound boards and synthesizers.}
+{This adjusts Larry and Patti's speed, within the limits of your computer's capabilities.}
+{Lower this slide to make text remain on the screen longer. Raise it if you are a fast reader.}
+{Use this to save the current state of your game. When you later select Restore, everything will be exactly as it is now.}
+{This restores a game you saved earlier.}
+{Use this to restart the game from the very beginning.}
+{Use this to leave the game.}
+{Here's where you learn more than you care to know about the creators of this game.}
+{To learn about the other items in this window, first click here, then pass the question mark over the other items.}
+{Use this to exit this menu and resume game play.}

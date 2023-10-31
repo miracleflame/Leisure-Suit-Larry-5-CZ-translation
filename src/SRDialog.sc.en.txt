@@ -1,0 +1,22 @@
+{Restore}
+{__Save__}
+{Replace}
+{Replace}
+{Select the game that you would like to restore.}
+{Type the description of this saved game.}
+{This directory/disk can hold no more saved games. You must replace one of your saved games or use Change Directory to save on a different directory/disk.}
+{This directory/disk can hold no more saved games. You must replace one of your saved games or use Change Directory to save on a different directory/disk.}
+{OK}
+{Cancel}
+{Are you sure you want to\0D\ndelete this saved game?}
+{ No_}
+{Yes}
+{Restore a Game}
+{Save a Game}
+{ Cancel_}
+{Change\0D\nDirectory}
+{ Delete_}
+{Replace}
+{with:}
+{Replace}
+{Cancel}

@@ -1,0 +1,21 @@
+{The F.B.I. laboratory is completely deserted. Perhaps they had more experiments than experimenters?}
+{the DataMan}
+{A tiny electronic display device lies on the counter.}
+{the DataPak}
+{What appears to be some sort of ROM cartridge lies on the counter.}
+{the DataPak}
+{What appears to be some sort of ROM cartridge lies on the counter.}
+{Doctor Phil Hopian's door}
+{This door leads back into Dr. Phil Hopian's office. After what you just went through, you're in no hurry to go back in there!}
+{the machine}
+{This machine does something, you feel quite certain.}
+{the computer}
+{If only you had paid attention when Larry chattered on and on about his computer. You know nothing about computers and are sure you'll be unable to do anything with it.}
+{the chemistry set}
+{This is where the technician made the flatulence powder. (Un)Fortunately, he left his equipment thoroughly clean.}
+{the workbench}
+{Lots of chemicals, beakers, and junk food wrappers fill this workbench.}
+{the books}
+{These books are filled with Latin phrases. The only Latin phrases you know would get a sailor thrown out of a bar in Tijuana!}
+{the desk}
+{This desk doesn't contain any secret documents; they all were burned in the big fire last week!}

@@ -1,0 +1,32 @@
+{PPC's file room is filled with file cabinets which are filled with files.}
+{the credit card imprinter}
+{the drawer}
+{the light}
+{Staring into the lamp is an enlightening experience for you.}
+{the bookcase}
+{This bookcase is filled with everything but books.}
+{the nude painting}
+{You don't know much about art, but something about this painting touches your fancy!}
+{your desk}
+{Why are there no workers in this place?}
+{the lamp}
+{You admire anyone who uses incandescent lighting.}
+{the magnifier}
+{the file drawer}
+{This file drawer is labeled "Losers." You're looking for the files of the three finalists. This is no time to try to fatten your address book, Larry!}
+{the file drawer}
+{This file drawer is labeled "Losers." You're looking for the files of the three finalists. This is no time to try to fatten your address book, Larry!}
+{the file drawer}
+{This file drawer is labeled "Losers." You're looking for the files of the three finalists. This is no time to try to fatten your address book, Larry!}
+{some books}
+{Why would you want to look at books, Larry? You can barely read!}
+{the fan}
+{This is your biggest fan!}
+{your chair}
+{This chair is your favorite work-place sleeper.}
+{the twins poster}
+{This poster is your personal favorite. You've always had a soft spot for twins.}
+{red}
+{blonde}
+{the rolls of paper}
+{There are some unimportant rolls of paper lying there.}

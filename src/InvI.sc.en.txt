@@ -1,0 +1,3 @@
+{Roger is carrying:}
+{nothing!}
+{Score: %d out of %d}
