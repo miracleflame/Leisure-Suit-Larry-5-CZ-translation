@@ -14,7 +14,11 @@ SCI Companion: https://github.com/Kawa-oneechan/SCICompanion/releases/tag/v3.2.4
 Rekompilace archivu resource.000:
 
 File/Open Game... -> resource.map
+
 Script/Manage Decompilation -> select all -> Decompile
+
 nahradit soubory
+
 Script/Compile all
-a naknec prepsat nove vznikle soubory resource.map a resource.000 do hry (teoreticky)
+
+a nakonec prepsat nove vznikle soubory resource.map a resource.000 do hry (teoreticky)
