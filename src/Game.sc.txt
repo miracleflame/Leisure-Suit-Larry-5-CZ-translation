@@ -1,9 +1,9 @@
-{SAVE GAME}
-{GAME}
-{OK}
+{ULOŽIT HRU}
+{HRA}
+{OKEJ}
 {Zrušit}
 {Zmìnit adresáø}
-{OK}
-{OK}
-{OK}
-{Free Heap: %u Bytes\nLargest ptr: %u Bytes\nFreeHunk: %u KBytes\nLargest hunk: %u Bytes}
+{OKEJ}
+{OKEJ}
+{OKEJ}
+{Volná halda: %u Bytù\nNejvìtší ukazatel: %u Bytù\nVolný oddíl: %u KBytù\nNejvìtší oddíl: %u Bytù}
