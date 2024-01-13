@@ -1550,7 +1550,7 @@
 		nsLeft 110
 		nsBottom 40
 		nsRight 139
-		description neonový nápis}
+		description {neonový nápis}
 		sightAngle 40
 		lookStr {Jak miluješ køiklavé vìci!}
 	)
