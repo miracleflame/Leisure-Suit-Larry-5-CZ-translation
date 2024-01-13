@@ -878,7 +878,7 @@
 	(properties
 		x 173
 		y 124
-		description svìtlo}
+		description {svìtlo}
 		lookStr {Není neon parádní!}
 		view 700
 		loop 3
