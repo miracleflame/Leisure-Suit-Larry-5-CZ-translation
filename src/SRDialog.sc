@@ -18,8 +18,8 @@
 	local3 ;numGames
 	local4 ;selected
 	local5 ;theStatus
-	[local6 4] = [{Obnovit} {__UloÅ¾it__} {Nahradit} {Nahradit}]
-	[local10 4] = [{Vyberte hru, kterou chcete obnovit.} {Zadejte popis tÃ©to uloÅ¾enÃ© hry.} {Tento adresÃ¡Å™/disk nemÅ¯Å¾e pojmout Å¾Ã¡dnÃ© dalÅ¡Ã­ uloÅ¾enÃ© hry. MusÃ­te nahradit nÄ›kterou z uloÅ¾enÃ½ch her nebo pomocÃ­ funkce ZmÄ›nit adresÃ¡Å™ uloÅ¾it do jinÃ©ho adresÃ¡Å™e/disku.} {Tento adresÃ¡Å™/disk nemÅ¯Å¾e pojmout Å¾Ã¡dnÃ© dalÅ¡Ã­ uloÅ¾enÃ© hry. MusÃ­te nahradit nÄ›kterou z uloÅ¾enÃ½ch her nebo pomocÃ­ funkce ZmÄ›nit adresÃ¡Å™ uloÅ¾it do jinÃ©ho adresÃ¡Å™e/disku.}]
+	[local6 4] = [{Obnovit} {__Uloit__} {Nahradit} {Nahradit}]
+	[local10 4] = [{Vyberte hru, kterou chcete obnovit.} {Zadejte popis této uloené hry.} {Tento adresáø/disk nemùe pojmout ádné další uloené hry. Musíte nahradit nìkterou z uloenıch her nebo pomocí funkce Zmìnit adresáø uloit do jiného adresáøe/disku.} {Tento adresáø/disk nemùe pojmout ádné další uloené hry. Musíte nahradit nìkterou z uloenıch her nebo pomocí funkce Zmìnit adresáø uloit do jiného adresáøe/disku.}]
 )
 
 ;(procedure (GetDirectory where &tmp result [newDir 33] [str 100] saveParseLang)
@@ -33,7 +33,7 @@
 				#font 0
 				#edit (StrCpy @temp1 param1) 29
 				#button {OK} 1
-				#button {ZruÅ¡it} 0
+				#button {Zrušit} 0
 			)
 		)
 		(gGame parseLang: temp134)
@@ -256,7 +256,7 @@
 						(if
 							(not
 								(proc940_0
-									{Jste si jisti, Å¾e chcete\0D\nsmazat tuto uloÅ¾enou hru?}
+									{Jste si jisti, e chcete\0D\nsmazat tuto uloenou hru?}
 									106
 									81
 									{ Ne }
@@ -347,7 +347,7 @@
 	(properties
 		elements 0
 		size 0
-		text {UloÅ¾it hru}
+		text {Uloit hru}
 		window 0
 		theItem 0
 		nsTop 0
@@ -426,13 +426,13 @@
 
 (instance cancelI of DButton
 	(properties
-		text { ZruÅ¡it_}
+		text { Zrušit_}
 	)
 )
 
 (instance changeDirI of DButton
 	(properties
-		text {ZmÄ›nit\0D\nAdresÃ¡Å™}
+		text {Zmìnit\0D\nAdresáø}
 	)
 )
 
@@ -480,6 +480,6 @@
 
 (instance button2 of DButton
 	(properties
-		text {ZruÅ¡it}
+		text {Zrušit}
 	)
 )

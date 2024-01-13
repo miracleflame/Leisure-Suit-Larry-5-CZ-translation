@@ -144,7 +144,7 @@
 		normalHeading {Roger is carrying:}
 		heading 0
 		empty {nic!}
-		curScore {SkÃ³re: %d z %d}
+		curScore {Skóre: %d z %d}
 		showScore 1
 		iconBarInvItem 0
 		okButton 0

@@ -46,10 +46,10 @@
 							{OK}
 							1
 							81
-							{ZruÅ¡it}
+							{Zrušit}
 							0
 							81
-							{ZmÄ›Åˆ adresÃ¡Å™}
+							{Zmìò adresáø}
 							2
 						)
 					else

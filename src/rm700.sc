@@ -26,7 +26,7 @@
 )
 (instance rm700 of LLRoom
 	(properties
-		lookStr {Trampovo kasino je dokonalÃ½m pÅ™Ã­kladem architektonickÃ©ho stylu, jehoÅ¾ pÅ™Ã­kladem je Frank Lloyd Wrong.}
+		lookStr {Trampovo kasino je dokonalım pøíkladem architektonického stylu, jeho pøíkladem je Frank Lloyd Wrong.}
 		picture 700
 		north 710
 		east 760
@@ -321,13 +321,13 @@
 						700
 						0
 						81
-						{UloÅ¾it}
+						{Uloit}
 						1
 						81
-						{Ne, proÄ se obtÄ›Å¾ovat?}
+						{Ne, proè se obtìovat?}
 						0
 						80
-						{AL Å™Ã­kÃ¡}
+						{AL øíká}
 						67
 						-1
 						20
@@ -470,7 +470,7 @@
 					(proc255_2
 						@temp2
 						6
-						{"Zadejte prosÃ­m ÄÃ­slo menÅ¡Ã­ neÅ¾ 10000, ano?"}
+						{"Zadejte prosím èíslo menší ne 10000, ano?"}
 						80
 						{Cheri}
 					)
@@ -531,7 +531,7 @@
 ;;;			lea      @temp2
 ;;;			push    
 ;;;			pushi    6
-;;;			lofsa    {"Zadejte prosÃ­m ÄÃ­slo menÅ¡Ã­ neÅ¾ 10000, ano?"}
+;;;			lofsa    {"Zadejte prosím èíslo menší ne 10000, ano?"}
 ;;;			push    
 ;;;			pushi    80
 ;;;			lofsa    {Cheri}
@@ -665,7 +665,7 @@
 (instance bird of Actor
 	(properties
 		description {racek}
-		lookStr {OsamÄ›lÃ½ racek lÃ©tÃ¡ sem a tam a hledÃ¡ vhodnÃ½ cÃ­l - tebe!}
+		lookStr {Osamìlı racek létá sem a tam a hledá vhodnı cíl - tebe!}
 		yStep 5
 		view 700
 		loop 8
@@ -691,10 +691,10 @@
 	(properties
 		x 93
 		y 180
-		description {limuzÃ­na}
+		description {limuzína}
 		approachX 80
 		approachY 175
-		lookStr {TvÃ¡ limuzÃ­na se vrÃ¡tila. Nebo moÅ¾nÃ¡ nÄ›jakÃ¡ jÃ­ nÃ¡padnÄ› podobnÃ¡!}
+		lookStr {Tvá limuzína se vrátila. Nebo moná nìjaká jí nápadnì podobná!}
 		view 700
 		signal $4800
 	)
@@ -704,11 +704,11 @@
 	(properties
 		x 118
 		y 155
-		description {pÅ™ednÃ­ dveÅ™e Trampova kasina}
+		description {pøední dveøe Trampova kasina}
 		sightAngle 40
 		approachX 120
 		approachY 157
-		lookStr {Nad dveÅ™mi je malÃ¡ bronzovÃ¡ deska s nÃ¡pisem: "TÄ›mito dveÅ™mi prochÃ¡zÃ­ ti nejlepÅ¡Ã­ lidÃ© na svÄ›tÄ› - NAÅ I CUCÃCI!"}
+		lookStr {Nad dveømi je malá bronzová deska s nápisem: "Tìmito dveømi prochází ti nejlepší lidé na svìtì - NAŠI CUCÁCI!"}
 		view 251
 		cycleSpeed 10
 		entranceTo 710
@@ -725,11 +725,11 @@
 	(properties
 		x 141
 		y 162
-		description {PivovarnÃ­k}
+		description {Pivovarník}
 		sightAngle 40
 		approachX 133
 		approachY 165
-		lookStr {Trampovo kasino promyÅ¡lenÄ› poskytuje vrÃ¡tnÃ©ho, kterÃ½ uspokojÃ­ kaÅ¾dou vaÅ¡i cestovnÃ­ potÅ™ebu - pokud ovÅ¡em potÅ™ebujete, aby vÃ¡m pÅ™ivolal limuzÃ­nu!}
+		lookStr {Trampovo kasino promyšlenì poskytuje vrátného, kterı uspokojí kadou vaši cestovní potøebu - pokud ovšem potøebujete, aby vám pøivolal limuzínu!}
 		view 703
 		loop 1
 		signal $4000
@@ -759,13 +759,13 @@
 				700
 				14
 				81
-				{Ne, dÄ›kuji}
+				{Ne, dìkuji}
 				0
 				81
-				{Ano, prosÃ­m}
+				{Ano, prosím}
 				1
 				80
-				{TvÅ¯j pÅ™Ã¡telskÃ½ vrÃ¡tnÃ½}
+				{Tvùj pøátelskı vrátnı}
 			)
 			(proc0_2)
 			(proc0_18 gLarry 700 15)
@@ -782,11 +782,11 @@
 	(properties
 		x 96
 		y 162
-		description {vstÅ™Ã­cnÃ½ pracovnÃ­k kasina}
+		description {vstøícnı pracovník kasina}
 		sightAngle 40
 		approachX 103
 		approachY 164
-		lookStr {Trampovo kasino zamÄ›stnÃ¡vÃ¡ krÃ¡snou mladou Å¾enu, kterÃ¡ vÃ­tÃ¡ vÅ¡echny jeho vzÃ¡cnÃ© nÃ¡vÅ¡tÄ›vnÃ­ky.}
+		lookStr {Trampovo kasino zamìstnává krásnou mladou enu, která vítá všechny jeho vzácné návštìvníky.}
 		view 702
 		signal $4000
 	)
@@ -822,7 +822,7 @@
 		x 120
 		y 100
 		description {Cedule Tramp}
-		lookStr {PÃ­Å¡e se na nÃ­, Å¾e jste pÅ™ed TrampovÃ½m kasinem.}
+		lookStr {Píše se na ní, e jste pøed Trampovım kasinem.}
 		view 700
 		loop 1
 		signal $4000
@@ -840,8 +840,8 @@
 	(properties
 		x 74
 		y 38
-		description {cedule hracÃ­ch automatÅ¯}
-		lookStr {PÅ™edpoklÃ¡dÃ¡Å¡, Å¾e uvnitÅ™ musÃ­ bÃ½t nÄ›jakÃ¡ forma mechanizovanÃ©ho hazardu.}
+		description {cedule hracích automatù}
+		lookStr {Pøedpokládáš, e uvnitø musí bıt nìjaká forma mechanizovaného hazardu.}
 		view 700
 		loop 4
 		signal $4000
@@ -859,8 +859,8 @@
 	(properties
 		x 67
 		y 123
-		description {svÄ›tlo}
-		lookStr {NenÃ­ neon parÃ¡dnÃ­!!}
+		description {svìtlo}
+		lookStr {Není neon parádní!!}
 		view 700
 		loop 2
 		signal $4000
@@ -878,8 +878,8 @@
 	(properties
 		x 173
 		y 124
-		description svÄ›tlo}
-		lookStr {NenÃ­ neon parÃ¡dnÃ­!}
+		description svìtlo}
+		lookStr {Není neon parádní!}
 		view 700
 		loop 3
 		cel 1
@@ -898,7 +898,7 @@
 	(properties
 		x 43
 		y 41
-		description {neonovÃ© bradavky}
+		description {neonové bradavky}
 		view 700
 		loop 6
 		signal $4000
@@ -939,7 +939,7 @@
 	(properties
 		x 220
 		y 68
-		description {neonovÃ© bradavky}
+		description {neonové bradavky}
 		view 700
 		loop 5
 		cel 1
@@ -962,7 +962,7 @@
 	(properties
 		x 159
 		y 27
-		description {neonovÃ© bradavky}
+		description {neonové bradavky}
 		view 700
 		loop 12
 		cel 2
@@ -985,7 +985,7 @@
 	(properties
 		x 99
 		y 51
-		description {cedule hracÃ­ch automatÅ¯}
+		description {cedule hracích automatù}
 		view 700
 		loop 14
 		signal $4000
@@ -1019,7 +1019,7 @@
 	(properties
 		x 110
 		y 51
-		description {cedule hracÃ­ch automatÅ¯}
+		description {cedule hracích automatù}
 		view 700
 		loop 14
 		signal $4000
@@ -1035,7 +1035,7 @@
 	(properties
 		x 122
 		y 51
-		description {cedule hracÃ­ch automatÅ¯}
+		description {cedule hracích automatù}
 		view 700
 		loop 14
 		cel 3
@@ -1052,8 +1052,8 @@
 	(properties
 		x 52
 		z -56
-		description {neonovÃ½ nÃ¡pis}
-		lookStr {MilujeÅ¡ kÅ™iklavÃ© vÄ›ci!}
+		description {neonovı nápis}
+		lookStr {Miluješ køiklavé vìci!}
 		view 700
 		loop 9
 		signal $4000
@@ -1071,8 +1071,8 @@
 	(properties
 		x 195
 		z -70
-		description {neonovÃ½ nÃ¡pis}
-		lookStr {MilujeÅ¡ kÅ™iklavÃ© vÄ›ci!}
+		description {neonovı nápis}
+		lookStr {Miluješ køiklavé vìci!}
 		view 700
 		loop 10
 		signal $4000
@@ -1090,8 +1090,8 @@
 	(properties
 		x 125
 		y 38
-		description {neonovÃ½ nÃ¡pis}
-		lookStr {MilujeÅ¡ kÅ™iklavÃ© vÄ›ci!}
+		description {neonovı nápis}
+		lookStr {Miluješ køiklavé vìci!}
 		view 700
 		loop 11
 		signal $4000
@@ -1110,7 +1110,7 @@
 		x 121
 		y 115
 		description {znak dolaru}
-		lookStr {Tady je naznaÄeno, Å¾e by tu ÄlovÄ›k mohl vyhrÃ¡t nÄ›jakÃ© penÃ­ze!}
+		lookStr {Tady je naznaèeno, e by tu èlovìk mohl vyhrát nìjaké peníze!}
 		view 700
 		loop 13
 		signal $4000
@@ -1132,9 +1132,9 @@
 		nsLeft 241
 		nsBottom 149
 		nsRight 319
-		description {stÃ¡nek s hamburgery}
+		description {stánek s hamburgery}
 		sightAngle 40
-		lookStr {To je vzruÅ¡ujÃ­cÃ­! Na TrampovÄ› promenÃ¡dÄ› je restaurace, kde se podÃ¡vÃ¡ mrtvÃ¡ krÃ¡va!}
+		lookStr {To je vzrušující! Na Trampovì promenádì je restaurace, kde se podává mrtvá kráva!}
 	)
 	
 	(method (init)
@@ -1160,9 +1160,9 @@
 		nsLeft 241
 		nsBottom 173
 		nsRight 319
-		description {na promenÃ¡dÄ›}
+		description {na promenádì}
 		sightAngle 40
-		lookStr {PromenÃ¡da vede na vÃ½chod a tÃ¡hne se tÃ©mÄ›Å™ kam aÅ¾ oko dohlÃ©dne.}
+		lookStr {Promenáda vede na vıchod a táhne se témìø kam a oko dohlédne.}
 	)
 )
 
@@ -1174,9 +1174,9 @@
 		nsLeft 234
 		nsBottom 190
 		nsRight 320
-		description {plÃ¡Å¾}
+		description {plá}
 		sightAngle 40
-		lookStr {Ten malÃ½ pruh pÃ­sku vede k prudkÃ©mu srÃ¡zu a pak pÅ™Ã­mo do Atlantiku! ChceÅ¡ si zaplavat?}
+		lookStr {Ten malı pruh písku vede k prudkému srázu a pak pøímo do Atlantiku! Chceš si zaplavat?}
 	)
 )
 
@@ -1188,7 +1188,7 @@
 		nsLeft 31
 		nsBottom 42
 		nsRight 53
-		description {svÄ›tla}
+		description {svìtla}
 		sightAngle 40
 	)
 	
@@ -1205,7 +1205,7 @@
 		nsLeft 148
 		nsBottom 29
 		nsRight 165
-		description {svÄ›tla}
+		description {svìtla}
 		sightAngle 40
 	)
 	
@@ -1222,7 +1222,7 @@
 		nsLeft 205
 		nsBottom 72
 		nsRight 224
-		description {zadnÃ­ ÄÃ¡st}
+		description {zadní èást}
 		sightAngle 40
 	)
 	
@@ -1239,9 +1239,9 @@
 		nsLeft 26
 		nsBottom 70
 		nsRight 43
-		description {zadnÃ­ ÄÃ¡st}
+		description {zadní èást}
 		sightAngle 40
-		lookStr {TÄ›snÃ© prdelky tÄ› pÅ™ivÃ¡dÄ›jÃ­ k Å¡Ã­lenstvÃ­!}
+		lookStr {Tìsné prdelky tì pøivádìjí k šílenství!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1278,7 +1278,7 @@
 		nsLeft 204
 		nsBottom 95
 		nsRight 223
-		description {zadnÃ­ ÄÃ¡st}
+		description {zadní èást}
 		sightAngle 40
 	)
 	
@@ -1295,9 +1295,9 @@
 		nsLeft 8
 		nsBottom 88
 		nsRight 61
-		description {dÃ­vka na ceduli}
+		description {dívka na ceduli}
 		sightAngle 40
-		lookStr {JistÄ›, je jen z pÅ™ekliÅ¾ky, ale nejsou na nÃ­ skvÄ›lÃ¡ svÄ›tla?}
+		lookStr {Jistì, je jen z pøekliky, ale nejsou na ní skvìlá svìtla?}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1318,9 +1318,9 @@
 		nsLeft 92
 		nsBottom 28
 		nsRight 185
-		description {dÃ­vka}
+		description {dívka}
 		sightAngle 40
-		lookStr {Je v jednÃ© z tvÃ½ch oblÃ­benÃ½ch pozic... na ceduli!}
+		lookStr {Je v jedné z tvıch oblíbenıch pozic... na ceduli!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1342,9 +1342,9 @@
 		nsLeft 180
 		nsBottom 105
 		nsRight 232
-		description {dÃ­vka}
+		description {dívka}
 		sightAngle 40
-		lookStr {A vy jste se tak bÃ¡li, Å¾e jste za tuhle hru vyhodili penÃ­ze!}
+		lookStr {A vy jste se tak báli, e jste za tuhle hru vyhodili peníze!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1453,9 +1453,9 @@
 		nsLeft 88
 		nsBottom 97
 		nsRight 154
-		description {znaÄka Tramp}
+		description {znaèka Tramp}
 		sightAngle 40
-		lookStr {PÃ­Å¡e se tu, Å¾e jste pÅ™ed TrampovÃ½m kasinem.}
+		lookStr {Píše se tu, e jste pøed Trampovım kasinem.}
 	)
 )
 
@@ -1468,9 +1468,9 @@
 		nsLeft 62
 		nsBottom 117
 		nsRight 75
-		description {svÄ›tlo}
+		description {svìtlo}
 		sightAngle 40
-		lookStr {NenÃ­ neon parÃ¡dnÃ­!}
+		lookStr {Není neon parádní!}
 	)
 )
 
@@ -1483,9 +1483,9 @@
 		nsLeft 162
 		nsBottom 118
 		nsRight 182
-		description {svÄ›tlo}
+		description {svìtlo}
 		sightAngle 40
-		lookStr {NenÃ­ neon parÃ¡dnÃ­!}
+		lookStr {Není neon parádní!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1506,9 +1506,9 @@
 		nsLeft 53
 		nsBottom 78
 		nsRight 71
-		description {nÃ¡pis na automatech}
+		description {nápis na automatech}
 		sightAngle 40
-		lookStr {PÅ™edpoklÃ¡Å¡, Å¾e uvnitÅ™ musÃ­ bÃ½t nÄ›jakÃ¡ forma mechanizovanÃ©ho hazardu.}
+		lookStr {Pøedpokláš, e uvnitø musí bıt nìjaká forma mechanizovaného hazardu.}
 	)
 )
 
@@ -1521,9 +1521,9 @@
 		nsLeft 4
 		nsBottom 28
 		nsRight 53
-		description {neonovÃ½ nÃ¡pis}
+		description {neonovı nápis}
 		sightAngle 40
-		lookStr {Jak milujeÅ¡ kÅ™iklavÃ© vÄ›ci!}
+		lookStr {Jak miluješ køiklavé vìci!}
 	)
 )
 
@@ -1535,9 +1535,9 @@
 		nsLeft 185
 		nsBottom 41
 		nsRight 228
-		description {neonovÃ½ nÃ¡pis}
+		description {neonovı nápis}
 		sightAngle 40
-		lookStr {Jak milujeÅ¡ kÅ™iklavÃ© vÄ›ci!}
+		lookStr {Jak miluješ køiklavé vìci!}
 	)
 )
 
@@ -1550,9 +1550,9 @@
 		nsLeft 110
 		nsBottom 40
 		nsRight 139
-		description neonovÃ½ nÃ¡pis}
+		description neonovı nápis}
 		sightAngle 40
-		lookStr {Jak milujeÅ¡ kÅ™iklavÃ© vÄ›ci!}
+		lookStr {Jak miluješ køiklavé vìci!}
 	)
 )
 
@@ -1567,7 +1567,7 @@
 		nsRight 158
 		description {znak dolaru}
 		sightAngle 40
-		lookStr {Tady je naznaÄeno, Å¾e by tu ÄlovÄ›k mohl vyhrÃ¡t nÄ›jakÃ© penÃ­ze!}
+		lookStr {Tady je naznaèeno, e by tu èlovìk mohl vyhrát nìjaké peníze!}
 	)
 	
 	(method (doVerb theVerb param2)
