@@ -1,9 +1,9 @@
-{ULOŽIT HRU}
-{HRA}
-{OKEJ}
+{SAVE GAME}
+{GAME}
+{OK}
 {Zrušit}
-{Zmìnit adresáø}
-{OKEJ}
-{OKEJ}
-{OKEJ}
+{Zmìn adresáø}
+{OK}
+{OK}
+{OK}
 {Volná halda: %u Bytù\nNejvìtší ukazatel: %u Bytù\nVolný oddíl: %u KBytù\nNejvìtší oddíl: %u Bytù}

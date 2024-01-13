@@ -9,7 +9,7 @@
 {OK}
 {Zrušit}
 {Jste si jisti, že chcete\0D\nsmazat tuto uloženou hru?}
-{ Ne_}
+{ Ne }
 {Ano}
 {Obnovit hru}
 {Uložit hru}

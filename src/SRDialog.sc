@@ -18,8 +18,8 @@
 	local3 ;numGames
 	local4 ;selected
 	local5 ;theStatus
-	[local6 4] = [{Restore} {__Save__} {Replace} {Replace}]
-	[local10 4] = [{Select the game that you would like to restore.} {Type the description of this saved game.} {This directory/disk can hold no more saved games. You must replace one of your saved games or use Change Directory to save on a different directory/disk.} {This directory/disk can hold no more saved games. You must replace one of your saved games or use Change Directory to save on a different directory/disk.}]
+	[local6 4] = [{Obnovit} {__Uložit__} {Nahradit} {Nahradit}]
+	[local10 4] = [{Vyberte hru, kterou chcete obnovit.} {Zadejte popis této uložené hry.} {Tento adresář/disk nemůže pojmout žádné další uložené hry. Musíte nahradit některou z uložených her nebo pomocí funkce Změnit adresář uložit do jiného adresáře/disku.} {Tento adresář/disk nemůže pojmout žádné další uložené hry. Musíte nahradit některou z uložených her nebo pomocí funkce Změnit adresář uložit do jiného adresáře/disku.}]
 )
 
 ;(procedure (GetDirectory where &tmp result [newDir 33] [str 100] saveParseLang)
@@ -33,7 +33,7 @@
 				#font 0
 				#edit (StrCpy @temp1 param1) 29
 				#button {OK} 1
-				#button {Cancel} 0
+				#button {Zrušit} 0
 			)
 		)
 		(gGame parseLang: temp134)
@@ -256,13 +256,13 @@
 						(if
 							(not
 								(proc940_0
-									{Are you sure you want to\r\ndelete this saved game?}
+									{Jste si jisti, že chcete\0D\nsmazat tuto uloženou hru?}
 									106
 									81
-									{ No }
+									{ Ne }
 									0
 									81
-									{Yes}
+									{Ano}
 									1
 								)
 							)
@@ -328,7 +328,7 @@
 	(properties
 		elements 0
 		size 0
-		text {Restore a Game}
+		text {Obnovit hru}
 		window 0
 		theItem 0
 		nsTop 0
@@ -347,7 +347,7 @@
 	(properties
 		elements 0
 		size 0
-		text {Save a Game}
+		text {Uložit hru}
 		window 0
 		theItem 0
 		nsTop 0
@@ -426,19 +426,19 @@
 
 (instance cancelI of DButton
 	(properties
-		text { Cancel_}
+		text { Zrušit_}
 	)
 )
 
 (instance changeDirI of DButton
 	(properties
-		text {Change\0D\nDirectory}
+		text {Změnit\0D\nAdresář}
 	)
 )
 
 (instance deleteI of DButton
 	(properties
-		text { Delete_}
+		text { Smazat_}
 	)
 )
 
@@ -450,14 +450,14 @@
 
 (instance text1 of DText
 	(properties
-		text {Replace}
+		text {Nahradit}
 		font 0
 	)
 )
 
 (instance text2 of DText
 	(properties
-		text {with:}
+		text {s:}
 		font 0
 	)
 )
@@ -474,12 +474,12 @@
 
 (instance button1 of DButton
 	(properties
-		text {Replace}
+		text {Nahradit}
 	)
 )
 
 (instance button2 of DButton
 	(properties
-		text {Cancel}
+		text {Zrušit}
 	)
 )

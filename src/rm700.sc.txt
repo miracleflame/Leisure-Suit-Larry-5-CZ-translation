@@ -4,6 +4,8 @@
 {AL øíká}
 {"Zadejte prosím èíslo menší než 10000, ano?"}
 {Cheri}
+{"Zadejte prosím èíslo menší než 10000, ano?"}
+{Cheri}
 {racek}
 {Osamìlý racek létá sem a tam a hledá vhodný cíl - tebe!}
 {limuzína}
@@ -32,11 +34,11 @@
 {cedule hracích automatù}
 {cedule hracích automatù}
 {neonový nápis}
-{Jak milujete køiklavé vìci!}
+{Miluješ køiklavé vìci!}
 {neonový nápis}
-{Jak milujete køiklavé vìci!}
+{Miluješ køiklavé vìci!}
 {neonový nápis}
-{Jak milujete køiklavé vìci!}
+{Miluješ køiklavé vìci!}
 {znak dolaru}
 {Tady je naznaèeno, že by tu èlovìk mohl vyhrát nìjaké peníze!}
 {stánek s hamburgery}
@@ -54,7 +56,7 @@
 {dívka na ceduli}
 {Jistì, je jen z pøekližky, ale nejsou na ní skvìlá svìtla?}
 {dívka}
-{Je v jedné z tvých oblíbených pozic... pro ceduli!}
+{Je v jedné z tvých oblíbených pozic... na ceduli!}
 {dívka}
 {A vy jste se tak báli, že jste za tuhle hru vyhodili peníze!}
 {znaèka Tramp}
@@ -64,7 +66,7 @@
 {svìtlo}
 {Není neon parádní!}
 {nápis na automatech}
-{Pøedpokládáte, že uvnitø musí být nìjaká forma mechanizovaného hazardu.}
+{Pøedpokláš, že uvnitø musí být nìjaká forma mechanizovaného hazardu.}
 {neonový nápis}
 {Jak miluješ køiklavé vìci!}
 {neonový nápis}

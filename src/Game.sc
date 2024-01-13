@@ -46,10 +46,10 @@
 							{OK}
 							1
 							81
-							{Cancel}
+							{Zrušit}
 							0
 							81
-							{Change Directory}
+							{Změň adresář}
 							2
 						)
 					else
