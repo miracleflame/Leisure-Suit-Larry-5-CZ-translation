@@ -67,7 +67,7 @@
 			(23
 				(Inv
 					add:
-						Camcorder
+						Kamera
 						Battery_Charger
 						A_Blank_Videotape_a
 						A_Blank_Videotape_b
@@ -233,7 +233,7 @@
 	)
 )
 
-(instance Camcorder of InvI
+(instance Kamera of InvI
 	(properties
 		view 931
 		cursor 931
@@ -301,7 +301,7 @@
 						(proc0_10 4 73)
 						(proc0_14 19 10)
 						(= state theState)
-						((Inv at: theState) owner: Camcorder)
+						((Inv at: theState) owner: Kamera)
 						(Inv curIcon: 0 hide:)
 						(gLarry showInv:)
 					)

@@ -13,101 +13,42 @@
 
 (local
 	gGameParseLang
-	local1
-	local2
-	local3
-	local4
-	local5
-	[local6 4] = [{Obnovit} {__Uložit__} {Nahradit} {Nahradit}]
-	[local10 4] = [{Vyberte hru, kterou chcete obnovit.} {Zadejte popis této uložené hry.} {Tento adresáø/disk nemùže pojmout žádné další uložené hry. Musíte nahradit nìkterou z uložených her nebo pomocí funkce Zmìnit adresáø uložit do jiného adresáøe/disku.} {Tento adresáø/disk nemùže pojmout žádné další uložené hry. Musíte nahradit nìkterou z uložených her nebo pomocí funkce Zmìnit adresáø uložit do jiného adresáøe/disku.}]
+	local1 ;default
+	local2 ;i
+	local3 ;numGames
+	local4 ;selected
+	local5 ;theStatus
+	[local6 4] = [{Restore} {__Save__} {Replace} {Replace}]
+	[local10 4] = [{Select the game that you would like to restore.} {Type the description of this saved game.} {This directory/disk can hold no more saved games. You must replace one of your saved games or use Change Directory to save on a different directory/disk.} {This directory/disk can hold no more saved games. You must replace one of your saved games or use Change Directory to save on a different directory/disk.}]
 )
+
+;(procedure (GetDirectory where &tmp result [newDir 33] [str 100] saveParseLang)
 (procedure (proc990_0 param1 &tmp temp0 [temp1 33] [temp34 100] temp134)
-	(asm
-code_088a:
-		pushi    #parseLang
-		pushi    0
-		lag      gGame
-		send     4
-		sat      temp134
-		pushi    #parseLang
-		pushi    1
-		pushi    1
-		lag      gGame
-		send     6
-		pushi    13
-		pushi    990
-		pushi    1
-		pushi    33
-		pushi    0
-		pushi    41
-		pushi    2
-		lea      @temp1
-		push    
-		lsp      param1
-		callk    StrCpy,  4
-		push    
-		pushi    29
-		pushi    81
-		lofsa    {OK}
-		push    
-		pushi    1
-		pushi    81
-		lofsa    {Zrušit}
-		push    
-		pushi    0
-		calle    proc255_0,  26
-		sat      temp0
-		pushi    #parseLang
-		pushi    1
-		lst      temp134
-		lag      gGame
-		send     6
-		lat      temp0
-		not     
-		bnt      code_08d9
-		ldi      0
-		ret     
-code_08d9:
-		pushi    1
-		lea      @temp1
-		push    
-		callk    StrLen,  2
-		not     
-		bnt      code_08ed
-		pushi    1
-		lea      @temp1
-		push    
-		callk    GetCWD,  2
-code_08ed:
-		pushi    1
-		lea      @temp1
-		push    
-		callk    ValidPath,  2
-		bnt      code_0908
-		pushi    2
-		lsp      param1
-		lea      @temp1
-		push    
-		callk    StrCpy,  4
-		ldi      1
-		ret     
-		jmp      code_088a
-code_0908:
-		pushi    3
-		pushi    4
-		lea      @temp34
-		push    
-		pushi    990
-		pushi    2
-		lea      @temp1
-		push    
-		callk    Format,  8
-		push    
-		pushi    33
-		pushi    0
-		calle    proc255_0,  6
-		jmp      code_088a
-		ret     
+	(repeat
+		(= temp134 (gGame parseLang:))
+		(gGame parseLang: 1)
+		(= temp0
+			(proc255_0 ; "New save-game directory:"
+				990 1
+				#font 0
+				#edit (StrCpy @temp1 param1) 29
+				#button {OK} 1
+				#button {Cancel} 0
+			)
+		)
+		(gGame parseLang: temp134)
+		(if (not temp0)
+			(return 0)
+		)
+		(if (not (StrLen @temp1))
+			(GetCWD @temp1)
+		)
+		(if (ValidPath @temp1)
+			(StrCpy param1 @temp1)
+			(return 1)
+		else
+			(proc255_0 (Format @temp34 990 2 @temp1) #font 0) ; "%s is not a valid directory"
+		)
 	)
 )
 
@@ -220,490 +161,162 @@ code_0908:
 		(return 1)
 	)
 	
+	;(method (doit theComment &tmp temp0 temp1 temp2 [temp3 361] [temp364 21] [temp385 140])
 	(method (doit param1 &tmp temp0 temp1 temp2 [temp3 361] [temp364 21] [temp385 140])
-		(asm
-			pushSelf
-			lofsa    Restore
-			eq?     
-			bnt      code_024d
-			lap      argc
-			bnt      code_024d
-			lap      param1
-			bnt      code_024d
-			pushi    2
-			pushi    0
-			pushi    4
-			lea      @temp385
-			push    
-			pushi    990
-			pushi    0
-			pushi    #name
-			pushi    0
-			lag      gGame
-			send     4
-			push    
-			callk    Format,  8
-			push    
-			callk    FileIO,  4
-			sat      temp0
-			push    
-			ldi      65535
-			eq?     
-			bnt      code_0246
-			ret     
-code_0246:
-			pushi    2
-			pushi    1
-			lst      temp0
-			callk    FileIO,  4
-code_024d:
-			pushi    #init
-			pushi    3
-			lsp      param1
-			lea      @temp3
-			push    
-			lea      @temp364
-			push    
-			self     10
-			not     
-			bnt      code_0266
-			ldi      65535
-			ret     
-code_0266:
-			lsl      local5
-			dup     
-			ldi      0
-			eq?     
-			bnt      code_0280
-			lal      local3
-			bnt      code_029d
-			lofsa    okI
-			jmp      code_029d
-			lofsa    changeDirI
-			jmp      code_029d
-code_0280:
-			dup     
-			ldi      1
-			eq?     
-			bnt      code_028d
-			lofsa    editI
-			jmp      code_029d
-code_028d:
-			dup     
-			ldi      2
-			eq?     
-			bnt      code_029a
-			lofsa    okI
-			jmp      code_029d
-code_029a:
-			lofsa    changeDirI
-code_029d:
-			toss    
-			sal      local1
-			pushi    #doit
-			pushi    1
-			push    
-			super    Dialog,  6
-			sal      local2
-			pushi    #indexOf
-			pushi    1
-			pushi    #cursor
-			pushi    0
-			lofsa    selectorI
-			send     4
-			push    
-			lofsa    selectorI
-			send     6
-			sal      local4
-			push    
-			ldi      18
-			mul     
-			sat      temp2
-			lsl      local2
-			lofsa    changeDirI
-			eq?     
-			bnt      code_0317
-			pushi    #dispose
-			pushi    0
-			self     4
-			pushi    1
-			lsg      global29
-			call     proc990_0,  2
-			bnt      code_0302
-			pushi    3
-			pushi    #name
-			pushi    0
-			lag      gGame
-			send     4
-			push    
-			lea      @temp3
-			push    
-			lea      @temp364
-			push    
-			callk    GetSaveFiles,  6
-			sal      local3
-			push    
-			ldi      65535
-			eq?     
-			bnt      code_0302
-			ldi      65535
-			sat      temp1
-			jmp      code_0596
-code_0302:
-			pushi    #init
-			pushi    3
-			lsp      param1
-			lea      @temp3
-			push    
-			lea      @temp364
-			push    
-			self     10
-			jmp      code_0266
-code_0317:
-			lsl      local5
-			ldi      2
-			eq?     
-			bnt      code_0364
-			lsl      local2
-			lofsa    okI
-			eq?     
-			bnt      code_0364
-			pushi    #dispose
-			pushi    0
-			self     4
-			pushi    #doit
-			pushi    1
-			pushi    2
-			lsp      param1
-			lat      temp2
-			leai     @temp3
-			push    
-			callk    StrCpy,  4
-			push    
-			lofsa    GetReplaceName
-			send     6
-			bnt      code_034f
-			lal      local4
-			lati     temp364
-			sat      temp1
-			jmp      code_0596
-code_034f:
-			pushi    #init
-			pushi    3
-			lsp      param1
-			lea      @temp3
-			push    
-			lea      @temp364
-			push    
-			self     10
-			jmp      code_0266
-code_0364:
-			lsl      local5
-			ldi      1
-			eq?     
-			bnt      code_0431
-			lsl      local2
-			lofsa    okI
-			eq?     
-			bt       code_037e
-			lsl      local2
-			lofsa    editI
-			eq?     
-			bnt      code_0431
-code_037e:
-			pushi    1
-			lsp      param1
-			callk    StrLen,  2
-			push    
-			ldi      0
-			eq?     
-			bnt      code_03aa
-			pushi    #dispose
-			pushi    0
-			self     4
-			pushi    0
-			call     localproc_0936,  0
-			pushi    #init
-			pushi    3
-			lsp      param1
-			lea      @temp3
-			push    
-			lea      @temp364
-			push    
-			self     10
-			jmp      code_0266
-code_03aa:
-			ldi      65535
-			sat      temp1
-			ldi      0
-			sal      local2
-code_03b2:
-			lsl      local2
-			lal      local3
-			lt?     
-			bnt      code_03d4
-			pushi    2
-			lsp      param1
-			lsl      local2
-			ldi      18
-			mul     
-			leai     @temp3
-			push    
-			callk    StrCmp,  4
-			sat      temp1
-			not     
-			bnt      code_03cf
-code_03cf:
-			+al      local2
-			jmp      code_03b2
-code_03d4:
-			lat      temp1
-			not     
-			bnt      code_03e4
-			lal      local2
-			lati     temp364
-			sat      temp1
-			jmp      code_0596
-code_03e4:
-			lsl      local3
-			ldi      20
-			eq?     
-			bnt      code_03f6
-			lal      local4
-			lati     temp364
-			sat      temp1
-			jmp      code_0596
-code_03f6:
-			ldi      0
-			sat      temp1
-code_03fa:
-			ldi      1
-			bnt      code_0596
-			ldi      0
-			sal      local2
-code_0403:
-			lsl      local2
-			lal      local3
-			lt?     
-			bnt      code_041b
-			lst      temp1
-			lal      local2
-			lati     temp364
-			eq?     
-			bnt      code_0416
-code_0416:
-			+al      local2
-			jmp      code_0403
-code_041b:
-			lsl      local2
-			lal      local3
-			eq?     
-			bnt      code_0426
-			jmp      code_0596
-code_0426:
-			+at      temp1
-			jmp      code_03fa
-			jmp      code_0596
-			jmp      code_0266
-code_0431:
-			lsl      local2
-			lofsa    deleteI
-			eq?     
-			bnt      code_053d
-			pushi    #dispose
-			pushi    0
-			self     4
-			pushi    8
-			lofsa    {Jste si jisti, že chcete\0D\nsmazat tuto uloženou hru?}
-			push    
-			pushi    106
-			pushi    81
-			lofsa    { Ne_}
-			push    
-			pushi    0
-			pushi    81
-			lofsa    {Ano}
-			push    
-			pushi    1
-			calle    proc940_0,  16
-			not     
-			bnt      code_0474
-			pushi    #init
-			pushi    3
-			lsp      param1
-			lea      @temp3
-			push    
-			lea      @temp364
-			push    
-			self     10
-			jmp      code_0266
-code_0474:
-			pushi    #name
-			pushi    1
-			pushi    3
-			pushi    7
-			lea      @temp385
-			push    
-			pushi    #name
-			pushi    0
-			lag      gGame
-			send     4
-			push    
-			callk    DeviceInfo,  6
-			push    
-			pushi    181
-			pushi    1
-			pushi    2
-			pushi    #new
-			pushi    0
-			class    Class_993_0
-			send     4
-			sat      temp0
-			send     12
-			ldi      2570
-			sat      temp1
-			ldi      0
-			sal      local2
-code_04a6:
-			lsl      local2
-			lal      local3
-			lt?     
-			bnt      code_04ea
-			lsl      local2
-			lal      local4
-			ne?     
-			bnt      code_04e5
-			pushi    #write
-			pushi    2
-			lal      local2
-			leai     @temp364
-			push    
-			pushi    2
-			lat      temp0
-			send     8
-			pushi    332
-			pushi    #superClass
-			lsl      local2
-			ldi      18
-			mul     
-			leai     @temp3
-			push    
-			lat      temp0
-			send     6
-			pushi    #write
-			pushi    2
-			lea      @temp1
-			push    
-			pushi    1
-			lat      temp0
-			send     8
-code_04e5:
-			+al      local2
-			jmp      code_04a6
-code_04ea:
-			ldi      65535
-			sat      temp1
-			pushi    #write
-			pushi    2
-			lea      @temp1
-			push    
-			pushi    2
-			pushi    336
-			pushi    0
-			pushi    108
-			pushi    0
-			lat      temp0
-			send     16
-			pushi    4
-			pushi    8
-			lea      @temp385
-			push    
-			pushi    #name
-			pushi    0
-			lag      gGame
-			send     4
-			push    
-			lal      local4
-			lsti     temp364
-			callk    DeviceInfo,  8
-			pushi    2
-			pushi    4
-			lea      @temp385
-			push    
-			callk    FileIO,  4
-			pushi    #init
-			pushi    3
-			lsp      param1
-			lea      @temp3
-			push    
-			lea      @temp364
-			push    
-			self     10
-			jmp      code_0266
-code_053d:
-			lsl      local2
-			lofsa    okI
-			eq?     
-			bnt      code_0553
-			lal      local4
-			lati     temp364
-			sat      temp1
-			jmp      code_0596
-			jmp      code_0266
-code_0553:
-			lsl      local2
-			ldi      0
-			eq?     
-			bt       code_0564
-			lsl      local2
-			lofsa    cancelI
-			eq?     
-			bnt      code_056e
-code_0564:
-			ldi      65535
-			sat      temp1
-			jmp      code_0596
-			jmp      code_0266
-code_056e:
-			lsl      local5
-			ldi      1
-			eq?     
-			bnt      code_0266
-			pushi    #cursor
-			pushi    1
-			pushi    1
-			pushi    2
-			lsp      param1
-			lat      temp2
-			leai     @temp3
-			push    
-			callk    StrCpy,  4
-			push    
-			callk    StrLen,  2
-			push    
-			pushi    83
-			pushi    0
-			lofsa    editI
-			send     10
-			jmp      code_0266
-code_0596:
-			pushi    1
-			pushi    993
-			callk    DisposeScript,  2
-			pushi    1
-			pushi    940
-			callk    DisposeScript,  2
-			pushi    #dispose
-			pushi    0
-			self     4
-			pushi    1
-			pushi    990
-			callk    DisposeScript,  2
-			lat      temp1
-			ret     
+		(if (and (== self Restore) argc param1)
+			(if
+				(==
+					;(= temp0 (FileIO fiOPEN (Format @temp385 990 0 (gGame name:)))) ; "%ssg.dir"
+					(= temp0 (FileIO 0 (Format @temp385 990 0 (gGame name:)))) ; "%ssg.dir" 
+					-1
+				)
+				(return)
+			)
+			;(FileIO fiCLOSE temp0)
+			(FileIO 1 temp0)
 		)
+		(if (not (self init: param1 @temp3 @temp364))
+			(return -1)
+		)
+		(repeat
+			(= local1
+				(switch local5
+					(0
+						(if local3 okI)
+					)
+					(1 editI)
+					(2 okI)
+					(else changeDirI)
+				)
+			)
+			(= local2 (super doit: local1))
+			(= temp2 (* (= local4 (selectorI indexOf: (selectorI cursor:))) 18))
+			(if (== local2 changeDirI)
+				(self dispose:)
+				(if
+					(and
+						(proc990_0 global29)
+						(==
+							(= local3
+								(GetSaveFiles (gGame name:) @temp3 @temp364)
+							)
+							-1
+						)
+					)
+					(= temp1 -1)
+					(break)
+				)
+				(self init: param1 @temp3 @temp364)
+			else
+				(if (and (== local5 2) (== local2 okI))
+					(self dispose:)
+					(if (GetReplaceName doit: (StrCpy param1 @[temp3 temp2]))
+						(= temp1 [temp364 local4])
+						(break)
+					)
+					(self init: param1 @temp3 @temp364)
+					(continue)
+				)
+				(if (and (== local5 1) (or (== local2 okI) (== local2 editI)))
+					(if (== (StrLen param1) 0)
+						(self dispose:)
+						(localproc_0936)
+						(self init: param1 @temp3 @temp364)
+						(continue)
+					)
+					(= temp1 -1)
+					(for ((= local2 0)) (< local2 local3) ((++ local2))
+						(breakif
+							(not
+								(= temp1 (StrCmp param1 @[temp3 (* local2 18)]))
+							)
+						)
+					)
+					(if (not temp1)
+						(= temp1 [temp364 local2])
+						(break)
+					)
+					(if (== local3 20)
+						(= temp1 [temp364 local4])
+						(break)
+					)
+					(for ((= temp1 0)) 1 ((++ temp1))
+						(for ((= local2 0)) (< local2 local3) ((++ local2))
+							(breakif (== temp1 [temp364 local2]))
+						)
+						(if (== local2 local3)
+							(break)
+						)
+					)
+					(break)
+				)
+				(cond
+					((== local2 deleteI)
+						(self dispose:)
+						(if
+							(not
+								(proc940_0
+									{Are you sure you want to\r\ndelete this saved game?}
+									106
+									81
+									{ No }
+									0
+									81
+									{Yes}
+									1
+								)
+							)
+							(self init: param1 @temp3 @temp364)
+						else
+							((= temp0 (Class_993_0 new:))
+								name: (DeviceInfo 7 @temp385 (gGame name:)) ; MakeSaveDirName
+								open: 2
+							)
+							(= temp1 2570)
+							(for ((= local2 0)) (< local2 local3) ((++ local2))
+								(if (!= local2 local4)
+									(temp0 write: @[temp364 local2] 2)
+									(temp0 writeString: @[temp3 (* local2 18)])
+									(temp0 write: @temp1 1)
+								)
+							)
+							(= temp1 -1)
+							(temp0 write: @temp1 2 close: dispose:)
+							(DeviceInfo
+								8 ; MakeSaveFileName
+								@temp385
+								(gGame name:)
+								[temp364 local4]
+							)
+							;(FileIO fiUNLINK @temp385)
+							(FileIO 4 @temp385)
+							(self init: param1 @temp3 @temp364)
+						)
+					)
+					((== local2 okI)
+						(= temp1 [temp364 local4])
+						(break)
+					)
+					((or (== local2 0) (== local2 cancelI))
+						(= temp1 -1)
+						(break)
+					)
+					((== local5 1)
+						(editI
+							cursor: (StrLen (StrCpy param1 @[temp3 temp2]))
+							draw:
+						)
+					)
+				)
+			)
+		)
+		(DisposeScript 993)
+		(DisposeScript 940)
+		(self dispose:)
+		(DisposeScript 990)
+		(return temp1)
 	)
-	
+
 	(method (dispose)
 		(proc932_4)
 		(gGame parseLang: gGameParseLang)
@@ -715,7 +328,7 @@ code_0596:
 	(properties
 		elements 0
 		size 0
-		text {Obnovit hru}
+		text {Restore a Game}
 		window 0
 		theItem 0
 		nsTop 0
@@ -734,7 +347,7 @@ code_0596:
 	(properties
 		elements 0
 		size 0
-		text {Uložit hru}
+		text {Save a Game}
 		window 0
 		theItem 0
 		nsTop 0
@@ -813,19 +426,19 @@ code_0596:
 
 (instance cancelI of DButton
 	(properties
-		text { Zrušit_}
+		text { Cancel_}
 	)
 )
 
 (instance changeDirI of DButton
 	(properties
-		text {Zmìnit\0D\nAdresáø}
+		text {Change\0D\nDirectory}
 	)
 )
 
 (instance deleteI of DButton
 	(properties
-		text { Smazat_}
+		text { Delete_}
 	)
 )
 
@@ -837,14 +450,14 @@ code_0596:
 
 (instance text1 of DText
 	(properties
-		text {Nahradit}
+		text {Replace}
 		font 0
 	)
 )
 
 (instance text2 of DText
 	(properties
-		text {s:}
+		text {with:}
 		font 0
 	)
 )
@@ -861,12 +474,12 @@ code_0596:
 
 (instance button1 of DButton
 	(properties
-		text {Nahradit}
+		text {Replace}
 	)
 )
 
 (instance button2 of DButton
 	(properties
-		text {Zrušit}
+		text {Cancel}
 	)
 )

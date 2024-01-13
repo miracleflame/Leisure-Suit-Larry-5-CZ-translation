@@ -1,67 +1,78 @@
 ;;; Sierra Script 1.0 - (do not remove this comment)
+;;;(script# 258)
+;;;(include sci.sh)
+;;;(use Main)
+;;;(use LLRoom)
+;;;(use CueObj)
+;;;(use Cycle)
+;;;(use InvI)
+;;;(use User)
+;;;(use PicView)
+;;;
+;;; Decompiled by sluicebox
 (script# 258)
 (include sci.sh)
 (use Main)
-(use LLRoom)
-(use CueObj)
-(use Cycle)
-(use InvI)
+(use LLRoom) ;(use eRS)
+(use CueObj) ;(use Feature)
+(use Cycle) ;(use Motion)
+(use InvI) ;(use Inventory)
 (use User)
-(use PicView)
+(use PicView) ;(use Actor)
 
 (public
 	rm258 0
 )
 
 (local
-	local0
-	local1
-	local2
-	local3
-	[local4 4]
-	[local8 4]
-	[local12 4]
-	local16
-	[local17 10]
-	[local27 8] = [9 0 3 9 2 1 9 9]
-	[local35 16] = [900 16053 1010 12415 1120 -31513 1240 -29008 130 -1897 220 14065 340 -5944 440 -9748]
-	[local51 16] = [920 -21641 1030 -7348 1150 23802 1200 -3371 100 -15834 210 -2231 310 26084 410 -22485]
-	[local67 16] = [950 18734 1050 -9228 1140 -25374 1230 -28538 120 -27849 240 31525 330 -2964 430 29519]
-	[local83 16] = [930 -7324 1040 -18826 1110 12320 1250 -24920 140 -7872 230 -27867 320 -25448 400 -20441]
+	cueCounter
+	wrongNumber
+	weCheated
+	warnCounter
+	[cpCode 4]
+	[cpTime 4]
+	[dest 4]
+	theBar
+	[departTime 10]
+	[cityToState 8] = [9 0 3 9 2 1 9 9]
+	[NYcopyProtCode 16] = [900 16053 1010 12415 1120 -31513 1240 -29008 130 -1897 220 14065 340 -5944 440 -9748]
+	[ACcopyProtCode 16] = [920 -21641 1030 -7348 1150 23802 1200 -3371 100 -15834 210 -2231 310 26084 410 -22485]
+	[McopyProtCode 16] = [950 18734 1050 -9228 1140 -25374 1230 -28538 120 -27849 240 31525 330 -2964 430 29519]
+	[LAcopyProtCode 16] = [930 -7324 1040 -18826 1110 12320 1250 -24920 140 -7872 230 -27867 320 -25448 400 -20441]
 )
-(procedure (localproc_032a param1 param2 &tmp temp0 temp1 [temp2 10])
-	(= temp0 (* (Random 0 7) 2))
-	(switch param2
+
+(procedure (FormatTime which theCity &tmp i theTime [str 10])
+	(= i (* (Random 0 7) 2))
+	(switch theCity
 		(1
-			(= [local8 param1] [local83 temp0])
-			(= [local4 param1] [local83 (+ temp0 1)])
+			(= [cpTime which] [LAcopyProtCode i])
+			(= [cpCode which] [LAcopyProtCode (+ i 1)])
 		)
 		(2
-			(= [local8 param1] [local67 temp0])
-			(= [local4 param1] [local67 (+ temp0 1)])
+			(= [cpTime which] [McopyProtCode i])
+			(= [cpCode which] [McopyProtCode (+ i 1)])
 		)
 		(4
-			(= [local8 param1] [local51 temp0])
-			(= [local4 param1] [local51 (+ temp0 1)])
+			(= [cpTime which] [ACcopyProtCode i])
+			(= [cpCode which] [ACcopyProtCode (+ i 1)])
 		)
 		(5
-			(= [local8 param1] [local35 temp0])
-			(= [local4 param1] [local35 (+ temp0 1)])
+			(= [cpTime which] [NYcopyProtCode i])
+			(= [cpCode which] [NYcopyProtCode (+ i 1)])
 		)
 	)
-	(if
-	(or (< [local8 param1] 900) (>= [local8 param1] 1200))
-		(StrCpy @temp2 {PM})
+	(if (or (< [cpTime which] 900) (>= [cpTime which] 1200))
+		(StrCpy @str {PM})
 	else
-		(StrCpy @temp2 {AM})
+		(StrCpy @str {AM})
 	)
-	(Format
-		@local17
+	(Format ; "%2d:%02d %s"
+		@departTime
 		258
 		3
-		(/ [local8 param1] 100)
-		(mod [local8 param1] 100)
-		@temp2
+		(/ [cpTime which] 100)
+		(mod [cpTime which] 100)
+		@str
 	)
 )
 
@@ -69,21 +80,28 @@
 	(properties
 		picture 258
 	)
-	
+
 	(method (init)
 		(super init:)
-		(cond 
-			((proc0_6 46) (card y: 97) (boardPass init:) (proc0_22 1) (proc0_3))
-			((and (proc0_6 8) (not (gLarry has: 8)))
+		(cond
+			((proc0_6 46) ; fPrintedPass
+				(card y: 97)
+				(boardPass init:)
+				(proc0_22 1)
+				(proc0_3)
+			)
+			((and (proc0_6 8) (not (gLarry has: 8))) ; fBeenToTown, Boarding_Pass
 				(proc0_22 1)
 				(slot init:)
 				(dispenser init:)
-				(if (not (gLarry has: 7)) (slot doVerb: 4 7))
+				(if (not (gLarry has: 7)) ; AeroDork_Gold_Card
+					(slot doVerb: 4 7)
+				)
 			)
 			(else
 				(proc0_2)
 				(Display
-					{V tuto chvíli nejsou k dispozici palubní lístky. Zkuste to prosím znovu v jiném mìstì!}
+					{Out of boarding passes at this time. Please try again in another city!}
 					dsCOORD
 					144
 					75
@@ -94,129 +112,31 @@
 					dsFONT
 					global23
 				)
-				(if (not (gLarry has: 7)) (gLarry get: 7))
+				(if (not (gLarry has: 7)) ; AeroDork_Gold_Card
+					(gLarry get: 7) ; AeroDork_Gold_Card
+				)
 				(proc0_17 15 2 global2)
 			)
 		)
 	)
-	
-	(method (handleEvent pEvent)
-		(if local1
-			(pEvent claimed: 1)
-			(card init:)
-		else
-			(super handleEvent: pEvent)
-		)
-	)
-	
-	(method (doVerb theVerb param2)
-		(return
-			(switch theVerb
-				(2 (proc0_14 258 0))
-				(4
-					(if (== param2 7)
-						(proc0_14 258 1)
-					else
-						(super doVerb: theVerb param2 &rest)
-					)
-				)
-				(1
-					(if (== ((gIconBar at: 0) cursor?) 6)
-						(cond 
-							((or (proc0_6 46) (gLarry has: 7)) (global2 newRoom: 250))
-							((gCast contains: card)
-								(global2 drawPic: (global2 picture?))
-								(switch (++ local3)
-									(1
-										(Display
-											{Hej! Vezmìte si zlatou kartu AeroDork!}
-											dsCOORD
-											144
-											75
-											dsCOLOR
-											global128
-											dsWIDTH
-											110
-											dsFONT
-											global23
-										)
-									)
-									(2
-										(Display
-											{Podívej, ty blbeèku. Jestli se zatouláš a necháš tu kartu tady, postarám se, aby tvoje zavazadla letìla bez mezipøistání do Muncie v Indianì!}
-											dsCOORD
-											144
-											75
-											dsCOLOR
-											global128
-											dsWIDTH
-											110
-											dsFONT
-											global23
-										)
-									)
-									(else 
-										(Display
-											{Fajn. Ignoruju tì.}
-											dsCOORD
-											144
-											75
-											dsCOLOR
-											global128
-											dsWIDTH
-											110
-											dsFONT
-											global23
-										)
-									)
-								)
-							)
-							(else
-								(bar1 dispose:)
-								(bar2 dispose:)
-								(bar3 dispose:)
-								(card init:)
-							)
-						)
-					else
-						(return 0)
-					)
-				)
-				(else 
-					(super doVerb: theVerb &rest)
-				)
+
+	(method (notify theNumber &tmp [temp0 4])
+		(switch theNumber
+			(-1
+				(card init:)
 			)
-		)
-	)
-	
-	(method (cue)
-		(self newRoom: 250)
-	)
-	
-	(method (newRoom)
-		(if (gCast contains: card)
-			(proc0_14 258 2)
-		else
-			(proc0_22 0)
-			(super newRoom: &rest)
-		)
-	)
-	
-	(method (notify param1 &tmp [temp0 4])
-		(switch param1
-			(-1 (card init:))
 			(-2
-				(= local2 1)
+				(= weCheated 1)
 				(boardPass init:)
 			)
-			([local4 local16]
+			([cpCode theBar]
 				(boardPass init:)
 			)
-			(else 
-				(= local1 1)
-				(global2 drawPic: (global2 picture?))
+			(else
+				(= wrongNumber 1)
+				(global2 drawPic: (global2 picture:))
 				(Display
-					{Zadali jste nesprávnou destinaci pro toto letištì v tuto hodinu. Ale i tak si vážíme toho, že jste si vybrali AeroDork Airlines.}
+					{You have entered an incorrect destination for this airport at this hour. But we still appreciate your selection of AeroDork Airlines.}
 					dsCOORD
 					144
 					75
@@ -228,6 +148,110 @@
 					global23
 				)
 			)
+		)
+	)
+
+	(method (handleEvent event)
+		(if wrongNumber
+			(event claimed: 1)
+			(card init:)
+		else
+			(super handleEvent: event)
+		)
+	)
+
+	(method (doVerb theVerb invItem)
+		(switch theVerb
+			(2 ; Look
+				(proc0_14 258 0) ; "You are standing before one of AeroDork Airline's amazing new Automatic Ticket Machines. Just insert your exclusive AeroDork Gold Club membership card into the slot on the left."
+			)
+			(4 ; Inventory
+				(if (== invItem 7) ; AeroDork_Gold_Card
+					(proc0_14 258 1) ; "Insert your exclusive AeroDork Gold Club membership card into the slot on the left."
+				else
+					(super doVerb: theVerb invItem &rest)
+				)
+			)
+			(1 ; Walk
+				(if (== ((gIconBar at: 0) cursor:) 6)
+					(cond
+						((or (proc0_6 46) (gLarry has: 7)) ; fPrintedPass, AeroDork_Gold_Card
+							(global2 newRoom: 250)
+						)
+						((gCast contains: card)
+							(global2 drawPic: (global2 picture:))
+							(switch (++ warnCounter)
+								(1
+									(Display
+										{Hey! Take your AeroDork gold card!}
+										dsCOORD
+										144
+										75
+										dsCOLOR
+										global128
+										dsWIDTH
+										110
+										dsFONT
+										global23
+									)
+								)
+								(2
+									(Display
+										{Look, you twit. If you wander off and leave that card here I'll see to it that your luggage goes non-stop to Muncie, Indiana!}
+										dsCOORD
+										144
+										75
+										dsCOLOR
+										global128
+										dsWIDTH
+										110
+										dsFONT
+										global23
+									)
+								)
+								(else
+									(Display
+										{Fine. I'm ignoring you.}
+										dsCOORD
+										144
+										75
+										dsCOLOR
+										global128
+										dsWIDTH
+										110
+										dsFONT
+										global23
+									)
+								)
+							)
+						)
+						(else
+							(bar1 dispose:)
+							(bar2 dispose:)
+							(bar3 dispose:)
+							(card init:)
+						)
+					)
+				else
+					(return 0)
+				)
+			)
+			(else
+				(super doVerb: theVerb &rest)
+			)
+		)
+	)
+
+	(method (cue)
+		(self newRoom: 250)
+	)
+
+	(method (newRoom)
+		(if (gCast contains: card)
+			(proc0_14 258 2) ; "Hey! Don't forget your gold card!"
+		else
+			(proc0_22 0)
+			(super newRoom: &rest)
 		)
 	)
 )
@@ -236,18 +260,18 @@
 	(properties
 		x 164
 		y 158
-		description {palubní lístek}
+		description {the boarding pass}
 		view 258
 		loop 1
 	)
-	
+
 	(method (init)
 		(super init:)
 		(proc0_2)
-		(global2 drawPic: (global2 picture?) 100)
-		(if local2
+		(global2 drawPic: (global2 picture:) 100)
+		(if weCheated
 			(Display
-				{Aha, to jste vy, pane Hughesi! Samozøejmì, že mùžete mít palubní lístek! Hned to bude, pane!}
+				{Oh, it's you, Mr. Hughes! Of course you may have a boarding pass! Right away, Sir!}
 				dsCOORD
 				144
 				75
@@ -260,7 +284,7 @@
 			)
 		else
 			(Display
-				{Prosím, vezmìte si palubní vstupenku.}
+				{Please take your boarding pass now.}
 				dsCOORD
 				144
 				75
@@ -272,38 +296,40 @@
 				global23
 			)
 		)
-		(if (not (proc0_7 46))
+		(if (not (proc0_7 46)) ; fPrintedPass
 			(gLongSong2 number: 257 setLoop: 0 play:)
 			(self setPri: 3 setMotion: MoveTo x 178 self)
 		else
 			(self posn: 164 178 setCel: 255 setPri: 13)
 		)
 	)
-	
-	(method (doVerb theVerb)
-		(switch theVerb
-			(2 (proc0_14 258 4))
-			(3
-				(proc0_10 4)
-				(gLarry get: 8)
-				(card init:)
-				(proc0_8 46)
-				(self dispose:)
-			)
-			(else 
-				(super doVerb: theVerb &rest)
-			)
-		)
-	)
-	
+
 	(method (cue)
 		(gLongSong2 stop:)
 		(if (not cel)
 			(self setPri: -1 setCycle: End self)
 		else
-			((Inv at: 8) state: [local27 [local12 local16]])
+			((Inv at: 8) state: [cityToState [dest theBar]]) ; Boarding_Pass
 			(= global177 (+ (* (Random 2 10) 100) (Random 65 70)))
 			(proc0_3)
+		)
+	)
+
+	(method (doVerb theVerb)
+		(switch theVerb
+			(2 ; Look
+				(proc0_14 258 4) ; "Your newly obtained boarding pass is just hanging there, waiting for you to grab it."
+			)
+			(3 ; Do
+				(proc0_10 4)
+				(gLarry get: 8) ; Boarding_Pass
+				(card init:)
+				(proc0_8 46) ; fPrintedPass
+				(self dispose:)
+			)
+			(else
+				(super doVerb: theVerb &rest)
+			)
 		)
 	)
 )
@@ -312,19 +338,19 @@
 	(properties
 		x 83
 		y 107
-		description {tvoje karta AeroDork}
+		description {your AeroDork card}
 		view 258
 		priority 3
-		signal $0010
+		signal 16
 		moveSpeed 10
 	)
-	
+
 	(method (init)
 		(super init:)
 		(if (== y 97)
-			(global2 drawPic: (global2 picture?) 100)
+			(global2 drawPic: (global2 picture:) 100)
 			(Display
-				{Prosím, vezmìte si svou zlatou kartu AeroDork.}
+				{Please take your AeroDork gold card now.}
 				dsCOORD
 				144
 				75
@@ -341,15 +367,17 @@
 			(proc0_17 10 1 self)
 		)
 	)
-	
+
 	(method (doVerb theVerb)
 		(switch theVerb
-			(2 (proc0_14 258 5))
-			(3
+			(2 ; Look
+				(proc0_14 258 5) ; "Your AeroDork Gold Card is ready to return to your pocket."
+			)
+			(3 ; Do
 				(proc0_2)
-				(global2 drawPic: (global2 picture?) 100)
+				(global2 drawPic: (global2 picture:) 100)
 				(Display
-					{Dìkujeme, že letíte s AeroDork!}
+					{Thank you for flying AeroDork!}
 					dsCOORD
 					144
 					75
@@ -360,30 +388,30 @@
 					dsFONT
 					global23
 				)
-				(gLarry get: 7)
+				(gLarry get: 7) ; AeroDork_Gold_Card
 				(proc0_17 5 0 global2)
 				(self dispose:)
 			)
-			(else 
+			(else
 				(super doVerb: theVerb &rest)
 			)
 		)
 	)
-	
-	(method (cue &tmp temp0)
-		(switch (++ local0)
+
+	(method (cue &tmp i)
+		(switch (++ cueCounter)
 			(1
 				(gLongSong2 number: 258 setLoop: 0 play:)
 				(self setMotion: MoveTo x 97 self)
 			)
 			(2
 				(User canInput: 1)
-				(gLarry put: 7)
-				(= [local12 0] 0)
-				(= [local12 1] 0)
-				(= [local12 2] 0)
+				(gLarry put: 7) ; AeroDork_Gold_Card
+				(= [dest 0] 0)
+				(= [dest 1] 0)
+				(= [dest 2] 0)
 				(Display
-					{Vítejte, Cliffe Taurusi! Kam dnes?}
+					{Welcome, Cliff Taurus! Where to today?}
 					dsCOORD
 					144
 					75
@@ -394,9 +422,9 @@
 					dsFONT
 					global23
 				)
-				(= temp0 0)
-				(if (not (proc0_6 9))
-					(localproc_032a temp0 5)
+				(= i 0)
+				(if (not (proc0_6 9)) ; fBeenInNewYork
+					(FormatTime i 5)
 					(Display
 						{New York}
 						dsCOORD
@@ -410,7 +438,7 @@
 						global23
 					)
 					(Display
-						@local17
+						@departTime
 						dsCOORD
 						215
 						102
@@ -421,16 +449,16 @@
 						dsFONT
 						global23
 					)
-					(= [local12 temp0] 5)
-					(++ temp0)
+					(= [dest i] 5)
+					(++ i)
 				)
-				(if (not (proc0_6 10))
-					(localproc_032a temp0 4)
+				(if (not (proc0_6 10)) ; fBeenInAtlanticCity
+					(FormatTime i 4)
 					(Display
 						{Atlantic City}
 						dsCOORD
 						144
-						(+ 102 (* 10 temp0))
+						(+ 102 (* 10 i))
 						dsCOLOR
 						global128
 						dsWIDTH
@@ -439,10 +467,10 @@
 						global23
 					)
 					(Display
-						@local17
+						@departTime
 						dsCOORD
 						215
-						(+ 102 (* 10 temp0))
+						(+ 102 (* 10 i))
 						dsCOLOR
 						global128
 						dsWIDTH
@@ -450,16 +478,16 @@
 						dsFONT
 						global23
 					)
-					(= [local12 temp0] 4)
-					(++ temp0)
+					(= [dest i] 4)
+					(++ i)
 				)
-				(if (not (proc0_6 11))
-					(localproc_032a temp0 2)
+				(if (not (proc0_6 11)) ; fBeenInMiami
+					(FormatTime i 2)
 					(Display
 						{Miami}
 						dsCOORD
 						144
-						(+ 102 (* 10 temp0))
+						(+ 102 (* 10 i))
 						dsCOLOR
 						global128
 						dsWIDTH
@@ -468,10 +496,10 @@
 						global23
 					)
 					(Display
-						@local17
+						@departTime
 						dsCOORD
 						215
-						(+ 102 (* 10 temp0))
+						(+ 102 (* 10 i))
 						dsCOLOR
 						global128
 						dsWIDTH
@@ -479,11 +507,11 @@
 						dsFONT
 						global23
 					)
-					(= [local12 temp0] 2)
-					(++ temp0)
+					(= [dest i] 2)
+					(++ i)
 				)
-				(if (not temp0)
-					(localproc_032a temp0 1)
+				(if (not i)
+					(FormatTime i 1)
 					(Display
 						{Los Angeles}
 						dsCOORD
@@ -497,7 +525,7 @@
 						global23
 					)
 					(Display
-						@local17
+						@departTime
 						dsCOORD
 						210
 						102
@@ -508,14 +536,16 @@
 						dsFONT
 						global23
 					)
-					(= [local12 temp0] 1)
-					(++ temp0)
+					(= [dest i] 1)
+					(++ i)
 				)
-				(if temp0
+				(if i
 					(bar1 init:)
-					(if (> temp0 1)
+					(if (> i 1)
 						(bar2 init:)
-						(if (> temp0 2) (bar3 init:))
+						(if (> i 2)
+							(bar3 init:)
+						)
 					)
 				)
 				(gIconBar curIcon: (gIconBar at: 2))
@@ -535,26 +565,28 @@
 		nsLeft 63
 		nsBottom 148
 		nsRight 98
-		description {štìrbina na kartu}
+		description {the card slot}
 		sightAngle 40
 	)
-	
-	(method (doVerb theVerb param2)
+
+	(method (doVerb theVerb invItem)
 		(switch theVerb
-			(2 (proc0_14 258 6))
-			(4
-				(switch param2
-					(7
+			(2 ; Look
+				(proc0_14 258 6) ; "Insert your AeroDork Gold card into this slot."
+			)
+			(4 ; Inventory
+				(switch invItem
+					(7 ; AeroDork_Gold_Card
 						(User canInput: 0)
 						(card init:)
 					)
-					(else 
-						(super doVerb: theVerb param2 &rest)
+					(else
+						(super doVerb: theVerb invItem &rest)
 					)
 				)
 			)
-			(else 
-				(super doVerb: theVerb param2 &rest)
+			(else
+				(super doVerb: theVerb invItem &rest)
 			)
 		)
 	)
@@ -568,13 +600,13 @@
 		nsLeft 120
 		nsBottom 186
 		nsRight 204
-		description {štìrbina pro palubní lístek}
+		description {the boarding pass slot}
 		sightAngle 40
-		lookStr {Palubní lístky jsou emitovány z této štìrbiny.}
+		lookStr {Boarding passes are emitted from this slot.}
 	)
 )
 
-(instance ATMName of Feature
+(instance ATMName of Feature ; UNUSED
 	(properties
 		x 164
 		y 27
@@ -582,13 +614,13 @@
 		nsLeft 57
 		nsBottom 40
 		nsRight 271
-		description {štítek se jménem}
+		description {the nameplate}
 		sightAngle 40
-		lookStr {Nápis na štítku zní: "AeroDork Airlines."}
+		lookStr {The nameplate says, "AeroDork Airlines."}
 	)
 )
 
-(instance screen of Feature
+(instance screen of Feature ; UNUSED
 	(properties
 		x 194
 		y 110
@@ -596,9 +628,9 @@
 		nsLeft 130
 		nsBottom 157
 		nsRight 259
-		description {obrazovka}
+		description {the screen}
 		sightAngle 40
-		lookStr {Bankomat AeroDork má dotykovou obrazovku.}
+		lookStr {The AeroDork ATM has a touch-sensitive screen.}
 	)
 )
 
@@ -610,50 +642,38 @@
 		nsLeft 143
 		nsBottom 110
 		nsRight 205
-		description {cílová destinace}
+		description {the destination}
 		sightAngle 40
 	)
-	
-	(method (doVerb theVerb param2 &tmp [temp0 80])
+
+	(method (doVerb theVerb invItem &tmp [str 80])
 		(switch theVerb
-			(2
-				(Format
-					@temp0
+			(2 ; Look
+				(Format ; "Click the hand icon here to select the flight to %s."
+					@str
 					258
 					7
-					(switch [local12 0]
+					(switch [dest 0]
 						(1 {Los Angeles})
 						(2 {Miami})
 						(4 {Atlantic City})
 						(5 {New York})
 					)
 				)
-				(proc0_14 @temp0)
+				(proc0_14 @str)
 			)
-			(3
-				(= local16 0)
-				(global2 drawPic: (global2 picture?) 100)
-				(Display
-					258
-					8
-					dsCOORD
-					144
-					75
-					dsCOLOR
-					global128
-					dsWIDTH
-					110
-					dsFONT
-					global23
-				)
-				(proc0_14 258 9 80 {Nápovìda od Ala Lowa})
-				((ScriptID 20 0) init: 0)
+			(3 ; Do
+				(= theBar 0)
+				(global2 drawPic: (global2 picture:) 100)
+				(Display 258 8 dsCOORD 144 75 dsCOLOR global128 dsWIDTH 110 dsFONT global23) ; "Please enter the five-character Destination Code from your AeroDork Airline Travel Brochure."
+				(proc0_14 258 9 80 {A hint from Al Lowe}) ; "You can use your number pad to enter your code. The keys match in position (i.e. the 7 key will press the top left button, etc.). Be sure to use only the numeric key pad, not the cursor keys."
+				((ScriptID 20 0) init: 0) ; TTDialer
 				(bar1 dispose:)
 				(bar2 dispose:)
 				(bar3 dispose:)
 			)
-			(else 
-				(super doVerb: theVerb param2 &rest)
+			(else
+				(super doVerb: theVerb invItem &rest)
 			)
 		)
 	)
@@ -667,126 +687,39 @@
 		nsLeft 143
 		nsBottom 120
 		nsRight 205
-		description {cílová destinace}
+		description {the destination}
 		sightAngle 40
 	)
-	
-	(method (doVerb theVerb param2 param3 &tmp [temp0 80])
-		(asm
-			lsp      theVerb
-			dup     
-			ldi      2
-			eq?     
-			bnt      code_0c35
-			pushi    4
-			lea      @temp0
-			push    
-			pushi    258
-			pushi    7
-			ldi      1
-			lsli     local12
-			dup     
-			eq?     
-			bnt      code_0c01
-			lofsa    {Los Angeles}
-			jmp      code_0c25
-code_0c01:
-			dup     
-			ldi      2
-			eq?     
-			bnt      code_0c0e
-			lofsa    {Miami}
-			jmp      code_0c25
-code_0c0e:
-			dup     
-			ldi      4
-			eq?     
-			bnt      code_0c1b
-			lofsa    {Atlantic City}
-			jmp      code_0c25
-code_0c1b:
-			dup     
-			ldi      5
-			eq?     
-			bnt      code_0c25
-			lofsa    {New York}
-code_0c25:
-			toss    
-			push    
-			callk    Format,  8
-			pushi    1
-			lea      @temp0
-			push    
-			callb    proc0_14,  2
-			jmp      code_0cb5
-code_0c35:
-			dup     
-			ldi      3
-			eq?     
-			bnt      code_0ca8
-			ldi      1
-			sal      local16
-			pushi    #drawPic
-			pushi    2
-			pushi    #picture
-			pushi    0
-			lag      global2
-			send     4
-			push    
-			pushi    100
-			lag      global2
-			send     8
-			pushi    11
-			pushi    258
-			pushi    8
-			pushi    100
-			pushi    144
-			pushi    75
-			pushi    102
-			lsg      global128
-			pushi    106
-			pushi    110
-			pushi    105
-			lsg      global23
-			callk    Display,  22
-			pushi    4
-			pushi    258
-			pushi    9
-			pushi    80
-			lofsa    {Nápovìda od Ala Lowa}
-			push    
-			callb    proc0_14,  8
-			pushi    #init
-			pushi    1
-			pushi    0
-			pushi    2
-			pushi    20
-			pushi    0
-			callk    ScriptID,  4
-			send     6
-			pushi    #dispose
-			pushi    0
-			lofsa    bar1
-			send     4
-			pushi    #dispose
-			pushi    0
-			lofsa    bar2
-			send     4
-			pushi    #dispose
-			pushi    0
-			lofsa    bar3
-			send     4
-			jmp      code_0cb5
-code_0ca8:
-			pushi    #doVerb
-			pushi    2
-			lsp      theVerb
-			lsp      param2
-			&rest    param3
-			super    Feature,  8
-code_0cb5:
-			toss    
-			ret     
+
+	(method (doVerb theVerb invItem &tmp [str 80])
+		(switch theVerb
+			(2 ; Look
+				(Format ; "Click the hand icon here to select the flight to %s."
+					@str
+					258
+					7
+					(switch [dest 1]
+						(1 {Los Angeles})
+						(2 {Miami})
+						(4 {Atlantic City})
+						(5 {New York})
+					)
+				)
+				(proc0_14 @str)
+			)
+			(3 ; Do
+				(= theBar 1)
+				(global2 drawPic: (global2 picture:) 100)
+				(Display 258 8 dsCOORD 144 75 dsCOLOR global128 dsWIDTH 110 dsFONT global23) ; "Please enter the five-character Destination Code from your AeroDork Airline Travel Brochure."
+				(proc0_14 258 9 80 {A hint from Al Lowe}) ; "You can use your number pad to enter your code. The keys match in position (i.e. the 7 key will press the top left button, etc.). Be sure to use only the numeric key pad, not the cursor keys."
+				((ScriptID 20 0) init: 0) ; TTDialer
+				(bar1 dispose:)
+				(bar2 dispose:)
+				(bar3 dispose:)
+			)
+			(else
+				(super doVerb: theVerb invItem &rest)
+			)
 		)
 	)
 )
@@ -799,50 +732,38 @@ code_0cb5:
 		nsLeft 143
 		nsBottom 130
 		nsRight 205
-		description {cílová destinace}
+		description {the destination}
 		sightAngle 40
 	)
-	
-	(method (doVerb theVerb param2 &tmp [temp0 80])
+
+	(method (doVerb theVerb invItem &tmp [str 80])
 		(switch theVerb
-			(2
-				(Format
-					@temp0
+			(2 ; Look
+				(Format ; "Click the hand icon here to select the flight to %s."
+					@str
 					258
 					7
-					(switch [local12 2]
+					(switch [dest 2]
 						(1 {Los Angeles})
 						(2 {Miami})
 						(4 {Atlantic City})
 						(5 {New York})
 					)
 				)
-				(proc0_14 @temp0)
+				(proc0_14 @str)
 			)
-			(3
-				(= local16 2)
-				(global2 drawPic: (global2 picture?) 100)
-				(Display
-					258
-					10
-					dsCOORD
-					144
-					75
-					dsCOLOR
-					global128
-					dsWIDTH
-					110
-					dsFONT
-					global23
-				)
-				(proc0_14 258 9 80 {Nápovìda od Ala Lowa})
-				((ScriptID 20 0) init: 0)
+			(3 ; Do
+				(= theBar 2)
+				(global2 drawPic: (global2 picture:) 100)
+				(Display 258 10 dsCOORD 144 75 dsCOLOR global128 dsWIDTH 110 dsFONT global23) ; "Please enter the five character Destination Code from your AeroDork Airline Travel Brochure."
+				(proc0_14 258 9 80 {A hint from Al Lowe}) ; "You can use your number pad to enter your code. The keys match in position (i.e. the 7 key will press the top left button, etc.). Be sure to use only the numeric key pad, not the cursor keys."
+				((ScriptID 20 0) init: 0) ; TTDialer
 				(bar1 dispose:)
 				(bar2 dispose:)
 				(bar3 dispose:)
 			)
-			(else 
-				(super doVerb: theVerb param2 &rest)
+			(else
+				(super doVerb: theVerb invItem &rest)
 			)
 		)
 	)

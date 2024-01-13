@@ -26,7 +26,7 @@
 )
 (instance rm700 of LLRoom
 	(properties
-		lookStr {Trampovo kasino je dokonalým pøíkladem architektonického stylu, jehož pøíkladem je Frank Lloyd Wrong.}
+		lookStr {Tramp's Casino is a perfect example of the style of architecture exemplified by Frank Lloyd Wrong.}
 		picture 700
 		north 710
 		east 760
@@ -199,13 +199,13 @@
 	(properties)
 	
 	(method (changeState newState)
-		(switch (= state newState)
-			(0 (= seconds 5))
+		(switch (= state (= state newState))
+			(0 (= seconds (= seconds 5)))
 			(1
 				(leftRoller x: 96 y: 48 setLoop: 7)
 				(middleRoller hide:)
 				(rightRoller hide:)
-				(= seconds 5)
+				(= seconds (= seconds 5))
 			)
 			(2
 				(leftRoller x: 99 y: 51 setLoop: 14)
@@ -221,7 +221,7 @@
 	(properties)
 	
 	(method (changeState newState)
-		(switch (= state newState)
+		(switch (= state (= state newState))
 			(0
 				(gLarry posn: 320 220 setMotion: PolyPath 220 180 self)
 			)
@@ -234,7 +234,7 @@
 	(properties)
 	
 	(method (changeState newState)
-		(switch (= state newState)
+		(switch (= state (= state newState))
 			(0
 				(gLarry setMotion: MoveTo 320 220 self)
 			)
@@ -259,17 +259,17 @@
 	)
 	
 	(method (changeState newState)
-		(switch (= state newState)
+		(switch (= state (= state newState))
 			(0
 				(limo init:)
 				(gLarry hide:)
-				(= ticks 150)
+				(= ticks (= ticks 150))
 			)
 			(1
 				(soundFX number: 191 play:)
-				(= ticks 50)
+				(= ticks (= ticks 50))
 			)
-			(2 (= ticks 60))
+			(2 (= ticks (= ticks 60)))
 			(3
 				(gLarry
 					normalize: 553
@@ -284,10 +284,10 @@
 			(4
 				(gLarry setLoop: -1 setHeading: 180 self)
 			)
-			(5 (= ticks 60))
+			(5 (= ticks (= ticks 60)))
 			(6
 				(soundFX number: 192 play:)
-				(= ticks 100)
+				(= ticks (= ticks 100))
 			)
 			(7
 				(gLongSong number: 710 setLoop: -1 flags: 1 play: 80)
@@ -312,7 +312,7 @@
 				(limo dispose:)
 				(gLarry normalize: 553)
 				(proc0_3)
-				(= cycles 1)
+				(= cycles (= cycles 1))
 			)
 			(14
 				(self dispose:)
@@ -321,13 +321,13 @@
 						700
 						0
 						81
-						{Uložit}
+						{Save}
 						1
 						81
-						{Ne, proè se obtìžovat?}
+						{Nah, Why Bother?}
 						0
 						80
-						{AL øíká}
+						{AL says}
 						67
 						-1
 						20
@@ -355,7 +355,7 @@
 	)
 	
 	(method (changeState newState &tmp [temp0 110])
-		(switch (= state newState)
+		(switch (= state (= state newState))
 			(0
 				(gLarry setHeading: 270)
 				(doorman setLoop: 0 setCel: 0 setCycle: Osc 1 self)
@@ -414,10 +414,10 @@
 			(6
 				(gLarry setHeading: 180 self)
 			)
-			(7 (= ticks 60))
+			(7 (= ticks (= ticks 60)))
 			(8
 				(soundFX number: 191 play:)
-				(= ticks 50)
+				(= ticks (= ticks 50))
 			)
 			(9
 				(gLarry
@@ -429,13 +429,13 @@
 			)
 			(10
 				(gLarry x: 1000)
-				(= ticks 60)
+				(= ticks (= ticks 60))
 			)
 			(11
 				(soundFX number: 192 play:)
-				(= ticks 50)
+				(= ticks (= ticks 50))
 			)
-			(12 (= ticks 60))
+			(12 (= ticks (= ticks 60)))
 			(13 (soundFX number: 194 play:))
 			(14
 				(limo setStep: 3 3 setMotion: MoveTo 65 (limo y?) self)
@@ -457,169 +457,215 @@
 (instance sGirlTalk of Script
 	(properties)
 	
-	(method (changeState newState &tmp temp0 temp1 [temp2 30])
-		(asm
-			lap      newState
-			aTop     state
-			push    
-			dup     
-			ldi      0
-			eq?     
-			bnt      code_0d3b
-			ldi      0
-			sat      temp0
-code_0ca4:
-			pushi    0
-			lat      temp0
-			lt?     
-			bnt      code_0cb0
-			pprev   
-			ldi      10000
-			lt?     
-code_0cb0:
-			not     
-			bnt      code_0cdb
-			ldi      0
-			sat      temp2
-			pushi    5
-			lea      @temp2
-			push    
-			pushi    6
-			lofsa    {"Zadejte prosím èíslo menší než 10000, ano?"}
-			push    
-			pushi    80
-			lofsa    {Cheri}
-			push    
-			calle    proc255_2,  10
-			pushi    1
-			lea      @temp2
-			push    
-			callk    ReadNumber,  2
-			sat      temp0
-			jmp      code_0ca4
-code_0cdb:
-			pushi    #has
-			pushi    1
-			pushi    17
-			lag      gLarry
-			send     6
-			not     
-			bnt      code_0cfe
-			pushi    5
-			lofsa    Cheri
-			push    
-			pushi    700
-			pushi    7
-			pushi    139
-			pushSelf
-			callb    proc0_18,  10
-			jmp      code_0db6
-code_0cfe:
-			lat      temp0
-			sat      temp1
-code_0d02:
-			lst      temp0
-			lat      temp1
-			eq?     
-			bnt      code_0d17
-			pushi    2
-			pushi    1
-			pushi    6900
-			callk    Random,  4
-			sat      temp1
-			jmp      code_0d02
-code_0d17:
-			pushi    4
-			lea      @temp2
-			push    
-			pushi    700
-			pushi    8
-			lst      temp1
-			callk    Format,  8
-			pushi    4
-			lofsa    Cheri
-			push    
-			lea      @temp2
-			push    
-			pushi    139
-			pushSelf
-			callb    proc0_18,  8
-			jmp      code_0db6
-code_0d3b:
-			dup     
-			ldi      1
-			eq?     
-			bnt      code_0da0
-			pushi    #has
-			pushi    1
-			pushi    17
-			lag      gLarry
-			send     6
-			bnt      code_0d66
-			pushi    6
-			lofsa    Cheri
-			push    
-			pushi    700
-			pushi    9
-			pushi    108
-			pushi    139
-			pushSelf
-			callb    proc0_18,  12
-			jmp      code_0db6
-code_0d66:
-			pushi    4
-			lofsa    Cheri
-			push    
-			pushi    700
-			pushi    10
-			pushi    108
-			callb    proc0_18,  8
-			pushi    #setLoop
-			pushi    1
-			pushi    1
-			pushi    288
-			pushi    1
-			pushi    0
-			pushi    150
-			pushi    3
-			class    Osc
-			push    
-			pushi    1
-			pushSelf
-			lofsa    changeGirl
-			send     22
-			pushi    #get
-			pushi    1
-			pushi    17
-			lag      gLarry
-			send     6
-			ldi      10
-			sag      global153
-			jmp      code_0db6
-code_0da0:
-			dup     
-			ldi      2
-			eq?     
-			bnt      code_0db6
-			pushi    #setLoop
-			pushi    1
-			pushi    0
-			lofsa    changeGirl
-			send     6
-			pushi    #dispose
-			pushi    0
-			self     4
-code_0db6:
-			toss    
-			ret     
+	
+(method (changeState newState &tmp temp0 temp1 [temp2 30])
+		(switch (= state newState)
+			(0
+				(for
+					((= temp0 0))
+					(not (< 0 temp0 10000))
+					((= temp0 (ReadNumber @temp2)))
+					
+					(= temp2 0)
+					(proc255_2
+						@temp2
+						6
+						{"Please enter a number less than 10000, ok?"}
+						80
+						{Cheri}
+					)
+				)
+				(if (not (gLarry has: 17)) ; Silver_Dollar
+					(proc0_18 Cheri 700 7 139 self) ; "Amazing! What a genius! What a coincidence! Congratulations, Sir! You have correctly guessed the number of which I have been thinking of. Here's your ten `Tramp Casino' lucky souvenir silver dollars."
+				else
+					(for
+						((= temp1 temp0))
+						(== temp0 temp1)
+						((= temp1 (Random 1 6900)))
+					)
+					(Format @temp2 700 8 temp1) ; "Aw, too bad! I was thinking of %d."
+					(proc0_18 Cheri @temp2 139 self)
+				)
+			)
+			(1
+				(if (gLarry has: 17) ; Silver_Dollar
+					(proc0_18 Cheri 700 9 108 139 self) ; "But feel free to try again any time!"
+				else
+					(proc0_18 Cheri 700 10 108) ; "Please don't confuse them with REAL money!"
+					(changeGirl setLoop: 1 setCel: 0 setCycle: Osc 1 self)
+					(gLarry get: 17) ; Silver_Dollar
+					(= global153 10)
+				)
+			)
+			(2
+				(changeGirl setLoop: 0)
+				(self dispose:)
+			)
 		)
 	)
+;;;	(method (changeState newState &tmp temp0 temp1 [temp2 30])
+;;;		(asm
+;;;			lap      newState
+;;;			aTop     state
+;;;			push    
+;;;			dup     
+;;;			ldi      0
+;;;			eq?     
+;;;			bnt      code_0b96
+;;;			ldi      0
+;;;			sat      temp0
+;;;code_0afe:
+;;;			pushi    0
+;;;			lat      temp0
+;;;			lt?     
+;;;			bnt      code_0b0a
+;;;			pprev   
+;;;			ldi      10000
+;;;			lt?     
+;;;code_0b0a:
+;;;			not     
+;;;			bnt      code_0b36
+;;;			ldi      0
+;;;			sat      temp2
+;;;			pushi    5
+;;;			lea      @temp2
+;;;			push    
+;;;			pushi    6
+;;;			lofsa    {"Please enter a number less than 10000, ok?"}
+;;;			push    
+;;;			pushi    80
+;;;			lofsa    {Cheri}
+;;;			push    
+;;;			calle    proc255_2,  10
+;;;			pushi    1
+;;;			lea      @temp2
+;;;			push    
+;;;			callk    ReadNumber,  2
+;;;			sat      temp0
+;;;			jmp      code_0afe
+;;;code_0b36:
+;;;			pushi    #has
+;;;			pushi    1
+;;;			pushi    17
+;;;			lag      gLarry
+;;;			send     6
+;;;			not     
+;;;			bnt      code_0b59
+;;;			pushi    5
+;;;			lofsa    Cheri
+;;;			push    
+;;;			pushi    700
+;;;			pushi    7
+;;;			pushi    139
+;;;			pushSelf
+;;;			callb    proc0_18,  10
+;;;			jmp      code_0c17
+;;;code_0b59:
+;;;			lat      temp0
+;;;			sat      temp1
+;;;code_0b5d:
+;;;			lst      temp0
+;;;			lat      temp1
+;;;			eq?     
+;;;			bnt      code_0b72
+;;;			pushi    2
+;;;			pushi    1
+;;;			pushi    6900
+;;;			callk    Random,  4
+;;;			sat      temp1
+;;;			jmp      code_0b5d
+;;;code_0b72:
+;;;			pushi    4
+;;;			lea      @temp2
+;;;			push    
+;;;			pushi    700
+;;;			pushi    8
+;;;			lst      temp1
+;;;			callk    Format,  8
+;;;			pushi    4
+;;;			lofsa    Cheri
+;;;			push    
+;;;			lea      @temp2
+;;;			push    
+;;;			pushi    139
+;;;			pushSelf
+;;;			callb    proc0_18,  8
+;;;			jmp      code_0c17
+;;;code_0b96:
+;;;			dup     
+;;;			ldi      1
+;;;			eq?     
+;;;			bnt      code_0bff
+;;;			pushi    #has
+;;;			pushi    1
+;;;			pushi    17
+;;;			lag      gLarry
+;;;			send     6
+;;;			bnt      code_0bbf
+;;;			pushi    6
+;;;			lofsa    Cheri
+;;;			push    
+;;;			pushi    700
+;;;			pushi    9
+;;;			pushi    108
+;;;			pushi    139
+;;;			pushSelf
+;;;			callb    proc0_18,  12
+;;;			jmp      code_0c17
+;;;code_0bbf:
+;;;			pushi    4
+;;;			lofsa    Cheri
+;;;			push    
+;;;			pushi    700
+;;;			pushi    10
+;;;			pushi    108
+;;;			callb    proc0_18,  8
+;;;			pushi    #setLoop
+;;;			pushi    1
+;;;			pushi    1
+;;;			pushi    288
+;;;			pushi    1
+;;;			pushi    0
+;;;			pushi    150
+;;;			pushi    3
+;;;			class    Osc
+;;;			push    
+;;;			pushi    1
+;;;			pushSelf
+;;;			lofsa    changeGirl
+;;;			send     22
+;;;			pushi    #get
+;;;			pushi    1
+;;;			pushi    17
+;;;			lag      gLarry
+;;;			send     6
+;;;			ldi      10
+;;;			sag      global153
+;;;			jmp      code_0c17
+;;;code_0bff:
+;;;			dup     
+;;;			ldi      2
+;;;			eq?     
+;;;			bnt      code_0c17
+;;;			pushi    #setLoop
+;;;			pushi    1
+;;;			pushi    0
+;;;			lofsa    changeGirl
+;;;			send     6
+;;;			pushi    #dispose
+;;;			pushi    0
+;;;			self     4
+;;;code_0c17:
+;;;			toss    
+;;;			ret     
+;;;		)
+;;;	)
 )
 
 (instance bird of Actor
 	(properties
-		description {racek}
-		lookStr {Osamìlý racek létá sem a tam a hledá vhodný cíl - tebe!}
+		description {the seagull}
+		lookStr {A lonely seagull flies back and forth, searching for a likely target--you!}
 		yStep 5
 		view 700
 		loop 8
@@ -645,10 +691,10 @@ code_0db6:
 	(properties
 		x 93
 		y 180
-		description {limuzína}
+		description {the limousine}
 		approachX 80
 		approachY 175
-		lookStr {Tvá limuzína se vrátila. Nebo možná nìjaká jí nápadnì podobná!}
+		lookStr {Your limousine has returned. Or, perhaps, one suspiciously like it!}
 		view 700
 		signal $4800
 	)
@@ -658,11 +704,11 @@ code_0db6:
 	(properties
 		x 118
 		y 155
-		description {pøední dveøe Trampova kasina}
+		description {the front door of Tramp's Casino}
 		sightAngle 40
 		approachX 120
 		approachY 157
-		lookStr {Nad dveømi je malá bronzová deska s nápisem: "Tìmito dveømi prochází ti nejlepší lidé na svìtì - NAŠI CUCÁCI!"}
+		lookStr {A small bronze plaque over the door reads, "Through these doors pass the greatest people in the world--OUR SUCKERS!"}
 		view 251
 		cycleSpeed 10
 		entranceTo 710
@@ -679,11 +725,11 @@ code_0db6:
 	(properties
 		x 141
 		y 162
-		description {Pivovarník}
+		description {Brewster}
 		sightAngle 40
 		approachX 133
 		approachY 165
-		lookStr {Trampovo kasino promyšlenì poskytuje vrátného, který uspokojí každou vaši cestovní potøebu - pokud ovšem potøebujete, aby vám pøivolal limuzínu!}
+		lookStr {Tramp's Casino thoughtfully provides a doorman to satisfy your every travel need--as long as all you need is for him to summon you a limousine!}
 		view 703
 		loop 1
 		signal $4000
@@ -713,13 +759,13 @@ code_0db6:
 				700
 				14
 				81
-				{Ne, dìkuji}
+				{No, thank you}
 				0
 				81
-				{Ano, prosím}
+				{Yes, please}
 				1
 				80
-				{Tvùj pøátelský vrátný}
+				{Your Friendly Doorman}
 			)
 			(proc0_2)
 			(proc0_18 gLarry 700 15)
@@ -736,11 +782,11 @@ code_0db6:
 	(properties
 		x 96
 		y 162
-		description {vstøícný pracovník kasina}
+		description {the casino greeter}
 		sightAngle 40
 		approachX 103
 		approachY 164
-		lookStr {Trampovo kasino zamìstnává krásnou mladou ženu, která vítá všechny jeho vzácné návštìvníky.}
+		lookStr {Tramp's Casino employs a beautiful young woman to greet all its distinguished visitors.}
 		view 702
 		signal $4000
 	)
@@ -775,8 +821,8 @@ code_0db6:
 	(properties
 		x 120
 		y 100
-		description {Cedule Tramp}
-		lookStr {Píše se na ní, že jste pøed Trampovým kasinem.}
+		description {the Tramp sign}
+		lookStr {It says you're in front of Tramp's Casino.}
 		view 700
 		loop 1
 		signal $4000
@@ -794,8 +840,8 @@ code_0db6:
 	(properties
 		x 74
 		y 38
-		description {cedule hracích automatù}
-		lookStr {Pøedpokládáš, že uvnitø musí být nìjaká forma mechanizovaného hazardu.}
+		description {the slot machine sign}
+		lookStr {You presume there must be some form of mechanized gambling within.}
 		view 700
 		loop 4
 		signal $4000
@@ -813,8 +859,8 @@ code_0db6:
 	(properties
 		x 67
 		y 123
-		description {svìtlo}
-		lookStr {Není neon parádní!}
+		description {the light}
+		lookStr {Ain't neon grand!}
 		view 700
 		loop 2
 		signal $4000
@@ -832,8 +878,8 @@ code_0db6:
 	(properties
 		x 173
 		y 124
-		description {svìtlo}
-		lookStr {Není neon parádní!}
+		description {the light}
+		lookStr {Ain't neon grand!}
 		view 700
 		loop 3
 		cel 1
@@ -852,7 +898,7 @@ code_0db6:
 	(properties
 		x 43
 		y 41
-		description {neonové bradavky}
+		description {the neon nipples}
 		view 700
 		loop 6
 		signal $4000
@@ -893,7 +939,7 @@ code_0db6:
 	(properties
 		x 220
 		y 68
-		description {neonové bradavky}
+		description {the neon nipples}
 		view 700
 		loop 5
 		cel 1
@@ -916,7 +962,7 @@ code_0db6:
 	(properties
 		x 159
 		y 27
-		description {neonové bradavky}
+		description {the neon nipples}
 		view 700
 		loop 12
 		cel 2
@@ -939,7 +985,7 @@ code_0db6:
 	(properties
 		x 99
 		y 51
-		description {cedule hracích automatù}
+		description {the slot machine sign}
 		view 700
 		loop 14
 		signal $4000
@@ -973,7 +1019,7 @@ code_0db6:
 	(properties
 		x 110
 		y 51
-		description {cedule hracích automatù}
+		description {the slot machine sign}
 		view 700
 		loop 14
 		signal $4000
@@ -989,7 +1035,7 @@ code_0db6:
 	(properties
 		x 122
 		y 51
-		description {cedule hracích automatù}
+		description {the slot machine sign}
 		view 700
 		loop 14
 		cel 3
@@ -1006,8 +1052,8 @@ code_0db6:
 	(properties
 		x 52
 		z -56
-		description {neonový nápis}
-		lookStr {Jak milujete køiklavé vìci!}
+		description {the neon sign}
+		lookStr {How you love gaudy things!}
 		view 700
 		loop 9
 		signal $4000
@@ -1025,8 +1071,8 @@ code_0db6:
 	(properties
 		x 195
 		z -70
-		description {neonový nápis}
-		lookStr {Jak milujete køiklavé vìci!}
+		description {the neon sign}
+		lookStr {How you love gaudy things!}
 		view 700
 		loop 10
 		signal $4000
@@ -1044,8 +1090,8 @@ code_0db6:
 	(properties
 		x 125
 		y 38
-		description {neonový nápis}
-		lookStr {Jak milujete køiklavé vìci!}
+		description {the neon sign}
+		lookStr {How you love gaudy things!}
 		view 700
 		loop 11
 		signal $4000
@@ -1063,8 +1109,8 @@ code_0db6:
 	(properties
 		x 121
 		y 115
-		description {znak dolaru}
-		lookStr {Tady je naznaèeno, že by tu èlovìk mohl vyhrát nìjaké peníze!}
+		description {the dollar sign}
+		lookStr {The implication here is that a fella could win some money inside this place!}
 		view 700
 		loop 13
 		signal $4000
@@ -1086,9 +1132,9 @@ code_0db6:
 		nsLeft 241
 		nsBottom 149
 		nsRight 319
-		description {stánek s hamburgery}
+		description {the burger stand}
 		sightAngle 40
-		lookStr {To je vzrušující! Na Trampovì promenádì je restaurace, kde se podává mrtvá kráva!}
+		lookStr {How exciting! There's a restaurant along the Tramp Boardwalk that serves dead cow!}
 	)
 	
 	(method (init)
@@ -1114,9 +1160,9 @@ code_0db6:
 		nsLeft 241
 		nsBottom 173
 		nsRight 319
-		description {na promenádì}
+		description {the boardwalk}
 		sightAngle 40
-		lookStr {Promenáda vede na východ a táhne se témìø kam až oko dohlédne.}
+		lookStr {The boardwalk leads off to the east, stretching nearly as far as the eye can see.}
 	)
 )
 
@@ -1128,9 +1174,9 @@ code_0db6:
 		nsLeft 234
 		nsBottom 190
 		nsRight 320
-		description {pláž}
+		description {the beach}
 		sightAngle 40
-		lookStr {Ten malý pruh písku vede k prudkému srázu a pak pøímo do Atlantiku! Chceš si zaplavat?}
+		lookStr {That little strip of sand leads to a precipitous drop, then straight into the Atlantic! Care for a swim?}
 	)
 )
 
@@ -1142,7 +1188,7 @@ code_0db6:
 		nsLeft 31
 		nsBottom 42
 		nsRight 53
-		description {svìtla}
+		description {the lights}
 		sightAngle 40
 	)
 	
@@ -1159,7 +1205,7 @@ code_0db6:
 		nsLeft 148
 		nsBottom 29
 		nsRight 165
-		description {svìtla}
+		description {the lights}
 		sightAngle 40
 	)
 	
@@ -1176,7 +1222,7 @@ code_0db6:
 		nsLeft 205
 		nsBottom 72
 		nsRight 224
-		description {zadní èást}
+		description {the rear}
 		sightAngle 40
 	)
 	
@@ -1193,9 +1239,9 @@ code_0db6:
 		nsLeft 26
 		nsBottom 70
 		nsRight 43
-		description {zadní èást}
+		description {the rear}
 		sightAngle 40
-		lookStr {Tìsné prdelky tì pøivádìjí k šílenství!}
+		lookStr {Tight butts drive you nuts!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1232,7 +1278,7 @@ code_0db6:
 		nsLeft 204
 		nsBottom 95
 		nsRight 223
-		description {zadní èást}
+		description {the rear}
 		sightAngle 40
 	)
 	
@@ -1249,9 +1295,9 @@ code_0db6:
 		nsLeft 8
 		nsBottom 88
 		nsRight 61
-		description {dívka na ceduli}
+		description {the girl on the sign}
 		sightAngle 40
-		lookStr {Jistì, je jen z pøekližky, ale nejsou na ní skvìlá svìtla?}
+		lookStr {Sure she's only made of plywood, but doesn't she have a great set of lights?}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1272,9 +1318,9 @@ code_0db6:
 		nsLeft 92
 		nsBottom 28
 		nsRight 185
-		description {dívka}
+		description {the girl}
 		sightAngle 40
-		lookStr {Je v jedné z tvých oblíbených pozic... pro ceduli!}
+		lookStr {She's in one of your favorite positions... for a sign!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1296,9 +1342,9 @@ code_0db6:
 		nsLeft 180
 		nsBottom 105
 		nsRight 232
-		description {dívka}
+		description {the girl}
 		sightAngle 40
-		lookStr {A vy jste se tak báli, že jste za tuhle hru vyhodili peníze!}
+		lookStr {And you were so afraid you were wasting your money buying this game!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1322,9 +1368,9 @@ code_0db6:
 	)
 	
 	(method (init)
-		(= bust girlBust)
-		(= eyes girlEyes)
-		(= mouth girlMouth)
+		(= bust (= bust girlBust))
+		(= eyes (= eyes girlEyes))
+		(= mouth (= mouth girlMouth))
 		(super init: &rest)
 	)
 )
@@ -1365,9 +1411,9 @@ code_0db6:
 	)
 	
 	(method (init)
-		(= bust manBust)
-		(= eyes manEyes)
-		(= mouth manMouth)
+		(= bust (= bust manBust))
+		(= eyes (= eyes manEyes))
+		(= mouth (= mouth manMouth))
 		(super init: &rest)
 	)
 )
@@ -1407,9 +1453,9 @@ code_0db6:
 		nsLeft 88
 		nsBottom 97
 		nsRight 154
-		description {znaèka Tramp}
+		description {the Tramp sign}
 		sightAngle 40
-		lookStr {Píše se tu, že jste pøed Trampovým kasinem.}
+		lookStr {It says you're in front of Tramp's Casino.}
 	)
 )
 
@@ -1422,9 +1468,9 @@ code_0db6:
 		nsLeft 62
 		nsBottom 117
 		nsRight 75
-		description {svìtlo}
+		description {the light}
 		sightAngle 40
-		lookStr {Není neon parádní!}
+		lookStr {Ain't neon grand!}
 	)
 )
 
@@ -1437,9 +1483,9 @@ code_0db6:
 		nsLeft 162
 		nsBottom 118
 		nsRight 182
-		description {svìtlo}
+		description {the light}
 		sightAngle 40
-		lookStr {Není neon parádní!}
+		lookStr {Ain't neon grand!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1460,9 +1506,9 @@ code_0db6:
 		nsLeft 53
 		nsBottom 78
 		nsRight 71
-		description {nápis na automatech}
+		description {the slot sign}
 		sightAngle 40
-		lookStr {Pøedpokládáte, že uvnitø musí být nìjaká forma mechanizovaného hazardu.}
+		lookStr {You presume there must be some form of mechanized gambling within.}
 	)
 )
 
@@ -1475,9 +1521,9 @@ code_0db6:
 		nsLeft 4
 		nsBottom 28
 		nsRight 53
-		description {neonový nápis}
+		description {the neon sign}
 		sightAngle 40
-		lookStr {Jak miluješ køiklavé vìci!}
+		lookStr {How you love gaudy things!}
 	)
 )
 
@@ -1489,9 +1535,9 @@ code_0db6:
 		nsLeft 185
 		nsBottom 41
 		nsRight 228
-		description {neonový nápis}
+		description {the neon sign}
 		sightAngle 40
-		lookStr {Jak milujete køiklavé vìci!}
+		lookStr {How you love gaudy things!}
 	)
 )
 
@@ -1504,9 +1550,9 @@ code_0db6:
 		nsLeft 110
 		nsBottom 40
 		nsRight 139
-		description {neonový nápis}
+		description {the neon sign}
 		sightAngle 40
-		lookStr {Jak milujete køiklavé vìci!}
+		lookStr {How you love gaudy things!}
 	)
 )
 
@@ -1519,9 +1565,9 @@ code_0db6:
 		nsLeft 90
 		nsBottom 116
 		nsRight 158
-		description {znak dolaru}
+		description {the dollar sign}
 		sightAngle 40
-		lookStr {Tady je naznaèeno, že by tu èlovìk mohl vyhrát nìjaké peníze!}
+		lookStr {The implication here is that a fella could win some money inside this place!}
 	)
 	
 	(method (doVerb theVerb param2)
