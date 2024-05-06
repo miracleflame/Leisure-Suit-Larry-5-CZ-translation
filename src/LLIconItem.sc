@@ -14,7 +14,7 @@
 )
 
 (local
-	[local0 13] = [0 {leden} {únor} {bøezen} {duben} {kvìten} {èervna} {èervenec} {srpen} {záøí} {øíjen} {listopad} {prosinec}]
+	[local0 13] = [0 {ledna} {února} {bøezna} {dubna} {kvìtna} {èervna} {èervence} {srpna} {záøí} {øíjna} {listopadu} {prosince}]
 )
 (procedure (localproc_008a param1 param2 &tmp temp0)
 	(proc0_14 (+ param2 (if global179 50 else 80)) param1)
@@ -561,8 +561,8 @@
 					)
 					(/ global177 100)
 					(mod global177 100)
-					[local0 temp201]
 					temp202
+					[local0 temp201]
 					temp203
 				)
 				(proc0_14 @temp0 80 name)

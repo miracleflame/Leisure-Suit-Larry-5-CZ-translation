@@ -1,15 +1,15 @@
-{leden}
-{únor}
-{bøezen}
-{duben}
-{kvìten}
+{ledna}
+{února}
+{bøezna}
+{dubna}
+{kvìtna}
 {èervna}
-{èervenec}
-{srpen}
+{èervence}
+{srpna}
 {záøí}
-{øíjen}
-{listopad}
-{prosinec}
+{øíjna}
+{listopadu}
+{prosince}
 {Kliknutím sem zavøete toto okno a vrátíte se do hry.}
 {Chcete-li se podívat blíe na nìjakı pøedmìt z vašeho inventáøe, kliknìte nejprve sem, a potom kliknìte na danı pøedmìt.}
 {Chcete-li nìco udìlat s nìjakım pøedmìtem ve vašem inventáøi, kliknìte nejprve sem, a pak kliknìte na danı pøedmìt.}
