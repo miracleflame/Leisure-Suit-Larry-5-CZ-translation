@@ -1,4 +1,4 @@
-{Tento konec vstupní haly je odlišený pouze øadou telefonních automatù u vzdálenìjší stìny.}
+{Tento konec vstupní haly se liší pouze øadou telefonních automatù u vzdálenìjší stìny.}
 {Buffi}
 {Muffi}
 {Tracie}
@@ -14,7 +14,7 @@
 {oddìlení ztrát a nálezù}
 {rostlina}
 {rostlina}
-{pošta}
+{stojánek}
 {popelník}
 {pult}
 {pohovka}

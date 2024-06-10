@@ -1,12 +1,12 @@
 {Jste v jediném otevøeném obchodì na celé promenádì. Pøemýšlíš, proè se toto místo nepøipojí k oslavì narozenin Donalda Trampa.}
 {Ivana Trampová}
-{Ivana Trampová (místním známá jako "Kola, mistrinì èepelí") se po rozvodu s Donaldem propadla o nìkolik spoleèenských úrovní.}
+{Ivana Trampová (místním známá jako "Paní Koleèková, vládkynì èepelí") se po rozvodu s Donaldem propadla o nìkolik spoleèenských úrovní.}
 {brusle}
-{Z mnoha párù in-line bruslí na tomto stojanu lze s jistotou usuzovat, že tento obchod brusle pùjèuje.}
+{Z mnoha párù in-line bruslí na tomto stojanu celkem s jistotou usuzuješ, že v tomhle obchodì se pùjèují brusle.}
 {závìs}
-{Závìs z korálkù vám brání ve výhledu do zadní místnosti obchodu s bruslemi.}
+{Závìs z korálkù ti brání ve výhledu do zadní místnosti obchodu s bruslemi.}
 {plakát}
-{Pøedpokládáte, že tento plakát inzeruje zábavní park pro hmyz.}
+{Pøedpokládáš, že tenhle plakát inzeruje zábavní park pro hmyz.}
 {plakát}
 {Tak takhle vypadala Ivana, když byla zrzka!}
 {plakát}
@@ -14,7 +14,7 @@
 {plakát}
 {Tento plakát propaguje polykaèe vùní koleèkových bruslí.}
 {plakát}
-{"Udržujte své in-line brusle v jedné linii s novými bruslemi `Edlin' od spoleènosti Ed's Skate Aligning Corp."}.
+{"Udržujte své in-line brusle v jedné linii pomocí 'Edlin', výrobku od spoleènosti 'Ed, ladiè bruslí'."}
 {plakát}
 {"Lepší bruslení, žádné èekání."}
 {plakát}

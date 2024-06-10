@@ -1,4 +1,4 @@
-{Trampovo kasino je dokonalým pøíkladem architektonického stylu, jehož pøíkladem je Frank Lloyd Wrong.}
+{Trampovo kasino je dokonalým pøíkladem architektonického stylu, jehož pøedstavitelem je napøíklad je Frank Lloyd Wrong.}
 {Uložit}
 {Ne, proè se obtìžovat?}
 {AL øíká}
@@ -11,28 +11,28 @@
 {limuzína}
 {Tvá limuzína se vrátila. Nebo možná nìjaká jí nápadnì podobná!}
 {pøední dveøe Trampova kasina}
-{Nad dveømi je malá bronzová deska s nápisem: "Tìmito dveømi prochází ti nejlepší lidé na svìtì - NAŠI CUCÁCI!"}
-{Pivovarník}
-{Trampovo kasino promyšlenì poskytuje vrátného, který uspokojí každou vaši cestovní potøebu - pokud ovšem potøebujete, aby vám pøivolal limuzínu!}
+{Nad dveømi je malá bronzová deska s nápisem: "Tìmito dveømi prochází ti nejlepší lidé na svìtì - TI, KTERÉ PODOJÍME!"}
+{Brewster}
+{Trampovo kasino promyšlenì poskytuje vrátného, který uspokojí každou vaši cestovní potøebu - pokud ovšem potøebujete jen to, aby vám pøivolal limuzínu!}
 {Ne, dìkuji}
 {Ano, prosím}
 {Tvùj pøátelský vrátný}
-{vstøícný pracovník kasina}
+{žena vítající lidi v kasinu}
 {Trampovo kasino zamìstnává krásnou mladou ženu, která vítá všechny jeho vzácné návštìvníky.}
-{Cedule Tramp}
+{cedule "Tramp"}
 {Píše se na ní, že jste pøed Trampovým kasinem.}
-{cedule hracích automatù}
+{cedule "hrací automaty"}
 {Pøedpokládáš, že uvnitø musí být nìjaká forma mechanizovaného hazardu.}
 {svìtlo}
-{Není neon parádní!}
+{Není neon parádní?}
 {svìtlo}
-{Není neon parádní!}
+{Není neon parádní?}
 {neonové bradavky}
 {neonové bradavky}
 {neonové bradavky}
-{cedule hracích automatù}
-{cedule hracích automatù}
-{cedule hracích automatù}
+{cedule "hrací automaty"}
+{cedule "hrací automaty"}
+{cedule "hrací automaty"}
 {neonový nápis}
 {Miluješ køiklavé vìci!}
 {neonový nápis}
@@ -43,35 +43,35 @@
 {Tady je naznaèeno, že by tu èlovìk mohl vyhrát nìjaké peníze!}
 {stánek s hamburgery}
 {To je vzrušující! Na Trampovì promenádì je restaurace, kde se podává mrtvá kráva!}
-{na promenádì}
-{Promenáda vede na východ a táhne se témìø kam až oko dohlédne.}
+{promenáda}
+{Promenáda vede na východ a táhne se až tam, kam oko dohlédne.}
 {pláž}
 {Ten malý pruh písku vede k prudkému srázu a pak pøímo do Atlantiku! Chceš si zaplavat?}
 {svìtla}
 {svìtla}
 {zadní èást}
 {zadní èást}
-{Tìsné prdelky tì pøivádìjí k šílenství!}
+{Z prdelek v tìsných kalhotách potíš se hroznì i na botách!
 {zadní èást}
 {dívka na ceduli}
-{Jistì, je jen z pøekližky, ale nejsou na ní skvìlá svìtla?}
+{Jistì, je jen z pøekližky, ale není náhodou dobøe nasvícená?}
 {dívka}
 {Je v jedné z tvých oblíbených pozic... na ceduli!}
 {dívka}
 {A vy jste se tak báli, že jste za tuhle hru vyhodili peníze!}
 {znaèka Tramp}
-{Píše se tu, že jste pøed Trampovým kasinem.}
+{Píše se tu, že jsi pøed Trampovým kasinem.}
 {svìtlo}
-{Není neon parádní!}
+{Není neon parádní?}
 {svìtlo}
-{Není neon parádní!}
+{Není neon parádní?}
 {nápis na automatech}
-{Pøedpokláš, že uvnitø musí být nìjaká forma mechanizovaného hazardu.}
+{Pøedpokládáš, že uvnitø musí být nìjaká forma mechanizovaného hazardu.}
 {neonový nápis}
-{Jak miluješ køiklavé vìci!}
+{Miluješ køiklavé vìci!}
 {neonový nápis}
-{Jak milujete køiklavé vìci!}
+{Miluješ køiklavé vìci!}
 {neonový nápis}
-{Jak milujete køiklavé vìci!}
+{Miluješ køiklavé vìci!}
 {znak dolaru}
 {Tady je naznaèeno, že by tu èlovìk mohl vyhrát nìjaké peníze!}

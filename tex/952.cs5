@@ -8,8 +8,8 @@
 ^%s.mem
 ^%s.log
 ^Soubor protokolu "%s" existuje
-^error: nelze otevøít %s
-^Závažnost chyby...
+^chyba: nelze otevøít %s
+^Závažná chyba...
 ^QA-COMMENT%d
 ^Komentáø na øádku %d z %d:
 ^Kdo mùže opravit chybu...

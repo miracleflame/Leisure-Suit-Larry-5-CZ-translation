@@ -2,32 +2,32 @@
 {Miami je plné exotickıch palem, jako jsou tyto.}
 {gymnastické studio}
 {nápis}
-{Nápis zní: "Ráj dentální hygieny doktora Pulliama."}
+{Nápis zní: "Nebeská dentální hygiena doktora Vytlhala".}
 {dveøe gymnastického studia}
-{dveøe zubaøské ordinace}
-{Dveøe vedoucí do Ráje dentální hygieny doktora Pulliama jsou odemèené.}
+{dveøe do zubaøské ordinace}
+{Dveøe vedoucí do Nebeské dentální hygieny doktora Vytlhala jsou odemèené.}
 {budova}
-{Jste pøed budovou, kde je zamìstnána Chi Chi Lambada: "Ráj dentální hygieny doktora Pulliama." Hned pod ní je zavøené gymnastické studio: "Gymnastické centrum Gym-Dandy".}
+{Jste pøed budovou, kde je zamìstnaná Chi Chi Lambada: "Nebeská dentální hygiena doktora Vytlhala". Hned pod ní je zavøené gymnastické studio: "Gymnastické centrum Gym-Dandy".}
 {chodník}
-{Pozornì si chodník prohlííš a docházíš k závìru, e doktor Pulliam tady moc neutrácí za plombování kazù!}
+{Pozornì si chodník prohlííš a docházíš k závìru, e doktor Vytlhal do plombování dìr na chodníku moc neinvestuje!}
 {zeï}
-{Kamenná zeï zdobí jinak zanedbanou budovu.}
+{Kamenná zeï zdobí jinak lehce pøehlédnutelnou zanedbanou budovu.}
 {nápis gymnastického studia}
 {Nápis zní: "Gymnastické centrum Gym-Dandy".}
 {okno}
-{Není tøeba nahlíet do tìch oken!}
+{Do tìch oken není potøeba nahlíet!}
 {okno}
-{Není tøeba nahlíet do tìch oken!}
+{Do tìch oken není potøeba nahlíet!}
 {schodištì}
-{Schodištì vede do ordinace doktora Pulliama.}
+{Schodištì vede do ordinace doktora Vytlhala.}
 {otáèecí zub}
-{Jdìte po dálnici Ventura na dálnici Fontainebleau a ze silnici Eisenhower na vıpadovku Slaussen. Vystupte z auta a uøíznìte si šlajsnu. Vrate se do auta a pokraèujte dál, dokud nedojedete na dálnici Beach Front. Po dálnici Beach Front jeïte na 22. ulici Southwest a zastavte, a pøijedete k obøímu otáèecímu zubu! Jste na místì! Ráj dentální hygieny doktora Pulliama!}
+{Jeïte po dálnici Ventura na dálnici Fontainebleau, sjeïte na Eisenhowerovu silnici, a pak to øíznìte na vıpadovku Slaussen. Vypadnìte z auta a zaøíznìte si trenky. Vrate se do auta a pokraèujte dál, dokud nedojedete na dálnici Beach Front. Po dálnici Beach Front jeïte na 22. jihozápadní ulici a zastavte, a pøijedete k obøímu otáèecímu zubu! Jste na místì! Nebeská dentální hygiena doktora Vytlhala!}
 {limuzína}
 {To je tvá limuzína, která èeká na tvùj nástup.}
 {budova}
-{V tak velkém mìstì, jako je Miami, je mnoho budov.}
+{V tak velkém mìstì, jako je Miami, je spousta budov.}
 {Uloit}
 {Ne, proè se obtìovat?}
 {AL øíká}
-{dveøe zubaøovy ordinace}
-{Dveøe vedoucí do Ráje dentální hygieny doktora Pulliama jsou odemèené.}
+{dveøe do zubaøské ordinace}
+{Nebeské dentální hygieny doktora Vytlhala jsou odemèené.}

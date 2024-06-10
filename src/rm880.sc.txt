@@ -1,29 +1,29 @@
 {Studiové patro budovy K-RAP je hluboko pod zemí, plné zvukotìsných studií a reproduktorù. Støed místnosti vyplòuje velká fontána s obøími bronzovými sochami.}
 {dveøe do øídicí místnosti A}
-{Tyto dveøe vedou do øídicí místnosti A. Vidíte muže, který uvnitø pracuje.}
+{Tyto dveøe vedou do øídicí místnosti A. Vidíš muže, který uvnitø pracuje.}
 {dveøe do øídicí místnosti B}
 {Tyto dveøe vedou do kontrolní místnosti B, která se zdá být prázdná.}
 {dveøe do øídicí místnosti C}
 {Tyto dveøe vedou do kontrolní místnosti C. Zdá se, že je momentálnì prázdná.}
 {klávesnice}
-{Každé dveøe mají klávesnici, která omezuje pøístup pouze osobám s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti A.}
+{Každé dveøe mají klávesnici, která omezuje pøístup pouze na osoby s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti A.}
 {klávesnice}
-{Každé dveøe mají klávesnici pro omezení pøístupu pouze osobám s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti B.}
+{Každé dveøe mají klávesnici, která omezuje pøístup pouze na osoby s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti B.}
 {klávesnice}
-{Každé dveøe mají klávesnici pro omezení pøístupu pouze osobám s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti C.}
+{Každé dveøe mají klávesnici, která omezuje pøístup pouze na osoby s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti C.}
 {okno øídicí místnosti A}
 {Pøes toto okno je vidìt do øídicí místnosti A.}
 {okno øídicí místnosti B}
-{Pøes toto okno vidíte øídicí místnost B. Zdá se, že v souèasné dobì není obsazena.}
+{Pøes toto okno je vidìt do øídicí místnosti B. Zdá se, že tam momentálnì nikdo není.}
 {okno øídicí místnosti C}
-{Pøes toto okno vidíte øídicí místnost C. Zdá se, že je v souèasné dobì neobsazená.}
+{Pøes toto okno je vidìt do øídicí místnosti C. Zdá se, že tam momentálnì nikdo není.}
 {socha}
 {Jak pùsobivé! K-RAP má fontánu s obrovskou sochou královny rock'n'rollu - Connie Stevensové!}
 {kontrolka nahrávání}
-{Tato kontrolka svítí, když se v øídící místnosti A nahrává.}
+{Tato kontrolka svítí, když øídicí místnost A nahrává.}
 {kontrolka nahrávání}
-{Tato kontrolka svítí, když se nahrává v øídicí místnosti B.}
+{Tato kontrolka svítí, když øídicí místnost B nahrává.}
 {kontrolka nahrávání}
-{V souèasné dobì svítí kontrolka nahrávání v øídicí místnosti A.}
+{Kontrolka nahrávání øídicí místnosti A momentálnì svítí.}
 {P. C. Hammer}
 {stojan mikrofonu}

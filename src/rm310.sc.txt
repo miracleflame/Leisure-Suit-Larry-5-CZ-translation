@@ -1,4 +1,4 @@
-{Pro tebe vypadají všechna letištì stejnì (i když se terénní úpravy mírnì liší).}
+{Pro tebe vypadají všechna letištì stejnì (i když terénní úpravy se mírnì liší).}
 {obloha}
 {Hory se táhnou do dálky.}
 {stromy}

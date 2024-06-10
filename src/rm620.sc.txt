@@ -1,31 +1,31 @@
 {strážník}
 {výtah}
 {výtah}
-{katalog budovy Shill}
-{katalog}
-{katalog}
-{katalog}
-{katalog}
-{katalog}
-{katalog}
-{katalog}
-{katalog}
+{orientaèní tabule budovy Shill}
+{orientaèní tabule}
+{orientaèní tabule}
+{orientaèní tabule}
+{orientaèní tabule}
+{orientaèní tabule}
+{orientaèní tabule}
+{orientaèní tabule}
+{orientaèní tabule}
 {rostlina}
-{Tato rostlina je zøejmì dobøe udržovaná, ale pro tvou misi je zbyteèná.}
+{Tato rostlina je zøejmì dobøe udržovaná, ale pro tvou misi je naprosto zbyteèná.}
 {freska}
 {Je to docela zajímavá nástìnná malba.}
 {schodištì}
-{Schodištì se vine vzhùru, ale sametový provaz pøes jeho spodní èást naznaèuje, že se nesmí používat pod hrozbou sankcí. Vypadá to, že výtah je tvoje jediná nadìje, Patti.}
+{Schodištì se vine vzhùru, ale sametový provaz pøes jeho spodní èást naznaèuje, že se pod hrozbou sankcí nesmí používat. Vypadá to, že výtah je tvoje jediná nadìje, Patti.}
 {lampa}
 {Nad schodištìm se tyèí krásná lampa ve stylu art deco.}
 {lampa}
-{Pìkná lampa ve stylu art deco se tyèí nad schodištìm.}
+{Nad schodištìm se tyèí krásná lampa ve stylu art deco.}
 {popelník}
-{Popelník si peèlivì prohlížíš, jestli v nìm není diskotékový prùkaz, a na okamžik si myslíš, že hraješ "Leisure Suit Larry 1: In the Land of the Lounge Lizards". Samozøejmì, že nehraješ.}
-{svícen}
-{Jéje, budova Shill má vkusné svícny.}
-{svícen}
-{Jéje, v budovì Shillù jsou vkusné svícny.}
+{Peèlivì prohlížíš popelník, jestli v nìm není vstupenka na diskotéku, a na okamžik si myslíš, že hraješ "Suknièkáøe Larryho 1: V zemi salónkových ještìrù". Samozøejmì, že nehraješ.}
+{nástìnné svìtlo}
+{Páni, budova Shill má vkusná vkusná nástìnná svìtla.}
+{nástìnné svìtlo}
+{Páni, budova Shill má vkusná vkusná nástìnná svìtla.}
 {hodiny}
 {Na konci pultu ochranky jsou zabudovány krásné hodiny ve stylu Deco pro zamìstnance, kteøí jsou stále placeni od hodiny.}
 {freska}

@@ -2,27 +2,27 @@
 {Bobbi}
 {Bobby}
 {ryba}
-{V akváriu limuzíny je zlatá rybka, které je špatnì.}
-{okno v soukromí}
+{V akváriu limuzíny je zlatá rybka, které se pøi jízdì autem dìlá špatnì.}
+{okno zaruèující soukromí}
 {Kus zvukotìsného skla blokuje konverzaci mezi vámi a øidièem.}
-{Denní vùz\05}
+{DayTrotter\05}
 {tvoje noha}
 {Vždycky jsi mìl pocit, že tvé nohy jsou jednou z tvých lepších pøedností.}
 {televizor}
 {televizor}
 {telefon}
-{láhev šampaòského}
+{lahev šampaòského}
 {fax}
 {videorekordér}
 {Nad televizorem leží profesionální pøehrávaè videokazet.}
 {videokazety}
-{V tom stojanu je spousta videokazet, které bys rád vidìl. Bohužel je videorekordér rozbitý!}
+{V tom stojanu je spousta videokazet, které bys rád vidìl. Ale videorekordér je bohužel rozbitý!}
 {akvárium}
 {Jak bizarní! Limuzína s akváriem!}
 {lahve a sklenice}
 {Tady je dost lahví alkoholu a sklenièek na poøádání veèírku. Teï už potøebuješ jen pár pøátel!}
 {stereo}
-{V limuzínì je stereo s kazetovým pøehrávaèem i CD.}
+{V limuzínì je stereo s kazetovým i CD pøehrávaèem.}
 {dveøe skøínì}
 {Pod pravým pøedním sedadlem spolujezdce se nachází malá uzamèená pøihrádka na alkohol. Pøemýšlíš, kdy pøijde øada na tebe, abys mohl žít na vysoké noze.}
 {Bobbi}
@@ -30,7 +30,7 @@
 {Desmond}
 {Desmond}
 {Desmond}
-{ReverzníBiaz}
+{ReverseBiaz}
 {PCHammer}
 {Ty}
 {Desmond}
@@ -39,7 +39,7 @@
 {okno}
 {fax}
 {tvùj øidiè limuzíny}
-{Jsi oddìlen od svého øidièe tím velkým zvukotìsným oknem.}
+{Od tvého øidièe tì dìlí toto zvukotìsné okno.}
 {Bobbi}
 {tvùj øidiè limuzíny}
 {Sh}

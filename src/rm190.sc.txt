@@ -2,9 +2,9 @@
 {tvá limuzína}
 {Koneènì! Koneènì se mùžeš svézt opravdovou limuzínou.}
 {vstupní dveøe PornProdCorp}
-{Tyto dveøe vedou zpìt do vestibulu PPC.}
+{Tyto dveøe vedou zpìt do haly PPC.}
 {fontána}
-{Když míjíš zurèící vodu, chceš vypustit zurèící vodu.}
+{Když míjíš zurèící vodu, cítíš nutkání vypustit zurèící vodu.}
 {Chesty}
 {to logo PornProdCorp}
 {Pøedpokládáš, že PPC si to logo vybrala, protože jazyk je univerzálním symbolem vytøíbené chuti.}

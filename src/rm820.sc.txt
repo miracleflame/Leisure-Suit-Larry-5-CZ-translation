@@ -1,13 +1,13 @@
-{"Tento vestibul je docela pùsobivı," pomyslíš si, "obzvláš na tak malou budovu."}
+{"Tenhle vestibul je docela pùsobivı," pomyslíš si, "obzvláš na tak malou budovu."}
 {dveøe}
 {okno z tabulového skla}
-{Pøes okno vidíte noèní panorama krásného centra Filadelfie.}
+{Pøes okno vidíš noèní panorama krásného centra Filadelfie.}
 {stùl recepèní}
-{Toto je stùl recepèní. Naštìstí pro tebe se zdá, e právì teï není pøítomna.}
-{kvìtina}
-{Kvìtina v kvìtináèi velmi pøispívá k atmosféøe v kanceláøi.}
+{Toto je stùl recepèní. Naštìstí pro tebe se zdá, e tady právì teï není.}
+{rostlina}
+{Rostlina v kvìtináèi velmi pøispívá k atmosféøe v kanceláøi.}
 {klávesnice}
-{Tato klávesnice ovládá pøístup ke dveøím do soukromé kanceláøe Johna Krappera.}
+{Tato klávesnice ovládá pøístup ke dveøím do soukromé kanceláøe Johna Hejzla.}
 {strom v kvìtináèi}
 {Tady musí bıt pøes den více svìtla.}
 {kvìtináè}
@@ -15,8 +15,8 @@
 {zadní pult}
 {Tento pult vypadá skoro jako sedátko u okna.}
 {lampa}
-{Tato lampa se ti opravdu líbí.}
+{Tahle lampa se ti opravdu líbí.}
 {svìtla}
-{Subtilní svìtla nástìnnıch podloek vrhají krásnou záøi na supergrafiku na stìnì vestibulu.}
+{Subtilní svìtla svítící od podlahy vrhají krásnou záøi na fresku, která je na stìnì vestibulu.}
 {køeslo}
-{Køeslo recepèní je prázdné, ale stále teplé na dotek. Je pryè jen krátce a moná se brzy vrátí.}
+{Køeslo recepèní je prázdné, ale stále teplé na dotek. Je pryè jen chvíli a moná se brzy vrátí.}

@@ -4,6 +4,6 @@
 {Dolary:_}
 {Støíbro:__}
 {..nic..}
-{Teleportuj}
+{Teleportuj se}
 {Pryè!}
 {_}

@@ -11,7 +11,7 @@
 {mouseDrv}
 {audioDrv}
 {pøidat na konec}
-{pøepsat jej}
+{pøepsat}
 {GAME}
 {VERSION}
 {QA-DATE}

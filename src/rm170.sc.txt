@@ -1,34 +1,34 @@
-{Jsi na to tak pyšnı, na svou skromnou dílnu.}
+{Na tu svou skromnou dílnu jsi ohromnì pyšnı.}
 {záznamy z videokamery}
-{Našel jsi je! Tohle jsou pásky, které potøebuješ do své nové videokamery Pocket Protector.}
+{Našel jsi je! Tohle jsou pásky, které potøebuješ do své nové videokamery alá kapesní pouzdro.}
 {dveøe do haly}
 {Dveøe do haly ti pøipadají tak známé. Nejspíš proto, e jsi tudy vstoupil do této místnosti! Vzadu visí tvùj kalendáø "Videotechnikova dìvèata", otevøenı na stranì Miss øíjen, která má (podle tvého názoru) nejlepší "kotouèe" z celé party!}
 {demagnetizér}
-{Tvùj demagnetizér, kterı pouíváš k pøemazání kazet, leí na pracovním stole.}
-{šuplík}
-{Vypadá jako zavøená zásuvka.}
-{šuplík}
-{Vypadá jako zavøená zásuvka.}
-{šuplík}
+{Tvùj demagnetizér, kterı pouíváš na pøemazávání kazet, leí na pracovním stole.}
+{zásuvka}
+{Vypadá to jako zavøená zásuvka.}
+{zásuvka}
+{Vypadá to jako zavøená zásuvka;.}
+{zásuvka}
 {Vypadá to jako zavøená zásuvka.}
 {skøíòka}
-{Nemáš ponìtí, co je uvnitø tìchto skøíní, protoe jsi pøíliš malı na to, abys vidìl dovnitø.}
+{Nemáš ponìtí, co je uvnitø tìch skøíní, protoe jsi moc malı na to, abys vidìl dovnitø.}
 {tvùj barel sterilizátoru}
-{Tento barel obsahuje sterilizaèní roztok, kterı pouíváš na všechny pøíchozí videokazety pøed jejich pøevinutím a rozdìlením èlenùm konkurzního tımu ASHV.}
+{Tento barel obsahuje sterilizaèní roztok, kterı pouíváš na všechny pøíchozí videokazety pøed jejich pøevinutím a distribuováním èlenùm konkurzního tımu ASHV.}
 {videomonitor}
 {Tento monitor pouíváš kadı den k prohlíení pøíchozích nahrávek a ujišuješ se, e jsou dostateènì explicitní, abys je mohl pøedat oficiálním èlenùm tımu pro pøijímací øízení.}
 {podlahovı odtok}
 {Èasto máš pocit, e právì sem smìøuje tvùj ivot.}
 {krabice}
 {Prázdné krabice ti jsou k nièemu.}
-{nìkteré videokazety}
+{nìjaké videokazety}
 {lampa}
 {Jen se tu tak poflakuje... jako ty, Larry!}
 {chlupaté kostky}
 {Tvım jedinım pokusem o vızdobu tvého pracovního prostoru je polovina páru chlupatıch kostek, které ti zbyly z tvého Brouka z roku 74.}
 {tvùj osmistopı pøehrávaè}
-{Na tvém pracovním stole leí tvùj vìrnı osmistopı magnetofon Strombug Carlton. Aèkoli máš v poslední dobì problémy se shánìním novıch kazet, poøád ti to hezky hraje.}
-{Pøehrát kterou osmistopou kazetu? }
+{Na tvém pracovním stole leí tvùj vìrnı osmistopı magnetofon Strombug Carlton. Aèkoliv máš v poslední dobì problémy se shánìním novıch kazet, poøád ti to hezky hraje.}
+{Jakou osmistopou kazetu chceš pøehrát?}
 {__The Larry Song__}
 { Record des Rever_}
 {__Desmond's Theme__}
@@ -43,7 +43,7 @@
 {Na promenádì}
 {< Další obrazovka >}
 {< Vysunout >}
-{Pøehrát kterou osmistopou kazetu?}
+{Jakou osmistopou kazetu chceš pøehrát?}
 { A Studio Session_}
 {__Gettin' Some Air__}
 {____Nasty Girlz_____}

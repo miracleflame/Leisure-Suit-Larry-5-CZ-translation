@@ -22,4 +22,4 @@
 {koš na odpadky}
 {mrak}
 {dveøe}
-{Tyto dveøe vedou k exkluzivním branám AeroDork.}
+{Tyto dveøe vedou k exkluzivním branám spoleènosti AeroBlb.}

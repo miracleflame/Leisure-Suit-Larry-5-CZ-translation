@@ -1,15 +1,15 @@
-{Jsi v èekárnì Ráje dentální hygieny doktora Pulliama. Líbí se ti motiv koberce; vlastnì si jsi jistý, že už jsi nìco podobného nìkde vidìl...}
+{Jsi v èekárnì Nebeské dentální hygieny doktora Vytlhala. Líbí se ti motiv koberce; vlastnì si jsi jistý, že už jsi nìco podobného nìkde vidìl...}
 {èasopisy}
 {palma}
 {Pøemýšlíš, jestli ta palma bude nìkdy potøebovat "koøenový kanálek"?}
 {malba}
-{Vždycky jsi byl velkým fanouškem umìlecké školy "Veselý zub".}
+{Vždycky jsi byl velkým fanouškem té umìlecké školy "Veselý zub".}
 {malba}
-{Vždycky jsi byl velkým fanouškem umìlecké školy " Veselý zub".}
+{Vždycky jsi byl velkým fanouškem té umìlecké školy "Veselý zub".}
 {doktorovy diplomy}
-{Vtipné. Nikdy jsi neslyšel o zubaøi, který se specializuje na zubaøinu "Provázek a klika". A kde pøesnì je "Škola tvrdého klepání"?}
+{Vtipné. Nikdy jsi neslyšel o zubaøi, který se specializuje na zubaøinu typu "Provázek a klika". A kde pøesnì je "Škola tvrdého klepání"?}
 {stùl}
-{Dá se øíct, že to tu vyzdobila doktorova žena. Trpí smrtelnou roztomilostí!}
+{Mùžeš øíct, že to tu vyzdobila doktorova žena. Trpí smrtelnou roztomilostí!}
 {židle}
 {Tahle židle vypadá tak akorát!}
 {židle}
@@ -17,15 +17,15 @@
 {židle}
 {Tato židle vypadá pøíliš mìkce.}
 {stùl}
-{Tento stùl je vybaven telefonem, který je zde umístìn pro pohodlí doktorových zákazníkù.}
+{Tento stùl je vybaven telefonem, který je sem umístili pro pohodlí doktorových zákazníkù.}
 {stùl}
 {recepèní}
-{Myslel sis, že tohle by mohla být ta koèka, kterou jsi hledal. Oèividnì není. Ani ty bys ji nemohl považovat za sexy (a víš, jak nízké nároky máš!).}
+{Chvíli sis myslel, že tohle by mohla být ta koèka, kterou hledáš. Oèividnì není. Ani ty bys ji nemohl považovat za sexy (a ty víš, jak nízké nároky máš!).}
 {telefon v èekárnì}
-{Dlouhý stùl je vybaven telefonem, který je zde umístìn pro pohodlí doktorových zákazníkù.}
-{šoupací sklenìné okno}
+{Dlouhý stùl je vybaven telefonem, který je sem umístili pro pohodlí doktorových zákazníkù.}
+{posuvné sklenìné okno}
 {dveøe}
-{Tyto dveøe vedou do vnitøních kanceláøí doktora Pulliama, vèetnì (doufáš) kabinky Chi Chi Lambady, ženy, se kterou jsi vážil takovou cestu, abys s ní udìlal "rozhovor".}
+{Tyto dveøe vedou ke vlastním ordinacím doktora Vytlhala, vèetnì (jak doufáš) kabinky Chi Chi Lambady, ženy, za kterou jsi vážil takovou cestu, abys s ní udìlal "rozhovor".}
 {Ano}
 {Ne}
 {Ano}
@@ -55,4 +55,4 @@
 {ubrousek}
 {telefon}
 {stùl}
-{Dá se øíct, že to tu vyzdobila doktorova žena. Trpí smrtelnou roztomilostí!}
+{Mùžeš øíct, že to tu vyzdobila doktorova žena. Trpí smrtelnou roztomilostí!}

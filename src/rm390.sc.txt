@@ -7,8 +7,8 @@
 {panel}
 {panel}
 {panel}
-{jaømo}
-{jaømo}
+{knipl}
+{knipl}
 {oblak}
 {oblak}
 {oblak}
@@ -17,6 +17,6 @@
 {plyn}
 {okno}
 {tvoje letadlo}
-{sebe}
+{ty}
 {ty}
 {letadlo}

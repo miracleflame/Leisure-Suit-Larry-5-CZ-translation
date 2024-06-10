@@ -1,10 +1,10 @@
-{Celý život jsi pøedpokládal, že ty snobské soukromé letištní èekárny jsou plné luxusních schùzek.}
+{Celý život jsi pøedpokládal, že ty snobské, soukromé letištní èekárny jsou plné luxusních schùzek.}
 {Los Angeles}
 {New York}
 {Atlantic City}
 {Miami}
-{køeslo}
-{dveøe do letové dráhy}
+{židle}
+{dveøe vedoucí k letadlu}
 {nástupní znaèka}
 {automat na palubní lístky}
 {konvice na kávu}

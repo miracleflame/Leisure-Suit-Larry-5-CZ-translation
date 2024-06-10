@@ -1,46 +1,46 @@
 {Nacházíš se v øídicí místnosti B rádia K-RAP. Na to, jak je to velká místnost, vypadala zvenèí rozhodnì menší. Stìny jsou zaplnìny nesèetným množstvím nahrávacích zaøízení, elektronických pøístrojù, mixážních pultù, mikrofonù, nahrávacích pásek atd. atd.}
 {obøí reproduktor}
-{Pøísahala bys, že to jsou pravé reproduktory Altec "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+{Pøísahala bys, že to jsou pravé reproduktory Altec ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 {elektronické vybavení}
-{Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, cívky s páskami a páskové mechaniky.}
+{Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, kotouèe s páskami a páskové mechaniky.}
 {elektronické vybavení}
-{Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, cívky s páskami a páskové mechaniky.}
-{levý velký bubnový magnetofon}
-{pravý velký bubnový magnetofon}
+{Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, kotouèe s páskami a páskové mechaniky.}
+{levý kotouèový rekordér}
+{pravý kotouèový rekordér}
 {elektronické zaøízení}
-{Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, cívky s páskou a páskové mechaniky. Bohužel jsou pøíliš vysoko než abys na nì dosáhla.}
+{Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, kotouèe s páskami a páskové mechaniky. Bohužel jsou pøíliš vysoko, než abys na nì dosáhla.}
 {elektronické zaøízení}
-{Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, cívky s páskami a páskové mechaniky. Bohužel jsou pøíliš vysoko, než abys na nì dosáhla.}
-{reproduktor monitoru}
-{Pøísahala bys, že to jsou pravé reproduktory Altec "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
-{reproduktor monitoru}
-{Pøísahala bys, že to jsou pravé reproduktory Altec "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
-{reproduktor monitoru}
-{Pøísahala bys, že to jsou pravé reproduktory Altec "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+{Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, kotouèe s páskami a páskové mechaniky. Bohužel jsou pøíliš vysoko, než abys na nì dosáhla.}
+{monitorovací reproduktor}
+{Pøísahala bys, že to jsou pravé reproduktory Altec ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+{monitorovací reproduktor}
+{Pøísahala bys, že to jsou pravé reproduktory Altec ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+{monitorovací reproduktor}
+{Pøísahala bys, že to jsou pravé reproduktory Altec ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 {stojan s vybavením}
-{Tento regál obsahuje spoustu elektronického vybavení, vìtšinou starého, a také polici plnou prázdných kotouèových kazet.}
-{polièka s kazetami}
-{Aha, tady je to, co potøebuješ! Polièka plná prázdných cívkových nahrávacích pásek.}
-{mikrofonní mixér}
+{Tento regál obsahuje spoustu elektronického vybavení, vìtšinou starého, a také polici plnou prázdných kotouèových pásek.}
+{polièka s páskami}
+{Aha, tady je to, co potøebuješ! Polièka plná prázdných kotouèových pásek urèených k nahrávání.}
+{mikrofonní smìšovaè}
 {mikrofon}
 {Profesionální, špièkový, studiový páskový mikrofon visí na rameni nad studiovým pultem.}
-{kotouèový magnetofon}
+{kotouèový rekordér}
 {páska}
-{Velký konzolový magnetofon Studer je rozehøátý a pøipravený k nahrávání - až na to, že nemá pásku, na kterou by se dalo nahrávat!}
+{Velký konzolový rekordér Studer je rozehøátý a pøipravený k nahrávání - až na to, že nemá pásku, na kterou by se dalo nahrávat!}
 {P. C. Hammer}
-{P. C. Hammer pracuje ve vedlejší øídící místnosti.}
+{P. C. Hammer pracuje ve vedlejší øídicí místnosti.}
 {sklenìné okno}
-{Tìžké, zvukotìsné okno z tabulového skla tì oddìluje od vnìjšího svìta - a tvé svobody! }
-{mikrofonní mixér}
+{Tìžké, zvukotìsné okno z tabulového skla tì oddìluje od vnìjšího svìta - a tvé svobody!}
+{mikrofonní smìšovaè}
 {kontrolka nahrávání}
-{Tato kontrolka se rozsvítí vždy, když nìkdo nahrává v øídící místnosti A.}
+{Tato kontrolka se rozsvítí vždy, když nìkdo nahrává v øídicí místnosti A.}
 {dveøe øídicí místnosti A}
 {Buï opatrná, Patti! Uvnitø tìchto dveøí stojí muž, kterého jsi sem pøišla vyšetøovat: P. C. Hammer!}
-{dveøe øídící místnosti B}
-{Na dveøích je nápis "Øídící místnost B". V souèasné dobì je neobsazená.}
+{dveøe øídicí místnosti B}
+{Na dveøích je nápis "Øídicí místnost B". Momentálnì tam nikdo není.}
 {P. C. Hammer}
-{Pøes okno øídicí místnosti vidíš P. C. Hammera, jak míchá své "živé" rozhlasové vysílání pro zítøejší ranní show.}
+{Pøes okno øídicí místnosti vidíš P. C. Hammera, jak míchá své "živé" rozhlasové vysílání pro zítøejší ranní show pro øidièe.}
 {stojan na mikrofon}
 {Velký mikrofonní stojan s ramenem stojí hned za dveømi do øídicí místnosti B.}
 {kontrolka nahrávání}
-{Tato kontrolka se rozsvítí, kdykoli nìkdo nahrává v této øídicí místnosti.}
+{Tato kontrolka se rozsvítí, kdykoliv nìkdo nahrává v této øídicí místnosti.}

@@ -1,17 +1,17 @@
-{Stojíš pøed budovou FBI, která je chytøe zamaskovaná jako blok normálních obchodù. U chodníku na tebe èeká tvá limuzína, pøesnì jak Desmond slíbil.}
+{Stojíš pøed budovou F.B.I., která je chytøe maskovaná jako blok normálních obchodù. U chodníku na tebe èeká tvá limuzína, pøesnì jak Desmond slíbil.}
 {dveøe}
-{Tyto dveøe vedou zpìt do FB... Ups! Tyhle dveøe vedou do "Steinových laboratoøí!"}
+{Tyto dveøe vedou zpìt do F.B... Ups! Tyhle dveøe vedou do "Steinových laboratoøí"!}
 {tvá limuzína}
 {Tvá limuzína tì oèekává.}
-{nápis Stein Labs}
-{Velká cedule oznaèuje laboratoøe FBI jako "Steinovy laboratoøe - budeme s vámi upøímní".}
+{nápis "Steinovy laboratoøe"}
+{Velká cedule oznaèuje laboratoøe F.B.I. jako "Steinovy laboratoøe - budeme k vám upøímní".}
 {Steinovy laboratoøe}
-{Nelíbí se ti, že FBI má smysl pro humor?}
-{nápis GynoMan}
-{Kanceláø doktora Phila Hopiana je chytøe maskována jako "GynoMan".}
-{budova GynoMan}
+{Nelíbí se ti, že F.B.I. má smysl pro humor?}
+{nápis "GynoMan"}
+{Ordinace doktora Phila Hopiana je chytøe maskována jako "GynoMan".}
+{budova "GynoMan"}
 {Zajímalo by tì, jaké kanceláøe jsou v horních patrech této budovy nad ordinací doktora Phila Hopiana.}
-{budova opravovny Woodwind}
-{Opravovna Woodwind je neobvyklé krytí pro kanceláø FBI.}
-{nápis Opravovna Woodwind}
-{Opravovna Woodwind má pøed domem atraktivní nápis.}
+{budova opravárny Woodwind}
+{Opravárna Woodwind je neobvyklé krytí pro kanceláø F.B.I..}
+{nápis "Opravárna Woodwind"}
+{Opravárna Woodwind má na pøední stranì domu atraktivní nápis.}

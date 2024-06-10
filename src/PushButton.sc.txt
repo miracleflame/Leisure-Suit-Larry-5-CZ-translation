@@ -1,14 +1,14 @@
 {!!!!!}
 {Washington, D. C.}
 {New York City Metropolitan}
-{Atlantic City Non-Tramp Infested}
+{Atlantic City, Trampem nezamoøená oblast}
 {Dade County}
-{`Zde zadejte své mìsto'}
+{'Tady zadejte své mìsto'}
 {plavba po øece Potomac}
-{pøepaden}
+{je pøepaden}
 {krmí automaty}
 {leží na pláži}
-{sedí na plechovce!}
+{sedí na záchodì!}
 {x}
 {!}
 {#}

@@ -1,10 +1,10 @@
-{Teï jste to dokázali! Plavete pod krásnou Trampovou promenádou a bájeènì se bavíte. Otázka zní: jak daleko od bøehu jste?}
+{Tak jsi to dokázal! Plaveš pod krásnou Trampovou promenádou a bájeènì se bavíš. Otázka zní: jak daleko od bøehu jsi?}
 {obloha}
 {Pøi pohledu na oblohu si vzpomeneš na lepší èasy, vlastnì jen pøed nìkolika minutami, kdy jsi byl mnohem blíž obloze než teï.}
 {promenáda}
 {Máš zvláštní pocit - skoro jako bys nìkomu koukal pod sukni!}
 {sloupek}
-{Tyto sloupy vypadají mnohem vyšší než shora.}
+{Ty sloupy vypadají mnohem vyšší než shora.}
 {sloup}
 {sloup}
 {sloup}

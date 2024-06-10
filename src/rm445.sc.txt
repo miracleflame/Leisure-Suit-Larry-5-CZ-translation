@@ -1,21 +1,21 @@
-{Laboratoø FBI je zcela opuštìná. Moná mìli víc experimentù ne experimentátorù?}
+{Laboratoø F.B.I. je zcela opuštìná. Moná mìli víc experimentù ne experimentátorù?}
 {DataMan}
 {Na pultu leí malé elektronické zobrazovací zaøízení.}
 {DataPak}
-{Na pultu leí nìco, co vypadá jako nìjaká ROM kazeta .}
+{Na pultu leí nìco, co vypadá jako nìjaká pamìová ROM cartridge.}
 {DataPak}
-{Na pultu leí nìco, co vypadá jako nìjaká ROM kazeta .}
+{Na pultu leí nìco, co vypadá jako nìjaká pamìová ROM cartridge.}
 {Dveøe doktora Phila Hopiana}
-{Tyto dveøe vedou zpìt do kanceláøe doktora Phila Hopiana. Po tom, co jsi právì proila, tam u nespìcháš!}
+{Tyto dveøe vedou zpìt do ordinace doktora Phila Hopiana. Po tom, co jsi právì proila, tam u nespìcháš!}
 {stroj}
 {Tento stroj nìco dìlá, jsi si tím naprosto jistá.}
 {poèítaè}
-{Kdybys jen dávala pozor, kdy Larry poøád mluvil o svém poèítaèi. O poèítaèích nic nevíš a jsi si jistá, e s ním nic neudìláš.}
+{Kdybys jen dávala pozor, kdy Larry poøád vanil o tom svém poèítaèi. O tomhle poèítaèi nic nevíš a jsi si jistá, e s ním nic neudìláš.}
 {chemická souprava}
 {Tady technik vyrobil prášek na nadımání. Na(ne)štìstí zanechal své vybavení dùkladnì èisté.}
 {pracovní stùl}
 {Spousta chemikálií, kádinek a obalù od nezdravého jídla zaplòuje tento pracovní stùl.}
 {knihy}
-{Tyto knihy jsou plné latinskıch frází. Za jediné latinské fráze, které znáš, by námoøníka vyhodili z baru v Tijuanì!}
+{Tyto knihy jsou plné latinskıch frází. Za ty jediné latinské fráze, které znáš, by vyhodili i námoøníka z baru v Tijuanì!}
 {stùl}
 {Tento stùl neobsahuje ádné tajné dokumenty; všechny shoøely pøi velkém poáru minulı tıden!}

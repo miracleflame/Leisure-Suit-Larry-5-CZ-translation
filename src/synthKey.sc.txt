@@ -1,29 +1,29 @@
 {Tip od Ala}
 {dveøe}
-{Tyto dveøe vedou do øídící kabiny--a k Reverse Biazovi.}
+{Tyto dveøe vedou do øídicí kabiny--a k Reversi Biazovi.}
 {Reverse Biaz}
-{Reverse Biaz je muž, kterého FBI spojila se zpìtným nahráváním podprahových zpráv v tomto studiu. Ale vypadá roztomile.}
-{mixážní pult v øídící místnosti}
+{Reverse Biaz je muž, kterého F.B.I. spojuje s pozpátku nahrávanými podprahovými zprávami nahrávanými v tomto studiu. Ale vypadá roztomile.}
+{mixážní pult v øídicí místnosti}
 {páskový kotouè}
 {páskový kotouè}
 {páskový kotouè}
 {páskový kotouè}
 {VU metr}
-{Tento mìøiè mìøí dynamické úrovnì v decibelech, z nichž každý je pøibližnì 1/10 belu.}
+{Tento mìøiè mìøí dynamické úrovnì zvuku v decibelech, z nichž každý je pøibližnì 1 decibel.}
 {klávesa}
 {tvùj syntezátor}
-{Toto je syntezátor, na kterém chce Reverse Biaz, abys hrál.}
+{Toto je syntezátor, a Reverse Biaz po tobì chce, abys na nìj zahrála.}
 {stojany na noty}
-{Vidíte hromadu notových stojanù. Nebo je to shluk notových stojanù? Nebo je to spíš chumel stojanù na noty? Vždycky na to zapomeneš.}
-{øídící místnost}
-{Z jeho øídící místnosti vidí Reverse celé studio. Mùže s tebou mluvit pøes zvukotìsné sklo pøes zpìtný reproduktor.}
+{Vidíš hromadu notových stojanù. Nebo je to shluk notových stojanù? Nebo je to spíš chumel stojanù na noty? Vždycky na to zapomeneš.}
+{øídicí místnost}
+{Ze své øídicí místnosti vidí Reverse celé studio. Pøes zvukotìsné sklo s tebou mùže mluvit pøes talkback reproduktor.}
 {mikrofon nad hlavou}
 {Pøemýšlíš, kolik nekalých nahrávek bylo poøízeno tímto mikrofonem.}
 {bicí souprava}
 {Stejnì jako ve vìtšinì studií je bicí souprava za sklem, aby se zlepšilo oddìlení jejího zvuku od zvuku ostatních hudebníkù.}
 {hudba}
 {ovládací panel syntezátoru}
-{des Rever Records nešetøili na programování tohoto syntezátoru pro tuto relaci.}
-{mixážní pult v øídící místnosti}
+{Pro tuto nahrávací relaci des Rever Records na programování tohoto syntezátoru rozhodnì nešetøili.}
+{mixážní pult v øídicí místnosti}
 {studiový ovládací panel}
-{Tento panel obsahuje mnoho digitálních reverbù a speciálních efektù, výkonové zesilovaèe, propojovací pole a kopii Playboye z minulého mìsíce.}
+{Tento panel obsahuje mnoho digitálních reverbù a speciálních efektù, výkonové zesilovaèe, propojovací pole a výtisk Playboye z minulého mìsíce.}

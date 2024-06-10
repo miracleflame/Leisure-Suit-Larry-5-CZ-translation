@@ -4,14 +4,14 @@
 {tvoje limuzína}
 {Proè všechny ty limuzíny vypadají stejnì?}
 {vstupní dveøe}
-{Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Cafe."}
+{Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Cafe".}
 {vstupní dveøe}
-{Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Cafe."}
+{Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Cafe".}
 {lávová lampa}
 {Páni! Obøí lávová lampa! (Tyhle vìci jsi vždycky miloval!)}
 {lávová lampa}
 {Páni! Obøí lávová lampa! (Tyhle vìci jsi vždycky miloval!)}
-{kvìtina}
-{Tyto rostliny tu rostou navzdory atmosféøe.}
 {rostlina}
-{Tyto rostliny tu rostou navzdory atmosféøe.}
+{Navzdory atmosféøe tady tyhle rostliny rostou.}
+{rostlina}
+{Navzdory atmosféøe tady tyhle rostliny rostou.}

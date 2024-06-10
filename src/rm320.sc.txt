@@ -9,11 +9,11 @@
 {tvá hlava}
 {tác}
 {tvá ruka}
-{Vždycky se ti ta ruka líbila.}
+{Ta ruka se ti vždycky líbila.}
 {tvoje ruka}
-{Vždycky jsi mìl rád tuhle ruku.}
-{tvoje tìlo}
+{Ta ruka se ti vždycky líbila.}
+{tvá tìlo}
 {mrak}
-{letecký èasopis}
+{palubní èasopis}
 {Letuška}
 {èasopis}

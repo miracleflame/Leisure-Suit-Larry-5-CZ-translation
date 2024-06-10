@@ -1,5 +1,5 @@
-{její èièiny}
-{její tlaèítko}
-{her èièiny}
+{její holky}
+{její knoflík}
+{její holky}
 {její oèi}
-{její ústa}
+{její pusa}

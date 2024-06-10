@@ -11,27 +11,27 @@
 {Královna}
 {Král}
 {Eso}
-{Køíové}
-{Pikové}
-{Kárové}
-{Srdcové}
+{Køíe}
+{Piky}
+{Káry}
+{Srdce}
 {Vítejte v Trampovì kasinu}
 {tlaèítko Zvıšit}
-{Kliknutím zde rukou a zvıšíte svou sázku.}
-{tlaèítko Sníení}
-{Kliknutím zde rukou snííte svou sázku.}
+{Zde kliknìte ikonou ruky, abyste zvıšili sázku.}
+{tlaèítko Sníit}
+{Zde kliknìte ikonou ruky, abyste sníili sázku.}
 {tlaèítko Vyplatit}
-{Kliknutím zde rukou ukonèíte hru na tomto automatu. Vaše vıhry vám budou automaticky vyplaceny.}
+{Zde kliknìte ikonou ruky, abyste ukonèili hru na tomto automatu. Vaše vıhry vám budou automaticky vyplaceny.}
 {tlaèítko Rozdat}
-{Kliknutím zde rukou zahájíte novou hru pokeru.}
-{tlaèítko Podret kartu 1}
-{Kliknutím zde rukou podríte kartu è. 1.}
-{tlaèítko Podret kartu 2}
-{Kliknutím zde rukou podríte kartu è. 2.}
-{tlaèítko Podret kartu 3}
-{Kliknutím zde rukou podríte kartu è. 3.}
-{tlaèítko Podret kartu 4}
-{Kliknutím zde rukou podríte kartu è. 4.}
-{tlaèítko Podret kartu 5}
-{Kliknutím zde rukou podríte kartu è. 5.}
+{Zde kliknìte ikonou ruky, abyste zahájili novou hru.}
+{tlaèítko Ponechat kartu 1}
+{Zde kliknìte ikonou ruky, abyste si nechali kartu è. 1.}
+{tlaèítko Ponechat kartu 2}
+{Zde kliknìte ikonou ruky, abyste si nechali kartu è. 2.}
+{tlaèítko Ponechat kartu 3}
+{Zde kliknìte ikonou ruky, abyste si nechali kartu è. 3.}
+{tlaèítko Ponechat kartu 4}
+{Zde kliknìte ikonou ruky, abyste si nechali kartu è. 4.}
+{tlaèítko Ponechat kartu 5}
+{Zde kliknìte ikonou ruky, abyste si nechali kartu è. 5.}
 {Další šastnı vıherce}

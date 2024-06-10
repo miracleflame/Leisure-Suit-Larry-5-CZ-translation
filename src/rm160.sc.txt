@@ -1,38 +1,38 @@
-{Kdysi se PornProdCorp vıraznì podílela na filmech s hodnocením X, ale od nedávného I.P.O. a vstupu do soft-R televize zcela zmìnila svou imid. Nyní se snaí prorazit si cestu k serióznosti.}
+{Kdysi se PornProdCorp vıraznì podílela na tvorbì filmù pro dospìlé, ale od svého nedávného vstupu na burzu, a rovnì vstupu do televizí s volnì pøístupnım programem, spoleènost zcela zmìnila svou image. Nyní se snaí prorazit si cestu k serióznosti.}
 {dveøe spisovny}
 {dveøe kanceláøe Silase Scruemalla}
 {konvice na kávu}
-{zvuk pijákù kávy}
+{zvuk kávopièù}
 {Vypadá to, e nìkdo chce kávu!}
 {sodomat}
 {Sodomat je vybavení kanceláøe, které znáš nejlépe.}
 {kávovar}
 {Dveøe kanceláøe Silase Scruemalla}
 {nápis "Nejvíc sexy domácí videa Ameriky"}
-{Zøejmì je tato spoleènost domovem "Nejvíc sexy domácí videa Ameriky". Slyšel jsi o tom poøadu! Zvláš kdy tu pracuješ!}
+{Tato spoleènost je evidentnì autorem "Nejvíc sexy domácích videí Ameriky". O tomhle poøadu jsi slyšel! Zvláš, kdy tu pracuješ!}
 {portrét Silase Scruemalla}
 {"Náš zakladatel, Silas Scruemall!"}
 {plakát}
 {Umìní je jedna vìc, ale tohle je nìco jiného!}
 {fotografie}
-{Na fotografiích jsou bıvalé hvìzdy mnoha filmù, televizních poøadù a umìleckıch dokumentù spoleènosti PornProdCorp. Je tu celkem nula fotek hlavních pøevíjeèù videokazet, jako jsi ty. Nemáš dùvod pøedpokládat, e budeš první!}
+{Na fotografiích jsou bıvalé hvìzdy mnoha filmù, televizních poøadù a umìleckıch dokumentù spoleènosti PornProdCorp. Je tu celkem nula fotek hlavních pøevíjeèù videokazet, jako jsi ty. Nemáš jedinı dùvod pøedpokládat, e budeš první!}
 {fotografie hydrantu}
-{Je to buï hvìzda filmu Lovec lidí, nebo poární hydrant, nevíš, co z toho.}
+{Je to buï hvìzda filmu Èervenı drak, nebo poární hydrant, nevíš, co z toho.}
 {certifikát}
 {rostlina}
-{Na pohled se ti opravdu líbí jemnı plast.}
+{Ten vzhled jemného plastu se ti opravdu líbí.}
 {rostlina}
-{Opravdu si uíváš vzhled jemného plastu.}
+{Ten vzhled jemného plastu se ti opravdu líbí.}
 {rostlina}
-{Jak jen miluješ plastové rostliny! (Hlavnì tu vùni!)}
+{Plastové rostliny opravdu miluješ! (Hlavnì tu vùni!)}
 {Ocenìní "Cecky"}
 {Pravı gravírovanı plast}
 {idle}
-{Tato idle a stùl patøí osobì, která je nejménì oblíbená u tvého šéfa, Silasovi Scruemallovi. V souèasné dobì jsou neobsazené. Èasto zde sedáváš ty.}
+{Tato idle a stùl patøí osobì, která je nejménì oblíbená u tvého šéfa, Silase Scruemalla. V souèasné dobì není obsazená. Èasto tady sedíš ty.}
 {stùl}
-{Tato idle a stùl patøí osobì, která má u tvého šéfa, Silase Scruemalla, nejmenší pøízeò. V souèasné dobì jsou neobsazené. Èasto zde sedáváš ty.}
+{Tato idle a stùl patøí osobì, která je nejménì oblíbená u tvého šéfa, Silase Scruemalla. V souèasné dobì není obsazená. Èasto tady sedíš ty.}
 {skøíòka}
-{Ve skøíòce pod konvicí na kávu je jen krabice s promyšlenì pøedem odmìøenımi, pøedem zeslabenımi porcemi kávy a nìkolik prázdnıch plastovıch sáèkù, ve kterıch bıvaly hromádky polystyrenovıch kelímkù na kávu. Nepotøebuješ ani kávu, ani filtry.}
+{Ve skøíòce pod konvicí na kávu je jen krabice s promyšlenì pøedem odmìøenımi, pøedem zeslabenımi porcemi kávy a nìkolik prázdnıch plastovıch sáèkù, ve kterıch bıvaly zásoby polystyrenovıch kelímkù na kávu. Nepotøebuješ ani kávu, ani filtry.}
 {elektrická zásuvka}
-{pøedsíò}
+{chodba}
 {Tato chodba vede do oddìlení pøevíjení videokazet a do tvé pracovny, kde vykonáváš svou práci hlavního pøevíjeèe a sterilizátora (divize Betamax).}

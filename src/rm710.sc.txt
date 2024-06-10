@@ -1,12 +1,12 @@
-{Trampovo kasino nešetøilo prostøedky, aby vytvoøilo dokonalý luxusní opulentní hnus bez chuti. Videopokerové automaty vás obklopují v takové míøe, že si nejste jisti, jak je obejít.}
-{hráè}
-{Všichni tito hráèi vám pøipadají nutkaví.}
+{Trampovo kasino nešetøilo prostøedky, aby vytvoøilo dokonalý luxusní opulentní hnus bez chuti. Videopokerové automaty tì obklopují v takové míøe, že si nejsi jistý, jak je obejít.}
+{hazardní hráè}
+{Všichni tihle hráèi ti pøipadají závislí.}
 {obraz}
 {obraz}
 {ruletové stoly}
 {Neumíš hrát ruletu.}
 {stoly na blackjack}
-{Blackjack prostì není tvoje hra. To si mùžeš pamatovat z "Leisure Suit Larry 1"!}
+{Blackjack prostì není hra pro tebe. To si mùžeš pamatovat ze "Suknièkáøe Larryho 1"!}
 {lustr}
 {Není to úžasné, co dnes dìlají s polymery?}
 {lustr}
@@ -14,7 +14,7 @@
 {vstup do taneèního sálu}
 {Zdá se, že v Trampovì exkluzivním taneèním sále se shromáždil dav lidí.}
 {socha}
-{Nahé dívky s balónkovými kyticemi jsou oblíbeným námìtem nejvìtších svìtových umìlcù již po mnoho staletí.}
+{Nahé dívky s držící spoustu balónkù jsou oblíbeným námìtem nejvìtších svìtových umìlcù již po mnoho staletí.}
 {socha}
-{To je ale sada balónkù!}
+{Ta má ale balón(k)y!}
 {automat na videopoker}

@@ -4,17 +4,17 @@
 {Nahradit}
 {Vyberte hru, kterou chcete obnovit.}
 {Zadejte popis této uložené hry.}
-{Tento adresáø/disk nemùže pojmout žádné další uložené hry. Musíte nahradit nìkterou z uložených her nebo pomocí funkce Zmìnit adresáø uložit do jiného adresáøe/disku.}
-{Tento adresáø/disk nemùže pojmout žádné další uložené hry. Musíte nahradit nìkterou z uložených her nebo pomocí funkce Zmìnit adresáø uložit do jiného adresáøe/disku.}
+{Tato složka/disk nemùže pojmout žádné další uložené hry. Musíte nahradit nìkterou z uložených her, nebo pomocí funkce Zmìnit složku uložit hru do jiné složky/disku.}
+{Tato složka/disk nemùže pojmout žádné další uložené hry. Musíte nahradit nìkterou z uložených her, nebo pomocí funkce Zmìnit složky uložit hru do jiné složky/disku.}
 {OK}
 {Zrušit}
 {Jste si jisti, že chcete\0D\nsmazat tuto uloženou hru?}
-{ Ne }
+{ Ne_}
 {Ano}
 {Obnovit hru}
 {Uložit hru}
 { Zrušit_}
-{Zmìnit\0D\nAdresáø}
+{Zmìnit\0D\nsložku}
 { Smazat_}
 {Nahradit}
 {s:}

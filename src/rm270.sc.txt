@@ -1,4 +1,4 @@
-{Jsi v èekárnì letecké spoleènosti AeroDork a u bývalé pokladny. Ze vzdálené stìny na vás shlíží bezpeènostní kamera.}
+{Jsi v èekárnì letecké spoleènosti AeroBlb a u bývalé pokladny. Ze vzdálené stìny na tebe shlíží bezpeènostní kamera.}
 {Buffi}
 {Muffi}
 {Tracie}
@@ -11,7 +11,7 @@
 {New York}
 {Atlantic City}
 {Miami}
-{kontejner na charitativní sbírku}
+{charitativní kontejner}
 {rostlina}
 {židle}
 {popelník}

@@ -1,15 +1,15 @@
 {Taneèní sál pulzuje lidmi - všichni jsou to muži. "Kde jsou ženy?" divíš se.}
-{Jennifer Jiggle}
-{Lana Luscious}
+{Dovádivá Jennifer}
+{Lahodná Lana}
 {Lana vypadá úplnì jinak, teï, když se zula z koleèkových bruslí a je ve svém živlu!}
 {její župan}
 {Zhodila svùj župan!}
-{blátivý zápasnický ring}
-{Vítejte v "Trampuj tohle! Blátivé noèní šílenství" v ringu bahenního zápasu.}
+{ring na bahenní zápasy}
+{Vítejte v "Trampni to! Noèním bahenním šílenství" v ringu, kde se odehrávají bahenní zápasy.}
 {provazy}
-{Vítejte v "Trampuj tohle! Blátivé noèní šílenství" v ringu bahenního zápasu.}
+{Vítejte v "Trampni to! Noèním bahenním šílenství" v ringu, kde se odehrávají bahenní zápasy.}
 {vyhazovaè}
-{Jste si jistí, že tento vyhazovaè není zdaleka tak moudrý jako vy, co se týèe žen.}
+{Jsi si jistý, že tenhle vyhazovaè není zdaleka tak moudrý jako ty, co se týèe žen.}
 {"Co to bude?"}
 {Vyhazovaè}
 {Já se budu jen dívat}

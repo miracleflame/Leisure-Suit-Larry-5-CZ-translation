@@ -1,19 +1,19 @@
-{Komercializace krásné Trampové promenády se zdá bıt dokonèena. Podniky lemují kadı centimetr vzdálené strany promenády. Alespoò bliší strana zùstala otevøená pro rybáøe a bruslaøe.}
-{Lana Slièná}
-{Mister Z}
-{No není jen roztomilı?}
+{Komercializace Trampovy krásné promenády se zdá bıt dokonèena. Podniky lemují kadı centimetr vzdálené strany promenády. Alespoò ta bliší strana zùstala otevøená pro rybáøe a bruslaøe.}
+{Lahodná Lana}
+{Mistr Z}
+{No není roztomilı?}
 {starı mu}
-{Na bruslaøe je trochu starı, co?}
-{Horká Kola}
+{Na bruslaøe je trochu starı, ne?}
+{Horkı Kola}
 {Ten kluk se opravdu pøedvádí!}
-{Rockin' Roller}
+{Trsající Roller}
 {Co to vlastnì poslouchá?}
 {Roller Prase}
 {To je ale talent! Umí jíst a zároveò bruslit!}
 {Kravaák Bill}
 {Na tuhle promenádu je a moc obleèenı!}
 {Dìcko Blb}
-{Jakı to pøitroublı kluèina! Okamitì si ho oblíbíš!}
+{To je ale pøitroublı kluèina! Okamitì se stává tvım oblíbencem!}
 {bruslaø}
 {Nemìl jsi tušení, e na promenádì bude tolik bruslaøù!}
 {bruslaø}
@@ -22,12 +22,12 @@
 {Lanino pravé oko}
 {Lanino levé oko}
 {Lanin nos}
-{Lanina ústa}
-{Lana Slièná}
+{Lanina pusa}
+{Lahodná Lana}
 {budovy na promenádì}
-{Zdálená strana Trampovy promenády je lemována nevkusnımi, lacinımi turistickımi pastmi. Skrz budovy vykukuje kousek modré oblohy.}
+{Vzdálená strana Trampovy promenády je lemována nevkusnımi, lacinımi turistickımi pastmi. Skrz budovy vykukuje kousek modré oblohy.}
 {lavièka}
-{Dlouhá øada lavièek èeká na tvé potìšení z posezení podél oceánské strany promenády.}
+{Dlouhá øada lavièek èeká na tvé potìšení z posezení podél strany promenády, u které je oceán.}
 {sloupek}
 {Tyto sloupky drí promenádu.}
 {sloupek}

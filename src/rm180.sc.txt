@@ -1,10 +1,10 @@
-{Archivárna PPC je plná kartoték, které jsou naplnìny spisy.}
+{Spisovna PPC je plná kartoték, které jsou naplnìny spisy.}
 {tiskárna kreditních karet}
 {zásuvka}
 {svìtlo}
 {Dívat se do lampy je pro tebe osvícený zážitek.}
 {knihovna}
-{Tato knihovna je plná všeho možného, jen ne knih.}
+{V této knihonì jsou jen samé knihy.}
 {obrázek aktu}
 {O umìní toho moc nevíš, ale nìco se ti na tom obraze zamlouvá!}
 {tvùj psací stùl}
@@ -15,18 +15,18 @@
 {zásuvka se složkami}
 {Tahle zásuvka je nadepsaná "Lùzøi". Hledáš složky tøí finalistù. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
 {zásuvka se složkami}
-{Tato zásuvka je oznaèena "Lùzøi". Hledáš složky tøí finalistù. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
+{Tato zásuvka je oznaèena "Lùzøi". Hledáš složky tøí finalistek. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
 {zásuvka se složkami}
-{Tato zásuvka je oznaèena "Lùzøi". Hledáš složky tøí finalistù. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
+{Tato zásuvka je oznaèena "Lùzøi". Hledáš složky tøí finalistek. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
 {nìjaké knihy}
 {Proè se chceš dívat na knihy, Larry? Sotva umíš èíst!}
 {vìtrák}
-{Toto je tvùj nejvìtší fanda!}
+{Tohle je tvùj nejvìtší fanoušek!}
 {tvoje židle}
-{Tahle židle je tvùj oblíbený pelíšek na pracovišti.}
+{Tahle židle je tvé oblíbené místo na spaní na pracovišti.}
 {plakát dvojèat}
 {Tento plakát je tvùj oblíbený. Vždycky jsi mìl slabost pro dvojèata.}
 {zrzavá}
 {blondýnka}
-{rolky papíru}
+{role papíru}
 {Tady leží nìjaké nedùležité role papíru.}

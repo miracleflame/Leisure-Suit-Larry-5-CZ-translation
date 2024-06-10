@@ -1,6 +1,6 @@
 {dveøe}
-{Michelle Milken}
-{To je ona, Larry! Pozornì ji sleduj, možná bys ji mohl následovat!}
+{Michelle Milkenová}
+{To je ona, Larry! Pozornì ji sleduj, možná bys za ní mohl jít!}
 {tlustá dáma}
 {Pøedpokládáš, že ona je ta, která zpívá, když je po všem.}
 {monitor}
@@ -17,8 +17,8 @@
 {Tento stùl se zdá být obsazený. Extrémnì obsazený!}
 {tvùj stùl}
 {stoly}
-{Jaká obrovská kavárna, a tak málo zákazníkù.}
+{Taková obrovská kavárna, a tak málo zákazníkù.}
 {kaktus}
-{Zde vložte svùj oblíbený vtip o kaktusech a "píchání".}
-{èteèka kazet}
+{Sem si doplòte svùj oblíbený vtip o kaktusech a "píchání".}
+{èteèka pásek}
 {dveøe}

@@ -1,19 +1,19 @@
-{Laboratoø FBI je plná zajímavého vybavení, z nìhož vìtšina je pro tebe nepochopitelná.}
-{Komandér Twit}
-{Je dokonalým obrazem èlovìka, který se více zajímá o vìdu než o svùj vlastní obraz!}
+{Laboratoø F.B.I. je plná zajímavého vybavení, z nìhož vìtšina je pro tebe nepochopitelná.}
+{Velitel Magor}
+{Je dokonalým obrazem èlovìka, kterého zajímá víc vìda než vlastní image!}
 {Dveøe doktora Hopiana}
-{Za tìmito dveømi se nachází ordinace doktora Phila Hopiana, gynekologa FBI.}
+{Za tìmito dveømi se nachází ordinace doktora Phila Hopiana, gynekologa F.B.I..}
 {poèítaè}
-{Kdybys jen dávala pozor, když Larry poøád žvanil o svém poèítaèi. O tomhle poèítaèi nic nevíš a jsi si jistá, že s ním nic neudìláš.}
-{kaèer}
-{Jestliže to pije jako kachna a kváká to jako kachna, musí to být experiment.}
+{Kdybys jen dávala pozor, když Larry poøád žvanil o tom svém poèítaèi. O tomhle poèítaèi nic nevíš a jsi si jistá, že s ním nic neudìláš.}
+{kachna}
+{Jestliže to pije jako kachna a kváká to jako kachna, musí to být nìjaký experiment.}
 {stroj}
 {Tento stroj nìco dìlá, tím jsi si naprosto jistá.}
 {chemická souprava}
-{Tohle musí být zdroj prášku na nadýmání.}
+{Tohle musí být zdroj toho prášku na nadýmání.}
 {pracovní stùl}
 {Spousta chemikálií, kádinek a obalù od nezdravého jídla zaplòuje tento pracovní stùl.}
 {knihy}
-{Tyto knihy jsou plné latinských frází. Za jediné latinské fráze, které znáš, by námoøníka vyhodili z baru v Tijuanì!}
+{Tyto knihy jsou plné latinských frází. Za ty jediné latinské fráze, které znáš, by vyhodili i námoøníka z baru v Tijuanì!}
 {stùl}
 {Tento stùl neobsahuje žádné tajné dokumenty; všechny shoøely pøi velkém požáru minulý týden!}

@@ -9,4 +9,4 @@
 {žaluzie}
 {Nebýt tìchto žaluzií, mìli bychom všichni dokonalý výhled!}
 {provaz}
-{Tohto se drž!}
+{Toho se drž!}

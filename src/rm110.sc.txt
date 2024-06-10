@@ -1,9 +1,9 @@
-{Pøeskoèi}
+{Pøeskoèit}
 {Opravdu? Uka mi to!}
 {Uups}
-{Vıkonní øeditel\n\nKen Williams}
+{Vıkonnı producent\n\nKen Williams}
 {Kreativní øeditel\n\nBill Davis}
-{Hlavní Øeditel\n\nAl Lowe}
+{Hlavní øeditel\n\nAl Lowe}
 {Producent\n\nGuruka Singh Khalsa}
 {Herní návrháø\n\nAl Lowe}
 {Produkèní návrháø\n\nAndy Hoyos}

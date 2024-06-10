@@ -1,6 +1,6 @@
-{V hale "Hard Disk Cafe" je k vidìní nesmírnì vzrušující (pro nerdy) vıstava starıch poèítaèovıch památek. Pøi pohledu na toto místo se vám zrychlí tep.}
-{Kolik si pøejete podplatit pana šéfa.}
-{Namazat tu dlaò}
+{V hale "Hard Disk Cafe" je k vidìní nesmírnì vzrušující (pro nerdy) vıstava starıch poèítaèovıch pamìtihodností. Pøi pouhém pohledu na tohle místo se ti zrychlí tep.}
+{Jak moc si pøeješ vrchnícho podplatit?}
+{Pìknì namazat dlaò}
 {telefon}
 {poèítaèovı terminál}
 {Berta}
@@ -8,39 +8,39 @@
 {Bertina hlava}
 {hudební skøíòka}
 {vaše èlenská páska}
-{Èlenská páska, kterou jsi tak moc chtìl, teï bezvládnì visí ze strany èteèky papírovıch pásek a pomalu, pomalu se kroutí ve vìtru.}
-{šéfkuchaø}
-{Tìm, kteøí se umí tváøit hloupì a zároveò snobsky, docela závidíš.}
+{Èlenská páska, kterou jsi tak moc chtìl, teï bezvládnì visí ze strany èteèky papírovıch pásek a pomalu a línì se kroutí ve vìtru.}
+{vrchní}
+{Tìm, kteøí se umí tváøit hloupì a zároveò povıšenì, docela závidíš.}
 {køídlové dveøe}
 {køídlové dveøe}
-{Pøedpokládáš, e tyto dveøe vedou do samotné kavárny.}
+{Pøedpokládáš, e tyhle dveøe vedou do samotné kavárny.}
 {stroj na papírové pásky}
 {staroitná disková jednotka}
-{Tato raná disková jednotka byla velká jako praèka a pojmula obrovské mnoství dat - více ne jeden megabajt.}
+{Tato raná disková jednotka byla velká jako praèka a pojmula obrovské mnoství dat - více ne jeden megabyte.}
 {Pet Computer}
-{Pet Computer jsi nevidìl od prvních dnù "InfoWorldu!"}
+{Pet Computer jsi nevidìl od prvních dnù "InfoWorldu"!}
 {poèítaè Apple II}
-{První poèítaèové zuby jste si vylámali na starém poèítaèi Apple II s celoèíselnım BASICem. Nebyl to ani Plus!}
+{První poèítaèové zuby jsi si vylámal na starém poèítaèi Apple II s Integer BASICem. Nebyl to ani model Plus!}
 {pokladna}
 {Tento miláèek spoleènosti NCR byl jednou z prvních pokladen øízenıch mikroprocesorem.}
-{zelená obrazovka monitoru}
+{monitor se zelenou obrazovkou}
 {Tento starobylı pøístroj dokázal zobrazit text v jakékoliv barvì, pokud byl zelenı na èerném pozadí.}
 {poèítaè Atari 400}
 {Kámo, to Atari 400 v tobì vyvolává pøíjemné vzpomínky na tvé špatnì strávené mládí, kdy jsi hrál "Froggera", zatímco tví spoluáci randili!}
 {staroitná pásková mechanika}
-{Jedná se o jednu z prvních páskovıch mechanik na svìtì, ve své dobì revoluèní, dnes se zdá bıt neuvìøitelnì kuriózní. Vdy se na ni nevešel ani Space Quest, nato King's Quest! }
-{valec klavíru}
-{Pøehrávaè klavírù byl ranım vyuitím dìrovanıch otvorù k ovládání mechanického zaøízení. Do 88 otvorù v kovové tyèi bylo aplikováno vakuum, pøièem kadı otvor oznaèoval jinı hudební tón. Tam, kde se v pohyblivém papíru objevily otvory, se hrály odpovídající tóny.}
-{dìrnoštítkovı stroj}
-{Tato èteèka dìrnıch karet pochází ze sèítání lidu v USA z roku 1890. Dokázala zpracovat a 80 znakù nebo sloupcù dat, co je èíslo, které dodnes zùstává šíøkou vìtšiny poèítaèovıch zobrazovacích zaøízení.}
-{køeslo}
-{Toto køeslo je urèeno vıhradnì pro vrchního.}
+{Jedná se o jednu z prvních páskovıch mechanik na svìtì, ve své dobì revoluèní, dnes se zdá bıt neuvìøitelnì kuriózní. Vdy by se na ni nevešel ani "Space Quest", nato "King's Quest"!}
+{klavírní válec}
+{Pianola byla ranım vyuitím dìrovanıch otvorù k ovládání mechanického zaøízení. Do kovové tyèe bylo vyraenou 88 otvorù, pøièem kadı otvor pøedstavoval jinı tón. Podle toho, kde se pak na pohybujícím se papíru objevily otvory, byly pøehrány odpovídající tóny.}
+{stroj na dìrné štítky}
+{Tato èteèka dìrnıch štítkù pochází ze sèítání lidu v USA v roce 1890. Dokázala zpracovat a 80 znakù nebo sloupcù dat, co je èíslo, které dodnes zùstává šíøkou vìtšiny poèítaèovıch zobrazovacích zaøízení.}
+{idle}
+{Tahle idle je urèená vıhradnì pro vrchního.}
 {nástìnka}
 {Na nástìnce jsou fotografie slavnıch nerdù, kteøí sem èasto chodí!}
 {pódium vrchního}
-{Pódium vrchního je tak akorát velké, aby se za nìj mohl schovat, kdy po nìm zaènou házet vìci!}
+{Pódium vrchního je tak akorát velké, aby se za nìj mohl schovat, kdy po nìm dav zaène házet vìci!}
 {stùl}
 {Pøál by sis mít takovı pìknı stùl ve své mizerné kanceláøi.}
 {kaktus}
-{Kaktus je pokryt ostrımi jehlicemi. (Odtud název "jehlicovité kaktusy")}
+{Kaktus je pokrytı ostrımi trny. (Proto kaktusy píchají, no ne?)}
 {kaktus}

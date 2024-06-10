@@ -5,29 +5,29 @@
 {Animátoøi\n\n}
 {\n\nCheryl Loyd\nBarry T. Smith\nRoger Hardy Jr.\nDana M. Dean\nKarin Young\nMarc Hudgins\nEric Kasner}
 {\n\nRichard Powell\nPhyllis Cucchiara\nTerry Falls\nMichael Hutchison\nDesie Hartman\nWillis Wong}
-{Grafika Pozadí\n\nJane Cardinal\nMaurice Morgan\nAndy Hoyos\nCheryl Loyd\nJay Friedmann\nJennifer Shontz\nGloria Garland}
+{Grafika pozadí\n\nJane Cardinal\nMaurice Morgan\nAndy Hoyos\nCheryl Loyd\nJay Friedmann\nJennifer Shontz\nGloria Garland}
 {Programátoøi\n\nBrian K. Hughes\nCarlos Escobar\nSteve Conrad\nJohn Hartin\nOliver Brelsford\nAl Lowe}
-{Hudební reisér\n\nMark Seibert}
+{Hudební reie\n\nMark Seibert}
 {Sierra's Creative Interpreter\nVıvojovı systém\n\n}
 {\n\n\nJeff Stephenson\nRobert E. Heitman\nDan Foy\nLarry Scott\nJohn Rettig\nJ. Mark Hood\nChris Smith\nTerry McHenry}
 {\n\n\nEric Hart\nChad Bye\nMark Wilden\nKen Koch\nJohn Crane\nSteve Coallier\nRandy Moss}
 {Dodateèná hudba\n\nChris Braymen}
-{Doplòkovı písemnı materiál\n\nJosh Mandel}
+{Dodateènı písemnı materiál\n\nJosh Mandel}
 {Vedoucí tımu pro zajištìní kvality\n\nRobin Bradley}
 {Mlınek na kávu\n\nC. Escobar}
 {AL øíká}
 {Gratulujeme! Vyhráli jste!!!}
-{Nejste rádi, e jste si koupili pøevodník?}
-{Airport PA #1}
-{Airport PA #2}
-{Airport PA #3}
-{Airport PA #4}
+{Nejste rádi, e jste si koupili digitálnì-analogovı pøevodník?}
+{Letištní hlášení #1}
+{Letištní hlášení #2}
+{Letištní hlášení #3}
+{Letištní hlášení #4}
 {__Atmosféra__}
-{____Køièí____}
-{______Yeow______}
+{___Vıkøiky___}
+{_____Jauu_____}
 {_____Káva_____}
-{Skládací idle}
-{Vlèí píšalka_}
+{Skládání idle}
+{Obdivnı hvizd_}
 {___Klepání___}
 {___Sklenice #1___}
 {___Sklenice #2___}
@@ -36,14 +36,14 @@
 {_______AH!_______}
 {______OH!______}
 {_____Oooh!_____}
-{ Davové dechy_}
-{ Šmejdi jedí_}
-{_____Splach_____}
-{_____Øıch_____}
-{_____Krk_____}
+{ Dav lapá po dechu_}
+{ Burani jí_}
+{_Splachování__}
+{___Øíhnutí____}
+{__Zvracení___}
 {Nedotıkat se}
 {< Hotovo >}
-{Díky za koupi "Larryho 5!"}
-{Nezapomeòte na slogan Ala Lowa:}
+{Dìkujeme, e jste si koupili "Larryho 5"!}
+{Pamatujte na slogan Ala Lowa:}
 {Lepší baby díky\ntechnologii!}
 

@@ -1,5 +1,5 @@
 {%c}
-{Vášnivá Patti Pracuje v Pittsmalinko v utajení}
+{Vášnivá Patti pracuje trochu v utajení}
 {Pøeskoèit}
 {Opravdu? Ukaž mi to!}
 {Uups}

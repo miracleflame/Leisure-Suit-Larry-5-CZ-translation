@@ -1,4 +1,4 @@
-{Budova Shill je jednou z nejlepších kanceláøských budov v Baltimoru. Její žulová, mosazná a nerezová fasáda záøí ve sluneèním svìtle. Pøístup do jejího interiéru slibují otoèné dveøe.}
+{Budova Shill je jednou z nejhonosnìjších kanceláøských budov v Baltimoru. Její žulová, mosazná a nerezová fasáda záøí ve sluneèním svìtle. Pøístup do jejího interiéru slibují otoèné dveøe.}
 {Uložit}
 {Ne, proè se obtìžovat?}
 {AL øíká}
@@ -9,7 +9,7 @@
 {otoèné dveøe}
 {Tyto otoèné dveøe jsou ozdobou vchodu do budovy Shill.}
 {limuzína}
-{Tvá limuzína èeká na tvùj návrat. Uvnitø je tvùj øidiè stále ještì rozrušený z tvého pøíjezdu! Jsi si jistý, že se pouèil.}
+{Tvá limuzína èeká na tvùj návrat. Uvnitø je tvùj øidiè stále ještì rozrušený z tvého pøíjezdu! Jsi si jistá, že dostal lekci.}
 {požární hydrant}
 {Jak psi hláskují úlevu? "H-Y-D-R-A-N-T"}
 {auto}

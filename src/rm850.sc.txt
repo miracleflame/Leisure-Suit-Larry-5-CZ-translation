@@ -1,23 +1,23 @@
-{Koupelna Johna Krappera naplòuje oèekávání. Všude jsou rozesety zlaté armatury. Po obou stranách "hajzlu" je dokonce pár zlatých sošek.}
+{Koupelna Johna Hezjla naplòuje oèekávání. Všude jsou rozesety zlaté armatury. Po obou stranách "hajzlu" je dokonce pár zlatých sošek.}
 {sprcha}
-{Zøejmì pùvabná sklenìná sprcha se opírá o stìnu.}
+{To, co vypadá jako pìkná sklenìná sprcha se opírá o stìnu.}
 {sprcha}
 {Podívej! U stìny stojí krásná sklenìná sprcha.}
 {dveøe do kanceláøe}
-{Tyto dveøe vedou zpìt do kanceláøe Johna Krappera.}
+{Tyto dveøe vedou zpìt do kanceláøe Johna Hejzla.}
 {sprcha}
-{Krapperùv záchod}
-{Vyroben z ruènì vytesaného, zlatì skvrnitého mramoru s pozlacenou rukojetí a sedátkem potaženým kožichem jezevce, je vám jasné, že tenhle chlapík se opravdu vyzná v "K-RAPu!" }.
+{Hejzlùv hajzl}
+{Vyroben z ruènì vytesaného, zlatì skvrnitého mramoru s pozlacenou rukojetí a sedátkem potaženým kožichem jezevce - je ti jasné, že tenhle chlap se ve tvorbì žumpy na rádiu K-RAP opravdu vyzná!}.
 {okno}
 {Obrovské okno z tabulového skla shlíží na krásnou záøi noèního centra Filadelfie.}
 {závìsy}
-{Tyto závìsy jsou jen na parádu, nezavírají se.}
+{Tyto závìsy jsou jen na parádu, nejdou zatáhnout.}
 {závìsy}
-{Tyto záclony jsou jen pro parádu, nezavírají se.}
+{Tyto závìsy jsou jen na parádu, nejdou zatáhnout.}}
 {levé umyvadlo}
 {pravé umyvadlo}
 {støešní okno}
-{Strop koupelny Johna Krappera je korunován krásným støešním oknem.}
+{Strop koupelny Johna Hejzla je korunován krásným støešním oknem.}
 {soška}
 {Tuto sošku získalo rádio K-RAP za vynikající výsledky ve vysílání!}
 {soška}

@@ -1,26 +1,26 @@
-{Aèkoli jsi o tom nepøemýšlel, takhle sis laboratoø FBI nepøedstavoval.}
-{Komandér Twit}
+{Aèkoliv jsi o tom nepøemýšlela, takhle sis laboratoø F.B.I. nepøedstavovala.}
+{Velitel Magor}
 {Je dokonalým obrazem èlovìka, kterého zajímá víc vìda než vlastní image!}
 {Desmondovy dveøe}
-{Tyto dveøe vedou do kanceláøe inspektora Desmonda. V souèasné dobì jsou zamèené.}
+{Tyto dveøe vedou do kanceláøe inspektora Desmonda. Momentálnì jsou zamèené.}
 {dveøe ven}
 {Tyto dveøe vedou ven.}
 {technik vibrátorù}
-{technièka, která si navléká podprsenku}
-{podprsenkáøka}
-{Jakobùv žebøík}
-{Na zamyšlení: celý život jsi pøedpokládal, že Jákobovy žebøíky nemají žádný skuteèný smysl!}
-{šipky}
+{technik s podprsenkou}
+{podprsenkáø}
+{Jákobùv žebøík}
+{Na zamyšlení: celý život sis myslela, že Jákobovy žebøíky neslouží žádnému skuteènému úèelu!}
+{terè na šipky}
 {monitory}
-{Tyto monitory jsou momentálnì odpojené. Když se pøed mnoha lety hojnì používaly, sloužily pouze k hraní hry "Jawbreaker!" }
+{Tyto monitory jsou momentálnì odpojené. Když se pøed mnoha lety hojnì používaly, sloužily pouze ke hraní hry "Jawbreaker"!}
 {obøí zástrèka}
 {Zajímalo by tì, do èeho pøesnì se ta obøí zástrèka zapojuje.}
 {interkom}
-{Tento interkom používají laboratorní technici ke komunikaci s pøední kanceláøí a komandérem Twitem.}
-{køeslo}
+{Tento interkom používají laboratorní technici ke komunikaci s hlavním øeditelstvím a velitelem Magorem.}
+{židle}
 {Tato kanceláøská židle ti brání v pøístupu ke složitému vybavení pod ní.}
-{džojstik}
-{Páni! To je ale džojstik!}
+{joystick}
+{Páni! To je ale joystick!}
 {deska s obvody}
 {Tohle vypadá jako obøí deska s plošnými spoji.}
 {laboratorní stoly}

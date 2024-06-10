@@ -4,25 +4,25 @@
 {nápis K-RAP}
 {Vysoko nad tvou hlavou osvìtluje baltimorskou noc neonový nápis K-RAP.}
 {dveøe}
-{Dveøe K-RAP jsou vždy otevøené.}
+{Dveøe rádia K-RAP jsou vždy otevøené.}
 {levý reproduktor}
-{Reproduktory K-RAP vysílají aktuální program stanice.}
+{Reproduktory rádia K-RAP vysílají aktuální program stanice.}
 {pravý reproduktor}
-{Reproduktory K-RAP vysílají aktuální program stanice.}
+{Reproduktory rádia K-RAP vysílají aktuální program stanice.}
 {køoví}
-{Nìkdo tyhle keøe zasadil pøímo doprostøed tohoto rušného chodníku!}
+{Nìkdo tyhle keøe vysadil pøímo doprostøed tohoto rušného chodníku!}
 {køoví}
-{Nìkdo vysadil tyto keøe pøímo uprostøed tohoto rušného chodníku!}
+{Nìkdo tyhle keøe vysadil pøímo doprostøed tohoto rušného chodníku!}
 {keø}
-{Nìkdo vysadil tyto keøe pøímo uprostøed tohoto rušného chodníku!}
+{Nìkdo tyhle keøe vysadil pøímo doprostøed tohoto rušného chodníku!}
 {køoví}
-{Nìkdo vysadil tyto keøe pøímo uprostøed tohoto rušného chodníku!}
+{Nìkdo tyhle keøe vysadil pøímo doprostøed tohoto rušného chodníku!}
 {freska}
 {Rádio K-RAP má na zdi nástìnnou malbu hudebníkù.}
 {vìž}
-{Na vìži jsou umístìny antény, které vysílají stereofonní multiplexní signál rádia K-RAP pro miliony lidí (z nichž nìkteøí poslouchají!).}
+{Na vìži jsou umístìny antény, které vysílají stereofonní multiplexovaný signál rádia K-RAP pro miliony lidí (z nichž nìkteøí poslouchají!).}
 {stromy}
-{Kousek od K-RAP roste houf bílých bøíz.}
+{Kousek od K-RAPu roste houf bílých bøíz.}
 {Uložit}
 {Ne, proè se obtìžovat?}
 {AL øíká}

@@ -1,28 +1,28 @@
-{PM}
-{AM}
-{V tuto chvíli nejsou k dispozici palubní lístky. Zkuste to prosím znovu v jiném mìstì!}
-{Zadali jste nesprávnou destinaci pro toto letištì v tuto hodinu. Ale i tak si vážíme toho, že jste si vybrali AeroDork Airlines.}
-{Hej! Vezmìte si zlatou kartu AeroDork!}
-{Podívej, ty blbeèku. Jestli se zatouláš a necháš tu kartu tady, postarám se, aby tvoje zavazadla letìla bez mezipøistání do Muncie v Indianì!}
+{odpoledne}
+{ráno}
+{V tuto chvíli nejsou k dispozici žádné palubní lístky. Zkuste to prosím znovu v jiném mìstì!}
+{Zadali jste nesprávnou destinaci pro toto letištì v tuto hodinu. Ale i tak si vážíme toho, že jste si vybrali AeroBlb Airlines.}
+{Hej! Vezmìte si svou zlatou kartu AeroBlb!}
+{Podívej, ty blbeèku. Jestli se nìkam zatouláš a necháš tu kartu tady, postarám se o to, aby tvoje zavazadla letìla bez mezipøistání do Muncie v Indianì!}
 {Fajn. Ignoruju tì.}
 {palubní lístek}
 {Aha, to jste vy, pane Hughesi! Samozøejmì, že mùžete mít palubní lístek! Hned to bude, pane!}
-{Prosím, vezmìte si palubní vstupenku.}
-{tvoje karta AeroDork}
-{Prosím, vezmìte si svou zlatou kartu AeroDork.}
-{Dìkujeme, že letíte s AeroDork!}
-{Vítejte, Cliffe Taurusi! Kam dnes?}
+{Prosím, vezmìte si palubní lístek.}
+{tvoje karta AeroBlb}
+{Prosím, vezmìte si svou zlatou kartu AeroBlb.}
+{Dìkujeme, že letíte s AeroBlb!}
+{Vítejte, Cliffe Taurusi! Kam to bude dnes?}
 {New York}
 {Atlantic City}
 {Miami}
 {Los Angeles}
-{štìrbina na kartu}
-{štìrbina pro palubní lístek}
-{Palubní lístky jsou emitovány z této štìrbiny.}
+{otvor na kartu}
+{otvor na palubní lístek}
+{Palubní lístky vycházejí z této štìrbiny.}
 {štítek se jménem}
-{Nápis na štítku zní: "AeroDork Airlines."}
+{Nápis na štítku zní: "AeroBlb Airlines".}
 {obrazovka}
-{Bankomat AeroDork má dotykovou obrazovku.}
+{Automat na lístky AeroBlb má dotykovou obrazovku.}
 {cílová destinace}
 {Los Angeles}
 {Miami}

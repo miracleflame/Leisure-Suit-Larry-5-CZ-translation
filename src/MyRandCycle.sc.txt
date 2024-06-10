@@ -1,9 +1,9 @@
-{kazeák}
+{pøehrávaè}
 {plaketa}
 {zlatá deska}
-{kazeák}
+{pøehrávaè}
 {vıtah}
-{Tímto vıtahem jste pøijeli.}
+{Tímto vıtahem jsi pøijela.}
 {Reverse Biaz}
 {gramofon}
 {zlatá deska}
@@ -11,8 +11,8 @@
 {reproduktory}
 {reproduktory}
 {dveøe studia}
-{Na dveøích je malá tabulka s nápisem: "Studio A."}
-{tlaèítko Reverz}
+{Na dveøích je malá tabulka s nápisem: "Studio A".}
+{tlaèítko Pozpátku}
 {tlaèítko Stop}
 {tlaèítko Vpøed}
 {tlaèítko 33}
@@ -24,12 +24,12 @@
 {pravı reproduktor}
 {Tento mìniè pøevádí elektrickou energii na rychle pulzující zvukové vlny.}
 {rostlina}
-{Pøi bliším zkoumání zjistíte, e se jedná o rostlinu.}
+{Pøi bliším zkoumání zjistíš, e se jedná o rostlinu.}
 {polièky}
 {Polièky v kanceláøi jsou plné desek, kazet a knih.}
 {obaly na desky}
 {Stìny kanceláøe des Rever Records zdobí mnoho obalù slavnıch alb.}
 {obaly desek}
-{Mnoho slavnıch obalù od gramofonovıch desek zdobí stìny kanceláøe des Rever Records.}
+{Stìny kanceláøe des Rever Records zdobí mnoho obalù slavnıch alb.}
 {zlaté desky}
 {Tyto zlaté desky jsou pevnì pøipevnìny ke zdi.}

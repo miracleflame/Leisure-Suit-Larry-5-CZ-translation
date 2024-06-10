@@ -1,12 +1,12 @@
 {Vymazaná videokazeta}
-{Michelle Dojatá}
-{Lana Bujná}
-{Èièi Lambada}
+{Michelle Milkenová}
+{Lana Lahodná}
+{Chi Chi Lambada}
 {Chùze}
-{Pohled}
+{Prozkoumat}
 {Akce}
 {Mluvení}
-{Rozepnout}
+{Zip}
 {UNKNOWN VERB}
 {\0D\n}
 {Ty}
@@ -18,7 +18,7 @@
 {verze}
 {Takže už odcházíš?}
 {Mìjte se, vy dva.}
-{Zpátky do práce!}
+{Hele! Zpátky do práce!}
 {MEMORY.DRV}
 {\n}
 {Tato ikona slouží k pohybu postavy.}
@@ -29,19 +29,19 @@
 {Tato ikona slouží k pøeskoèení neinteraktivní sekvence hry.}
 {Posun vpøed}
 {Ano}
-{Nee}
+{Ups}
 {Touto ikonou použiješ aktuální vìc z inventáøe.}
 {Touto ikonou otevøeš inventáø.}
 {Touto ikonou otevøeš ovládací panel.}
-{Informaci o ostatních ikonách zobrazíš nejdøív kliknutím sem a pak pøetažením ikony otazníku.}
-{Posunem nahoru zvýšíš množství animací na pozadí. Pokud hra bìží pomalu, sniž toto nastavení.}
+{Chcete-li se dozvìdìt nìco o ostatních ikonách v tomto oknì, kliknìte nejprve sem, a potom nad ikony pøesuòte otazník.}
+{Navýšením tohoto parametru zvýšíš množství animací na pozadí. Pokud hra bìží pomalu, sniž toto nastavení.}
 {Tímto nastavíš hlasitost.}
 {Tento posuvník upravuje rychlost pohybu Larryho a Patti.}
-{Tento posuvník upravuje, jak dlouho zùstanou titulky na obrazovce. Pokud èteš rychle, posuò jej nahoru.}
-{Tímto uložíš hru. Volbou Obnovit lze pozdìji hru nahrát.}
+{Tento posuvník upravuje, jak dlouho zùstanou titulky na obrazovce. Pokud èteš rychle, posuò ho nahoru.}
+{Tímto uložíš hru. Hru mùžeš pozdìji naèíst zvolením možnosti Obnovit.}
 {Tímto obnovíš døíve uloženou hru.}
-{Tímto lze restartovat hru od zaèátku.}
+{Tímto lze restartovat hru úplnì od zaèátku.}
 {Tímto lze opustit hru.}
 {Zde se o tvùrcích hry dozvíš víc, než by bylo zdrávo.}
-{Informaci o ostatních položkách v tomto oknì zobrazíš nejdøív kliknutím sem a pak pøetažením ikony otazníku.}
+{Informaci o ostatních položkách v tomto oknì zobrazíš nejdøív kliknutím sem, a pak pøetažením ikony otazníku.}
 {Tímto zavøeš toto menu a vrátíš se do hry.}

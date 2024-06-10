@@ -11,13 +11,13 @@
 {listopad}
 {prosinec}
 {Kliknutím sem zavøete toto okno a vrátíte se do hry.}
-{Chcete-li se blíe podívat na nìkterou z poloek inventáøe, kliknìte nejprve sem a poté kliknìte na danou poloku.}
-{Chcete-li nìco udìlat s jednou z poloek v inventáøi, kliknìte nejprve sem a pak na ni kliknìte.}
-{Chcete-li se dozvìdìt nìco o ostatních ikonách v tomto oknì, kliknìte nejprve sem a potom pøejdìte otazníkem pøes ostatní ikony.}
-{Chcete-li ve høe pouít nìkterı z pøedmìtù v inventáøi, kliknìte nejprve sem, pak kliknìte na danı pøedmìt a poté na OK.}
+{Chcete-li se podívat blíe na nìjakı pøedmìt z vašeho inventáøe, kliknìte nejprve sem, a potom kliknìte na danı pøedmìt.}
+{Chcete-li nìco udìlat s nìjakım pøedmìtem ve vašem inventáøi, kliknìte nejprve sem, a pak kliknìte na danı pøedmìt.}
+{Chcete-li se dozvìdìt nìco o ostatních ikonách v tomto oknì, kliknìte nejprve sem, a potom nad ikony pøesuòte otazník.}
+{Chcete-li pouít nìkterı z pøedmìtù v inventáøi ve høe, kliknìte nejprve sem, pak kliknìte na danı pøedmìt a poté na OK.}
 {kamera}
-{On}
-{Off}
+{Zap}
+{Vyp}
 {nabíjeèka baterií}
 {videokazeta}
 {videokazeta}
@@ -37,32 +37,32 @@
 {èasopis}
 {ètvrák}
 {hlava}
-{pana}
+{panna}
 {the DayTrotter\05}
 {peníze}
 {kreditní karty}
 {èlenská páska}
 {DataMan}
-{reverzní Biaz DataPak}
-{P. C. Hammer DataPak}
+{DataPak: Reverse Biaz}
+{DataPak: P. C. Hammer}
 {Lanin ivotopis}
 {krabièka zápalek z Trampova kasina}
 {støíbrnı dolar}
 {s}
 {}
 {koleèkové brusle}
-{fax na obráceném Biaz}
+{fax ohlednì Reverse Biaze}
 {šampaòské}
 {zlatá deska}
-{kazeák}
-{ivotopis Chi Chi}
-{Karta doktora Pulliama}
+{kazeta}
+{Chi Chin ivotopis}
+{vizitka doktora Vytlhala}
 {zelená karta}
-{støapec}
-{fax na P. C. Hammera}
-{otvírák na dopisy}
+{ubrousek}
+{fax ohlednì P. C. Hammera}
+{nù na dopisy}
 {klíè od stolu}
 {sloka s dùkazy}
 {fotokopie}
-{páska z cívky}
+{páska z kotouèové cívky}
 {podprsenka "Hooter Shooter"}

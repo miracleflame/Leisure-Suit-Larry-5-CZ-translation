@@ -1,8 +1,8 @@
 {Sierra pøedstavuje}
 {Šéfové}
-{Makaèi}
+{Pracovníci}
 {Hoši ze skupiny}
-{Heckeøi}
+{Hackeøi}
 {Placené reklamní oznámení}
 {Další Lafferùv smích}
-{Zastavené produkty}
+{Ukonèené produkty}

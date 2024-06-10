@@ -27,8 +27,8 @@
 {muž z tajné služby}
 {viceprezident}
 {Pan Bigg}
-{køeslo}
-{køeslo}
-{køeslo}
+{židle}
+{židle}
+{židle}
 {Marilyn Quayle}
 {koláè}

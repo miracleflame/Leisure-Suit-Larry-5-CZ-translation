@@ -1,28 +1,28 @@
 {Kanceláø Johna Krappera je krásnì zaøízená v nejnovìjším high-tech stylu. Èetné halogenové reflektory s úzkými paprsky zalévají jinak tmavou místnost malými záøivì bílými kužely svìtla.}
 {stùl}
-{kvìtina v kvìtináèi}
+{rostlina v kvìtináèi}
 {kopírka}
 {Je to pravá ZeroZ 9000, nejnovìjší model osobních kopírek.}
 {kopírka}
 {Je to pravá ZeroZ 9000, nejnovìjší model osobních kopírek.}
 {dveøe do koupelny}
-{Na dveøích je nápis "Krapper's Crapper". Pod ním je menší nápis "John's John".}
+{Na dveøích je nápis "Hejzlùv hajzl". Pod ním je menší nápis "Johnùv tùnní sál".}
 {dveøe do haly}
-{Tìmito dveømi jste vstoupili. Když jimi vyjdete, vrátíte se do haly.}
+{Tìmito dveømi jsi pøišla. Když jimi vyjdeš, vrátíš se do haly.}
 {stùl}
 {Krapper má krásný sklenìný konferenèní stolek.}
 {køeslo}
-{Tento nábytek byste si koupili, kdybyste se nìkdy usadili.}
+{Takový nábytek by sis koupila, kdyby ses nìkdy usadila.}
 {pohovka}
-{Jaká neobvyklá pohovka! Ty tak miluješ moderní nábytek.}
+{Jaká to neobvyklá pohovka! Opravdu miluješ moderní nábytek.}
 {telefon}
 {Telefon Johna Krappera má velmi málo tlaèítek. Musí být OPRAVDU dùležitý!}
 {stolní poèítaè}
-{Podívej se na ten prach na klávesnici! On ten poèítaè urèitì nikdy nepoužívá!}
+{Podívej se na ten prach na klávesnici! On ten poèítaè snad nikdy nepoužívá!}
 {okno}
 {Krapperova kanceláø má obrovské okno s výhledem na krásné centrum Filadelfie.}
 {polièky}
-{Krapperova knihovna je plná pøedmìtù, které jsou pro vaši misi nepoužitelné.}
+{Krapperova knihovna je plná pøedmìtù, které jsou pro tvou misi nepoužitelné.}
 {lampa}
 {Malé halogenové reflektory vrhají èisté bílé svìtlo.}
 {lampa}
@@ -31,4 +31,4 @@
 {Malé halogenové reflektory vrhají èisté bílé svìtlo.}
 {lampa}
 {Malé halogenové reflektory vrhají èisté bílé svìtlo.}
-{otvírák na dopisy}
+{nùž na dopisy}
