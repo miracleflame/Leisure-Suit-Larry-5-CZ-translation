@@ -59,7 +59,7 @@
 
 (instance rm535 of LLRoom
 	(properties
-		lookStr {Sedíš s nádhernou Michelle Milken v exkluzivní soukromé kabince v exkluzivním pokoji Hermana Holleritha v exkluzivní kavárnì Hard Disk Cafe v exkluzivním New Yorku a usilovnì se snaíš nezírat pøes její prùsvitnou halenku.}
+		lookStr {Sedíš s nádhernou Michelle Milkenovou v exkluzivní soukromé kabince v exkluzivním sále Hermana Holleritha v exkluzivní kavárnì Hard Disk Cafe v exkluzivním New Yorku a usilovnì se snaíš nezírat pøes její prùsvitnou halenku.}
 		picture 535
 	)
 	
@@ -473,7 +473,7 @@
 	(properties
 		x 150
 		y 105
-		description {Michelle Milken}
+		description {Michelle Milkenová}
 		sightAngle 90
 		yStep 1
 		view 535
@@ -528,7 +528,7 @@
 		y 65
 		description {její oèi}
 		sightAngle 90
-		lookStr {Její smyslné oèi se ti vpalují do duše.}
+		lookStr {Její smyslné oèi se ti vypalují do duše.}
 		view 535
 		loop 2
 		priority 13
@@ -569,7 +569,7 @@
 		nsRight 165
 		description {zmrzlina}
 		sightAngle 90
-		lookStr {Miluješ zmrzlinu. Obzvláš zmrzlinu, která sedí tam, kde je TA zmrzlina!}
+		lookStr {Miluješ zmrzlinu. A šlehaèku. Šlehaèku podávanou na speciálním podnosu, kterı nápadnì pøipomíná enské tìlo!}
 		view 535
 		loop 6
 		signal $4000
@@ -582,7 +582,7 @@
 		y 101
 		description {její tøešnì}
 		sightAngle 90
-		lookStr {Její tøešnì vypadají jemnì, èervenì, jsou zralé a pøipravené k utrení!}
+		lookStr {Její tøešnì vypadají mìkce, èervenì, jsou zralé a pøipravené k utrení!}
 		view 535
 		loop 9
 		cel 1
@@ -604,7 +604,7 @@
 		nsLeft 130
 		nsBottom 127
 		nsRight 172
-		description {její prsa}
+		description {její òadra}
 		sightAngle 40
 	)
 	

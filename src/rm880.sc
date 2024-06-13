@@ -173,7 +173,7 @@
 		sightAngle 40
 		approachX 64
 		approachY 80
-		lookStr {Tyto dveøe vedou do øídicí místnosti A. Vidíte muže, který uvnitø pracuje.}
+		lookStr {Tyto dveøe vedou do øídicí místnosti A. Vidíš muže, který uvnitø pracuje.}
 		view 880
 		loop 1
 		locked 1
@@ -246,7 +246,7 @@
 		sightAngle 40
 		approachX 64
 		approachY 80
-		lookStr {Každé dveøe mají klávesnici, která omezuje pøístup pouze osobám s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti A.}
+		lookStr {Každé dveøe mají klávesnici, která omezuje pøístup pouze na osoby s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti A.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -273,7 +273,7 @@
 		sightAngle 40
 		approachX 238
 		approachY 115
-		lookStr {Každé dveøe mají klávesnici pro omezení pøístupu pouze osobám s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti B.}
+		lookStr {Každé dveøe mají klávesnici, která omezuje pøístup pouze na osoby s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti B.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -301,7 +301,7 @@
 		sightAngle 40
 		approachX 260
 		approachY 100
-		lookStr {Každé dveøe mají klávesnici pro omezení pøístupu pouze osobám s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti C.}
+		lookStr {Každé dveøe mají klávesnici, která omezuje pøístup pouze na osoby s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti C.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -340,7 +340,7 @@
 		nsRight 176
 		description {okno øídicí místnosti B}
 		sightAngle 40
-		lookStr {Pøes toto okno vidíte øídicí místnost B. Zdá se, že v souèasné dobì není obsazena.}
+		lookStr {Pøes toto okno je vidìt do øídicí místnosti B. Zdá se, že tam momentálnì nikdo není.}
 	)
 )
 
@@ -354,7 +354,7 @@
 		nsRight 319
 		description {okno øídicí místnosti C}
 		sightAngle 40
-		lookStr {Pøes toto okno vidíte øídicí místnost C. Zdá se, že je v souèasné dobì neobsazená.}
+		lookStr {Pøes toto okno je vidìt do øídicí místnosti C. Zdá se, že tam momentálnì nikdo není.}
 	)
 )
 
@@ -382,7 +382,7 @@
 		nsRight 128
 		description {kontrolka nahrávání}
 		sightAngle 40
-		lookStr {Tato kontrolka svítí, když se v øídící místnosti A nahrává.}
+		lookStr {Tato kontrolka svítí, když øídicí místnost A nahrává.}
 	)
 )
 
@@ -396,7 +396,7 @@
 		nsRight 181
 		description {kontrolka nahrávání}
 		sightAngle 40
-		lookStr {Tato kontrolka svítí, když se nahrává v øídicí místnosti B.}
+		lookStr {Tato kontrolka svítí, když øídicí místnost B nahrává.}
 	)
 )
 
@@ -405,7 +405,7 @@
 		x 75
 		y 28
 		description {kontrolka nahrávání}
-		lookStr {V souèasné dobì svítí kontrolka nahrávání v øídicí místnosti A.}
+		lookStr {Kontrolka nahrávání øídicí místnosti A momentálnì svítí.}
 		view 880
 		loop 4
 		priority 15

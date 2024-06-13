@@ -1186,7 +1186,7 @@
 		x 249
 		y 96
 		description {dveøe}
-		lookStr {Tyto dveøe vedou do øídící kabiny--a k Reverse Biazovi.}
+		lookStr {Tyto dveøe vedou do øídicí kabiny--a k Reversi Biazovi.}
 		view 660
 		signal $4001
 		cycleSpeed 10
@@ -1207,7 +1207,7 @@
 		x 286
 		y 64
 		description {Reverse Biaz}
-		lookStr {Reverse Biaz je muž, kterého FBI spojila se zpìtným nahráváním podprahových zpráv v tomto studiu. Ale vypadá roztomile.}
+		lookStr {Reverse Biaz je muž, kterého F.B.I. spojuje s pozpátku nahrávanými podprahovými zprávami nahrávanými v tomto studiu. Ale vypadá roztomile.}
 		view 662
 		priority 5
 		signal $4011
@@ -1287,7 +1287,7 @@
 	(properties
 		x 183
 		y 83
-		description {mixážní pult v øídící místnosti}
+		description {mixážní pult v øídicí místnosti}
 		sightAngle 40
 		view 670
 		loop 6
@@ -1386,7 +1386,7 @@
 		y 29
 		description {VU metr}
 		sightAngle 40
-		lookStr {Tento mìøiè mìøí dynamické úrovnì v decibelech, z nichž každý je pøibližnì 1/10 belu.}
+		lookStr {Tento mìøiè mìøí dynamické úrovnì zvuku v decibelech, z nichž každý je pøibližnì 1 decibel.}
 		view 670
 		signal $0001
 		cycleSpeed 10
@@ -1604,7 +1604,7 @@
 		sightAngle 40
 		approachX 67
 		approachY 131
-		lookStr {Toto je syntezátor, na kterém chce Reverse Biaz, abys hrál.}
+		lookStr {Toto je syntezátor, a Reverse Biaz po tobì chce, abys na nìj zahrála.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1626,7 +1626,7 @@
 		nsRight 80
 		description {stojany na noty}
 		sightAngle 40
-		lookStr {Vidíte hromadu notových stojanù. Nebo je to shluk notových stojanù? Nebo je to spíš chumel stojanù na noty? Vždycky na to zapomeneš.}
+		lookStr {Vidíš hromadu notových stojanù. Nebo je to shluk notových stojanù? Nebo je to spíš chumel stojanù na noty? Vždycky na to zapomeneš.}
 	)
 )
 
@@ -1638,9 +1638,9 @@
 		nsLeft 256
 		nsBottom 83
 		nsRight 304
-		description {øídící místnost}
+		description {øídicí místnost}
 		sightAngle 40
-		lookStr {Z jeho øídící místnosti vidí Reverse celé studio. Mùže s tebou mluvit pøes zvukotìsné sklo pøes zpìtný reproduktor.}
+		lookStr {Ze své øídicí místnosti vidí Reverse celé studio. Pøes zvukotìsné sklo s tebou mùže mluvit pøes talkback reproduktor.}
 	)
 )
 
@@ -1708,7 +1708,7 @@
 		nsRight 319
 		description {ovládací panel syntezátoru}
 		sightAngle 40
-		lookStr {des Rever Records nešetøili na programování tohoto syntezátoru pro tuto relaci.}
+		lookStr {Pro tuto nahrávací relaci des Rever Records na programování tohoto syntezátoru rozhodnì nešetøili.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1731,7 +1731,7 @@
 		nsLeft 194
 		nsBottom 80
 		nsRight 283
-		description {mixážní pult v øídící místnosti}
+		description {mixážní pult v øídicí místnosti}
 		sightAngle 40
 	)
 	
@@ -1756,7 +1756,7 @@
 		nsRight 296
 		description {studiový ovládací panel}
 		sightAngle 40
-		lookStr {Tento panel obsahuje mnoho digitálních reverbù a speciálních efektù, výkonové zesilovaèe, propojovací pole a kopii Playboye z minulého mìsíce.}
+		lookStr {Tento panel obsahuje mnoho digitálních reverbù a speciálních efektù, výkonové zesilovaèe, propojovací pole a výtisk Playboye z minulého mìsíce.}
 	)
 )
 

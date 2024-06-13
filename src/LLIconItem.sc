@@ -173,7 +173,7 @@
 		cursor 1
 		message 2
 		signal $0081
-		helpStr {Chcete-li se blÌûe podÌvat na nÏkterou z poloûek invent·¯e, kliknÏte nejprve sem a potÈ kliknÏte na danou poloûku.}
+		helpStr {Chcete-li se podÌvat blÌûe na nÏjak˝ p¯edmÏt z vaöeho invent·¯e, kliknÏte nejprve sem, a potom kliknÏte na dan˝ p¯edmÏt.}
 	)
 	
 	(method (init)
@@ -190,7 +190,7 @@
 		cel 0
 		cursor 2
 		message 3
-		helpStr {Chcete-li nÏco udÏlat s jednou z poloûek v invent·¯i, kliknÏte nejprve sem a pak na ni kliknÏte.}
+		helpStr {Chcete-li nÏco udÏlat s nÏjak˝m p¯edmÏtem ve vaöem invent·¯i, kliknÏte nejprve sem, a pak kliknÏte na dan˝ p¯edmÏt.}
 	)
 	
 	(method (init)
@@ -207,7 +207,7 @@
 		cel 0
 		cursor 9
 		message 6
-		helpStr {Chcete-li se dozvÏdÏt nÏco o ostatnÌch ikon·ch v tomto oknÏ, kliknÏte nejprve sem a potom p¯ejdÏte otaznÌkem p¯es ostatnÌ ikony.}
+		helpStr {Chcete-li se dozvÏdÏt nÏco o ostatnÌch ikon·ch v tomto oknÏ, kliknÏte nejprve sem, a potom nad ikony p¯esuÚte otaznÌk.}
 	)
 	
 	(method (init)
@@ -223,7 +223,7 @@
 		loop 4
 		cel 0
 		cursor 999
-		helpStr {Chcete-li ve h¯e pouûÌt nÏkter˝ z p¯edmÏt˘ v invent·¯i, kliknÏte nejprve sem, pak kliknÏte na dan˝ p¯edmÏt a potÈ na OK.}
+		helpStr {Chcete-li pouûÌt nÏkter˝ z p¯edmÏt˘ v invent·¯i ve h¯e, kliknÏte nejprve sem, pak kliknÏte na dan˝ p¯edmÏt a potÈ na OK.}
 	)
 	
 	(method (init)
@@ -250,7 +250,7 @@
 					@temp0
 					19
 					1
-					(if (>= state 100) {On} else {Off})
+					(if (>= state 100) {Zap} else {Vyp})
 					(/ (gCamcorderTimer seconds?) 60)
 					(mod (gCamcorderTimer seconds?) 60)
 				)
@@ -625,7 +625,7 @@
 					@temp0
 					19
 					36
-					(if (Random 0 1) {hlava} else {pana})
+					(if (Random 0 1) {hlava} else {panna})
 				)
 				(proc0_14 @temp0)
 			)
@@ -838,7 +838,7 @@
 		view 949
 		cursor 949
 		signal $0002
-		description {reverznÌ Biaz DataPak}
+		description {DataPak: Reverse Biaz}
 		owner 445
 		name "Reverse Biaz DataPak"
 	)
@@ -864,7 +864,7 @@
 		view 949
 		cursor 949
 		signal $0002
-		description {P. C. Hammer DataPak}
+		description {DataPak: P. C. Hammer}
 		owner 445
 		name "P. C. Hammer DataPak"
 	)
@@ -1015,7 +1015,7 @@
 		view 955
 		cursor 955
 		signal $0002
-		description {fax na obr·cenÈm Biaz}
+		description {fax ohlednÏ Reverse Biaze}
 		name "Reverse Biaz Fax"
 	)
 	
@@ -1092,7 +1092,7 @@
 		view 958
 		cursor 958
 		signal $0002
-		description {kazeù·k}
+		description {kazeta}
 		name "Cassette Tape"
 	)
 	
@@ -1115,7 +1115,7 @@
 		view 937
 		cursor 937
 		signal $0002
-		description {ûivotopis Chi Chi}
+		description {Chi Chin ûivotopis}
 		name "Chi Chi Lambada's Resume"
 	)
 	
@@ -1151,7 +1151,7 @@
 		view 960
 		cursor 960
 		signal $0002
-		description {Karta doktora Pulliama}
+		description {vizitka doktora Vytlhala}
 		name "Doc Pulliam's Card"
 	)
 	
@@ -1203,7 +1203,7 @@
 		view 962
 		cursor 962
 		signal $0002
-		description {st¯apec}
+		description {ubrousek}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1257,7 +1257,7 @@
 		view 955
 		cursor 955
 		signal $0002
-		description {fax na P. C. Hammera}
+		description {fax ohlednÏ P. C. Hammera}
 		name "P. C. Hammer Fax"
 	)
 	
@@ -1282,7 +1282,7 @@
 		view 964
 		cursor 964
 		signal $0002
-		description {otvÌr·k na dopisy}
+		description {n˘û na dopisy}
 		name "Letter Opener"
 	)
 	
@@ -1383,7 +1383,7 @@
 		view 968
 		cursor 968
 		signal $0002
-		description {p·ska z cÌvky}
+		description {p·ska z kotouËovÈ cÌvky}
 		name "Reel To Reel Tape"
 	)
 	

@@ -16,7 +16,7 @@
 
 (instance rm445 of LLRoom
 	(properties
-		lookStr {Laboratoø FBI je zcela opuštìná. Moná mìli víc experimentù ne experimentátorù?}
+		lookStr {Laboratoø F.B.I. je zcela opuštìná. Moná mìli víc experimentù ne experimentátorù?}
 		picture 440
 		east 450
 		west 435
@@ -178,7 +178,7 @@
 		description {DataPak}
 		approachX 82
 		approachY 99
-		lookStr {Na pultu leí nìco, co vypadá jako nìjaká ROM kazeta .}
+		lookStr {Na pultu leí nìco, co vypadá jako nìjaká pamìová ROM cartridge.}
 		view 440
 		cel 1
 		priority 6
@@ -206,7 +206,7 @@
 		description {DataPak}
 		approachX 82
 		approachY 99
-		lookStr {Na pultu leí nìco, co vypadá jako nìjaká ROM kazeta .}
+		lookStr {Na pultu leí nìco, co vypadá jako nìjaká pamìová ROM cartridge.}
 		view 440
 		cel 2
 		priority 6
@@ -231,7 +231,7 @@
 		x 282
 		y 99
 		description {Dveøe doktora Phila Hopiana}
-		lookStr {Tyto dveøe vedou zpìt do kanceláøe doktora Phila Hopiana. Po tom, co jsi právì proila, tam u nespìcháš!}
+		lookStr {Tyto dveøe vedou zpìt do ordinace doktora Phila Hopiana. Po tom, co jsi právì proila, tam u nespìcháš!}
 		view 440
 		loop 1
 		signal $4000
@@ -282,7 +282,7 @@
 		nsRight 148
 		description {poèítaè}
 		sightAngle 40
-		lookStr {Kdybys jen dávala pozor, kdy Larry poøád mluvil o svém poèítaèi. O poèítaèích nic nevíš a jsi si jistá, e s ním nic neudìláš.}
+		lookStr {Kdybys jen dávala pozor, kdy Larry poøád vanil o tom svém poèítaèi. O tomhle poèítaèi nic nevíš a jsi si jistá, e s ním nic neudìláš.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -358,7 +358,7 @@
 		nsRight 55
 		description {knihy}
 		sightAngle 40
-		lookStr {Tyto knihy jsou plné latinskıch frází. Za jediné latinské fráze, které znáš, by námoøníka vyhodili z baru v Tijuanì!}
+		lookStr {Tyto knihy jsou plné latinskıch frází. Za ty jediné latinské fráze, které znáš, by vyhodili i námoøníka z baru v Tijuanì!}
 	)
 	
 	(method (doVerb theVerb param2)

@@ -17,7 +17,7 @@
 
 (instance rm425 of LLRoom
 	(properties
-		lookStr {Stojíš pøed budovou FBI, která je chytøe zamaskovaná jako blok normálních obchodù. U chodníku na tebe èeká tvá limuzína, pøesnì jak Desmond slíbil.}
+		lookStr {Stojíš pøed budovou F.B.I., která je chytøe maskovaná jako blok normálních obchodù. U chodníku na tebe èeká tvá limuzína, pøesnì jak Desmond slíbil.}
 		picture 425
 		north 435
 	)
@@ -153,7 +153,7 @@
 		description {dveøe}
 		approachX 188
 		approachY 156
-		lookStr {Tyto dveøe vedou zpìt do FB... Ups! Tyhle dveøe vedou do "Steinových laboratoøí!"}
+		lookStr {Tyto dveøe vedou zpìt do F.B... Ups! Tyhle dveøe vedou do "Steinových laboratoøí"!}
 		view 425
 		entranceTo 435
 		moveToX 188
@@ -200,9 +200,9 @@
 		nsLeft 101
 		nsBottom 134
 		nsRight 166
-		description {nápis Stein Labs}
+		description {nápis "Steinovy laboratoøe"}
 		sightAngle 40
-		lookStr {Velká cedule oznaèuje laboratoøe FBI jako "Steinovy laboratoøe - budeme s vámi upøímní".}
+		lookStr {Velká cedule oznaèuje laboratoøe F.B.I. jako "Steinovy laboratoøe - budeme k vám upøímní".}
 	)
 )
 
@@ -216,7 +216,7 @@
 		nsRight 238
 		description {Steinovy laboratoøe}
 		sightAngle 40
-		lookStr {Nelíbí se ti, že FBI má smysl pro humor?}
+		lookStr {Nelíbí se ti, že F.B.I. má smysl pro humor?}
 	)
 )
 
@@ -229,9 +229,9 @@
 		nsLeft 55
 		nsBottom 123
 		nsRight 71
-		description {nápis GynoMan}
+		description {nápis "GynoMan"}
 		sightAngle 40
-		lookStr {Kanceláø doktora Phila Hopiana je chytøe maskována jako "GynoMan".}
+		lookStr {Ordinace doktora Phila Hopiana je chytøe maskována jako "GynoMan".}
 	)
 )
 
@@ -242,7 +242,7 @@
 		nsTop 58
 		nsBottom 146
 		nsRight 91
-		description {budova GynoMan}
+		description {budova "GynoMan"}
 		sightAngle 40
 		lookStr {Zajímalo by tì, jaké kanceláøe jsou v horních patrech této budovy nad ordinací doktora Phila Hopiana.}
 	)
@@ -256,9 +256,9 @@
 		nsLeft 238
 		nsBottom 151
 		nsRight 319
-		description {budova opravovny Woodwind}
+		description {budova opravárny Woodwind}
 		sightAngle 40
-		lookStr {Opravovna Woodwind je neobvyklé krytí pro kanceláø FBI.}
+		lookStr {Opravárna Woodwind je neobvyklé krytí pro kanceláø F.B.I..}
 	)
 )
 
@@ -271,9 +271,9 @@
 		nsLeft 254
 		nsBottom 91
 		nsRight 319
-		description {nápis Opravovna Woodwind}
+		description {nápis "Opravárna Woodwind"}
 		sightAngle 40
-		lookStr {Opravovna Woodwind má pøed domem atraktivní nápis.}
+		lookStr {Opravárna Woodwind má na pøední stranì domu atraktivní nápis.}
 	)
 )
 

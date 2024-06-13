@@ -43,7 +43,7 @@
 )
 (instance rm760 of LLRoom
 	(properties
-		lookStr {Komercializace krásné Trampové promenády se zdá být dokonèena. Podniky lemují každý centimetr vzdálené strany promenády. Alespoò bližší strana zùstala otevøená pro rybáøe a bruslaøe.}
+		lookStr {Komercializace Trampovy krásné promenády se zdá být dokonèena. Podniky lemují každý centimetr vzdálené strany promenády. Alespoò ta bližší strana zùstala otevøená pro rybáøe a bruslaøe.}
 		picture 760
 		north 790
 		east 760
@@ -486,7 +486,7 @@
 (instance lana of Skater
 	(properties
 		y 145
-		description {Lana Slièná}
+		description {Lahodná Lana}
 		view 769
 		cycleSpeed 10
 		xStep 6
@@ -586,8 +586,8 @@
 (instance skater1 of Skater
 	(properties
 		y 140
-		description {Mister Z}
-		lookStr {No není jen roztomilý?}
+		description {Mistr Z}
+		lookStr {No není roztomilý?}
 		view 771
 		xStep 8
 		room 3
@@ -613,7 +613,7 @@
 	(properties
 		y 121
 		description {starý muž}
-		lookStr {Na bruslaøe je trochu starý, co?}
+		lookStr {Na bruslaøe je trochu starý, ne?}
 		view 772
 		xStep 8
 		room 3
@@ -639,7 +639,7 @@
 	(properties
 		y 118
 		z 10
-		description {Horká Kola}
+		description {Horký Kola}
 		lookStr {Ten kluk se opravdu pøedvádí!}
 		view 773
 		xStep 8
@@ -665,7 +665,7 @@
 (instance skater4 of Skater
 	(properties
 		y 116
-		description {Rockin' Roller}
+		description {Trsající Roller}
 		lookStr {Co to vlastnì poslouchá?}
 		view 774
 		xStep 6
@@ -744,7 +744,7 @@
 	(properties
 		y 131
 		description {Dìcko Blb}
-		lookStr {Jaký to pøitroublý kluèina! Okamžitì si ho oblíbíš!}
+		lookStr {To je ale pøitroublý kluèina! Okamžitì se stává tvým oblíbencem!}
 		view 777
 		xStep 8
 		room 2
@@ -993,7 +993,7 @@
 		x 149
 		y 180
 		z 102
-		description {Lanina ústa}
+		description {Lanina pusa}
 		view 795
 		loop 3
 	)
@@ -1592,7 +1592,7 @@
 		y 170
 		nsBottom 189
 		nsRight 319
-		description {Lana Slièná}
+		description {Lahodná Lana}
 	)
 	
 	(method (doVerb theVerb)
@@ -1629,7 +1629,7 @@
 		nsRight 319
 		description {budovy na promenádì}
 		sightAngle 40
-		lookStr {Zdálená strana Trampovy promenády je lemována nevkusnými, lacinými turistickými pastmi. Skrz budovy vykukuje kousek modré oblohy.}
+		lookStr {Vzdálená strana Trampovy promenády je lemována nevkusnými, lacinými turistickými pastmi. Skrz budovy vykukuje kousek modré oblohy.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1654,7 +1654,7 @@
 		sightAngle 40
 		approachX 88
 		approachY 152
-		lookStr {Dlouhá øada lavièek èeká na tvé potìšení z posezení podél oceánské strany promenády.}
+		lookStr {Dlouhá øada lavièek èeká na tvé potìšení z posezení podél strany promenády, u které je oceán.}
 	)
 	
 	(method (doVerb theVerb param2 &tmp temp0)

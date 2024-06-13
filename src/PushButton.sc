@@ -282,20 +282,20 @@
 						(switch global160
 							(1 {New York City Metropolitan})
 							(2
-								{Atlantic City Non-Tramp Infested}
+								{Atlantic City, Trampem nezamoøená oblast}
 							)
 							(3 {Dade County})
-							(else  {`Zde zadejte své mìsto'})
+							(else  {'Tady zadejte své mìsto'})
 						)
 					)
 					(if (== global2 200)
 						{plavba po øece Potomac}
 					else
 						(switch global160
-							(1 {pøepaden})
+							(1 {je pøepaden})
 							(2 {krmí automaty})
 							(3 {leží na pláži})
-							(else  {sedí na plechovce!})
+							(else  {sedí na záchodì!})
 						)
 					)
 				)

@@ -18,7 +18,7 @@
 )
 (instance rm180 of LLRoom
 	(properties
-		lookStr {Archivárna PPC je plná kartoték, které jsou naplnìny spisy.}
+		lookStr {Spisovna PPC je plná kartoték, které jsou naplnìny spisy.}
 		picture 180
 		south 160
 	)
@@ -287,7 +287,7 @@
 		nsRight 201
 		description {knihovna}
 		sightAngle 40
-		lookStr {Tato knihovna je plná všeho možného, jen ne knih.}
+		lookStr {V této knihonì jsou jen samé knihy.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -433,7 +433,7 @@
 		nsRight 210
 		description {zásuvka se složkami}
 		sightAngle 40
-		lookStr {Tato zásuvka je oznaèena "Lùzøi". Hledáš složky tøí finalistù. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
+		lookStr {Tato zásuvka je oznaèena "Lùzøi". Hledáš složky tøí finalistek. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -456,7 +456,7 @@
 		nsRight 87
 		description {zásuvka se složkami}
 		sightAngle 40
-		lookStr {Tato zásuvka je oznaèena "Lùzøi". Hledáš složky tøí finalistù. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
+		lookStr {Tato zásuvka je oznaèena "Lùzøi". Hledáš složky tøí finalistek. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -493,7 +493,7 @@
 		nsRight 273
 		description {vìtrák}
 		sightAngle 40
-		lookStr {Toto je tvùj nejvìtší fanda!}
+		lookStr {Tohle je tvùj nejvìtší fanoušek!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -519,7 +519,7 @@
 		nsRight 232
 		description {tvoje židle}
 		sightAngle 40
-		lookStr {Tahle židle je tvùj oblíbený pelíšek na pracovišti.}
+		lookStr {Tahle židle je tvé oblíbené místo na spaní na pracovišti.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -569,7 +569,7 @@
 		nsLeft 82
 		nsBottom 114
 		nsRight 101
-		description {rolky papíru}
+		description {role papíru}
 		sightAngle 40
 		lookStr {Tady leží nìjaké nedùležité role papíru.}
 	)

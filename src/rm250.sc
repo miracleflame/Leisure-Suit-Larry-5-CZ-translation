@@ -570,7 +570,7 @@
 		sightAngle 90
 		approachX 261
 		approachY 104
-		lookStr {Tyto dveøe vedou k exkluzivním branám AeroDork.}
+		lookStr {Tyto dveøe vedou k exkluzivním branám spoleènosti AeroBlb.}
 		view 251
 		entranceTo 270
 		openSnd 293

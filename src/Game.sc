@@ -49,7 +49,7 @@
 							{Zrušit}
 							0
 							81
-							{Zmìò adresáø}
+							{Zmìnit adresáø}
 							2
 						)
 					else
@@ -454,7 +454,7 @@
 	
 	(method (showMem)
 		(proc255_4
-			{Free Heap: %u Bytes\nLargest ptr: %u Bytes\nFreeHunk: %u KBytes\nLargest hunk: %u Bytes}
+			{Volná halda: %u Bytù\nNejvìtší ukazatel: %u Bytù\nVolný oddíl: %u KBytù\nNejvìtší oddíl: %u Bytù}
 			(MemoryInfo 1)
 			(MemoryInfo 0)
 			(>> (MemoryInfo 3) $0006)

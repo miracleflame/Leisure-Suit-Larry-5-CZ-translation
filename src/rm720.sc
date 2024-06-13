@@ -112,19 +112,19 @@
 						@temp3
 						106
 						81
-						{Køížové}
+						{Køíže}
 						1
 						106
 						81
-						{Pikové}
+						{Piky}
 						2
 						106
 						81
-						{Kárové}
+						{Káry}
 						3
 						106
 						81
-						{Srdcové}
+						{Srdce}
 						4
 					)
 				)
@@ -503,7 +503,7 @@
 		x 132
 		y 176
 		description {tlaèítko Zvýšit}
-		lookStr {Kliknutím zde rukou a zvýšíte svou sázku.}
+		lookStr {Zde kliknìte ikonou ruky, abyste zvýšili sázku.}
 		view 720
 	)
 	
@@ -577,8 +577,8 @@
 	(properties
 		x 175
 		y 172
-		description {tlaèítko Snížení}
-		lookStr {Kliknutím zde rukou snížíte svou sázku.}
+		description {tlaèítko Snížit}
+		lookStr {Zde kliknìte ikonou ruky, abyste snížili sázku.}
 		view 720
 		loop 1
 	)
@@ -652,7 +652,7 @@
 		x 287
 		y 151
 		description {tlaèítko Vyplatit}
-		lookStr {Kliknutím zde rukou ukonèíte hru na tomto automatu. Vaše výhry vám budou automaticky vyplaceny.}
+		lookStr {Zde kliknìte ikonou ruky, abyste ukonèili hru na tomto automatu. Vaše výhry vám budou automaticky vyplaceny.}
 		view 720
 		loop 2
 	)
@@ -692,7 +692,7 @@
 		y 151
 		description {tlaèítko Rozdat}
 		sightAngle 40
-		lookStr {Kliknutím zde rukou zahájíte novou hru pokeru.}
+		lookStr {Zde kliknìte ikonou ruky, abyste zahájili novou hru.}
 		view 720
 		loop 3
 	)
@@ -726,9 +726,9 @@
 	(properties
 		x 68
 		y 151
-		description {tlaèítko Podržet kartu 1}
+		description {tlaèítko Ponechat kartu 1}
 		sightAngle 40
-		lookStr {Kliknutím zde rukou podržíte kartu è. 1.}
+		lookStr {Zde kliknìte ikonou ruky, abyste si nechali kartu è. 1.}
 		view 720
 		loop 4
 	)
@@ -766,9 +766,9 @@
 	(properties
 		x 114
 		y 151
-		description {tlaèítko Podržet kartu 2}
+		description {tlaèítko Ponechat kartu 2}
 		sightAngle 40
-		lookStr {Kliknutím zde rukou podržíte kartu è. 2.}
+		lookStr {Zde kliknìte ikonou ruky, abyste si nechali kartu è. 2.}
 		view 720
 		loop 4
 	)
@@ -806,9 +806,9 @@
 	(properties
 		x 159
 		y 151
-		description {tlaèítko Podržet kartu 3}
+		description {tlaèítko Ponechat kartu 3}
 		sightAngle 40
-		lookStr {Kliknutím zde rukou podržíte kartu è. 3.}
+		lookStr {Zde kliknìte ikonou ruky, abyste si nechali kartu è. 3.}
 		view 720
 		loop 4
 	)
@@ -846,9 +846,9 @@
 	(properties
 		x 203
 		y 151
-		description {tlaèítko Podržet kartu 4}
+		description {tlaèítko Ponechat kartu 4}
 		sightAngle 40
-		lookStr {Kliknutím zde rukou podržíte kartu è. 4.}
+		lookStr {Zde kliknìte ikonou ruky, abyste si nechali kartu è. 4.}
 		view 720
 		loop 4
 	)
@@ -886,9 +886,9 @@
 	(properties
 		x 246
 		y 151
-		description {tlaèítko Podržet kartu 5}
+		description {tlaèítko Ponechat kartu 5}
 		sightAngle 40
-		lookStr {Kliknutím zde rukou podržíte kartu è. 5.}
+		lookStr {Zde kliknìte ikonou ruky, abyste si nechali kartu è. 5.}
 		view 720
 		loop 4
 	)

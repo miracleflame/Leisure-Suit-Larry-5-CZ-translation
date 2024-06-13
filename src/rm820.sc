@@ -18,7 +18,7 @@
 )
 (instance rm820 of LLRoom
 	(properties
-		lookStr {"Tento vestibul je docela pùsobivı," pomyslíš si, "obzvláš na tak malou budovu."}
+		lookStr {"Tenhle vestibul je docela pùsobivı," pomyslíš si, "obzvláš na tak malou budovu."}
 		picture 820
 		south 800
 		west 840
@@ -175,7 +175,7 @@
 		nsRight 315
 		description {okno z tabulového skla}
 		sightAngle 0
-		lookStr {Pøes okno vidíte noèní panorama krásného centra Filadelfie.}
+		lookStr {Pøes okno vidíš noèní panorama krásného centra Filadelfie.}
 	)
 )
 
@@ -189,7 +189,7 @@
 		nsRight 150
 		description {stùl recepèní}
 		sightAngle 40
-		lookStr {Toto je stùl recepèní. Naštìstí pro tebe se zdá, e právì teï není pøítomna.}
+		lookStr {Toto je stùl recepèní. Naštìstí pro tebe se zdá, e tady právì teï není.}
 	)
 )
 
@@ -201,9 +201,9 @@
 		nsLeft 203
 		nsBottom 178
 		nsRight 240
-		description {kvìtina}
+		description {rostlina}
 		sightAngle 40
-		lookStr {Kvìtina v kvìtináèi velmi pøispívá k atmosféøe v kanceláøi.}
+		lookStr {Rostlina v kvìtináèi velmi pøispívá k atmosféøe v kanceláøi.}
 	)
 )
 
@@ -219,7 +219,7 @@
 		sightAngle 40
 		approachX 58
 		approachY 142
-		lookStr {Tato klávesnice ovládá pøístup ke dveøím do soukromé kanceláøe Johna Krappera.}
+		lookStr {Tato klávesnice ovládá pøístup ke dveøím do soukromé kanceláøe Johna Hejzla.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -289,7 +289,7 @@
 		nsRight 158
 		description {lampa}
 		sightAngle 40
-		lookStr {Tato lampa se ti opravdu líbí.}
+		lookStr {Tahle lampa se ti opravdu líbí.}
 	)
 )
 
@@ -303,7 +303,7 @@
 		nsRight 121
 		description {svìtla}
 		sightAngle 40
-		lookStr {Subtilní svìtla nástìnnıch podloek vrhají krásnou záøi na supergrafiku na stìnì vestibulu.}
+		lookStr {Subtilní svìtla svítící od podlahy vrhají krásnou záøi na fresku, která je na stìnì vestibulu.}
 	)
 )
 
@@ -320,7 +320,7 @@
 		sightAngle 40
 		approachX 104
 		approachY 120
-		lookStr {Køeslo recepèní je prázdné, ale stále teplé na dotek. Je pryè jen krátce a moná se brzy vrátí.}
+		lookStr {Køeslo recepèní je prázdné, ale stále teplé na dotek. Je pryè jen chvíli a moná se brzy vrátí.}
 	)
 	
 	(method (doVerb theVerb param2)

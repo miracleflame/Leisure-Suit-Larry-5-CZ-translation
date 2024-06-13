@@ -282,7 +282,7 @@
 		sightAngle 40
 		approachX 151
 		approachY 187
-		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 	)
 )
 
@@ -298,7 +298,7 @@
 		sightAngle 40
 		approachX 235
 		approachY 187
-		lookStr {Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, cívky s páskami a páskové mechaniky.}
+		lookStr {Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, kotouèe s páskami a páskové mechaniky.}
 	)
 )
 
@@ -314,7 +314,7 @@
 		sightAngle 40
 		approachX 281
 		approachY 169
-		lookStr {Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, cívky s páskami a páskové mechaniky.}
+		lookStr {Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, kotouèe s páskami a páskové mechaniky.}
 	)
 )
 
@@ -326,7 +326,7 @@
 		nsLeft 235
 		nsBottom 135
 		nsRight 319
-		description {levý velký bubnový magnetofon}
+		description {levý kotouèový rekordér}
 		sightAngle 40
 		approachX 237
 		approachY 151
@@ -359,7 +359,7 @@
 		nsLeft 196
 		nsBottom 125
 		nsRight 235
-		description {pravý velký bubnový magnetofon}
+		description {pravý kotouèový rekordér}
 		sightAngle 40
 		approachX 205
 		approachY 139
@@ -380,7 +380,7 @@
 		nsRight 319
 		description {elektronické zaøízení}
 		sightAngle 40
-		lookStr {Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, cívky s páskou a páskové mechaniky. Bohužel jsou pøíliš vysoko než abys na nì dosáhla.}
+		lookStr {Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, kotouèe s páskami a páskové mechaniky. Bohužel jsou pøíliš vysoko, než abys na nì dosáhla.}
 	)
 )
 
@@ -394,7 +394,7 @@
 		nsRight 274
 		description {elektronické zaøízení}
 		sightAngle 40
-		lookStr {Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, cívky s páskami a páskové mechaniky. Bohužel jsou pøíliš vysoko, než abys na nì dosáhla.}
+		lookStr {Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, kotouèe s páskami a páskové mechaniky. Bohužel jsou pøíliš vysoko, než abys na nì dosáhla.}
 	)
 )
 
@@ -406,9 +406,9 @@
 		nsLeft 86
 		nsBottom 78
 		nsRight 114
-		description {reproduktor monitoru}
+		description {monitorovací reproduktor}
 		sightAngle 40
-		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 	)
 )
 
@@ -420,9 +420,9 @@
 		nsLeft 186
 		nsBottom 72
 		nsRight 212
-		description {reproduktor monitoru}
+		description {monitorovací reproduktor}
 		sightAngle 40
-		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 	)
 )
 
@@ -432,9 +432,9 @@
 		y 24
 		nsBottom 49
 		nsRight 21
-		description {reproduktor monitoru}
+		description {monitorovací reproduktor}
 		sightAngle 40
-		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 	)
 )
 
@@ -450,7 +450,7 @@
 		sightAngle 40
 		approachX 155
 		approachY 139
-		lookStr {Tento regál obsahuje spoustu elektronického vybavení, vìtšinou starého, a také polici plnou prázdných kotouèových kazet.}
+		lookStr {Tento regál obsahuje spoustu elektronického vybavení, vìtšinou starého, a také polici plnou prázdných kotouèových pásek.}
 	)
 )
 
@@ -462,11 +462,11 @@
 		nsLeft 138
 		nsBottom 102
 		nsRight 169
-		description {polièka s kazetami}
+		description {polièka s páskami}
 		sightAngle 40
 		approachX 155
 		approachY 139
-		lookStr {Aha, tady je to, co potøebuješ! Polièka plná prázdných cívkových nahrávacích pásek.}
+		lookStr {Aha, tady je to, co potøebuješ! Polièka plná prázdných kotouèových pásek urèených k nahrávání.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -493,7 +493,7 @@
 		nsLeft 66
 		nsBottom 126
 		nsRight 104
-		description {mikrofonní mixér}
+		description {mikrofonní smìšovaè}
 		sightAngle 40
 		approachX 90
 		approachY 140
@@ -570,7 +570,7 @@
 		nsTop 115
 		nsBottom 146
 		nsRight 52
-		description {kotouèový magnetofon}
+		description {kotouèový rekordér}
 		approachX 42
 		approachY 163
 	)
@@ -632,7 +632,7 @@
 		description {páska}
 		approachX 42
 		approachY 163
-		lookStr {Velký konzolový magnetofon Studer je rozehøátý a pøipravený k nahrávání - až na to, že nemá pásku, na kterou by se dalo nahrávat!}
+		lookStr {Velký konzolový rekordér Studer je rozehøátý a pøipravený k nahrávání - až na to, že nemá pásku, na kterou by se dalo nahrávat!}
 		view 890
 		loop 1
 	)
@@ -660,7 +660,7 @@
 		x 38
 		y 120
 		description {P. C. Hammer}
-		lookStr {P. C. Hammer pracuje ve vedlejší øídící místnosti.}
+		lookStr {P. C. Hammer pracuje ve vedlejší øídicí místnosti.}
 		view 883
 		loop 3
 	)
@@ -671,7 +671,7 @@
 		x 41
 		y 116
 		description {sklenìné okno}
-		lookStr {Tìžké, zvukotìsné okno z tabulového skla tì oddìluje od vnìjšího svìta - a tvé svobody! }
+		lookStr {Tìžké, zvukotìsné okno z tabulového skla tì oddìluje od vnìjšího svìta - a tvé svobody!}
 		view 890
 		loop 2
 		cel 1
@@ -684,7 +684,7 @@
 	(properties
 		x 53
 		y 122
-		description {mikrofonní mixér}
+		description {mikrofonní smìšovaè}
 		approachX 90
 		approachY 144
 		view 890
@@ -713,7 +713,7 @@
 		x 17
 		y 51
 		description {kontrolka nahrávání}
-		lookStr {Tato kontrolka se rozsvítí vždy, když nìkdo nahrává v øídící místnosti A.}
+		lookStr {Tato kontrolka se rozsvítí vždy, když nìkdo nahrává v øídicí místnosti A.}
 		view 890
 		loop 6
 		cel 1
@@ -1189,11 +1189,11 @@
 	(properties
 		x 199
 		y 111
-		description {dveøe øídící místnosti B}
+		description {dveøe øídicí místnosti B}
 		sightAngle 40
 		approachX 218
 		approachY 116
-		lookStr {Na dveøích je nápis "Øídící místnost B". V souèasné dobì je neobsazená.}
+		lookStr {Na dveøích je nápis "Øídicí místnost B". Momentálnì tam nikdo není.}
 		view 880
 		loop 2
 		entranceTo 890
@@ -1210,7 +1210,7 @@
 		x 82
 		y 79
 		description {P. C. Hammer}
-		lookStr {Pøes okno øídicí místnosti vidíš P. C. Hammera, jak míchá své "živé" rozhlasové vysílání pro zítøejší ranní show.}
+		lookStr {Pøes okno øídicí místnosti vidíš P. C. Hammera, jak míchá své "živé" rozhlasové vysílání pro zítøejší ranní show pro øidièe.}
 		view 883
 	)
 )
@@ -1231,7 +1231,7 @@
 		x 177
 		y 42
 		description {kontrolka nahrávání}
-		lookStr {Tato kontrolka se rozsvítí, kdykoli nìkdo nahrává v této øídicí místnosti.}
+		lookStr {Tato kontrolka se rozsvítí, kdykoliv nìkdo nahrává v této øídicí místnosti.}
 		view 880
 		loop 3
 		cel 1

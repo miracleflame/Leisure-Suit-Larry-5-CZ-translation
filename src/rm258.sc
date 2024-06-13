@@ -62,9 +62,9 @@
 		)
 	)
 	(if (or (< [cpTime which] 900) (>= [cpTime which] 1200))
-		(StrCpy @str {PM})
+		(StrCpy @str {odpoledne})
 	else
-		(StrCpy @str {AM})
+		(StrCpy @str {ráno})
 	)
 	(Format ; "%2d:%02d %s"
 		@departTime
@@ -101,7 +101,7 @@
 			(else
 				(proc0_2)
 				(Display
-					{V tuto chvíli nejsou k dispozici palubní lístky. Zkuste to prosím znovu v jiném mìstì!}
+					{V tuto chvíli nejsou k dispozici žádné palubní lístky. Zkuste to prosím znovu v jiném mìstì!}
 					dsCOORD
 					144
 					75
@@ -136,7 +136,7 @@
 				(= wrongNumber 1)
 				(global2 drawPic: (global2 picture:))
 				(Display
-					{Zadali jste nesprávnou destinaci pro toto letištì v tuto hodinu. Ale i tak si vážíme toho, že jste si vybrali AeroDork Airlines.}
+					{Zadali jste nesprávnou destinaci pro toto letištì v tuto hodinu. Ale i tak si vážíme toho, že jste si vybrali AeroBlb Airlines.}
 					dsCOORD
 					144
 					75
@@ -183,7 +183,7 @@
 							(switch (++ warnCounter)
 								(1
 									(Display
-										{Hej! Vezmìte si zlatou kartu AeroDork!}
+										{Hej! Vezmìte si svou zlatou kartu AeroBlb!}
 										dsCOORD
 										144
 										75
@@ -197,7 +197,7 @@
 								)
 								(2
 									(Display
-										{Podívej, ty blbeèku. Jestli se zatouláš a necháš tu kartu tady, postarám se, aby tvoje zavazadla letìla bez mezipøistání do Muncie v Indianì!}
+										{Podívej, ty blbeèku. Jestli se nìkam zatouláš a necháš tu kartu tady, postarám se o to, aby tvoje zavazadla letìla bez mezipøistání do Muncie v Indianì!}
 										dsCOORD
 										144
 										75
@@ -284,7 +284,7 @@
 			)
 		else
 			(Display
-				{Prosím, vezmìte si palubní vstupenku.}
+				{Prosím, vezmìte si palubní lístek.}
 				dsCOORD
 				144
 				75
@@ -338,7 +338,7 @@
 	(properties
 		x 83
 		y 107
-		description {tvoje karta AeroDork}
+		description {tvoje karta AeroBlb}
 		view 258
 		priority 3
 		signal 16
@@ -350,7 +350,7 @@
 		(if (== y 97)
 			(global2 drawPic: (global2 picture:) 100)
 			(Display
-				{Prosím, vezmìte si svou zlatou kartu AeroDork.}
+				{Prosím, vezmìte si svou zlatou kartu AeroBlb.}
 				dsCOORD
 				144
 				75
@@ -377,7 +377,7 @@
 				(proc0_2)
 				(global2 drawPic: (global2 picture:) 100)
 				(Display
-					{Dìkujeme, že letíte s AeroDork!}
+					{Dìkujeme, že letíte s AeroBlb!}
 					dsCOORD
 					144
 					75
@@ -411,7 +411,7 @@
 				(= [dest 1] 0)
 				(= [dest 2] 0)
 				(Display
-					{Vítejte, Cliffe Taurusi! Kam dnes?}
+					{Vítejte, Cliffe Taurusi! Kam to bude dnes?}
 					dsCOORD
 					144
 					75
@@ -565,7 +565,7 @@
 		nsLeft 63
 		nsBottom 148
 		nsRight 98
-		description {štìrbina na kartu}
+		description {otvor na kartu}
 		sightAngle 40
 	)
 
@@ -600,9 +600,9 @@
 		nsLeft 120
 		nsBottom 186
 		nsRight 204
-		description {štìrbina pro palubní lístek}
+		description {otvor na palubní lístek}
 		sightAngle 40
-		lookStr {Palubní lístky jsou emitovány z této štìrbiny.}
+		lookStr {Palubní lístky vycházejí z této štìrbiny.}
 	)
 )
 
@@ -616,7 +616,7 @@
 		nsRight 271
 		description {štítek se jménem}
 		sightAngle 40
-		lookStr {Nápis na štítku zní: "AeroDork Airlines."}
+		lookStr {Nápis na štítku zní: "AeroBlb Airlines".}
 	)
 )
 
@@ -630,7 +630,7 @@
 		nsRight 259
 		description {obrazovka}
 		sightAngle 40
-		lookStr {Bankomat AeroDork má dotykovou obrazovku.}
+		lookStr {Automat na lístky AeroBlb má dotykovou obrazovku.}
 	)
 )
 
@@ -687,7 +687,7 @@
 		nsLeft 143
 		nsBottom 120
 		nsRight 205
-		description {the destination}
+		description {cílová destinace}
 		sightAngle 40
 	)
 
@@ -711,7 +711,7 @@
 				(= theBar 1)
 				(global2 drawPic: (global2 picture:) 100)
 				(Display 258 8 dsCOORD 144 75 dsCOLOR global128 dsWIDTH 110 dsFONT global23) ; "Please enter the five-character Destination Code from your AeroDork Airline Travel Brochure."
-				(proc0_14 258 9 80 {A hint from Al Lowe}) ; "You can use your number pad to enter your code. The keys match in position (i.e. the 7 key will press the top left button, etc.). Be sure to use only the numeric key pad, not the cursor keys."
+				(proc0_14 258 9 80 {Nápovìda od Ala Lowa}) ; "You can use your number pad to enter your code. The keys match in position (i.e. the 7 key will press the top left button, etc.). Be sure to use only the numeric key pad, not the cursor keys."
 				((ScriptID 20 0) init: 0) ; TTDialer
 				(bar1 dispose:)
 				(bar2 dispose:)
@@ -732,7 +732,7 @@
 		nsLeft 143
 		nsBottom 130
 		nsRight 205
-		description {the destination}
+		description {cílová destinace}
 		sightAngle 40
 	)
 
@@ -756,7 +756,7 @@
 				(= theBar 2)
 				(global2 drawPic: (global2 picture:) 100)
 				(Display 258 10 dsCOORD 144 75 dsCOLOR global128 dsWIDTH 110 dsFONT global23) ; "Please enter the five character Destination Code from your AeroDork Airline Travel Brochure."
-				(proc0_14 258 9 80 {A hint from Al Lowe}) ; "You can use your number pad to enter your code. The keys match in position (i.e. the 7 key will press the top left button, etc.). Be sure to use only the numeric key pad, not the cursor keys."
+				(proc0_14 258 9 80 {Nápovìda od Ala Lowa}) ; "You can use your number pad to enter your code. The keys match in position (i.e. the 7 key will press the top left button, etc.). Be sure to use only the numeric key pad, not the cursor keys."
 				((ScriptID 20 0) init: 0) ; TTDialer
 				(bar1 dispose:)
 				(bar2 dispose:)

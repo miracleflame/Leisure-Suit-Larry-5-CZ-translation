@@ -259,7 +259,7 @@
 			)
 			(25
 				(localproc_0a0f
-					{Grafika Pozadí\n\nJane Cardinal\nMaurice Morgan\nAndy Hoyos\nCheryl Loyd\nJay Friedmann\nJennifer Shontz\nGloria Garland}
+					{Grafika pozadí\n\nJane Cardinal\nMaurice Morgan\nAndy Hoyos\nCheryl Loyd\nJay Friedmann\nJennifer Shontz\nGloria Garland}
 					9
 				)
 				(= seconds 5)
@@ -272,7 +272,7 @@
 				(= seconds 5)
 			)
 			(27
-				(localproc_0a0f {Hudební reisér\n\nMark Seibert} 3)
+				(localproc_0a0f {Hudební reie\n\nMark Seibert} 3)
 				(= seconds 3)
 			)
 			(28
@@ -337,7 +337,7 @@
 			)
 			(30
 				(localproc_0a0f
-					{Doplòkovı písemnı materiál\n\nJosh Mandel}
+					{Dodateènı písemnı materiál\n\nJosh Mandel}
 					3
 				)
 				(= seconds 3)
@@ -390,42 +390,42 @@
 				(if
 					(= local0
 						(proc940_0
-							{Nejste rádi, e jste si koupili pøevodník?}
+							{Nejste rádi, e jste si koupili digitálnì-analogovı pøevodník?}
 							4
 							50
 							106
 							81
-							{Airport PA #1}
+							{Letištní hlášení #1}
 							1
 							81
-							{Airport PA #2}
+							{Letištní hlášení #2}
 							2
 							81
-							{Airport PA #3}
+							{Letištní hlášení #3}
 							3
 							106
 							81
-							{Airport PA #4}
+							{Letištní hlášení #4}
 							4
 							81
 							{__Atmosféra__}
 							5
 							81
-							{____Køièí____}
+							{___Vıkøiky___}
 							6
 							106
 							81
-							{______Yeow______}
+							{_____Jauu_____}
 							7
 							81
 							{_____Káva_____}
 							8
 							81
-							{Skládací idle}
+							{Skládání idle}
 							9
 							106
 							81
-							{Vlèí píšalka_}
+							{Obdivnı hvizd_}
 							10
 							81
 							{___Klepání___}
@@ -455,20 +455,20 @@
 							18
 							106
 							81
-							{ Davové dechy_}
+							{ Dav lapá po dechu_}
 							19
 							81
-							{ Šmejdi jedí_}
+							{ Burani jí_}
 							20
 							81
-							{_____Splach_____}
+							{_Splachování__}
 							21
 							106
 							81
-							{_____Øıch_____}
+							{___Øíhnutí____}
 							22
 							81
-							{_____Krk_____}
+							{__Zvracení___}
 							23
 							81
 							{Nedotıkat se}
@@ -480,7 +480,7 @@
 							4
 							115
 							80
-							{Díky za koupi "Larryho 5!"}
+							{Dìkujeme, e jste si koupili "Larryho 5"!}
 							121
 							local0
 						)
@@ -494,7 +494,7 @@
 			(38
 				(global2 drawPic: 1 13)
 				(Display
-					{Nezapomeòte na slogan Ala Lowa:}
+					{Pamatujte na slogan Ala Lowa:}
 					dsCOLOR
 					gLowlightColor_6
 					dsCOORD

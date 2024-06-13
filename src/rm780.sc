@@ -16,7 +16,7 @@
 
 (instance rm780 of LLRoom
 	(properties
-		lookStr {Teï jste to dokázali! Plavete pod krásnou Trampovou promenádou a bájeènì se bavíte. Otázka zní: jak daleko od bøehu jste?}
+		lookStr {Tak jsi to dokázal! Plaveš pod krásnou Trampovou promenádou a bájeènì se bavíš. Otázka zní: jak daleko od bøehu jsi?}
 		picture 780
 		north 760
 		west 700
@@ -193,7 +193,7 @@
 		nsRight 62
 		description {sloupek}
 		sightAngle 40
-		lookStr {Tyto sloupy vypadají mnohem vyšší než shora.}
+		lookStr {Ty sloupy vypadají mnohem vyšší než shora.}
 	)
 	
 	(method (doVerb theVerb param2)

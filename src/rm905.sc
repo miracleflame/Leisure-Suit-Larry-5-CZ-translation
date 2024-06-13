@@ -43,7 +43,7 @@
 
 (instance rm905 of LLRoom
 	(properties
-		lookStr {Jsi v èekárnì Ráje dentální hygieny doktora Pulliama. Líbí se ti motiv koberce; vlastnì si jsi jistý, že už jsi nìco podobného nìkde vidìl...}
+		lookStr {Jsi v èekárnì Nebeské dentální hygieny doktora Vytlhala. Líbí se ti motiv koberce; vlastnì si jsi jistý, že už jsi nìco podobného nìkde vidìl...}
 		picture 905
 		east 910
 		south 900
@@ -289,7 +289,7 @@
 		nsRight 28
 		description {malba}
 		sightAngle 40
-		lookStr {Vždycky jsi byl velkým fanouškem umìlecké školy "Veselý zub".}
+		lookStr {Vždycky jsi byl velkým fanouškem té umìlecké školy "Veselý zub".}
 	)
 )
 
@@ -303,7 +303,7 @@
 		nsRight 298
 		description {malba}
 		sightAngle 40
-		lookStr {Vždycky jsi byl velkým fanouškem umìlecké školy " Veselý zub".}
+		lookStr {Vždycky jsi byl velkým fanouškem té umìlecké školy "Veselý zub".}
 	)
 )
 
@@ -317,7 +317,7 @@
 		nsRight 319
 		description {doktorovy diplomy}
 		sightAngle 40
-		lookStr {Vtipné. Nikdy jsi neslyšel o zubaøi, který se specializuje na zubaøinu "Provázek a klika". A kde pøesnì je "Škola tvrdého klepání"?}
+		lookStr {Vtipné. Nikdy jsi neslyšel o zubaøi, který se specializuje na zubaøinu typu "Provázek a klika". A kde pøesnì je "Škola tvrdého klepání"?}
 	)
 )
 
@@ -333,7 +333,7 @@
 		sightAngle 40
 		approachX 177
 		approachY 117
-		lookStr {Dá se øíct, že to tu vyzdobila doktorova žena. Trpí smrtelnou roztomilostí!}
+		lookStr {Mùžeš øíct, že to tu vyzdobila doktorova žena. Trpí smrtelnou roztomilostí!}
 	)
 )
 
@@ -420,7 +420,7 @@
 		sightAngle 40
 		approachX 59
 		approachY 129
-		lookStr {Tento stùl je vybaven telefonem, který je zde umístìn pro pohodlí doktorových zákazníkù.}
+		lookStr {Tento stùl je vybaven telefonem, který je sem umístili pro pohodlí doktorových zákazníkù.}
 	)
 	
 	(method (doVerb)
@@ -483,7 +483,7 @@
 		x 138
 		y 75
 		description {recepèní}
-		lookStr {Myslel sis, že tohle by mohla být ta koèka, kterou jsi hledal. Oèividnì není. Ani ty bys ji nemohl považovat za sexy (a víš, jak nízké nároky máš!).}
+		lookStr {Chvíli sis myslel, že tohle by mohla být ta koèka, kterou hledáš. Oèividnì není. Ani ty bys ji nemohl považovat za sexy (a ty víš, jak nízké nároky máš!).}
 		view 909
 	)
 )
@@ -501,7 +501,7 @@
 		sightAngle 40
 		approachX 59
 		approachY 129
-		lookStr {Dlouhý stùl je vybaven telefonem, který je zde umístìn pro pohodlí doktorových zákazníkù.}
+		lookStr {Dlouhý stùl je vybaven telefonem, který je sem umístili pro pohodlí doktorových zákazníkù.}
 		view 905
 		loop 2
 		signal $4810
@@ -807,7 +807,7 @@
 		nsLeft 71
 		nsBottom 82
 		nsRight 153
-		description {šoupací sklenìné okno}
+		description {posuvné sklenìné okno}
 		sightAngle 40
 		approachX 134
 		approachY 109
@@ -845,7 +845,7 @@
 		sightAngle 40
 		approachX 194
 		approachY 120
-		lookStr {Tyto dveøe vedou do vnitøních kanceláøí doktora Pulliama, vèetnì (doufáš) kabinky Chi Chi Lambady, ženy, se kterou jsi vážil takovou cestu, abys s ní udìlal "rozhovor".}
+		lookStr {Tyto dveøe vedou ke vlastním ordinacím doktora Vytlhala, vèetnì (jak doufáš) kabinky Chi Chi Lambady, ženy, za kterou jsi vážil takovou cestu, abys s ní udìlal "rozhovor".}
 		view 905
 		loop 3
 		entranceTo 910
@@ -1180,7 +1180,7 @@
 		sightAngle 40
 		approachX 47
 		approachY 183
-		lookStr {Dá se øíct, že to tu vyzdobila doktorova žena. Trpí smrtelnou roztomilostí!}
+		lookStr {Mùžeš øíct, že to tu vyzdobila doktorova žena. Trpí smrtelnou roztomilostí!}
 	)
 )
 

@@ -20,7 +20,7 @@
 
 (instance rm600 of LLRoom
 	(properties
-		lookStr {Budova Shill je jednou z nejlepších kanceláøských budov v Baltimoru. Její žulová, mosazná a nerezová fasáda záøí ve sluneèním svìtle. Pøístup do jejího interiéru slibují otoèné dveøe.}
+		lookStr {Budova Shill je jednou z nejhonosnìjších kanceláøských budov v Baltimoru. Její žulová, mosazná a nerezová fasáda záøí ve sluneèním svìtle. Pøístup do jejího interiéru slibují otoèné dveøe.}
 		north 620
 		south 200
 	)
@@ -354,7 +354,7 @@
 		description {limuzína}
 		approachX 119
 		approachY 180
-		lookStr {Tvá limuzína èeká na tvùj návrat. Uvnitø je tvùj øidiè stále ještì rozrušený z tvého pøíjezdu! Jsi si jistý, že se pouèil.}
+		lookStr {Tvá limuzína èeká na tvùj návrat. Uvnitø je tvùj øidiè stále ještì rozrušený z tvého pøíjezdu! Jsi si jistá, že dostal lekci.}
 	)
 	
 	(method (doVerb theVerb param2)

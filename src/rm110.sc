@@ -81,7 +81,7 @@
 					110
 					0
 					80
-					{Pøeskoèi}
+					{Pøeskoèit}
 					82
 					990
 					11
@@ -114,7 +114,7 @@
 			(0 (= cycles 2))
 			(1
 				(global2 drawPic: (global2 picture?))
-				(localproc_048e {Vıkonní øeditel\n\nKen Williams} 160)
+				(localproc_048e {Vıkonnı producent\n\nKen Williams} 160)
 				(= seconds 4)
 			)
 			(2

@@ -275,7 +275,7 @@
 	(properties
 		x 92
 		y 66
-		description {jaømo}
+		description {knipl}
 		view 390
 		loop 8
 		priority 6
@@ -292,7 +292,7 @@
 	(properties
 		x 223
 		y 65
-		description {jaømo}
+		description {knipl}
 		view 390
 		loop 8
 		priority 6
@@ -652,7 +652,7 @@
 	(properties
 		x 70
 		y 189
-		description {sebe}
+		description {ty}
 		view 391
 		priority 6
 		signal $4810

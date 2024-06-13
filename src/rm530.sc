@@ -253,7 +253,7 @@
 		x 237
 		y 143
 		z 40
-		description {její}
+		description {ona}
 		view 530
 		loop 5
 		priority 1

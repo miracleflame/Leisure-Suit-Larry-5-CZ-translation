@@ -389,8 +389,8 @@
 	(properties
 		x 128
 		y 247
-		description {Michelle Milken}
-		lookStr {To je ona, Larry! Pozornì ji sleduj, možná bys ji mohl následovat!}
+		description {Michelle Milkenová}
+		lookStr {To je ona, Larry! Pozornì ji sleduj, možná bys za ní mohl jít!}
 		view 527
 	)
 	
@@ -593,7 +593,7 @@
 		nsRight 204
 		description {stoly}
 		sightAngle 40
-		lookStr {Jaká obrovská kavárna, a tak málo zákazníkù.}
+		lookStr {Taková obrovská kavárna, a tak málo zákazníkù.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -617,7 +617,7 @@
 		nsRight 318
 		description {kaktus}
 		sightAngle 40
-		lookStr {Zde vložte svùj oblíbený vtip o kaktusech a "píchání".}
+		lookStr {Sem si doplòte svùj oblíbený vtip o kaktusech a "píchání".}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -638,7 +638,7 @@
 		nsLeft 176
 		nsBottom 158
 		nsRight 215
-		description {èteèka kazet}
+		description {èteèka pásek}
 		sightAngle 40
 		approachX 210
 		approachY 161

@@ -21,7 +21,7 @@
 
 (instance rm440 of LLRoom
 	(properties
-		lookStr {Laboratoø FBI je plná zajímavého vybavení, z nìhož vìtšina je pro tebe nepochopitelná.}
+		lookStr {Laboratoø F.B.I. je plná zajímavého vybavení, z nìhož vìtšina je pro tebe nepochopitelná.}
 		picture 440
 		style $000c
 		east 450
@@ -392,8 +392,8 @@
 	(properties
 		x -15
 		y 100
-		description {Komandér Twit}
-		lookStr {Je dokonalým obrazem èlovìka, který se více zajímá o vìdu než o svùj vlastní obraz!}
+		description {Velitel Magor}
+		lookStr {Je dokonalým obrazem èlovìka, kterého zajímá víc vìda než vlastní image!}
 		view 432
 		cel 2
 		signal $4000
@@ -436,7 +436,7 @@
 		x 282
 		y 99
 		description {Dveøe doktora Hopiana}
-		lookStr {Za tìmito dveømi se nachází ordinace doktora Phila Hopiana, gynekologa FBI.}
+		lookStr {Za tìmito dveømi se nachází ordinace doktora Phila Hopiana, gynekologa F.B.I..}
 		view 440
 		loop 1
 	)
@@ -460,7 +460,7 @@
 		y 61
 		description {poèítaè}
 		sightAngle 40
-		lookStr {Kdybys jen dávala pozor, když Larry poøád žvanil o svém poèítaèi. O tomhle poèítaèi nic nevíš a jsi si jistá, že s ním nic neudìláš.}
+		lookStr {Kdybys jen dávala pozor, když Larry poøád žvanil o tom svém poèítaèi. O tomhle poèítaèi nic nevíš a jsi si jistá, že s ním nic neudìláš.}
 		view 440
 		loop 2
 		signal $4000
@@ -515,9 +515,9 @@
 		x 45
 		y 167
 		z 7
-		description {kaèer}
+		description {kachna}
 		sightAngle 40
-		lookStr {Jestliže to pije jako kachna a kváká to jako kachna, musí to být experiment.}
+		lookStr {Jestliže to pije jako kachna a kváká to jako kachna, musí to být nìjaký experiment.}
 		view 440
 		loop 3
 		priority 15
@@ -646,7 +646,7 @@
 		nsRight 134
 		description {chemická souprava}
 		sightAngle 40
-		lookStr {Tohle musí být zdroj prášku na nadýmání.}
+		lookStr {Tohle musí být zdroj toho prášku na nadýmání.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -692,7 +692,7 @@
 		nsRight 55
 		description {knihy}
 		sightAngle 40
-		lookStr {Tyto knihy jsou plné latinských frází. Za jediné latinské fráze, které znáš, by námoøníka vyhodili z baru v Tijuanì!}
+		lookStr {Tyto knihy jsou plné latinských frází. Za ty jediné latinské fráze, které znáš, by vyhodili i námoøníka z baru v Tijuanì!}
 	)
 	
 	(method (doVerb theVerb param2)

@@ -108,7 +108,7 @@
 
 (instance rm310 of LLRoom
 	(properties
-		lookStr {Pro tebe vypadají všechna letištì stejnì (i když se terénní úpravy mírnì liší).}
+		lookStr {Pro tebe vypadají všechna letištì stejnì (i když terénní úpravy se mírnì liší).}
 		north 160
 		east 160
 		south 160

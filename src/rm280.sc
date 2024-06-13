@@ -26,7 +26,7 @@
 )
 (instance rm280 of LLRoom
 	(properties
-		lookStr {Tento konec vstupní haly je odlišený pouze øadou telefonních automatù u vzdálenìjší stìny.}
+		lookStr {Tento konec vstupní haly se liší pouze øadou telefonních automatù u vzdálenìjší stìny.}
 		picture 280
 		west 270
 	)
@@ -445,7 +445,7 @@
 		nsLeft 225
 		nsBottom 129
 		nsRight 258
-		description {pošta}
+		description {stojánek}
 	)
 	
 	(method (doVerb theVerb param2)

@@ -53,7 +53,7 @@
 				{Zmìnit}
 				2
 				80
-				{Hej! To jsi zase ty? }
+				{Hej! To jsi zase ty?}
 				70
 				160
 				67
@@ -145,7 +145,7 @@
 				(localproc_01f3)
 				(StrCpy @local10 @local0)
 				(localproc_02c9)
-				(proc255_4 155 1 @local0 80 {Zapište si to!})
+				(proc255_4 155 1 @local0 80 {Nìkam si to zapište!})
 			)
 		)
 		(DrawPic 111)

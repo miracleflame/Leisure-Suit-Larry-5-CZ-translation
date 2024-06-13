@@ -146,7 +146,7 @@
 		nsRight 221
 		description {plakát šastného zubu}
 		sightAngle 40
-		lookStr {Pokud bys dodroval pravidelnı plán ústní hygieny s Chi Chi Lambada, tvé zuby by byly také šastné!}
+		lookStr {Pokud bys dodroval pravidelnı plán ústní hygieny s Chi Chi Lambadou, tvé zuby by byly také tak šastné!}
 	)
 )
 
@@ -160,7 +160,7 @@
 		nsRight 175
 		description {vrtaèka}
 		sightAngle 40
-		lookStr {Kdykoli spatøíš vysokootáèkovou zubní vrtaèku, tiše si pøísaháš, e budeš èastìji pouívat zubní nit!}
+		lookStr {Kdykoliv spatøíš vysokorychlostní zubní vrtaèku, tiše si pøísaháš, e budeš èastìji pouívat zubní nit!}
 	)
 )
 
@@ -174,7 +174,7 @@
 		nsRight 242
 		description {umyvadlo}
 		sightAngle 40
-		lookStr {Miluješ, kdy ti ena naøídí: "Plivej!" }
+		lookStr {Miluješ, kdy ti ena pøikáe: "Plivej!"}
 	)
 )
 
@@ -186,7 +186,7 @@
 		nsLeft 80
 		nsBottom 141
 		nsRight 169
-		description {zásobník zubaøskıch nástrojù}
+		description {tác se zubaøskımi nástroji}
 		sightAngle 40
 		lookStr {Vdycky jsi vìøil, e zubaøi mají skryté masochistické sklony.}
 	)
@@ -202,7 +202,7 @@
 		nsRight 202
 		description {zubaøské køeslo}
 		sightAngle 40
-		lookStr {Ty prostì miluješ elektrickı nábytek!}
+		lookStr {Ty prostì miluješ elektrifikovanı nábytek!}
 	)
 )
 
@@ -228,9 +228,9 @@
 		nsLeft 112
 		nsBottom 61
 		nsRight 134
-		description {Chi Chiin titul}
+		description {Chi Chin titul}
 		sightAngle 40
-		lookStr {Zajímavé. Netušil jsi, e Kolumbijská rozhlasová škola mìla dokonce i vysokou školu zubního lékaøství!}
+		lookStr {Zajímavé. Netušil jsi, e Kolumbijská rozhlasová škola mìla dokonce i fakultu zubního lékaøství!}
 	)
 )
 
@@ -242,7 +242,7 @@
 		nsLeft 147
 		nsBottom 58
 		nsRight 163
-		description {svìtlo reflektorù}
+		description {reflektor}
 		sightAngle 40
 		lookStr {Rád se díváš na odraz svıch úst na povrchu zubaøského reflektoru.}
 	)

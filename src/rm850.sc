@@ -22,7 +22,7 @@
 )
 (instance rm850 of LLRoom
 	(properties
-		lookStr {Koupelna Johna Krappera naplòuje oèekávání. Všude jsou rozesety zlaté armatury. Po obou stranách "hajzlu" je dokonce pár zlatých sošek.}
+		lookStr {Koupelna Johna Hezjla naplòuje oèekávání. Všude jsou rozesety zlaté armatury. Po obou stranách "hajzlu" je dokonce pár zlatých sošek.}
 		picture 850
 		east 840
 	)
@@ -146,7 +146,7 @@
 		sightAngle 40
 		approachX 73
 		approachY 139
-		lookStr {Zøejmì pùvabná sklenìná sprcha se opírá o stìnu.}
+		lookStr {To, co vypadá jako pìkná sklenìná sprcha se opírá o stìnu.}
 		view 850
 		priority 8
 		signal $4010
@@ -194,7 +194,7 @@
 		description {dveøe do kanceláøe}
 		approachX 264
 		approachY 136
-		lookStr {Tyto dveøe vedou zpìt do kanceláøe Johna Krappera.}
+		lookStr {Tyto dveøe vedou zpìt do kanceláøe Johna Hejzla.}
 		view 850
 		loop 1
 		priority 10
@@ -248,11 +248,11 @@
 		nsLeft 134
 		nsBottom 189
 		nsRight 177
-		description {Krapperùv záchod}
+		description {Hejzlùv hajzl}
 		sightAngle 40
 		approachX 161
 		approachY 180
-		lookStr {Vyroben z ruènì vytesaného, zlatì skvrnitého mramoru s pozlacenou rukojetí a sedátkem potaženým kožichem jezevce, je vám jasné, že tenhle chlapík se opravdu vyzná v "K-RAPu!" }
+		lookStr {Vyroben z ruènì vytesaného, zlatì skvrnitého mramoru s pozlacenou rukojetí a sedátkem potaženým kožichem jezevce - je ti jasné, že tenhle chlap se ve tvorbì žumpy na rádiu K-RAP opravdu vyzná!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -290,6 +290,7 @@
 		nsBottom 114
 		nsRight 219
 		description 
+
 {okno}
 		sightAngle 40
 		lookStr {Obrovské okno z tabulového skla shlíží na krásnou záøi noèního centra Filadelfie.}
@@ -314,7 +315,7 @@
 		nsRight 78
 		description {závìsy}
 		sightAngle 40
-		lookStr {Tyto závìsy jsou jen na parádu, nezavírají se.}
+		lookStr {Tyto závìsy jsou jen na parádu, nejdou zatáhnout.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -336,7 +337,7 @@
 		nsRight 242
 		description {závìsy}
 		sightAngle 40
-		lookStr {Tyto záclony jsou jen pro parádu, nezavírají se.}
+		lookStr {Tyto závìsy jsou jen na parádu, nejdou zatáhnout.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -356,7 +357,8 @@
 		nsLeft 91
 		nsBottom 125
 		nsRight 143
-		description {levé umyvadlo}
+		description 
+{levé umyvadlo}
 		sightAngle 40
 	)
 	
@@ -414,7 +416,7 @@
 		nsRight 219
 		description {støešní okno}
 		sightAngle 40
-		lookStr {Strop koupelny Johna Krappera je korunován krásným støešním oknem.}
+		lookStr {Strop koupelny Johna Hejzla je korunován krásným støešním oknem.}
 	)
 )
 

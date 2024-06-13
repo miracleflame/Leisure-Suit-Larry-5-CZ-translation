@@ -23,7 +23,7 @@
 )
 (instance rm170 of LLRoom
 	(properties
-		lookStr {Jsi na to tak pyšný, na svou skromnou dílnu.}
+		lookStr {Na tu svou skromnou dílnu jsi ohromnì pyšný.}
 		picture 170
 		east 160
 	)
@@ -267,7 +267,7 @@
 		sightAngle 40
 		approachX 236
 		approachY 184
-		lookStr {Našel jsi je! Tohle jsou pásky, které potøebuješ do své nové videokamery Pocket Protector.}
+		lookStr {Našel jsi je! Tohle jsou pásky, které potøebuješ do své nové videokamery alá kapesní pouzdro.}
 		view 170
 		priority 15
 		signal $4010
@@ -349,7 +349,7 @@
 		nsRight 173
 		description {demagnetizér}
 		sightAngle 40
-		lookStr {Tvùj demagnetizér, který používáš k pøemazání kazet, leží na pracovním stole.}
+		lookStr {Tvùj demagnetizér, který používáš na pøemazávání kazet, leží na pracovním stole.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -384,11 +384,11 @@
 		nsLeft 37
 		nsBottom 93
 		nsRight 68
-		description {šuplík}
+		description {zásuvka}
 		sightAngle 40
 		approachX 57
 		approachY 109
-		lookStr {Vypadá jako zavøená zásuvka.}
+		lookStr {Vypadá to jako zavøená zásuvka.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -411,11 +411,11 @@
 		nsLeft 82
 		nsBottom 93
 		nsRight 117
-		description {šuplík}
+		description {zásuvka}
 		sightAngle 40
 		approachX 104
 		approachY 110
-		lookStr {Vypadá jako zavøená zásuvka.}
+		lookStr {Vypadá to jako zavøená zásuvka;.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -438,7 +438,7 @@
 		nsLeft 129
 		nsBottom 93
 		nsRight 162
-		description {šuplík}
+		description {zásuvka}
 		sightAngle 40
 		approachX 151
 		approachY 110
@@ -467,7 +467,7 @@
 		nsRight 159
 		description {skøíòka}
 		sightAngle 40
-		lookStr {Nemáš ponìtí, co je uvnitø tìchto skøíní, protože jsi pøíliš malý na to, abys vidìl dovnitø.}
+		lookStr {Nemáš ponìtí, co je uvnitø tìch skøíní, protože jsi moc malý na to, abys vidìl dovnitø.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -490,7 +490,7 @@
 		nsRight 240
 		description {tvùj barel sterilizátoru}
 		sightAngle 40
-		lookStr {Tento barel obsahuje sterilizaèní roztok, který používáš na všechny pøíchozí videokazety pøed jejich pøevinutím a rozdìlením èlenùm konkurzního týmu ASHV.}
+		lookStr {Tento barel obsahuje sterilizaèní roztok, který používáš na všechny pøíchozí videokazety pøed jejich pøevinutím a distribuováním èlenùm konkurzního týmu ASHV.}
 	)
 	
 	(method (doVerb theVerb param2 &tmp [temp0 100])
@@ -626,7 +626,7 @@
 		nsTop 151
 		nsBottom 189
 		nsRight 21
-		description {nìkteré videokazety}
+		description {nìjaké videokazety}
 		sightAngle 40
 	)
 	
@@ -791,7 +791,7 @@
 		y 77
 		description {tvùj osmistopý pøehrávaè}
 		sightAngle 40
-		lookStr {Na tvém pracovním stole leží tvùj vìrný osmistopý magnetofon Strombug Carlton. Aèkoli máš v poslední dobì problémy se shánìním nových kazet, poøád ti to hezky hraje.}
+		lookStr {Na tvém pracovním stole leží tvùj vìrný osmistopý magnetofon Strombug Carlton. Aèkoliv máš v poslední dobì problémy se shánìním nových kazet, poøád ti to hezky hraje.}
 		view 170
 		cel 2
 	)
@@ -808,7 +808,7 @@
 				(if (not local1)
 					(= temp0
 						(proc940_0
-							{Pøehrát kterou osmistopou kazetu? }
+							{Jakou osmistopou kazetu chceš pøehrát?}
 							106
 							81
 							{__The Larry Song__}
@@ -870,7 +870,7 @@
 				else
 					(= temp0
 						(proc940_0
-							{Pøehrát kterou osmistopou kazetu?}
+							{Jakou osmistopou kazetu chceš pøehrát?}
 							106
 							81
 							{ A Studio Session_}

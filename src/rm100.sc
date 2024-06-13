@@ -64,7 +64,7 @@
 		(gLongSong number: 100 setLoop: -1 flags: 1 play:)
 		(StrCpy
 			@local2
-			{Vášnivá Patti Pracuje v Pittsmalinko v utajení}
+			{Vášnivá Patti pracuje trochu v utajení}
 		)
 		(super init:)
 		(proc0_2)

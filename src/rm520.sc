@@ -24,7 +24,7 @@
 
 (instance rm520 of LLRoom
 	(properties
-		lookStr {Právì se díváš na exkluzivní èteèku papírových èlenských pásek "Hard Disk Cafe". Kontroluje vstup do klubu.}
+		lookStr {Právì se díváš na exkluzivní èteèku papírových èlenských pásek podniku "Hard Disk Cafe". Ta kontroluje, jestli máš povolení vejít dovnitø do klubu.}
 		picture 520
 	)
 	
@@ -311,7 +311,7 @@
 		y 55
 		description {tvoje páska}
 		sightAngle 90
-		lookStr {Tvoje èlenská páska visí na otevøeném rtu pøístroje.}
+		lookStr {Tvoje èlenská páska visí od ústí pøístroje.}
 		view 520
 		signal $7810
 		cycleSpeed 20

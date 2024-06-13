@@ -16,7 +16,7 @@
 
 (instance rm710 of LLRoom
 	(properties
-		lookStr {Trampovo kasino nešetøilo prostøedky, aby vytvoøilo dokonalý luxusní opulentní hnus bez chuti. Videopokerové automaty vás obklopují v takové míøe, že si nejste jisti, jak je obejít.}
+		lookStr {Trampovo kasino nešetøilo prostøedky, aby vytvoøilo dokonalý luxusní opulentní hnus bez chuti. Videopokerové automaty tì obklopují v takové míøe, že si nejsi jistý, jak je obejít.}
 		picture 710
 		north 730
 		south 700
@@ -336,8 +336,8 @@
 	(properties
 		x 29
 		y 132
-		description {hráè}
-		lookStr {Všichni tito hráèi vám pøipadají nutkaví.}
+		description {hazardní hráè}
+		lookStr {Všichni tihle hráèi ti pøipadají závislí.}
 		view 710
 		signal $4000
 	)
@@ -572,7 +572,7 @@
 		nsRight 319
 		description {stoly na blackjack}
 		sightAngle 40
-		lookStr {Blackjack prostì není tvoje hra. To si mùžeš pamatovat z "Leisure Suit Larry 1"!}
+		lookStr {Blackjack prostì není hra pro tebe. To si mùžeš pamatovat ze "Suknièkáøe Larryho 1"!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -662,7 +662,7 @@
 		nsRight 246
 		description {socha}
 		sightAngle 40
-		lookStr {Nahé dívky s balónkovými kyticemi jsou oblíbeným námìtem nejvìtších svìtových umìlcù již po mnoho staletí.}
+		lookStr {Nahé dívky s držící spoustu balónkù jsou oblíbeným námìtem nejvìtších svìtových umìlcù již po mnoho staletí.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -733,7 +733,7 @@
 		nsRight 170
 		description {socha}
 		sightAngle 40
-		lookStr {To je ale sada balónkù!}
+		lookStr {Ta má ale balón(k)y!}
 	)
 	
 	(method (doVerb theVerb param2)

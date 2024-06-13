@@ -24,7 +24,7 @@
 )
 (instance rm430 of LLRoom
 	(properties
-		lookStr {Aèkoli jsi o tom nepøemýšlel, takhle sis laboratoø FBI nepøedstavoval.}
+		lookStr {Aèkoliv jsi o tom nepøemýšlela, takhle sis laboratoø F.B.I. nepøedstavovala.}
 		picture 430
 		east 440
 		west 420
@@ -414,7 +414,7 @@
 	(properties
 		x 30
 		y 104
-		description {Komandér Twit}
+		description {Velitel Magor}
 		lookStr {Je dokonalým obrazem èlovìka, kterého zajímá víc vìda než vlastní image!}
 		view 432
 		cel 2
@@ -465,7 +465,7 @@
 		x 15
 		y 48
 		description {Desmondovy dveøe}
-		lookStr {Tyto dveøe vedou do kanceláøe inspektora Desmonda. V souèasné dobì jsou zamèené.}
+		lookStr {Tyto dveøe vedou do kanceláøe inspektora Desmonda. Momentálnì jsou zamèené.}
 		view 430
 		loop 1
 		priority 14
@@ -533,7 +533,7 @@
 	(properties
 		x 225
 		y 114
-		description {technièka, která si navléká podprsenku}
+		description {technik s podprsenkou}
 		view 436
 		priority 8
 		signal $4010
@@ -554,7 +554,7 @@
 	(properties
 		x 197
 		y 116
-		description {podprsenkáøka}
+		description {podprsenkáø}
 		yStep 5
 		view 437
 		loop 5
@@ -600,8 +600,8 @@
 	(properties
 		x 159
 		y 193
-		description {Jakobùv žebøík}
-		lookStr {Na zamyšlení: celý život jsi pøedpokládal, že Jákobovy žebøíky nemají žádný skuteèný smysl!}
+		description {Jákobùv žebøík}
+		lookStr {Na zamyšlení: celý život sis myslela, že Jákobovy žebøíky neslouží žádnému skuteènému úèelu!}
 		view 430
 		loop 2
 		priority 15
@@ -619,7 +619,7 @@
 		nsLeft 54
 		nsBottom 65
 		nsRight 75
-		description {šipky}
+		description {terè na šipky}
 		sightAngle 40
 	)
 	
@@ -648,7 +648,7 @@
 		nsRight 216
 		description {monitory}
 		sightAngle 40
-		lookStr {Tyto monitory jsou momentálnì odpojené. Když se pøed mnoha lety hojnì používaly, sloužily pouze k hraní hry "Jawbreaker!" }
+		lookStr {Tyto monitory jsou momentálnì odpojené. Když se pøed mnoha lety hojnì používaly, sloužily pouze ke hraní hry "Jawbreaker"!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -696,7 +696,7 @@
 		nsRight 152
 		description {interkom}
 		sightAngle 40
-		lookStr {Tento interkom používají laboratorní technici ke komunikaci s pøední kanceláøí a komandérem Twitem.}
+		lookStr {Tento interkom používají laboratorní technici ke komunikaci s hlavním øeditelstvím a velitelem Magorem.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -717,7 +717,7 @@
 		nsLeft 152
 		nsBottom 144
 		nsRight 186
-		description {køeslo}
+		description {židle}
 		sightAngle 40
 		lookStr {Tato kanceláøská židle ti brání v pøístupu ke složitému vybavení pod ní.}
 	)
@@ -741,9 +741,9 @@
 		nsLeft 108
 		nsBottom 145
 		nsRight 135
-		description {džojstik}
+		description {joystick}
 		sightAngle 40
-		lookStr {Páni! To je ale džojstik!}
+		lookStr {Páni! To je ale joystick!}
 	)
 	
 	(method (doVerb theVerb param2)

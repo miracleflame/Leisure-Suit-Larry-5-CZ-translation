@@ -19,7 +19,7 @@
 	local4 ;selected
 	local5 ;theStatus
 	[local6 4] = [{Obnovit} {__Uložit__} {Nahradit} {Nahradit}]
-	[local10 4] = [{Vyberte hru, kterou chcete obnovit.} {Zadejte popis této uložené hry.} {Tento adresáø/disk nemùže pojmout žádné další uložené hry. Musíte nahradit nìkterou z uložených her nebo pomocí funkce Zmìnit adresáø uložit do jiného adresáøe/disku.} {Tento adresáø/disk nemùže pojmout žádné další uložené hry. Musíte nahradit nìkterou z uložených her nebo pomocí funkce Zmìnit adresáø uložit do jiného adresáøe/disku.}]
+	[local10 4] = [{Vyberte hru, kterou chcete obnovit.} {Zadejte popis této uložené hry.} {Tato složka/disk nemùže pojmout žádné další uložené hry. Musíte nahradit nìkterou z uložených her, nebo pomocí funkce Zmìnit složku uložit hru do jiné složky/disku.} {Tato složka/disk nemùže pojmout žádné další uložené hry. Musíte nahradit nìkterou z uložených her, nebo pomocí funkce Zmìnit složky uložit hru do jiné složky/disku.}]
 )
 
 ;(procedure (GetDirectory where &tmp result [newDir 33] [str 100] saveParseLang)
@@ -259,7 +259,7 @@
 									{Jste si jisti, že chcete\0D\nsmazat tuto uloženou hru?}
 									106
 									81
-									{ Ne }
+									{ Ne_}
 									0
 									81
 									{Ano}
@@ -432,7 +432,7 @@
 
 (instance changeDirI of DButton
 	(properties
-		text {Zmìnit\0D\nAdresáø}
+		text {Zmìnit\0D\nsložku}
 	)
 )
 

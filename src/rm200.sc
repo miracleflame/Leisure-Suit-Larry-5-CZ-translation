@@ -322,7 +322,7 @@
 		y 100
 		description {ryba}
 		sightAngle 40
-		lookStr {V akváriu limuzíny je zlatá rybka, které je špatnì.}
+		lookStr {V akváriu limuzíny je zlatá rybka, které se pøi jízdì autem dìlá špatnì.}
 		view 206
 	)
 	
@@ -342,7 +342,7 @@
 	(properties
 		x 156
 		y 38
-		description {okno v soukromí}
+		description {okno zaruèující soukromí}
 		sightAngle 40
 		lookStr {Kus zvukotìsného skla blokuje konverzaci mezi vámi a øidièem.}
 		yStep 4
@@ -375,7 +375,7 @@
 	(properties
 		x 8
 		y 187
-		description {Denní vùz\05}
+		description {DayTrotter\05}
 		view 200
 		cel 1
 		priority 4
@@ -586,7 +586,7 @@
 	(properties
 		x 41
 		y 111
-		description {láhev šampaòského}
+		description {lahev šampaòského}
 		sightAngle 40
 		view 200
 		priority 5
@@ -717,7 +717,7 @@
 		nsRight 279
 		description {videokazety}
 		sightAngle 40
-		lookStr {V tom stojanu je spousta videokazet, které bys rád vidìl. Bohužel je videorekordér rozbitý!}
+		lookStr {V tom stojanu je spousta videokazet, které bys rád vidìl. Ale videorekordér je bohužel rozbitý!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -810,7 +810,7 @@
 		nsRight 222
 		description {stereo}
 		sightAngle 40
-		lookStr {V limuzínì je stereo s kazetovým pøehrávaèem i CD.}
+		lookStr {V limuzínì je stereo s kazetovým i CD pøehrávaèem.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -935,7 +935,7 @@
 									200
 									37
 									81
-									{ReverzníBiaz}
+									{ReverseBiaz}
 									1
 									81
 									{PCHammer}
@@ -1157,7 +1157,7 @@
 		nsBottom 42
 		nsRight 269
 		sightAngle 40
-		lookStr {Jsi oddìlen od svého øidièe tím velkým zvukotìsným oknem.}
+		lookStr {Od tvého øidièe tì dìlí toto zvukotìsné okno.}
 	)
 	
 	(method (doVerb)

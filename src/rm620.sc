@@ -742,7 +742,7 @@
 		nsLeft 9
 		nsBottom 165
 		nsRight 38
-		description {katalog budovy Shill}
+		description {orientaèní tabule budovy Shill}
 		sightAngle 40
 		approachX 61
 		approachY 178
@@ -771,7 +771,7 @@
 		nsLeft 93
 		nsBottom 76
 		nsRight 221
-		description {katalog}
+		description {orientaèní tabule}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -796,7 +796,7 @@
 		nsLeft 92
 		nsBottom 86
 		nsRight 221
-		description {katalog}
+		description {orientaèní tabule}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -821,7 +821,7 @@
 		nsLeft 86
 		nsBottom 99
 		nsRight 223
-		description {katalog}
+		description {orientaèní tabule}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -846,7 +846,7 @@
 		nsLeft 85
 		nsBottom 111
 		nsRight 222
-		description {katalog}
+		description {orientaèní tabule}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -880,7 +880,7 @@
 		nsLeft 88
 		nsBottom 123
 		nsRight 222
-		description {katalog}
+		description {orientaèní tabule}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -905,7 +905,7 @@
 		nsLeft 87
 		nsBottom 135
 		nsRight 224
-		description {katalog}
+		description {orientaèní tabule}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -930,7 +930,7 @@
 		nsLeft 89
 		nsBottom 147
 		nsRight 224
-		description {katalog}
+		description {orientaèní tabule}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -955,7 +955,7 @@
 		nsLeft 89
 		nsBottom 159
 		nsRight 223
-		description {katalog}
+		description {orientaèní tabule}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -981,7 +981,7 @@
 		nsBottom 114
 		nsRight 137
 		description {rostlina}
-		lookStr {Tato rostlina je zøejmì dobøe udržovaná, ale pro tvou misi je zbyteèná.}
+		lookStr {Tato rostlina je zøejmì dobøe udržovaná, ale pro tvou misi je naprosto zbyteèná.}
 	)
 )
 
@@ -1008,7 +1008,7 @@
 		description {schodištì}
 		sightAngle 40
 		onMeCheck $2000
-		lookStr {Schodištì se vine vzhùru, ale sametový provaz pøes jeho spodní èást naznaèuje, že se nesmí používat pod hrozbou sankcí. Vypadá to, že výtah je tvoje jediná nadìje, Patti.}
+		lookStr {Schodištì se vine vzhùru, ale sametový provaz pøes jeho spodní èást naznaèuje, že se pod hrozbou sankcí nesmí používat. Vypadá to, že výtah je tvoje jediná nadìje, Patti.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1045,7 +1045,7 @@
 		nsRight 302
 		description {lampa}
 		sightAngle 40
-		lookStr {Pìkná lampa ve stylu art deco se tyèí nad schodištìm.}
+		lookStr {Nad schodištìm se tyèí krásná lampa ve stylu art deco.}
 	)
 )
 
@@ -1061,7 +1061,7 @@
 		sightAngle 40
 		approachX 70
 		approachY 160
-		lookStr {Popelník si peèlivì prohlížíš, jestli v nìm není diskotékový prùkaz, a na okamžik si myslíš, že hraješ "Leisure Suit Larry 1: In the Land of the Lounge Lizards". Samozøejmì, že nehraješ.}
+		lookStr {Peèlivì prohlížíš popelník, jestli v nìm není vstupenka na diskotéku, a na okamžik si myslíš, že hraješ "Suknièkáøe Larryho 1: V zemi salónkových ještìrù". Samozøejmì, že nehraješ.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1082,9 +1082,9 @@
 		nsLeft 5
 		nsBottom 86
 		nsRight 37
-		description {svícen}
+		description {nástìnné svìtlo}
 		sightAngle 40
-		lookStr {Jéje, budova Shill má vkusné svícny.}
+		lookStr {Páni, budova Shill má vkusná vkusná nástìnná svìtla.}
 	)
 )
 
@@ -1096,9 +1096,9 @@
 		nsLeft 85
 		nsBottom 74
 		nsRight 103
-		description {svícen}
+		description {nástìnné svìtlo}
 		sightAngle 40
-		lookStr {Jéje, v budovì Shillù jsou vkusné svícny.}
+		lookStr {Páni, budova Shill má vkusná vkusná nástìnná svìtla.}
 	)
 )
 

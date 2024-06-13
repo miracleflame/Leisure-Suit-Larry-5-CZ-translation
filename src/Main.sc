@@ -351,8 +351,8 @@
 			state: param1
 			name:
 				(switch param1
-					(2 {Michelle Milken})
-					(3 {Lana Luscious})
+					(2 {Michelle Milkenová})
+					(3 {Lana Lahodná})
 					(4 {Chi Chi Lambada})
 				)
 		)
@@ -391,9 +391,9 @@
 		@temp50
 		(switch param2
 			(1 {Chùze})
-			(2 {Dívej se})
-			(3 {Dìlej})
-			(5 {Mluv})
+			(2 {Prozkoumat})
+			(3 {Akce})
+			(5 {Mluvení})
 			(10 {Zip})
 			(else  {UNKNOWN VERB})
 		)
@@ -1011,12 +1011,12 @@
 				0
 				21
 				80
-				{Takže koneènì odcházíte?}
+				{Takže už odcházíš?}
 				81
-				{Dobøe, vy dva. Bavte se!}
+				{Mìjte se, vy dva.}
 				1
 				81
-				{Hej! Zpátky do práce!}
+				{Hele! Zpátky do práce!}
 				0
 				82
 				quitIcon
@@ -1126,7 +1126,7 @@
 		cursor 0
 		message 1
 		signal $0041
-		helpStr {Pomocí této ikony mùžete pøesunout svou postavu.}
+		helpStr {Tato ikona slouží k pohybu postavy.}
 		maskView 990
 		maskLoop 14
 		maskCel 1
@@ -1164,7 +1164,7 @@
 		cursor 1
 		message 2
 		signal $0041
-		helpStr {Tuto ikonu použijte k prohlížení vìcí.}
+		helpStr {Tato ikona slouží k prohlížení vìcí.}
 		maskView 990
 		maskLoop 14
 		maskCel 1
@@ -1184,7 +1184,7 @@
 		cursor 2
 		message 3
 		signal $0041
-		helpStr {Tuto ikonu použijte k provádìní úkonù.}
+		helpStr {Tato ikona slouží k provádìní akcí.}
 		maskView 990
 		maskLoop 14
 	)
@@ -1203,7 +1203,7 @@
 		cursor 3
 		message 5
 		signal $0041
-		helpStr {Pomocí této ikony mùžete mluvit s ostatními postavami.}
+		helpStr {Tato ikona slouží k mluvení s postavami.}
 		maskView 990
 		maskLoop 14
 		maskCel 3
@@ -1223,7 +1223,7 @@
 		cursor 5
 		message 10
 		signal $0041
-		helpStr {Hele, nevíš, k èemu slouží tvùj zip?}
+		helpStr {Hele, víš, k èemu máš ten zip?}
 		maskView 990
 		maskLoop 14
 		maskCel 1
@@ -1243,7 +1243,7 @@
 		cursor 999
 		message 0
 		signal $0043
-		helpStr {Tato ikona vám umožní "pøeskoèit" na další interaktivní èást hry.}
+		helpStr {Tato ikona slouží k pøeskoèení neinteraktivní sekvence hry.}
 		maskView 990
 		maskLoop 14
 	)
@@ -1258,7 +1258,7 @@
 			(if (and global151 (super select: &rest))
 				(gIconBar hide:)
 				(if
-				(proc255_0 0 25 80 {Rychle vpøed} 81 {Ano} 1 81 {Uups} 0)
+				(proc255_0 0 25 80 {Posun vpøed} 81 {Ano} 1 81 {Ups} 0)
 					(if (== global151 1000)
 						(if (IsObject global158)
 							(global158 cue:)
@@ -1286,7 +1286,7 @@
 		cursor 999
 		message 4
 		signal $0041
-		helpStr {Zaškrtnutím této ikony použijete aktuální pøedmìt v inventáøi.}
+		helpStr {Touto ikonou použiješ aktuální vìc z inventáøe.}
 		maskView 990
 		maskLoop 14
 		maskCel 4
@@ -1417,7 +1417,7 @@
 		type $0000
 		message 0
 		signal $0043
-		helpStr {Pomocí této ikony vyvoláte okno s inventáøem.}
+		helpStr {Touto ikonou otevøeš inventáø.}
 		maskView 990
 		maskLoop 14
 		maskCel 2
@@ -1444,7 +1444,7 @@
 		cursor 999
 		message 8
 		signal $0043
-		helpStr {Tato ikona vyvolá panel nastavení.}
+		helpStr {Touto ikonou otevøeš ovládací panel.}
 		maskView 990
 		maskLoop 14
 		maskCel 1
@@ -1471,7 +1471,7 @@
 		cursor 9
 		message 6
 		signal $0003
-		helpStr {Chcete-li se seznámit s dalšími ikonami, kliknìte nejprve sem a poté pøejdìte otazníkem na další ikony.}
+		helpStr {Chcete-li se dozvìdìt nìco o ostatních ikonách v tomto oknì, kliknìte nejprve sem, a potom nad ikony pøesuòte otazník.}
 		maskView 990
 		maskLoop 14
 	)
@@ -1702,7 +1702,7 @@
 		nsLeft 67
 		nsTop 37
 		signal $0080
-		helpStr {Zvýšení množství animace na pozadí. Pokud se vám hra zdá pomalá, snižte ji.}
+		helpStr {Navýšením tohoto parametru zvýšíš množství animací na pozadí. Pokud hra bìží pomalu, sniž toto nastavení.}
 		sliderView 995
 		bottomValue 1
 		topValue 5
@@ -1722,7 +1722,7 @@
 		nsLeft 107
 		nsTop 37
 		signal $0080
-		helpStr {Tímto nastavíte hlasitost.}
+		helpStr {Tímto nastavíš hlasitost.}
 		sliderView 995
 		topValue 15
 	)
@@ -1736,7 +1736,7 @@
 		nsLeft 147
 		nsTop 37
 		signal $0080
-		helpStr {Tímto se upravuje rychlost Larryho a Patti v rámci možností vašeho poèítaèe.}
+		helpStr {Tento posuvník upravuje rychlost pohybu Larryho a Patti.}
 		sliderView 995
 		bottomValue 15
 	)
@@ -1768,7 +1768,7 @@
 		nsLeft 187
 		nsTop 37
 		signal $0080
-		helpStr {Snižte tento posuvník, aby text zùstal na obrazovce déle. Zvyšte jej, pokud ètete rychle.}
+		helpStr {Tento posuvník upravuje, jak dlouho zùstanou titulky na obrazovce. Pokud èteš rychle, posuò ho nahoru.}
 		sliderView 995
 		bottomValue 24
 		topValue 1
@@ -1789,7 +1789,7 @@
 		nsTop 6
 		message 9
 		signal $01c3
-		helpStr {Slouží k uložení aktuálního stavu hry. Když pozdìji vyberete možnost Obnovit, bude vše pøesnì tak, jak je nyní.}
+		helpStr {Tímto uložíš hru. Hru mùžeš pozdìji naèíst zvolením možnosti Obnovit.}
 	)
 )
 
@@ -1802,7 +1802,7 @@
 		nsTop 26
 		message 9
 		signal $01c3
-		helpStr {Tímto obnovíte døíve uloženou hru.}
+		helpStr {Tímto obnovíš døíve uloženou hru.}
 	)
 	
 	(method (select)
@@ -1823,7 +1823,7 @@
 		nsTop 46
 		message 9
 		signal $01c3
-		helpStr {Tuto volbu použijte k opìtovnému spuštìní hry od úplného zaèátku.}
+		helpStr {Tímto lze restartovat hru úplnì od zaèátku.}
 	)
 )
 
@@ -1836,7 +1836,7 @@
 		nsTop 66
 		message 9
 		signal $01c3
-		helpStr {Tímto mùžete opustit hru.}
+		helpStr {Tímto lze opustit hru.}
 	)
 )
 
@@ -1849,7 +1849,7 @@
 		nsTop 86
 		message 9
 		signal $01c3
-		helpStr {Tady se o tvùrcích této hry dozvíte víc, než byste chtìli vìdìt.}
+		helpStr {Zde se o tvùrcích hry dozvíš víc, než by bylo zdrávo.}
 	)
 )
 
@@ -1863,7 +1863,7 @@
 		cursor 9
 		message 6
 		signal $0183
-		helpStr {Chcete-li se dozvìdìt nìco o dalších položkách v tomto oknì, kliknìte nejprve sem a pak pøejdìte otazníkem na další položky.}
+		helpStr {Informaci o ostatních položkách v tomto oknì zobrazíš nejdøív kliknutím sem, a pak pøetažením ikony otazníku.}
 	)
 )
 
@@ -1877,6 +1877,6 @@
 		cursor 9
 		message 9
 		signal $01c3
-		helpStr {Tímto tlaèítkem opustíte tuto nabídku a pokraèujete ve høe.}
+		helpStr {Tímto zavøeš toto menu a vrátíš se do hry.}
 	)
 )

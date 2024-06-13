@@ -27,7 +27,7 @@
 )
 (instance rm160 of LLRoom
 	(properties
-		lookStr {Kdysi se PornProdCorp vıraznì podílela na filmech s hodnocením X, ale od nedávného I.P.O. a vstupu do soft-R televize zcela zmìnila svou imid. Nyní se snaí prorazit si cestu k serióznosti.}
+		lookStr {Kdysi se PornProdCorp vıraznì podílela na tvorbì filmù pro dospìlé, ale od svého nedávného vstupu na burzu, a rovnì vstupu do televizí s volnì pøístupnım programem, spoleènost zcela zmìnila svou image. Nyní se snaí prorazit si cestu k serióznosti.}
 		picture 160
 		north 180
 		east 190
@@ -499,7 +499,7 @@
 	(properties
 		x 32
 		y 81
-		description {zvuk pijákù kávy}
+		description {zvuk kávopièù}
 		lookStr {Vypadá to, e nìkdo chce kávu!}
 		view 162
 		priority 14
@@ -639,7 +639,7 @@
 		nsRight 199
 		description {nápis "Nejvíc sexy domácí videa Ameriky"}
 		sightAngle 40
-		lookStr {Zøejmì je tato spoleènost domovem "Nejvíc sexy domácí videa Ameriky". Slyšel jsi o tom poøadu! Zvláš kdy tu pracuješ!}
+		lookStr {Tato spoleènost je evidentnì autorem "Nejvíc sexy domácích videí Ameriky". O tomhle poøadu jsi slyšel! Zvláš, kdy tu pracuješ!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -727,7 +727,7 @@
 		sightAngle 40
 		approachX 122
 		approachY 75
-		lookStr {Na fotografiích jsou bıvalé hvìzdy mnoha filmù, televizních poøadù a umìleckıch dokumentù spoleènosti PornProdCorp. Je tu celkem nula fotek hlavních pøevíjeèù videokazet, jako jsi ty. Nemáš dùvod pøedpokládat, e budeš první!}
+		lookStr {Na fotografiích jsou bıvalé hvìzdy mnoha filmù, televizních poøadù a umìleckıch dokumentù spoleènosti PornProdCorp. Je tu celkem nula fotek hlavních pøevíjeèù videokazet, jako jsi ty. Nemáš jedinı dùvod pøedpokládat, e budeš první!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -755,7 +755,7 @@
 		sightAngle 40
 		approachX 231
 		approachY 78
-		lookStr {Je to buï hvìzda filmu Lovec lidí, nebo poární hydrant, nevíš, co z toho.}
+		lookStr {Je to buï hvìzda filmu Èervenı drak, nebo poární hydrant, nevíš, co z toho.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -812,7 +812,7 @@
 		sightAngle 40
 		approachX 291
 		approachY 75
-		lookStr {Na pohled se ti opravdu líbí jemnı plast.}
+		lookStr {Ten vzhled jemného plastu se ti opravdu líbí.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -840,7 +840,7 @@
 		sightAngle 40
 		approachX 16
 		approachY 187
-		lookStr {Opravdu si uíváš vzhled jemného plastu.}
+		lookStr {Ten vzhled jemného plastu se ti opravdu líbí.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -869,7 +869,7 @@
 		sightAngle 40
 		approachX 260
 		approachY 179
-		lookStr {Jak jen miluješ plastové rostliny! (Hlavnì tu vùni!)}
+		lookStr {Plastové rostliny opravdu miluješ! (Hlavnì tu vùni!)}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -929,7 +929,7 @@
 		nsRight 129
 		description {idle}
 		sightAngle 40
-		lookStr {Tato idle a stùl patøí osobì, která je nejménì oblíbená u tvého šéfa, Silasovi Scruemallovi. V souèasné dobì jsou neobsazené. Èasto zde sedáváš ty.}
+		lookStr {Tato idle a stùl patøí osobì, která je nejménì oblíbená u tvého šéfa, Silase Scruemalla. V souèasné dobì není obsazená. Èasto tady sedíš ty.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -957,7 +957,7 @@
 		sightAngle 40
 		approachX 151
 		approachY 188
-		lookStr {Tato idle a stùl patøí osobì, která má u tvého šéfa, Silase Scruemalla, nejmenší pøízeò. V souèasné dobì jsou neobsazené. Èasto zde sedáváš ty.}
+		lookStr {Tato idle a stùl patøí osobì, která je nejménì oblíbená u tvého šéfa, Silase Scruemalla. V souèasné dobì není obsazená. Èasto tady sedíš ty.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -983,7 +983,7 @@
 		nsRight 87
 		description {skøíòka}
 		sightAngle 40
-		lookStr {Ve skøíòce pod konvicí na kávu je jen krabice s promyšlenì pøedem odmìøenımi, pøedem zeslabenımi porcemi kávy a nìkolik prázdnıch plastovıch sáèkù, ve kterıch bıvaly hromádky polystyrenovıch kelímkù na kávu. Nepotøebuješ ani kávu, ani filtry.}
+		lookStr {Ve skøíòce pod konvicí na kávu je jen krabice s promyšlenì pøedem odmìøenımi, pøedem zeslabenımi porcemi kávy a nìkolik prázdnıch plastovıch sáèkù, ve kterıch bıvaly zásoby polystyrenovıch kelímkù na kávu. Nepotøebuješ ani kávu, ani filtry.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1058,7 +1058,7 @@
 		nsLeft 77
 		nsBottom 71
 		nsRight 122
-		description {pøedsíò}
+		description {chodba}
 		sightAngle 40
 		lookStr {Tato chodba vede do oddìlení pøevíjení videokazet a do tvé pracovny, kde vykonáváš svou práci hlavního pøevíjeèe a sterilizátora (divize Betamax).}
 	)

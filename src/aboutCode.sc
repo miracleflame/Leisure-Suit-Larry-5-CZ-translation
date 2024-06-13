@@ -55,7 +55,7 @@
 			70
 			200
 			80
-			{Makaèi}
+			{Pracovníci}
 		)
 		(cycleIcon loop: 1)
 		(proc0_14
@@ -85,7 +85,7 @@
 			70
 			222
 			80
-			{Heckeøi}
+			{Hackeøi}
 		)
 		(Format @temp0 15 5 global182 global112)
 		(proc0_14
@@ -121,7 +121,7 @@
 			70
 			234
 			80
-			{Zastavené produkty}
+			{Ukonèené produkty}
 		)
 	)
 )

@@ -216,7 +216,7 @@
 		sightAngle 40
 		approachX 130
 		approachY 120
-		lookStr {Ivana Trampová (místním známá jako "Kola, mistrinì èepelí") se po rozvodu s Donaldem propadla o nìkolik spoleèenských úrovní.}
+		lookStr {Ivana Trampová (místním známá jako "Paní Koleèková, vládkynì èepelí") se po rozvodu s Donaldem propadla o nìkolik spoleèenských úrovní.}
 		view 792
 		priority 3
 		signal $0010
@@ -303,7 +303,7 @@
 		nsRight 206
 		description {brusle}
 		sightAngle 40
-		lookStr {Z mnoha párù in-line bruslí na tomto stojanu lze s jistotou usuzovat, že tento obchod brusle pùjèuje.}
+		lookStr {Z mnoha párù in-line bruslí na tomto stojanu celkem s jistotou usuzuješ, že v tomhle obchodì se pùjèují brusle.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -322,7 +322,7 @@
 		y 94
 		description {závìs}
 		sightAngle 40
-		lookStr {Závìs z korálkù vám brání ve výhledu do zadní místnosti obchodu s bruslemi.}
+		lookStr {Závìs z korálkù ti brání ve výhledu do zadní místnosti obchodu s bruslemi.}
 		view 790
 		signal $4000
 	)
@@ -352,7 +352,7 @@
 		nsRight 75
 		description {plakát}
 		sightAngle 40
-		lookStr {Pøedpokládáte, že tento plakát inzeruje zábavní park pro hmyz.}
+		lookStr {Pøedpokládáš, že tenhle plakát inzeruje zábavní park pro hmyz.}
 	)
 )
 
@@ -408,7 +408,7 @@
 		nsRight 252
 		description {plakát}
 		sightAngle 40
-		lookStr {"Udržujte své in-line brusle v jedné linii s novými bruslemi `Edlin' od spoleènosti Ed's Skate Aligning Corp."}
+		lookStr {"Udržujte své in-line brusle v jedné linii pomocí 'Edlin', výrobku od spoleènosti 'Ed, ladiè bruslí'."}
 	)
 )
 

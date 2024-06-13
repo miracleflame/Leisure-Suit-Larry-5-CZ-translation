@@ -29,7 +29,7 @@
 )
 (instance rm510 of LLRoom
 	(properties
-		lookStr {V hale "Hard Disk Cafe" je k vidìní nesmírnì vzrušující (pro nerdy) vıstava starıch poèítaèovıch památek. Pøi pohledu na toto místo se vám zrychlí tep.}
+		lookStr {V hale "Hard Disk Cafe" je k vidìní nesmírnì vzrušující (pro nerdy) vıstava starıch poèítaèovıch pamìtihodností. Pøi pouhém pohledu na tohle místo se ti zrychlí tep.}
 		picture 510
 		north 525
 		south 500
@@ -389,9 +389,9 @@
 					(proc255_2
 						@temp1
 						6
-						{Kolik si pøejete podplatit pana šéfa.}
+						{Jak moc si pøeješ vrchnícho podplatit?}
 						80
-						{Namazat tu dlaò}
+						{Pìknì namazat dlaò}
 					)
 					(= temp0 (ReadNumber @temp1))
 				)
@@ -890,7 +890,7 @@
 		sightAngle 90
 		approachX 117
 		approachY 82
-		lookStr {Èlenská páska, kterou jsi tak moc chtìl, teï bezvládnì visí ze strany èteèky papírovıch pásek a pomalu, pomalu se kroutí ve vìtru.}
+		lookStr {Èlenská páska, kterou jsi tak moc chtìl, teï bezvládnì visí ze strany èteèky papírovıch pásek a pomalu a línì se kroutí ve vìtru.}
 		view 510
 		loop 3
 		priority 3
@@ -925,10 +925,10 @@
 	(properties
 		x 70
 		y 90
-		description {šéfkuchaø}
+		description {vrchní}
 		approachX 103
 		approachY 89
-		lookStr {Tìm, kteøí se umí tváøit hloupì a zároveò snobsky, docela závidíš.}
+		lookStr {Tìm, kteøí se umí tváøit hloupì a zároveò povıšenì, docela závidíš.}
 		view 512
 		priority 4
 		signal $4810
@@ -1025,7 +1025,7 @@
 		description {køídlové dveøe}
 		approachX 165
 		approachY 70
-		lookStr {Pøedpokládáš, e tyto dveøe vedou do samotné kavárny.}
+		lookStr {Pøedpokládáš, e tyhle dveøe vedou do samotné kavárny.}
 		view 510
 		loop 1
 		priority 2
@@ -1162,7 +1162,7 @@
 		nsRight 319
 		description {staroitná disková jednotka}
 		sightAngle 90
-		lookStr {Tato raná disková jednotka byla velká jako praèka a pojmula obrovské mnoství dat - více ne jeden megabajt.}
+		lookStr {Tato raná disková jednotka byla velká jako praèka a pojmula obrovské mnoství dat - více ne jeden megabyte.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1185,7 +1185,7 @@
 		description {Pet Computer}
 		sightAngle 90
 		onMeCheck $0002
-		lookStr {Pet Computer jsi nevidìl od prvních dnù "InfoWorldu!"}
+		lookStr {Pet Computer jsi nevidìl od prvních dnù "InfoWorldu"!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1208,7 +1208,7 @@
 		description {poèítaè Apple II}
 		sightAngle 90
 		onMeCheck $0002
-		lookStr {První poèítaèové zuby jste si vylámali na starém poèítaèi Apple II s celoèíselnım BASICem. Nebyl to ani Plus!}
+		lookStr {První poèítaèové zuby jsi si vylámal na starém poèítaèi Apple II s Integer BASICem. Nebyl to ani model Plus!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1251,7 +1251,7 @@
 		nsLeft 111
 		nsBottom 144
 		nsRight 138
-		description {zelená obrazovka monitoru}
+		description {monitor se zelenou obrazovkou}
 		sightAngle 90
 		onMeCheck $0002
 		lookStr {Tento starobylı pøístroj dokázal zobrazit text v jakékoliv barvì, pokud byl zelenı na èerném pozadí.}
@@ -1298,7 +1298,7 @@
 		nsRight 32
 		description {staroitná pásková mechanika}
 		sightAngle 90
-		lookStr {Jedná se o jednu z prvních páskovıch mechanik na svìtì, ve své dobì revoluèní, dnes se zdá bıt neuvìøitelnì kuriózní. Vdy se na ni nevešel ani Space Quest, nato King's Quest! }
+		lookStr {Jedná se o jednu z prvních páskovıch mechanik na svìtì, ve své dobì revoluèní, dnes se zdá bıt neuvìøitelnì kuriózní. Vdy by se na ni nevešel ani "Space Quest", nato "King's Quest"!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1326,9 +1326,9 @@
 		nsLeft 220
 		nsBottom 26
 		nsRight 266
-		description {valec klavíru}
+		description {klavírní válec}
 		sightAngle 90
-		lookStr {Pøehrávaè klavírù byl ranım vyuitím dìrovanıch otvorù k ovládání mechanického zaøízení. Do 88 otvorù v kovové tyèi bylo aplikováno vakuum, pøièem kadı otvor oznaèoval jinı hudební tón. Tam, kde se v pohyblivém papíru objevily otvory, se hrály odpovídající tóny.}
+		lookStr {Pianola byla ranım vyuitím dìrovanıch otvorù k ovládání mechanického zaøízení. Do kovové tyèe bylo vyraenou 88 otvorù, pøièem kadı otvor pøedstavoval jinı tón. Podle toho, kde se pak na pohybujícím se papíru objevily otvory, byly pøehrány odpovídající tóny.}
 	)
 	
 	(method (doVerb)
@@ -1344,9 +1344,9 @@
 		nsLeft 222
 		nsBottom 88
 		nsRight 284
-		description {dìrnoštítkovı stroj}
+		description {stroj na dìrné štítky}
 		sightAngle 40
-		lookStr {Tato èteèka dìrnıch karet pochází ze sèítání lidu v USA z roku 1890. Dokázala zpracovat a 80 znakù nebo sloupcù dat, co je èíslo, které dodnes zùstává šíøkou vìtšiny poèítaèovıch zobrazovacích zaøízení.}
+		lookStr {Tato èteèka dìrnıch štítkù pochází ze sèítání lidu v USA v roce 1890. Dokázala zpracovat a 80 znakù nebo sloupcù dat, co je èíslo, které dodnes zùstává šíøkou vìtšiny poèítaèovıch zobrazovacích zaøízení.}
 	)
 	
 	(method (doVerb)
@@ -1362,9 +1362,9 @@
 		nsLeft 28
 		nsBottom 103
 		nsRight 51
-		description {køeslo}
+		description {idle}
 		sightAngle 40
-		lookStr {Toto køeslo je urèeno vıhradnì pro vrchního.}
+		lookStr {Tahle idle je urèená vıhradnì pro vrchního.}
 	)
 )
 
@@ -1392,7 +1392,7 @@
 		description {pódium vrchního}
 		sightAngle 40
 		onMeCheck $0002
-		lookStr {Pódium vrchního je tak akorát velké, aby se za nìj mohl schovat, kdy po nìm zaènou házet vìci!}
+		lookStr {Pódium vrchního je tak akorát velké, aby se za nìj mohl schovat, kdy po nìm dav zaène házet vìci!}
 	)
 )
 
@@ -1421,7 +1421,7 @@
 		description {kaktus}
 		sightAngle 40
 		onMeCheck $0004
-		lookStr {Kaktus je pokryt ostrımi jehlicemi. (Odtud název "jehlicovité kaktusy")}
+		lookStr {Kaktus je pokrytı ostrımi trny. (Proto kaktusy píchají, no ne?)}
 	)
 	
 	(method (doVerb theVerb param2)

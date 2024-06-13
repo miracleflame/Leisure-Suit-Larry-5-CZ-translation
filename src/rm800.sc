@@ -193,7 +193,7 @@
 		description {dveøe}
 		approachX 153
 		approachY 144
-		lookStr {Dveøe K-RAP jsou vždy otevøené.}
+		lookStr {Dveøe rádia K-RAP jsou vždy otevøené.}
 		view 800
 		loop 1
 		priority 9
@@ -211,7 +211,7 @@
 		x 71
 		y 118
 		description {levý reproduktor}
-		lookStr {Reproduktory K-RAP vysílají aktuální program stanice.}
+		lookStr {Reproduktory rádia K-RAP vysílají aktuální program stanice.}
 		view 800
 		loop 2
 		detailLevel 5
@@ -228,7 +228,7 @@
 		x 235
 		y 114
 		description {pravý reproduktor}
-		lookStr {Reproduktory K-RAP vysílají aktuální program stanice.}
+		lookStr {Reproduktory rádia K-RAP vysílají aktuální program stanice.}
 		view 800
 		loop 3
 		detailLevel 5
@@ -250,7 +250,7 @@
 		nsRight 64
 		description {køoví}
 		sightAngle 40
-		lookStr {Nìkdo tyhle keøe zasadil pøímo doprostøed tohoto rušného chodníku!}
+		lookStr {Nìkdo tyhle keøe vysadil pøímo doprostøed tohoto rušného chodníku!}
 	)
 )
 
@@ -264,7 +264,7 @@
 		nsRight 125
 		description {køoví}
 		sightAngle 40
-		lookStr {Nìkdo vysadil tyto keøe pøímo uprostøed tohoto rušného chodníku!}
+		lookStr {Nìkdo tyhle keøe vysadil pøímo doprostøed tohoto rušného chodníku!}
 	)
 )
 
@@ -278,7 +278,7 @@
 		nsRight 224
 		description {keø}
 		sightAngle 40
-		lookStr {Nìkdo vysadil tyto keøe pøímo uprostøed tohoto rušného chodníku!}
+		lookStr {Nìkdo tyhle keøe vysadil pøímo doprostøed tohoto rušného chodníku!}
 	)
 )
 
@@ -292,7 +292,7 @@
 		nsRight 299
 		description {køoví}
 		sightAngle 40
-		lookStr {Nìkdo vysadil tyto keøe pøímo uprostøed tohoto rušného chodníku!}
+		lookStr {Nìkdo tyhle keøe vysadil pøímo doprostøed tohoto rušného chodníku!}
 	)
 )
 
@@ -319,7 +319,7 @@
 		nsRight 303
 		description {vìž}
 		sightAngle 40
-		lookStr {Na vìži jsou umístìny antény, které vysílají stereofonní multiplexní signál rádia K-RAP pro miliony lidí (z nichž nìkteøí poslouchají!).}
+		lookStr {Na vìži jsou umístìny antény, které vysílají stereofonní multiplexovaný signál rádia K-RAP pro miliony lidí (z nichž nìkteøí poslouchají!).}
 	)
 )
 
@@ -332,7 +332,7 @@
 		nsRight 49
 		description {stromy}
 		sightAngle 40
-		lookStr {Kousek od K-RAP roste houf bílých bøíz.}
+		lookStr {Kousek od K-RAPu roste houf bílých bøíz.}
 	)
 )
 

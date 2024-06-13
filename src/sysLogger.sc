@@ -473,7 +473,7 @@ code_0472:
 			push    
 			pushi    0
 			pushi    81
-			lofsa    {pøepsat jej}
+			lofsa    {pøepsat}
 			push    
 			pushi    1
 			calle    proc255_0,  14

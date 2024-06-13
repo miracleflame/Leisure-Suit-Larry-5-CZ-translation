@@ -21,7 +21,7 @@
 )
 (instance rm290 of LLRoom
 	(properties
-		lookStr {Celý život jsi pøedpokládal, že ty snobské soukromé letištní èekárny jsou plné luxusních schùzek.}
+		lookStr {Celý život jsi pøedpokládal, že ty snobské, soukromé letištní èekárny jsou plné luxusních schùzek.}
 		picture 290
 		north 310
 		south 270
@@ -173,7 +173,7 @@
 	(properties
 		x 190
 		y 144
-		description {køeslo}
+		description {židle}
 		sightAngle 90
 		view 290
 	)
@@ -193,7 +193,7 @@
 	(properties
 		x 152
 		y 118
-		description {dveøe do letové dráhy}
+		description {dveøe vedoucí k letadlu}
 		sightAngle 90
 		view 290
 		loop 1

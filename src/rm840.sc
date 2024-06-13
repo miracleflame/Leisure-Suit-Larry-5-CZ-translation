@@ -292,7 +292,7 @@
 		nsLeft 208
 		nsBottom 122
 		nsRight 290
-		description {kvìtina v kvìtináèi}
+		description {rostlina v kvìtináèi}
 		sightAngle 40
 		approachX 231
 		approachY 120
@@ -402,7 +402,7 @@
 		description {dveøe do koupelny}
 		approachX 44
 		approachY 152
-		lookStr {Na dveøích je nápis "Krapper's Crapper". Pod ním je menší nápis "John's John".}
+		lookStr {Na dveøích je nápis "Hejzlùv hajzl". Pod ním je menší nápis "Johnùv tùnní sál".}
 		view 840
 		loop 1
 		signal $4000
@@ -445,7 +445,7 @@
 		description {dveøe do haly}
 		approachX 269
 		approachY 159
-		lookStr {Tìmito dveømi jste vstoupili. Když jimi vyjdete, vrátíte se do haly.}
+		lookStr {Tìmito dveømi jsi pøišla. Když jimi vyjdeš, vrátíš se do haly.}
 		view 840
 		loop 2
 		signal $4000
@@ -496,7 +496,7 @@
 		nsRight 256
 		description {køeslo}
 		sightAngle 40
-		lookStr {Tento nábytek byste si koupili, kdybyste se nìkdy usadili.}
+		lookStr {Takový nábytek by sis koupila, kdyby ses nìkdy usadila.}
 	)
 )
 
@@ -510,7 +510,7 @@
 		nsRight 141
 		description {pohovka}
 		sightAngle 40
-		lookStr {Jaká neobvyklá pohovka! Ty tak miluješ moderní nábytek.}
+		lookStr {Jaká to neobvyklá pohovka! Opravdu miluješ moderní nábytek.}
 	)
 )
 
@@ -553,7 +553,7 @@
 		sightAngle 40
 		approachX 140
 		approachY 112
-		lookStr {Podívej se na ten prach na klávesnici! On ten poèítaè urèitì nikdy nepoužívá!}
+		lookStr {Podívej se na ten prach na klávesnici! On ten poèítaè snad nikdy nepoužívá!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -590,7 +590,7 @@
 		nsRight 73
 		description {polièky}
 		sightAngle 40
-		lookStr {Krapperova knihovna je plná pøedmìtù, které jsou pro vaši misi nepoužitelné.}
+		lookStr {Krapperova knihovna je plná pøedmìtù, které jsou pro tvou misi nepoužitelné.}
 	)
 )
 
@@ -653,7 +653,7 @@
 	(properties
 		x 155
 		y 105
-		description {otvírák na dopisy}
+		description {nùž na dopisy}
 		approachX 187
 		approachY 118
 		view 840

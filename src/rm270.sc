@@ -27,7 +27,7 @@
 )
 (instance rm270 of LLRoom
 	(properties
-		lookStr {Jsi v èekárnì letecké spoleènosti AeroDork a u bývalé pokladny. Ze vzdálené stìny na vás shlíží bezpeènostní kamera.}
+		lookStr {Jsi v èekárnì letecké spoleènosti AeroBlb a u bývalé pokladny. Ze vzdálené stìny na tebe shlíží bezpeènostní kamera.}
 		picture 270
 		north 290
 		east 280
@@ -256,7 +256,7 @@
 	(properties
 		x 142
 		y 111
-		description {kontejner na charitativní sbírku}
+		description {charitativní kontejner}
 		sightAngle 90
 		approachX 139
 		approachY 114

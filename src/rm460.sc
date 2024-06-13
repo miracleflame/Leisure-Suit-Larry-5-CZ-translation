@@ -1110,7 +1110,7 @@
 	(properties
 		x 61
 		y 71
-		description {køeslo}
+		description {židle}
 		view 460
 		cel 3
 		signal $4001
@@ -1121,7 +1121,7 @@
 	(properties
 		x 75
 		y 70
-		description {køeslo}
+		description {židle}
 		view 460
 		cel 2
 		signal $4001
@@ -1132,7 +1132,7 @@
 	(properties
 		x 101
 		y 70
-		description {køeslo}
+		description {židle}
 		view 460
 		cel 2
 		signal $4001

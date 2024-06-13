@@ -268,7 +268,7 @@
 		description {vstupní dveøe PornProdCorp}
 		approachX 185
 		approachY 134
-		lookStr {Tyto dveøe vedou zpìt do vestibulu PPC.}
+		lookStr {Tyto dveøe vedou zpìt do haly PPC.}
 		view 192
 		loop 2
 		entranceTo 160
@@ -294,7 +294,7 @@
 		y 160
 		description {fontána}
 		sightAngle 40
-		lookStr {Když míjíš zurèící vodu, chceš vypustit zurèící vodu.}
+		lookStr {Když míjíš zurèící vodu, cítíš nutkání vypustit zurèící vodu.}
 		view 192
 		priority 15
 		signal $0010

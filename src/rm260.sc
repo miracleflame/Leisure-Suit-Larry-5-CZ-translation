@@ -21,7 +21,7 @@
 )
 (instance rm260 of LLRoom
 	(properties
-		lookStr {Jsi v západním køídle honosné budovy terminálu letecké spoleènosti AeroDork.}
+		lookStr {Jsi v západním køídle honosné budovy terminálu letecké spoleènosti AeroBlb.}
 		picture 260
 		east 270
 	)

@@ -333,7 +333,7 @@
 		sightAngle 40
 		approachX 154
 		approachY 144
-		lookStr {Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Cafe."}
+		lookStr {Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Cafe".}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -354,7 +354,7 @@
 		sightAngle 40
 		approachX 154
 		approachY 144
-		lookStr {Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Cafe."}
+		lookStr {Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Cafe".}
 		view 500
 		loop 2
 		entranceTo 510
@@ -421,10 +421,10 @@
 		nsLeft 41
 		nsBottom 153
 		nsRight 111
-		description {kvìtina}
+		description {rostlina}
 		sightAngle 40
 		onMeCheck $0004
-		lookStr {Tyto rostliny tu rostou navzdory atmosféøe.}
+		lookStr {Navzdory atmosféøe tady tyhle rostliny rostou.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -447,7 +447,7 @@
 		description {rostlina}
 		sightAngle 40
 		onMeCheck $0004
-		lookStr {Tyto rostliny tu rostou navzdory atmosféøe.}
+		lookStr {Navzdory atmosféøe tady tyhle rostliny rostou.}
 	)
 	
 	(method (doVerb theVerb param2)

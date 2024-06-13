@@ -151,7 +151,7 @@
 		x 68
 		y 158
 		description {vìšák na šaty}
-		lookStr {Jaká zmìna! Hned vedle výtahu stojí vìšák s obleèením.}
+		lookStr {To je úleva! Hned vedle výtahu stojí vìšák s obleèením.}
 		view 870
 		cel 3
 		signal $4000
@@ -168,7 +168,7 @@
 		nsRight 235
 		description {klávesnice}
 		sightAngle 40
-		lookStr {Tato klávesnice je podobná tìm nahoøe. Bohužel k ní neznáte kombinaci.}
+		lookStr {Tato klávesnice je podobná tìm nahoøe. Bohužel k ní neznáš kombinaci.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -267,11 +267,11 @@
 		nsLeft 4
 		nsBottom 157
 		nsRight 15
-		description {klávesnice výtahu}
+		description {klávesnice od výtahu}
 		sightAngle 40
 		approachX 20
 		approachY 180
-		lookStr {Tato klávesnice je podobná tìm nahoøe. Bohužel k ní neznáte kombinaci.}
+		lookStr {Tato klávesnice je podobná tìm nahoøe. Bohužel k ní neznáš kombinaci.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -289,7 +289,7 @@
 		x 68
 		y 179
 		z 20
-		description {šaty}
+		description {obleèení}
 		sightAngle 40
 		approachX 56
 		approachY 162
@@ -423,8 +423,8 @@
 	(properties
 		x 44
 		y 5
-		description {tvoje nahé tìlo}
-		lookStr {Jdeš dolù!}
+		description {tvé nahé tìlo}
+		lookStr {Jak hluboko jsi klesla!}
 		view 870
 		loop 5
 		signal $4000

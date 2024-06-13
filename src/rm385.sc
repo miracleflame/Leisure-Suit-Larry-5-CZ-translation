@@ -240,7 +240,7 @@
 					70
 					280
 					80
-					{Systém P. A.}
+					{Palubní rozhlas}
 					108
 					self
 				)

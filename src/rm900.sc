@@ -226,7 +226,7 @@
 		nsRight 225
 		description {nápis}
 		sightAngle 40
-		lookStr {Nápis zní: "Ráj dentální hygieny doktora Pulliama."}
+		lookStr {Nápis zní: "Nebeská dentální hygiena doktora Vytlhala".}
 	)
 )
 
@@ -260,11 +260,11 @@
 		x 114
 		y 104
 		z -10
-		description {dveøe zubaøské ordinace}
+		description {dveøe do zubaøské ordinace}
 		sightAngle 40
 		approachX 128
 		approachY 116
-		lookStr {Dveøe vedoucí do Ráje dentální hygieny doktora Pulliama jsou odemèené.}
+		lookStr {Dveøe vedoucí do Nebeské dentální hygieny doktora Vytlhala jsou odemèené.}
 		view 900
 		loop 1
 		priority 1
@@ -287,7 +287,7 @@
 		nsRight 239
 		description {budova}
 		sightAngle 40
-		lookStr {Jste pøed budovou, kde je zamìstnána Chi Chi Lambada: "Ráj dentální hygieny doktora Pulliama." Hned pod ní je zavøené gymnastické studio: "Gymnastické centrum Gym-Dandy".}
+		lookStr {Jste pøed budovou, kde je zamìstnaná Chi Chi Lambada: "Nebeská dentální hygiena doktora Vytlhala". Hned pod ní je zavøené gymnastické studio: "Gymnastické centrum Gym-Dandy".}
 	)
 )
 
@@ -300,7 +300,7 @@
 		nsRight 319
 		description {chodník}
 		sightAngle 40
-		lookStr {Pozornì si chodník prohlííš a docházíš k závìru, e doktor Pulliam tady moc neutrácí za plombování kazù!}
+		lookStr {Pozornì si chodník prohlííš a docházíš k závìru, e doktor Vytlhal do plombování dìr na chodníku moc neinvestuje!}
 	)
 )
 
@@ -314,7 +314,7 @@
 		description {zeï}
 		sightAngle 40
 		onMeCheck $0004
-		lookStr {Kamenná zeï zdobí jinak zanedbanou budovu.}
+		lookStr {Kamenná zeï zdobí jinak lehce pøehlédnutelnou zanedbanou budovu.}
 	)
 )
 
@@ -354,7 +354,7 @@
 		sightAngle 40
 		approachX 167
 		approachY 115
-		lookStr {Není tøeba nahlíet do tìch oken!}
+		lookStr {Do tìch oken není potøeba nahlíet!}
 	)
 )
 
@@ -371,7 +371,7 @@
 		sightAngle 40
 		approachX 95
 		approachY 119
-		lookStr {Není tøeba nahlíet do tìch oken!}
+		lookStr {Do tìch oken není potøeba nahlíet!}
 	)
 )
 
@@ -387,7 +387,7 @@
 		description {schodištì}
 		sightAngle 40
 		onMeCheck $0008
-		lookStr {Schodištì vede do ordinace doktora Pulliama.}
+		lookStr {Schodištì vede do ordinace doktora Vytlhala.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -415,7 +415,7 @@
 		nsBottom 64
 		nsRight 129
 		description {otáèecí zub}
-		lookStr {Jdìte po dálnici Ventura na dálnici Fontainebleau a ze silnici Eisenhower na vıpadovku Slaussen. Vystupte z auta a uøíznìte si šlajsnu. Vrate se do auta a pokraèujte dál, dokud nedojedete na dálnici Beach Front. Po dálnici Beach Front jeïte na 22. ulici Southwest a zastavte, a pøijedete k obøímu otáèecímu zubu! Jste na místì! Ráj dentální hygieny doktora Pulliama!}
+		lookStr {Jeïte po dálnici Ventura na dálnici Fontainebleau, sjeïte na Eisenhowerovu silnici, a pak to øíznìte na vıpadovku Slaussen. Vypadnìte z auta a zaøíznìte si trenky. Vrate se do auta a pokraèujte dál, dokud nedojedete na dálnici Beach Front. Po dálnici Beach Front jeïte na 22. jihozápadní ulici a zastavte, a pøijedete k obøímu otáèecímu zubu! Jste na místì! Nebeská dentální hygiena doktora Vytlhala!}
 		view 900
 		loop 2
 		signal $6810
@@ -457,7 +457,7 @@
 		description {budova}
 		sightAngle 40
 		onMeCheck $0002
-		lookStr {V tak velkém mìstì, jako je Miami, je mnoho budov.}
+		lookStr {V tak velkém mìstì, jako je Miami, je spousta budov.}
 	)
 )
 
@@ -576,11 +576,11 @@
 		nsLeft 112
 		nsBottom 117
 		nsRight 139
-		description {dveøe zubaøovy ordinace}
+		description {dveøe do zubaøské ordinace}
 		sightAngle 40
 		approachX 128
 		approachY 116
-		lookStr {Dveøe vedoucí do Ráje dentální hygieny doktora Pulliama jsou odemèené.}
+		lookStr {Nebeské dentální hygieny doktora Vytlhala jsou odemèené.}
 	)
 	
 	(method (doVerb)

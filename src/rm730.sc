@@ -508,7 +508,7 @@
 	(properties
 		x 340
 		y 82
-		description {Jennifer Jiggle}
+		description {Dovádivá Jennifer}
 		view 733
 	)
 	
@@ -536,7 +536,7 @@
 	(properties
 		x 340
 		y 82
-		description {Lana Luscious}
+		description {Lahodná Lana}
 		lookStr {Lana vypadá úplnì jinak, teï, když se zula z koleèkových bruslí a je ve svém živlu!}
 		view 734
 	)
@@ -568,8 +568,8 @@
 	(properties
 		x 147
 		y 107
-		description {blátivý zápasnický ring}
-		lookStr {Vítejte v "Trampuj tohle! Blátivé noèní šílenství" v ringu bahenního zápasu.}
+		description {ring na bahenní zápasy}
+		lookStr {Vítejte v "Trampni to! Noèním bahenním šílenství" v ringu, kde se odehrávají bahenní zápasy.}
 		view 730
 		priority 4
 		signal $4010
@@ -581,7 +581,7 @@
 		x 147
 		y 107
 		description {provazy}
-		lookStr {Vítejte v "Trampuj tohle! Blátivé noèní šílenství" v ringu bahenního zápasu.}
+		lookStr {Vítejte v "Trampni to! Noèním bahenním šílenství" v ringu, kde se odehrávají bahenní zápasy.}
 		view 730
 		cel 1
 		priority 8
@@ -597,7 +597,7 @@
 		sightAngle 40
 		approachX 16
 		approachY 168
-		lookStr {Jste si jistí, že tento vyhazovaè není zdaleka tak moudrý jako vy, co se týèe žen.}
+		lookStr {Jsi si jistý, že tenhle vyhazovaè není zdaleka tak moudrý jako ty, co se týèe žen.}
 		view 732
 		signal $4000
 	)

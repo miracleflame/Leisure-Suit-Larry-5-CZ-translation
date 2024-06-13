@@ -364,7 +364,7 @@
 		x 126
 		y 79
 		description {tvá ruka}
-		lookStr {Vždycky se ti ta ruka líbila.}
+		lookStr {Ta ruka se ti vždycky líbila.}
 		view 321
 		loop 2
 		priority 5
@@ -377,7 +377,7 @@
 		x 173
 		y 84
 		description {tvoje ruka}
-		lookStr {Vždycky jsi mìl rád tuhle ruku.}
+		lookStr {Ta ruka se ti vždycky líbila.}
 		view 321
 		loop 2
 		cel 1
@@ -390,7 +390,7 @@
 	(properties
 		x 165
 		y 125
-		description {tvoje tìlo}
+		description {tvá tìlo}
 		view 321
 		priority 2
 		signal $4810
@@ -594,7 +594,7 @@
 	(properties
 		x 208
 		y 114
-		description {letecký èasopis}
+		description {palubní èasopis}
 		view 320
 		priority 1
 		signal $4810

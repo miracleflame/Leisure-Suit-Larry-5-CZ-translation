@@ -359,7 +359,7 @@
 		y 44
 		description {provaz}
 		sightAngle 90
-		lookStr {Tohto se drž!}
+		lookStr {Toho se drž!}
 		view 923
 		loop 2
 		signal $4810

@@ -141,7 +141,7 @@
 		state $0400
 		activateHeight 0
 		y 0
-		normalHeading {Roger is carrying:}
+		normalHeading {Roger má u sebe:}
 		heading 0
 		empty {nic!}
 		curScore {Skóre: %d z %d}

@@ -913,7 +913,7 @@
 		nsLeft 151
 		nsBottom 167
 		nsRight 197
-		description {kazeák}
+		description {pøehrávaè}
 		sightAngle 40
 		approachX 172
 		approachY 185
@@ -1018,7 +1018,7 @@
 		x 154
 		y 164
 		z 16
-		description {kazeák}
+		description {pøehrávaè}
 		sightAngle 40
 		approachX 159
 		approachY 183
@@ -1050,7 +1050,7 @@
 		description {vıtah}
 		approachX 65
 		approachY 152
-		lookStr {Tímto vıtahem jste pøijeli.}
+		lookStr {Tímto vıtahem jsi pøijela.}
 		view 640
 		priority 10
 		signal $4011
@@ -1332,7 +1332,7 @@
 		description {dveøe studia}
 		approachX 195
 		approachY 83
-		lookStr {Na dveøích je malá tabulka s nápisem: "Studio A."}
+		lookStr {Na dveøích je malá tabulka s nápisem: "Studio A".}
 		view 640
 		loop 1
 		signal $0001
@@ -1348,7 +1348,7 @@
 	(properties
 		x 105
 		y 159
-		description {tlaèítko Reverz}
+		description {tlaèítko Pozpátku}
 		sightAngle 40
 		view 650
 		signal $0001
@@ -1537,7 +1537,7 @@
 		nsRight 246
 		description {rostlina}
 		sightAngle 40
-		lookStr {Pøi bliším zkoumání zjistíte, e se jedná o rostlinu.}
+		lookStr {Pøi bliším zkoumání zjistíš, e se jedná o rostlinu.}
 	)
 )
 
@@ -1579,7 +1579,7 @@
 		nsRight 315
 		description {obaly desek}
 		sightAngle 40
-		lookStr {Mnoho slavnıch obalù od gramofonovıch desek zdobí stìny kanceláøe des Rever Records.}
+		lookStr {Stìny kanceláøe des Rever Records zdobí mnoho obalù slavnıch alb.}
 	)
 )
 

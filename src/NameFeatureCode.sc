@@ -212,7 +212,7 @@
 					)
 					(KEY_ALT_t
 						(if gTheNewDialog (gTheNewDialog dispose:))
-						(if (> (= gCastFirst (proc255_3 {Teleportuj})) 0)
+						(if (> (= gCastFirst (proc255_3 {Teleportuj se})) 0)
 							(global2 newRoom: gCastFirst)
 							(= gGCastFirst gCastFirst)
 						)
