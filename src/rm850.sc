@@ -289,9 +289,7 @@
 		nsLeft 78
 		nsBottom 114
 		nsRight 219
-		description 
-
-{okno}
+		description {okno}
 		sightAngle 40
 		lookStr {Obrovské okno z tabulového skla shlíží na krásnou záøi noèního centra Filadelfie.}
 	)

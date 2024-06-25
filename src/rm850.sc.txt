@@ -13,7 +13,7 @@
 {závìsy}
 {Tyto závìsy jsou jen na parádu, nejdou zatáhnout.}
 {závìsy}
-{Tyto závìsy jsou jen na parádu, nejdou zatáhnout.}}
+{Tyto závìsy jsou jen na parádu, nejdou zatáhnout.}
 {levé umyvadlo}
 {pravé umyvadlo}
 {støešní okno}
