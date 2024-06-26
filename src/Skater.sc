@@ -1003,7 +1003,7 @@
 	)
 )
 
-(instance Lana_Luscious_a of Talker
+(instance Lana_Luscious_ of Talker
 	(properties
 		x 140
 		y 160
@@ -1026,7 +1026,7 @@
 	)
 )
 
-(instance Lana_Luscious_b of Talker
+(instance Lana_Luscious of Talker
 	(properties
 		nsTop 100
 		nsLeft 5
@@ -1199,12 +1199,12 @@
 			(2
 				(lana setMotion: 0)
 				(proc0_18 gLarry 760 24)
-				(proc0_18 Lana_Luscious_b 760 25 108)
+				(proc0_18 Lana_Luscious 760 25 108)
 				(= ticks 30)
 			)
 			(3
 				(proc0_18 gLarry 760 26)
-				(proc0_18 Lana_Luscious_b 760 27 108)
+				(proc0_18 Lana_Luscious 760 27 108)
 				(= ticks 30)
 			)
 			(4
@@ -1530,7 +1530,7 @@
 				(= ticks 60)
 			)
 			(1
-				(proc0_18 Lana_Luscious_a 760 30 108)
+				(proc0_18 Lana_Luscious_ 760 30 108)
 				(= ticks 60)
 			)
 			(2)
@@ -1539,7 +1539,7 @@
 				(= ticks 60)
 			)
 			(4
-				(proc0_18 Lana_Luscious_a 760 32 108)
+				(proc0_18 Lana_Luscious_ 760 32 108)
 				(= ticks 60)
 			)
 			(5)
@@ -1548,7 +1548,7 @@
 				(= ticks 60)
 			)
 			(7
-				(proc0_18 Lana_Luscious_a 760 34 108)
+				(proc0_18 Lana_Luscious_ 760 34 108)
 				(= ticks 60)
 			)
 			(8)
@@ -1557,7 +1557,7 @@
 				(= ticks 60)
 			)
 			(10
-				(proc0_18 Lana_Luscious_a 760 36 108)
+				(proc0_18 Lana_Luscious_ 760 36 108)
 				(= ticks 60)
 			)
 			(11
@@ -1571,7 +1571,7 @@
 				(= ticks 60)
 			)
 			(14
-				(proc0_18 Lana_Luscious_a 760 39 108)
+				(proc0_18 Lana_Luscious_ 760 39 108)
 				(= ticks 60)
 			)
 			(15
@@ -1606,13 +1606,13 @@
 				)
 			)
 			(3
-				(proc0_18 Lana_Luscious_a 760 42 108)
+				(proc0_18 Lana_Luscious_ 760 42 108)
 			)
 			(10
-				(proc0_18 Lana_Luscious_a 760 43 108)
+				(proc0_18 Lana_Luscious_ 760 43 108)
 			)
 			(4
-				(proc0_18 Lana_Luscious_a 760 44 108)
+				(proc0_18 Lana_Luscious_ 760 44 108)
 			)
 			(else 
 				(super doVerb: theVerb &rest)

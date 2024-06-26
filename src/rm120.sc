@@ -65,7 +65,7 @@
 	)
 )
 
-(instance Vinnie_b of Talker
+(instance Vinnie of Talker
 	(properties
 		x 1
 		y 180
@@ -99,7 +99,7 @@
 	)
 )
 
-(instance Bruno_b of Talker
+(instance Bruno of Talker
 	(properties
 		x 115
 		y 180
@@ -165,7 +165,7 @@
 		(switch (= state newState)
 			(0 (= cycles 2))
 			(1
-				(proc0_18 Vinnie_b 120 0 108 139 self)
+				(proc0_18 Vinnie 120 0 108 139 self)
 			)
 			(2 (= ticks 123))
 			(3
@@ -173,16 +173,16 @@
 				(= cycles 2)
 			)
 			(4
-				(proc0_18 Vinnie_b 120 1 108 139 self)
+				(proc0_18 Vinnie 120 1 108 139 self)
 			)
 			(5 (= ticks 60))
 			(6
-				(proc0_18 Vinnie_b 120 2 108 139 self)
+				(proc0_18 Vinnie 120 2 108 139 self)
 			)
 			(7 (= ticks 60))
 			(8
-				(Vinnie_b talkWidth: 120)
-				(proc0_18 Vinnie_b 120 3 108 139 self)
+				(Vinnie talkWidth: 120)
+				(proc0_18 Vinnie 120 3 108 139 self)
 			)
 			(9
 				(bossHand
@@ -206,7 +206,7 @@
 				(= cycles 5)
 			)
 			(11
-				(proc0_18 Bruno_b 120 4 108 139 self)
+				(proc0_18 Bruno 120 4 108 139 self)
 			)
 			(12 (= ticks 60))
 			(13
@@ -214,15 +214,15 @@
 				(= cycles 2)
 			)
 			(14
-				(proc0_18 Bruno_b 120 5 108 139 self)
+				(proc0_18 Bruno 120 5 108 139 self)
 			)
 			(15 (= ticks 60))
 			(16
-				(proc0_18 Bruno_b 120 6 108 139 self)
+				(proc0_18 Bruno 120 6 108 139 self)
 			)
 			(17 (= ticks 60))
 			(18
-				(proc0_18 Bruno_b 120 7 108 139 self)
+				(proc0_18 Bruno 120 7 108 139 self)
 			)
 			(19 (= ticks 60))
 			(20
@@ -247,19 +247,19 @@
 				(= cycles 5)
 			)
 			(22
-				(proc0_18 Bruno_b 120 8 108 139 self)
+				(proc0_18 Bruno 120 8 108 139 self)
 			)
 			(23 (= ticks 60))
 			(24
-				(proc0_18 Bruno_b 120 9 108 139 self)
+				(proc0_18 Bruno 120 9 108 139 self)
 			)
 			(25 (= ticks 60))
 			(26
-				(proc0_18 Bruno_b 120 10 108 139 self)
+				(proc0_18 Bruno 120 10 108 139 self)
 			)
 			(27 (= ticks 60))
 			(28
-				(proc0_18 Bruno_b 120 11 108 139 self)
+				(proc0_18 Bruno 120 11 108 139 self)
 			)
 			(29 (= ticks 60))
 			(30 (global2 newRoom: 130))

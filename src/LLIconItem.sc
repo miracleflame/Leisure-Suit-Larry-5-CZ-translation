@@ -322,7 +322,7 @@
 		cursor 932
 		signal $0002
 		description {nabÌjeËka bateriÌ}
-		name "Battery Charger"
+		name "NabÌjeËka bateriÌ"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -350,7 +350,7 @@
 		cursor 934
 		signal $0002
 		description {videokazeta}
-		name "A Blank Videotape\_a"
+		name "Vymazan· videokazeta"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -383,7 +383,7 @@
 		cursor 934
 		signal $0002
 		description {videokazeta}
-		name "A Blank Videotape\_b"
+		name "Vymazan· videokazeta"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -416,7 +416,7 @@
 		cursor 934
 		signal $0002
 		description {videokazeta}
-		name "A Blank Videotape\_c"
+		name "Vymazan· videokazeta"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -449,7 +449,7 @@
 		cursor 937
 		signal $0002
 		description {Michellin ûivotopis}
-		name "Michelle Milken's Resume"
+		name "éivotopis Michelle MilkenovÈ"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -486,7 +486,7 @@
 		cursor 938
 		signal $0002
 		description {Ubrousek z kav·rny Hard Disk}
-		name "Hard Disk Cafe Napkin"
+		name "Ubrousek z kav·rny Hard Disk"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -511,7 +511,7 @@
 		cursor 939
 		signal $0002
 		description {zlat· karta AeroBlb}
-		name "AeroDork Gold Card"
+		name "Zlat· karta AeroBlb"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -534,7 +534,7 @@
 		cursor 940
 		signal $0002
 		description {PalubnÌ lÌstek}
-		name "Boarding Pass"
+		name "PalubnÌ lÌstek"
 	)
 	
 	(method (doVerb theVerb param2 &tmp [temp0 200] temp200 temp201 temp202 temp203)
@@ -611,7 +611,7 @@
 		cursor 942
 		signal $0002
 		description {Ëtvrù·k}
-		name "Some Change"
+		name "»tvrù·k"
 	)
 	
 	(method (doVerb theVerb param2 &tmp [temp0 40])
@@ -645,7 +645,7 @@
 		cursor 943
 		signal $0002
 		description {the DayTrotter\05}
-		name "DayTrotter\05"
+		name "DayTrotter"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -684,6 +684,7 @@
 		cursor 944
 		signal $0002
 		description {penÌze}
+		name "PenÌze"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -706,7 +707,7 @@
 		cursor 945
 		signal $0002
 		description {kreditnÌ karty}
-		name "Credit Cards"
+		name "KreditnÌ karty"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -729,7 +730,7 @@
 		cursor 946
 		signal $0002
 		description {Ëlensk· p·ska}
-		name "Membership Tape"
+		name "»lensk· p·ska"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -840,7 +841,7 @@
 		signal $0002
 		description {DataPak: Reverse Biaz}
 		owner 445
-		name "Reverse Biaz DataPak"
+		name "DataPak: Reverse Biaz"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -866,7 +867,7 @@
 		signal $0002
 		description {DataPak: P. C. Hammer}
 		owner 445
-		name "P. C. Hammer DataPak"
+		name "DataPak: P. C. Hammer"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -891,7 +892,7 @@
 		cursor 937
 		signal $0002
 		description {Lanin ûivotopis}
-		name "Lana Luscious' Resume"
+		name "éivotopis Lany LahodnÈ"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -927,7 +928,7 @@
 		cursor 952
 		signal $0002
 		description {krabiËka z·palek z Trampova kasina}
-		name "Tramp Casino Matchbook"
+		name "KrabiËka z·palek z Trampova kasina"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -955,7 +956,7 @@
 		cursor 953
 		signal $0002
 		description {st¯Ìbrn˝ dolar}
-		name "Silver Dollar"
+		name "St¯Ìbrn˝ dolar"
 	)
 	
 	(method (doVerb theVerb param2 &tmp [temp0 200])
@@ -988,6 +989,7 @@
 		cursor 954
 		signal $0002
 		description {koleËkovÈ brusle}
+		name "KoleËkovÈ brusle"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1016,7 +1018,7 @@
 		cursor 955
 		signal $0002
 		description {fax ohlednÏ Reverse Biaze}
-		name "Reverse Biaz Fax"
+		name "Fax ohlednÏ Reverse Biaze"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1042,6 +1044,7 @@
 		cursor 956
 		signal $0002
 		description {öampaÚskÈ}
+		name "äampaÚskÈ"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1064,7 +1067,7 @@
 		cursor 957
 		signal $0002
 		description {zlat· deska}
-		name "Gold Record"
+		name "Zlat· deska"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1093,7 +1096,7 @@
 		cursor 958
 		signal $0002
 		description {kazeta}
-		name "Cassette Tape"
+		name "Kazeta"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1116,7 +1119,7 @@
 		cursor 937
 		signal $0002
 		description {Chi Chin ûivotopis}
-		name "Chi Chi Lambada's Resume"
+		name "éivotopis Chi Chi Lambady"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1152,7 +1155,7 @@
 		cursor 960
 		signal $0002
 		description {vizitka doktora Vytlhala}
-		name "Doc Pulliam's Card"
+		name "Vizitka doktora Vytlhala"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1181,7 +1184,7 @@
 		cursor 961
 		signal $0002
 		description {zelen· karta}
-		name "Green Card"
+		name "Zelen· karta"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1204,6 +1207,7 @@
 		cursor 962
 		signal $0002
 		description {ubrousek}
+		name "Ubrousek"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1258,7 +1262,7 @@
 		cursor 955
 		signal $0002
 		description {fax ohlednÏ P. C. Hammera}
-		name "P. C. Hammer Fax"
+		name "Fax ohlednÏ P. C. Hammera"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1283,7 +1287,7 @@
 		cursor 964
 		signal $0002
 		description {n˘û na dopisy}
-		name "Letter Opener"
+		name "N˘û na dopisy"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1306,7 +1310,7 @@
 		cursor 965
 		signal $0002
 		description {klÌË od stolu}
-		name "Desk Key"
+		name "KlÌË od stolu"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1328,7 +1332,7 @@
 		cursor 966
 		signal $0002
 		description {sloûka s d˘kazy}
-		name "Folder Of Evidence"
+		name "Sloûka s d˘kazy"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1361,7 +1365,7 @@
 		cursor 967
 		signal $0002
 		description {fotokopie}
-		name "Photocopied Evidence"
+		name "Fotokopie D˘kaz˙"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1384,7 +1388,7 @@
 		cursor 968
 		signal $0002
 		description {p·ska z kotouËovÈ cÌvky}
-		name "Reel To Reel Tape"
+		name "P·ska z kotouËovÈ cÌvky"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1414,7 +1418,7 @@
 		cursor 969
 		signal $0002
 		description {podprsenka "Hooter Shooter"}
-		name "Hooter Shooter"
+		name "Podprsenka 'Hooter Shooter'"
 	)
 	
 	(method (doVerb theVerb param2)

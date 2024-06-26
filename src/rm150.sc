@@ -103,7 +103,7 @@
 	)
 )
 
-(instance You_a of Talker
+(instance Ty of Talker
 	(properties
 		nsTop 88
 		nsLeft 64
@@ -125,7 +125,7 @@
 	)
 )
 
-(instance Silas_Scruemall_a of Talker
+(instance Silas_Scruemall of Talker
 	(properties
 		x -1
 		y 185
@@ -134,7 +134,7 @@
 		view 1150
 		loop 3
 		talkWidth 240
-		name "Silas Scruemall\_a"
+		name "Silas Scruemall"
 	)
 	
 	(method (init)
@@ -168,11 +168,11 @@
 		nsLeft 6
 		view 1150
 		cycleSpeed 5
-		name "Silas Scruemall\_b"
+		name "Silas Scruemall"
 	)
 )
 
-(instance Silas_Scruemall_c of Talker
+(instance Silas_Scruemall_ of Talker
 	(properties
 		x -1
 		y 185
@@ -181,7 +181,7 @@
 		view 1145
 		loop 3
 		talkWidth 280
-		name "Silas Scruemall\_c"
+		name "Silas Scruemall"
 	)
 	
 	(method (init)
@@ -264,11 +264,11 @@
 				(= ticks 10)
 			)
 			(5
-				(proc0_18 Silas_Scruemall_c 150 1 108 139 self)
+				(proc0_18 Silas_Scruemall_ 150 1 108 139 self)
 			)
 			(6 (= ticks 123))
 			(7
-				(proc0_18 Silas_Scruemall_c 150 2 108 139 self)
+				(proc0_18 Silas_Scruemall_ 150 2 108 139 self)
 			)
 			(8 (= ticks 123))
 			(9
@@ -293,27 +293,27 @@
 				(light dispose:)
 				(global2 style: 7 drawPic: 150 picture: 150 curPic: 150)
 				(gLongSong number: 150 flags: 1 setLoop: -1 play:)
-				(proc0_18 Silas_Scruemall_a 150 4 108 139 self)
+				(proc0_18 Silas_Scruemall 150 4 108 139 self)
 			)
 			(13 (= ticks 30))
 			(14
-				(proc0_18 Silas_Scruemall_a 150 5 108 139 self)
+				(proc0_18 Silas_Scruemall 150 5 108 139 self)
 			)
 			(15 (= ticks 123))
 			(16
-				(proc0_18 You_a 150 6 108 139 self)
+				(proc0_18 Ty 150 6 108 139 self)
 			)
 			(17 (= ticks 123))
 			(18
-				(proc0_18 Silas_Scruemall_a 150 7 108 139 self)
+				(proc0_18 Silas_Scruemall 150 7 108 139 self)
 			)
 			(19 (= ticks 30))
 			(20
-				(proc0_18 Silas_Scruemall_a 150 8 108 139 self)
+				(proc0_18 Silas_Scruemall 150 8 108 139 self)
 			)
 			(21 (= ticks 123))
 			(22
-				(proc0_18 You_a 150 9 108 139 self)
+				(proc0_18 Ty 150 9 108 139 self)
 			)
 			(23 (= ticks 30))
 			(24
@@ -321,11 +321,11 @@
 				(= seconds 3)
 			)
 			(25
-				(proc0_18 Silas_Scruemall_a 150 11 108 139 self)
+				(proc0_18 Silas_Scruemall 150 11 108 139 self)
 			)
 			(26 (= ticks 30))
 			(27
-				(proc0_18 Silas_Scruemall_a 150 12 108 139 self)
+				(proc0_18 Silas_Scruemall 150 12 108 139 self)
 			)
 			(28 (= ticks 30))
 			(29
@@ -333,11 +333,11 @@
 				(= seconds 3)
 			)
 			(30
-				(proc0_18 Silas_Scruemall_a 150 14 108 139 self)
+				(proc0_18 Silas_Scruemall 150 14 108 139 self)
 			)
 			(31 (= ticks 123))
 			(32
-				(proc0_18 You_a 150 15 108 139 self)
+				(proc0_18 Ty 150 15 108 139 self)
 			)
 			(33 (= ticks 30))
 			(34
@@ -345,11 +345,11 @@
 				(= seconds 3)
 			)
 			(35
-				(proc0_18 Silas_Scruemall_a 150 17 108 139 self)
+				(proc0_18 Silas_Scruemall 150 17 108 139 self)
 			)
 			(36 (= ticks 30))
 			(37
-				(proc0_18 Silas_Scruemall_a 150 18 108 139 self)
+				(proc0_18 Silas_Scruemall 150 18 108 139 self)
 			)
 			(38
 				(larryCam init:)
@@ -357,49 +357,49 @@
 				(= ticks 123)
 			)
 			(39
-				(proc0_18 You_a 150 19 108 139 self)
+				(proc0_18 Ty 150 19 108 139 self)
 			)
 			(40 (= seconds 3))
 			(41
-				(proc0_18 Silas_Scruemall_a 150 20 108 139 self)
+				(proc0_18 Silas_Scruemall 150 20 108 139 self)
 			)
 			(42 (= ticks 123))
 			(43
-				(You_a talkWidth: 160)
-				(proc0_18 You_a 150 21 108 139 self)
+				(Ty talkWidth: 160)
+				(proc0_18 Ty 150 21 108 139 self)
 			)
 			(44 (= seconds 3))
 			(45
-				(proc0_18 Silas_Scruemall_a 150 22 108 139 self)
+				(proc0_18 Silas_Scruemall 150 22 108 139 self)
 			)
 			(46 (= ticks 123))
 			(47
 				(larryCam dispose:)
-				(You_a talkWidth: 240)
-				(proc0_18 You_a 150 23 108 139 self)
+				(Ty talkWidth: 240)
+				(proc0_18 Ty 150 23 108 139 self)
 			)
 			(48 (= seconds 3))
 			(49
-				(proc0_18 Silas_Scruemall_a 150 24 108 139 self)
+				(proc0_18 Silas_Scruemall 150 24 108 139 self)
 			)
 			(50 (= ticks 30))
 			(51
 				(proc0_14 150 25 67 -1 20)
-				(You_a talkWidth: 240)
-				(proc0_18 You_a 150 26 108 139 self)
+				(Ty talkWidth: 240)
+				(proc0_18 Ty 150 26 108 139 self)
 			)
 			(52 (= ticks 123))
 			(53
-				(proc0_18 Silas_Scruemall_a 150 27 108 139 self)
+				(proc0_18 Silas_Scruemall 150 27 108 139 self)
 			)
 			(54 (= ticks 30))
 			(55
-				(proc0_18 Silas_Scruemall_a 150 28 108 139 self)
+				(proc0_18 Silas_Scruemall 150 28 108 139 self)
 			)
 			(56 (= ticks 123))
 			(57
 				(proc0_14 150 29 67 -1 20)
-				(proc0_18 Silas_Scruemall_a 150 30 108 139 self)
+				(proc0_18 Silas_Scruemall 150 30 108 139 self)
 				(proc0_7 7)
 			)
 			(58 (= ticks 123))

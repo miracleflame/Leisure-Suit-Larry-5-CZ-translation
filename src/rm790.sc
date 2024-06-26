@@ -110,7 +110,7 @@
 				(Ivana_a setHeading: 180 self)
 			)
 			(4
-				(proc0_18 Ivana_b 790 0 108)
+				(proc0_18 Ivana 790 0 108)
 				(Ivana_a stopUpd:)
 				(proc0_3)
 				(self dispose:)
@@ -140,15 +140,15 @@
 			(0
 				(= local0 1)
 				(proc0_18 gLarry 790 1 67 -1 185)
-				(proc0_18 Ivana_b 790 2 108 139 self)
+				(proc0_18 Ivana 790 2 108 139 self)
 			)
 			(1
 				(Format @temp1 790 3 250)
-				(proc0_18 Ivana_b @temp1 108 139 self)
+				(proc0_18 Ivana @temp1 108 139 self)
 			)
 			(2
 				(proc0_18 gLarry 790 4 67 -1 185)
-				(proc0_18 Ivana_b 790 5 108 139 self)
+				(proc0_18 Ivana 790 5 108 139 self)
 			)
 			(3 (proc0_3) (self dispose:))
 		)
@@ -164,7 +164,7 @@
 				(proc0_18 gLarry 790 6 67 -1 185)
 				(proc0_18 gLarry 790 7 67 -1 185)
 				(proc0_10 8 141)
-				(proc0_18 Ivana_b 790 8 108 139 self)
+				(proc0_18 Ivana 790 8 108 139 self)
 			)
 			(1
 				(proc0_14 790 9)
@@ -185,18 +185,18 @@
 		(switch (= state newState)
 			(0
 				(proc0_18 gLarry 790 10 67 -1 185)
-				(proc0_18 Ivana_b 790 11 108 139 self)
+				(proc0_18 Ivana 790 11 108 139 self)
 			)
 			(1
 				(proc0_10 3 142)
 				(if (gLarry has: 0)
 					(= temp0 (Random 100 240))
 					(Format @temp1 790 12 temp0)
-					(proc0_18 Ivana_b @temp1 108)
+					(proc0_18 Ivana @temp1 108)
 					(gLarry put: 18 0 get: 17)
 					(= global153 (+ global153 (- 250 temp0)))
 				else
-					(proc0_18 Ivana_b 790 13 108)
+					(proc0_18 Ivana 790 13 108)
 					(gLarry put: 18 0 get: 0)
 				)
 				(proc0_3)
@@ -230,33 +230,33 @@
 				(cond 
 					((gLarry has: 18)
 						(if (proc0_6 6)
-							(proc0_18 Ivana_b 790 16 108)
+							(proc0_18 Ivana 790 16 108)
 						else
-							(proc0_18 Ivana_b 790 17 108)
+							(proc0_18 Ivana 790 17 108)
 						)
 					)
-					((proc0_6 6) (proc0_18 Ivana_b 790 18 108))
+					((proc0_6 6) (proc0_18 Ivana 790 18 108))
 					((not local0) (proc0_2) (global2 setScript: sTalk))
-					(else (proc0_18 Ivana_b 790 19 108))
+					(else (proc0_18 Ivana 790 19 108))
 				)
 			)
 			(4
 				(switch param2
 					(17
 						(cond 
-							((and (gLarry has: 18) (not (proc0_6 6))) (proc0_18 Ivana_b 790 20 108))
-							((proc0_6 6) (proc0_18 Ivana_b 790 21 108))
+							((and (gLarry has: 18) (not (proc0_6 6))) (proc0_18 Ivana 790 20 108))
+							((proc0_6 6) (proc0_18 Ivana 790 21 108))
 							((not local0) (proc0_2) (global2 setScript: sTalk))
 							((< global153 250)
 								(Format @temp1 790 22 global153)
 								(proc0_18 gLarry @temp1 67 -1 185)
-								(proc0_18 Ivana_b 790 23 108)
+								(proc0_18 Ivana 790 23 108)
 							)
 							(else
 								(Format @temp1 790 24 250)
 								(proc0_18 gLarry @temp1 67 -1 185)
 								(proc0_10 4 143)
-								(proc0_18 Ivana_b 790 25 108)
+								(proc0_18 Ivana 790 25 108)
 								(if (not (= global153 (- global153 250)))
 									(gLarry put: 17 0)
 								)
@@ -268,8 +268,8 @@
 					)
 					(0
 						(cond 
-							((proc0_6 6) (proc0_18 Ivana_b 790 26 108))
-							((gLarry has: 18) (proc0_18 Ivana_b 790 27 108))
+							((proc0_6 6) (proc0_18 Ivana 790 26 108))
+							((gLarry has: 18) (proc0_18 Ivana 790 27 108))
 							(else (proc0_2) (global2 setScript: sCamcorder))
 						)
 					)
@@ -278,7 +278,7 @@
 							(proc0_2)
 							(global2 setScript: sRollerblades)
 						else
-							(proc0_18 Ivana_b 790 28 108)
+							(proc0_18 Ivana 790 28 108)
 						)
 					)
 					(else 
@@ -492,7 +492,7 @@
 	)
 )
 
-(instance Ivana_b of Talker
+(instance Ivana of Talker
 	(properties
 		nsTop 15
 		nsLeft 20
