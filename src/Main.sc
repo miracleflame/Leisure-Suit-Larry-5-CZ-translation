@@ -701,7 +701,7 @@
 		(= global181 {mm/dd/yy})
 		(= global182 {991-999-9999})
 		(= global112 {992-999-9999})
-		(= temp7 (FileIO 0 {verze} 1))
+		(= temp7 (FileIO 0 {Version} 1))
 		(FileIO 5 global27 11 temp7)
 		(FileIO 5 global181 20 temp7)
 		(FileIO 5 global182 20 temp7)
