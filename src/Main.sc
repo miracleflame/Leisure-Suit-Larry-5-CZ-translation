@@ -561,16 +561,11 @@
 	(SetPort 0)
 	(Display
 		&rest theRest
-		dsALIGN
-		dsCOLOR		1
-		param2
-		dsFONT
-		global175
-		dsWIDTH
-		318
-		dsCOORD
-		1
-		(- 89 (/ (* 14 param1) 2))
+		dsALIGN 1
+		dsCOLOR param2
+		dsFONT global175
+		dsWIDTH 318
+		dsCOORD 1 (- 89 (/ (* 14 param1) 2))
 	)
 	(SetPort temp0)
 )
