@@ -3,13 +3,13 @@
 Studio-kapesní-ochrana.
 'Model Roba Lowea'
 ^
-Výkon: %s
+Stav: %s
 
-Nabíjení: %d min %d sek
+Výdrž baterie: %d min %d sek
 
 
 ^Nenápadným prohozením modré propisky se žlutým zvýrazòovaèem vypneš videokameru.
-^Nabíjení: %d min %d sek
+^Výdrž baterie: %d min %d sek
 
 ^Vsunutím zeleného fixu mezi 0,5 mm mikrotužku a modrou propisku zapneš videokameru.
 ^Baterie vaší videokamery jsou vybité.
