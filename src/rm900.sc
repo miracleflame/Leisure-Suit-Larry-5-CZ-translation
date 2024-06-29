@@ -287,7 +287,7 @@
 		nsRight 239
 		description {budova}
 		sightAngle 40
-		lookStr {Jste pøed budovou, kde je zamìstnaná Chi Chi Lambada: "Nebeská dentální hygiena doktora Vytlhala". Hned pod ní je zavøené gymnastické studio: "Gymnastické centrum Gym-Dandy".}
+		lookStr {Jsi pøed budovou, kde je zamìstnaná Chi Chi Lambada: "Nebeská dentální hygiena doktora Vytlhala". Hned pod ní je zavøené gymnastické studio: "Gymnastické centrum Gym-Dandy".}
 	)
 )
 

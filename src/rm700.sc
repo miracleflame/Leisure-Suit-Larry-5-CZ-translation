@@ -822,7 +822,7 @@
 		x 120
 		y 100
 		description {cedule "Tramp"}
-		lookStr {Píše se na ní, že jste pøed Trampovým kasinem.}
+		lookStr {Píše se na ní, že jsi pøed Trampovým kasinem.}
 		view 700
 		loop 1
 		signal $4000

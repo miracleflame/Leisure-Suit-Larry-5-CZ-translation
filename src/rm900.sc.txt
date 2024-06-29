@@ -7,7 +7,7 @@
 {dveøe do zubaøské ordinace}
 {Dveøe vedoucí do Nebeské dentální hygieny doktora Vytlhala jsou odemèené.}
 {budova}
-{Jste pøed budovou, kde je zamìstnaná Chi Chi Lambada: "Nebeská dentální hygiena doktora Vytlhala". Hned pod ní je zavøené gymnastické studio: "Gymnastické centrum Gym-Dandy".}
+{Jsi pøed budovou, kde je zamìstnaná Chi Chi Lambada: "Nebeská dentální hygiena doktora Vytlhala". Hned pod ní je zavøené gymnastické studio: "Gymnastické centrum Gym-Dandy".}
 {chodník}
 {Pozornì si chodník prohlížíš a docházíš k závìru, že doktor Vytlhal do plombování dìr na chodníku moc neinvestuje!}
 {zeï}

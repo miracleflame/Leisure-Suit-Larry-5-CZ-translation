@@ -20,7 +20,7 @@
 )
 (instance rm790 of LLRoom
 	(properties
-		lookStr {Jste v jediném otevøeném obchodì na celé promenádì. Pøemýšlíš, proè se toto místo nepøipojí k oslavì narozenin Donalda Trampa.}
+		lookStr {Jsi v jediném otevøeném obchodì na celé promenádì. Pøemýšlíš, proè se toto místo nepøipojí k oslavì narozenin Donalda Trampa.}
 		picture 790
 		south 760
 	)

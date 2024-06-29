@@ -17,7 +17,7 @@
 
 (instance rm190 of LLRoom
 	(properties
-		lookStr {Jste pøed generálním øeditelstvím PPC, které se ukrývá ve smogu pod hollywoodskými kopci. Božíèku, jak se ti líbí být v showbyznysu!}
+		lookStr {Jsi pøed generálním øeditelstvím PPC, které se ukrývá ve smogu pod hollywoodskými kopci. Božíèku, jak se ti líbí být v showbyznysu!}
 		picture 190
 		north 160
 	)

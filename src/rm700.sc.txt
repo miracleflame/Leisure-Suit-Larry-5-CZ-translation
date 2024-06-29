@@ -20,7 +20,7 @@
 {žena vítající lidi v kasinu}
 {Trampovo kasino zamìstnává krásnou mladou ženu, která vítá všechny jeho vzácné návštìvníky.}
 {cedule "Tramp"}
-{Píše se na ní, že jste pøed Trampovým kasinem.}
+{Píše se na ní, že jsi pøed Trampovým kasinem.}
 {cedule "hrací automaty"}
 {Pøedpokládáš, že uvnitø musí být nìjaká forma mechanizovaného hazardu.}
 {svìtlo}
