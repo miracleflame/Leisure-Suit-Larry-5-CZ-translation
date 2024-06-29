@@ -552,7 +552,7 @@
 				@temp0
 				180
 				23
-				(if (proc0_6 0) {zrzavá} else {blondýnka})
+				(if (proc0_6 0) {zrzavá} else {blond})
 			)
 			(proc0_14 @temp0)
 		else

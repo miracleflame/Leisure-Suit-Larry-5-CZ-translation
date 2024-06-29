@@ -27,6 +27,6 @@
 {plakát dvojèat}
 {Tento plakát je tvùj oblíbený. Vždycky jsi mìl slabost pro dvojèata.}
 {zrzavá}
-{blondýnka}
+{blond}
 {role papíru}
 {Tady leží nìjaké nedùležité role papíru.}
