@@ -15,7 +15,7 @@
 {mm/dd/yy}
 {991-999-9999}
 {992-999-9999}
-{verze}
+{Version}
 {Takže už odcházíš?}
 {Mìjte se, vy dva.}
 {Hele! Zpátky do práce!}
