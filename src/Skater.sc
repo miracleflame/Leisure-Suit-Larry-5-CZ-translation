@@ -1011,7 +1011,7 @@
 		nsLeft 140
 		view 1795
 		loop 1
-		name "Lana Luscious"
+		name "Lana Lahodná"
 	)
 	
 	(method (init)
@@ -1033,7 +1033,7 @@
 		view 1731
 		loop 3
 		viewInPrint 1
-		name "Lana Luscious"
+		name "Lana Lahodná"
 	)
 	
 	(method (init)

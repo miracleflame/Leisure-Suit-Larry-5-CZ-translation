@@ -42,7 +42,7 @@
 				(= ticks 30)
 			)
 			(3
-				(proc0_18 You 380 1 108 139 self) ; "You were right, Inspector Desmond. But for a while there, I was really stumped!"
+				(proc0_18 Ty 380 1 108 139 self) ; "You were right, Inspector Desmond. But for a while there, I was really stumped!"
 			)
 			(4
 				(= ticks 30)
@@ -62,16 +62,16 @@
 			(9
 				(cond
 					((proc0_6 118)
-						(proc0_18 You 380 4 108 139 self) ; "It was easy. I got past that guard in the Shill Building Lobby just by showing him the DataMan\05 into which I had inserted Reverse Biaz's cartridge."
+						(proc0_18 Ty 380 4 108 139 self) ; "It was easy. I got past that guard in the Shill Building Lobby just by showing him the DataMan\05 into which I had inserted Reverse Biaz's cartridge."
 					)
 					((proc0_6 119)
-						(proc0_18 You 380 5 108 139 self) ; "It was easy. I got past that guard in the Shill Building Lobby just by showing him Reverse Biaz's fax."
+						(proc0_18 Ty 380 5 108 139 self) ; "It was easy. I got past that guard in the Shill Building Lobby just by showing him Reverse Biaz's fax."
 					)
 					((proc0_6 48) ; fDirectorySol
-						(proc0_18 You 380 6 108 139 self) ; "It was easy. I got past that guard in the Shill Building Lobby just by finding Reverse Biaz's office in the building directory."
+						(proc0_18 Ty 380 6 108 139 self) ; "It was easy. I got past that guard in the Shill Building Lobby just by finding Reverse Biaz's office in the building directory."
 					)
 					(else
-						(proc0_18 You 380 7 108 139 self) ; "I had real trouble there, Inspector. I never could figure out any way to get past that guard in the Shill Building Lobby."
+						(proc0_18 Ty 380 7 108 139 self) ; "I had real trouble there, Inspector. I never could figure out any way to get past that guard in the Shill Building Lobby."
 					)
 				)
 			)
@@ -91,10 +91,10 @@
 			)
 			(13
 				(if (gLarry has: 5) ; Michelle_Milken_s_Resume
-					(proc0_18 You 380 10 108 139 self) ; "While upstairs in des Rever's outer office, I found a gold record which I think might contain some valuable evidence. Here, take it!"
+					(proc0_18 Ty 380 10 108 139 self) ; "While upstairs in des Rever's outer office, I found a gold record which I think might contain some valuable evidence. Here, take it!"
 					(gLarry put: 5) ; Michelle_Milken_s_Resume
 				else
-					(proc0_18 You 380 11 108 139 self) ; "I couldn't find anything interesting in des Rever's outer office."
+					(proc0_18 Ty 380 11 108 139 self) ; "I couldn't find anything interesting in des Rever's outer office."
 				)
 			)
 			(14
@@ -102,14 +102,14 @@
 			)
 			(15
 				(if (proc0_6 122)
-					(proc0_18 You 380 12 108 139 self) ; "I discovered the gold record could actually be played on a stereo system there. It sounded fine."
+					(proc0_18 Ty 380 12 108 139 self) ; "I discovered the gold record could actually be played on a stereo system there. It sounded fine."
 				else
 					(= cycles 2)
 				)
 			)
 			(16
 				(if (proc0_6 123)
-					(proc0_18 You 380 13 108 139 self) ; "But when I played the gold record in reverse at 33-1/3, I heard a strange message. It should be proof positive of the vicious things they've been doing!"
+					(proc0_18 Ty 380 13 108 139 self) ; "But when I played the gold record in reverse at 33-1/3, I heard a strange message. It should be proof positive of the vicious things they've been doing!"
 				else
 					(= cycles 2)
 				)
@@ -122,9 +122,9 @@
 			)
 			(19
 				(if (proc0_6 126)
-					(proc0_18 You 380 15 108 139 self) ; "Actually, the studio session went pretty well, Boss. After a couple of tries, I started really cookin'!"
+					(proc0_18 Ty 380 15 108 139 self) ; "Actually, the studio session went pretty well, Boss. After a couple of tries, I started really cookin'!"
 				else
-					(proc0_18 You 380 16 108 139 self) ; "I'm sorry, but I just couldn't, Inspector."
+					(proc0_18 Ty 380 16 108 139 self) ; "I'm sorry, but I just couldn't, Inspector."
 				)
 			)
 			(20
@@ -133,15 +133,15 @@
 			(21
 				(cond
 					((proc0_6 127)
-						(proc0_18 You 380 17 108 139 self) ; "You'll love this, Boss! I just used an old technique with which I'm quite familiar! I grabbed some champagne from my limo and got Reverse drunk! So drunk, in fact, he gave me this cassette tape to impress me."
+						(proc0_18 Ty 380 17 108 139 self) ; "You'll love this, Boss! I just used an old technique with which I'm quite familiar! I grabbed some champagne from my limo and got Reverse drunk! So drunk, in fact, he gave me this cassette tape to impress me."
 						(gLarry put: 6) ; Hard_Disk_Cafe_Napkin
 					)
 					((proc0_6 128)
-						(proc0_18 You 380 18 108 139 self) ; "Gosh, Boss. I just used an old technique with which I'm quite familiar! Here's the tape I, uh, `talked' him out of!"
+						(proc0_18 Ty 380 18 108 139 self) ; "Gosh, Boss. I just used an old technique with which I'm quite familiar! Here's the tape I, uh, `talked' him out of!"
 						(gLarry put: 6) ; Hard_Disk_Cafe_Napkin
 					)
 					((proc0_6 129)
-						(proc0_18 You 380 19 108 139 self) ; "Here's the tape I, uh, `talked' him out of!"
+						(proc0_18 Ty 380 19 108 139 self) ; "Here's the tape I, uh, `talked' him out of!"
 						(gLarry put: 6) ; Hard_Disk_Cafe_Napkin
 					)
 					(else
@@ -164,9 +164,9 @@
 			)
 			(26
 				(if (proc0_6 150)
-					(proc0_18 You 380 23 108 139 self) ; "Well, I sneaked into John Krapper's office just as the receptionist came back from her break."
+					(proc0_18 Ty 380 23 108 139 self) ; "Well, I sneaked into John Krapper's office just as the receptionist came back from her break."
 				else
-					(proc0_18 You 380 24 108 139 self) ; "Sorry, Boss, but I couldn't even get past the K-RAP lobby! They really had tight security!"
+					(proc0_18 Ty 380 24 108 139 self) ; "Sorry, Boss, but I couldn't even get past the K-RAP lobby! They really had tight security!"
 				)
 			)
 			(27
@@ -184,10 +184,10 @@
 				(= ticks 60)
 			)
 			(30
-				(proc0_18 You 380 27 108 139 self) ; "I searched John Krapper's desk and discovered a folder filled with what looked like incriminating evidence to me!"
+				(proc0_18 Ty 380 27 108 139 self) ; "I searched John Krapper's desk and discovered a folder filled with what looked like incriminating evidence to me!"
 			)
 			(31
-				(proc0_18 You 380 28 108 139 self) ; "I assumed he'd miss the folder if I stole it, so I used his photocopier to make copies of it. Here they are!"
+				(proc0_18 Ty 380 28 108 139 self) ; "I assumed he'd miss the folder if I stole it, so I used his photocopier to make copies of it. Here they are!"
 				(gLarry put: 11) ; DayTrotter
 			)
 			(32
@@ -197,10 +197,10 @@
 				(= ticks 60)
 			)
 			(34
-				(proc0_18 You 380 30 108 139 self) ; "And, besides that, I overheard what `2 Live 2 Screw' thought were private conversations. They didn't realize they were meeting in a room with an open microphone!"
+				(proc0_18 Ty 380 30 108 139 self) ; "And, besides that, I overheard what `2 Live 2 Screw' thought were private conversations. They didn't realize they were meeting in a room with an open microphone!"
 			)
 			(35
-				(proc0_18 You 380 31 108 139 self) ; "Although I nearly got trapped by P. C. Hammer, I recorded `2 Live 2 Screw' on a reel-to-reel tape."
+				(proc0_18 Ty 380 31 108 139 self) ; "Although I nearly got trapped by P. C. Hammer, I recorded `2 Live 2 Screw' on a reel-to-reel tape."
 			)
 			(36
 				(if (proc0_6 156)
@@ -212,7 +212,7 @@
 			)
 			(37
 				(if (not (proc0_6 156))
-					(proc0_18 You 380 34 108 139 self) ; "Uh, well, Inspector, I must confess: I left it on the tape recorder in the K-RAP control room. I'm sorry."
+					(proc0_18 Ty 380 34 108 139 self) ; "Uh, well, Inspector, I must confess: I left it on the tape recorder in the K-RAP control room. I'm sorry."
 				else
 					(= cycles 2)
 				)
@@ -258,7 +258,7 @@
 				(gLarry get: 13) ; Credit_Cards
 			)
 			(45
-				(proc0_18 You 380 41 108 139 self) ; "Oh, great! I'll wear it to my next heavy metal gig."
+				(proc0_18 Ty 380 41 108 139 self) ; "Oh, great! I'll wear it to my next heavy metal gig."
 			)
 			(46
 				(proc0_18 Desmond 380 42 108 139 self) ; "He laughs, "And that may be sooner than you think, Patti!""
@@ -293,7 +293,7 @@
 	)
 )
 
-(instance You of Talker
+(instance Ty of Talker
 	(properties
 		x 140
 		y 180

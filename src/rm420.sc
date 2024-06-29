@@ -135,7 +135,7 @@
 		view 1420
 		loop 3
 		talkWidth 200
-		name "Inspector Desmond"
+		name "Inspektor Desmond"
 	)
 	
 	(method (init)
@@ -168,6 +168,7 @@
 		nsLeft 199
 		view 1421
 		loop 3
+		name "Ty"
 	)
 	
 	(method (init)

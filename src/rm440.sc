@@ -533,7 +533,7 @@
 		view 1430
 		loop 3
 		viewInPrint 1
-		name "Commander Twit"
+		name "Velitel Magor"
 	)
 	
 	(method (init)

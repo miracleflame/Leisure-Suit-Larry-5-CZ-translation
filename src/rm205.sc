@@ -494,7 +494,7 @@
 		nsLeft 192
 		view 1220
 		loop 3
-		name "President of C.A.N.E."
+		name "Prezident K.L.A.C.K.u"
 	)
 	
 	(method (init)
@@ -570,7 +570,7 @@
 		view 1225
 		loop 3
 		talkWidth 250
-		name "A C.A.N.E.-er"
+		name "Èlen K.L.A.C.K.u"
 	)
 	
 	(method (init)

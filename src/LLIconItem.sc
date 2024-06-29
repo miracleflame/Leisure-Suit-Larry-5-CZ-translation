@@ -584,7 +584,7 @@
 		cursor 941
 		signal $0002
 		description {èasopis}
-		name "AeroDork's In-Flight Magazine"
+		name "Letový èasopis AeroBlb"
 	)
 	
 	(method (doVerb theVerb param2)

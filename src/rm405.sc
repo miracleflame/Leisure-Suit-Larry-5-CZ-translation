@@ -78,7 +78,7 @@
 		view 1407
 		loop 3
 		viewInPrint 1
-		name "the Piano Pit Manager"
+		name "Provozní Piánové Nory"
 	)
 	
 	(method (init)

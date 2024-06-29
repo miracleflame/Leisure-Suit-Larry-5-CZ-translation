@@ -40,6 +40,7 @@
 		nsLeft 168
 		view 1416
 		loop 3
+		name "Ty"
 	)
 	
 	(method (init)
@@ -65,7 +66,7 @@
 		view 1415
 		loop 3
 		talkWidth 160
-		name "Inspector Desmond"
+		name "Inspektor Desmond"
 	)
 	
 	(method (init)

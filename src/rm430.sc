@@ -839,7 +839,7 @@
 		view 1430
 		loop 3
 		viewInPrint 1
-		name "Commander Twit"
+		name "Velitel Magor"
 	)
 	
 	(method (init)
@@ -880,7 +880,7 @@
 		view 1431
 		loop 3
 		viewInPrint 1
-		name "Inspector Desmond"
+		name "Inspektor Desmond"
 	)
 	
 	(method (init)

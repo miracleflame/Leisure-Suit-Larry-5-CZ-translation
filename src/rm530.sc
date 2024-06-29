@@ -790,7 +790,7 @@
 		view 1530
 		loop 3
 		viewInPrint 1
-		name "Michelle Milken"
+		name "Michelle Milkenová"
 	)
 	
 	(method (init)

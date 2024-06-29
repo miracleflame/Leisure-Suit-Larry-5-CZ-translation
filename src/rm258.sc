@@ -62,9 +62,9 @@
 		)
 	)
 	(if (or (< [cpTime which] 900) (>= [cpTime which] 1200))
-		(StrCpy @str {odpoledne})
+		(StrCpy @str {})
 	else
-		(StrCpy @str {ráno})
+		(StrCpy @str {})
 	)
 	(Format ; "%2d:%02d %s"
 		@departTime

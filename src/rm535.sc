@@ -653,7 +653,7 @@
 		view 1535
 		loop 1
 		talkWidth 300
-		name "Michelle Milken"
+		name "Michelle Milkenová"
 	)
 	
 	(method (init)

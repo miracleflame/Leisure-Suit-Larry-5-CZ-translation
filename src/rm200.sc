@@ -344,7 +344,7 @@
 		y 38
 		description {okno zaruèující soukromí}
 		sightAngle 40
-		lookStr {Kus zvukotìsného skla blokuje konverzaci mezi vámi a øidièem.}
+		lookStr {Kus zvukotìsného skla blokuje konverzaci mezi tebou a øidièem.}
 		yStep 4
 		view 200
 		cel 3
@@ -411,7 +411,7 @@
 		x 73
 		y 181
 		description {tvoje noha}
-		lookStr {Vždycky jsi mìl pocit, že tvé nohy jsou jednou z tvých lepších pøedností.}
+		lookStr {Vždycky jsi mìla pocit, že tvé nohy jsou jednou z tvých lepších pøedností.}
 		view 202
 		loop 3
 		priority 13
@@ -717,7 +717,7 @@
 		nsRight 279
 		description {videokazety}
 		sightAngle 40
-		lookStr {V tom stojanu je spousta videokazet, které bys rád vidìl. Ale videorekordér je bohužel rozbitý!}
+		lookStr {V tom stojanu je spousta videokazet, které stojí za zhlédnutí. Ale videorekordér je bohužel rozbitý!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -834,7 +834,7 @@
 		description {dveøe skøínì}
 		sightAngle 40
 		onMeCheck $0002
-		lookStr {Pod pravým pøedním sedadlem spolujezdce se nachází malá uzamèená pøihrádka na alkohol. Pøemýšlíš, kdy pøijde øada na tebe, abys mohl žít na vysoké noze.}
+		lookStr {Pod pravým pøedním sedadlem spolujezdce se nachází malá uzamèená pøihrádka na alkohol. Pøemýšlíš, kdy pøijde øada na tebe žít na vysoké noze.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1773,7 +1773,7 @@
 						(proc0_18 gLarry 200 92)
 						(proc0_14 200 93 80 {Donald})
 						(proc0_18 gLarry 200 94)
-						(proc0_14 200 95 80 {The Donald})
+						(proc0_14 200 95 80 {Donald})
 					)
 					(2
 						(proc0_18 gLarry 200 96)

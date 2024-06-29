@@ -1147,7 +1147,7 @@
 		view 1622
 		loop 3
 		viewInPrint 1
-		name "The Guard"
+		name "Strážný"
 	)
 	
 	(method (init)

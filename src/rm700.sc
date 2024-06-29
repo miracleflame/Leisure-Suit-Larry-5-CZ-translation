@@ -1409,6 +1409,7 @@
 		view 1703
 		loop 3
 		viewInPrint 1
+		name "Vrátní"
 	)
 	
 	(method (init)

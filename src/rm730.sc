@@ -786,7 +786,7 @@
 		view 1732
 		loop 3
 		viewInPrint 1
-		name "The Bouncer"
+		name "Vyhazovaè"
 	)
 	
 	(method (init)

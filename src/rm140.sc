@@ -204,6 +204,7 @@
 		view 1143
 		loop 3
 		viewInPrint 1
+		name "Frajer"
 	)
 	
 	(method (init)
