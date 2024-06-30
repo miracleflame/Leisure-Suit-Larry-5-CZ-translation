@@ -4,10 +4,10 @@
 {ryba}
 {V akváriu limuzíny je zlatá rybka, které se pøi jízdì autem dìlá špatnì.}
 {okno zaruèující soukromí}
-{Kus zvukotìsného skla blokuje konverzaci mezi vámi a øidièem.}
+{Kus zvukotìsného skla blokuje konverzaci mezi tebou a øidièem.}
 {DayTrotter\05}
 {tvoje noha}
-{Vždycky jsi mìl pocit, že tvé nohy jsou jednou z tvých lepších pøedností.}
+{Vždycky jsi mìla pocit, že tvé nohy jsou jednou z tvých lepších pøedností.}
 {televizor}
 {televizor}
 {telefon}
@@ -16,7 +16,7 @@
 {videorekordér}
 {Nad televizorem leží profesionální pøehrávaè videokazet.}
 {videokazety}
-{V tom stojanu je spousta videokazet, které bys rád vidìl. Ale videorekordér je bohužel rozbitý!}
+{V tom stojanu je spousta videokazet, které stojí za zhlédnutí. Ale videorekordér je bohužel rozbitý!}
 {akvárium}
 {Jak bizarní! Limuzína s akváriem!}
 {lahve a sklenice}
@@ -24,7 +24,7 @@
 {stereo}
 {V limuzínì je stereo s kazetovým i CD pøehrávaèem.}
 {dveøe skøínì}
-{Pod pravým pøedním sedadlem spolujezdce se nachází malá uzamèená pøihrádka na alkohol. Pøemýšlíš, kdy pøijde øada na tebe, abys mohl žít na vysoké noze.}
+{Pod pravým pøedním sedadlem spolujezdce se nachází malá uzamèená pøihrádka na alkohol. Pøemýšlíš, kdy pøijde øada na tebe žít na vysoké noze.}
 {Bobbi}
 {Bobbi}
 {Desmond}

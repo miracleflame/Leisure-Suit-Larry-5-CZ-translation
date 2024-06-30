@@ -1,5 +1,5 @@
-{odpoledne}
-{ráno}
+{}
+{}
 {V tuto chvíli nejsou k dispozici žádné palubní lístky. Zkuste to prosím znovu v jiném mìstì!}
 {Zadali jste nesprávnou destinaci pro toto letištì v tuto hodinu. Ale i tak si vážíme toho, že jste si vybrali AeroBlb Airlines.}
 {Hej! Vezmìte si svou zlatou kartu AeroBlb!}

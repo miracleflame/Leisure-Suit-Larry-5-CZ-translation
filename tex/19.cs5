@@ -10,7 +10,8 @@ Výdrž baterie:
 
 
 ^Nenápadným prohozením modré propisky se žlutým zvýrazòovaèem vypneš videokameru.
-^Výdrž baterie: %d min %d sek
+^Výdrž baterie:
+%d min %d sek
 
 ^Vsunutím zeleného fixu mezi 0,5 mm mikrotužku a modrou propisku zapneš videokameru.
 ^Baterie vaší videokamery jsou vybité.
@@ -156,8 +157,8 @@ OÈI         Oøíškové
 VÝŠKA       173 cm
 VÁHA        46 kg
 
-^POVOLÁNÍ    dentální hygienièka a
-            bývalá gymnastka
+^POVOLÁNÍ    dentální hygienièka
+            a bývalá gymnastka
 MÍSTA ZÁJMU tìlocvièna; kanceláø
 VZRUŠUJE JI odér šatny,
             dentální irigátory
