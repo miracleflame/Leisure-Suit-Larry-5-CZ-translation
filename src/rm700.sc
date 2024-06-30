@@ -725,7 +725,7 @@
 	(properties
 		x 141
 		y 162
-		description {Brewster}
+		description {vrátní}
 		sightAngle 40
 		approachX 133
 		approachY 165

@@ -12,7 +12,7 @@
 {Tvá limuzína se vrátila. Nebo možná nìjaká jí nápadnì podobná!}
 {pøední dveøe Trampova kasina}
 {Nad dveømi je malá bronzová deska s nápisem: "Tìmito dveømi prochází ti nejlepší lidé na svìtì - TI, KTERÉ PODOJÍME!"}
-{Brewster}
+{vrátní}
 {Trampovo kasino promyšlenì poskytuje vrátného, který uspokojí každou vaši cestovní potøebu - pokud ovšem potøebujete jen to, aby vám pøivolal limuzínu!}
 {Ne, dìkuji}
 {Ano, prosím}
