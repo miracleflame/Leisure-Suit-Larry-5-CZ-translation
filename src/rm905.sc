@@ -1112,7 +1112,7 @@
 		nsLeft 20
 		nsBottom 157
 		nsRight 37
-		description {ubrousek}
+		description {šála}
 		sightAngle 40
 		approachX 287
 		approachY 159

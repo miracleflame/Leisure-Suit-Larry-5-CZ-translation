@@ -1206,8 +1206,8 @@
 		view 962
 		cursor 962
 		signal $0002
-		description {ubrousek}
-		name "Ubrousek"
+		description {šála}
+		name "Šála"
 	)
 	
 	(method (doVerb theVerb param2)
