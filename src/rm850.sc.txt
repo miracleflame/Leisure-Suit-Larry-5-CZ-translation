@@ -7,7 +7,7 @@
 {Tyto dveøe vedou zpìt do kanceláøe Johna Hejzla.}
 {sprcha}
 {Hejzlùv hajzl}
-{Vyroben z ruènì vytesaného, zlatì skvrnitého mramoru s pozlacenou rukojetí a sedátkem potaženým kožichem jezevce - je ti jasné, že tenhle chlap se ve tvorbì žumpy na rádiu K-RAP opravdu vyzná!}.
+{Vyroben z ruènì vytesaného, zlatì skvrnitého mramoru s pozlacenou rukojetí a sedátkem potaženým kožichem jezevce - je ti jasné, že tenhle chlap se ve tvorbì žumpy na rádiu K-RAP opravdu vyzná!}
 {okno}
 {Obrovské okno z tabulového skla shlíží na krásnou záøi noèního centra Filadelfie.}
 {závìsy}

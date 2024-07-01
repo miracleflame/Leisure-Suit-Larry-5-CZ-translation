@@ -46,4 +46,3 @@
 {Dìkujeme, že jste si koupili "Larryho 5"!}
 {Pamatujte na slogan Ala Lowa:}
 {Lepší baby díky\ntechnologii!}
-
