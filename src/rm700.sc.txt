@@ -59,7 +59,7 @@
 {Je v jedné z tvých oblíbených pozic... na ceduli!}
 {dívka}
 {A vy jste se tak báli, že jste za tuhle hru vyhodili peníze!}
-{znaèka Tramp}
+{nápis Tramp}
 {Píše se tu, že jsi pøed Trampovým kasinem.}
 {svìtlo}
 {Není neon parádní?}

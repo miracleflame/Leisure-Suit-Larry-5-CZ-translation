@@ -15,11 +15,11 @@
 {rostlina}
 {židle}
 {popelník}
-{znaèka}
+{cedule}
 {pultík na prodej vstupenek}
 {dveøe}
-{znaèka}
-{znaèka}
-{znaèka}
-{znaèka}
+{cedule}
+{cedule}
+{cedule}
+{cedule}
 {bezpeènostní kamera}

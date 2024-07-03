@@ -14,7 +14,7 @@
 {Jak psi hláskují úlevu? "H-Y-D-R-A-N-T"}
 {auto}
 {Zajímalo by tì, který trouba z kanceláøe budovy Shill jezdí takovým šrotem?}
-{znaèka Shill}
+{nápis Shill}
 {Patti, je na ní napsáno "SHILL".}
 {odraz}
 {Nezírej do slunce, Patti! Oslepneš!}

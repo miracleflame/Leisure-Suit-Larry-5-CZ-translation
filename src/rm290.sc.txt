@@ -5,7 +5,7 @@
 {Miami}
 {idle}
 {dveøe vedoucí k letadlu}
-{nástupní znaèka}
+{nástupní nápis}
 {automat na palubní lístky}
 {konvice na kávu}
 {skøíòka na kávu}

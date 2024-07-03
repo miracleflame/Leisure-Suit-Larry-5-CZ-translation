@@ -24,10 +24,10 @@
 {telefon}
 {telefon}
 {telefon}
-{znaèka}
-{znaèka}
-{znaèka}
-{znaèka}
+{cedule}
+{cedule}
+{cedule}
+{cedule}
 {telefonní seznam}
 {telefonní seznam}
 {Miami}
