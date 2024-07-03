@@ -9,7 +9,7 @@
 {automat na palubní lístky}
 {konvice na kávu}
 {skøíòka na kávu}
-{svítidlo}
+{svìtlo}
 {krásný obraz}
 {Vždycky jsi obdivoval obrazy na sametu!}
 {krásný obraz}
