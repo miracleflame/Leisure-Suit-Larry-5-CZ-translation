@@ -52,7 +52,7 @@
 {Ne}
 {Ano}
 {Ne}
-{šála}
+{ubrousek}
 {telefon}
 {stùl}
 {Mùžeš øíct, že to tu vyzdobila doktorova žena. Trpí smrtelnou roztomilostí!}
