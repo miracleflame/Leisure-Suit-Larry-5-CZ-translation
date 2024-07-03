@@ -4,9 +4,9 @@
 {tvoje limuzína}
 {Proè všechny ty limuzíny vypadají stejnì?}
 {vstupní dveøe}
-{Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Cafe".}
+{Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Café".}
 {vstupní dveøe}
-{Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Cafe".}
+{Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Café".}
 {lávová lampa}
 {Páni! Obøí lávová lampa! (Tyhle vìci jsi vždycky miloval!)}
 {lávová lampa}

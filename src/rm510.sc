@@ -29,7 +29,7 @@
 )
 (instance rm510 of LLRoom
 	(properties
-		lookStr {V hale "Hard Disk Cafe" je k vidìní nesmírnì vzrušující (pro nerdy) výstava starých poèítaèových pamìtihodností. Pøi pouhém pohledu na tohle místo se ti zrychlí tep.}
+		lookStr {V hale "Hard Disk Café" je k vidìní nesmírnì vzrušující (pro nerdy) výstava starých poèítaèových pamìtihodností. Pøi pouhém pohledu na tohle místo se ti zrychlí tep.}
 		picture 510
 		north 525
 		south 500

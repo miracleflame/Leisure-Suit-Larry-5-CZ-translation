@@ -333,7 +333,7 @@
 		sightAngle 40
 		approachX 154
 		approachY 144
-		lookStr {Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Cafe".}
+		lookStr {Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Café".}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -354,7 +354,7 @@
 		sightAngle 40
 		approachX 154
 		approachY 144
-		lookStr {Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Cafe".}
+		lookStr {Kdybys pøišel na to, jak otevøít tyhle dveøe, mohl bys vstoupit do "Kavárny Hard Disk Café".}
 		view 500
 		loop 2
 		entranceTo 510

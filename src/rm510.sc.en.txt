@@ -1,4 +1,4 @@
-{The lobby of "The Hard Disk Cafe" is filled with a tremendously exciting (to nerds) display of ancient computer memorabilia. Your pulse quickens just looking around the place.}
+{The lobby of "Hard Disk Café" is filled with a tremendously exciting (to nerds) display of ancient computer memorabilia. Your pulse quickens just looking around the place.}
 {How much do you wish to bribe the Maitre d'.}
 {Grease That Palm}
 {the telephone}

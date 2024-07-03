@@ -24,7 +24,7 @@
 
 (instance rm520 of LLRoom
 	(properties
-		lookStr {Právì se díváš na exkluzivní èteèku papírových èlenských pásek podniku "Hard Disk Cafe". Ta kontroluje, jestli máš povolení vejít dovnitø do klubu.}
+		lookStr {Právì se díváš na exkluzivní èteèku papírových èlenských pásek podniku "Hard Disk Café". Ta kontroluje, jestli máš povolení vejít dovnitø do klubu.}
 		picture 520
 	)
 	

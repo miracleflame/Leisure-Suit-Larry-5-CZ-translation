@@ -59,7 +59,7 @@
 
 (instance rm535 of LLRoom
 	(properties
-		lookStr {Sedíš s nádhernou Michelle Milkenovou v exkluzivní soukromé kabince v exkluzivním sále Hermana Holleritha v exkluzivní kavárnì Hard Disk Cafe v exkluzivním New Yorku a usilovnì se snažíš nezírat pøes její prùsvitnou halenku.}
+		lookStr {Sedíš s nádhernou Michelle Milkenovou v exkluzivní soukromé kabince v exkluzivním sále Hermana Holleritha v exkluzivní kavárnì Hard Disk Café v exkluzivním New Yorku a usilovnì se snažíš nezírat pøes její prùsvitnou halenku.}
 		picture 535
 	)
 	

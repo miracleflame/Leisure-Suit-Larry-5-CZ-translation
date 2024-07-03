@@ -4,9 +4,9 @@
 {your limousine}
 {Why do all these limos look alike?}
 {the front door}
-{If you could figure out how to open this door, you might enter "The Hard Disk Cafe."}
+{If you could figure out how to open this door, you might enter "Hard Disk Cafe."}
 {the front door}
-{If you could figure out how to open this door, you might enter "The Hard Disk Cafe."}
+{If you could figure out how to open this door, you might enter "Hard Disk Cafe."}
 {the lava lamp}
 {Wow! A giant lava lamp! (You've always loved those things!)}
 {the lava lamp}
