@@ -3,7 +3,7 @@
 {V tuto chvíli nejsou k dispozici žádné palubní lístky. Zkuste to prosím znovu v jiném mìstì!}
 {Zadali jste nesprávnou destinaci pro toto letištì v tuto hodinu. Ale i tak si vážíme toho, že jste si vybrali AeroBlb Airlines.}
 {Hej! Vezmìte si svou zlatou kartu AeroBlb!}
-{Podívej, ty blbeèku. Jestli se nìkam zatouláš a necháš tu kartu tady, postarám se o to, aby tvoje zavazadla letìla bez mezipøistání do Muncie v Indianì!}
+{Hele, blbeèku. Jestli tu svou kartu necháš tady, zaøídím, aby tvoje kufry letìly bez mezipøistání do Muncie v Indianì!}
 {Fajn. Ignoruju tì.}
 {palubní lístek}
 {Aha, to jste vy, pane Hughesi! Samozøejmì, že mùžete mít palubní lístek! Hned to bude, pane!}
