@@ -2,7 +2,7 @@
 {záznamy z videokamery}
 {Našel jsi je! Tohle jsou pásky, které potøebuješ do své nové videokamery alá kapesní pouzdro.}
 {dveøe do haly}
-{Dveøe do haly ti pøipadají tak známé. Nejspíš proto, že jsi tudy vstoupil do této místnosti! Vzadu visí tvùj kalendáø "Videotechnikova dìvèata", otevøený na stranì Miss øíjen, která má (podle tvého názoru) nejlepší "kotouèe" z celé party!}
+{Dveøe do haly ti pøipadají tak známé. Nejspíš proto, že jsi tudy vstoupil do této místnosti! Na zadní stranì dveøí visí tvùj kalendáø "Videotechnikova dìvèata", otevøený na stranì Miss øíjen, která má (podle tvého názoru) nejlepší "kotouèe" z celé party!}
 {demagnetizér}
 {Tvùj demagnetizér, který používáš na pøemazávání kazet, leží na pracovním stole.}
 {zásuvka}
