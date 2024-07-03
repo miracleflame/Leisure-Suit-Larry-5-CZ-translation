@@ -20,7 +20,7 @@
 {Pet Computer}
 {Pet Computer jsi nevidìl od prvních dnù "InfoWorldu"!}
 {poèítaè Apple II}
-{První poèítaèové zuby jsi si vylámal na starém poèítaèi Apple II s Integer BASICem. Nebyl to ani model Plus!}
+{První poèítaèové zuby sis vylámal na starém poèítaèi Apple II s Integer BASICem. Nebyl to ani model Plus!}
 {pokladna}
 {Tento miláèek spoleènosti NCR byl jednou z prvních pokladen øízených mikroprocesorem.}
 {monitor se zelenou obrazovkou}
