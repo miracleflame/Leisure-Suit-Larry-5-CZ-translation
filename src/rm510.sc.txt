@@ -37,8 +37,8 @@
 {Tahle židle je urèená výhradnì pro vrchního.}
 {nástìnka}
 {Na nástìnce jsou fotografie slavných nerdù, kteøí sem èasto chodí!}
-{pódium vrchního}
-{Pódium vrchního je tak akorát velké, aby se za nìj mohl schovat, když po nìm dav zaène házet vìci!}
+{pult vrchního}
+{Pult vrchního je akorát tak velký, aby se za nìj mohl schovat, když po nìm dav zaène házet vìci!}
 {stùl}
 {Pøál by sis mít takový pìkný stùl ve své mizerné kanceláøi.}
 {kaktus}
