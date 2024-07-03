@@ -27,7 +27,7 @@
 {chlupaté kostky}
 {Tvým jediným pokusem o výzdobu tvého pracovního prostoru je polovina páru chlupatých kostek, které ti zbyly z tvého Brouka z roku 74.}
 {tvùj osmistopý pøehrávaè}
-{Na tvém pracovním stole leží tvùj vìrný osmistopý magnetofon Strombug Carlton. Aèkoliv máš v poslední dobì problémy se shánìním nových kazet, poøád ti to hezky hraje.}
+{Na tvém pracovním stole leží tvùj vìrný osmistopý magnetofon Strombug Carlton. Aèkoliv máš v poslední dobì problémy se shánìním nových kazet, poøád ten magnetofon hezky hraje.}
 {Jakou osmistopou kazetu chceš pøehrát?}
 {__The Larry Song__}
 { Record des Rever_}
