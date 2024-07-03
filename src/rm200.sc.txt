@@ -5,7 +5,7 @@
 {V akváriu limuzíny je zlatá rybka, které se pøi jízdì autem dìlá špatnì.}
 {okno zaruèující soukromí}
 {Kus zvukotìsného skla blokuje konverzaci mezi tebou a øidièem.}
-{DayTrotter\05}
+{diáø}
 {tvoje noha}
 {Vždycky jsi mìla pocit, že tvé nohy jsou jednou z tvých lepších pøedností.}
 {televizor}
