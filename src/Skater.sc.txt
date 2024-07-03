@@ -28,11 +28,11 @@
 {Vzdálená strana Trampovy promenády je lemována nevkusnými, lacinými turistickými pastmi. Skrz budovy vykukuje kousek modré oblohy.}
 {lavièka}
 {Dlouhá øada lavièek èeká na tvé potìšení z posezení podél strany promenády, u které je oceán.}
+{sloup}
+{Tyto sloupy drží promenádu.}
 {sloupek}
-{Tyto sloupky drží promenádu.}
+{Tyto sloupy drží promenádu.}
 {sloupek}
-{Tyto sloupky drží promenádu.}
+{Tyto sloupy drží promenádu.}
 {sloupek}
-{Tyto sloupky drží promenádu.}
-{sloupek}
-{Tyto sloupky drží promenádu.}
+{Tyto sloupy drží promenádu.}
