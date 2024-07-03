@@ -2,11 +2,11 @@
 {Opravdu? Ukaž mi to!}
 {Uups}
 {Výkonný producent\n\nKen Williams}
-{Kreativní øeditel\n\nBill Davis}
-{Hlavní øeditel\n\nAl Lowe}
+{Kreativní režisér\n\nBill Davis}
+{Hlavní režisér\n\nAl Lowe}
 {Producent\n\nGuruka Singh Khalsa}
 {Herní návrháø\n\nAl Lowe}
 {Produkèní návrháø\n\nAndy Hoyos}
-{Výtvarní návrháø\n\nJane Cardinal}
+{Výtvarný návrháø\n\nJane Cardinal}
 {Vedoucí programátor\n\nBrian K. Hughes}
 {Skladatel\n\nCraig Safan}
