@@ -584,7 +584,7 @@
 		cursor 941
 		signal $0002
 		description {èasopis}
-		name "Letový èasopis AeroBlb"
+		name "Palubní èasopis AeroBlb"
 	)
 	
 	(method (doVerb theVerb param2)
