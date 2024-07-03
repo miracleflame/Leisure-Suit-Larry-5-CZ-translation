@@ -4,7 +4,7 @@
 {svìtlo}
 {Dívat se do lampy je pro tebe osvícený zážitek.}
 {knihovna}
-{V této knihonì jsou jen samé knihy.}
+{V této knihovnì jsou jen samé knihy.}
 {obrázek aktu}
 {O umìní toho moc nevíš, ale nìco se ti na tom obraze zamlouvá!}
 {tvùj psací stùl}
