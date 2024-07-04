@@ -403,7 +403,7 @@
 		nsLeft 121
 		nsBottom 138
 		nsRight 199
-		description {znaèka Shill}
+		description {nápis Shill}
 		sightAngle 40
 		lookStr {Patti, je na ní napsáno "SHILL".}
 	)

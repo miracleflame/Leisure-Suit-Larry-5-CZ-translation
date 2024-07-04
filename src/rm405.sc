@@ -78,7 +78,7 @@
 		view 1407
 		loop 3
 		viewInPrint 1
-		name "Provozní Pianové díry"
+		name "Provozní Piánové Nory"
 	)
 	
 	(method (init)

@@ -968,7 +968,7 @@
 		y 9
 		nsBottom 14
 		nsRight 47
-		description {znaèka}
+		description {cedule}
 		sightAngle 90
 		view 263
 		priority 4
@@ -999,7 +999,7 @@
 		nsLeft 62
 		nsBottom 15
 		nsRight 134
-		description {znaèka}
+		description {cedule}
 		sightAngle 90
 		view 263
 		priority 4
@@ -1033,7 +1033,7 @@
 		nsLeft 148
 		nsBottom 16
 		nsRight 221
-		description {znaèka}
+		description {cedule}
 		sightAngle 90
 		view 263
 		priority 4
@@ -1064,7 +1064,7 @@
 		nsLeft 295
 		nsBottom 31
 		nsRight 319
-		description {znaèka}
+		description {cedule}
 		sightAngle 90
 		view 263
 		priority 4

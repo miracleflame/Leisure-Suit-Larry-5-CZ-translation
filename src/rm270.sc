@@ -386,7 +386,7 @@
 		nsLeft 51
 		nsBottom 44
 		nsRight 114
-		description {znaèka}
+		description {cedule}
 		sightAngle 40
 	)
 	
@@ -677,7 +677,7 @@
 	(properties
 		x 11
 		y 11
-		description {znaèka}
+		description {cedule}
 		sightAngle 90
 		view 263
 	)
@@ -703,7 +703,7 @@
 	(properties
 		x 163
 		y 11
-		description {znaèka}
+		description {cedule}
 		sightAngle 90
 		view 263
 	)
@@ -732,7 +732,7 @@
 	(properties
 		x 249
 		y 11
-		description {znaèka}
+		description {cedule}
 		sightAngle 90
 		view 263
 	)
@@ -758,7 +758,7 @@
 	(properties
 		x 317
 		y 8
-		description {znaèka}
+		description {cedule}
 		sightAngle 90
 		view 263
 	)

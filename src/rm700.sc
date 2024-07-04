@@ -1455,7 +1455,7 @@
 		nsLeft 88
 		nsBottom 97
 		nsRight 154
-		description {znaèka Tramp}
+		description {nápis Tramp}
 		sightAngle 40
 		lookStr {Píše se tu, že jsi pøed Trampovým kasinem.}
 	)

@@ -29,7 +29,7 @@
 )
 (instance rm510 of LLRoom
 	(properties
-		lookStr {V hale "Hard Disk Café" je k vidìní nesmírnì vzrušující (pro nerdy) výstava starých poèítaèových pamìtihodností. Pøi pouhém pohledu na tohle místo se ti zrychlí tep.}
+		lookStr {V hale kavárny "Hard Disk Café" je k vidìní nesmírnì vzrušující (pro nerdy) výstava starých poèítaèových pamìtihodností. Pøi pouhém pohledu na tohle místo se ti zrychlí tep.}
 		picture 510
 		north 525
 		south 500
@@ -389,7 +389,7 @@
 					(proc255_2
 						@temp1
 						6
-						{Jak moc si pøeješ vrchnícho podplatit?}
+						{Jak moc si pøeješ vrchního podplatit?}
 						80
 						{Pìknì namazat dlaò}
 					)
@@ -1070,7 +1070,7 @@
 		view 1512
 		loop 3
 		viewInPrint 1
-		name "Vrchní"
+		name "maitre d'"
 	)
 	
 	(method (init)
@@ -1208,7 +1208,7 @@
 		description {poèítaè Apple II}
 		sightAngle 90
 		onMeCheck $0002
-		lookStr {První poèítaèové zuby jsi si vylámal na starém poèítaèi Apple II s Integer BASICem. Nebyl to ani model Plus!}
+		lookStr {První poèítaèové zuby sis vylámal na starém poèítaèi Apple II s Integer BASICem. Nebyl to ani model Plus!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1389,10 +1389,10 @@
 		nsLeft 55
 		nsBottom 95
 		nsRight 102
-		description {pódium vrchního}
+		description {pult vrchního}
 		sightAngle 40
 		onMeCheck $0002
-		lookStr {Pódium vrchního je tak akorát velké, aby se za nìj mohl schovat, když po nìm dav zaène házet vìci!}
+		lookStr {Pult vrchního je akorát tak velký, aby se za nìj mohl schovat, když po nìm dav zaène házet vìci!}
 	)
 )
 

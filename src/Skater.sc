@@ -1694,9 +1694,9 @@
 		nsLeft 51
 		nsBottom 189
 		nsRight 72
-		description {sloupek}
+		description {sloup}
 		sightAngle 40
-		lookStr {Tyto sloupky drží promenádu.}
+		lookStr {Tyto sloupy drží promenádu.}
 	)
 )
 
@@ -1710,7 +1710,7 @@
 		nsRight 149
 		description {sloupek}
 		sightAngle 40
-		lookStr {Tyto sloupky drží promenádu.}
+		lookStr {Tyto sloupy drží promenádu.}
 	)
 )
 
@@ -1724,7 +1724,7 @@
 		nsRight 221
 		description {sloupek}
 		sightAngle 40
-		lookStr {Tyto sloupky drží promenádu.}
+		lookStr {Tyto sloupy drží promenádu.}
 	)
 )
 
@@ -1738,6 +1738,6 @@
 		nsRight 309
 		description {sloupek}
 		sightAngle 40
-		lookStr {Tyto sloupky drží promenádu.}
+		lookStr {Tyto sloupy drží promenádu.}
 	)
 )

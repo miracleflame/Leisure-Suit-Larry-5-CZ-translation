@@ -584,7 +584,7 @@
 		cursor 941
 		signal $0002
 		description {èasopis}
-		name "Palubní èasopis AeroBlb"
+		name "Letový èasopis AeroBlb"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -644,7 +644,7 @@
 		view 943
 		cursor 943
 		signal $0002
-		description {the DayTrotter\05}
+		description {diáø}
 		name "DayTrotter"
 	)
 	
@@ -1206,7 +1206,7 @@
 		view 962
 		cursor 962
 		signal $0002
-		description {šála}
+		description {ubrousek}
 		name "Šála"
 	)
 	

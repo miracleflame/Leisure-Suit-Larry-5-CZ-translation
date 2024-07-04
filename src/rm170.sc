@@ -23,7 +23,7 @@
 )
 (instance rm170 of LLRoom
 	(properties
-		lookStr {Na tu svou skromnou dílnu jsi ohromnì pyšný.}
+		lookStr {Na tuhle svou skromnou dílnu jsi ohromnì pyšný.}
 		picture 170
 		east 160
 	)
@@ -310,7 +310,7 @@
 		description {dveøe do haly}
 		approachX 240
 		approachY 117
-		lookStr {Dveøe do haly ti pøipadají tak známé. Nejspíš proto, že jsi tudy vstoupil do této místnosti! Vzadu visí tvùj kalendáø "Videotechnikova dìvèata", otevøený na stranì Miss øíjen, která má (podle tvého názoru) nejlepší "kotouèe" z celé party!}
+		lookStr {Dveøe do haly ti pøipadají tak známé. Nejspíš proto, že jsi tudy vstoupil do této místnosti! Na zadní stranì dveøí visí tvùj kalendáø "Videotechnikova dìvèata", otevøený na stranì Miss øíjen, která má (podle tvého názoru) nejlepší "kotouèe" z celé party!}
 		view 171
 		loop 3
 		entranceTo 160
@@ -490,7 +490,7 @@
 		nsRight 240
 		description {tvùj barel sterilizátoru}
 		sightAngle 40
-		lookStr {Tento barel obsahuje sterilizaèní roztok, který používáš na všechny pøíchozí videokazety pøed jejich pøevinutím a distribuováním èlenùm konkurzního týmu ASHV.}
+		lookStr {Tento barel obsahuje sterilizaèní roztok, který používáš na všechny pøíchozí videokazety pøed jejich pøevinutím a distribuováním èlenùm konkurzního týmu Nejvíc sexy domácí videa Ameriky.}
 	)
 	
 	(method (doVerb theVerb param2 &tmp [temp0 100])
@@ -791,7 +791,7 @@
 		y 77
 		description {tvùj osmistopý pøehrávaè}
 		sightAngle 40
-		lookStr {Na tvém pracovním stole leží tvùj vìrný osmistopý magnetofon Strombug Carlton. Aèkoliv máš v poslední dobì problémy se shánìním nových kazet, poøád ti to hezky hraje.}
+		lookStr {Na tvém pracovním stole leží tvùj vìrný osmistopý magnetofon Strombug Carlton. Aèkoliv máš v poslední dobì problémy se shánìním nových kazet, poøád ten magnetofon hezky hraje.}
 		view 170
 		cel 2
 	)

@@ -217,7 +217,7 @@
 	(properties
 		x 153
 		y 62
-		description {nástupní znaèka}
+		description {nástupní nápis}
 		sightAngle 90
 		view 290
 		loop 2
@@ -378,7 +378,7 @@
 		nsLeft 140
 		nsBottom 45
 		nsRight 161
-		description {svítidlo}
+		description {svìtlo}
 		sightAngle 40
 	)
 	

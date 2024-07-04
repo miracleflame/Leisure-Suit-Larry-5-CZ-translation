@@ -197,7 +197,7 @@
 								)
 								(2
 									(Display
-										{Podívej, ty blbeèku. Jestli se nìkam zatouláš a necháš tu kartu tady, postarám se o to, aby tvoje zavazadla letìla bez mezipøistání do Muncie v Indianì!}
+										{Hele, blbeèku. Jestli tu svou kartu necháš tady, zaøídím, aby tvoje kufry letìly bez mezipøistání do Muncie v Indianì!}
 										dsCOORD
 										144
 										75

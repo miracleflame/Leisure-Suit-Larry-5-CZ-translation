@@ -119,12 +119,12 @@
 			)
 			(2
 				(global2 drawPic: (global2 picture?))
-				(localproc_048e {Kreativní øeditel\n\nBill Davis} 160)
+				(localproc_048e {Kreativní režisér\n\nBill Davis} 160)
 				(= seconds 4)
 			)
 			(3
 				(global2 drawPic: (global2 picture?))
-				(localproc_048e {Hlavní øeditel\n\nAl Lowe} 160)
+				(localproc_048e {Hlavní režisér\n\nAl Lowe} 160)
 				(= seconds 4)
 			)
 			(4
@@ -150,7 +150,7 @@
 			)
 			(8
 				(global2 drawPic: (global2 picture?))
-				(localproc_048e {Výtvarní návrháø\n\nJane Cardinal} 0)
+				(localproc_048e {Výtvarný návrháø\n\nJane Cardinal} 0)
 				(= seconds 4)
 			)
 			(9

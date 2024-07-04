@@ -375,7 +375,7 @@
 	(properties
 		x 8
 		y 187
-		description {DayTrotter\05}
+		description {diáø}
 		view 200
 		cel 1
 		priority 4

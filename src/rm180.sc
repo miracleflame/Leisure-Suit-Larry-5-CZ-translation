@@ -287,7 +287,7 @@
 		nsRight 201
 		description {knihovna}
 		sightAngle 40
-		lookStr {V této knihonì jsou jen samé knihy.}
+		lookStr {V této knihovnì jsou jen samé knihy.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -493,7 +493,7 @@
 		nsRight 273
 		description {vìtrák}
 		sightAngle 40
-		lookStr {Tohle je tvùj nejvìtší fanoušek!}
+		lookStr {Tohle je tvùj nejvìtší fukar!}
 	)
 	
 	(method (doVerb theVerb param2)

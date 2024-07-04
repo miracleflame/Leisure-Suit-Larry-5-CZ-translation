@@ -191,7 +191,7 @@
 		nsLeft 26
 		nsBottom 173
 		nsRight 62
-		description {sloup}
+		description {sloupek}
 		sightAngle 40
 		lookStr {Ty sloupy vypadají mnohem vyšší než shora.}
 	)

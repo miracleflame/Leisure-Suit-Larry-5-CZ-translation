@@ -430,7 +430,7 @@
 	(properties
 		x 224
 		y 67
-		description {znaèka}
+		description {cedule}
 		view 250
 	)
 	

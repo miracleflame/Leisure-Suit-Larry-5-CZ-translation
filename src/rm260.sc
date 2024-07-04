@@ -562,7 +562,7 @@
 	(properties
 		x 11
 		y 22
-		description {znaèka}
+		description {cedule}
 		view 263
 	)
 	
@@ -587,7 +587,7 @@
 	(properties
 		x 146
 		y 9
-		description {znaèka}
+		description {cedule}
 		view 263
 	)
 	
@@ -612,7 +612,7 @@
 	(properties
 		x 235
 		y 10
-		description {znaèka}
+		description {cedule}
 		view 263
 	)
 	
@@ -640,7 +640,7 @@
 	(properties
 		x 311
 		y 13
-		description {znaèka}
+		description {cedule}
 		view 263
 	)
 	
