@@ -1070,7 +1070,7 @@
 		view 1512
 		loop 3
 		viewInPrint 1
-		name "maitre d'"
+		name "Vrchní"
 	)
 	
 	(method (init)
