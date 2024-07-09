@@ -261,7 +261,7 @@
 		(Display
 			@temp0
 			dsCOORD
-			80
+			98
 			25
 			dsFONT
 			global23
@@ -277,7 +277,7 @@
 		(Display
 			@temp0
 			dsCOORD
-			153
+			170
 			25
 			dsFONT
 			global23
@@ -293,7 +293,7 @@
 		(Display
 			@temp0
 			dsCOORD
-			242
+			245
 			25
 			dsFONT
 			global23
