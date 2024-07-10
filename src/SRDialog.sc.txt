@@ -16,7 +16,7 @@
 { Zrušit_}
 {Zmìnit\0D\nsložku}
 { Smazat_}
-{Nahradit}
-{s:}
+{Nahradit uloženou pozici}
+{novou pozicí:}
 {Nahradit}
 {Zrušit}

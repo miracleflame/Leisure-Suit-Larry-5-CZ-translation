@@ -450,14 +450,14 @@
 
 (instance text1 of DText
 	(properties
-		text {Nahradit}
+		text {Nahradit uloženou pozici}
 		font 0
 	)
 )
 
 (instance text2 of DText
 	(properties
-		text {s:}
+		text {novou pozicí:}
 		font 0
 	)
 )
