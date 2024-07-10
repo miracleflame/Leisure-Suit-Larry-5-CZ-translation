@@ -16,7 +16,7 @@
 
 (instance rm780 of LLRoom
 	(properties
-		lookStr {Tak jsi to dokázal! Plaveš pod krásnou Trampovou promenádou a bájeènì se bavíš. Otázka zní: jak daleko od bøehu jsi?}
+		lookStr {Tak jsi to dokázal! Plaveš pod krásnou Trampovou prkenádou a bájeènì se bavíš. Otázka zní: jak daleko od bøehu jsi?}
 		picture 780
 		north 760
 		west 700
@@ -177,7 +177,7 @@
 		nsTop 12
 		nsBottom 96
 		nsRight 319
-		description {promenáda}
+		description {prkenáda}
 		sightAngle 40
 		lookStr {Máš zvláštní pocit - skoro jako bys nìkomu koukal pod sukni!}
 	)

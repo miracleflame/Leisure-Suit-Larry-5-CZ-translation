@@ -1134,7 +1134,7 @@
 		nsRight 319
 		description {stánek s hamburgery}
 		sightAngle 40
-		lookStr {To je vzrušující! Na Trampovì promenádì je restaurace, kde se podává mrtvá kráva!}
+		lookStr {To je vzrušující! Na Trampovì prkenádì je restaurace, kde se podává mrtvá kráva!}
 	)
 	
 	(method (init)
@@ -1160,9 +1160,9 @@
 		nsLeft 241
 		nsBottom 173
 		nsRight 319
-		description {promenáda}
+		description {prkenáda}
 		sightAngle 40
-		lookStr {Promenáda vede na východ a táhne se až tam, kam oko dohlédne.}
+		lookStr {Prkenáda vede na východ a táhne se až tam, kam oko dohlédne.}
 	)
 )
 

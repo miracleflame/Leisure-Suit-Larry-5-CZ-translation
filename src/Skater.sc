@@ -43,7 +43,7 @@
 )
 (instance rm760 of LLRoom
 	(properties
-		lookStr {Komercializace Trampovy krásné promenády se zdá bıt dokonèena. Podniky lemují kadı centimetr vzdálené strany promenády. Alespoò ta bliší strana zùstala otevøená pro rybáøe a bruslaøe.}
+		lookStr {Komercializace Trampovy krásné prkenády se zdá bıt dokonèena. Podniky lemují kadı centimetr vzdálené strany prkenády. Alespoò ta bliší strana zùstala otevøená pro rybáøe a bruslaøe.}
 		picture 760
 		north 790
 		east 760
@@ -718,7 +718,7 @@
 	(properties
 		y 117
 		description {Kravaák Bill}
-		lookStr {Na tuhle promenádu je a moc obleèenı!}
+		lookStr {Na tuhle prkenádu je a moc obleèenı!}
 		view 776
 		xStep 6
 		room 2
@@ -770,7 +770,7 @@
 	(properties
 		y 110
 		description {bruslaø}
-		lookStr {Nemìl jsi tušení, e na promenádì bude tolik bruslaøù!}
+		lookStr {Nemìl jsi tušení, e na prkenádì bude tolik bruslaøù!}
 		view 778
 		xStep 6
 		room 2
@@ -796,7 +796,7 @@
 	(properties
 		y 91
 		description {bruslaø}
-		lookStr {Bruslaø, kterı se nikdy nevzdálí od obchodù na druhé stranì promenády, najde opravdové štìstí, kdy své srdíèko rozbruslí!}
+		lookStr {Bruslaø, kterı se nikdy nevzdálí od obchodù na druhé stranì prkenády, najde opravdové štìstí, kdy své srdíèko rozbruslí!}
 		view 779
 		xStep 6
 		room 2
@@ -1627,9 +1627,9 @@
 		y 29
 		nsBottom 59
 		nsRight 319
-		description {budovy na promenádì}
+		description {budovy na prkenádì}
 		sightAngle 40
-		lookStr {Vzdálená strana Trampovy promenády je lemována nevkusnımi, lacinımi turistickımi pastmi. Skrz budovy vykukuje kousek modré oblohy.}
+		lookStr {Vzdálená strana Trampovy prkenády je lemována nevkusnımi, lacinımi turistickımi pastmi. Skrz budovy vykukuje kousek modré oblohy.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1654,7 +1654,7 @@
 		sightAngle 40
 		approachX 88
 		approachY 152
-		lookStr {Dlouhá øada lavièek èeká na tvé potìšení z posezení podél strany promenády, u které je oceán.}
+		lookStr {Dlouhá øada lavièek èeká na tvé potìšení z posezení podél strany prkenády, u které je oceán.}
 	)
 	
 	(method (doVerb theVerb param2 &tmp temp0)
@@ -1696,7 +1696,7 @@
 		nsRight 72
 		description {sloup}
 		sightAngle 40
-		lookStr {Tyto sloupy drí promenádu.}
+		lookStr {Tyto sloupy drí prkenádu.}
 	)
 )
 
@@ -1710,7 +1710,7 @@
 		nsRight 149
 		description {sloupek}
 		sightAngle 40
-		lookStr {Tyto sloupy drí promenádu.}
+		lookStr {Tyto sloupy drí prkenádu.}
 	)
 )
 
@@ -1724,7 +1724,7 @@
 		nsRight 221
 		description {sloupek}
 		sightAngle 40
-		lookStr {Tyto sloupy drí promenádu.}
+		lookStr {Tyto sloupy drí prkenádu.}
 	)
 )
 
@@ -1738,6 +1738,6 @@
 		nsRight 309
 		description {sloupek}
 		sightAngle 40
-		lookStr {Tyto sloupy drí promenádu.}
+		lookStr {Tyto sloupy drí prkenádu.}
 	)
 )

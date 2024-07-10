@@ -42,9 +42,9 @@
 {znak dolaru}
 {Tady je naznaèeno, že by tu èlovìk mohl vyhrát nìjaké peníze!}
 {stánek s hamburgery}
-{To je vzrušující! Na Trampovì promenádì je restaurace, kde se podává mrtvá kráva!}
-{promenáda}
-{Promenáda vede na východ a táhne se až tam, kam oko dohlédne.}
+{To je vzrušující! Na Trampovì prkenádì je restaurace, kde se podává mrtvá kráva!}
+{prkenáda}
+{Prkenáda vede na východ a táhne se až tam, kam oko dohlédne.}
 {pláž}
 {Ten malý pruh písku vede k prudkému srázu a pak pøímo do Atlantiku! Chceš si zaplavat?}
 {svìtla}

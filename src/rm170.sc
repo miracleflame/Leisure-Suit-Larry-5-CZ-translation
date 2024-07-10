@@ -849,7 +849,7 @@
 							{______Saxy Sex______}
 							345
 							81
-							{Na promenádì}
+							{Na prkenádì}
 							700
 							106
 							81

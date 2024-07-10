@@ -1,4 +1,4 @@
-{Komercializace Trampovy krásné promenády se zdá bıt dokonèena. Podniky lemují kadı centimetr vzdálené strany promenády. Alespoò ta bliší strana zùstala otevøená pro rybáøe a bruslaøe.}
+{Komercializace Trampovy krásné prkenády se zdá bıt dokonèena. Podniky lemují kadı centimetr vzdálené strany prkenády. Alespoò ta bliší strana zùstala otevøená pro rybáøe a bruslaøe.}
 {Lahodná Lana}
 {Mistr Z}
 {No není roztomilı?}
@@ -11,28 +11,28 @@
 {Roller Prase}
 {To je ale talent! Umí jíst a zároveò bruslit!}
 {Kravaák Bill}
-{Na tuhle promenádu je a moc obleèenı!}
+{Na tuhle prkenádu je a moc obleèenı!}
 {Dìcko Blb}
 {To je ale pøitroublı kluèina! Okamitì se stává tvım oblíbencem!}
 {bruslaø}
-{Nemìl jsi tušení, e na promenádì bude tolik bruslaøù!}
+{Nemìl jsi tušení, e na prkenádì bude tolik bruslaøù!}
 {bruslaø}
-{Bruslaø, kterı se nikdy nevzdálí od obchodù na druhé stranì promenády, najde opravdové štìstí, kdy své srdíèko rozbruslí!}
+{Bruslaø, kterı se nikdy nevzdálí od obchodù na druhé stranì prkenády, najde opravdové štìstí, kdy své srdíèko rozbruslí!}
 {budova}
 {Lanino pravé oko}
 {Lanino levé oko}
 {Lanin nos}
 {Lanina pusa}
 {Lahodná Lana}
-{budovy na promenádì}
-{Vzdálená strana Trampovy promenády je lemována nevkusnımi, lacinımi turistickımi pastmi. Skrz budovy vykukuje kousek modré oblohy.}
+{budovy na prkenádì}
+{Vzdálená strana Trampovy prkenády je lemována nevkusnımi, lacinımi turistickımi pastmi. Skrz budovy vykukuje kousek modré oblohy.}
 {lavièka}
-{Dlouhá øada lavièek èeká na tvé potìšení z posezení podél strany promenády, u které je oceán.}
+{Dlouhá øada lavièek èeká na tvé potìšení z posezení podél strany prkenády, u které je oceán.}
 {sloup}
-{Tyto sloupy drí promenádu.}
+{Tyto sloupy drí prkenádu.}
 {sloupek}
-{Tyto sloupy drí promenádu.}
+{Tyto sloupy drí prkenádu.}
 {sloupek}
-{Tyto sloupy drí promenádu.}
+{Tyto sloupy drí prkenádu.}
 {sloupek}
-{Tyto sloupy drí promenádu.}
+{Tyto sloupy drí prkenádu.}

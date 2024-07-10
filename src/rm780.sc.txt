@@ -1,7 +1,7 @@
-{Tak jsi to dokázal! Plaveš pod krásnou Trampovou promenádou a bájeènì se bavíš. Otázka zní: jak daleko od bøehu jsi?}
+{Tak jsi to dokázal! Plaveš pod krásnou Trampovou prkenádou a bájeènì se bavíš. Otázka zní: jak daleko od bøehu jsi?}
 {obloha}
 {Pøi pohledu na oblohu si vzpomeneš na lepší èasy, vlastnì jen pøed nìkolika minutami, kdy jsi byl mnohem blíž obloze než teï.}
-{promenáda}
+{prkenáda}
 {Máš zvláštní pocit - skoro jako bys nìkomu koukal pod sukni!}
 {sloupek}
 {Ty sloupy vypadají mnohem vyšší než shora.}
