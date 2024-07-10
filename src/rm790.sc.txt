@@ -2,7 +2,7 @@
 {Ivana Trampová}
 {Ivana Trampová (místním známá jako "Paní Koleèková, vládkynì èepelí") se po rozvodu s Donaldem propadla o nìkolik spoleèenských úrovní.}
 {brusle}
-{Z mnoha párù in-line bruslí na tomto stojanu celkem s jistotou usuzuješ, že v tomhle obchodì se pùjèují brusle.}
+{Z mnoha párù in-line bruslí na tìch policích celkem s jistotou usuzuješ, že v tomhle obchodì se pùjèují brusle.}
 {závìs}
 {Závìs z korálkù ti brání ve výhledu do zadní místnosti obchodu s bruslemi.}
 {plakát}

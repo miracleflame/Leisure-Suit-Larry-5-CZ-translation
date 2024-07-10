@@ -303,7 +303,7 @@
 		nsRight 206
 		description {brusle}
 		sightAngle 40
-		lookStr {Z mnoha párù in-line bruslí na tomto stojanu celkem s jistotou usuzuješ, že v tomhle obchodì se pùjèují brusle.}
+		lookStr {Z mnoha párù in-line bruslí na tìch policích celkem s jistotou usuzuješ, že v tomhle obchodì se pùjèují brusle.}
 	)
 	
 	(method (doVerb theVerb param2)
