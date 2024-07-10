@@ -1547,7 +1547,7 @@
 		view 1381
 		loop 1
 		talkWidth 180
-		name "Suknièkáø Bogie"
+		name "Larry Bogie"
 	)
 	
 	(method (init)
