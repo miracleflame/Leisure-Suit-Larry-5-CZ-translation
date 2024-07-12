@@ -23,9 +23,9 @@
 {popelník}
 {Peèlivì prohlížíš popelník, jestli v nìm není vstupenka na diskotéku, a na okamžik si myslíš, že hraješ "Suknièkáøe Larryho 1: V zemi salónkových ještìrù". Samozøejmì, že nehraješ.}
 {nástìnné svìtlo}
-{Páni, budova Shill má vkusná vkusná nástìnná svìtla.}
+{Páni, budova Shill má vkusná nástìnná svìtla.}
 {nástìnné svìtlo}
-{Páni, budova Shill má vkusná vkusná nástìnná svìtla.}
+{Páni, budova Shill má vkusná nástìnná svìtla.}
 {hodiny}
 {Na konci pultu ochranky jsou zabudovány krásné hodiny ve stylu Deco pro zamìstnance, kteøí jsou stále placeni od hodiny.}
 {freska}

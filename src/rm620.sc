@@ -1084,7 +1084,7 @@
 		nsRight 37
 		description {nástìnné svìtlo}
 		sightAngle 40
-		lookStr {Páni, budova Shill má vkusná vkusná nástìnná svìtla.}
+		lookStr {Páni, budova Shill má vkusná nástìnná svìtla.}
 	)
 )
 
@@ -1098,7 +1098,7 @@
 		nsRight 103
 		description {nástìnné svìtlo}
 		sightAngle 40
-		lookStr {Páni, budova Shill má vkusná vkusná nástìnná svìtla.}
+		lookStr {Páni, budova Shill má vkusná nástìnná svìtla.}
 	)
 )
 
