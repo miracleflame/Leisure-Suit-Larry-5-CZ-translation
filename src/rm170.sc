@@ -811,45 +811,45 @@
 							{Jakou osmistopou kazetu chceš pøehrát?}
 							106
 							81
-							{__The Larry Song__}
+							{___Larryho píseò___}
 							100
 							81
 							{ Record des Rever_}
 							640
 							106
 							81
-							{__Desmond's Theme__}
+							{_Desmondova znìlka_}
 							410
 							81
 							{__Silas Scruemall__}
 							150
 							106
 							81
-							{___Closing Theme___}
+							{_Závìreèná znìlka_}
 							462
 							81
-							{___Hard Rock Me___}
+							{___Udìlej mi to___}
 							500
 							106
 							81
-							{___Hard Rock You__}
+							{___Udìlej si to___}
 							501
 							81
-							{____Hard Rock It____}
+							{___Udìlej to tvrdì___}
 							502
 							106
 							81
-							{__Michelle's Song__}
+							{__Michellina píseò__}
 							535
 							81
-							{______Shill This______}
+							{_____Shill-enství_____}
 							620
 							106
 							81
-							{______Saxy Sex______}
+							{______Sex a ságo______}
 							345
 							81
-							{Na prkenádì}
+							{___Na prkenádì___}
 							700
 							106
 							81
@@ -861,7 +861,7 @@
 							10
 							106
 							81
-							{< Vysunout >}
+							{< Vyjmout kazetu >}
 							0
 							4
 							95
@@ -873,45 +873,45 @@
 							{Jakou osmistopou kazetu chceš pøehrát?}
 							106
 							81
-							{ A Studio Session_}
+							{_Práce ve studiu_}
 							660
 							81
-							{__Gettin' Some Air__}
+							{__Nadechni se__}
 							663
 							106
 							81
-							{____Nasty Girlz_____}
+							{____Zlobivý holky_____}
 							738
 							81
-							{____Whoz On Top?____}
+							{_Kdo je teï nahoøe?_}
 							740
 							106
 							81
-							{__Tramp's Casino__}
+							{__Trampovo kasino__}
 							710
 							81
-							{____Ivana Skate____}
+							{_Ivana a její brusle_}
 							790
 							106
 							81
 							{_____K-RAP Rap_____}
 							800
 							81
-							{_____K-RAP Talk_____}
+							{____K-RAP debata____}
 							801
 							106
 							81
 							{____K-RAP Rock_____}
 							802
 							81
-							{___Doc'll Pulliam____}
+							{_Doktor vám je vytlhá_}
 							905
 							106
 							81
-							{__Chi Chi a Me Me__}
+							{__Chi Chi a já já__}
 							910
 							81
-							{____Salsa This_____}
+							{____Salsa jede____}
 							920
 							106
 							81
@@ -923,7 +923,7 @@
 							10
 							106
 							81
-							{< Vysunout >}
+							{< Vyjmout kazetu >}
 							0
 							4
 							95
