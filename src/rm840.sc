@@ -22,7 +22,7 @@
 )
 (instance rm840 of LLRoom
 	(properties
-		lookStr {Kanceláø Johna Krappera je krásnì zaøízená v nejnovìjším high-tech stylu. Èetné halogenové reflektory s úzkými paprsky zalévají jinak tmavou místnost malými záøivì bílými kužely svìtla.}
+		lookStr {Kanceláø Johna Hejzla je krásnì zaøízená v nejnovìjším high-tech stylu. Èetné halogenové reflektory s úzkými paprsky zalévají jinak tmavou místnost malými záøivì bílými kužely svìtla.}
 		picture 840
 		east 820
 		west 850
@@ -482,7 +482,7 @@
 		nsRight 232
 		description {stùl}
 		sightAngle 40
-		lookStr {Krapper má krásný sklenìný konferenèní stolek.}
+		lookStr {Hejzl má krásný sklenìný konferenèní stolek.}
 	)
 )
 
@@ -527,7 +527,7 @@
 		sightAngle 40
 		approachX 200
 		approachY 112
-		lookStr {Telefon Johna Krappera má velmi málo tlaèítek. Musí být OPRAVDU dùležitý!}
+		lookStr {Telefon Johna Hejzla má velmi málo tlaèítek. Musí být OPRAVDU dùležitý!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -576,7 +576,7 @@
 		nsRight 256
 		description {okno}
 		sightAngle 40
-		lookStr {Krapperova kanceláø má obrovské okno s výhledem na krásné centrum Filadelfie.}
+		lookStr {Hejzlova kanceláø má obrovské okno s výhledem na krásné centrum Filadelfie.}
 	)
 )
 
@@ -590,7 +590,7 @@
 		nsRight 73
 		description {polièky}
 		sightAngle 40
-		lookStr {Krapperova knihovna je plná pøedmìtù, které jsou pro tvou misi nepoužitelné.}
+		lookStr {Hejzlova knihovna je plná pøedmìtù, které jsou pro tvou misi nepoužitelné.}
 	)
 )
 
