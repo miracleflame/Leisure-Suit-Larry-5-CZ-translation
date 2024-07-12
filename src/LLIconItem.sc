@@ -1387,8 +1387,8 @@
 		view 968
 		cursor 968
 		signal $0002
-		description {páska z kotouèové cívky}
-		name "Páska z kotouèové cívky"
+		description {kotouèová páska}
+		name "Kotouèová páska"
 	)
 	
 	(method (doVerb theVerb param2)

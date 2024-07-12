@@ -64,5 +64,5 @@
 {klíè od stolu}
 {složka s dùkazy}
 {fotokopie}
-{páska z kotouèové cívky}
+{Kotouèová páska}
 {podprsenka "Hooter Shooter"}
