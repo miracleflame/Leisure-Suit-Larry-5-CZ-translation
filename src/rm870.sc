@@ -168,7 +168,7 @@
 		nsRight 235
 		description {klávesnice}
 		sightAngle 40
-		lookStr {Tato klávesnice je podobná tìm nahoøe. Bohužel k ní neznáš kombinaci.}
+		lookStr {Tato klávesnice je podobná tìm, které byly nahoøe. K téhle bohužel neznáš kombinaci.}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -271,7 +271,7 @@
 		sightAngle 40
 		approachX 20
 		approachY 180
-		lookStr {Tato klávesnice je podobná tìm nahoøe. Bohužel k ní neznáš kombinaci.}
+		lookStr {Tato klávesnice je podobná tìm, které byly nahoøe. K téhle bohužel neznáš kombinaci.}
 	)
 	
 	(method (doVerb theVerb param2)

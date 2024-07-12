@@ -2,7 +2,7 @@
 {vìšák na šaty}
 {To je úleva! Hned vedle výtahu stojí vìšák s obleèením.}
 {klávesnice}
-{Tato klávesnice je podobná tìm nahoøe. Bohužel k ní neznáš kombinaci.}
+{Tato klávesnice je podobná tìm, které byly nahoøe. K téhle bohužel neznáš kombinaci.}
 {Studio A}
 {dveøe do studia}
 {Tyto dveøe vedou do studia B spoleènosti K-RAP.}
@@ -13,7 +13,7 @@
 {socha}
 {Jak pùsobivé! K-RAP má fontánu s obrovskou sochou krále rock'n'rollu - Barryho Manilowa!}
 {klávesnice od výtahu}
-{Tato klávesnice je podobná tìm nahoøe. Bohužel k ní neznáš kombinaci.}
+{Tato klávesnice je podobná tìm, které byly nahoøe. K téhle bohužel neznáš kombinaci.}
 {obleèení}
 {Na vìšáku na obleèení, pøíhodnì umístìném poblíž výtahu, visí sada pestrobarevných, nadmìrnì velkých rapperských šatù.}
 {ten "2 Live 2 Screw" týpek}
