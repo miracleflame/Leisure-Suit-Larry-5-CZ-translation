@@ -5,7 +5,7 @@
 {stùl recepèní}
 {Toto je stùl recepèní. Naštìstí pro tebe se zdá, e tady právì teï není.}
 {rostlina}
-{Rostlina v kvìtináèi velmi pøispívá k atmosféøe v kanceláøi.}
+{Tahle rostlina v kvìtináèi posouvá toto kanceláøské prostøedí na úplnì jinou úroveò.}
 {klávesnice}
 {Tato klávesnice ovládá pøístup ke dveøím do soukromé kanceláøe Johna Hejzla.}
 {strom v kvìtináèi}

@@ -203,7 +203,7 @@
 		nsRight 240
 		description {rostlina}
 		sightAngle 40
-		lookStr {Rostlina v kvìtináèi velmi pøispívá k atmosféøe v kanceláøi.}
+		lookStr {Tahle rostlina v kvìtináèi posouvá toto kanceláøské prostøedí na úplnì jinou úroveò.}
 	)
 )
 
