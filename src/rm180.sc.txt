@@ -13,11 +13,11 @@
 {Obdivuješ kadého, kdo pouívá árovkové osvìtlení.}
 {lupa}
 {zásuvka se slokami}
-{Tahle zásuvka je nadepsaná "Lùzøi". Hledáš sloky tøí finalistù. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
+{Tato zásuvka je nadepsaná "Tragédky". Hledáš sloky tøí finalistek. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
 {zásuvka se slokami}
-{Tato zásuvka je oznaèena "Lùzøi". Hledáš sloky tøí finalistek. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
+{Tato zásuvka je oznaèena "Tragédky". Hledáš sloky tøí finalistek. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
 {zásuvka se slokami}
-{Tato zásuvka je oznaèena "Lùzøi". Hledáš sloky tøí finalistek. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
+{Tato zásuvka je oznaèena "Tragédky". Hledáš sloky tøí finalistek. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
 {nìjaké knihy}
 {Proè se chceš dívat na knihy, Larry? Sotva umíš èíst!}
 {vìtrák}

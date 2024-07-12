@@ -410,7 +410,7 @@
 		sightAngle 40
 		approachX 226
 		approachY 135
-		lookStr {Tahle zásuvka je nadepsaná "Lùzøi". Hledáš složky tøí finalistù. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
+		lookStr {Tato zásuvka je nadepsaná "Tragédky". Hledáš složky tøí finalistek. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -433,7 +433,7 @@
 		nsRight 210
 		description {zásuvka se složkami}
 		sightAngle 40
-		lookStr {Tato zásuvka je oznaèena "Lùzøi". Hledáš složky tøí finalistek. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
+		lookStr {Tato zásuvka je oznaèena "Tragédky". Hledáš složky tøí finalistek. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
 	)
 	
 	(method (doVerb theVerb param2)
@@ -456,7 +456,7 @@
 		nsRight 87
 		description {zásuvka se složkami}
 		sightAngle 40
-		lookStr {Tato zásuvka je oznaèena "Lùzøi". Hledáš složky tøí finalistek. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
+		lookStr {Tato zásuvka je oznaèena "Tragédky". Hledáš složky tøí finalistek. Teï není èas na to, aby sis rozšiøoval svùj diáø, Larry!}
 	)
 	
 	(method (doVerb theVerb param2)
