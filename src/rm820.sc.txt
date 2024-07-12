@@ -12,8 +12,8 @@
 {Tady musí být pøes den více svìtla.}
 {kvìtináè}
 {Tento kvìtináè je poblíž vchodových dveøí.}
-{zadní pult}
-{Tento pult vypadá skoro jako sedátko u okna.}
+{pultík}
+{Na tomhle pultíku by se dalo sedìt a kochat se výhledem z okna.}
 {lampa}
 {Tahle lampa se ti opravdu líbí.}
 {svìtla}

@@ -273,9 +273,9 @@
 		nsLeft 189
 		nsBottom 124
 		nsRight 319
-		description {zadní pult}
+		description {pultík}
 		sightAngle 40
-		lookStr {Tento pult vypadá skoro jako sedátko u okna.}
+		lookStr {Na tomhle pultíku by se dalo sedìt a kochat se výhledem z okna.}
 	)
 )
 
