@@ -282,7 +282,7 @@
 		sightAngle 40
 		approachX 151
 		approachY 187
-		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec - ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 	)
 )
 
@@ -408,7 +408,7 @@
 		nsRight 114
 		description {monitorovací reproduktor}
 		sightAngle 40
-		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec - ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 	)
 )
 
@@ -422,7 +422,7 @@
 		nsRight 212
 		description {monitorovací reproduktor}
 		sightAngle 40
-		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec - ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 	)
 )
 
@@ -434,7 +434,7 @@
 		nsRight 21
 		description {monitorovací reproduktor}
 		sightAngle 40
-		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+		lookStr {Pøísahala bys, že to jsou pravé reproduktory Altec - ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 	)
 )
 

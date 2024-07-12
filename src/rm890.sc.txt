@@ -1,6 +1,6 @@
 {Nacházíš se v øídicí místnosti B rádia K-RAP. Na to, jak je to velká místnost, vypadala zvenèí rozhodnì menší. Stìny jsou zaplnìny nesèetným množstvím nahrávacích zaøízení, elektronických pøístrojù, mixážních pultù, mikrofonù, nahrávacích pásek atd. atd.}
 {obøí reproduktor}
-{Pøísahala bys, že to jsou pravé reproduktory Altec ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+{Pøísahala bys, že to jsou pravé reproduktory Altec - ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 {elektronické vybavení}
 {Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, kotouèe s páskami a páskové mechaniky.}
 {elektronické vybavení}
@@ -12,11 +12,11 @@
 {elektronické zaøízení}
 {Všude, kam se podíváš, vidíš tlaèítka, pøepínaèe, svìtla, kotouèe s páskami a páskové mechaniky. Bohužel jsou pøíliš vysoko, než abys na nì dosáhla.}
 {monitorovací reproduktor}
-{Pøísahala bys, že to jsou pravé reproduktory Altec ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+{Pøísahala bys, že to jsou pravé reproduktory Altec - ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 {monitorovací reproduktor}
-{Pøísahala bys, že to jsou pravé reproduktory Altec ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+{Pøísahala bys, že to jsou pravé reproduktory Altec - ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 {monitorovací reproduktor}
-{Pøísahala bys, že to jsou pravé reproduktory Altec ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
+{Pøísahala bys, že to jsou pravé reproduktory Altec - ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 {stojan s vybavením}
 {Tento regál obsahuje spoustu elektronického vybavení, vìtšinou starého, a také polici plnou prázdných kotouèových pásek.}
 {polièka s páskami}
