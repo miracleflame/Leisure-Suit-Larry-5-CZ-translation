@@ -818,7 +818,7 @@
 							640
 							106
 							81
-							{_Desmondova znìlka_}
+							{Desmondova znìlka}
 							410
 							81
 							{__Silas Scruemall__}
@@ -828,11 +828,11 @@
 							{_Závìreèná znìlka_}
 							462
 							81
-							{___Udìlej mi to___}
+							{____Udìlej mi to____}
 							500
 							106
 							81
-							{___Udìlej si to___}
+							{____Udìlej si to____}
 							501
 							81
 							{___Udìlej to tvrdì___}
@@ -846,10 +846,10 @@
 							620
 							106
 							81
-							{______Sex a ságo______}
+							{_____Sex a ságo_____}
 							345
 							81
-							{___Na prkenádì___}
+							{____Na prkenádì____}
 							700
 							106
 							81
@@ -864,7 +864,7 @@
 							{< Vyjmout kazetu >}
 							0
 							4
-							95
+							70
 						)
 					)
 				else
@@ -873,24 +873,24 @@
 							{Jakou osmistopou kazetu chceš pøehrát?}
 							106
 							81
-							{_Práce ve studiu_}
+							{__Práce ve studiu__}
 							660
 							81
-							{__Nadechni se__}
+							{____Nadechni se____}
 							663
 							106
 							81
-							{____Zlobivý holky_____}
+							{___Zlobivý holky___}
 							738
 							81
-							{_Kdo je teï nahoøe?_}
+							{Kdo je teï nahoøe?}
 							740
 							106
 							81
 							{__Trampovo kasino__}
 							710
 							81
-							{_Ivana a její brusle_}
+							{Ivana a její brusle}
 							790
 							106
 							81
@@ -904,14 +904,14 @@
 							{____K-RAP Rock_____}
 							802
 							81
-							{_Doktor vám je vytlhá_}
+							{_Doktor je vytlhá_}
 							905
 							106
 							81
 							{__Chi Chi a já já__}
 							910
 							81
-							{____Salsa jede____}
+							{_____Salsa jede_____}
 							920
 							106
 							81
