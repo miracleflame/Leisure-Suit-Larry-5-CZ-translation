@@ -1365,7 +1365,7 @@
 		cursor 967
 		signal $0002
 		description {fotokopie}
-		name "Fotokopie Dùkazú"
+		name "Fotokopie dùkazù"
 	)
 	
 	(method (doVerb theVerb param2)
