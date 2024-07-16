@@ -258,16 +258,15 @@
 		(23
 			(= gLarry Larry)
 			(= global179 1)
-			(User alterEgo: gLarry)
-			(gLarry setUpInv:)
 		)
 		(24
 			(= gLarry Patti)
 			(= global179 0)
-			(User alterEgo: gLarry)
-			(gLarry setUpInv:)
 		)
 	)
+	(User alterEgo: gLarry)
+	(gLarry setUpInv:)
+	(stopGroop client: gLarry)
 )
 
 (procedure (proc0_2)
