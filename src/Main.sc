@@ -445,7 +445,7 @@
 		(= temp300
 			(proc999_3 3 (/ (* global155 (StrLen param1)) 120))
 		)
-		(proc255_0 param1 25 temp300 &rest)
+		(proc255_0 param1 25 temp300 param2 &rest)
 	)
 	(if (not (HaveMouse))
 		(gGame setCursor: gCursorNumber 1 theGPEventX temp302)
