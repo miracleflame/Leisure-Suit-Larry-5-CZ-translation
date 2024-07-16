@@ -113,7 +113,7 @@
 	
 	(method (doit)
 		(super doit:)
-		(if (not (mod (++ local0) 10)) (Palette 6 239 254 -1))
+		(if (not (mod (++ local0) 3)) (Palette 6 239 254 -1))
 		(cond 
 			(script)
 			((and (proc0_5 gLarry 2) (not (proc0_6 105))) (proc0_2) (global2 setScript: sPiss))

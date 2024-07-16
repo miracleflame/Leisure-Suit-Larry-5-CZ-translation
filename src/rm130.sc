@@ -108,7 +108,7 @@
 	
 	(method (doit)
 		(super doit:)
-		(if (not (mod (++ local2) 32)) (Palette 6 206 254 -1))
+		(if (not (mod (++ local2) 6)) (Palette 6 206 254 -1))
 	)
 	
 	(method (show &tmp temp0)
