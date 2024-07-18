@@ -2,7 +2,7 @@
 ^"Ahoj, fešáku!" øíká starší žena za pultem. "Vítej v 'Brusle, atd.' Jsem Ivana Trampová a dnes budu tvá prùvodkynì."
 ^"Ahoj," øekneš. "Chtìl bych si pùjèit nìjaké brusle."
 ^"Dobrý nápad, jsi na správném místì. Mùj poplatek za pùjèení je docela rozumný, ale tìmito detaily se nemá cenu teï zabývat. Až brusle vrátíš, vyrovnáme se podle toho, jak dlouho budeš bruslit."
-^"Na tak cenné vybavení potøebuju ale malou zálohu," øekne a pøemìøí si tì pohledem. "Øeknìme, hm, $%d, ano?"
+^"Na tak cenné vybavení potøebuju ale malou zálohu," øekne a pøemìøí si tì pohledem. "Øeknìme, hm, %d $, ano?"
 ^"Nemám žádné peníze," øíkáš.
 ^"Aha? No, klidnì pøijmu i nìjaké ty zatracené 'støíbrné dolary' z kasina."
 ^Máš nápad. "Místo penìz," nabízíš, "byste mohla pøijmout toto 'Kompletní-Video-Studio-Kapesní-Pouzdro' s automatickým ostøením, automatickým vyvažováním svìtlosti, automatickým vyvážením barev, automatickým zoomem, automatickým posouváním obrazu a snímáním do 0.5 luxù? Je to model 'Rob Lowe', víte!"
