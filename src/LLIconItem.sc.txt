@@ -23,9 +23,9 @@
 {videokazeta}
 {videokazeta}
 {Michellin životopis}
-{Ubrousek z kavárny Hard Disk}
+{ubrousek z kavárny Hard Disk}
 {zlatá karta AeroBlb}
-{Palubní lístek}
+{palubní lístek}
 {L.A.}
 {New York}
 {Atlantic City}

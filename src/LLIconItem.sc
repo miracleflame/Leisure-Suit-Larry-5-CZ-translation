@@ -485,7 +485,7 @@
 		view 938
 		cursor 938
 		signal $0002
-		description {Ubrousek z kavárny Hard Disk}
+		description {ubrousek z kavárny Hard Disk}
 		name "Ubrousek z kavárny Hard Disk"
 	)
 	
@@ -533,7 +533,7 @@
 		view 940
 		cursor 940
 		signal $0002
-		description {Palubní lístek}
+		description {palubní lístek}
 		name "Palubní lístek"
 	)
 	
