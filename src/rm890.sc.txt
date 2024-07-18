@@ -17,7 +17,7 @@
 {Pøísahala bys, že to jsou pravé reproduktory Altec - ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 {monitorovací reproduktor}
 {Pøísahala bys, že to jsou pravé reproduktory Altec - ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
-{stojan s vybavením}
+{police s vybavením}
 {Tento regál obsahuje spoustu elektronického vybavení, vìtšinou starého, a také polici plnou prázdných kotouèových pásek.}
 {polièka s páskami}
 {Aha, tady je to, co potøebuješ! Polièka plná prázdných kotouèových pásek urèených k nahrávání.}

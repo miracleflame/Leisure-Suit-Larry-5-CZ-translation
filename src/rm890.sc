@@ -446,7 +446,7 @@
 		nsLeft 120
 		nsBottom 131
 		nsRight 189
-		description {stojan s vybavením}
+		description {police s vybavením}
 		sightAngle 40
 		approachX 155
 		approachY 139
