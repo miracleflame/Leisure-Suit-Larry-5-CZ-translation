@@ -645,7 +645,7 @@
 		cursor 943
 		signal $0002
 		description {diáø}
-		name "DayTrotter"
+		name "Diáø"
 	)
 	
 	(method (doVerb theVerb param2)
@@ -1207,7 +1207,7 @@
 		cursor 962
 		signal $0002
 		description {ubrousek}
-		name "Šála"
+		name "Ubrousek"
 	)
 	
 	(method (doVerb theVerb param2)

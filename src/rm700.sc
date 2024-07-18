@@ -725,7 +725,7 @@
 	(properties
 		x 141
 		y 162
-		description {vrátní}
+		description {vrátný}
 		sightAngle 40
 		approachX 133
 		approachY 165
@@ -1409,7 +1409,7 @@
 		view 1703
 		loop 3
 		viewInPrint 1
-		name "Vrátní"
+		name "Vrátný"
 	)
 	
 	(method (init)
