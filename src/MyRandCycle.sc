@@ -1332,7 +1332,7 @@
 		description {dveøe studia}
 		approachX 195
 		approachY 83
-		lookStr {Na dveøích je malá tabulka s nápisem: "Studio A".}
+		lookStr {Na dveøích je malá tabulka s nápisem: "Studio A".}
 		view 640
 		loop 1
 		signal $0001

@@ -1,4 +1,4 @@
-{Nacházíš se v øídicí místnosti B rádia K-RAP. Na to, jak je to velká místnost, vypadala zvenèí rozhodnì menší. Stìny jsou zaplnìny nesèetným množstvím nahrávacích zaøízení, elektronických pøístrojù, mixážních pultù, mikrofonù, nahrávacích pásek atd. atd.}
+{Nacházíš se v øídicí místnosti B rádia K-RAP. Na to, jak je to velká místnost, vypadala zvenèí rozhodnì menší. Stìny jsou zaplnìny nesèetným množstvím nahrávacích zaøízení, elektronických pøístrojù, mixážních pultù, mikrofonù, nahrávacích pásek atd. atd.}
 {obøí reproduktor}
 {Pøísahala bys, že to jsou pravé reproduktory Altec - ty, kterým se øíká "Hlas divadla". Tyhle krásky jsi nevidìla už léta!}
 {elektronické vybavení}
@@ -33,14 +33,14 @@
 {Tìžké, zvukotìsné okno z tabulového skla tì oddìluje od vnìjšího svìta - a tvé svobody!}
 {mikrofonní smìšovaè}
 {kontrolka nahrávání}
-{Tato kontrolka se rozsvítí vždy, když nìkdo nahrává v øídicí místnosti A.}
-{dveøe øídicí místnosti A}
+{Tato kontrolka se rozsvítí vždy, když nìkdo nahrává v øídicí místnosti A.}
+{dveøe øídicí místnosti A}
 {Buï opatrná, Patti! Uvnitø tìchto dveøí stojí muž, kterého jsi sem pøišla vyšetøovat: P. C. Hammer!}
-{dveøe øídicí místnosti B}
-{Na dveøích je nápis "Øídicí místnost B". Momentálnì tam nikdo není.}
+{dveøe øídicí místnosti B}
+{Na dveøích je nápis "Øídicí místnost B". Momentálnì tam nikdo není.}
 {P. C. Hammer}
-{Pøes okno øídicí místnosti vidíš P. C. Hammera, jak míchá své "živé" rozhlasové vysílání pro zítøejší ranní show pro øidièe.}
+{Pøes okno øídicí místnosti vidíš P. C. Hammera, jak míchá své "živé" rozhlasové vysílání pro zítøejší ranní show pro øidièe.}
 {stojan na mikrofon}
-{Velký mikrofonní stojan s ramenem stojí hned za dveømi do øídicí místnosti B.}
+{Velký mikrofonní stojan s ramenem stojí hned za dveømi do øídicí místnosti B.}
 {kontrolka nahrávání}
 {Tato kontrolka se rozsvítí, kdykoliv nìkdo nahrává v této øídicí místnosti.}

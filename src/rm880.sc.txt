@@ -1,22 +1,22 @@
 {Studiové patro budovy K-RAP je hluboko pod zemí, plné zvukotìsných studií a reproduktorù. Støed místnosti vyplòuje velká fontána s obøími bronzovými sochami.}
-{dveøe do øídicí místnosti A}
-{Tyto dveøe vedou do øídicí místnosti A. Vidíš muže, který uvnitø pracuje.}
-{dveøe do øídicí místnosti B}
+{dveøe do øídicí místnosti A}
+{Tyto dveøe vedou do øídicí místnosti A. Vidíš muže, který uvnitø pracuje.}
+{dveøe do øídicí místnosti B}
 {Tyto dveøe vedou do kontrolní místnosti B, která se zdá být prázdná.}
-{dveøe do øídicí místnosti C}
+{dveøe do øídicí místnosti C}
 {Tyto dveøe vedou do kontrolní místnosti C. Zdá se, že je momentálnì prázdná.}
 {klávesnice}
-{Každé dveøe mají klávesnici, která omezuje pøístup pouze na osoby s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti A.}
+{Každé dveøe mají klávesnici, která omezuje pøístup pouze na osoby s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti A.}
 {klávesnice}
-{Každé dveøe mají klávesnici, která omezuje pøístup pouze na osoby s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti B.}
+{Každé dveøe mají klávesnici, která omezuje pøístup pouze na osoby s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti B.}
 {klávesnice}
-{Každé dveøe mají klávesnici, která omezuje pøístup pouze na osoby s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti C.}
-{okno øídicí místnosti A}
-{Pøes toto okno je vidìt do øídicí místnosti A.}
-{okno øídicí místnosti B}
-{Pøes toto okno je vidìt do øídicí místnosti B. Zdá se, že tam momentálnì nikdo není.}
-{okno øídicí místnosti C}
-{Pøes toto okno je vidìt do øídicí místnosti C. Zdá se, že tam momentálnì nikdo není.}
+{Každé dveøe mají klávesnici, která omezuje pøístup pouze na osoby s oprávnìním. Tato klávesnice ovládá pøístup do øídicí místnosti C.}
+{okno øídicí místnosti A}
+{Pøes toto okno je vidìt do øídicí místnosti A.}
+{okno øídicí místnosti B}
+{Pøes toto okno je vidìt do øídicí místnosti B. Zdá se, že tam momentálnì nikdo není.}
+{okno øídicí místnosti C}
+{Pøes toto okno je vidìt do øídicí místnosti C. Zdá se, že tam momentálnì nikdo není.}
 {socha}
 {Jak pùsobivé! K-RAP má fontánu s obrovskou sochou královny rock'n'rollu - Connie Stevensové!}
 {kontrolka nahrávání}
@@ -24,6 +24,6 @@
 {kontrolka nahrávání}
 {Tato kontrolka svítí, když øídicí místnost B nahrává.}
 {kontrolka nahrávání}
-{Kontrolka nahrávání øídicí místnosti A momentálnì svítí.}
+{Kontrolka nahrávání øídicí místnosti A momentálnì svítí.}
 {P. C. Hammer}
 {stojan mikrofonu}

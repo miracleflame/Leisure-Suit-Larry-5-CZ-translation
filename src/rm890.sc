@@ -36,7 +36,7 @@
 )
 (instance rm890 of LLRoom
 	(properties
-		lookStr {Nacházíš se v øídicí místnosti B rádia K-RAP. Na to, jak je to velká místnost, vypadala zvenèí rozhodnì menší. Stìny jsou zaplnìny nesèetným množstvím nahrávacích zaøízení, elektronických pøístrojù, mixážních pultù, mikrofonù, nahrávacích pásek atd. atd.}
+		lookStr {Nacházíš se v øídicí místnosti B rádia K-RAP. Na to, jak je to velká místnost, vypadala zvenèí rozhodnì menší. Stìny jsou zaplnìny nesèetným množstvím nahrávacích zaøízení, elektronických pøístrojù, mixážních pultù, mikrofonù, nahrávacích pásek atd. atd.}
 		picture 890
 		south 880
 	)
@@ -713,7 +713,7 @@
 		x 17
 		y 51
 		description {kontrolka nahrávání}
-		lookStr {Tato kontrolka se rozsvítí vždy, když nìkdo nahrává v øídicí místnosti A.}
+		lookStr {Tato kontrolka se rozsvítí vždy, když nìkdo nahrává v øídicí místnosti A.}
 		view 890
 		loop 6
 		cel 1
@@ -1164,7 +1164,7 @@
 	(properties
 		x 47
 		y 77
-		description {dveøe øídicí místnosti A}
+		description {dveøe øídicí místnosti A}
 		sightAngle 40
 		approachX 64
 		approachY 80
@@ -1189,11 +1189,11 @@
 	(properties
 		x 199
 		y 111
-		description {dveøe øídicí místnosti B}
+		description {dveøe øídicí místnosti B}
 		sightAngle 40
 		approachX 218
 		approachY 116
-		lookStr {Na dveøích je nápis "Øídicí místnost B". Momentálnì tam nikdo není.}
+		lookStr {Na dveøích je nápis "Øídicí místnost B". Momentálnì tam nikdo není.}
 		view 880
 		loop 2
 		entranceTo 890
@@ -1210,7 +1210,7 @@
 		x 82
 		y 79
 		description {P. C. Hammer}
-		lookStr {Pøes okno øídicí místnosti vidíš P. C. Hammera, jak míchá své "živé" rozhlasové vysílání pro zítøejší ranní show pro øidièe.}
+		lookStr {Pøes okno øídicí místnosti vidíš P. C. Hammera, jak míchá své "živé" rozhlasové vysílání pro zítøejší ranní show pro øidièe.}
 		view 883
 	)
 )
@@ -1220,7 +1220,7 @@
 		x 175
 		y 121
 		description {stojan na mikrofon}
-		lookStr {Velký mikrofonní stojan s ramenem stojí hned za dveømi do øídicí místnosti B.}
+		lookStr {Velký mikrofonní stojan s ramenem stojí hned za dveømi do øídicí místnosti B.}
 		view 880
 		signal $4000
 	)

@@ -193,7 +193,7 @@
 		nsLeft 171
 		nsBottom 64
 		nsRight 190
-		description {Studio A}
+		description {Studio A}
 		sightAngle 40
 	)
 	
@@ -224,7 +224,7 @@
 		nsLeft 198
 		nsBottom 51
 		nsRight 208
-		description {Studio B}
+		description {Studio B}
 		sightAngle 40
 		lookStr {Tyto jsou dveøe do studia B spoleènosti K-RAP.}
 	)
@@ -238,9 +238,9 @@
 		nsLeft 268
 		nsBottom 62
 		nsRight 288
-		description {Studio C}
+		description {Studio C}
 		sightAngle 40
-		lookStr {Toto je studio C spoleènosti K-RAP.}
+		lookStr {Toto je studio C spoleènosti K-RAP.}
 	)
 )
 

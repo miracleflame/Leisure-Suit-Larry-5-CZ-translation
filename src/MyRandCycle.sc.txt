@@ -11,7 +11,7 @@
 {reproduktory}
 {reproduktory}
 {dveøe studia}
-{Na dveøích je malá tabulka s nápisem: "Studio A".}
+{Na dveøích je malá tabulka s nápisem: "Studio A".}
 {tlaèítko Pozpátku}
 {tlaèítko Stop}
 {tlaèítko Vpøed}
