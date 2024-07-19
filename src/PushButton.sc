@@ -289,13 +289,13 @@
 						)
 					)
 					(if (== global2 200)
-						{plavba po øece Potomac}
+						{plavbou po øece Potomac}
 					else
 						(switch global160
-							(1 {je pøepaden})
-							(2 {krmí automaty})
-							(3 {leží na pláži})
-							(else  {sedí na záchodì!})
+							(1 {tím, že jsme pøepadeni})
+							(2 {krmením automatù})
+							(3 {vyleháváním na pláži})
+							(else  {vysedáváním na záchodì!})
 						)
 					)
 				)
