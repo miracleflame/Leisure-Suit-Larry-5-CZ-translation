@@ -4,11 +4,11 @@
 {Atlantic City, Trampem nezamoøená oblast}
 {Dade County}
 {'Tady zadejte své mìsto'}
-{plavbou po øece Potomac}
-{tím, že jsme pøepadeni}
-{krmením automatù}
-{vyleháváním na pláži}
-{vysedáváním na záchodì!}
+{ plavbou po øece Potomac}
+{, protože nás právì pøepadli}
+{ krmením automatù}
+{ vyleháváním na pláži}
+{ vysedáváním na záchodì!}
 {x}
 {!}
 {#}
