@@ -350,9 +350,9 @@
 			state: param1
 			name:
 				(switch param1
-					(2 {Michelle Milkenová})
-					(3 {Lana Lahodná})
-					(4 {Chi Chi Lambada})
+					(2 {Nahrávka s Michelle Milkenovou})
+					(3 {Nahrávka s Lahodnou Lanou})
+					(4 {Nahrávka s Chi Chi Lambadou})
 				)
 		)
 	)
