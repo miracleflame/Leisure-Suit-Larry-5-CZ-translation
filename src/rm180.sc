@@ -493,7 +493,7 @@
 		nsRight 273
 		description {vìtrák}
 		sightAngle 40
-		lookStr {Tohle je tvùj nejvìtší fukar!}
+		lookStr {Duj, vìtøe, duj a rvi mou kštici!}
 	)
 	
 	(method (doVerb theVerb param2)

@@ -21,7 +21,7 @@
 {nìjaké knihy}
 {Proè se chceš dívat na knihy, Larry? Sotva umíš èíst!}
 {vìtrák}
-{Tohle je tvùj nejvìtší fukar!}
+{Duj, vìtøe, duj a rvi mou kštici!}
 {tvoje židle}
 {Tahle židle je tvé oblíbené místo na spaní na pracovišti.}
 {plakát dvojèat}
