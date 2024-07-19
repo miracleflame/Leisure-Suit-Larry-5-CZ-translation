@@ -617,7 +617,7 @@
 	(method (doVerb theVerb param2 &tmp [temp0 40])
 		(switch theVerb
 			(2
-				(Format @temp0 19 35 (* global168 2))
+				(Format @temp0 19 35 (* global168 1))
 				(proc0_14 @temp0 80 name)
 			)
 			(3
