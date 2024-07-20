@@ -1186,7 +1186,7 @@
 		x 249
 		y 96
 		description {dveøe}
-		lookStr {Tyto dveøe vedou do øídicí kabiny--a k Reversi Biazovi.}
+		lookStr {Tyto dveøe vedou do øídicí kabiny a k Reversi Biazovi.}
 		view 660
 		signal $4001
 		cycleSpeed 10
