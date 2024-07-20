@@ -10,7 +10,7 @@
 {Prosím, vezmìte si palubní lístek.}
 {tvoje karta AeroBlb}
 {Prosím, vezmìte si svou zlatou kartu AeroBlb.}
-{Dìkujeme, že letíte s AeroBlb!}
+{Dìkujeme, že letíte s AeroBlbem!}
 {Vítejte, Cliffe Taurusi! Kam to bude dnes?}
 {New York}
 {Atlantic City}

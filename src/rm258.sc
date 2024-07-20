@@ -377,7 +377,7 @@
 				(proc0_2)
 				(global2 drawPic: (global2 picture:) 100)
 				(Display
-					{Dìkujeme, že letíte s AeroBlb!}
+					{Dìkujeme, že letíte s AeroBlbem!}
 					dsCOORD
 					144
 					75
