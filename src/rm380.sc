@@ -30,270 +30,968 @@
 	(properties)
 	
 	(method (changeState newState)
-		(switch (= state newState)
-			(0
-				(proc0_2)
-				(= seconds 4)
-			)
-			(1
-				(proc0_18 Desmond 380 0 108 139 self) ; "Well, Patti, I'm glad to see you made it back safely. I told you there was nothing to worry about!"
-			)
-			(2
-				(= ticks 30)
-			)
-			(3
-				(proc0_18 Ty 380 1 108 139 self) ; "You were right, Inspector Desmond. But for a while there, I was really stumped!"
-			)
-			(4
-				(= ticks 30)
-			)
-			(5
-				(proc0_18 Desmond 380 2 108 139 self) ; "Oh, you did fine! Now let's go over what you discovered through your investigations."
-			)
-			(6
-				(= ticks 30)
-			)
-			(7
-				(proc0_18 Desmond 380 3 108 139 self) ; "Let's begin with Baltimore and des Rever Records. What happened?"
-			)
-			(8
-				(= ticks 30)
-			)
-			(9
-				(cond
-					((proc0_6 118)
-						(proc0_18 Ty 380 4 108 139 self) ; "It was easy. I got past that guard in the Shill Building Lobby just by showing him the DataMan\05 into which I had inserted Reverse Biaz's cartridge."
-					)
-					((proc0_6 119)
-						(proc0_18 Ty 380 5 108 139 self) ; "It was easy. I got past that guard in the Shill Building Lobby just by showing him Reverse Biaz's fax."
-					)
-					((proc0_6 48) ; fDirectorySol
-						(proc0_18 Ty 380 6 108 139 self) ; "It was easy. I got past that guard in the Shill Building Lobby just by finding Reverse Biaz's office in the building directory."
-					)
-					(else
-						(proc0_18 Ty 380 7 108 139 self) ; "I had real trouble there, Inspector. I never could figure out any way to get past that guard in the Shill Building Lobby."
-					)
-				)
-			)
-			(10
-				(= ticks 60)
-			)
-			(11
-				(if (or (proc0_6 118) (proc0_6 119) (proc0_6 48)) ; fDirectorySol
-					(proc0_18 Desmond 380 8 108 139 self) ; "Good work, Patti. But what happened after you were upstairs? Did you learn anything about des Rever or Biaz?"
-				else
-					(= state 24)
-					(proc0_18 Desmond 380 9 108 139 self) ; "Oh, no. That's too bad. I thought Reverse Biaz was a major player. He might have been the key to breaking this case."
-				)
-			)
-			(12
-				(= ticks 120)
-			)
-			(13
-				(if (gLarry has: 5) ; Michelle_Milken_s_Resume
-					(proc0_18 Ty 380 10 108 139 self) ; "While upstairs in des Rever's outer office, I found a gold record which I think might contain some valuable evidence. Here, take it!"
-					(gLarry put: 5) ; Michelle_Milken_s_Resume
-				else
-					(proc0_18 Ty 380 11 108 139 self) ; "I couldn't find anything interesting in des Rever's outer office."
-				)
-			)
-			(14
-				(= ticks 60)
-			)
-			(15
-				(if (proc0_6 122)
-					(proc0_18 Ty 380 12 108 139 self) ; "I discovered the gold record could actually be played on a stereo system there. It sounded fine."
-				else
-					(= cycles 2)
-				)
-			)
-			(16
-				(if (proc0_6 123)
-					(proc0_18 Ty 380 13 108 139 self) ; "But when I played the gold record in reverse at 33-1/3, I heard a strange message. It should be proof positive of the vicious things they've been doing!"
-				else
-					(= cycles 2)
-				)
-			)
-			(17
-				(= ticks 60)
-			)
-			(18
-				(proc0_18 Desmond 380 14 108 139 self) ; "Good going, Patti. Did you make the recording session I booked for you?"
-			)
-			(19
-				(if (proc0_6 126)
-					(proc0_18 Ty 380 15 108 139 self) ; "Actually, the studio session went pretty well, Boss. After a couple of tries, I started really cookin'!"
-				else
-					(proc0_18 Ty 380 16 108 139 self) ; "I'm sorry, but I just couldn't, Inspector."
-				)
-			)
-			(20
-				(= ticks 60)
-			)
-			(21
-				(cond
-					((proc0_6 127)
-						(proc0_18 Ty 380 17 108 139 self) ; "You'll love this, Boss! I just used an old technique with which I'm quite familiar! I grabbed some champagne from my limo and got Reverse drunk! So drunk, in fact, he gave me this cassette tape to impress me."
-						(gLarry put: 6) ; Hard_Disk_Cafe_Napkin
-					)
-					((proc0_6 128)
-						(proc0_18 Ty 380 18 108 139 self) ; "Gosh, Boss. I just used an old technique with which I'm quite familiar! Here's the tape I, uh, `talked' him out of!"
-						(gLarry put: 6) ; Hard_Disk_Cafe_Napkin
-					)
-					((proc0_6 129)
-						(proc0_18 Ty 380 19 108 139 self) ; "Here's the tape I, uh, `talked' him out of!"
-						(gLarry put: 6) ; Hard_Disk_Cafe_Napkin
-					)
-					(else
-						(= state 24)
-						(proc0_18 Desmond 380 20 108 139 self) ; "Too bad, Patti. I wish you could have found something there."
-					)
-				)
-			)
-			(22
-				(= ticks 60)
-			)
-			(23
-				(proc0_18 Desmond 380 21 108 139 self) ; "You really have a way with men, Patti!" he laughs. "Our agents could have never `obtained' evidence like you did."
-			)
-			(24
-				(= ticks 120)
-			)
-			(25
-				(proc0_18 Desmond 380 22 108 139 self) ; "So, did you discover anything at K-RAP radio?"
-			)
-			(26
-				(if (proc0_6 150)
-					(proc0_18 Ty 380 23 108 139 self) ; "Well, I sneaked into John Krapper's office just as the receptionist came back from her break."
-				else
-					(proc0_18 Ty 380 24 108 139 self) ; "Sorry, Boss, but I couldn't even get past the K-RAP lobby! They really had tight security!"
-				)
-			)
-			(27
-				(= ticks 30)
-			)
-			(28
-				(if (proc0_6 150)
-					(proc0_18 Desmond 380 25 108 139 self) ; "Nice job of sleuthing, Patti!"
-				else
-					(= state 38)
-					(proc0_18 Desmond 380 26 108 139 self) ; "It's too bad you didn't get further into the K-RAP building, Patti. I think P. C. Hammer might well be crucial to this problem."
-				)
-			)
-			(29
-				(= ticks 60)
-			)
-			(30
-				(proc0_18 Ty 380 27 108 139 self) ; "I searched John Krapper's desk and discovered a folder filled with what looked like incriminating evidence to me!"
-			)
-			(31
-				(proc0_18 Ty 380 28 108 139 self) ; "I assumed he'd miss the folder if I stole it, so I used his photocopier to make copies of it. Here they are!"
-				(gLarry put: 11) ; DayTrotter
-			)
-			(32
-				(proc0_18 Desmond 380 29 108 139 self) ; "Way to go, Patti. Nice work."
-			)
-			(33
-				(= ticks 60)
-			)
-			(34
-				(proc0_18 Ty 380 30 108 139 self) ; "And, besides that, I overheard what `2 Live 2 Screw' thought were private conversations. They didn't realize they were meeting in a room with an open microphone!"
-			)
-			(35
-				(proc0_18 Ty 380 31 108 139 self) ; "Although I nearly got trapped by P. C. Hammer, I recorded `2 Live 2 Screw' on a reel-to-reel tape."
-			)
-			(36
-				(if (proc0_6 156)
-					(proc0_18 Desmond 380 32 108 139 self) ; "Great! Patti, you have proven yourself the right woman for the job!"
-					(gLarry put: 12) ; Money
-				else
-					(proc0_18 Desmond 380 33 108 139 self) ; "Good, Patti. May I have the tape?"
-				)
-			)
-			(37
-				(if (not (proc0_6 156))
-					(proc0_18 Ty 380 34 108 139 self) ; "Uh, well, Inspector, I must confess: I left it on the tape recorder in the K-RAP control room. I'm sorry."
-				else
-					(= cycles 2)
-				)
-			)
-			(38
-				(if (not (proc0_6 156))
-					(proc0_18 Desmond 380 35 108 139 self) ; "Oh, that's all right, Patti. Mistakes happen; even to super-spies!"
-				else
-					(= cycles 2)
-				)
-			)
-			(39
-				(= ticks 30)
-			)
-			(40
-				(if
-					(and
-						(not (proc0_6 150))
-						(not (or (proc0_6 118) (proc0_6 119) (proc0_6 48))) ; fDirectorySol
-					)
-					(proc0_18 Desmond 380 36 108 139 self) ; "Patti, I don't know if this is an appropriate time, but I must tell you: I find myself strongly attracted to you."
-				else
-					(proc0_18 Desmond 380 37 108 139 self) ; "Patti, you've done a wonderful job! I'm so proud of you!"
-					(++ state)
-				)
-			)
-			(41
-				(proc0_18 Desmond 380 38 108 139 self) ; "You have such wonderful big, uh, er, eyes! Even though you weren't much help as a spy, I hoped you might feel something for me, too. So, here's a little favor."
-			)
-			(42
-				(= ticks 30)
-			)
-			(43
-				(if (proc0_6 100)
-					(= state 46)
-					(= cycles 2)
-				else
-					(proc0_18 Desmond 380 39 108 139 self) ; "I have a small souvenir for you, Patti--a little something for you to remember your experiences as an F.B.I. agent."
-				)
-			)
-			(44
-				(proc0_18 Desmond 380 40 108 139 self) ; "I want you to have Commander Twit's exploding bra--and every time you wear it, think of me!"
-				(gLarry get: 13) ; Credit_Cards
-			)
-			(45
-				(proc0_18 Ty 380 41 108 139 self) ; "Oh, great! I'll wear it to my next heavy metal gig."
-			)
-			(46
-				(proc0_18 Desmond 380 42 108 139 self) ; "He laughs, "And that may be sooner than you think, Patti!""
-			)
-			(47
-				(proc0_18 Desmond 380 43 108 139 self) ; "In anticipation of your success, I made all the necessary arrangements for your White House..."
-			)
-			(48
-				(DrawPic 1 100)
-				(gLongSong2 stop:)
-				(Display ; "Suddenly, a westbound flight heads South!"
-					380
-					44
-					dsALIGN
-					alCENTER
-					dsCOLOR
-					global131
-					dsFONT
-					global175
-					dsWIDTH
-					318
-					dsCOORD
-					1
-					82
-				)
-				(= cycles 2)
-			)
-			(49
-				(gNumber newRoom: 385)
-			)
+		(asm
+			lap      newState
+			aTop     state
+			push    
+			dup     
+			ldi      0
+			eq?     
+			bnt      code_0099
+			pushi    0
+			callb    proc0_2,  0
+			ldi      4
+			aTop     seconds
+			jmp      code_07eb
+code_0099:
+			dup     
+			ldi      1
+			eq?     
+			bnt      code_00b6
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    0
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_00b6:
+			dup     
+			ldi      2
+			eq?     
+			bnt      code_00c4
+			ldi      30
+			aTop     ticks
+			jmp      code_07eb
+code_00c4:
+			dup     
+			ldi      3
+			eq?     
+			bnt      code_00e1
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    1
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_00e1:
+			dup     
+			ldi      4
+			eq?     
+			bnt      code_00ef
+			ldi      30
+			aTop     ticks
+			jmp      code_07eb
+code_00ef:
+			dup     
+			ldi      5
+			eq?     
+			bnt      code_010c
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    2
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_010c:
+			dup     
+			ldi      6
+			eq?     
+			bnt      code_011a
+			ldi      30
+			aTop     ticks
+			jmp      code_07eb
+code_011a:
+			dup     
+			ldi      7
+			eq?     
+			bnt      code_0138
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    3
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_0138:
+			dup     
+			ldi      8
+			eq?     
+			bnt      code_0146
+			ldi      30
+			aTop     ticks
+			jmp      code_07eb
+code_0146:
+			dup     
+			ldi      9
+			eq?     
+			bnt      code_01c4
+			pushi    1
+			pushi    118
+			callb    proc0_6,  2
+			bnt      code_016d
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    4
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_016d:
+			pushi    1
+			pushi    119
+			callb    proc0_6,  2
+			bnt      code_018d
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    5
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_018d:
+			pushi    1
+			pushi    48
+			callb    proc0_6,  2
+			bnt      code_01ad
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    6
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_01ad:
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    7
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_01c4:
+			dup     
+			ldi      10
+			eq?     
+			bnt      code_01d2
+			ldi      60
+			aTop     ticks
+			jmp      code_07eb
+code_01d2:
+			dup     
+			ldi      11
+			eq?     
+			bnt      code_0226
+			pushi    1
+			pushi    118
+			callb    proc0_6,  2
+			bt       code_01f4
+			pushi    1
+			pushi    119
+			callb    proc0_6,  2
+			bt       code_01f4
+			pushi    1
+			pushi    48
+			callb    proc0_6,  2
+			bnt      code_020b
+code_01f4:
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    8
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_020b:
+			ldi      24
+			aTop     state
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    9
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_0226:
+			dup     
+			ldi      12
+			eq?     
+			bnt      code_0234
+			ldi      120
+			aTop     ticks
+			jmp      code_07eb
+code_0234:
+			dup     
+			ldi      13
+			eq?     
+			bnt      code_0280
+			pushi    #has
+			pushi    1
+			pushi    5
+			lag      gLarry
+			send     6
+			bnt      code_0269
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    10
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			pushi    #put
+			pushi    1
+			pushi    5
+			lag      gLarry
+			send     6
+			jmp      code_07eb
+code_0269:
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    11
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_0280:
+			dup     
+			ldi      14
+			eq?     
+			bnt      code_028e
+			ldi      60
+			aTop     ticks
+			jmp      code_07eb
+code_028e:
+			dup     
+			ldi      15
+			eq?     
+			bnt      code_02bc
+			pushi    1
+			pushi    122
+			callb    proc0_6,  2
+			bnt      code_02b5
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    12
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_02b5:
+			ldi      2
+			aTop     cycles
+			jmp      code_07eb
+code_02bc:
+			dup     
+			ldi      16
+			eq?     
+			bnt      code_02ea
+			pushi    1
+			pushi    123
+			callb    proc0_6,  2
+			bnt      code_02e3
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    13
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_02e3:
+			ldi      2
+			aTop     cycles
+			jmp      code_07eb
+code_02ea:
+			dup     
+			ldi      17
+			eq?     
+			bnt      code_02f8
+			ldi      60
+			aTop     ticks
+			jmp      code_07eb
+code_02f8:
+			dup     
+			ldi      18
+			eq?     
+			bnt      code_0316
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    14
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_0316:
+			dup     
+			ldi      19
+			eq?     
+			bnt      code_0354
+			pushi    1
+			pushi    126
+			callb    proc0_6,  2
+			bnt      code_033d
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    15
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_033d:
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    16
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_0354:
+			dup     
+			ldi      20
+			eq?     
+			bnt      code_0362
+			ldi      60
+			aTop     ticks
+			jmp      code_07eb
+code_0362:
+			dup     
+			ldi      21
+			eq?     
+			bnt      code_0404
+			pushi    1
+			pushi    127
+			callb    proc0_6,  2
+			bnt      code_0393
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    17
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			pushi    #put
+			pushi    1
+			pushi    6
+			lag      gLarry
+			send     6
+			jmp      code_07eb
+code_0393:
+			pushi    1
+			pushi    128
+			callb    proc0_6,  2
+			bnt      code_03be
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    18
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			pushi    #put
+			pushi    1
+			pushi    6
+			lag      gLarry
+			send     6
+			jmp      code_07eb
+code_03be:
+			pushi    1
+			pushi    129
+			callb    proc0_6,  2
+			bnt      code_03e9
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    19
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			pushi    #put
+			pushi    1
+			pushi    6
+			lag      gLarry
+			send     6
+			jmp      code_07eb
+code_03e9:
+			ldi      24
+			aTop     state
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    20
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_0404:
+			dup     
+			ldi      22
+			eq?     
+			bnt      code_0412
+			ldi      60
+			aTop     ticks
+			jmp      code_07eb
+code_0412:
+			dup     
+			ldi      23
+			eq?     
+			bnt      code_0430
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    21
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_0430:
+			dup     
+			ldi      24
+			eq?     
+			bnt      code_043e
+			ldi      120
+			aTop     ticks
+			jmp      code_07eb
+code_043e:
+			dup     
+			ldi      25
+			eq?     
+			bnt      code_045c
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    22
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_045c:
+			dup     
+			ldi      26
+			eq?     
+			bnt      code_049b
+			pushi    1
+			pushi    150
+			callb    proc0_6,  2
+			bnt      code_0484
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    23
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_0484:
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    24
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_049b:
+			dup     
+			ldi      27
+			eq?     
+			bnt      code_04a9
+			ldi      30
+			aTop     ticks
+			jmp      code_07eb
+code_04a9:
+			dup     
+			ldi      28
+			eq?     
+			bnt      code_04ec
+			pushi    1
+			pushi    150
+			callb    proc0_6,  2
+			bnt      code_04d1
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    25
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_04d1:
+			ldi      38
+			aTop     state
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    26
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_04ec:
+			dup     
+			ldi      29
+			eq?     
+			bnt      code_04fa
+			ldi      60
+			aTop     ticks
+			jmp      code_07eb
+code_04fa:
+			dup     
+			ldi      30
+			eq?     
+			bnt      code_0518
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    27
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_0518:
+			dup     
+			ldi      31
+			eq?     
+			bnt      code_0540
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    28
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			pushi    #put
+			pushi    1
+			pushi    11
+			lag      gLarry
+			send     6
+			jmp      code_07eb
+code_0540:
+			dup     
+			ldi      32
+			eq?     
+			bnt      code_055e
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    29
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_055e:
+			dup     
+			ldi      33
+			eq?     
+			bnt      code_056c
+			ldi      60
+			aTop     ticks
+			jmp      code_07eb
+code_056c:
+			dup     
+			ldi      34
+			eq?     
+			bnt      code_058a
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    30
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_058a:
+			dup     
+			ldi      35
+			eq?     
+			bnt      code_05a8
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    31
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_05a8:
+			dup     
+			ldi      36
+			eq?     
+			bnt      code_05f1
+			pushi    1
+			pushi    156
+			callb    proc0_6,  2
+			bnt      code_05da
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    32
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			pushi    #put
+			pushi    1
+			pushi    12
+			lag      gLarry
+			send     6
+			jmp      code_07eb
+code_05da:
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    33
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_05f1:
+			dup     
+			ldi      37
+			eq?     
+			bnt      code_0621
+			pushi    1
+			pushi    156
+			callb    proc0_6,  2
+			not     
+			bnt      code_061a
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    34
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_061a:
+			ldi      2
+			aTop     cycles
+			jmp      code_07eb
+code_0621:
+			dup     
+			ldi      38
+			eq?     
+			bnt      code_0651
+			pushi    1
+			pushi    156
+			callb    proc0_6,  2
+			not     
+			bnt      code_064a
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    35
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_064a:
+			ldi      2
+			aTop     cycles
+			jmp      code_07eb
+code_0651:
+			dup     
+			ldi      39
+			eq?     
+			bnt      code_065f
+			ldi      30
+			aTop     ticks
+			jmp      code_07eb
+code_065f:
+			dup     
+			ldi      40
+			eq?     
+			bnt      code_06bd
+			pushi    1
+			pushi    150
+			callb    proc0_6,  2
+			not     
+			bnt      code_06a4
+			pushi    1
+			pushi    118
+			callb    proc0_6,  2
+			bt       code_0689
+			pushi    1
+			pushi    119
+			callb    proc0_6,  2
+			bt       code_0689
+			pushi    1
+			pushi    48
+			callb    proc0_6,  2
+code_0689:
+			not     
+			bnt      code_06a4
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    36
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_06a4:
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    37
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			ipToa    state
+			jmp      code_07eb
+code_06bd:
+			dup     
+			ldi      41
+			eq?     
+			bnt      code_06db
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    38
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_06db:
+			dup     
+			ldi      42
+			eq?     
+			bnt      code_06e9
+			ldi      30
+			aTop     ticks
+			jmp      code_07eb
+code_06e9:
+			dup     
+			ldi      43
+			eq?     
+			bnt      code_071b
+			pushi    1
+			pushi    100
+			callb    proc0_6,  2
+			bnt      code_0704
+			ldi      46
+			aTop     state
+			ldi      2
+			aTop     cycles
+			jmp      code_07eb
+code_0704:
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    39
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_071b:
+			dup     
+			ldi      44
+			eq?     
+			bnt      code_0743
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    40
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			pushi    #get
+			pushi    1
+			pushi    13
+			lag      gLarry
+			send     6
+			jmp      code_07eb
+code_0743:
+			dup     
+			ldi      45
+			eq?     
+			bnt      code_0761
+			pushi    6
+			lofsa    You
+			push    
+			pushi    380
+			pushi    41
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_0761:
+			dup     
+			ldi      46
+			eq?     
+			bnt      code_077f
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    42
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_077f:
+			dup     
+			ldi      47
+			eq?     
+			bnt      code_079d
+			pushi    6
+			lofsa    Desmond
+			push    
+			pushi    380
+			pushi    43
+			pushi    108
+			pushi    139
+			pushSelf
+			callb    proc0_18,  12
+			jmp      code_07eb
+code_079d:
+			dup     
+			ldi      48
+			eq?     
+			bnt      code_07d9
+			pushi    2
+			pushi    1
+			pushi    100
+			callk    DrawPic,  4
+			pushi    #stop
+			pushi    0
+			lag      gLongSong2
+			send     4
+			pushi    13
+			pushi    380
+			pushi    44
+			pushi    101
+			pushi    1
+			pushi    102
+			lsg      global131
+			pushi    105
+			lsg      global175
+			pushi    106
+			pushi    318
+			pushi    100
+			pushi    1
+			pushi    82
+			callk    Display,  26
+			ldi      2
+			aTop     cycles
+			jmp      code_07eb
+code_07d9:
+			dup     
+			ldi      49
+			eq?     
+			bnt      code_07eb
+			pushi    #newRoom
+			pushi    1
+			pushi    385
+			lag      global2
+			send     6
+code_07eb:
+			toss    
+			ret     
 		)
 	)
 )
 
-(instance Ty of Talker
+(instance You of Talker
 	(properties
 		x 140
 		y 180
@@ -301,10 +999,11 @@
 		nsLeft 168
 		view 1416
 		loop 3
+		name "Ty"
 	)
 	
 	(method (init)
-		(= mouth (= mouth pattiMouth))
+		(= mouth pattiMouth)
 		(super init: &rest)
 	)
 )
@@ -329,7 +1028,7 @@
 	)
 	
 	(method (init)
-		(= mouth (= mouth desmondMouth))
+		(= mouth desmondMouth)
 		(super init: &rest)
 	)
 )
