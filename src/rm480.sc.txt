@@ -1,5 +1,5 @@
 {Larry}
-{Viprezident}
+{Viceprezident}
 {Larry}
 {Manažer výtvarného týmu\n\nCheryl Loyd}
 {Animátoøi\n\n}
@@ -17,25 +17,25 @@
 {Mlýnek na kávu\n\nC. Escobar}
 {AL øíká}
 {Gratulujeme! Vyhráli jste!!!}
-{Nejste rádi, že jste si koupili digitálnì-analogový pøevodník?}
-{Letištní hlášení #1}
-{Letištní hlášení #2}
-{Letištní hlášení #3}
-{Letištní hlášení #4}
-{__Atmosféra__}
+{Nejste rádi, že jste si koupili pøevodník digital-analog?}
+{Letištì #1}
+{Letištì #2}
+{Letištì #3}
+{Letištì #4}
+{__Dav lidí__}
 {___Výkøiky___}
 {_____Jauu_____}
 {_____Káva_____}
 {Skládání židle}
-{Obdivný hvizd_}
+{_Obdivný hvizd_}
 {___Klepání___}
 {___Sklenice #1___}
 {___Sklenice #2___}
-{_______Ah_______}
-{_______Oh_______}
-{_______AH!_______}
-{______OH!______}
-{_____Oooh!_____}
+{_______Au_______}
+{_______Ou_______}
+{_______AU!_______}
+{______OU!______}
+{_____Ooou!_____}
 { Dav lapá po dechu_}
 { Burani jí_}
 {_Splachování__}

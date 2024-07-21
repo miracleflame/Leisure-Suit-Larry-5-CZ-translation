@@ -99,7 +99,7 @@
 				(proc0_18 gLarry 480 2 108 self 67 -1 20)
 			)
 			(4
-				(proc0_14 480 3 80 {Viprezident} 108 self 67 -1 20)
+				(proc0_14 480 3 80 {Viceprezident} 108 self 67 -1 20)
 			)
 			(5
 				(proc0_14 480 4 80 {Larry} 108 self 67 -1 20)
@@ -350,24 +350,80 @@
 				(= seconds 3)
 			)
 			(32
+				(global2 drawPic: 1 13)
+				(= local30
+					(switch (Random 0 5)
+						(0 global131)
+						(1 gLowlightColor_5)
+						(2 global138)
+						(3 global142)
+						(4 gLowlightColor)
+						(else  global146)
+					)
+				)
+				(Display
+					{Èeská lokalizace\n\n}
+					dsCOLOR
+					local30
+					dsCOORD
+					1
+					35
+					dsWIDTH
+					318
+					dsFONT
+					global26
+					dsALIGN
+					1
+				)
+				(Display
+					{\n\nPøeklad, Test, Korektura\nTechnika, Test, Korektura\nTechnika\n\nSCIprogramming.com\nfórum}
+					dsCOLOR
+					local30
+					dsCOORD
+					1
+					35
+					dsWIDTH
+					159
+					dsFONT
+					global26
+					dsALIGN
+					1
+				)
+				(Display
+					{\n\nPetr Cejpek\nmiracle.flame\nSlávek Juna\n\nKawa\nDoomlazer}
+					dsCOLOR
+					local30
+					dsCOORD
+					161
+					35
+					dsWIDTH
+					159
+					dsFONT
+					global26
+					dsALIGN
+					1
+				)
+				(= seconds 8)
+			)	
+			(33
 				(localproc_0a0f {Mlýnek na kávu\n\nC. Escobar} 3)
 				(= ticks 100)
 			)
-			(33
+			(34
 				(if (DoSound sndSET_SOUND)
 					(gLongSong2 number: 161 setLoop: 1 play:)
 				)
 				(= seconds 3)
 			)
-			(34
+			(35
 				(global2 drawPic: 1 13)
 				(if (DoSound sndSET_SOUND)
 					(proc0_14 480 23 80 {AL øíká} 67 -1 20)
 				)
 				(= seconds 5)
 			)
-			(35 (gLongSong fade: self))
-			(36
+			(36 (gLongSong fade: self))
+			(37
 				(if (not (DoSound sndSET_SOUND))
 					(= state (+ state 1))
 				else
@@ -386,99 +442,99 @@
 				)
 				(= cycles 2)
 			)
-			(37
+			(38
 				(if
 					(= local0
 						(proc940_0
-							{Nejste rádi, že jste si koupili digitálnì-analogový pøevodník?}
+							{Nejste rádi, že jste si koupili pøevodník digital-analog?}
 							4
 							50
 							106
 							81
-							{Letištní hlášení #1}
+							{___Letištì #1___}
 							1
 							81
-							{Letištní hlášení #2}
+							{___Letištì #2___}
 							2
 							81
-							{Letištní hlášení #3}
+							{___Letištì #3___}
 							3
 							106
 							81
-							{Letištní hlášení #4}
+							{__Letištì #4__}
 							4
 							81
-							{__Atmosféra__}
+							{____Dav lidí____}
 							5
 							81
-							{___Výkøiky___}
+							{_____Výkøiky_____}
 							6
 							106
 							81
-							{_____Jauu_____}
+							{______Jauu______}
 							7
 							81
-							{_____Káva_____}
+							{______Káva______}
 							8
 							81
-							{Skládání židle}
+							{_Skládání židle_}
 							9
 							106
 							81
-							{Obdivný hvizd_}
+							{Obdivný hvizd}
 							10
 							81
-							{___Klepání___}
+							{____Klepání_____}
 							11
 							81
-							{___Sklenice #1___}
+							{__Sklenice #1___}
 							12
 							106
 							81
-							{___Sklenice #2___}
+							{_Sklenice #2_}
 							13
 							81
-							{_______Ah_______}
+							{_______Au_______}
 							14
 							81
-							{_______Oh_______}
+							{_________Ou_________}
 							15
 							106
 							81
-							{_______AH!_______}
+							{_______AH!______}
 							16
 							81
-							{______OH!______}
+							{______OU!_______}
 							17
 							81
-							{_____Oooh!_____}
+							{_______Uuuu!________}
 							18
 							106
 							81
-							{ Dav lapá po dechu_}
+							{Dav lapá po dechu}
 							19
 							81
-							{ Burani jí_}
+							{Burani jí}
 							20
 							81
-							{_Splachování__}
+							{__Splachování__}
 							21
 							106
 							81
-							{___Øíhnutí____}
+							{____Øíhnutí_____}
 							22
 							81
-							{__Zvracení___}
+							{___Zvracení___}
 							23
 							81
-							{Nedotýkat se}
+							{_Nedotýkat se__}
 							24
 							106
 							81
 							{< Hotovo >}
 							0
 							4
-							115
+							107
 							80
 							{Dìkujeme, že jste si koupili "Larryho 5"!}
 							121
@@ -491,7 +547,7 @@
 					(= cycles 1)
 				)
 			)
-			(38
+			(39
 				(global2 drawPic: 1 13)
 				(Display
 					{Pamatujte na slogan Ala Lowa:}
@@ -509,11 +565,11 @@
 				)
 				(= cycles 2)
 			)
-			(39
+			(40
 				(if (DoSound sndSET_SOUND) (proc958_0 132 481))
 				(= seconds 3)
 			)
-			(40
+			(41
 				(if (DoSound sndSET_SOUND)
 					(gLongSong number: 481 setVol: 127 setLoop: 1 play:)
 				)
@@ -533,7 +589,7 @@
 				)
 				(= seconds 5)
 			)
-			(41 (= global4 1))
+			(42 (= global4 1))
 		)
 	)
 )
