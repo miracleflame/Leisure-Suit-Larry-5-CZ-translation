@@ -14,34 +14,37 @@
 {Dodateèná hudba\n\nChris Braymen}
 {Dodateèný písemný materiál\n\nJosh Mandel}
 {Vedoucí týmu pro zajištìní kvality\n\nRobin Bradley}
+{Èeská lokalizace\n\n}
+{\n\nPøeklad, Test, Korektura\nTechnika, Test, Korektura\nTechnika\n\nSCIprogramming.com\nfórum}
+{\n\nPetr Cejpek\nmiracle.flame\nSlávek Juna\n\nKawa\nDoomlazer}
 {Mlýnek na kávu\n\nC. Escobar}
 {AL øíká}
 {Gratulujeme! Vyhráli jste!!!}
 {Nejste rádi, že jste si koupili pøevodník digital-analog?}
-{Letištì #1}
-{Letištì #2}
-{Letištì #3}
-{Letištì #4}
-{__Dav lidí__}
-{___Výkøiky___}
-{_____Jauu_____}
-{_____Káva_____}
-{Skládání židle}
-{_Obdivný hvizd_}
-{___Klepání___}
-{___Sklenice #1___}
-{___Sklenice #2___}
+{___Letištì #1___}
+{___Letištì #1___}
+{___Letištì #1___}
+{__Letištì #4__}
+{____Dav lidí____}
+{_____Výkøiky_____}
+{______Jauu______}
+{______Káva______}
+{_Skládání židle_}
+{Obdivný hvizd}
+{____Klepání_____}
+{__Sklenice #1___}
+{_Sklenice #2_}
 {_______Au_______}
-{_______Ou_______}
-{_______AU!_______}
-{______OU!______}
-{_____Ooou!_____}
-{ Dav lapá po dechu_}
-{ Burani jí_}
-{_Splachování__}
-{___Øíhnutí____}
-{__Zvracení___}
-{Nedotýkat se}
+{_________Ou_________}
+{_______AH!______}
+{______OU!_______}
+{_______Uuuu!________}
+{Dav lapá po dechu}
+{Burani jí}
+{__Splachování__}
+{____Øíhnutí_____}
+{___Zvracení___}
+{_Nedotýkat se__}
 {< Hotovo >}
 {Dìkujeme, že jste si koupili "Larryho 5"!}
 {Pamatujte na slogan Ala Lowa:}
