@@ -287,7 +287,7 @@
 				(= cycles 2)
 			)
 			(49
-				(gNumber newRoom: 385)
+				(global2 newRoom: 385)
 			)
 		)
 	)
