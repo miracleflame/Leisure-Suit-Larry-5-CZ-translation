@@ -215,7 +215,7 @@
 	global160
 	global161
 	global162
-	global163
+	global163 = 1000
 	gBlondeX
 	gBlondeLoop
 	gRedHeadX
