@@ -574,7 +574,7 @@
 		view 1295
 		loop 3
 		viewInPrint 1
-		name "Pan Prezident"
+		name "Pan prezident"
 	)
 	
 	(method (init)
