@@ -1219,7 +1219,7 @@
 		view 1465
 		loop 3
 		talkWidth 160
-		name "Ty"
+		name "Patti"
 	)
 	
 	(method (init)
