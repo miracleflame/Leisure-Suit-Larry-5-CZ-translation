@@ -29,11 +29,11 @@
 {_____Výkøiky_____}
 {______Jauu______}
 {______Káva______}
-{_Skládání židle_}
+{_Skládací židle_}
 {Obdivný hvizd}
 {____Klepání_____}
-{__Sklenice #1___}
-{_Sklenice #2_}
+{_____Sklo #1_____}
+{____Sklo #2____}
 {_______Au_______}
 {_________Ou_________}
 {_______AH!______}
@@ -42,9 +42,9 @@
 {Dav lapá po dechu}
 {Burani jí}
 {__Splachování__}
-{____Øíhnutí_____}
+{____Øíhnutí____}
 {___Zvracení___}
-{_Nedotýkat se__}
+{________Prd________}
 {< Hotovo >}
 {Dìkujeme, že jste si koupili "Larryho 5"!}
 {Pamatujte na slogan Ala Lowa:}
