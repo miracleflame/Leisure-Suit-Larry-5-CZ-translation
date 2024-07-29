@@ -362,12 +362,17 @@
 					)
 				)
 				(Display
-					{Èeská lokalizace\n\n}
+					{Vedoucí projektu èeské lokalizace\n
+					\n
+					Jan "Jennza" Dlabaè\n
+					\n
+					\n
+					Pøekladatelé}
 					dsCOLOR
 					local30
 					dsCOORD
 					1
-					35
+					23
 					dsWIDTH
 					318
 					dsFONT
@@ -376,12 +381,19 @@
 					1
 				)
 				(Display
-					{\n\nPøeklad, Test, Korektura\nTechnika, Test, Korektura\nTechnika\n\nSCIprogramming.com\nfórum}
+					{\n\n\n\n\n\n\n
+					Petr Cejpek\n
+					Hynek\n
+					Libor Pavlù\n
+					Marek "Drekorian" Osvald\n
+					Rafina\n
+					Tomáš Hruška
+					}
 					dsCOLOR
 					local30
 					dsCOORD
 					1
-					35
+					23
 					dsWIDTH
 					159
 					dsFONT
@@ -390,12 +402,17 @@
 					1
 				)
 				(Display
-					{\n\nPetr Cejpek\nmiracle.flame\nSlávek Juna\n\nKawa\nDoomlazer}
+					{\n\n\n\n\n\n\n
+					Mirek "miracle.flame" J.\n
+					Tikky\n
+					Jan "Jennza" Dlabaè\n
+					JaSpin\n
+					Martin "hlahol" Š.\n}
 					dsCOLOR
 					local30
 					dsCOORD
 					161
-					35
+					23
 					dsWIDTH
 					159
 					dsFONT
@@ -403,27 +420,44 @@
 					dsALIGN
 					1
 				)
-				(= seconds 8)
-			)	
+				(= seconds 8)			
+			)
 			(33
+				(localproc_0a0f
+					{Technická podpora\n
+					\n
+					Slávek Juna\n
+					Mirek "miracle.flame" J.\n
+					Zhilian\n
+					\n
+					\n
+					Test a korekce\n
+					\n
+					Petr Cejpek\n
+					Mirek "miracle.flame" J.\n\n\n\n\n}
+					3
+				)
+				(= seconds 5)
+			)
+			(34
 				(localproc_0a0f {Mlýnek na kávu\n\nC. Escobar} 3)
 				(= ticks 100)
 			)
-			(34
+			(35
 				(if (DoSound sndSET_SOUND)
 					(gLongSong2 number: 161 setLoop: 1 play:)
 				)
 				(= seconds 3)
 			)
-			(35
+			(36
 				(global2 drawPic: 1 13)
 				(if (DoSound sndSET_SOUND)
 					(proc0_14 480 23 80 {AL øíká} 67 -1 20)
 				)
 				(= seconds 5)
 			)
-			(36 (gLongSong fade: self))
-			(37
+			(37 (gLongSong fade: self))
+			(38
 				(if (not (DoSound sndSET_SOUND))
 					(= state (+ state 1))
 				else
@@ -442,7 +476,7 @@
 				)
 				(= cycles 2)
 			)
-			(38
+			(39
 				(if
 					(= local0
 						(proc940_0
@@ -547,7 +581,7 @@
 					(= cycles 1)
 				)
 			)
-			(39
+			(40
 				(global2 drawPic: 1 13)
 				(Display
 					{Pamatujte na slogan Ala Lowa:}
@@ -565,11 +599,11 @@
 				)
 				(= cycles 2)
 			)
-			(40
+			(41
 				(if (DoSound sndSET_SOUND) (proc958_0 132 481))
 				(= seconds 3)
 			)
-			(41
+			(42
 				(if (DoSound sndSET_SOUND)
 					(gLongSong number: 481 setVol: 127 setLoop: 1 play:)
 				)
@@ -589,7 +623,7 @@
 				)
 				(= seconds 5)
 			)
-			(42 (= global4 1))
+			(43 (= global4 1))
 		)
 	)
 )
