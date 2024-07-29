@@ -40,7 +40,7 @@
 		nsLeft 168
 		view 1416
 		loop 3
-		name "Patti"
+		name "Ty"
 	)
 	
 	(method (init)

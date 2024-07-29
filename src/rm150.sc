@@ -103,14 +103,13 @@
 	)
 )
 
-(instance You of Talker
+(instance Ty of Talker
 	(properties
 		nsTop 88
 		nsLeft 64
 		view 1151
 		loop 3
 		talkWidth 314
-		name "Larry"
 	)
 	
 	(method (init)
@@ -302,7 +301,7 @@
 			)
 			(15 (= ticks 123))
 			(16
-				(proc0_18 You 150 6 108 139 self)
+				(proc0_18 Ty 150 6 108 139 self)
 			)
 			(17 (= ticks 123))
 			(18
@@ -314,7 +313,7 @@
 			)
 			(21 (= ticks 123))
 			(22
-				(proc0_18 You 150 9 108 139 self)
+				(proc0_18 Ty 150 9 108 139 self)
 			)
 			(23 (= ticks 30))
 			(24
@@ -338,7 +337,7 @@
 			)
 			(31 (= ticks 123))
 			(32
-				(proc0_18 You 150 15 108 139 self)
+				(proc0_18 Ty 150 15 108 139 self)
 			)
 			(33 (= ticks 30))
 			(34
@@ -358,7 +357,7 @@
 				(= ticks 123)
 			)
 			(39
-				(proc0_18 You 150 19 108 139 self)
+				(proc0_18 Ty 150 19 108 139 self)
 			)
 			(40 (= seconds 3))
 			(41
@@ -366,8 +365,8 @@
 			)
 			(42 (= ticks 123))
 			(43
-				(You talkWidth: 160)
-				(proc0_18 You 150 21 108 139 self)
+				(Ty talkWidth: 160)
+				(proc0_18 Ty 150 21 108 139 self)
 			)
 			(44 (= seconds 3))
 			(45
@@ -376,8 +375,8 @@
 			(46 (= ticks 123))
 			(47
 				(larryCam dispose:)
-				(You talkWidth: 240)
-				(proc0_18 You 150 23 108 139 self)
+				(Ty talkWidth: 240)
+				(proc0_18 Ty 150 23 108 139 self)
 			)
 			(48 (= seconds 3))
 			(49
@@ -386,8 +385,8 @@
 			(50 (= ticks 30))
 			(51
 				(proc0_14 150 25 67 -1 20)
-				(You talkWidth: 240)
-				(proc0_18 You 150 26 108 139 self)
+				(Ty talkWidth: 240)
+				(proc0_18 Ty 150 26 108 139 self)
 			)
 			(52 (= ticks 123))
 			(53
